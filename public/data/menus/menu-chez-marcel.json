@@ -1,0 +1,81 @@
+{
+  "menuId": "menu-chez-marcel",
+  "restaurantId": "rest-005",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "cm-e1",
+          "name": "Terrine de campagne",
+          "price": 9,
+          "description": "Recette maison — informations allergènes non détaillées par l'établissement.",
+          "allergens": {
+            "gluten": "unknown",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "unknown",
+            "soja": "unknown",
+            "lait": "unknown",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "unknown",
+            "sesame": "unknown",
+            "sulfites": "unknown",
+            "lupin": "unknown",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "cm-p1",
+          "name": "Steak frites",
+          "price": 19,
+          "description": "Le restaurant n'a pas renseigné d'information allergènes pour ce plat.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "cm-p2",
+          "name": "Blanquette de veau",
+          "price": 18,
+          "allergens": {
+            "gluten": "unknown",
+            "crustaces": "not_declared",
+            "oeufs": "unknown",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

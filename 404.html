@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sans Allergènes</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License — https://github.com/rafgraph/spa-github-pages
+      //
+      // GitHub Pages has no server-side rewrite, so a direct load/refresh of a deep
+      // route (e.g. /restaurant/le-nom) 404s. This script re-encodes the path into a
+      // query string and redirects to the app root, where the inline script in
+      // index.html decodes it back into the real URL via history.replaceState.
+      //
+      // pathSegmentsToKeep = 0 because this site is served from the custom domain root
+      // (sans-allergenes.fr), not from a /repo-name/ subpath. If you ever deploy without
+      // the custom domain configured (plain https://user.github.io/repo-name/), set this
+      // back to 1 or the redirect will strip a path segment it shouldn't.
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join("/") +
+          "/?/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(pathSegmentsToKeep)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash,
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

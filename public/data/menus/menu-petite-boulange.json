@@ -1,0 +1,100 @@
+{
+  "menuId": "menu-petite-boulange",
+  "restaurantId": "rest-008",
+  "categories": [
+    {
+      "category": "Boulangerie",
+      "dishes": [
+        {
+          "id": "pbo-b1",
+          "name": "Croissant beurre",
+          "price": 1.8,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pbo-b2",
+          "name": "Pain aux céréales",
+          "price": 3,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "present",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pbo-b3",
+          "name": "Sandwich jambon-beurre",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Boissons",
+      "dishes": [
+        {
+          "id": "pbo-c1",
+          "name": "Café latte",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

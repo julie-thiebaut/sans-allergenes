@@ -1,0 +1,126 @@
+{
+  "menuId": "menu-petit-basilic",
+  "restaurantId": "rest-001",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "pb-e1",
+          "name": "Bruschetta tomate-basilic",
+          "price": 7.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pb-e2",
+          "name": "Salade de burrata",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "pb-p1",
+          "name": "Tagliatelles au saumon fumé",
+          "price": 16.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "pb-p2",
+          "name": "Risotto aux champignons (végétarien)",
+          "price": 15,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "pb-d1",
+          "name": "Tiramisu maison",
+          "price": 7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

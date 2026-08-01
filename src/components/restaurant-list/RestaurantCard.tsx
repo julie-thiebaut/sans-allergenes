@@ -1,0 +1,96 @@
+import type { ReactNode } from "react";
+import { Link } from "react-router-dom";
+import { assessMenuAgainstAvoidance } from "../../filtering/allergenLogic";
+import type { RestaurantWithMenu } from "../../data/types";
+import { useFilterState } from "../../state/FilterStateContext";
+import { useSelectionContext } from "../../state/SelectionContext";
+import { arrondissementFromPostalCode } from "../../utils/arrondissement";
+import { formatVerifiedDate } from "../../utils/formatDate";
+import { DemoDataBadge } from "../common/DemoDataBadge";
+import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
+import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
+
+function Badge({ children }: { children: ReactNode }) {
+  return (
+    <span className="inline-flex items-center rounded-full bg-brand-100 px-2 py-0.5 font-medium text-brand-800">
+      {children}
+    </span>
+  );
+}
+
+export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu }) {
+  const { hoveredId, selectedId, setHoveredId, setSelectedId } = useSelectionContext();
+  const filters = useFilterState();
+  const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
+  const isHighlighted = hoveredId === restaurant.id || selectedId === restaurant.id;
+
+  // Restaurants with a confirmed "present" match are already excluded by filterRestaurants;
+  // only "may_contain" / incomplete-info cases can still show up here, so we surface which.
+  const avoidanceAssessment =
+    filters.allergensToAvoid.length > 0
+      ? assessMenuAgainstAvoidance(restaurant.menu, filters.allergensToAvoid)
+      : null;
+
+  return (
+    <article
+      className={`group relative rounded-lg border p-3 transition-colors ${
+        isHighlighted ? "border-brand-500 bg-brand-50" : "border-neutral-200 bg-white"
+      }`}
+      onMouseEnter={() => setHoveredId(restaurant.id)}
+      onMouseLeave={() => setHoveredId(null)}
+    >
+      <div className="flex gap-3">
+        <ImageWithPlaceholder
+          src={restaurant.imageUrl}
+          alt={restaurant.name}
+          className="h-24 w-24 shrink-0 rounded-md object-cover"
+        />
+        <div className="min-w-0 flex-1">
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="font-semibold text-neutral-900">
+              <Link
+                to={`/restaurant/${restaurant.slug}`}
+                className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+                onFocus={() => setHoveredId(restaurant.id)}
+                onBlur={() => setHoveredId(null)}
+                onClick={() => setSelectedId(restaurant.id)}
+              >
+                {restaurant.name}
+              </Link>
+            </h3>
+            <PriceLevelIndicator level={restaurant.priceLevel} />
+          </div>
+          <p className="truncate text-sm text-neutral-600">
+            {arrondissement ?? restaurant.city} — {restaurant.address}
+          </p>
+          <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
+
+          <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
+            {restaurant.vegetarianOptions && <Badge>Végétarien</Badge>}
+            {restaurant.veganOptions && <Badge>Végane</Badge>}
+            {restaurant.isDemoData && <DemoDataBadge />}
+          </div>
+
+          <p className="mt-2 text-xs text-neutral-500">
+            {restaurant.allergenInformationAvailable
+              ? "Infos allergènes disponibles"
+              : "Infos allergènes non disponibles"}
+            {restaurant.lastVerifiedAt &&
+              ` · Vérifié le ${formatVerifiedDate(restaurant.lastVerifiedAt)}`}
+          </p>
+
+          {avoidanceAssessment === "may_contain_avoided" && (
+            <p className="mt-1 text-xs font-medium text-amber-700">
+              ⚠ Traces possibles de l&rsquo;allergène à éviter — vérifiez avant de commander
+            </p>
+          )}
+          {avoidanceAssessment === "incomplete_info_for_avoided" && (
+            <p className="mt-1 text-xs font-medium text-neutral-600">
+              Information incomplète pour l&rsquo;allergène à éviter
+            </p>
+          )}
+        </div>
+      </div>
+    </article>
+  );
+}

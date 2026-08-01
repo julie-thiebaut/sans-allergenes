@@ -1,0 +1,77 @@
+name: CI & Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy in flight at a time; don't cancel an in-progress deploy for a newer one.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: "20"
+  # Site is served from the custom domain root (public/CNAME), not a /repo-name/ subpath —
+  # so BASE_PATH stays "/" (vite.config.ts's default) and SITE_URL is the real domain used
+  # for canonical URLs, sitemap.xml and the prerendered pages' meta tags.
+  SITE_URL: "https://sans-allergenes.fr/"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies (lockfile-based)
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Validate restaurant/menu data
+        run: npm run validate:data
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      - name: Install Playwright Chromium (used by the build's prerender step)
+        run: npx playwright install --with-deps chromium
+
+      - name: Build (vite build + SEO prerender + sitemap/robots)
+        env:
+          VITE_GOOGLE_MAPS_API_KEY: ${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

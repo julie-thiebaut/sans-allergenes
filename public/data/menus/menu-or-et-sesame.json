@@ -1,0 +1,126 @@
+{
+  "menuId": "menu-or-et-sesame",
+  "restaurantId": "rest-002",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "os-e1",
+          "name": "Nems végétaux (végane)",
+          "price": 8,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "os-e2",
+          "name": "Gyoza crevettes",
+          "price": 9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "os-p1",
+          "name": "Pad thaï au poulet",
+          "price": 15,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "os-p2",
+          "name": "Curry de légumes et tofu (végane)",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "os-d1",
+          "name": "Perles de coco",
+          "price": 6,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

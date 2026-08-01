@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sans Allergènes — Restaurants à Paris et informations allergènes</title>
+    <meta
+      name="description"
+      content="Trouvez des restaurants à Paris et consultez les informations disponibles sur les allergènes de leurs plats."
+    />
+    <!--
+      GitHub Pages SPA redirect trick (rafgraph/spa-github-pages): when 404.html
+      bounces a deep-link request back here as ?/path, restore the real URL via
+      history.replaceState before the app boots, so React Router sees the right route.
+    -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, "", l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+    <!--
+      No Google Maps script tag here on purpose: it is injected dynamically by
+      src/maps/GoogleMapsAdapter.ts, only after config.json confirms googleMapsEnabled=true.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

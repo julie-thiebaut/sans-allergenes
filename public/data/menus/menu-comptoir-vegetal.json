@@ -1,0 +1,126 @@
+{
+  "menuId": "menu-comptoir-vegetal",
+  "restaurantId": "rest-006",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "cv-e1",
+          "name": "Houmous et crudités (végane)",
+          "price": 7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "cv-e2",
+          "name": "Falafels, sauce tahini (végane)",
+          "price": 9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "present",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "cv-p1",
+          "name": "Curry de lentilles corail (végane)",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "cv-p2",
+          "name": "Gratin de légumes (végétarien)",
+          "price": 13,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "cv-d1",
+          "name": "Mousse au chocolat végane",
+          "price": 6,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

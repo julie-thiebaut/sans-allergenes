@@ -1,0 +1,126 @@
+{
+  "menuId": "menu-table-sans-gluten",
+  "restaurantId": "rest-004",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "tsg-e1",
+          "name": "Velouté de courge",
+          "price": 8,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "tsg-e2",
+          "name": "Salade de quinoa aux légumes (végane)",
+          "price": 12,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "tsg-p1",
+          "name": "Poulet rôti, purée de patate douce",
+          "price": 18,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "tsg-p2",
+          "name": "Burger sans gluten (végétarien)",
+          "price": 16,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "tsg-d1",
+          "name": "Fondant au chocolat (sans gluten)",
+          "price": 7,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

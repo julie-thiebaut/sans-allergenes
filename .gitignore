@@ -1,0 +1,30 @@
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.local
+*.local
+
+# Local-only notes (detailed deployment/config info kept out of the public README)
+NOTES.md
+
+# Claude Code local session/tooling config
+.claude/
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/coverage/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*

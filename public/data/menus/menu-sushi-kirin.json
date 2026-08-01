@@ -1,0 +1,100 @@
+{
+  "menuId": "menu-sushi-kirin",
+  "restaurantId": "rest-007",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "sk-e1",
+          "name": "Edamame",
+          "price": 5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sk-e2",
+          "name": "Sashimi saumon",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "sk-p1",
+          "name": "California roll crevette",
+          "price": 12,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sk-p2",
+          "name": "Plateau maki mixte (thon, saumon, avocat)",
+          "price": 22,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "unknown",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    }
+  ]
+}
