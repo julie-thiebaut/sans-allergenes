@@ -12,6 +12,7 @@ import { useSelectionContext } from "../../state/SelectionContext";
 import { LoadingState } from "../common/LoadingState";
 import { BackToParisButton } from "../layout/BackToParisButton";
 import { MapFallback } from "./MapFallback";
+import { MapSelectionPreviewCard } from "./MapSelectionPreviewCard";
 
 export function MapView({ restaurants }: { restaurants: RestaurantWithMenu[] }) {
   const { configState, createAdapter } = useMapsContext();
@@ -95,6 +96,8 @@ export function MapView({ restaurants }: { restaurants: RestaurantWithMenu[] }) 
     setBounds(null);
   };
 
+  const selectedRestaurant = restaurants.find((restaurant) => restaurant.id === selectedId);
+
   return (
     <div className="relative h-full">
       {(configState === "loading" || mapStatus === "pending") && (
@@ -111,6 +114,12 @@ export function MapView({ restaurants }: { restaurants: RestaurantWithMenu[] }) 
         <div className="absolute right-3 top-3">
           <BackToParisButton onClick={handleBackToParis} />
         </div>
+      )}
+      {mapStatus === "ready" && selectedRestaurant && (
+        <MapSelectionPreviewCard
+          restaurant={selectedRestaurant}
+          onDismiss={() => setSelectedId(null)}
+        />
       )}
     </div>
   );

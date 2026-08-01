@@ -1,4 +1,6 @@
 import { act, render, screen, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it } from "vitest";
 import { MapView } from "../../src/components/map/MapView";
 import { MockMapsAdapter } from "../../src/maps/MockMapsAdapter";
@@ -20,16 +22,18 @@ function renderMapView(
   restaurants = [restaurantWithFullInfo, restaurantWithoutAllergenInfo],
 ) {
   return render(
-    <MapsContext.Provider
-      value={{ configState: "enabled", createAdapter: async () => mockAdapter }}
-    >
-      <MapBoundsProvider>
-        <SelectionProvider>
-          <MapView restaurants={restaurants} />
-          <BoundsSpy />
-        </SelectionProvider>
-      </MapBoundsProvider>
-    </MapsContext.Provider>,
+    <MemoryRouter>
+      <MapsContext.Provider
+        value={{ configState: "enabled", createAdapter: async () => mockAdapter }}
+      >
+        <MapBoundsProvider>
+          <SelectionProvider>
+            <MapView restaurants={restaurants} />
+            <BoundsSpy />
+          </SelectionProvider>
+        </MapBoundsProvider>
+      </MapsContext.Provider>
+    </MemoryRouter>,
   );
 }
 
@@ -55,6 +59,22 @@ describe("MapView (MockMapsAdapter — no real Google Maps call)", () => {
       expect(mockAdapter.isMarkerHighlighted(restaurantWithFullInfo.id)).toBe(true),
     );
     expect(mockAdapter.isMarkerHighlighted(restaurantWithoutAllergenInfo.id)).toBe(false);
+  });
+
+  it("shows a preview card for the selected marker, and dismissing it clears the selection", async () => {
+    const mockAdapter = new MockMapsAdapter();
+    renderMapView(mockAdapter);
+    await waitFor(() => expect(mockAdapter.getMarkerIds()).toHaveLength(2));
+
+    act(() => mockAdapter.simulateMarkerClick(restaurantWithFullInfo.id));
+
+    expect(await screen.findByText(restaurantWithFullInfo.name)).toBeInTheDocument();
+    expect(screen.queryByText(restaurantWithoutAllergenInfo.name)).not.toBeInTheDocument();
+
+    const user = userEvent.setup();
+    await user.click(screen.getByRole("button", { name: /fermer l'aperçu/i }));
+
+    expect(screen.queryByText(restaurantWithFullInfo.name)).not.toBeInTheDocument();
   });
 
   it("propagates pan/zoom bounds changes so the list can be clipped to the visible area", async () => {
