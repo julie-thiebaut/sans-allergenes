@@ -54,7 +54,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
         )}
         {(isDesktop || mobileView === "map") && (
           <div className="min-h-[50vh] md:min-h-0">
-            <MapView restaurants={filteredRestaurants} />
+            <MapView restaurants={filteredRestaurants} showSelectionPreview={!isDesktop} />
           </div>
         )}
       </div>

@@ -14,7 +14,16 @@ import { BackToParisButton } from "../layout/BackToParisButton";
 import { MapFallback } from "./MapFallback";
 import { MapSelectionPreviewCard } from "./MapSelectionPreviewCard";
 
-export function MapView({ restaurants }: { restaurants: RestaurantWithMenu[] }) {
+interface MapViewProps {
+  restaurants: RestaurantWithMenu[];
+  /** Show the marker-selection preview card. Only needed where the synced restaurant list
+   * isn't visible alongside the map (mobile) — on desktop the list already highlights and
+   * scrolls to the selected restaurant, so the overlay would be redundant. Defaults to true
+   * so standalone/test usage still shows it. */
+  showSelectionPreview?: boolean;
+}
+
+export function MapView({ restaurants, showSelectionPreview = true }: MapViewProps) {
   const { configState, createAdapter } = useMapsContext();
   const { setBounds } = useMapBoundsContext();
   const { hoveredId, selectedId, setSelectedId } = useSelectionContext();
@@ -115,7 +124,7 @@ export function MapView({ restaurants }: { restaurants: RestaurantWithMenu[] }) 
           <BackToParisButton onClick={handleBackToParis} />
         </div>
       )}
-      {mapStatus === "ready" && selectedRestaurant && (
+      {mapStatus === "ready" && showSelectionPreview && selectedRestaurant && (
         <MapSelectionPreviewCard
           restaurant={selectedRestaurant}
           onDismiss={() => setSelectedId(null)}
