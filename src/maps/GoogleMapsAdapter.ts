@@ -17,7 +17,11 @@ function loadGoogleMapsScript(apiKey: string): Promise<typeof google> {
   if (!scriptLoadPromise) {
     scriptLoadPromise = new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&loading=async&v=weekly`;
+      // Deliberately no loading=async here: that flag switches the script into Google's
+      // lazy library-loading mode (which requires google.maps.importLibrary and can race
+      // with a plain onload handler). This is a classic synchronous include — once onload
+      // fires, google.maps.Map/Marker/etc. are already available as real globals.
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&v=weekly`;
       script.async = true;
       script.onload = () => {
         if (window.google?.maps) {
@@ -66,13 +70,11 @@ export class GoogleMapsAdapter implements MapsAdapter {
     }
 
     await loadGoogleMapsScript(apiKey);
-    const { Map } = (await google.maps.importLibrary("maps")) as google.maps.MapsLibrary;
-    // Requesting the "marker" library keeps google.maps.Marker (and future Advanced Marker
-    // migration) explicit under the loading=async bootstrap, even though the legacy
-    // Marker class we use below doesn't strictly require a Map ID.
-    await google.maps.importLibrary("marker");
-
-    this.map = new Map(container, {
+    // The script is injected directly (see loadGoogleMapsScript below) rather than via
+    // Google's official inline bootstrap loader snippet, so google.maps.importLibrary is
+    // never defined here — google.maps.Map/Marker are plain globals once the script's
+    // onload fires, which loadGoogleMapsScript's promise already waits for.
+    this.map = new google.maps.Map(container, {
       center: options.center,
       zoom: options.zoom,
       clickableIcons: false,

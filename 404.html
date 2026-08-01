@@ -12,11 +12,12 @@
       // query string and redirects to the app root, where the inline script in
       // index.html decodes it back into the real URL via history.replaceState.
       //
-      // pathSegmentsToKeep = 0 because this site is served from the custom domain root
-      // (sans-allergenes.fr), not from a /repo-name/ subpath. If you ever deploy without
-      // the custom domain configured (plain https://user.github.io/repo-name/), set this
-      // back to 1 or the redirect will strip a path segment it shouldn't.
-      var pathSegmentsToKeep = 0;
+      // pathSegmentsToKeep = 1 because the site is currently reachable at the
+      // /repo-name/ subpath (https://user.github.io/repo-name/) — the custom domain
+      // (sans-allergenes.fr) isn't live yet (DNS not configured, see NOTES.md). Once the
+      // custom domain is the primary way visitors reach the site, change this to 0 (must
+      // match ci-deploy.yml's BASE_PATH, which needs the same change at the same time).
+      var pathSegmentsToKeep = 1;
 
       var l = window.location;
       l.replace(
