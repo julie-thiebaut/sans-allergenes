@@ -1,6 +1,8 @@
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import type { RestaurantWithMenu } from "../../data/types";
+import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
+import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
@@ -19,6 +21,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           className="h-56 w-full rounded-lg object-cover"
         />
         <div className="mt-4 flex flex-wrap items-center gap-2">
+          {!restaurant.allergenInformationAvailable && <AllergenWarningIcon />}
           <h1 className="text-2xl font-bold text-neutral-900">{restaurant.name}</h1>
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
@@ -31,6 +34,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           <PriceLevelIndicator level={restaurant.priceLevel} />
           {restaurant.vegetarianOptions && <span>Options végétariennes</span>}
           {restaurant.veganOptions && <span>Options véganes</span>}
+          <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
         </div>
         <div className="mt-3 flex flex-wrap gap-4 text-sm">
           {restaurant.websiteUrl && (
@@ -57,7 +61,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             <MenuSection key={category.category} category={category} />
           ))
         ) : (
-          <p className="rounded-md border border-neutral-200 bg-neutral-50 p-4 text-neutral-700">
+          <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
             Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
             Contactez directement l&rsquo;établissement avant de commander si vous avez une
             allergie.

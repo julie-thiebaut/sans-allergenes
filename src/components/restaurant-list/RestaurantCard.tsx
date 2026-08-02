@@ -6,6 +6,8 @@ import { useFilterState } from "../../state/FilterStateContext";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { formatVerifiedDate } from "../../utils/formatDate";
+import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
+import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
@@ -23,6 +25,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
   const filters = useFilterState();
   const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
   const isHighlighted = hoveredId === restaurant.id || selectedId === restaurant.id;
+  const isWarning = !restaurant.allergenInformationAvailable;
 
   // Restaurants with a confirmed "present" match are already excluded by filterRestaurants;
   // only "may_contain" / incomplete-info cases can still show up here, so we surface which.
@@ -34,7 +37,11 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
   return (
     <article
       className={`group relative rounded-lg border p-3 transition-colors ${
-        isHighlighted ? "border-brand-500 bg-brand-50" : "border-neutral-200 bg-white"
+        isHighlighted
+          ? isWarning
+            ? "border-red-400 bg-red-50"
+            : "border-brand-500 bg-brand-50"
+          : "border-neutral-200 bg-white"
       }`}
       onMouseEnter={() => setHoveredId(restaurant.id)}
       onMouseLeave={() => setHoveredId(null)}
@@ -47,7 +54,8 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
         />
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-2">
-            <h3 className="font-semibold text-neutral-900">
+            <h3 className="flex items-center gap-1 font-semibold text-neutral-900">
+              {isWarning && <AllergenWarningIcon />}
               <Link
                 to={`/restaurant/${restaurant.slug}`}
                 className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
@@ -71,13 +79,14 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             {restaurant.isDemoData && <DemoDataBadge />}
           </div>
 
-          <p className="mt-2 text-xs text-neutral-500">
-            {restaurant.allergenInformationAvailable
-              ? "Infos allergènes disponibles"
-              : "Infos allergènes non disponibles"}
-            {restaurant.lastVerifiedAt &&
-              ` · Vérifié le ${formatVerifiedDate(restaurant.lastVerifiedAt)}`}
-          </p>
+          <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+            <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
+            {restaurant.lastVerifiedAt && (
+              <span className="text-xs text-neutral-500">
+                Vérifié le {formatVerifiedDate(restaurant.lastVerifiedAt)}
+              </span>
+            )}
+          </div>
 
           {avoidanceAssessment === "may_contain_avoided" && (
             <p className="mt-1 text-xs font-medium text-amber-700">

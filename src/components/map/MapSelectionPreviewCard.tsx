@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import type { RestaurantWithMenu } from "../../data/types";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
+import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
+import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
@@ -26,7 +28,13 @@ export function MapSelectionPreviewCard({
   const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
 
   return (
-    <div className="fixed inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border border-neutral-200 bg-white p-3 shadow-lg">
+    <div
+      className={`fixed inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border p-3 shadow-lg ${
+        restaurant.allergenInformationAvailable
+          ? "border-neutral-200 bg-white"
+          : "border-red-400 bg-red-50"
+      }`}
+    >
       <ImageWithPlaceholder
         src={restaurant.imageUrl}
         alt={restaurant.name}
@@ -34,7 +42,10 @@ export function MapSelectionPreviewCard({
       />
       <div className="min-w-0 flex-1">
         <div className="flex items-start justify-between gap-2">
-          <h3 className="truncate font-semibold text-neutral-900">{restaurant.name}</h3>
+          <div className="flex min-w-0 items-center gap-1">
+            {!restaurant.allergenInformationAvailable && <AllergenWarningIcon />}
+            <h3 className="truncate font-semibold text-neutral-900">{restaurant.name}</h3>
+          </div>
           <button
             type="button"
             onClick={onDismiss}
@@ -47,13 +58,9 @@ export function MapSelectionPreviewCard({
         <p className="truncate text-sm text-neutral-600">
           {arrondissement ?? restaurant.city} · {restaurant.cuisineTypes.join(", ")}
         </p>
-        <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-neutral-500">
+        <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
-          <span>
-            {restaurant.allergenInformationAvailable
-              ? "Infos allergènes disponibles"
-              : "Infos allergènes non disponibles"}
-          </span>
+          <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
         <Link

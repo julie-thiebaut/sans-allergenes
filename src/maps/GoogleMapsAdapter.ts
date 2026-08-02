@@ -51,7 +51,7 @@ function markerIcon(highlighted: boolean): google.maps.Symbol {
   // so it stays legible for color-blind users and in high-contrast mode.
   return {
     path: "M12 0C7 0 3 4 3 9c0 6.5 9 15 9 15s9-8.5 9-15c0-5-4-9-9-9z",
-    fillColor: highlighted ? "#6b4f02" : "#f1b204",
+    fillColor: "#f1b204",
     fillOpacity: 1,
     strokeColor: "#ffffff",
     strokeWeight: highlighted ? 3 : 1.5,
