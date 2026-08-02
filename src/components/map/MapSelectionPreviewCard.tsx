@@ -6,9 +6,15 @@ import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
 
 /**
- * Shown as an overlay on the map when a marker is selected — on mobile there's no list
- * visible alongside the map to scroll to, so tapping a marker needs its own preview
- * rather than relying on the (invisible) list highlight the desktop layout uses.
+ * Shown as an overlay when a marker is selected — on mobile there's no list visible
+ * alongside the map to scroll to, so tapping a marker needs its own preview rather than
+ * relying on the (invisible) list highlight the desktop layout uses.
+ *
+ * Positioned `fixed` to the viewport rather than `absolute` within the map: the map now
+ * fills the full available height, so a card anchored to the map's own bottom edge could
+ * land right at (or past) the visible screen edge on real phones — mobile browser chrome
+ * (address bar, etc.) makes the actual visible viewport shorter than the layout height in
+ * a way `absolute` positioning doesn't account for. `fixed` always keeps it fully on-screen.
  */
 export function MapSelectionPreviewCard({
   restaurant,
@@ -20,7 +26,7 @@ export function MapSelectionPreviewCard({
   const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
 
   return (
-    <div className="absolute inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border border-neutral-200 bg-white p-3 shadow-lg">
+    <div className="fixed inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border border-neutral-200 bg-white p-3 shadow-lg">
       <ImageWithPlaceholder
         src={restaurant.imageUrl}
         alt={restaurant.name}
