@@ -3,7 +3,6 @@ import type { AllergenId } from "../data/types";
 import { DEFAULT_FILTER_STATE, type FilterState } from "../filtering/filterRestaurants";
 
 export type FilterAction =
-  | { type: "SET_SEARCH_TEXT"; value: string }
   | { type: "SET_CUISINE_TYPES"; value: string[] }
   | { type: "SET_VEGETARIAN_ONLY"; value: boolean }
   | { type: "SET_VEGAN_ONLY"; value: boolean }
@@ -14,8 +13,6 @@ export type FilterAction =
 
 function filterReducer(state: FilterState, action: FilterAction): FilterState {
   switch (action.type) {
-    case "SET_SEARCH_TEXT":
-      return { ...state, searchText: action.value };
     case "SET_CUISINE_TYPES":
       return { ...state, cuisineTypes: action.value };
     case "SET_VEGETARIAN_ONLY":

@@ -5,6 +5,7 @@ import { SplitView } from "../../src/components/layout/SplitView";
 import { MapView } from "../../src/components/map/MapView";
 import { MapsProvider } from "../../src/maps/MapsProvider";
 import { FilterStateProvider } from "../../src/state/FilterStateContext";
+import { MapActionsProvider } from "../../src/state/mapActionsContext";
 import { MapBoundsProvider } from "../../src/state/mapBoundsContext";
 import { SelectionProvider } from "../../src/state/SelectionContext";
 import { restaurantWithFullInfo } from "../fixtures/restaurants.fixture";
@@ -21,7 +22,9 @@ function renderMapViewWithRealProvider() {
     <MapsProvider>
       <MapBoundsProvider>
         <SelectionProvider>
-          <MapView restaurants={[restaurantWithFullInfo]} />
+          <MapActionsProvider>
+            <MapView restaurants={[restaurantWithFullInfo]} />
+          </MapActionsProvider>
         </SelectionProvider>
       </MapBoundsProvider>
     </MapsProvider>,
@@ -83,7 +86,9 @@ describe("Maps disabled/failed fallback (no real Google Maps script ever request
           <FilterStateProvider>
             <MapBoundsProvider>
               <SelectionProvider>
-                <SplitView allRestaurants={[restaurantWithFullInfo]} />
+                <MapActionsProvider>
+                  <SplitView allRestaurants={[restaurantWithFullInfo]} />
+                </MapActionsProvider>
               </SelectionProvider>
             </MapBoundsProvider>
           </FilterStateProvider>

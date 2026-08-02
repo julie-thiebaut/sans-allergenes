@@ -1,10 +1,12 @@
 import type {
+  AddressSuggestion,
   LatLngLiteral,
   MapBoundsLiteral,
   MapMarkerHandle,
   MapMarkerPoint,
   MapsAdapter,
 } from "./MapsAdapter";
+import { PARIS_BOUNDS_BIAS } from "./MapsAdapter";
 
 // Module-level singleton so the script (and the maps/marker library imports) are only
 // ever requested once, even if mount() is called from multiple places.
@@ -21,7 +23,7 @@ function loadGoogleMapsScript(apiKey: string): Promise<typeof google> {
       // lazy library-loading mode (which requires google.maps.importLibrary and can race
       // with a plain onload handler). This is a classic synchronous include — once onload
       // fires, google.maps.Map/Marker/etc. are already available as real globals.
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&v=weekly`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&v=weekly&libraries=places`;
       script.async = true;
       script.onload = () => {
         if (window.google?.maps) {
@@ -60,11 +62,21 @@ function markerIcon(highlighted: boolean): google.maps.Symbol {
   };
 }
 
+function parisLatLngBounds(): google.maps.LatLngBounds {
+  return new google.maps.LatLngBounds(
+    { lat: PARIS_BOUNDS_BIAS.south, lng: PARIS_BOUNDS_BIAS.west },
+    { lat: PARIS_BOUNDS_BIAS.north, lng: PARIS_BOUNDS_BIAS.east },
+  );
+}
+
 export class GoogleMapsAdapter implements MapsAdapter {
   private map: google.maps.Map | null = null;
   private markers: Map<string, google.maps.Marker> = new Map();
   private clusterer: import("@googlemaps/markerclusterer").MarkerClusterer | null = null;
-  private boundsListener: google.maps.MapsEventListener | null = null;
+  // Groups a user's typing + selection into one billable Autocomplete session, per Google's
+  // pricing model — reset once a session concludes (selection made, or input cleared).
+  private autocompleteSessionToken: google.maps.places.AutocompleteSessionToken | null = null;
+  private lastPredictions = new Map<string, google.maps.places.PlacePrediction>();
 
   async mount(
     container: HTMLElement,
@@ -93,10 +105,6 @@ export class GoogleMapsAdapter implements MapsAdapter {
 
   unmount(): void {
     this.clearMarkers();
-    if (this.boundsListener) {
-      this.boundsListener.remove();
-      this.boundsListener = null;
-    }
     this.map = null;
   }
 
@@ -149,11 +157,14 @@ export class GoogleMapsAdapter implements MapsAdapter {
 
   onBoundsChanged(callback: (bounds: MapBoundsLiteral) => void): () => void {
     if (!this.map) return () => {};
-    this.boundsListener = this.map.addListener("bounds_changed", () => {
+    // Scoped to this call (not a shared instance field) — MapView re-registers this listener
+    // every time `restaurants` changes, and a shared field would let a later registration's
+    // cleanup accidentally remove an earlier (still-active) listener, or vice versa.
+    const listener = this.map.addListener("bounds_changed", () => {
       const bounds = this.getBounds();
       if (bounds) callback(bounds);
     });
-    return () => this.boundsListener?.remove();
+    return () => listener.remove();
   }
 
   getBounds(): MapBoundsLiteral | null {
@@ -162,5 +173,49 @@ export class GoogleMapsAdapter implements MapsAdapter {
     const ne = bounds.getNorthEast();
     const sw = bounds.getSouthWest();
     return { north: ne.lat(), east: ne.lng(), south: sw.lat(), west: sw.lng() };
+  }
+
+  async getAddressSuggestions(input: string): Promise<AddressSuggestion[]> {
+    if (!input.trim()) {
+      this.autocompleteSessionToken = null;
+      this.lastPredictions.clear();
+      return [];
+    }
+    if (!this.autocompleteSessionToken) {
+      this.autocompleteSessionToken = new google.maps.places.AutocompleteSessionToken();
+    }
+    try {
+      const { suggestions } = await google.maps.places.AutocompleteSuggestion.fetchAutocompleteSuggestions({
+        input,
+        locationBias: parisLatLngBounds(),
+        includedRegionCodes: ["fr"],
+        sessionToken: this.autocompleteSessionToken,
+      });
+      this.lastPredictions.clear();
+      const results: AddressSuggestion[] = [];
+      for (const suggestion of suggestions) {
+        const prediction = suggestion.placePrediction;
+        if (!prediction) continue;
+        this.lastPredictions.set(prediction.placeId, prediction);
+        results.push({ placeId: prediction.placeId, description: prediction.text.text });
+      }
+      return results;
+    } catch {
+      return [];
+    }
+  }
+
+  async resolvePlace(placeId: string): Promise<LatLngLiteral | null> {
+    const prediction = this.lastPredictions.get(placeId);
+    // The session concludes once a selection is resolved — a fresh token is needed next time.
+    this.autocompleteSessionToken = null;
+    this.lastPredictions.clear();
+    try {
+      const place = prediction ? prediction.toPlace() : new google.maps.places.Place({ id: placeId });
+      await place.fetchFields({ fields: ["location"] });
+      return place.location ? { lat: place.location.lat(), lng: place.location.lng() } : null;
+    } catch {
+      return null;
+    }
   }
 }

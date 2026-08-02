@@ -2,11 +2,10 @@ import { useEffect, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import { AllergenIdSchema } from "../data/schemas";
 import type { AllergenId } from "../data/types";
-import { DEFAULT_FILTER_STATE, type FilterState } from "../filtering/filterRestaurants";
+import type { FilterState } from "../filtering/filterRestaurants";
 import { useFilterDispatch, useFilterState } from "./FilterStateContext";
 
 const PARAM_KEYS = {
-  searchText: "q",
   cuisineTypes: "cuisine",
   vegetarianOnly: "veg",
   veganOnly: "vegan",
@@ -21,7 +20,6 @@ function parseFilterStateFromParams(params: URLSearchParams): FilterState {
     .filter((id): id is AllergenId => AllergenIdSchema.safeParse(id).success);
 
   return {
-    searchText: params.get(PARAM_KEYS.searchText) ?? DEFAULT_FILTER_STATE.searchText,
     cuisineTypes: (params.get(PARAM_KEYS.cuisineTypes) ?? "").split(",").filter(Boolean),
     vegetarianOnly: params.get(PARAM_KEYS.vegetarianOnly) === "1",
     veganOnly: params.get(PARAM_KEYS.veganOnly) === "1",
@@ -32,7 +30,6 @@ function parseFilterStateFromParams(params: URLSearchParams): FilterState {
 
 function filterStateToParams(filters: FilterState): URLSearchParams {
   const params = new URLSearchParams();
-  if (filters.searchText.trim()) params.set(PARAM_KEYS.searchText, filters.searchText);
   if (filters.cuisineTypes.length > 0)
     params.set(PARAM_KEYS.cuisineTypes, filters.cuisineTypes.join(","));
   if (filters.vegetarianOnly) params.set(PARAM_KEYS.vegetarianOnly, "1");

@@ -1,5 +1,3 @@
-import type { Restaurant } from "../data/types";
-
 // Combining diacritical marks block (U+0300–U+036F), produced by String.normalize("NFD")
 // splitting accented characters into base letter + combining mark. Filtering by numeric
 // code point (rather than a regex unicode-range literal) avoids any ambiguity about which
@@ -18,14 +16,4 @@ function stripDiacritics(value: string): string {
 
 export function normalizeSearchText(value: string): string {
   return stripDiacritics(value.normalize("NFD")).toLowerCase().trim();
-}
-
-export function matchesSearchText(restaurant: Restaurant, rawQuery: string): boolean {
-  const query = normalizeSearchText(rawQuery);
-  if (!query) return true;
-
-  const haystack = normalizeSearchText(
-    [restaurant.name, restaurant.address, restaurant.city, ...restaurant.cuisineTypes].join(" "),
-  );
-  return haystack.includes(query);
 }

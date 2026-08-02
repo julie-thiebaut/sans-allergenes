@@ -20,7 +20,7 @@ export function RestaurantDetailPage() {
   const restaurant = data.restaurants.find((r) => r.slug === slug);
   if (!restaurant) {
     return (
-      <div className="p-6">
+      <div className="overflow-y-auto p-6">
         <p>Restaurant introuvable.</p>
         <Link to="/" className="text-brand-500 underline">
           Retour à la liste
@@ -35,7 +35,9 @@ export function RestaurantDetailPage() {
   );
 
   return (
-    <div className="mx-auto max-w-3xl p-4">
+    // Own scroll container: the app shell is viewport-height capped for the map/list split,
+    // so this ordinary long document has to scroll itself rather than the page.
+    <div className="mx-auto w-full max-w-3xl overflow-y-auto p-4">
       <Seo title={meta.title} description={meta.description} />
       <Link to="/" className="mb-4 inline-block text-sm text-brand-500 underline">
         ← Retour à la liste

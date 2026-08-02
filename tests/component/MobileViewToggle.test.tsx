@@ -7,6 +7,7 @@ import { SplitView } from "../../src/components/layout/SplitView";
 import { MockMapsAdapter } from "../../src/maps/MockMapsAdapter";
 import { MapsContext } from "../../src/maps/useMapsContext";
 import { FilterStateProvider } from "../../src/state/FilterStateContext";
+import { MapActionsProvider } from "../../src/state/mapActionsContext";
 import { MapBoundsProvider } from "../../src/state/mapBoundsContext";
 import { SelectionProvider } from "../../src/state/SelectionContext";
 import { restaurantWithFullInfo } from "../fixtures/restaurants.fixture";
@@ -34,7 +35,9 @@ function renderMobileSplitView() {
         <FilterStateProvider>
           <MapBoundsProvider>
             <SelectionProvider>
-              <SplitView allRestaurants={[restaurantWithFullInfo]} />
+              <MapActionsProvider>
+                <SplitView allRestaurants={[restaurantWithFullInfo]} />
+              </MapActionsProvider>
             </SelectionProvider>
           </MapBoundsProvider>
         </FilterStateProvider>

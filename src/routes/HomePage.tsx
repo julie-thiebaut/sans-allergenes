@@ -6,6 +6,7 @@ import { useDataContext } from "../data/DataProvider";
 import { Seo } from "../seo/Seo";
 import { buildHomeMeta } from "../seo/seoData";
 import { FilterStateProvider } from "../state/FilterStateContext";
+import { MapActionsProvider } from "../state/mapActionsContext";
 import { MapBoundsProvider } from "../state/mapBoundsContext";
 import { SelectionProvider } from "../state/SelectionContext";
 import { useUrlFilterSync } from "../state/useUrlFilterSync";
@@ -31,8 +32,10 @@ export function HomePage() {
     <FilterStateProvider>
       <SelectionProvider>
         <MapBoundsProvider>
-          <Seo title={HOME_META.title} description={HOME_META.description} />
-          <HomePageContent />
+          <MapActionsProvider>
+            <Seo title={HOME_META.title} description={HOME_META.description} />
+            <HomePageContent />
+          </MapActionsProvider>
         </MapBoundsProvider>
       </SelectionProvider>
     </FilterStateProvider>

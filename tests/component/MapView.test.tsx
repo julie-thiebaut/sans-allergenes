@@ -5,6 +5,7 @@ import { describe, expect, it } from "vitest";
 import { MapView } from "../../src/components/map/MapView";
 import { MockMapsAdapter } from "../../src/maps/MockMapsAdapter";
 import { MapsContext } from "../../src/maps/useMapsContext";
+import { MapActionsProvider } from "../../src/state/mapActionsContext";
 import { MapBoundsProvider, useMapBoundsContext } from "../../src/state/mapBoundsContext";
 import { SelectionProvider } from "../../src/state/SelectionContext";
 import {
@@ -28,8 +29,10 @@ function renderMapView(
       >
         <MapBoundsProvider>
           <SelectionProvider>
-            <MapView restaurants={restaurants} />
-            <BoundsSpy />
+            <MapActionsProvider>
+              <MapView restaurants={restaurants} />
+              <BoundsSpy />
+            </MapActionsProvider>
           </SelectionProvider>
         </MapBoundsProvider>
       </MapsContext.Provider>

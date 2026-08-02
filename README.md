@@ -45,7 +45,9 @@ tests/                 # tests unitaires, composants, e2e
 
 ## Variable d'environnement
 
-Une clé Google Maps JavaScript API restreinte est nécessaire pour afficher la carte (voir `.env.example`). Sans clé, l'application fonctionne normalement, avec la carte simplement désactivée.
+Une clé Google restreinte est nécessaire pour afficher la carte et proposer la recherche d'adresse (voir `.env.example`). Elle doit autoriser deux API : **Maps JavaScript API** (carte) et **Places API** (suggestions d'adresses). Sans clé, l'application fonctionne normalement, avec la carte simplement désactivée.
+
+Des quotas journaliers stricts sont configurés côté Google Cloud sur chaque métrique facturable, et les métriques inutilisées sont plafonnées à zéro, afin de rester dans le palier gratuit.
 
 ## Licence
 

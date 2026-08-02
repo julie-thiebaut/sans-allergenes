@@ -13,8 +13,13 @@ export function App() {
       <DataProvider>
         <MapsProvider>
           <PrerenderReadyMarker />
-          <div className="flex min-h-screen flex-col">
-            <main className="flex min-h-0 flex-1 flex-col">
+          {/* h-dvh (not min-h-screen) is deliberate: the home page's list panel scrolls
+              INTERNALLY, which only works if the flex chain has a hard viewport-height cap —
+              with min-h-*, the column grows to fit the list and the map stretches to match it.
+              dvh rather than vh so mobile browser chrome doesn't push content off-screen.
+              Routes that are ordinary long documents scroll inside their own container. */}
+          <div className="flex h-dvh flex-col">
+            <main className="flex min-h-0 flex-1 flex-col overflow-hidden">
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/restaurant/:slug" element={<RestaurantDetailPage />} />

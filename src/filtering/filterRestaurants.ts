@@ -1,9 +1,7 @@
 import type { AllergenId, RestaurantWithMenu } from "../data/types";
 import { assessMenuAgainstAvoidance } from "./allergenLogic";
-import { matchesSearchText } from "./searchText";
 
 export interface FilterState {
-  searchText: string;
   cuisineTypes: string[];
   vegetarianOnly: boolean;
   veganOnly: boolean;
@@ -12,7 +10,6 @@ export interface FilterState {
 }
 
 export const DEFAULT_FILTER_STATE: FilterState = {
-  searchText: "",
   cuisineTypes: [],
   vegetarianOnly: false,
   veganOnly: false,
@@ -22,7 +19,6 @@ export const DEFAULT_FILTER_STATE: FilterState = {
 
 export function isFilterStateDefault(filters: FilterState): boolean {
   return (
-    filters.searchText.trim() === "" &&
     filters.cuisineTypes.length === 0 &&
     !filters.vegetarianOnly &&
     !filters.veganOnly &&
@@ -42,8 +38,6 @@ export function filterRestaurants(
   filters: FilterState,
 ): RestaurantWithMenu[] {
   return restaurants.filter((restaurant) => {
-    if (!matchesSearchText(restaurant, filters.searchText)) return false;
-
     if (
       filters.cuisineTypes.length > 0 &&
       !restaurant.cuisineTypes.some((cuisine) => filters.cuisineTypes.includes(cuisine))

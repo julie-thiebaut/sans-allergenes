@@ -1,12 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import type { RestaurantWithMenu } from "../../data/types";
 import {
+  ADDRESS_SEARCH_ZOOM,
   PARIS_CENTER,
   PARIS_DEFAULT_ZOOM,
   type MapMarkerHandle,
   type MapsAdapter,
 } from "../../maps/MapsAdapter";
 import { useMapsContext } from "../../maps/useMapsContext";
+import { useMapActionsContext } from "../../state/mapActionsContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { LoadingState } from "../common/LoadingState";
@@ -26,6 +28,7 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
   const { configState, createAdapter } = useMapsContext();
   const { setBounds } = useMapBoundsContext();
   const { hoveredId, selectedId, setSelectedId } = useSelectionContext();
+  const { registerActions } = useMapActionsContext();
 
   const containerRef = useRef<HTMLDivElement>(null);
   const adapterRef = useRef<MapsAdapter | null>(null);
@@ -94,6 +97,25 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
       handle.setHighlighted(id === hoveredId || id === selectedId);
     });
   }, [hoveredId, selectedId]);
+
+  // Publish autocomplete-and-zoom actions for the navbar's address search to call — only
+  // while this MapView is actually mounted with a ready adapter (e.g. not the mobile list view).
+  useEffect(() => {
+    const adapter = adapterRef.current;
+    if (mapStatus !== "ready" || !adapter) return;
+
+    registerActions({
+      getAddressSuggestions: (input) => adapter.getAddressSuggestions(input),
+      selectSuggestion: async (placeId) => {
+        const location = await adapter.resolvePlace(placeId);
+        if (!location) return false;
+        adapter.setCenter(location, ADDRESS_SEARCH_ZOOM);
+        return true;
+      },
+    });
+
+    return () => registerActions(null);
+  }, [mapStatus, registerActions]);
 
   if (configState === "disabled" || mapStatus === "failed") {
     return <MapFallback />;

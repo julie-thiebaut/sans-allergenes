@@ -12,14 +12,6 @@ describe("filterRestaurants", () => {
     expect(filterRestaurants(allFixtureRestaurants, DEFAULT_FILTER_STATE)).toHaveLength(3);
   });
 
-  it("filters by search text", () => {
-    const result = filterRestaurants(allFixtureRestaurants, {
-      ...DEFAULT_FILTER_STATE,
-      searchText: "Mystère",
-    });
-    expect(result).toEqual([restaurantWithUnknownInfo]);
-  });
-
   it("filters by allergenInfoAvailableOnly", () => {
     const result = filterRestaurants(allFixtureRestaurants, {
       ...DEFAULT_FILTER_STATE,

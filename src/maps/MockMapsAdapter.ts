@@ -1,4 +1,5 @@
 import type {
+  AddressSuggestion,
   LatLngLiteral,
   MapBoundsLiteral,
   MapMarkerHandle,
@@ -23,6 +24,8 @@ export class MockMapsAdapter implements MapsAdapter {
   private lastBounds: MapBoundsLiteral | null = null;
   private center: LatLngLiteral | null = null;
   private zoom: number | null = null;
+  private suggestions: AddressSuggestion[] = [];
+  private placeResults = new Map<string, LatLngLiteral | null>();
 
   async mount(
     _container: HTMLElement,
@@ -70,7 +73,25 @@ export class MockMapsAdapter implements MapsAdapter {
     return this.lastBounds;
   }
 
+  async getAddressSuggestions(input: string): Promise<AddressSuggestion[]> {
+    return input.trim() ? this.suggestions : [];
+  }
+
+  async resolvePlace(placeId: string): Promise<LatLngLiteral | null> {
+    return this.placeResults.get(placeId) ?? null;
+  }
+
   // --- Test-only helpers ---
+
+  /** Configures what getAddressSuggestions() returns for any non-empty input. */
+  setSuggestions(suggestions: AddressSuggestion[]): void {
+    this.suggestions = suggestions;
+  }
+
+  /** Configures what resolvePlace(placeId) resolves to for a given suggestion. */
+  setPlaceResult(placeId: string, result: LatLngLiteral | null): void {
+    this.placeResults.set(placeId, result);
+  }
 
   simulateBoundsChanged(bounds: MapBoundsLiteral): void {
     this.lastBounds = bounds;

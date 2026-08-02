@@ -3,22 +3,16 @@ import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it } from "vitest";
 import { Navbar } from "../../src/components/layout/Navbar";
-import { FilterStateProvider, useFilterState } from "../../src/state/FilterStateContext";
-
-function FilterStateSpy() {
-  const state = useFilterState();
-  return <div data-testid="state">{JSON.stringify(state)}</div>;
-}
+import { MapActionsProvider } from "../../src/state/mapActionsContext";
 
 describe("Navbar", () => {
-  it("shows the site title and updates search text as the user types", async () => {
+  it("shows the site title linking home, and an address search box", async () => {
     const user = userEvent.setup();
     const { container } = render(
       <MemoryRouter>
-        <FilterStateProvider>
+        <MapActionsProvider>
           <Navbar />
-          <FilterStateSpy />
-        </FilterStateProvider>
+        </MapActionsProvider>
       </MemoryRouter>,
     );
 
@@ -29,7 +23,8 @@ describe("Navbar", () => {
     expect(titleLink).toHaveAttribute("href", "/");
     expect(container.querySelector("header")?.textContent).toContain("sansAllergènes");
 
-    await user.type(screen.getByPlaceholderText(/rechercher par nom/i), "sushi");
-    expect(screen.getByTestId("state")).toHaveTextContent('"searchText":"sushi"');
+    const search = screen.getByPlaceholderText(/rechercher une adresse/i);
+    await user.type(search, "10 rue de Rivoli");
+    expect(search).toHaveValue("10 rue de Rivoli");
   });
 });
