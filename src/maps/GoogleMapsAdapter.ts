@@ -40,6 +40,12 @@ function loadGoogleMapsScript(apiKey: string): Promise<typeof google> {
   return scriptLoadPromise;
 }
 
+// Fully desaturated map so the mustard-yellow markers are the only spot of color —
+// also means there's no separate "Satellite" imagery to toggle to, so the map type
+// control (Carte/Satellite switcher) is hidden below rather than left pointing at an
+// option that no longer makes visual sense.
+const GRAYSCALE_MAP_STYLE: google.maps.MapTypeStyle[] = [{ stylers: [{ saturation: -100 }] }];
+
 function markerIcon(highlighted: boolean): google.maps.Symbol {
   // Highlighted state is distinguished by SIZE + outline weight, not color alone,
   // so it stays legible for color-blind users and in high-contrast mode.
@@ -80,6 +86,8 @@ export class GoogleMapsAdapter implements MapsAdapter {
       clickableIcons: false,
       streetViewControl: false,
       fullscreenControl: false,
+      mapTypeControl: false,
+      styles: GRAYSCALE_MAP_STYLE,
     });
   }
 

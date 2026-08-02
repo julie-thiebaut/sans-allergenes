@@ -34,7 +34,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
   }, [filteredRestaurants, bounds]);
 
   return (
-    <div className="flex h-full min-h-0 flex-col">
+    <div className="flex min-h-0 flex-1 flex-col">
       <div className="hidden md:block">
         <SearchFilterBar />
       </div>
@@ -53,7 +53,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
           </div>
         )}
         {(isDesktop || mobileView === "map") && (
-          <div className="min-h-[50vh] md:min-h-0">
+          <div className="min-h-0">
             <MapView restaurants={filteredRestaurants} showSelectionPreview={!isDesktop} />
           </div>
         )}
