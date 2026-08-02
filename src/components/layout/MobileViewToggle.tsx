@@ -17,7 +17,7 @@ export function MobileViewToggle({ value, onChange }: MobileViewToggleProps) {
         aria-pressed={value === "list"}
         onClick={() => onChange("list")}
         className={`rounded px-3 py-1.5 text-sm font-medium ${
-          value === "list" ? "bg-brand-600 text-white" : "text-neutral-700"
+          value === "list" ? "bg-brand-500 text-neutral-900" : "text-neutral-700"
         }`}
       >
         Liste
@@ -27,7 +27,7 @@ export function MobileViewToggle({ value, onChange }: MobileViewToggleProps) {
         aria-pressed={value === "map"}
         onClick={() => onChange("map")}
         className={`rounded px-3 py-1.5 text-sm font-medium ${
-          value === "map" ? "bg-brand-600 text-white" : "text-neutral-700"
+          value === "map" ? "bg-brand-500 text-neutral-900" : "text-neutral-700"
         }`}
       >
         Carte

@@ -22,7 +22,7 @@ export function RestaurantDetailPage() {
     return (
       <div className="p-6">
         <p>Restaurant introuvable.</p>
-        <Link to="/" className="text-brand-600 underline">
+        <Link to="/" className="text-brand-500 underline">
           Retour à la liste
         </Link>
       </div>
@@ -37,7 +37,7 @@ export function RestaurantDetailPage() {
   return (
     <div className="mx-auto max-w-3xl p-4">
       <Seo title={meta.title} description={meta.description} />
-      <Link to="/" className="mb-4 inline-block text-sm text-brand-600 underline">
+      <Link to="/" className="mb-4 inline-block text-sm text-brand-500 underline">
         ← Retour à la liste
       </Link>
       <RestaurantDetailView restaurant={restaurant} />

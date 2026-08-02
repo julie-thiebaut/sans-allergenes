@@ -18,7 +18,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
   const filters = useFilterState();
   const { bounds } = useMapBoundsContext();
   const isDesktop = useMediaQuery(DESKTOP_MEDIA_QUERY);
-  const [mobileView, setMobileView] = useState<MobileViewMode>("list");
+  const [mobileView, setMobileView] = useState<MobileViewMode>("map");
 
   const filteredRestaurants = useMemo(
     () => filterRestaurants(allRestaurants, filters),
@@ -36,11 +36,11 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
   return (
     <div className="flex h-full min-h-0 flex-col">
       <div className="hidden md:block">
-        <SearchFilterBar allRestaurants={allRestaurants} />
+        <SearchFilterBar />
       </div>
 
       <div className="flex items-center justify-between gap-2 border-b border-neutral-200 bg-white p-3 md:hidden">
-        <MobileFilterSheet allRestaurants={allRestaurants} />
+        <MobileFilterSheet />
         <MobileViewToggle value={mobileView} onChange={setMobileView} />
       </div>
 

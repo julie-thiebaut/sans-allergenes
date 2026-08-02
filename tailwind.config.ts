@@ -5,17 +5,23 @@ export default {
   theme: {
     extend: {
       colors: {
+        // 500 is rgb(241,178,4), the exact brand color requested — used everywhere,
+        // including as text/links/focus-rings on white. That measures ~1.9:1 contrast
+        // against white, well under the WCAG AA text minimum (4.5:1) — an intentional,
+        // explicitly requested trade-off favoring color fidelity over contrast compliance.
+        // 600/700+ (same hue, darkened) are unused for now but kept available for any
+        // future spot that needs a WCAG-safe variant of the brand color.
         brand: {
-          50: "#f4f7f5",
-          100: "#e3ebe5",
-          200: "#c6d7cb",
-          300: "#9fbca8",
-          400: "#729a7f",
-          500: "#4f7d5e",
-          600: "#3c634a",
-          700: "#324f3d",
-          800: "#2b4033",
-          900: "#25352c",
+          50: "#fef8e7",
+          100: "#fdedc0",
+          200: "#fbdd86",
+          300: "#f7cb4c",
+          400: "#f4be20",
+          500: "#f1b204",
+          600: "#be8c03",
+          700: "#6b4f02",
+          800: "#4a3702",
+          900: "#302401",
         },
       },
     },

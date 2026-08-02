@@ -10,7 +10,6 @@ import { useMapsContext } from "../../maps/useMapsContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { LoadingState } from "../common/LoadingState";
-import { BackToParisButton } from "../layout/BackToParisButton";
 import { MapFallback } from "./MapFallback";
 import { MapSelectionPreviewCard } from "./MapSelectionPreviewCard";
 
@@ -100,11 +99,6 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
     return <MapFallback />;
   }
 
-  const handleBackToParis = () => {
-    adapterRef.current?.setCenter(PARIS_CENTER, PARIS_DEFAULT_ZOOM);
-    setBounds(null);
-  };
-
   const selectedRestaurant = restaurants.find((restaurant) => restaurant.id === selectedId);
 
   return (
@@ -119,11 +113,6 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
         className="h-full w-full rounded-lg"
         aria-label="Carte des restaurants"
       />
-      {mapStatus === "ready" && (
-        <div className="absolute right-3 top-3">
-          <BackToParisButton onClick={handleBackToParis} />
-        </div>
-      )}
       {mapStatus === "ready" && showSelectionPreview && selectedRestaurant && (
         <MapSelectionPreviewCard
           restaurant={selectedRestaurant}

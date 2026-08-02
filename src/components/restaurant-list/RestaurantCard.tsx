@@ -50,7 +50,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             <h3 className="font-semibold text-neutral-900">
               <Link
                 to={`/restaurant/${restaurant.slug}`}
-                className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
+                className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
                 onFocus={() => setHoveredId(restaurant.id)}
                 onBlur={() => setHoveredId(null)}
                 onClick={() => setSelectedId(restaurant.id)}

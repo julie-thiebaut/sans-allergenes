@@ -1,5 +1,6 @@
 import { ErrorState } from "../components/common/ErrorState";
 import { LoadingState } from "../components/common/LoadingState";
+import { Navbar } from "../components/layout/Navbar";
 import { SplitView } from "../components/layout/SplitView";
 import { useDataContext } from "../data/DataProvider";
 import { Seo } from "../seo/Seo";
@@ -15,14 +16,14 @@ function HomePageContent() {
   useUrlFilterSync();
   const data = useDataContext();
 
-  if (data.status === "loading") {
-    return <LoadingState label="Chargement des restaurants…" />;
-  }
-  if (data.status === "error") {
-    return <ErrorState message={data.message} />;
-  }
-
-  return <SplitView allRestaurants={data.restaurants} />;
+  return (
+    <div className="flex min-h-0 flex-1 flex-col">
+      <Navbar />
+      {data.status === "loading" && <LoadingState label="Chargement des restaurants…" />}
+      {data.status === "error" && <ErrorState message={data.message} />}
+      {data.status === "ready" && <SplitView allRestaurants={data.restaurants} />}
+    </div>
+  );
 }
 
 export function HomePage() {

@@ -23,6 +23,27 @@ export const ALLERGENS_SORTED_FR: AllergenId[] = [...ALLERGEN_IDS].sort((a, b) =
 );
 
 /**
+ * Decorative pictograms, always paired with the text label (ALLERGEN_LABELS_FR) — never
+ * the sole way to identify an allergen, since emoji rendering/recognition isn't guaranteed.
+ */
+export const ALLERGEN_ICONS: Record<AllergenId, string> = {
+  gluten: "🌾",
+  crustaces: "🦐",
+  oeufs: "🥚",
+  poisson: "🐟",
+  arachides: "🥜",
+  soja: "🫘",
+  lait: "🥛",
+  fruits_a_coque: "🌰",
+  celeri: "🥬",
+  moutarde: "🫙",
+  sesame: "🟤",
+  sulfites: "🍷",
+  lupin: "🌸",
+  mollusques: "🐚",
+};
+
+/**
  * Text label per status. Deliberately none of these say "safe"/"sûr"/"sans risque" —
  * they describe the level of information available, not a safety guarantee.
  */

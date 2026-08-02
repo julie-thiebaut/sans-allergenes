@@ -1,4 +1,4 @@
-import { ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../../data/allergenLabels";
+import { ALLERGEN_ICONS, ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../../data/allergenLabels";
 import type { AllergenId } from "../../data/types";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
@@ -27,10 +27,8 @@ export function AllergensToAvoidFilter() {
           return (
             <label
               key={id}
-              className={`cursor-pointer rounded-full border px-3 py-1 text-sm ${
-                checked
-                  ? "border-red-600 bg-red-600 text-white"
-                  : "border-neutral-300 text-neutral-700"
+              className={`inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1 text-sm ${
+                checked ? "border-red-300 bg-red-50 text-red-700" : "border-neutral-300 text-neutral-700"
               }`}
             >
               <input
@@ -39,7 +37,10 @@ export function AllergensToAvoidFilter() {
                 checked={checked}
                 onChange={() => toggle(id)}
               />
-              {ALLERGEN_LABELS_FR[id]}
+              <span aria-hidden="true">{ALLERGEN_ICONS[id]}</span>
+              <span className={checked ? "line-through decoration-2" : undefined}>
+                {ALLERGEN_LABELS_FR[id]}
+              </span>
             </label>
           );
         })}

@@ -3,7 +3,6 @@ import userEvent from "@testing-library/user-event";
 import { describe, expect, it } from "vitest";
 import { SearchFilterBar } from "../../src/components/filters/SearchFilterBar";
 import { FilterStateProvider, useFilterState } from "../../src/state/FilterStateContext";
-import { allFixtureRestaurants } from "../fixtures/restaurants.fixture";
 
 function FilterStateSpy() {
   const state = useFilterState();
@@ -11,43 +10,42 @@ function FilterStateSpy() {
 }
 
 describe("SearchFilterBar", () => {
-  it("updates search text as the user types", async () => {
+  it("toggles the vegetarian filter", async () => {
     const user = userEvent.setup();
     render(
       <FilterStateProvider>
-        <SearchFilterBar allRestaurants={allFixtureRestaurants} />
+        <SearchFilterBar />
         <FilterStateSpy />
       </FilterStateProvider>,
     );
 
-    await user.type(screen.getByPlaceholderText(/rechercher par nom/i), "sushi");
-    expect(screen.getByTestId("state")).toHaveTextContent('"searchText":"sushi"');
+    await user.click(screen.getByRole("checkbox", { name: /options végétariennes/i }));
+    expect(screen.getByTestId("state")).toHaveTextContent('"vegetarianOnly":true');
   });
 
   it("resets all filters back to defaults", async () => {
     const user = userEvent.setup();
     render(
       <FilterStateProvider>
-        <SearchFilterBar allRestaurants={allFixtureRestaurants} />
+        <SearchFilterBar />
         <FilterStateSpy />
       </FilterStateProvider>,
     );
 
-    await user.type(screen.getByPlaceholderText(/rechercher par nom/i), "sushi");
     await user.click(screen.getByRole("checkbox", { name: /options végétariennes/i }));
+    await user.click(screen.getByRole("checkbox", { name: "Gluten" }));
     await user.click(screen.getByRole("button", { name: /réinitialiser/i }));
 
-    expect(screen.getByTestId("state")).toHaveTextContent('"searchText":""');
     expect(screen.getByTestId("state")).toHaveTextContent('"vegetarianOnly":false');
+    expect(screen.getByTestId("state")).toHaveTextContent('"allergensToAvoid":[]');
   });
 
-  it("lists cuisine types derived from the given restaurants", () => {
+  it("no longer offers a cuisine-type filter (removed in favor of free-text search)", () => {
     render(
       <FilterStateProvider>
-        <SearchFilterBar allRestaurants={allFixtureRestaurants} />
+        <SearchFilterBar />
       </FilterStateProvider>,
     );
-    expect(screen.getByText("Française")).toBeInTheDocument();
-    expect(screen.getByText("Fusion")).toBeInTheDocument();
+    expect(screen.queryByText(/type de cuisine/i)).not.toBeInTheDocument();
   });
 });

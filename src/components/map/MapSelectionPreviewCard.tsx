@@ -33,7 +33,7 @@ export function MapSelectionPreviewCard({
             type="button"
             onClick={onDismiss}
             aria-label="Fermer l'aperçu"
-            className="shrink-0 rounded p-1 text-neutral-500 hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600"
+            className="shrink-0 rounded p-1 text-neutral-500 hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
           >
             ✕
           </button>
@@ -52,7 +52,7 @@ export function MapSelectionPreviewCard({
         </div>
         <Link
           to={`/restaurant/${restaurant.slug}`}
-          className="mt-2 inline-block text-sm font-medium text-brand-600 underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600"
+          className="mt-2 inline-block text-sm font-medium text-brand-500 underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
         >
           Voir la fiche →
         </Link>

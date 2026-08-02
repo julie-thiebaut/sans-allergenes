@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import type { RestaurantWithMenu } from "../../data/types";
 import { SearchFilterBar } from "./SearchFilterBar";
 
-export function MobileFilterSheet({ allRestaurants }: { allRestaurants: RestaurantWithMenu[] }) {
+export function MobileFilterSheet() {
   const [open, setOpen] = useState(false);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -22,7 +21,7 @@ export function MobileFilterSheet({ allRestaurants }: { allRestaurants: Restaura
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm font-medium text-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600"
+        className="rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm font-medium text-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
         aria-haspopup="dialog"
       >
         Filtres
@@ -46,13 +45,13 @@ export function MobileFilterSheet({ allRestaurants }: { allRestaurants: Restaura
                 ref={closeButtonRef}
                 type="button"
                 onClick={() => setOpen(false)}
-                className="rounded-md p-2 text-neutral-600 hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600"
+                className="rounded-md p-2 text-neutral-600 hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
                 aria-label="Fermer les filtres"
               >
                 ✕
               </button>
             </div>
-            <SearchFilterBar allRestaurants={allRestaurants} />
+            <SearchFilterBar />
           </div>
         </div>
       )}

@@ -38,7 +38,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               href={restaurant.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-600 underline hover:text-brand-700"
+              className="text-brand-500 underline hover:text-brand-700"
             >
               Site du restaurant
             </a>

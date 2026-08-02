@@ -86,12 +86,4 @@ describe("MapView (MockMapsAdapter — no real Google Maps call)", () => {
 
     await waitFor(() => expect(screen.getByTestId("bounds")).toHaveTextContent('"north":49'));
   });
-
-  it("shows the back-to-Paris control once the map is mounted", async () => {
-    const mockAdapter = new MockMapsAdapter();
-    renderMapView(mockAdapter);
-    expect(
-      await screen.findByRole("button", { name: /revenir à la vue de paris/i }),
-    ).toBeInTheDocument();
-  });
 });

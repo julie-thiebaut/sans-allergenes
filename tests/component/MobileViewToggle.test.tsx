@@ -54,19 +54,20 @@ describe("MobileViewToggle (standalone)", () => {
 });
 
 describe("SplitView mobile list/map switching", () => {
-  it("mounts only the list, not the map, by default on mobile", () => {
+  it("mounts only the map, not the list, by default on mobile", async () => {
     renderMobileSplitView();
-    expect(screen.getByRole("link", { name: "Le Restaurant Complet" })).toBeInTheDocument();
-    expect(screen.queryByLabelText("Carte des restaurants")).not.toBeInTheDocument();
+    expect(await screen.findByLabelText("Carte des restaurants")).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Le Restaurant Complet" })).not.toBeInTheDocument();
   });
 
-  it("shows only the map, not the list, after tapping the Carte toggle", async () => {
+  it("shows only the list, not the map, after tapping the Liste toggle", async () => {
     const user = userEvent.setup();
     renderMobileSplitView();
+    await screen.findByLabelText("Carte des restaurants");
 
-    await user.click(screen.getByRole("button", { name: "Carte" }));
+    await user.click(screen.getByRole("button", { name: "Liste" }));
 
-    expect(screen.queryByRole("link", { name: "Le Restaurant Complet" })).not.toBeInTheDocument();
-    expect(screen.getByLabelText("Carte des restaurants")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Le Restaurant Complet" })).toBeInTheDocument();
+    expect(screen.queryByLabelText("Carte des restaurants")).not.toBeInTheDocument();
   });
 });
