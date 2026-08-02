@@ -39,17 +39,6 @@ jobs:
       - name: Install dependencies (lockfile-based)
         run: npm ci
 
-      # BASE_PATH must match wherever the build is ACTUALLY reachable, which is the
-      # /repo-name/ subpath on github.io until the custom domain's DNS is configured and
-      # verified (see NOTES.md "Domaine personnalisé"). Once sans-allergenes.fr is live and
-      # is the primary way visitors reach the site, change this to a fixed "/" instead —
-      # asset paths are absolute (vite.config.ts base), so this must match the real serving
-      # path or CSS/JS 404 and the page renders unstyled.
-      - name: Compute base path from repository name
-        run: |
-          REPO_NAME="${GITHUB_REPOSITORY#*/}"
-          echo "BASE_PATH=/${REPO_NAME}/" >> "$GITHUB_ENV"
-
       - name: Lint
         run: npm run lint
 
