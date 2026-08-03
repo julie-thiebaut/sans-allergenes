@@ -27,10 +27,13 @@ export function MobileFilterSheet({
 
   return (
     <>
+      {/* Primary action on mobile, so it gets the brand fill rather than the white/grey
+          treatment it had — which left it invisible against the white bar it sits in. The
+          focus ring is dark, not brand: a mustard ring on mustard reads as nothing. */}
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm font-medium text-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+        className="rounded-md bg-brand-500 px-3 py-2 text-sm font-semibold text-neutral-900 hover:bg-brand-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
         aria-haspopup="dialog"
       >
         {title}

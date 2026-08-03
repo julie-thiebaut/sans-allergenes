@@ -69,7 +69,7 @@ describe("RestaurantDetailPage (open/close)", () => {
     expect(screen.getByText("Plat au blé")).toBeInTheDocument();
 
     // Default (mocked) viewport is mobile, so the filter lives behind the sheet button.
-    await user.click(screen.getByRole("button", { name: "Filtrer la carte" }));
+    await user.click(screen.getByRole("button", { name: "Filtrer par allergènes" }));
     await user.click(screen.getByRole("checkbox", { name: /gluten/i }));
     await user.click(screen.getByRole("button", { name: /fermer les filtres/i }));
 

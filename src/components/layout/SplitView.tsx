@@ -39,11 +39,13 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
         <SearchFilterBar />
       </div>
 
+      {/* View switcher left, filter action right — the filter button keeps the same corner
+          across the app, so it stays where the user last found it. */}
       <div className="flex items-center justify-between gap-2 border-b border-neutral-200 bg-white p-3 md:hidden">
-        <MobileFilterSheet>
+        <MobileViewToggle value={mobileView} onChange={setMobileView} />
+        <MobileFilterSheet title="Filtrer par allergènes">
           <SearchFilterBar />
         </MobileFilterSheet>
-        <MobileViewToggle value={mobileView} onChange={setMobileView} />
       </div>
 
       <ResultCount count={visibleInList.length} />

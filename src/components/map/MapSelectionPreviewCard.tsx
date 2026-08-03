@@ -3,6 +3,7 @@ import type { RestaurantWithMenu } from "../../data/types";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
+import { ChevronIcon } from "../common/ChevronIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
@@ -65,9 +66,11 @@ export function MapSelectionPreviewCard({
         </div>
         <Link
           to={`/restaurant/${restaurant.slug}`}
-          className="mt-2 inline-block text-sm font-medium text-brand-500 underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+          className="mt-2 inline-flex items-center gap-0.5 text-sm font-medium text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
         >
-          Voir la fiche →
+          {/* Underline on the text only, so it isn't dragged through the chevron. */}
+          <span className="underline">Voir la fiche</span>
+          <ChevronIcon />
         </Link>
       </div>
     </div>

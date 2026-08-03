@@ -74,6 +74,9 @@ describe("MapView (MockMapsAdapter — no real Google Maps call)", () => {
     expect(await screen.findByText(restaurantWithFullInfo.name)).toBeInTheDocument();
     expect(screen.queryByText(restaurantWithoutAllergenInfo.name)).not.toBeInTheDocument();
 
+    // The chevron is a decorative SVG, so it must not leak into the link's accessible name.
+    expect(screen.getByRole("link", { name: "Voir la fiche" })).toBeInTheDocument();
+
     const user = userEvent.setup();
     await user.click(screen.getByRole("button", { name: /fermer l'aperçu/i }));
 

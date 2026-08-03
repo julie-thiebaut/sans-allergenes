@@ -81,9 +81,11 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
                 <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
               </div>
             ) : (
-              <MobileFilterSheet title="Filtrer la carte">
-                <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
-              </MobileFilterSheet>
+              <div className="flex justify-end">
+                <MobileFilterSheet title="Filtrer par allergènes">
+                  <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
+                </MobileFilterSheet>
+              </div>
             )}
 
             {menu.excludedDishCount > 0 && (

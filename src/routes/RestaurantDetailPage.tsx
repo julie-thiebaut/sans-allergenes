@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { ChevronIcon } from "../components/common/ChevronIcon";
 import { ErrorState } from "../components/common/ErrorState";
 import { LoadingState } from "../components/common/LoadingState";
 import { RestaurantDetailView } from "../components/restaurant-detail/RestaurantDetailView";
@@ -39,8 +40,12 @@ export function RestaurantDetailPage() {
     // so this ordinary long document has to scroll itself rather than the page.
     <div className="mx-auto w-full max-w-3xl overflow-y-auto p-4">
       <Seo title={meta.title} description={meta.description} />
-      <Link to="/" className="mb-4 inline-block text-sm text-brand-500 underline">
-        ← Retour à la liste
+      <Link
+        to="/"
+        className="mb-4 inline-flex items-center gap-0.5 text-sm text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+      >
+        <ChevronIcon direction="left" />
+        <span className="underline">Retour à la liste</span>
       </Link>
       <RestaurantDetailView restaurant={restaurant} />
     </div>
