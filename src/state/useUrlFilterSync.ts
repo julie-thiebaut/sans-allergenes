@@ -28,6 +28,10 @@ function parseFilterStateFromParams(params: URLSearchParams): FilterState {
   };
 }
 
+function hasAnyFilterParam(params: URLSearchParams): boolean {
+  return Object.values(PARAM_KEYS).some((key) => params.has(key));
+}
+
 function filterStateToParams(filters: FilterState): URLSearchParams {
   const params = new URLSearchParams();
   if (filters.cuisineTypes.length > 0)
@@ -55,6 +59,12 @@ export function useUrlFilterSync(): void {
   useEffect(() => {
     if (hasHydrated.current) return;
     hasHydrated.current = true;
+    // Only hydrate when the URL actually carries filter params. Filter state now outlives
+    // navigation (it lives above the router), so a param-less URL — e.g. coming back from a
+    // restaurant page via a plain "/" link — must not be read as "no filters selected" and
+    // wipe the user's choice. With no params there is nothing to restore, and the effect
+    // below immediately writes the live state back into the URL instead.
+    if (!hasAnyFilterParam(searchParams)) return;
     dispatch({ type: "REPLACE_ALL", value: parseFilterStateFromParams(searchParams) });
     // Intentionally run once on mount only — this hydrates from the URL a page was opened with.
     // eslint-disable-next-line react-hooks/exhaustive-deps

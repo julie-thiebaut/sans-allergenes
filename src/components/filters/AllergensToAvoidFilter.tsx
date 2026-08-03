@@ -2,7 +2,21 @@ import { ALLERGEN_ICONS, ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../../d
 import type { AllergenId } from "../../data/types";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
-export function AllergensToAvoidFilter() {
+const LIST_DESCRIPTION =
+  "Les restaurants dont un plat déclare cet allergène comme présent sont exclus des résultats. " +
+  "Les mentions « traces possibles » ou « information incomplète » restent affichées : rester " +
+  "dans la liste ne constitue jamais une garantie pour ce restaurant.";
+
+/**
+ * `description` is overridable because the same control filters two different things (the
+ * restaurant list, and a single restaurant's menu) and must state precisely what it excludes
+ * in each case — vague wording here is exactly how a filter gets mistaken for a safety filter.
+ */
+export function AllergensToAvoidFilter({
+  description = LIST_DESCRIPTION,
+}: {
+  description?: string;
+}) {
   const { allergensToAvoid } = useFilterState();
   const dispatch = useFilterDispatch();
 
@@ -16,11 +30,7 @@ export function AllergensToAvoidFilter() {
   return (
     <fieldset>
       <legend className="mb-1 text-sm font-medium text-neutral-700">Allergènes à éviter</legend>
-      <p className="mb-2 text-xs text-neutral-500">
-        Les restaurants dont un plat déclare cet allergène comme présent sont exclus des résultats.
-        Les mentions « traces possibles » ou « information incomplète » restent affichées : rester
-        dans la liste ne constitue jamais une garantie pour ce restaurant.
-      </p>
+      <p className="mb-2 text-xs text-neutral-500">{description}</p>
       <div className="flex flex-wrap gap-1.5">
         {ALLERGENS_SORTED_FR.map((id) => {
           const checked = allergensToAvoid.includes(id);

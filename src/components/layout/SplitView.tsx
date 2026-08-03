@@ -40,7 +40,9 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
       </div>
 
       <div className="flex items-center justify-between gap-2 border-b border-neutral-200 bg-white p-3 md:hidden">
-        <MobileFilterSheet />
+        <MobileFilterSheet>
+          <SearchFilterBar />
+        </MobileFilterSheet>
         <MobileViewToggle value={mobileView} onChange={setMobileView} />
       </div>
 

@@ -1,4 +1,4 @@
-import type { AllergenId, AllergenMap, Menu } from "../data/types";
+import type { AllergenId, AllergenMap, Menu, MenuCategory } from "../data/types";
 
 /**
  * Safety-critical chokepoint: this is the ONLY place in the app allowed to turn raw
@@ -55,4 +55,32 @@ export function assessMenuAgainstAvoidance(
       ASSESSMENT_SEVERITY[current] > ASSESSMENT_SEVERITY[worst] ? current : worst,
     "incomplete_info_for_avoided",
   );
+}
+
+/**
+ * Dish-level filtering for a single restaurant's menu. Applies exactly the same rule as the
+ * restaurant list: ONLY a confirmed "present" match is removed. Dishes flagged "may_contain",
+ * and dishes whose info is missing entirely, deliberately stay visible — dropping them would
+ * leave a menu that reads as "these dishes are fine", a guarantee the data cannot support.
+ * `excludedDishCount` lets the UI say out loud that something was hidden.
+ */
+export function filterMenuAgainstAvoidance(
+  menu: Menu,
+  avoid: AllergenId[],
+): { categories: MenuCategory[]; excludedDishCount: number } {
+  if (avoid.length === 0) return { categories: menu.categories, excludedDishCount: 0 };
+
+  let excludedDishCount = 0;
+  const categories = menu.categories
+    .map((category) => ({
+      ...category,
+      dishes: category.dishes.filter((dish) => {
+        const excluded = assessDishAgainstAvoidance(dish.allergens, avoid) === "contains_avoided";
+        if (excluded) excludedDishCount += 1;
+        return !excluded;
+      }),
+    }))
+    .filter((category) => category.dishes.length > 0);
+
+  return { categories, excludedDishCount };
 }

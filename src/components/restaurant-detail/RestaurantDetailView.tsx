@@ -1,5 +1,10 @@
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { formatVerifiedDate } from "../../utils/formatDate";
+import { filterMenuAgainstAvoidance } from "../../filtering/allergenLogic";
+import { useFilterState } from "../../state/FilterStateContext";
+import { useMediaQuery } from "../../utils/useMediaQuery";
+import { AllergensToAvoidFilter } from "../filters/AllergensToAvoidFilter";
+import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import type { RestaurantWithMenu } from "../../data/types";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
@@ -9,8 +14,21 @@ import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
 import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
 
+const MENU_FILTER_DESCRIPTION =
+  "Les plats déclarant cet allergène comme présent sont masqués. Les plats « traces possibles » " +
+  "et ceux sans information restent affichés : leur présence dans la carte ne constitue jamais " +
+  "une garantie.";
+
 export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWithMenu }) {
   const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
+  const { allergensToAvoid } = useFilterState();
+  // Rendered in one place or the other, never both: two copies would mean duplicate checkboxes
+  // for the same allergen in the accessibility tree.
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const menu =
+    restaurant.allergenInformationAvailable && restaurant.menu
+      ? filterMenuAgainstAvoidance(restaurant.menu, allergensToAvoid)
+      : null;
 
   return (
     <article>
@@ -56,10 +74,36 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
       <div className="mt-6 space-y-8">
         {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
 
-        {restaurant.allergenInformationAvailable && restaurant.menu ? (
-          restaurant.menu.categories.map((category) => (
-            <MenuSection key={category.category} category={category} />
-          ))
+        {menu ? (
+          <>
+            {isDesktop ? (
+              <div className="rounded-md border border-neutral-200 bg-neutral-50 p-4">
+                <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
+              </div>
+            ) : (
+              <MobileFilterSheet title="Filtrer la carte">
+                <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
+              </MobileFilterSheet>
+            )}
+
+            {menu.excludedDishCount > 0 && (
+              <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
+                {menu.excludedDishCount}{" "}
+                {menu.excludedDishCount > 1 ? "plats masqués" : "plat masqué"} : l&rsquo;allergène
+                à éviter y est déclaré présent.
+              </p>
+            )}
+
+            {menu.categories.length > 0 ? (
+              menu.categories.map((category) => (
+                <MenuSection key={category.category} category={category} />
+              ))
+            ) : (
+              <p className="rounded-md border border-neutral-300 bg-neutral-50 p-4 text-neutral-700">
+                Aucun plat de cette carte ne correspond aux allergènes à éviter sélectionnés.
+              </p>
+            )}
+          </>
         ) : (
           <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
             Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
