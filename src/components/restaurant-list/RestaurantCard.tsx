@@ -55,11 +55,17 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
       onMouseLeave={() => setHoveredId(null)}
     >
       <div className="flex gap-3">
-        <ImageWithPlaceholder
-          src={restaurant.imageUrl}
-          alt={restaurant.name}
-          className="h-24 w-24 shrink-0 rounded-md object-cover"
-        />
+        {/* Fixed width, height driven by the text column beside it. The image is positioned
+            absolutely inside this wrapper so it fills whatever height the row ends up with,
+            including the cases where an allergen notice adds a line. min-height keeps it from
+            collapsing if a card ever carries very little text. */}
+        <div className="relative min-h-[6rem] w-24 shrink-0 overflow-hidden rounded-md">
+          <ImageWithPlaceholder
+            src={restaurant.imageUrl}
+            alt={restaurant.name}
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-2">
             <h3 className="flex items-center gap-1 font-semibold text-neutral-900">

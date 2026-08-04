@@ -36,11 +36,15 @@ export function MapSelectionPreviewCard({
           : "border-red-400 bg-red-50"
       }`}
     >
-      <ImageWithPlaceholder
-        src={restaurant.imageUrl}
-        alt={restaurant.name}
-        className="h-16 w-16 shrink-0 rounded-md object-cover"
-      />
+      {/* Same treatment as the list card: the thumbnail runs the full height of the text
+          beside it rather than sitting as a square with dead space underneath. */}
+      <div className="relative min-h-[5rem] w-20 shrink-0 overflow-hidden rounded-md">
+        <ImageWithPlaceholder
+          src={restaurant.imageUrl}
+          alt={restaurant.name}
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      </div>
       <div className="min-w-0 flex-1">
         <div className="flex items-start justify-between gap-2">
           <div className="flex min-w-0 items-center gap-1">
