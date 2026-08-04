@@ -23,8 +23,8 @@ export function RestaurantDetailPage() {
     return (
       <div className="overflow-y-auto p-6">
         <p>Restaurant introuvable.</p>
-        <Link to="/" className="text-brand-500 underline">
-          Retour à la liste
+        <Link to="/carte" className="text-brand-500 underline">
+          Retour à la carte
         </Link>
       </div>
     );
@@ -41,11 +41,11 @@ export function RestaurantDetailPage() {
     <div className="mx-auto w-full max-w-3xl overflow-y-auto p-4">
       <Seo title={meta.title} description={meta.description} />
       <Link
-        to="/"
+        to="/carte"
         className="mb-4 inline-flex items-center gap-0.5 text-sm text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
       >
         <ChevronIcon direction="left" />
-        <span className="underline">Retour à la liste</span>
+        <span className="underline">Retour à la carte</span>
       </Link>
       <RestaurantDetailView restaurant={restaurant} />
     </div>

@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { DEFAULT_FILTER_STATE, filterRestaurants } from "../../../src/filtering/filterRestaurants";
+import type { RestaurantWithMenu } from "../../../src/data/types";
+import { fullInfoMenu, makeAllergenMap } from "../../fixtures/menu.fixture";
 import {
   allFixtureRestaurants,
   restaurantWithFullInfo,
@@ -28,12 +30,40 @@ describe("filterRestaurants", () => {
     expect(result).toEqual([restaurantWithUnknownInfo]);
   });
 
-  it("excludes a restaurant with a confirmed present match for an avoided allergen", () => {
+  it("keeps a restaurant that still has a dish without the avoided allergen", () => {
+    // fullInfoMenu: "Plat au blé" declares gluten, "Salade simple" doesn't. One offending dish
+    // must not remove an establishment where something else is still on the table.
     const result = filterRestaurants(allFixtureRestaurants, {
       ...DEFAULT_FILTER_STATE,
       allergensToAvoid: ["gluten"],
     });
-    expect(result).not.toContainEqual(restaurantWithFullInfo);
+    expect(result).toContainEqual(restaurantWithFullInfo);
+  });
+
+  it("excludes a restaurant only when every dish declares the avoided allergen", () => {
+    const allGluten: RestaurantWithMenu = {
+      ...restaurantWithFullInfo,
+      id: "rest-all-gluten",
+      slug: "rest-all-gluten",
+      menu: {
+        ...fullInfoMenu,
+        categories: [
+          {
+            category: "Plats",
+            dishes: fullInfoMenu.categories[0]!.dishes.map((dish) => ({
+              ...dish,
+              allergens: makeAllergenMap({ gluten: "present" }),
+            })),
+          },
+        ],
+      },
+    };
+
+    const result = filterRestaurants([allGluten], {
+      ...DEFAULT_FILTER_STATE,
+      allergensToAvoid: ["gluten"],
+    });
+    expect(result).toEqual([]);
   });
 
   it("keeps a restaurant with only unknown info for the avoided allergen (never silently marked safe)", () => {

@@ -4,15 +4,15 @@ import { Navbar } from "../components/layout/Navbar";
 import { SplitView } from "../components/layout/SplitView";
 import { useDataContext } from "../data/DataProvider";
 import { Seo } from "../seo/Seo";
-import { buildHomeMeta } from "../seo/seoData";
+import { buildMapMeta } from "../seo/seoData";
 import { MapActionsProvider } from "../state/mapActionsContext";
 import { MapBoundsProvider } from "../state/mapBoundsContext";
 import { SelectionProvider } from "../state/SelectionContext";
 import { useUrlFilterSync } from "../state/useUrlFilterSync";
 
-const HOME_META = buildHomeMeta(typeof window !== "undefined" ? window.location.origin : "");
+const MAP_META = buildMapMeta(typeof window !== "undefined" ? window.location.origin : "");
 
-function HomePageContent() {
+function MapPageContent() {
   useUrlFilterSync();
   const data = useDataContext();
 
@@ -26,13 +26,13 @@ function HomePageContent() {
   );
 }
 
-export function HomePage() {
+export function MapPage() {
   return (
     <SelectionProvider>
       <MapBoundsProvider>
         <MapActionsProvider>
-          <Seo title={HOME_META.title} description={HOME_META.description} />
-          <HomePageContent />
+          <Seo title={MAP_META.title} description={MAP_META.description} />
+          <MapPageContent />
         </MapActionsProvider>
       </MapBoundsProvider>
     </SelectionProvider>

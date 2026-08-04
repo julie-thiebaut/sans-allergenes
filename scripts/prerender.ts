@@ -4,7 +4,12 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { RestaurantListSchema } from "../src/data/schemas";
-import { buildHomeMeta, buildRestaurantMeta, type PageMeta } from "../src/seo/seoData";
+import {
+  buildHomeMeta,
+  buildMapMeta,
+  buildRestaurantMeta,
+  type PageMeta,
+} from "../src/seo/seoData";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -106,6 +111,11 @@ async function main(): Promise<void> {
 
   const routes: RouteToRender[] = [
     { urlPath: "/", outFile: path.join(DIST_DIR, "index.html"), meta: buildHomeMeta(SITE_URL) },
+    {
+      urlPath: "/carte/",
+      outFile: path.join(DIST_DIR, "carte", "index.html"),
+      meta: buildMapMeta(SITE_URL),
+    },
     ...restaurants.map((restaurant): RouteToRender => ({
       urlPath: `/restaurant/${restaurant.slug}/`,
       outFile: path.join(DIST_DIR, "restaurant", restaurant.slug, "index.html"),

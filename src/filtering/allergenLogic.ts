@@ -58,10 +58,30 @@ export function assessMenuAgainstAvoidance(
 }
 
 /**
- * Dish-level filtering for a single restaurant's menu. Applies exactly the same rule as the
- * restaurant list: ONLY a confirmed "present" match is removed. Dishes flagged "may_contain",
- * and dishes whose info is missing entirely, deliberately stay visible — dropping them would
- * leave a menu that reads as "these dishes are fine", a guarantee the data cannot support.
+ * How many of a menu's dishes declare an avoided allergen as present, out of how many. This is
+ * what decides whether a RESTAURANT is worth listing: one offending dish out of ten shouldn't
+ * remove an establishment where nine dishes are still on the table. Returns zero totals when
+ * there is no menu, so callers can tell "nothing declared" apart from "nothing left".
+ */
+export function countDishesDeclaringAvoided(
+  menu: Menu | undefined,
+  avoid: AllergenId[],
+): { declaring: number; total: number } {
+  if (!menu || avoid.length === 0) return { declaring: 0, total: 0 };
+
+  const dishes = menu.categories.flatMap((category) => category.dishes);
+  const declaring = dishes.filter(
+    (dish) => assessDishAgainstAvoidance(dish.allergens, avoid) === "contains_avoided",
+  ).length;
+
+  return { declaring, total: dishes.length };
+}
+
+/**
+ * Dish-level filtering for a single restaurant's menu. ONLY a confirmed "present" match is
+ * removed. Dishes flagged "may_contain", and dishes whose info is missing entirely, deliberately
+ * stay visible — dropping them would leave a menu that reads as "these dishes are fine", a
+ * guarantee the data cannot support.
  * `excludedDishCount` lets the UI say out loud that something was hidden.
  */
 export function filterMenuAgainstAvoidance(

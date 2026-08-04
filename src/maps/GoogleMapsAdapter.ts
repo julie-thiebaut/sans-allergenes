@@ -53,7 +53,9 @@ function markerIcon(highlighted: boolean): google.maps.Symbol {
   // so it stays legible for color-blind users and in high-contrast mode.
   return {
     path: "M12 0C7 0 3 4 3 9c0 6.5 9 15 9 15s9-8.5 9-15c0-5-4-9-9-9z",
-    fillColor: "#f1b204",
+    // Kept in sync by hand with brand-500 in tailwind.config.ts: the Maps SDK builds this
+    // symbol in JS, so it cannot read a Tailwind class.
+    fillColor: "#f1b104",
     fillOpacity: 1,
     strokeColor: "#ffffff",
     strokeWeight: highlighted ? 3 : 1.5,
@@ -84,7 +86,7 @@ export class GoogleMapsAdapter implements MapsAdapter {
   ): Promise<void> {
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
     if (!apiKey) {
-      throw new Error("VITE_GOOGLE_MAPS_API_KEY est manquante — voir .env.example");
+      throw new Error("VITE_GOOGLE_MAPS_API_KEY est manquante, voir .env.example");
     }
 
     await loadGoogleMapsScript(apiKey);

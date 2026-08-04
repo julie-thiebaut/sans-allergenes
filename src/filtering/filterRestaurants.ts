@@ -1,5 +1,5 @@
 import type { AllergenId, RestaurantWithMenu } from "../data/types";
-import { assessMenuAgainstAvoidance } from "./allergenLogic";
+import { countDishesDeclaringAvoided } from "./allergenLogic";
 
 export interface FilterState {
   cuisineTypes: string[];
@@ -28,10 +28,13 @@ export function isFilterStateDefault(filters: FilterState): boolean {
 }
 
 /**
- * Pure, client-side filter. The allergens-to-avoid filter only ever removes a restaurant on
- * a CONFIRMED "present" match (see allergenLogic.ts) — restaurants with only "may_contain" or
- * incomplete info stay in the results, distinguishable via a badge, never silently promoted
- * to "safe".
+ * Pure, client-side filter. A restaurant is removed for an avoided allergen only when EVERY
+ * dish on its menu declares that allergen present — one offending dish out of ten is not a
+ * reason to hide an establishment where the other nine are still an option, and hiding it
+ * would also contradict the menu view, which happily lists those nine.
+ *
+ * Restaurants kept this way are never promoted to "safe": dishes with "may_contain" or missing
+ * information stay listed and labelled, and the card says how many dishes are concerned.
  */
 export function filterRestaurants(
   restaurants: RestaurantWithMenu[],
@@ -50,8 +53,12 @@ export function filterRestaurants(
     if (filters.allergenInfoAvailableOnly && !restaurant.allergenInformationAvailable) return false;
 
     if (filters.allergensToAvoid.length > 0) {
-      const assessment = assessMenuAgainstAvoidance(restaurant.menu, filters.allergensToAvoid);
-      if (assessment === "contains_avoided") return false;
+      const { declaring, total } = countDishesDeclaringAvoided(
+        restaurant.menu,
+        filters.allergensToAvoid,
+      );
+      // total === 0 means there is no menu to judge — kept, flagged as incomplete elsewhere.
+      if (total > 0 && declaring === total) return false;
     }
 
     return true;

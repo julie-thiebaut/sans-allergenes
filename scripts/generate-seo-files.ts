@@ -19,6 +19,7 @@ async function main(): Promise<void> {
 
   const urls = [
     SITE_URL,
+    `${SITE_URL}carte/`,
     ...restaurants.map((restaurant) => `${SITE_URL}restaurant/${restaurant.slug}/`),
   ];
 

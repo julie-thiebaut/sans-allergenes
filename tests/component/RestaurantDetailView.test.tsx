@@ -13,7 +13,7 @@ function renderDetailPage(initialPath: string) {
       <FilterStateProvider>
         <MemoryRouter initialEntries={[initialPath]}>
           <Routes>
-            <Route path="/" element={<div>Page d&apos;accueil</div>} />
+            <Route path="/carte" element={<div>La carte</div>} />
             <Route path="/restaurant/:slug" element={<RestaurantDetailPage />} />
           </Routes>
         </MemoryRouter>
@@ -81,10 +81,10 @@ describe("RestaurantDetailPage (open/close)", () => {
     expect(screen.queryByText(/\bsafe\b|sûr|sans risque/i)).not.toBeInTheDocument();
   });
 
-  it("closes back to the list via the back link", async () => {
+  it("closes back to the map via the back link", async () => {
     const user = userEvent.setup();
     renderDetailPage("/restaurant/le-restaurant-complet");
-    await user.click(screen.getByRole("link", { name: /retour à la liste/i }));
-    expect(await screen.findByText("Page d'accueil")).toBeInTheDocument();
+    await user.click(screen.getByRole("link", { name: /retour à la carte/i }));
+    expect(await screen.findByText("La carte")).toBeInTheDocument();
   });
 });

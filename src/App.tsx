@@ -4,7 +4,8 @@ import { DataProvider } from "./data/DataProvider";
 import { MapsProvider } from "./maps/MapsProvider";
 import { FilterStateProvider } from "./state/FilterStateContext";
 import { NotFoundPage } from "./routes/NotFoundPage";
-import { HomePage } from "./routes/HomePage";
+import { LandingPage } from "./routes/LandingPage";
+import { MapPage } from "./routes/MapPage";
 import { RestaurantDetailPage } from "./routes/RestaurantDetailPage";
 import { PrerenderReadyMarker } from "./seo/PrerenderReadyMarker";
 
@@ -25,7 +26,8 @@ export function App() {
             <div className="flex h-dvh flex-col">
               <main className="flex min-h-0 flex-1 flex-col overflow-hidden">
                 <Routes>
-                  <Route path="/" element={<HomePage />} />
+                  <Route path="/" element={<LandingPage />} />
+                  <Route path="/carte" element={<MapPage />} />
                   <Route path="/restaurant/:slug" element={<RestaurantDetailPage />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>

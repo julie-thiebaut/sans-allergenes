@@ -10,19 +10,31 @@ export interface PageMeta {
 
 const SITE_NAME = "Sans Allergènes";
 
+/** The landing page at `/` — explains the project; the map itself lives at `/carte/`. */
 export function buildHomeMeta(siteUrl: string): PageMeta {
   return {
-    title: `${SITE_NAME} — Restaurants à Paris et informations allergènes`,
+    // No city named here on purpose: the coverage area is meant to grow, and a title that
+    // pins the site to one city would have to be re-indexed the day it does.
+    title: `${SITE_NAME} · Trouvez où manger sans allergènes`,
     description:
-      "Trouvez des restaurants à Paris et consultez les informations disponibles sur les allergènes de leurs plats.",
+      "Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez.",
     canonical: siteUrl,
+  };
+}
+
+export function buildMapMeta(siteUrl: string): PageMeta {
+  return {
+    title: `La carte des restaurants · ${SITE_NAME}`,
+    description:
+      "Parcourez la carte des restaurants et consultez les informations disponibles sur les allergènes de leurs plats.",
+    canonical: `${siteUrl.replace(/\/$/, "")}/carte/`,
   };
 }
 
 export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): PageMeta {
   const canonical = `${siteUrl.replace(/\/$/, "")}/restaurant/${restaurant.slug}/`;
   const primaryCuisine = restaurant.cuisineTypes[0] ?? "Restaurant";
-  const title = `${restaurant.name} — ${primaryCuisine} à ${restaurant.city} | ${SITE_NAME}`;
+  const title = `${restaurant.name} · ${primaryCuisine} à ${restaurant.city} | ${SITE_NAME}`;
   const description =
     restaurant.description ??
     `Informations sur les allergènes pour ${restaurant.name}, ${restaurant.cuisineTypes.join(", ")} à ${restaurant.city}.`;

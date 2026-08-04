@@ -45,7 +45,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         </div>
         <p className="mt-1 text-neutral-600">
           {restaurant.address}, {restaurant.postalCode} {restaurant.city}
-          {arrondissement ? ` — ${arrondissement}` : ""}
+          {arrondissement ? ` · ${arrondissement}` : ""}
         </p>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-neutral-700">
           <span>{restaurant.cuisineTypes.join(", ")}</span>

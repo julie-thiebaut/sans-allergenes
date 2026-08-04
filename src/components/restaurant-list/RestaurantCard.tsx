@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { assessMenuAgainstAvoidance } from "../../filtering/allergenLogic";
+import {
+  assessMenuAgainstAvoidance,
+  countDishesDeclaringAvoided,
+} from "../../filtering/allergenLogic";
 import type { RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useSelectionContext } from "../../state/SelectionContext";
@@ -27,12 +30,17 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
   const isHighlighted = hoveredId === restaurant.id || selectedId === restaurant.id;
   const isWarning = !restaurant.allergenInformationAvailable;
 
-  // Restaurants with a confirmed "present" match are already excluded by filterRestaurants;
-  // only "may_contain" / incomplete-info cases can still show up here, so we surface which.
+  // A restaurant is only excluded when EVERY dish declares an avoided allergen, so cards here
+  // may still have some offending dishes — the count says how many, rather than leaving the
+  // user to discover it after opening the menu.
   const avoidanceAssessment =
     filters.allergensToAvoid.length > 0
       ? assessMenuAgainstAvoidance(restaurant.menu, filters.allergensToAvoid)
       : null;
+  const { declaring, total } =
+    filters.allergensToAvoid.length > 0
+      ? countDishesDeclaringAvoided(restaurant.menu, filters.allergensToAvoid)
+      : { declaring: 0, total: 0 };
 
   return (
     <article
@@ -69,7 +77,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             <PriceLevelIndicator level={restaurant.priceLevel} />
           </div>
           <p className="truncate text-sm text-neutral-600">
-            {arrondissement ?? restaurant.city} — {restaurant.address}
+            {arrondissement ?? restaurant.city} · {restaurant.address}
           </p>
           <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
 
@@ -88,9 +96,15 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             )}
           </div>
 
+          {declaring > 0 && (
+            <p className="mt-1 text-xs font-medium text-amber-700">
+              {declaring} plat{declaring > 1 ? "s" : ""} sur {total} déclare
+              {declaring > 1 ? "nt" : ""} l&rsquo;allergène à éviter
+            </p>
+          )}
           {avoidanceAssessment === "may_contain_avoided" && (
             <p className="mt-1 text-xs font-medium text-amber-700">
-              ⚠ Traces possibles de l&rsquo;allergène à éviter — vérifiez avant de commander
+              ⚠ Traces possibles de l&rsquo;allergène à éviter. Vérifiez avant de commander.
             </p>
           )}
           {avoidanceAssessment === "incomplete_info_for_avoided" && (
