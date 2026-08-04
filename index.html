@@ -3,11 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sans Allergènes — Restaurants à Paris et informations allergènes</title>
+    <!--
+      Fallback metadata only: scripts/prerender.ts overwrites the title and description per
+      route. Kept in step with buildHomeMeta in src/seo/seoData.ts so the raw index never
+      ships copy the site has moved on from.
+    -->
+    <title>Sans Allergènes · Trouvez où manger sans allergènes</title>
     <meta
       name="description"
-      content="Trouvez des restaurants à Paris et consultez les informations disponibles sur les allergènes de leurs plats."
+      content="Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez."
     />
+
+    <!--
+      favicon.svg is the source of truth; the other two are generated from it by
+      `npm run favicons`. The .ico is listed first and the SVG second on purpose: browsers
+      take the last format they understand, so modern ones get the scalable file while the
+      rest fall back to the bitmap.
+    -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#f1b104" />
     <!--
       GitHub Pages SPA redirect trick (rafgraph/spa-github-pages): when 404.html
       bounces a deep-link request back here as ?/path, restore the real URL via

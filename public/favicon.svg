@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Sans Allergènes">
+  <!--
+    The pin is the exact path the map markers are drawn with (see markerIcon in
+    src/maps/GoogleMapsAdapter.ts), so the tab icon and the pins on the map are the same
+    shape rather than two loosely related drawings.
+
+    Dark pin on the brand yellow rather than the reverse: brand-500 on white measures about
+    1.9:1, which disappears against a light tab strip. This pairing measures 5.7:1 and the
+    solid tile keeps a recognisable silhouette down to 16px. The pin is left solid, with no
+    hole, both to match the markers and because a hole that small turns to mush at 16px.
+  -->
+  <rect width="32" height="32" rx="7" fill="#f1b104" />
+  <path
+    transform="translate(5 5) scale(0.917)"
+    d="M12 0C7 0 3 4 3 9c0 6.5 9 15 9 15s9-8.5 9-15c0-5-4-9-9-9z"
+    fill="#573240"
+  />
+</svg>
