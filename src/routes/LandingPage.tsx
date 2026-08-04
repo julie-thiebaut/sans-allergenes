@@ -39,30 +39,6 @@ function CtaButton({ children, className = "" }: { children: ReactNode; classNam
   );
 }
 
-/** A miniature of a real dish row — showing the product beats describing it. */
-function DishPreview() {
-  return (
-    <div className="rotate-1 rounded-xl border border-neutral-200 bg-white p-5 shadow-xl">
-      <div className="flex items-baseline justify-between gap-4">
-        <span className="font-semibold text-neutral-900">Bruschetta tomate-basilic</span>
-        <span className="whitespace-nowrap text-neutral-600">7,50 €</span>
-      </div>
-      <div className="mt-3 flex flex-wrap items-center gap-2">
-        <span className="text-xs font-semibold text-neutral-900">Présent :</span>
-        <span className="inline-flex items-center gap-1 rounded-md border border-neutral-300 bg-white px-2 py-1 text-xs text-neutral-800">
-          <span aria-hidden="true">🌾</span> Gluten
-        </span>
-      </div>
-      <div className="mt-2 flex flex-wrap items-center gap-2">
-        <span className="text-xs font-semibold text-neutral-900">Traces possibles :</span>
-        <span className="inline-flex items-center gap-1 rounded-md border border-neutral-300 bg-white px-2 py-1 text-xs text-neutral-800">
-          <span aria-hidden="true">🍷</span> Sulfites
-        </span>
-      </div>
-    </div>
-  );
-}
-
 export function LandingPage() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -94,12 +70,7 @@ export function LandingPage() {
                 <span className="text-sm text-neutral-600">Gratuit, sans compte</span>
               </div>
             </div>
-            {/* The card sits above the illustration and is kept narrower than it, so the two
-                read as one stacked unit rather than two competing pictures. */}
-            <div className="flex flex-col items-center gap-8 md:pl-4">
-              <div className="w-full max-w-sm">
-                <DishPreview />
-              </div>
+            <div className="flex justify-center md:pl-4">
               <CafeIllustration />
             </div>
           </div>
