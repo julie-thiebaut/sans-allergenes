@@ -1,8 +1,10 @@
 node_modules/
 dist/
 dist-ssr/
-.env
-.env.local
+# Every .env variant except the committed template. The broad pattern is deliberate: a
+# narrow list let a .env.backup-prod-key holding a real key show up as untracked.
+.env*
+!.env.example
 *.local
 
 # Local-only notes (detailed deployment/config info kept out of the public README)
