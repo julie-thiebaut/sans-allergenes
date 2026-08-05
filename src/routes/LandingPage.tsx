@@ -15,16 +15,16 @@ const HOME_META = buildHomeMeta(typeof window !== "undefined" ? window.location.
  */
 const STEPS = [
   {
-    title: "Cherchez une adresse",
-    body: "Les restaurants apparaissent autour, sur la carte ou en liste.",
+    title: "Recherchez une adresse",
+    body: "Découvrez les restaurants référencés autour de l’adresse de votre choix.",
   },
   {
-    title: "Cochez vos allergènes",
-    body: "Les plats qui les déclarent sont masqués, et les restaurants où il ne reste rien avec eux.",
+    title: "Sélectionnez vos allergènes",
+    body: "Les plats pour lesquels les allergènes que vous évitez sont déclarés sont automatiquement masqués.",
   },
   {
-    title: "Ouvrez une fiche",
-    body: "Vous voyez, plat par plat, ce que l’établissement a déclaré.",
+    title: "Consultez les menus",
+    body: "Retrouvez, pour chaque plat, les allergènes communiqués par le restaurant.",
   },
 ];
 
@@ -62,11 +62,11 @@ export function LandingPage() {
                 </span>
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-                La loi impose aux restaurants de déclarer 14 allergènes. Ces informations
-                existent, mais rarement avant d’être assis à table. Ce site les rassemble.
+                La loi impose aux restaurants de déclarer la présence de 14 allergènes.
+                Consultez leurs déclarations et préparez votre sortie plus sereinement.
               </p>
               <div className="mt-7 flex flex-wrap items-center gap-4">
-                <CtaButton>Voir la carte</CtaButton>
+                <CtaButton>Explorer la carte</CtaButton>
                 <span className="text-sm text-neutral-600">Gratuit, sans compte</span>
               </div>
             </div>
@@ -79,7 +79,7 @@ export function LandingPage() {
         {/* How it works — numbered cards instead of a bullet list */}
         <section className="mx-auto max-w-5xl px-4 py-14 md:py-20">
           <h2 className="text-center text-2xl font-bold text-neutral-900 sm:text-3xl">
-            Comment ça marche
+            Comment ça marche ?
           </h2>
           <ol className="mt-10 grid gap-6 md:grid-cols-3">
             {STEPS.map((step, index) => (
@@ -104,7 +104,8 @@ export function LandingPage() {
               Les 14 allergènes suivis
             </h2>
             <p className="mt-2 text-neutral-600">
-              Ceux que la réglementation européenne rend obligatoires.
+              Tous les allergènes dont la présence doit obligatoirement être signalée dans la
+              restauration.
             </p>
             <ul className="mt-8 flex flex-wrap gap-2.5">
               {ALLERGENS_SORTED_FR.map((id) => (
@@ -127,12 +128,14 @@ export function LandingPage() {
           <div className="rounded-xl border-l-4 border-amber-400 bg-amber-50 p-6 md:p-8">
             <h2 className="text-xl font-bold text-amber-900">Signalez toujours votre allergie</h2>
             <p className="mt-3 leading-relaxed text-amber-900">
-              Ce site répertorie les informations déclarées par le restaurant, une recette est
-              susceptible d’avoir été modifiée depuis la dernière déclaration.
+              Les informations présentées sur ce site correspondent aux allergènes déclarés par
+              les restaurants. Les recettes, les ingrédients et les méthodes de préparation
+              peuvent toutefois évoluer.
             </p>
             <p className="mt-3 font-semibold leading-relaxed text-amber-900">
-              Avant de commander, prévenez toujours le personnel et confirmez avec lui que le
-              plat vous convient.
+              Avant de commander, informez toujours le personnel de votre allergie et vérifiez
+              avec lui que le plat peut vous convenir, notamment en cas de risque de
+              contamination croisée.
             </p>
           </div>
         </section>
@@ -140,12 +143,14 @@ export function LandingPage() {
         {/* Closing CTA on a dark band, so the page ends on something deliberate */}
         <section className="bg-neutral-900">
           <div className="mx-auto max-w-5xl px-4 py-14 text-center md:py-16">
-            <h2 className="text-2xl font-bold text-white sm:text-3xl">Trouvez où manger</h2>
+            <h2 className="text-2xl font-bold text-white sm:text-3xl">
+              Trouvez votre prochain restaurant
+            </h2>
             <p className="mx-auto mt-3 max-w-xl text-neutral-300">
-              Parcourez les restaurants sur la carte, filtrez selon les allergènes que vous
-              évitez, et consultez le détail de chaque plat.
+              Découvrez les restaurants autour de vous et filtrez leurs plats selon les
+              allergènes que vous évitez.
             </p>
-            <CtaButton className="mt-8">Voir la carte</CtaButton>
+            <CtaButton className="mt-8">Explorer la carte</CtaButton>
           </div>
         </section>
       </div>

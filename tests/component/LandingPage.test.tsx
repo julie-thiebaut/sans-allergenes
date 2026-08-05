@@ -21,9 +21,9 @@ describe("LandingPage", () => {
     // word for word. What must hold is that the page states the premise somewhere and offers
     // a way through to the map.
     expect(screen.getByRole("heading", { level: 1 }).textContent?.trim()).toBeTruthy();
-    expect(screen.getByText(/déclarer 14 allergènes/i)).toBeInTheDocument();
+    expect(screen.getByText(/la loi impose aux restaurants/i)).toBeInTheDocument();
 
-    const mapLinks = screen.getAllByRole("link", { name: /voir la carte/i });
+    const mapLinks = screen.getAllByRole("link", { name: /explorer la carte/i });
     expect(mapLinks.length).toBeGreaterThan(0);
     mapLinks.forEach((link) => expect(link).toHaveAttribute("href", "/carte"));
   });
@@ -38,24 +38,25 @@ describe("LandingPage", () => {
   it("never promises safety, and says missing information is not an absence", () => {
     renderLanding();
 
-    // Affirmative safety claims are the thing to forbid. "garantir" is deliberately NOT in this
-    // list: the page uses it in the negative ("ne peut pas garantir"), asserted just below.
+    // Affirmative safety claims are the thing to forbid, in whatever wording the copy lands on.
     expect(screen.queryByText(/\bsafe\b|sans risque|sûr pour|adapté à votre allergie/i)).toBeNull();
 
     expect(
       screen.getByRole("heading", { name: /signalez toujours votre allergie/i }),
     ).toBeInTheDocument();
-    // The declaration is a point-in-time snapshot, which is why the page never presents it as
-    // the current state of the kitchen.
-    expect(
-      screen.getByText(/susceptible d.avoir été modifiée depuis la dernière déclaration/i),
-    ).toBeInTheDocument();
+    // Two things this block must always do, however it is reworded: attribute the data to the
+    // restaurants rather than to the site, and say it can go out of date.
+    expect(screen.getByText(/allergènes déclarés par\s+les restaurants/i)).toBeInTheDocument();
+    expect(screen.getByText(/peuvent toutefois évoluer/i)).toBeInTheDocument();
   });
 
   it("tells the reader to check with staff, which no page copy may replace", () => {
     renderLanding();
     expect(
-      screen.getByText(/prévenez toujours le personnel et confirmez avec lui/i),
+      screen.getByText(/informez toujours le personnel de votre allergie/i),
     ).toBeInTheDocument();
+    // Cross-contamination is the failure mode a declaration cannot cover, so the warning has to
+    // name it rather than leaving the reader to infer it.
+    expect(screen.getByText(/contamination croisée/i)).toBeInTheDocument();
   });
 });
