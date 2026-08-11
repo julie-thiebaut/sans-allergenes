@@ -187,12 +187,13 @@ export class GoogleMapsAdapter implements MapsAdapter {
       this.autocompleteSessionToken = new google.maps.places.AutocompleteSessionToken();
     }
     try {
-      const { suggestions } = await google.maps.places.AutocompleteSuggestion.fetchAutocompleteSuggestions({
-        input,
-        locationBias: parisLatLngBounds(),
-        includedRegionCodes: ["fr"],
-        sessionToken: this.autocompleteSessionToken,
-      });
+      const { suggestions } =
+        await google.maps.places.AutocompleteSuggestion.fetchAutocompleteSuggestions({
+          input,
+          locationBias: parisLatLngBounds(),
+          includedRegionCodes: ["fr"],
+          sessionToken: this.autocompleteSessionToken,
+        });
       this.lastPredictions.clear();
       const results: AddressSuggestion[] = [];
       for (const suggestion of suggestions) {
@@ -213,7 +214,9 @@ export class GoogleMapsAdapter implements MapsAdapter {
     this.autocompleteSessionToken = null;
     this.lastPredictions.clear();
     try {
-      const place = prediction ? prediction.toPlace() : new google.maps.places.Place({ id: placeId });
+      const place = prediction
+        ? prediction.toPlace()
+        : new google.maps.places.Place({ id: placeId });
       await place.fetchFields({ fields: ["location"] });
       return place.location ? { lat: place.location.lat(), lng: place.location.lng() } : null;
     } catch {
