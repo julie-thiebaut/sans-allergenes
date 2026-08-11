@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import type { RestaurantWithMenu } from "../../data/types";
 import { filterRestaurants } from "../../filtering/filterRestaurants";
+import { PARIS_CENTER } from "../../maps/MapsAdapter";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
 import { useMediaQuery } from "../../utils/useMediaQuery";
@@ -8,6 +9,7 @@ import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import { SearchFilterBar } from "../filters/SearchFilterBar";
 import { MapView } from "../map/MapView";
 import { mapBoundsToRestaurantIds } from "../map/mapBoundsToRestaurantIds";
+import { mapBoundsCenter, sortRestaurantsByDistance } from "../map/sortRestaurantsByDistance";
 import { ResultCount } from "../restaurant-list/ResultCount";
 import { RestaurantList } from "../restaurant-list/RestaurantList";
 import { MobileViewToggle, type MobileViewMode } from "./MobileViewToggle";
@@ -26,11 +28,18 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
   );
 
   // The map always shows every filtered restaurant; the LIST is further clipped to the
-  // currently visible map bounds, since bounds come from panning/zooming the map itself.
+  // currently visible map bounds, then ordered from the map's centre outwards.
   const visibleInList = useMemo(() => {
-    if (!bounds) return filteredRestaurants;
-    const visibleIds = mapBoundsToRestaurantIds(bounds, filteredRestaurants);
-    return filteredRestaurants.filter((restaurant) => visibleIds.has(restaurant.id));
+    let visibleRestaurants = filteredRestaurants;
+    if (bounds) {
+      const visibleIds = mapBoundsToRestaurantIds(bounds, filteredRestaurants);
+      visibleRestaurants = filteredRestaurants.filter((restaurant) =>
+        visibleIds.has(restaurant.id),
+      );
+    }
+
+    const center = bounds ? mapBoundsCenter(bounds) : PARIS_CENTER;
+    return sortRestaurantsByDistance(visibleRestaurants, center);
   }, [filteredRestaurants, bounds]);
 
   return (
