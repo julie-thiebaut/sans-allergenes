@@ -14,10 +14,10 @@ export function Footer() {
           className="flex flex-wrap justify-center gap-x-4 gap-y-1"
         >
           <Link className="hover:text-neutral-900 hover:underline" to="/mentions-legales">
-            Mentions légales et CGU
+            Mentions légales
           </Link>
           <Link className="hover:text-neutral-900 hover:underline" to="/confidentialite">
-            Confidentialité et cookies
+            Politique de confidentialité
           </Link>
           {analyticsConsent.isAvailable && (
             <button

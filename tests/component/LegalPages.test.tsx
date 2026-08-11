@@ -13,11 +13,11 @@ describe("Legal and privacy pages", () => {
       </MemoryRouter>,
     );
 
-    expect(screen.getByRole("link", { name: /mentions légales et cgu/i })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /^mentions légales$/i })).toHaveAttribute(
       "href",
       "/mentions-legales",
     );
-    expect(screen.getByRole("link", { name: /confidentialité et cookies/i })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /^politique de confidentialité$/i })).toHaveAttribute(
       "href",
       "/confidentialite",
     );
