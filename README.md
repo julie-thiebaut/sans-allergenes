@@ -4,7 +4,30 @@ Application web listant des restaurants à Paris et les informations disponibles
 
 MVP statique : aucun compte, aucun avis, aucune contribution publique, aucun backend, aucune base de données.
 
-**Toutes les données de restaurants et de menus de ce dépôt sont fictives** (badge « Donnée de démonstration » dans l'interface). Aucune information allergène n'a été inventée pour un vrai restaurant.
+## Données
+
+**Ce dépôt ne contient aujourd'hui qu'un jeu de démonstration** : neuf établissements fictifs, tous marqués `isDemoData` et signalés comme tels dans l'interface. Il sert à faire tourner l'application, les tests et le pré-rendu.
+
+Le jeu réel — des établissements parisiens dont le document allergènes a été téléchargé et **son contenu vérifié**, pas seulement son lien — est construit par un pipeline d'import qui vit dans un dépôt séparé, avec le recensement complet des établissements parisiens et le verdict de chacun. Il sera publié ici quand ses données auront été relues. D'ici là, `public/data/` reste la démonstration, et l'application n'affiche donc rien qui se donne pour vrai sans l'être.
+
+### Les règles que le modèle de données fait respecter
+
+Elles valent pour la démonstration comme pour le jeu réel, et expliquent pourquoi `src/data/schemas.ts` est écrit ainsi.
+
+- **Aucune information allergène n'est inventée.** Chaque plat vient de ce que l'établissement publie lui-même.
+- Un allergène non déclaré est `not_declared`, **jamais « absent »** : le modèle interdit d'affirmer l'absence d'un allergène. `src/filtering/allergenLogic.ts` est le seul endroit autorisé à traduire ces statuts en texte affiché.
+- Une ligne de tableau vide est une déclaration et se publie ; un plat sans ligne du tout ne se publie pas — l'afficher le ferait passer pour déclaré sans allergène.
+- Mais une ligne vide ne vaut que si le document en fait une : un gabarit que l'établissement n'a pas rempli est refusé.
+- Tout produit dont la lecture est ambiguë est écarté, jamais deviné.
+- La carte de l'établissement fait la structure (rubriques, intitulés, compositions) ; la fiche allergènes n'apporte que les allergènes.
+- Les régimes sont des tags, limités à **végétarien** et **végan**. « Sans gluten » et « sans lactose » n'en sont pas : ce sont des affirmations d'allergène, et elles n'ont pas d'écriture possible dans ce modèle.
+
+### Ce que chaque fiche dit de sa source
+
+- `source.kind` vaut `published` ou `on_request`. La distinction est éditoriale : `published` veut dire que **n'importe qui peut aller vérifier**, et c'est ce que l'interface met en avant ; `on_request` désigne une information communiquée par l'établissement, que personne d'autre ne peut contrôler. Le schéma refuse une source « publiée » sans URL et une source « sur demande » qui en porte une.
+- `additionalSources` liste les autres documents publiés par l'enseigne, quand la carte a été transcrite depuis une source et que la fiche PDF existe par ailleurs.
+- `allergenCoverageNotice` dit, en rouge et à part de la description, ce que la déclaration **ne couvre pas**. Les plats hors couverture ne sont jamais listés.
+- Un établissement qui publie ses allergènes sans reprise plat par plat renvoie à sa source ; il n'est jamais présenté comme n'ayant aucune information.
 
 ## Stack
 
@@ -22,45 +45,71 @@ Ouvre `http://localhost:5173`.
 
 ## Scripts
 
-| Commande               | Description                                  |
-| ----------------------- | --------------------------------------------- |
-| `npm run dev`           | Serveur de développement                       |
-| `npm run build`         | Build de production (avec pré-rendu SEO)       |
-| `npm run preview`       | Sert le build de production localement         |
-| `npm run lint`          | ESLint                                         |
-| `npm run typecheck`     | Vérification TypeScript                        |
-| `npm run validate:data` | Valide `restaurants.json` et les menus (Zod)   |
-| `npm run test:unit`     | Tests unitaires et composants (Vitest)         |
-| `npm run test:e2e`      | Tests end-to-end (Playwright)                  |
+| Commande                | Description                                  |
+| ----------------------- | -------------------------------------------- |
+| `npm run dev`           | Serveur de développement                     |
+| `npm run build`         | Build de production (avec pré-rendu SEO)     |
+| `npm run preview`       | Sert le build de production localement       |
+| `npm run lint`          | ESLint                                       |
+| `npm run typecheck`     | Vérification TypeScript                      |
+| `npm run validate:data` | Valide `restaurants.json` et les menus (Zod) |
+| `npm run test:unit`     | Tests unitaires et composants (Vitest)       |
+| `npm run test:e2e`      | Tests end-to-end (Playwright)                |
+| `npm run format`        | Prettier                                     |
 
 ## Structure
 
 ```
-public/data/          # restaurants.json + menus/*.json
+public/data/           # restaurants.json + menus/*.json
 src/                   # application React
 scripts/               # scripts de build (validation des données, pré-rendu SEO)
 tests/                 # tests unitaires, composants, e2e
 .github/workflows/     # CI/CD
 ```
 
+Les données arrivent ici par le dépôt d'import, jamais écrites à la main.
+
+## Pages légales
+
+`/mentions-legales` et `/confidentialite` sont des routes de l'application, pré-rendues et présentes dans le sitemap comme les autres. La page confidentialité décrit le mécanisme de consentement décrit plus bas ; les deux se modifient ensemble.
+
+## Métadonnées de partage
+
+Chaque page porte son jeu complet `og:` / `twitter:` et son URL canonique, écrit à deux endroits : par `<Seo>` lors de la navigation dans l'application, et par `scripts/prerender.ts` dans le HTML servi aux robots qui n'exécutent pas de JavaScript. Les deux marquent leurs balises `data-seo-managed`, ce qui permet au pré-rendu de retirer exactement celles-là avant d'injecter les siennes — sans quoi la page finale en porterait deux exemplaires.
+
 ## Variable d'environnement
 
-Une clé Google restreinte est nécessaire pour afficher la carte et proposer la recherche d'adresse (voir `.env.example`). Elle doit autoriser deux API : **Maps JavaScript API** (carte) et **Places API** (suggestions d'adresses). Sans clé, l'application fonctionne normalement, avec la carte simplement désactivée.
+Une clé Google restreinte est nécessaire pour afficher la carte et proposer la recherche d'adresse (voir `.env.example`). Elle doit autoriser deux API : **Maps JavaScript API** (carte) et **Places API (New)** (suggestions d'adresses et récupération de la position sélectionnée). Sans clé, l'application fonctionne normalement, avec la carte simplement désactivée.
 
 Des quotas journaliers stricts sont configurés côté Google Cloud sur chaque métrique facturable, et les métriques inutilisées sont plafonnées à zéro, afin de rester dans le palier gratuit.
 
 ### Deux clés, une par environnement
 
-| Clé | Référents autorisés |
-| --- | --- |
-| `Sans Allergenes - Maps JS API` | `https://sans-allergenes.fr/*` |
-| `Sans Allergenes - Dev local` | `http://localhost:5173/*`, `http://localhost:4173/*` |
+| Clé                             | Référents autorisés                                  |
+| ------------------------------- | ---------------------------------------------------- |
+| `Sans Allergenes - Maps JS API` | `https://sans-allergenes.fr/*`                       |
+| `Sans Allergenes - Dev local`   | `http://localhost:5173/*`, `http://localhost:4173/*` |
 
 Les deux autorisent les deux mêmes API et rien d'autre. Mettez la clé de développement dans votre `.env` local ; celle de production ne fonctionne volontairement pas sur `localhost`.
 
 Une clé de navigateur est publique par nature, puisqu'elle part dans le HTML de la page. La restriction par référent est la seule chose qui empêche un tiers de la réutiliser depuis son domaine, et `localhost` est un référent que n'importe qui peut fabriquer. Autoriser `localhost` sur la clé de production annulerait donc cette protection pour tout le monde, pas seulement pour vous : **ne l'y rajoutez pas**, créez une clé dédiée.
 
 **Les quotas ne sont pas séparables par clé.** L'unité du plafond journalier est `1/d/{project}` : les 300 requêtes par jour sont partagées entre les deux clés. Cela borne la dépense quelle que soit la clé qui fuite, mais un usage local intensif consomme l'allocation de production. Pour isoler vraiment les deux, il faudrait un second projet Google Cloud avec sa propre facturation et ses propres quotas.
+
+## Google Analytics
+
+La mesure d'audience GA4 utilise l'identifiant public `G-XN9KPCDL8P`, configuré dans le workflow de production. Elle reste désactivée si `VITE_GOOGLE_ANALYTICS_ID` est vide, ce qui est le cas en développement local.
+
+**Rien ne part avant acceptation** : tant que le visiteur n'a pas répondu, la balise n'est pas chargée, aucun cookie `_ga` n'est déposé et aucune requête ne quitte la page — refuser ne coûte donc rien, puisque rien n'avait commencé. Le choix est mémorisé six mois, et « Gérer les cookies » en pied de page permet de le rouvrir : un consentement qu'on ne peut pas retirer n'en est pas un.
+
+Réglages à appliquer au flux Web dans Google Analytics :
+
+1. dans **Mesure améliorée**, désactiver toutes les mesures automatiques, en particulier les changements de page fondés sur l'historique du navigateur ; l'application envoie elle-même une vue à chaque changement de route ;
+2. dans **Masquage des données**, masquer les paramètres d'URL `avoid`, `cuisine`, `veg`, `vegan` et `hasAllergenInfo` comme protection supplémentaire ;
+3. conserver les données au niveau utilisateur et événement pendant **2 mois** ;
+4. ne pas relier la propriété à Google Ads et laisser Google Signals désactivé.
+
+Le code retire déjà **toute** la chaîne de paramètres des URL envoyées à Analytics — ces paramètres portent les allergènes que le visiteur évite, donc une donnée de santé, qui n'a rien à faire dans un compte Analytics. Il limite aussi les cookies Analytics à treize mois et ne compte pas les changements de filtres comme des vues supplémentaires. Les réglages ci-dessus sont une seconde barrière, pas la première.
 
 ## Licence
 
