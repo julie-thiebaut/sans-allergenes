@@ -1,0 +1,8 @@
+# Cartes publiées : écrites par le pipeline d'import, dans son dépôt. Prettier et
+# `JSON.stringify(…, 2)` ne posent pas les tableaux courts de la même façon, si bien que chaque
+# publication de données rouvrirait l'écart.
+public/data/menus/
+
+# Rapports de tests
+playwright-report/
+dist/

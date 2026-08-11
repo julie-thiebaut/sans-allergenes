@@ -10,6 +10,13 @@ dist-ssr/
 # Local-only notes (detailed deployment/config info kept out of the public README)
 NOTES.md
 
+# The import pipeline lives in its own private repository (sans-allergenes-data): scrapers,
+# allergen-sheet parsers, the census, and the data they build. Listed here as a guard, since
+# working on both side by side makes it easy to drop an output back into this tree.
+scripts/import/
+docs/
+tmp/
+
 # Claude Code local session/tooling config
 .claude/
 
