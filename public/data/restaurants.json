@@ -18,7 +18,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-06-15T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-petit-basilic",
     "isDemoData": true
   },
@@ -41,7 +44,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-07-02T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-or-et-sesame",
     "isDemoData": true
   },
@@ -62,7 +68,10 @@
     "veganOptions": false,
     "imageUrl": "",
     "allergenInformationAvailable": false,
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "isDemoData": true
   },
   {
@@ -84,7 +93,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-07-20T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-table-sans-gluten",
     "isDemoData": true
   },
@@ -106,7 +118,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-05-10T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-chez-marcel",
     "isDemoData": true
   },
@@ -129,7 +144,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-07-28T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-comptoir-vegetal",
     "isDemoData": true
   },
@@ -152,7 +170,10 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-06-30T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-sushi-kirin",
     "isDemoData": true
   },
@@ -175,8 +196,37 @@
     "imageUrl": "",
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-04-18T00:00:00Z",
-    "source": { "label": "Donnée de démonstration — fournie par l'équipe du projet" },
+    "source": {
+      "label": "Donnée de démonstration — fournie par l'équipe du projet",
+      "kind": "on_request"
+    },
     "menuId": "menu-petite-boulange",
+    "isDemoData": true
+  },
+  {
+    "id": "rest-009",
+    "name": "Comptoir Kessel (démo)",
+    "slug": "comptoir-kessel",
+    "address": "17 rue de Bretagne",
+    "postalCode": "75003",
+    "city": "Paris",
+    "latitude": 48.8629,
+    "longitude": 2.3628,
+    "cuisineTypes": ["Française", "Brasserie"],
+    "description": "Brasserie fictive de démonstration illustrant une fiche dont la source allergènes est publiée en ligne, sans reprise plat par plat.",
+    "websiteUrl": "https://example.com/comptoir-kessel",
+    "phone": "01 42 00 00 09",
+    "priceLevel": 2,
+    "vegetarianOptions": true,
+    "veganOptions": false,
+    "imageUrl": "",
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-06-15T00:00:00Z",
+    "source": {
+      "label": "Donnée de démonstration — fiche allergènes publiée par l'établissement",
+      "url": "https://example.com/comptoir-kessel/allergenes.pdf",
+      "kind": "published"
+    },
     "isDemoData": true
   }
 ]

@@ -46,10 +46,27 @@ export type AllergenMap = Record<AllergenId, AllergenStatus>;
 export const PriceLevelSchema = z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]);
 export type PriceLevel = z.infer<typeof PriceLevelSchema>;
 
-export const RestaurantSourceSchema = z.object({
-  label: z.string().min(1),
-  url: z.string().url().optional(),
-});
+/**
+ * D'où vient l'information allergènes. La distinction est éditoriale, pas cosmétique :
+ * `published` veut dire que n'importe qui peut aller vérifier la source, et c'est cela qui est
+ * mis en avant dans l'interface ; `on_request` veut dire que l'information a été communiquée
+ * par l'établissement et n'est vérifiable par personne d'autre.
+ */
+export const SOURCE_KINDS = ["published", "on_request"] as const;
+export const SourceKindSchema = z.enum(SOURCE_KINDS);
+export type SourceKind = z.infer<typeof SourceKindSchema>;
+
+export const RestaurantSourceSchema = z
+  .object({
+    label: z.string().min(1),
+    url: z.string().url().optional(),
+    kind: SourceKindSchema,
+  })
+  // Une source « publiée » sans URL ne serait pas vérifiable, et une source « sur demande »
+  // avec URL serait en fait publiée : les deux cas trahiraient une donnée mal saisie.
+  .refine((source) => (source.kind === "published") === Boolean(source.url), {
+    message: 'source.kind "published" exige une url, "on_request" interdit d\'en avoir une',
+  });
 
 export const RestaurantSchema = z.object({
   id: z.string().min(1),
@@ -68,6 +85,22 @@ export const RestaurantSchema = z.object({
   websiteUrl: z.string().url().optional(),
   phone: z.string().optional(),
   priceLevel: PriceLevelSchema.optional(),
+  /**
+   * Autres documents allergènes publiés par l'établissement, en plus de celui qui a alimenté
+   * les données. `source` dit d'où viennent les allergènes affichés ici ; ceci dit ce que
+   * l'enseigne publie par ailleurs — typiquement sa fiche PDF quand la carte a été transcrite
+   * depuis les fiches produit. Les deux méritent d'être proposés au visiteur.
+   */
+  additionalSources: z.array(RestaurantSourceSchema).optional(),
+  /**
+   * Avertissement affiché en rouge quand la déclaration de l'établissement ne couvre PAS toute
+   * sa carte : fiche périmée, sections entières absentes. Séparé de `description` parce que
+   * ce n'est pas de la présentation, c'est une mise en garde.
+   *
+   * Les plats non couverts ne sont jamais listés : afficher « aucun allergène signalé » les
+   * ferait passer pour déclarés sans allergène, alors qu'ils ne sont pas déclarés du tout.
+   */
+  allergenCoverageNotice: z.string().min(1).optional(),
   vegetarianOptions: z.boolean(),
   veganOptions: z.boolean(),
   imageUrl: z.string().optional(),

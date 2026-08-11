@@ -15,6 +15,11 @@ export const restaurantWithFullInfo: RestaurantWithMenu = {
   veganOptions: false,
   allergenInformationAvailable: true,
   isDemoData: true,
+  source: {
+    label: "Fiche allergènes du restaurant",
+    url: "https://example.com/allergenes",
+    kind: "published",
+  },
   menuId: "menu-full-info",
   menu: fullInfoMenu,
 };

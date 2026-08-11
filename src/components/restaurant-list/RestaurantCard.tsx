@@ -14,6 +14,7 @@ import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
+import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 
 function Badge({ children }: { children: ReactNode }) {
   return (
@@ -90,11 +91,18 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
           <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
             {restaurant.vegetarianOptions && <Badge>Végétarien</Badge>}
             {restaurant.veganOptions && <Badge>Végane</Badge>}
+            {restaurant.source && <SourceProvenanceBadge kind={restaurant.source.kind} />}
             {restaurant.isDemoData && <DemoDataBadge />}
           </div>
 
           <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
-            <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
+            {/* Quand l'information existe, la provenance en dit plus que sa simple existence :
+                le badge « publiés en ligne » remplace donc « infos disponibles », qui était
+                redondant. L'absence d'information, elle, reste signalée telle quelle - c'est
+                un avertissement, pas une nuance de provenance. */}
+            {!restaurant.allergenInformationAvailable && (
+              <AllergenAvailabilityBadge available={false} />
+            )}
             {restaurant.lastVerifiedAt && (
               <span className="text-xs text-neutral-500">
                 Vérifié le {formatVerifiedDate(restaurant.lastVerifiedAt)}

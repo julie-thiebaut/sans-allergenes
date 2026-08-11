@@ -11,6 +11,7 @@ import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
+import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
 
@@ -67,9 +68,35 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           )}
           {restaurant.phone && <span>{restaurant.phone}</span>}
         </div>
+
+        {/* La provenance tient sa propre ligne. Placée entre le type de cuisine et le niveau de
+            prix, elle passait pour une caractéristique du restaurant, alors qu'elle qualifie les
+            DONNÉES. Le document lui-même reste cité en pied de fiche, avec la date de
+            vérification : ici on annonce la nature de la source, là on la donne. */}
+        {restaurant.source && (
+          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-neutral-600">
+            <span>Source :</span>
+            <SourceProvenanceBadge kind={restaurant.source.kind} />
+          </div>
+        )}
       </header>
 
       <AllergenSafetyDisclaimer />
+
+      {/* Séparé de la description et en rouge : ce n'est pas de la présentation, c'est une mise
+          en garde sur ce que la déclaration de l'établissement NE couvre PAS. Les plats non
+          couverts ne figurent pas dans la carte ci-dessous, faute de quoi ils passeraient pour
+          déclarés sans allergène. */}
+      {restaurant.allergenCoverageNotice && (
+        <p
+          role="alert"
+          // Même gabarit que le disclaimer juste au-dessus (role="note") : même taille de texte,
+          // même padding, même rayon. Seule la couleur distingue l'avertissement de la note.
+          className="mt-4 rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-800"
+        >
+          {restaurant.allergenCoverageNotice}
+        </p>
+      )}
 
       <div className="mt-6 space-y-8">
         {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
@@ -91,8 +118,8 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             {menu.excludedDishCount > 0 && (
               <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
                 {menu.excludedDishCount}{" "}
-                {menu.excludedDishCount > 1 ? "plats masqués" : "plat masqué"} : l&rsquo;allergène
-                à éviter y est déclaré présent.
+                {menu.excludedDishCount > 1 ? "plats masqués" : "plat masqué"} : l&rsquo;allergène à
+                éviter y est déclaré présent.
               </p>
             )}
 
@@ -106,6 +133,31 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               </p>
             )}
           </>
+        ) : restaurant.allergenInformationAvailable ? (
+          // The restaurant does publish its allergens, we simply don't republish them dish by
+          // dish (typically because the source is a scanned grid that cannot be transcribed
+          // without risking a mistake). Saying "no information" here would be false, and would
+          // push someone away from a source that actually exists.
+          <p className="rounded-md border border-amber-300 bg-amber-50 p-4 text-amber-900">
+            Ce restaurant publie ses informations allergènes, mais elles ne sont pas reprises plat
+            par plat sur ce site.{" "}
+            {restaurant.source?.url ? (
+              <>
+                Consultez{" "}
+                <a
+                  href={restaurant.source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  la source publiée par l&rsquo;enseigne
+                </a>{" "}
+                ou demandez le document en salle avant de commander.
+              </>
+            ) : (
+              <>Demandez le document en salle avant de commander.</>
+            )}
+          </p>
         ) : (
           <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
             Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
@@ -133,6 +185,20 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             )}
           </p>
         )}
+        {/* `source` dit d'où viennent les allergènes affichés ; les autres documents publiés par
+            l'enseigne sont proposés en plus, car ils peuvent être plus complets ou plus récents. */}
+        {restaurant.additionalSources?.map((other) => (
+          <p key={other.url ?? other.label}>
+            Également publié :{" "}
+            {other.url ? (
+              <a href={other.url} target="_blank" rel="noopener noreferrer" className="underline">
+                {other.label}
+              </a>
+            ) : (
+              other.label
+            )}
+          </p>
+        ))}
         {restaurant.lastVerifiedAt && (
           <p>Dernière vérification : {formatVerifiedDate(restaurant.lastVerifiedAt)}</p>
         )}

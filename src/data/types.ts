@@ -8,9 +8,10 @@ export type {
   MenuCategory,
   PriceLevel,
   Restaurant,
+  SourceKind,
 } from "./schemas";
 
-export { ALLERGEN_IDS } from "./schemas";
+export { ALLERGEN_IDS, SOURCE_KINDS } from "./schemas";
 
 import type { Menu, Restaurant } from "./schemas";
 

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import type { RestaurantWithMenu } from "../../data/types";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
+import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { ChevronIcon } from "../common/ChevronIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
@@ -65,7 +66,13 @@ export function MapSelectionPreviewCard({
         </p>
         <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
-          <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
+          {/* Même arbitrage que sur la carte de la liste : la provenance remplace la simple
+              disponibilité, mais l'absence d'information reste affichée telle quelle. */}
+          {restaurant.allergenInformationAvailable ? (
+            restaurant.source && <SourceProvenanceBadge kind={restaurant.source.kind} />
+          ) : (
+            <AllergenAvailabilityBadge available={false} />
+          )}
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
         <Link
