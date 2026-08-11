@@ -24,7 +24,11 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
         },
         {
           "id": "cv-e2",
@@ -45,7 +49,11 @@
             "sulfites": "not_declared",
             "lupin": "present",
             "mollusques": "not_declared"
-          }
+          },
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
         }
       ]
     },
@@ -71,7 +79,11 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
         },
         {
           "id": "cv-p2",
@@ -92,7 +104,10 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "tags": [
+            "vegetarien"
+          ]
         }
       ]
     },
@@ -102,7 +117,6 @@
         {
           "id": "cv-d1",
           "name": "Mousse au chocolat végane",
-          "price": 6,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -118,7 +132,11 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
         }
       ]
     }
