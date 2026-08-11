@@ -1,5 +1,10 @@
-import { ALLERGEN_IDS, type AllergenId, type Dish } from "../../data/types";
+import { ALLERGEN_IDS, type AllergenId, type DietTag, type Dish } from "../../data/types";
 import { AllergenBadge } from "./AllergenBadge";
+
+const DIET_TAG_LABELS: Record<DietTag, string> = {
+  vegetarien: "Végétarien",
+  vegan: "Végan",
+};
 
 /**
  * Allergens are grouped by status under a written heading rather than colour-coded one by one,
@@ -51,8 +56,29 @@ export function DishRow({ dish }: { dish: Dish }) {
   return (
     <li className="border-b border-neutral-200 py-4 last:border-b-0">
       <div className="flex items-baseline justify-between gap-4">
-        <h4 className="font-medium text-neutral-900">{dish.name}</h4>
-        <span className="whitespace-nowrap text-neutral-700">{dish.price.toFixed(2)} €</span>
+        {/* Diet tags sit inline with the name: they qualify the dish itself, so reading them
+            after the title (rather than under the description) matches how the name is read. */}
+        <h4 className="font-medium text-neutral-900">
+          {dish.name}
+          {dish.tags && dish.tags.length > 0 && (
+            <span
+              className="ml-2 inline-flex flex-wrap gap-1.5 align-middle"
+              aria-label={`Régimes signalés pour ${dish.name}`}
+            >
+              {dish.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="inline-flex items-center rounded-full bg-brand-100 px-2 py-0.5 text-xs font-medium text-brand-800"
+                >
+                  {DIET_TAG_LABELS[tag]}
+                </span>
+              ))}
+            </span>
+          )}
+        </h4>
+        {dish.price !== undefined && (
+          <span className="whitespace-nowrap text-neutral-700">{dish.price.toFixed(2)} €</span>
+        )}
       </div>
       {dish.description && <p className="mt-1 text-sm text-neutral-600">{dish.description}</p>}
 

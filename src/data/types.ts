@@ -3,6 +3,7 @@ export type {
   AllergenMap,
   AllergenStatus,
   AppConfig,
+  DietTag,
   Dish,
   Menu,
   MenuCategory,
@@ -11,7 +12,7 @@ export type {
   SourceKind,
 } from "./schemas";
 
-export { ALLERGEN_IDS, SOURCE_KINDS } from "./schemas";
+export { ALLERGEN_IDS, DIET_TAGS, SOURCE_KINDS } from "./schemas";
 
 import type { Menu, Restaurant } from "./schemas";
 

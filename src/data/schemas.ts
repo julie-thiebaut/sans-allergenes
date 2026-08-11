@@ -122,11 +122,23 @@ export const RestaurantListSchema = z
     message: "Restaurant slugs must be unique",
   });
 
+/**
+ * Diet labels as published by the restaurant. Deliberately limited to these two: "sans gluten"
+ * and "sans lactose" are allergen claims, and allergen claims belong in `allergens`, where the
+ * status vocabulary forbids ever asserting that something is free of an allergen.
+ */
+export const DIET_TAGS = ["vegetarien", "vegan"] as const;
+export const DietTagSchema = z.enum(DIET_TAGS);
+export type DietTag = z.infer<typeof DietTagSchema>;
+
 export const DishSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  price: z.number().nonnegative(),
+  // Optional: the operator-published allergen sheets this data comes from are allergen/nutrition
+  // documents, not price lists. A dish with no published price shows none, rather than a 0 €.
+  price: z.number().nonnegative().optional(),
   allergens: AllergenMapSchema,
+  tags: z.array(DietTagSchema).optional(),
   description: z.string().optional(),
 });
 // Zod infers z.record(enumKey, value) as Partial<Record<...>> (it can't statically guarantee
