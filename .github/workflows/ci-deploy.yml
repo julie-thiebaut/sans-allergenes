@@ -18,6 +18,8 @@ concurrency:
 
 env:
   NODE_VERSION: "20"
+  # GA4 measurement IDs are public and are embedded in the client bundle by design.
+  VITE_GOOGLE_ANALYTICS_ID: "G-XN9KPCDL8P"
   # SITE_URL is fixed to the intended final domain (public/CNAME) for canonical URLs,
   # sitemap.xml and prerendered meta tags, regardless of where the build is actually
   # reachable from today.

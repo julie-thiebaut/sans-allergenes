@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 import { RestaurantListSchema } from "../src/data/schemas";
 import {
   buildHomeMeta,
+  buildLegalMeta,
   buildMapMeta,
+  buildPrivacyMeta,
   buildRestaurantMeta,
   type PageMeta,
 } from "../src/seo/seoData";
@@ -145,6 +147,16 @@ async function main(): Promise<void> {
       urlPath: "/carte/",
       outFile: path.join(DIST_DIR, "carte", "index.html"),
       meta: buildMapMeta(SITE_URL),
+    },
+    {
+      urlPath: "/mentions-legales/",
+      outFile: path.join(DIST_DIR, "mentions-legales", "index.html"),
+      meta: buildLegalMeta(SITE_URL),
+    },
+    {
+      urlPath: "/confidentialite/",
+      outFile: path.join(DIST_DIR, "confidentialite", "index.html"),
+      meta: buildPrivacyMeta(SITE_URL),
     },
     ...restaurants.map((restaurant): RouteToRender => ({
       urlPath: `/restaurant/${restaurant.slug}/`,

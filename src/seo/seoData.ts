@@ -35,6 +35,24 @@ export function buildMapMeta(siteUrl: string): PageMeta {
   };
 }
 
+export function buildLegalMeta(siteUrl: string): PageMeta {
+  return {
+    title: "Mentions légales et conditions d’utilisation · " + SITE_NAME,
+    description:
+      "Mentions légales, hébergement et conditions d’utilisation du service Sans Allergènes.",
+    canonical: siteUrl.replace(/\/$/, "") + "/mentions-legales/",
+  };
+}
+
+export function buildPrivacyMeta(siteUrl: string): PageMeta {
+  return {
+    title: "Confidentialité et cookies · " + SITE_NAME,
+    description:
+      "Politique de confidentialité et informations sur les cookies et services tiers utilisés par Sans Allergènes.",
+    canonical: siteUrl.replace(/\/$/, "") + "/confidentialite/",
+  };
+}
+
 export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): PageMeta {
   const canonical = `${siteUrl.replace(/\/$/, "")}/restaurant/${restaurant.slug}/`;
   const primaryCuisine = restaurant.cuisineTypes[0] ?? "Restaurant";
