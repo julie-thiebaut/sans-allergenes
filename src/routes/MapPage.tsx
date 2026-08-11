@@ -31,7 +31,7 @@ export function MapPage() {
     <SelectionProvider>
       <MapBoundsProvider>
         <MapActionsProvider>
-          <Seo title={MAP_META.title} description={MAP_META.description} />
+          <Seo meta={MAP_META} />
           <MapPageContent />
         </MapActionsProvider>
       </MapBoundsProvider>

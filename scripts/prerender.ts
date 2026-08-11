@@ -75,14 +75,42 @@ function escapeHtml(value: string): string {
 
 function injectHeadTags(html: string, meta: PageMeta): string {
   const tags = [
-    `<title>${escapeHtml(meta.title)}</title>`,
-    `<meta name="description" content="${escapeHtml(meta.description)}" />`,
-    `<link rel="canonical" href="${escapeHtml(meta.canonical)}" />`,
-    `<meta property="og:title" content="${escapeHtml(meta.title)}" />`,
-    `<meta property="og:description" content="${escapeHtml(meta.description)}" />`,
-    `<meta property="og:url" content="${escapeHtml(meta.canonical)}" />`,
-    `<meta property="og:type" content="website" />`,
-    meta.ogImage ? `<meta property="og:image" content="${escapeHtml(meta.ogImage)}" />` : "",
+    `<title data-seo-managed="true">${escapeHtml(meta.title)}</title>`,
+    `<meta name="description" content="${escapeHtml(meta.description)}" data-seo-managed="true" />`,
+    `<link rel="canonical" href="${escapeHtml(meta.canonical)}" data-seo-managed="true" />`,
+    `<meta property="og:title" content="${escapeHtml(meta.title)}" data-seo-managed="true" />`,
+    `<meta property="og:description" content="${escapeHtml(meta.description)}" data-seo-managed="true" />`,
+    `<meta property="og:url" content="${escapeHtml(meta.canonical)}" data-seo-managed="true" />`,
+    `<meta property="og:type" content="website" data-seo-managed="true" />`,
+    `<meta property="og:site_name" content="Sans Allergènes" data-seo-managed="true" />`,
+    `<meta property="og:locale" content="fr_FR" data-seo-managed="true" />`,
+    meta.ogImage
+      ? `<meta property="og:image" content="${escapeHtml(meta.ogImage)}" data-seo-managed="true" />`
+      : "",
+    meta.ogImage?.startsWith("https://")
+      ? `<meta property="og:image:secure_url" content="${escapeHtml(meta.ogImage)}" data-seo-managed="true" />`
+      : "",
+    meta.ogImageType
+      ? `<meta property="og:image:type" content="${escapeHtml(meta.ogImageType)}" data-seo-managed="true" />`
+      : "",
+    meta.ogImageWidth
+      ? `<meta property="og:image:width" content="${meta.ogImageWidth}" data-seo-managed="true" />`
+      : "",
+    meta.ogImageHeight
+      ? `<meta property="og:image:height" content="${meta.ogImageHeight}" data-seo-managed="true" />`
+      : "",
+    meta.ogImageAlt
+      ? `<meta property="og:image:alt" content="${escapeHtml(meta.ogImageAlt)}" data-seo-managed="true" />`
+      : "",
+    `<meta name="twitter:card" content="${meta.ogImage ? "summary_large_image" : "summary"}" data-seo-managed="true" />`,
+    `<meta name="twitter:title" content="${escapeHtml(meta.title)}" data-seo-managed="true" />`,
+    `<meta name="twitter:description" content="${escapeHtml(meta.description)}" data-seo-managed="true" />`,
+    meta.ogImage
+      ? `<meta name="twitter:image" content="${escapeHtml(meta.ogImage)}" data-seo-managed="true" />`
+      : "",
+    meta.ogImageAlt
+      ? `<meta name="twitter:image:alt" content="${escapeHtml(meta.ogImageAlt)}" data-seo-managed="true" />`
+      : "",
     meta.jsonLd
       ? `<script type="application/ld+json">${JSON.stringify(meta.jsonLd).replace(/</g, "\\u003c")}</script>`
       : "",
@@ -94,8 +122,10 @@ function injectHeadTags(html: string, meta: PageMeta): string {
   // defaults from index.html, possibly already updated in place by the client-side <Seo>
   // component. Strip both before injecting our own so the final page has exactly one of each.
   const cleaned = html
-    .replace(/<title>.*?<\/title>/s, "")
-    .replace(/<meta\s+name=["']description["'][^>]*>/i, "");
+    .replace(/<title\b[^>]*>.*?<\/title>/is, "")
+    .replace(/<(?:meta|link)\b[^>]*\bdata-seo-managed=["']true["'][^>]*>/gi, "")
+    .replace(/<meta\s+name=["']description["'][^>]*>/i, "")
+    .replace(/<link\s+rel=["']canonical["'][^>]*>/i, "");
   return cleaned.replace("</head>", `    ${tags}\n  </head>`);
 }
 

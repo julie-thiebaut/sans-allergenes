@@ -39,7 +39,7 @@ export function RestaurantDetailPage() {
     // Own scroll container: the app shell is viewport-height capped for the map/list split,
     // so this ordinary long document has to scroll itself rather than the page.
     <div className="mx-auto w-full max-w-3xl overflow-y-auto p-4">
-      <Seo title={meta.title} description={meta.description} />
+      <Seo meta={meta} />
       <Link
         to="/carte"
         className="mb-4 inline-flex items-center gap-0.5 text-sm text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"

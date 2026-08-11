@@ -4,16 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--
-      Fallback metadata only: scripts/prerender.ts overwrites the title and description per
-      route. Kept in step with buildHomeMeta in src/seo/seoData.ts so the raw index never
-      ships copy the site has moved on from.
+      Fallback metadata only: scripts/prerender.ts overwrites this managed search/social set per
+      route. Kept in step with buildHomeMeta in src/seo/seoData.ts so the raw index never ships
+      copy or share metadata the site has moved on from.
     -->
-    <title>Sans Allergènes · Trouvez où manger sans allergènes</title>
+    <title data-seo-managed="true">Sans Allergènes · Trouvez où manger sans allergènes</title>
     <meta
       name="description"
       content="Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez."
+      data-seo-managed="true"
     />
+    <link rel="canonical" href="https://sans-allergenes.fr/" data-seo-managed="true" />
 
+    <meta
+      property="og:title"
+      content="Sans Allergènes · Trouvez où manger sans allergènes"
+      data-seo-managed="true"
+    />
+    <meta
+      property="og:description"
+      content="Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez."
+      data-seo-managed="true"
+    />
+    <meta property="og:url" content="https://sans-allergenes.fr/" data-seo-managed="true" />
+    <meta property="og:type" content="website" data-seo-managed="true" />
+    <meta property="og:site_name" content="Sans Allergènes" data-seo-managed="true" />
+    <meta property="og:locale" content="fr_FR" data-seo-managed="true" />
+
+    <meta name="twitter:card" content="summary" data-seo-managed="true" />
+    <meta
+      name="twitter:title"
+      content="Sans Allergènes · Trouvez où manger sans allergènes"
+      data-seo-managed="true"
+    />
+    <meta
+      name="twitter:description"
+      content="Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez."
+      data-seo-managed="true"
+    />
     <!--
       favicon.svg is the source of truth; the other two are generated from it by
       `npm run favicons`. The .ico is listed first and the SVG second on purpose: browsers

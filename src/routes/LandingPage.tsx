@@ -42,7 +42,7 @@ function CtaButton({ children, className = "" }: { children: ReactNode; classNam
 export function LandingPage() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      <Seo title={HOME_META.title} description={HOME_META.description} />
+      <Seo meta={HOME_META} />
       <Navbar showSearch={false} />
 
       <div className="overflow-y-auto">
@@ -62,8 +62,8 @@ export function LandingPage() {
                 </span>
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-                La loi impose aux restaurants de déclarer la présence de 14 allergènes.
-                Consultez leurs déclarations et préparez votre sortie plus sereinement.
+                La loi impose aux restaurants de déclarer la présence de 14 allergènes. Consultez
+                leurs déclarations et préparez votre sortie plus sereinement.
               </p>
               <div className="mt-7 flex flex-wrap items-center gap-4">
                 <CtaButton>Explorer la carte</CtaButton>
@@ -128,14 +128,14 @@ export function LandingPage() {
           <div className="rounded-xl border-l-4 border-amber-400 bg-amber-50 p-6 md:p-8">
             <h2 className="text-xl font-bold text-amber-900">Signalez toujours votre allergie</h2>
             <p className="mt-3 leading-relaxed text-amber-900">
-              Les informations présentées sur ce site correspondent aux allergènes déclarés par
-              les restaurants. Les recettes, les ingrédients et les méthodes de préparation
-              peuvent toutefois évoluer.
+              Les informations présentées sur ce site correspondent aux allergènes déclarés par les
+              restaurants. Les recettes, les ingrédients et les méthodes de préparation peuvent
+              toutefois évoluer.
             </p>
             <p className="mt-3 font-semibold leading-relaxed text-amber-900">
-              Avant de commander, informez toujours le personnel de votre allergie et vérifiez
-              avec lui que le plat peut vous convenir, notamment en cas de risque de
-              contamination croisée.
+              Avant de commander, informez toujours le personnel de votre allergie et vérifiez avec
+              lui que le plat peut vous convenir, notamment en cas de risque de contamination
+              croisée.
             </p>
           </div>
         </section>
@@ -147,8 +147,8 @@ export function LandingPage() {
               Trouvez votre prochain restaurant
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-neutral-300">
-              Découvrez les restaurants autour de vous et filtrez leurs plats selon les
-              allergènes que vous évitez.
+              Découvrez les restaurants autour de vous et filtrez leurs plats selon les allergènes
+              que vous évitez.
             </p>
             <CtaButton className="mt-8">Explorer la carte</CtaButton>
           </div>

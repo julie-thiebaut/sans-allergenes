@@ -5,6 +5,10 @@ export interface PageMeta {
   description: string;
   canonical: string;
   ogImage?: string;
+  ogImageAlt?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  ogImageType?: string;
   jsonLd?: Record<string, unknown>;
 }
 
@@ -62,5 +66,5 @@ export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): Pa
     jsonLd.priceRange = "€".repeat(restaurant.priceLevel);
   }
 
-  return { title, description, canonical, ogImage: restaurant.imageUrl, jsonLd };
+  return { title, description, canonical, jsonLd };
 }
