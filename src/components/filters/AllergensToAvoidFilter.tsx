@@ -38,7 +38,9 @@ export function AllergensToAvoidFilter({
             <label
               key={id}
               className={`inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1 text-sm ${
-                checked ? "border-red-300 bg-red-50 text-red-700" : "border-neutral-300 text-neutral-700"
+                checked
+                  ? "border-red-300 bg-red-50 text-red-700"
+                  : "border-neutral-300 text-neutral-700"
               }`}
             >
               <input

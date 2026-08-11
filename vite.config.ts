@@ -10,6 +10,9 @@ const basePath = process.env.BASE_PATH ?? "/";
 export default defineConfig({
   base: basePath,
   plugins: [react()],
+  // Vite doesn't read PORT on its own; honouring it lets a second dev server start alongside
+  // one already holding 5173 instead of failing.
+  server: { port: Number(process.env.PORT) || 5173 },
   build: {
     outDir: "dist",
   },

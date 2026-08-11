@@ -5,7 +5,7 @@ export function AllergenInfoAvailableFilter() {
   const dispatch = useFilterDispatch();
 
   return (
-    <label className="flex items-center gap-2 text-sm text-neutral-700">
+    <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
       <input
         type="checkbox"
         checked={allergenInfoAvailableOnly}

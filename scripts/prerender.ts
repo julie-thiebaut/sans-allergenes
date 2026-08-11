@@ -166,7 +166,9 @@ async function main(): Promise<void> {
   ];
 
   const server = startPreviewServer();
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({
+    executablePath: process.env.PLAYWRIGHT_EXECUTABLE_PATH || undefined,
+  });
 
   // Rendered HTML is collected in memory and only written to disk AFTER every route has been
   // crawled. Writing dist/index.html mid-crawl would corrupt the crawl itself: vite preview

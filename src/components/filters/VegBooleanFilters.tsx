@@ -5,8 +5,8 @@ export function VegBooleanFilters() {
   const dispatch = useFilterDispatch();
 
   return (
-    <div className="flex flex-wrap gap-4">
-      <label className="flex items-center gap-2 text-sm text-neutral-700">
+    <div className="flex flex-wrap gap-4 md:flex-nowrap">
+      <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
         <input
           type="checkbox"
           checked={vegetarianOnly}
@@ -16,7 +16,7 @@ export function VegBooleanFilters() {
         />
         Options végétariennes
       </label>
-      <label className="flex items-center gap-2 text-sm text-neutral-700">
+      <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
         <input
           type="checkbox"
           checked={veganOnly}
