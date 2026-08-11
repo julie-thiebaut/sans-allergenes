@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { MemoryRouter } from "react-router-dom";
+import { BrowserRouter, MemoryRouter } from "react-router-dom";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { SplitView } from "../../src/components/layout/SplitView";
 import { MapView } from "../../src/components/map/MapView";
@@ -8,6 +8,7 @@ import { FilterStateProvider } from "../../src/state/FilterStateContext";
 import { MapActionsProvider } from "../../src/state/mapActionsContext";
 import { MapBoundsProvider } from "../../src/state/mapBoundsContext";
 import { SelectionProvider } from "../../src/state/SelectionContext";
+import { useUrlFilterSync } from "../../src/state/useUrlFilterSync";
 import { restaurantWithFullInfo } from "../fixtures/restaurants.fixture";
 
 function jsonResponse(body: unknown): Response {
@@ -31,6 +32,13 @@ function renderMapViewWithRealProvider() {
   );
 }
 
+function PrerenderMapPageHarness() {
+  // This is the same ordering as MapPage: the child hook normalises the query string while
+  // MapsProvider, higher in the tree, must retain the prerender decision it made during render.
+  useUrlFilterSync();
+  return <MapView restaurants={[restaurantWithFullInfo]} />;
+}
+
 describe("Maps disabled/failed fallback (no real Google Maps script ever requested)", () => {
   const originalFetch = global.fetch;
 
@@ -38,6 +46,35 @@ describe("Maps disabled/failed fallback (no real Google Maps script ever request
     global.fetch = originalFetch;
     vi.restoreAllMocks();
     document.querySelectorAll('script[src*="maps.googleapis.com"]').forEach((el) => el.remove());
+    window.history.replaceState(null, "", "/");
+  });
+
+  it("keeps Google Maps disabled when URL filter sync removes the prerender flag", async () => {
+    global.fetch = vi.fn(async () =>
+      jsonResponse({ googleMapsEnabled: true }),
+    ) as unknown as typeof fetch;
+    window.history.replaceState(null, "", "/carte?__prerender=1");
+
+    render(
+      <BrowserRouter>
+        <MapsProvider>
+          <FilterStateProvider>
+            <MapBoundsProvider>
+              <SelectionProvider>
+                <MapActionsProvider>
+                  <PrerenderMapPageHarness />
+                </MapActionsProvider>
+              </SelectionProvider>
+            </MapBoundsProvider>
+          </FilterStateProvider>
+        </MapsProvider>
+      </BrowserRouter>,
+    );
+
+    expect(await screen.findByText(/carte temporairement indisponible/i)).toBeInTheDocument();
+    expect(window.location.search).toBe("");
+    expect(global.fetch).not.toHaveBeenCalled();
+    expect(document.querySelector('script[src*="maps.googleapis.com"]')).toBeNull();
   });
 
   it("shows the neutral fallback and never injects the Google Maps script when googleMapsEnabled is false", async () => {

@@ -11,16 +11,22 @@ import { MapsContext, type MapsConfigState } from "./useMapsContext";
  * Maps script-loading code path, and the resulting network request, never runs when disabled.
  */
 export function MapsProvider({ children }: { children: ReactNode }) {
-  const [configState, setConfigState] = useState<MapsConfigState>("loading");
+  // Snapshot this during the parent render, before child effects can normalise the URL and
+  // remove internal query parameters. In particular, useUrlFilterSync runs below this provider
+  // and replaces the query string on mount; checking window.location only in this provider's
+  // effect was therefore too late and allowed the real map to load during prerendering.
+  const [isPrerendering] = useState(() =>
+    new URLSearchParams(window.location.search).has("__prerender"),
+  );
+  const [configState, setConfigState] = useState<MapsConfigState>(() =>
+    isPrerendering ? "disabled" : "loading",
+  );
 
   useEffect(() => {
     // The build-time prerender script (scripts/prerender.ts) navigates here with this flag
     // so it NEVER fetches config.json or touches the real Google Maps script, regardless of
     // the committed googleMapsEnabled value — prerendering must never trigger a billable call.
-    if (new URLSearchParams(window.location.search).has("__prerender")) {
-      setConfigState("disabled");
-      return;
-    }
+    if (isPrerendering) return;
 
     let cancelled = false;
 
@@ -48,7 +54,7 @@ export function MapsProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [isPrerendering]);
 
   const createAdapter = useMemo(
     () => async (): Promise<MapsAdapter> => {
