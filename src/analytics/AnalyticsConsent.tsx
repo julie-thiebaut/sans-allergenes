@@ -43,9 +43,9 @@ export function AnalyticsConsentBanner({
         <div>
           <h2 className="text-lg font-bold text-neutral-900">Mesure d’audience facultative</h2>
           <p className="mt-2 text-sm leading-relaxed">
-            Avec votre accord, Google Analytics nous aide à compter les visites et les pages
-            consultées. Les filtres d’allergènes et les recherches d’adresse ne sont pas envoyés à
-            Analytics. Refuser ne change rien au fonctionnement du site.{" "}
+            Sans Allergènes est gratuit. Compter les visites et les pages consultées nous aide à
+            savoir quels restaurants ajouter ensuite. Vos filtres d’allergènes et vos recherches
+            d’adresse ne sont jamais transmis à Analytics.{" "}
             <Link
               className="font-medium text-brand-700 underline underline-offset-2"
               to="/confidentialite#cookies"
