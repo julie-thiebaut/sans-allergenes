@@ -84,8 +84,12 @@ function analyticsWindow(): AnalyticsWindow {
 function ensureGtag(): Gtag {
   const target = analyticsWindow();
   target.dataLayer ??= [];
-  target.gtag ??= function gtag(...args: unknown[]) {
-    target.dataLayer?.push(args);
+  // gtag.js only treats a dataLayer entry as a command when the entry is the `arguments`
+  // object itself; it ignores a plain array. A rest parameter pushes an Array, so every
+  // consent/js/config/event call was dropped and the property never received a single hit.
+  target.gtag ??= function gtag() {
+    // eslint-disable-next-line prefer-rest-params -- gtag.js requires the arguments object.
+    target.dataLayer?.push(arguments);
   };
   return target.gtag;
 }
