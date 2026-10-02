@@ -1,0 +1,1515 @@
+{
+  "menuId": "menu-amorino",
+  "restaurantId": "amorino-75004",
+  "categories": [
+    {
+      "category": "Parfums",
+      "dishes": [
+        {
+          "id": "amorino-cremino-au-gelato-nappage-pistache-gelato-fleur-de-lait",
+          "name": "Cremino au gelato - Nappage pistache & Gelato fleur de lait",
+          "description": "Une création tout en douceur et en contraste, où le gelato fleur de lait, onctueux et délicatement lacté, s’allie à un nappage pistache à la fois gourmand et intense. Crémeux, raffiné et parfaitement équilibré à la dégustation, il se marie harmonieusement avec les parfums Inimitable, chocolat Amorino ou noisette pour un accord tout en rondeur qui saura séduire les pistachio lovers.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cremino-au-gelato-nappage-gianduja-gelato-noisette",
+          "name": "Cremino au gelato - Nappage Gianduja & Gelato noisette",
+          "description": "Sous une couche brillante de nappage gianduja, le gelato noisette dévoile une texture veloutée et des arômes délicatement grillés. Une expérience riche et fondante, typiquement italienne, qui s’accorde parfaitement avec les parfums chocolat, café ou stracciatella.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-gelato-fleur-de-lait-fruits-exotiques",
+          "name": "Gelato Fleur de Lait & Fruits Exotiques",
+          "description": "Un gelato fruité alliant la douceur de la fleur de lait et la fraicheur acidulée des fruits exotiques. Un coulis aux fruits exotiques vient relever l’ensemble pour un goût unique et équilibré.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-fruits-rouges-reduit-en-sucres",
+          "name": "SORBET FRUITS ROUGES RÉDUIT EN SUCRES",
+          "description": "Savoureux et intense, ce parfum contient 30% de sucre en moins qu’un sorbet classique et possède un index glycémique bas (charge glycémique = 7/100g). Avec seulement 93kcal/100g, il s’agit également du sorbet le moins calorique d’Amorino.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cacahuete-grillee",
+          "name": "Cacahuète grillée",
+          "description": "Cet hiver, Amorino enrichit sa collection de parfums avec une nouveauté à la fois douce et généreuse : un Gelato à la cacahuète grillée, délicatement nappé de caramel au beurre salé de Guérande IGP.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-tiramisu",
+          "name": "Tiramisù",
+          "description": "Avec sa texture onctueuse, notre gelato capture l’essence du tiramisù italien. L’intensité du café et du cacao s’équilibre avec la douceur du mascarpone. Sans gluten, il ravira tout le monde.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-pistache-mawardi",
+          "name": "Pistache Mawardi",
+          "description": "Notre gelato à la pistache Mawardi, appelée « or vert », évoque toute la magie d’un terroir d’exception. Un parfum emblématique de l'Italie qui reflète notre savoir-faire.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-vanille-bourbon-de-madagascar",
+          "name": "Vanille Bourbon de Madagascar",
+          "description": "Élaboré à partir de précieuses gousses de vanille Bourbon de Madagascar, ce gelato révèle l’authenticité et la douceur d’un parfum emblématique.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-l-inimitable-creme-chocolat-noisette",
+          "name": "L'inimitable (crème chocolat-noisette)",
+          "description": "L'alliance emblématique du cacao et de la noisette, dans un gelato inimitable. Une véritable invitation à la gourmandise grâce à son goût unique & son onctuosité.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-mangue-alphonso-d-inde",
+          "name": "Sorbet Mangue Alphonso d'Inde",
+          "description": "L’alliance parfaite entre exotisme et douceur dans ce sorbet à la mangue Alphonso d’Inde, l’une des plus prisées au monde.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-yaourt-0-de-matiere-grasse",
+          "name": "Yaourt 0% de matière grasse",
+          "description": "Un parfum incontournable, qui vous offre toute l'authenticité du yaourt à 0% de matière grasse, dans un gelato à la texture veloutée. Une saveur pure et unique à savourer sans modération.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-fraise",
+          "name": "Fraise",
+          "description": "Avec plus de 50% de fraises, notre sorbet plein fruit fond délicieusement en bouche. Une saveur unique qui met le fruit à l'honneur.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-chocolat-amorino",
+          "name": "Chocolat Amorino",
+          "description": "Un gelato qui associe la douceur du cacao à l’onctuosité du lait frais entier. Son goût délicat et unique saura satisfaire tous les amateurs de chocolat.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-stracciatella",
+          "name": "Stracciatella",
+          "description": "Elaboré selon la tradition italienne, ce parfum emblématique offre une expérience sensorielle unique. La douceur de la fleur de lait se mêle aux copeaux de chocolat noir pour un jeu de texture gourmand.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cafe-100-arabica",
+          "name": "Café 100% Arabica",
+          "description": "L'intensité du véritable espresso italien sublimé par notre gelato. Un parfum qui se caractérise par son goût puissant de café et sa finesse arômatique.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-caramel-beurre-demi-sel-aop-isigny",
+          "name": "Caramel beurre demi-sel (AOP Isigny)",
+          "description": "Amorino s’inspire de la recette traditionnelle du caramel au beurre salé dans un gelato gourmand sublimé par des éclats de caramel.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-framboise",
+          "name": "Sorbet Framboise",
+          "description": "Découvrez toute la délicatesse de notre sorbet plein fruit, où l'acidité subtile des framboises s’allie à leur douceur naturelle.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-citron-bio-de-syracuse",
+          "name": "Sorbet Citron bio de Syracuse",
+          "description": "Le goût raffiné du citron Femminello de Syracuse est sublimé par notre sorbet bio à l’équilibre parfait entre fraîcheur et acidité.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-noix-de-coco-du-sri-lanka",
+          "name": "Noix de coco du Sri Lanka",
+          "description": "Un parfait équilibre entre douceur et fraîcheur, sublimé par sa texture crémeuse. Grâce à la pulpe de coco, chaque bouchée de notre gelato vous offre l’impression de savourer ce fruit dans toute sa richesse, pour une expérience unique.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-amarena-cerise-griotte-et-son-coulis",
+          "name": "Amarena cerise griotte et son coulis",
+          "description": "Ces cerises sont pleines de goût et légèrement acidulées. Un véritable paradis pour les amateurs de cerises, impossible d’imaginer une gelateria italienne sans cette saveur incontournable.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-noisette-d-italie",
+          "name": "Noisette d'Italie",
+          "description": "Un gelato qui sublime l'arôme délicat des noisettes d'italie et révèle le juste équilibre entre notes torréfiées et douceur.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-fruit-de-la-passion",
+          "name": "Sorbet Fruit de la passion",
+          "description": "Notre sorbet au fruit de la passion, vibrant et rafraîchissant, regorge de saveurs exotiques avec de délicates notes acidulées qui soulignent son authenticité.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-citron-vert-basilic",
+          "name": "Sorbet Citron vert Basilic",
+          "description": "Ce sorbet audacieux marie l’acidité de l’agrume à la douceur raffinée du basilic.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-dulce-de-leche",
+          "name": "Dulce de leche",
+          "description": "Quand l’art du gelato italien rencontre la tradition sud-américaine, naît le parfum Dulce de Leche : un gelato à la confiture de lait légèrement caramélisée, offrant une saveur douce, réconfortante, sublimé par un coulis Dulce de Leche.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-chocolat-equateur-corse",
+          "name": "Chocolat Equateur (corsé)",
+          "description": "Un gelato qui sublime le cacao d’Équateur en révélant ses arômes profonds et ses délicates notes boisées, pour un moment de dégustation intense et gourmand.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-banane-du-bresil",
+          "name": "Sorbet Banane du Brésil",
+          "description": "Ce sorbet à la banane offre une expérience gustative intense qui restitue fidèlement les saveurs naturelles du fruit.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-chocolat-bio",
+          "name": "Sorbet Chocolat Bio",
+          "description": "Un sorbet bio au chocolat intense, sans lait, pour une expérience authentique à savourer sans attendre !",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-menthe-et-copeaux-de-chocolat",
+          "name": "Menthe et copeaux de chocolat",
+          "description": "Un duo de saveur emblématique dans un gelato gourmand associant menthe fraiche et copeaux de chocolat noir pour une pause fraîcheur irrésistible.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Crêpes et gaufres",
+      "dishes": [
+        {
+          "id": "amorino-brioche-au-gelato",
+          "name": "Brioche au gelato",
+          "description": "La brioche à la glace est une délicieuse spécialité sicilienne que ravira petits et grands.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-waffle-sticks",
+          "name": "Waffle sticks",
+          "description": "Une sélection de délicieux accompagnements pour une pause gourmande à composer selon votre envie, au gianduja, à la glace, au chocolat, au caramel, au sucre, à la chantilly maison.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Boissons Chaudes et Froides",
+      "dishes": [
+        {
+          "id": "amorino-cafes-glaces",
+          "name": "Cafés glacés",
+          "description": "Amorino dévoile sa nouvelle gamme de cafés glacés, des boissons fraîches et gourmandes idéales pour l’été. Déclinés en Americano, Latte, Macchiato et Latte Gourmand, ces cafés glacés offrent une expérience rafraîchissante tout en préservant l’intensité et la richesse aromatique du café. Parfaits pour les journées les plus chaudes, ils allient fraîcheur, plaisir et savoir-faire italien.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-chocolat-chaud",
+          "name": "Chocolat chaud",
+          "description": "Authentique chocolat chaud italien : épais, onctueux et velouté. Déclinable en 10 parfums : lait, noir, noisette, gianduja, caramel, amande, blanc, coco, orange, piment, ainsi que des options végan.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cappucino",
+          "name": "Cappucino",
+          "description": "L'incontournable : Espresso et mousse de lait, pour une boisson authentique et corsée. Existe en trois tailles.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-latte-gourmand",
+          "name": "Latte Gourmand",
+          "description": "Le Latte Gourmand est une variation du latte macchiato. Il se compose d'un coulis au choix, de la chantilly maison et du croquant.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-latte-macchiato",
+          "name": "Latte Macchiato",
+          "description": "Une base de lait chaud, une mousse onctueuse, un café ristretto fraîchement extrait : notre latte se décline en trois formats (petit, moyen, grand) pour satisfaire toutes vos envies, sur place ou à emporter.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-affogato-al-cioccolato",
+          "name": "Affogato al cioccolato",
+          "description": "La composition idéale pour cet hiver ! Une combinaison idéale qui se compose de deux délicieux rouleaux de gelato au choix accompagné de notre chocolat chaud italien, Vous aurez la possibilité de choisir parmi 10 saveurs de chocolat chaud !",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-affogato-al-caffe",
+          "name": "Affogato al Caffe",
+          "description": "Une spécialité italienne qui marie la force et la chaleur du café espresso à la douceur rafraichissante de la crème glacée vanille.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-espresso-ristretto",
+          "name": "Espresso, Ristretto",
+          "description": "L’Espresso, un café riche et équilibré, est idéal pour les amateurs de saveurs intenses. Le Ristretto, quant à lui, plus concentrée et corsée, offre une expérience encore plus puissante.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-americano",
+          "name": "Americano",
+          "description": "Un espresso allongé pour un café doux et léger. Existe en trois tailles.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Créations gourmandes",
+      "dishes": [
+        {
+          "id": "amorino-coupe-gourmande-a-composer",
+          "name": "Coupe Gourmande à composer",
+          "description": "Coupe composée de deux parfums et d’un coulis de votre choix, de billes de chocolat noir, de chantilly maison et d’un mini wafer pour encore plus de gourmandise.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-coupe-gourmande-amarena-pistache",
+          "name": "Coupe Gourmande Amarena – Pistache",
+          "description": "Coupe composée des parfums Amarena et Pistache, accompagnée de confiture de cerises griottes, de billes de chocolat noir, de chantilly maison et d’un mini wafer pour encore plus de gourmandise.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-coupes-gourmandes-caramel-vanille",
+          "name": "Coupes Gourmandes Caramel - Vanille",
+          "description": "Coupe composée des parfums Caramel et Vanille, accompagnée d’un coulis caramel fleur de sel, de billes de chocolat noir, de chantilly maison et d’un mini wafer pour encore plus de gourmandise.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-coupes-gourmandes-inimitable-vanille",
+          "name": "Coupes Gourmandes Inimitable - Vanille",
+          "description": "Coupe composée des parfums Inimitable et Vanille, accompagnée d’un coulis gianduja, de billes de chocolat noir, de chantilly maison et d’un mini wafer pour encore plus de gourmandise.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-milkshake-gourmand",
+          "name": "Milkshake Gourmand",
+          "description": "Le Milkshake Gourmand est la boisson réconfortante de l’hiver. Élaboré à partir d’une base onctueuse de lait et de gelato, il est sublimé par une généreuse couche de chantilly, rehaussée d’un délicat coulis. Le tout est agrémenté de fins éclats de noisettes, ajoutant une touche croquante et savoureuse à cette expérience gourmande.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-sorbet-drink",
+          "name": "Sorbet drink",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts Glacés",
+      "dishes": [
+        {
+          "id": "amorino-incanto",
+          "name": "Incanto",
+          "description": "Pour célébrer la magie des fêtes, Amorino présente Incanto, un dessert glacé en édition limitée, inspiré du Cremino italien, une confiserie italienne née au Piémont au XIXᵉsiècle qui se compose traditionnellement de trois couches de chocolat gianduja.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-primavera",
+          "name": "Primavera",
+          "description": "Notre dessert glacé &quot;Primavera&quot; (Printemps) allie saveurs fruités et réconfortantes tout en jouant sur les couleurs. Le goût acidulé et légèrement sucré du sorbet Framboise vient contraster le crémeux et la rondeur de la gelato Pistache qui se trouve en insert à l'intérieur. Un cœur de meringue et des éclats de pistaches concassées apportent une touche de gourmandise supplémentaire.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-estate",
+          "name": "Estate",
+          "description": "Le dessert glacé &quot;Estate&quot; (été) évoque un paradis tropical par son enveloppe éclatante de mangue. Son cœur tendre de noix de coco, associé à une meringue croquante et légère, appelle au voyage.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-autunno",
+          "name": "Autunno",
+          "description": "Célébrez l'automne avec notre dessert glacé &quot;Autunno&quot;. L'intensité du gelato Chocolat se marie parfaitement avec l'emblématique gelato Noisette. L'insert biscuit praliné ajoute un croquant irrésistible. Le liseré de noisettes torréfiées complète ce chef-d'œuvre, offrant une finition délicate et mémorable.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-inverno",
+          "name": "Inverno",
+          "description": "Le dessert glacé &quot;Inverno&quot; (Hiver) évoque des contrées enneigées grâce à une alliance subtile de caramel au beurre salé AOP d’Isigny posé sur un biscuit praliné, le tout délicatement recouvert d’un manteau blanc de gelato à la Vanille de Madagascar. Il trônera fièrement sur vos tables de fêtes.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Épicerie fine",
+      "dishes": [
+        {
+          "id": "amorino-cake-noisette",
+          "name": "Cake - Noisette",
+          "description": "Un cake aux noisettes tendre et moelleux, où la gourmandise s’exprime avec élégance et simplicité.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cake-amande-citron",
+          "name": "Cake - Amande Citron",
+          "description": "Un cake moelleux associant la douceur de l’amande à la fraîcheur du citron, pour une recette délicate et équilibrée.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-cake-chocolat",
+          "name": "Cake - Chocolat",
+          "description": "Un cake au chocolat intensément gourmand, à la texture fondante et au goût profond.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-bacio-di-dama",
+          "name": "Bacio di dama",
+          "description": "Produit de pâtisserie artisanale composé de noisettes du Piémont IGP et de beurre. Garni avec du chocolat noir.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-brutti-e-buoni",
+          "name": "Brutti e buoni",
+          "description": "Produit croquant artisanal composé de noisettes du Piémont IGP.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-tondo-e-gentile",
+          "name": "Tondo e gentile",
+          "description": "Produit de pâtisserie artisanale composé de noisettes du Piémont IGP et de beurre.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Gianduiotto al Gelato",
+      "dishes": [
+        {
+          "id": "amorino-gianduiotto-au-gelato-chocolat-noir-gelato-chocolat",
+          "name": "Gianduiotto au gelato - Chocolat noir & Gelato chocolat",
+          "description": "Cette bouchée glacée revisite avec élégance le célèbre Gianduiotto italien, une gourmandise iconique du Piémont alliant cacao et noisettes finement broyées.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-gianduiotto-au-gelato-chocolat-blanc-gelato-pistache",
+          "name": "Gianduiotto au Gelato - Chocolat blanc & Gelato pistache",
+          "description": "Cette bouchée glacée revisite avec élégance le célèbre Gianduiotto italien, une gourmandise iconique du Piémont alliant cacao et noisettes finement broyées. Inspirée de la recette traditionnelle et avec son savoir-faire unique, Amorino réinvente ce classique en y ajoutant un cœur glacé de gelato pistache enrobé de chocolat blanc croquant.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-gianduiotto-au-gelato-chocolat-au-lait-gelato-noisette",
+          "name": "Gianduiotto au Gelato - Chocolat au lait & Gelato noisette",
+          "description": "Cette bouchée glacée revisite avec élégance le célèbre Gianduiotto italien, une gourmandise iconique du Piémont alliant cacao et noisettes finement broyées. Inspirée de la recette traditionnelle et avec son savoir-faire unique, Amorino réinvente ce classique en y ajoutant un cœur glacé de gelato noisette enrobé de chocolat au lait croquant.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Macarons al Gelato",
+      "dishes": [
+        {
+          "id": "amorino-macaron-grandioso",
+          "name": "Macaron Grandioso",
+          "description": "Le macaron Grandioso est LA nouveauté 2021.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-gelato-fleur-de-lait-coulis-exotique",
+          "name": "MACARON GELATO FLEUR DE LAIT & COULIS EXOTIQUE",
+          "description": "Un macaron au gelato alliant la douceur de la fleur de lait et l'intensité des fruits exotiques, avec un délicieux contraste entre la croquant de la coque et le fondant du gelato.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-cacahuete",
+          "name": "Macaron Cacahuète",
+          "description": "Deux coques moelleuses pailletées renferment notre gelato onctueux à la saveur douce et généreuse : cacahuète grillée au beurre salé de Guérande IGP. En édition limitée.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-noisette",
+          "name": "Macaron Noisette",
+          "description": "Notre gelato à la noisette, intense et classique, se niche tel un bijou entre deux coques de macaron parsemées d’éclats de noisettes grillées.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-litchi-framboise-rose",
+          "name": "Macaron Litchi-Framboise-Rose",
+          "description": "Deux coques moelleuses rose pastel renferment un sorbet onctueux à la saveur délicate de litchi framboise et rose, pour un véritable délice estival.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-tiramisu",
+          "name": "Macaron Tiramisù",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-vanille",
+          "name": "Macaron vanille",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-framboise",
+          "name": "Macaron framboise",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-chocolat-amorino",
+          "name": "Macaron Chocolat Amorino",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-caramel",
+          "name": "Macaron caramel",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "amorino-macaron-pistache",
+          "name": "Macaron pistache",
+          "description": "Confectionnés avec soin, nos macarons renferment un cœur de gelato ou de sorbet, décliné en huit parfums fixes et un parfum éphémère en période estivale et hivernale. Leurs coques, spécialement conçues pour Amorino, allient le croquant et le moelleux, relevés par une délicate note d’arôme d’amande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

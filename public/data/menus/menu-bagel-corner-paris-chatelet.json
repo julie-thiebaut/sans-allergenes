@@ -1,0 +1,1559 @@
+{
+  "menuId": "menu-bagel-corner-paris-chatelet",
+  "restaurantId": "bagel-corner-bagel-donuts-cafe-75001",
+  "categories": [
+    {
+      "category": "Offres du moment",
+      "dishes": [
+        {
+          "id": "bagelcorner-bagel-kipik",
+          "name": "Bagel Kipik",
+          "price": 9.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, effiloché de poulet, concombre, poivrons, oignons frits et sauce épicée Naga Mango de Sauces Martin (force 6/12)"
+        },
+        {
+          "id": "bagelcorner-donut-kipik",
+          "name": "Donut Kipik",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut chocolat épicé, décoré d’un petit piment oiseau"
+        },
+        {
+          "id": "bagelcorner-nachos-kipik",
+          "name": "Nachos Kipik",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Doritos Sweet Chili, sauce cheddar, oignons frits et ciboulette"
+        },
+        {
+          "id": "bagelcorner-citronnade-kipik",
+          "name": "Citronnade Kipik",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Citronnade épicée et notes de mangue"
+        }
+      ]
+    },
+    {
+      "category": "Bagels",
+      "dishes": [
+        {
+          "id": "bagelcorner-bollywood",
+          "name": "Bollywood",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, poulet tikka, tomates, jeunes pousses de salade et sauce curry oignons frits"
+        },
+        {
+          "id": "bagelcorner-cheddar-eggs",
+          "name": "Cheddar & eggs",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, double cheddar, oeuf"
+        },
+        {
+          "id": "bagelcorner-club",
+          "name": "Club",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Cream cheese, dinde fumée, œuf, tomates et jeunes pousses de salade"
+        },
+        {
+          "id": "bagelcorner-caesar",
+          "name": "Caesar",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, escalope de poulet panée, copeaux de fromage, oignons frits, jeunes pousses de salade et sauce caesar"
+        },
+        {
+          "id": "bagelcorner-extreme",
+          "name": "Extrême",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, dinde fumée, pastrami, cheddar, avocats, tomates cerises, jeunes pousses de salade et sauce moutarde et miel"
+        },
+        {
+          "id": "bagelcorner-milanais",
+          "name": "Milanais",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, bresaola, mozzarella, tomates, jeunes pousses de salade et sauce pesto"
+        },
+        {
+          "id": "bagelcorner-new-yorkais",
+          "name": "New-yorkais",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, pastrami, cheddar, oignons frits, avocat, pickles, jeunes pousses de salade et sauce moutarde miel"
+        },
+        {
+          "id": "bagelcorner-nordique",
+          "name": "Nordique",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese ciboulette, saumon fumé, avocat, tomates, jeunes pousses de salade et sauce citron aneth"
+        },
+        {
+          "id": "bagelcorner-originel",
+          "name": "Originel",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese ciboulette, saumon fumé"
+        },
+        {
+          "id": "bagelcorner-vegan",
+          "name": "Vegan",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Guacamole, bacon végétal La Vie, avocat, tomates cerises, jeunes pousses de salade"
+        },
+        {
+          "id": "bagelcorner-veggie",
+          "name": "Veggie",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese ciboulette, avocat, concombres, tomates, cheddar, jeunes pousses de salade et poivrons marinés"
+        },
+        {
+          "id": "bagelcorner-chicken-avocado",
+          "name": "Chicken avocado",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Avocat, poulet pané, cheddar et sauce steakhouse"
+        }
+      ]
+    },
+    {
+      "category": "Bagels signature",
+      "dishes": [
+        {
+          "id": "bagelcorner-chicken-bbq",
+          "name": "Chicken bbq",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, effiloché de poulet, cheddar, oignons frits, pickles d’oignons rouges, salade, sauce steak house"
+        },
+        {
+          "id": "bagelcorner-fastrami",
+          "name": "Fastrami",
+          "price": 13.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cream cheese, 15 tranches de Pastrami, cheddar, sauce moutarde miel"
+        }
+      ]
+    },
+    {
+      "category": "Salades",
+      "dishes": [
+        {
+          "id": "bagelcorner-salade-caesar",
+          "name": "Salade caesar",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes pousses et salade iceberg, poulet frit, tomates cerises, copeaux de fromage, oignons frits, sauce Caesar"
+        },
+        {
+          "id": "bagelcorner-salade-club",
+          "name": "Salade club",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes pousses et salade iceberg, tomates cerises, avocat, oeufs brouillés, copeaux de fromage, dinde fumée, sauce vinaigre balsamique"
+        },
+        {
+          "id": "bagelcorner-salade-new-yorkaise",
+          "name": "Salade new-yorkaise",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes pousses et salade iceberg, pastrami, kroustipop's, avocat, oignons frits, pickles, sauce moutarde miel"
+        },
+        {
+          "id": "bagelcorner-salade-nordique",
+          "name": "Salade nordique",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes pousses et salade iceberg, avocat, tomates cerises, concombres, saumon fumé, sauce citron-aneth"
+        },
+        {
+          "id": "bagelcorner-salade-veggie",
+          "name": "Salade veggie",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes pousses et salade iceberg, tomates cerises, concombre, poivrons marinés, avocat, funky falafels, vinaigrette balsamique"
+        }
+      ]
+    },
+    {
+      "category": "Petite faim salée",
+      "dishes": [
+        {
+          "id": "bagelcorner-only-cream",
+          "name": "Only Cream",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Double cream cheese"
+        },
+        {
+          "id": "bagelcorner-p-tit-dinde",
+          "name": "P'tit dinde",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Petit pain brioché, cream cheese, dinde fumée, tomates cerises, jeunes pousses de salade"
+        },
+        {
+          "id": "bagelcorner-pommes-grenaille-au-cheddar",
+          "name": "Pommes grenaille au cheddar",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pommes de terre Grenailles, sauce cheddar, oignons frits et ciboulette"
+        },
+        {
+          "id": "bagelcorner-nachos",
+          "name": "Nachos",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-kroustipop-s",
+          "name": "Kroustipop's",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouchées de pomme de terre"
+        },
+        {
+          "id": "bagelcorner-chips-vinaigre-de-cidre",
+          "name": "Chips vinaigre de cidre",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-chips-cheese-onion",
+          "name": "Chips cheese & onion",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-chips-sel-poivre",
+          "name": "Chips sel & poivre",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-chips-sel-de-mer",
+          "name": "Chips sel de mer",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-p-tit-poulet",
+          "name": "P'tit poulet",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Petit pain brioché, cream cheese, poulet pané et cheddar"
+        }
+      ]
+    },
+    {
+      "category": "Donuts",
+      "dishes": [
+        {
+          "id": "bagelcorner-donut-cookie",
+          "name": "Donut cookie",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut nappage chocolat et Cookie"
+        },
+        {
+          "id": "bagelcorner-donut-bueno",
+          "name": "Donut bueno",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut nappage noisette et Kinder Bueno"
+        },
+        {
+          "id": "bagelcorner-donut-oreo",
+          "name": "Donut oreo",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut nappage chocolat blanc et Oreo"
+        },
+        {
+          "id": "bagelcorner-donut-country",
+          "name": "Donut country",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut nappage pistache, riz soufflé et Kinder Country"
+        },
+        {
+          "id": "bagelcorner-donut-speculos",
+          "name": "Donut speculos",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Donut nappage chocolat et Spéculoos"
+        }
+      ]
+    },
+    {
+      "category": "Petite faim sucrée",
+      "dishes": [
+        {
+          "id": "bagelcorner-cookie-au-caramel-et-noix-de-pecan",
+          "name": "Cookie au caramel et noix de pécan",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-cookie-chocolat-blanc-cranberry",
+          "name": "Cookie chocolat blanc cranberry",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-cookie-pepites-de-chocolat",
+          "name": "Cookie pépites de chocolat",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-cookie-triple-chocolat",
+          "name": "Cookie triple chocolat",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-fromage-blanc-fruits-exotiques",
+          "name": "Fromage blanc fruits exotiques",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-fromage-blanc-fruits-rouges",
+          "name": "Fromage blanc fruits rouges",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-fromage-blanc-muesli",
+          "name": "Fromage blanc muesli",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-fromage-blanc-speculoos",
+          "name": "Fromage blanc spéculoos",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-bagel-sucre-nocciolata",
+          "name": "Bagel sucré nocciolata",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain brioché et garniture au choix"
+        },
+        {
+          "id": "bagelcorner-muffin-chocolat",
+          "name": "Muffin chocolat",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-muffin-vanille",
+          "name": "Muffin vanille",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-cheesecake-nature",
+          "name": "Cheesecake nature",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cheesecake nature"
+        },
+        {
+          "id": "bagelcorner-compote-noix-de-pecan",
+          "name": "Compote noix de pécan",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-compote-speculoos",
+          "name": "Compote spéculoos",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-super-muffin",
+          "name": "Super muffin",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Muffin avec topping"
+        },
+        {
+          "id": "bagelcorner-cinnamon-roll",
+          "name": "Cinnamon roll",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Roulé à la cannelle, notre dessert le plus réconfortant !"
+        }
+      ]
+    },
+    {
+      "category": "Matcha Series",
+      "dishes": [
+        {
+          "id": "bagelcorner-matcha-latte",
+          "name": "Matcha Latte",
+          "price": 5.1,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Latte au matcha cérémonie bio, texture onctueuse et notes végétales délicates"
+        },
+        {
+          "id": "bagelcorner-iced-matcha-fraise",
+          "name": "Iced Matcha fraise",
+          "price": 6.3,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Iced latte au matcha cérémonie bio, texture onctueuse et notes végétales délicates, purée de fraise"
+        }
+      ]
+    },
+    {
+      "category": "Latte Signature",
+      "dishes": [
+        {
+          "id": "bagelcorner-ube-latte",
+          "name": "Ube Latte",
+          "price": 5.1,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Latte à l'ube, pointes de vanille bourbon et patate douce violette"
+        },
+        {
+          "id": "bagelcorner-golden-latte",
+          "name": "Golden Latte",
+          "price": 5.1,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Latte au curcuma et mélange d'épices"
+        },
+        {
+          "id": "bagelcorner-black-sesame-latte",
+          "name": "Black sésame latte",
+          "price": 5.1,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Latte au sésame noir torréfié, pointes de gingembre et poivre noir"
+        }
+      ]
+    },
+    {
+      "category": "Boissons fraîches",
+      "dishes": [
+        {
+          "id": "bagelcorner-milkshake-35cl",
+          "name": "Milkshake 35cl",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-citronnade",
+          "name": "Citronnade",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bagelcorner-the-glace-hibiscus",
+          "name": "Thé glacé hibiscus",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Pains à l'unité",
+      "dishes": [
+        {
+          "id": "bagelcorner-pain-bagel-sesame",
+          "name": "Pain bagel sésame",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-fromage",
+          "name": "Pain bagel fromage",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-nature",
+          "name": "Pain bagel nature",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-fromage-piment",
+          "name": "Pain bagel fromage-piment",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-cereales",
+          "name": "Pain bagel céréales",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-sans-gluten",
+          "name": "Pain bagel sans gluten",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        },
+        {
+          "id": "bagelcorner-pain-bagel-pavot",
+          "name": "Pain bagel pavot",
+          "price": 2.7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 1 pain 2,70 € / 2 pains 5,40 € / 4 pains 10,80 € / 8 pains 19,80 €."
+        }
+      ]
+    }
+  ]
+}

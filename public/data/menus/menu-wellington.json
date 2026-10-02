@@ -1,0 +1,234 @@
+{
+  "menuId": "menu-wellington",
+  "restaurantId": "the-wellington-75004",
+  "categories": [
+    {
+      "category": "Light snacks",
+      "dishes": [
+        {
+          "id": "wellington-light-snacks-tayto-irish-crisps",
+          "name": "Tayto Irish Crisps",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3
+        },
+        {
+          "id": "wellington-light-snacks-green-olives",
+          "name": "Green Olives",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 5.5
+        },
+        {
+          "id": "wellington-light-snacks-nachos",
+          "name": "Nachos",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Served with cheddar sauce.",
+          "price": 9
+        },
+        {
+          "id": "wellington-light-snacks-charcuterie-platter",
+          "name": "Charcuterie Platter",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Served with bread. Selection of cold cuts including chorizo, salchichón cular and serrano ham.",
+          "price": 18
+        },
+        {
+          "id": "wellington-light-snacks-new-zealand-sausage-roll",
+          "name": "New Zealand Sausage Roll",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "A mix of pork, beef and spices.",
+          "price": 8
+        }
+      ]
+    },
+    {
+      "category": "New Zealand pies",
+      "dishes": [
+        {
+          "id": "wellington-new-zealand-pies-guinness-pie",
+          "name": "Guinness Pie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Puff pastry pie served with green salad. Cantal's beef cooked in a Guinness stew.",
+          "price": 12.5
+        },
+        {
+          "id": "wellington-new-zealand-pies-classic-steak-and-cheese-pie",
+          "name": "Classic Steak and Cheese Pie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Puff pastry pie served with green salad. Cantal's beef and cheese.",
+          "price": 12.5
+        },
+        {
+          "id": "wellington-new-zealand-pies-mince-and-cheese-pie",
+          "name": "Mince and Cheese Pie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Puff pastry pie served with green salad. Minced beef and cheese.",
+          "price": 12
+        },
+        {
+          "id": "wellington-new-zealand-pies-creamy-chicken-pie",
+          "name": "Creamy Chicken Pie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Puff pastry pie served with green salad. Creamy chicken, mushroom and bacon.",
+          "price": 12
+        },
+        {
+          "id": "wellington-new-zealand-pies-vegetarian-pie",
+          "name": "Vegetarian Pie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Puff pastry pie served with green salad. Lentils and chickpeas in coconut milk curry.",
+          "price": 12
+        }
+      ]
+    }
+  ]
+}

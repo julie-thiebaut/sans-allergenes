@@ -1,0 +1,307 @@
+{
+  "menuId": "menu-la-petite-soeur",
+  "restaurantId": "la-petite-soeur-75014",
+  "categories": [
+    {
+      "category": "Tapas",
+      "dishes": [
+        {
+          "id": "la-petite-soeur-tapas-assiette-de-fromages",
+          "name": "Assiette de fromages",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sélection du moment. Pickles, micro-pousses.",
+          "price": 14
+        },
+        {
+          "id": "la-petite-soeur-tapas-poivrous",
+          "name": "Poivrous",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "present",
+            "mollusques": "not_declared"
+          },
+          "description": "Houmous au poivron rôti au curry fumé.",
+          "price": 9
+        },
+        {
+          "id": "la-petite-soeur-tapas-tirokafteri",
+          "name": "Tirokafteri",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Toast à la grecque. Huile d'algue, coulis de tomate épicé, crème de feta, pickles.",
+          "price": 9
+        },
+        {
+          "id": "la-petite-soeur-tapas-l-oeuf-et-demi-mayo",
+          "name": "L'Œuf et demi mayo",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un œuf et demi, pickles, mayonnaise au paprika fumé.",
+          "price": 9
+        },
+        {
+          "id": "la-petite-soeur-tapas-feta-rotie",
+          "name": "Fêta rôtie",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Miel fermenté, thym.",
+          "price": 10
+        },
+        {
+          "id": "la-petite-soeur-tapas-fava",
+          "name": "Fava",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "present",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème de fèves jaunes, anchois, pickles d'oignons rouges.",
+          "price": 10
+        },
+        {
+          "id": "la-petite-soeur-tapas-creme-de-gorgonzola",
+          "name": "Crème de gorgonzola",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Noix et pomme.",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "category": "Plats à partager, ou pas",
+      "dishes": [
+        {
+          "id": "la-petite-soeur-plats-a-partager-ou-pas-tataki",
+          "name": "Tataki",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tataki de bœuf teriyaki et gingembre, taboulé aux herbes et agrumes.",
+          "price": 20
+        },
+        {
+          "id": "la-petite-soeur-plats-a-partager-ou-pas-saganaki",
+          "name": "Saganaki",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "present",
+            "mollusques": "not_declared"
+          },
+          "description": "Compotée de tomate aux épices, fêta rôtie.",
+          "price": 18
+        },
+        {
+          "id": "la-petite-soeur-plats-a-partager-ou-pas-hareng-patate",
+          "name": "Hareng patate",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Hareng, écrasé de pommes de terre au zaatar, pickles. Huile de piment, miel, cacahuètes, sésame et ail.",
+          "price": 19
+        },
+        {
+          "id": "la-petite-soeur-plats-a-partager-ou-pas-keshke",
+          "name": "Keshke",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Aubergine rôtie, boulgour, yaourt grec, menthe, huile d'olive, œuf confit.",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "la-petite-soeur-desserts-ashta",
+          "name": "Ashta",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème de lait à la fleur d'oranger. Crumble halva, fruits frais, amandes et figues séchées.",
+          "price": 10
+        },
+        {
+          "id": "la-petite-soeur-desserts-pithiviers",
+          "name": "Pithiviers",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fondant aux amandes, crème de sésame.",
+          "price": 9
+        }
+      ]
+    }
+  ]
+}

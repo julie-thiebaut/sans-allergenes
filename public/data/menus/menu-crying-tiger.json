@@ -1,0 +1,784 @@
+{
+  "menuId": "menu-crying-tiger",
+  "restaurantId": "the-crying-tiger-75006",
+  "categories": [
+    {
+      "category": "Starters",
+      "dishes": [
+        {
+          "id": "crying-petites-saucisses-de-porc-a-la-citronnelle",
+          "name": "Petites saucisses de porc à la citronnelle",
+          "description": "Boulettes de porc à la citronnelle.",
+          "price": 10,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-nems-maison-au-poulet",
+          "name": "Nems maison au poulet",
+          "description": "Galette de blé farcie avec poulet, herbes fraîches et légumes.",
+          "price": 10,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-raviolis-poulet-crevette-bouillon-aux-herbes",
+          "name": "Raviolis poulet-crevette, bouillon aux herbes",
+          "description": "Raviolis de poulet et crevette, bouillon aux herbes et pousses de soja.",
+          "price": 11,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-tom-kha-kai",
+          "name": "Tom kha kai",
+          "description": "Soupe de poulet, lait de coco, galanga, bergamote et citronnelle.",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-tom-yam-gong",
+          "name": "Tom yam gong",
+          "description": "Soupe de crevettes, citronnelle et galanga.",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-brochettes-poulet-satay",
+          "name": "Brochettes poulet satay",
+          "description": "Brochettes de poulet au Satay, sauce cacahuètes et herbes fraîches.",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-nems-aux-crevettes",
+          "name": "Nems aux crevettes",
+          "description": "Galette de blé farcie avec crevette, herbes fraiches et légumes.",
+          "price": 13,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Thaï salads",
+      "dishes": [
+        {
+          "id": "crying-salade-de-papaye",
+          "name": "Salade de papaye",
+          "description": "Salade de papaye verte, carottes et tomates. La carte l'annonce vegan ; le tableau des allergènes y déclare pourtant du poisson et des crustacés.",
+          "price": 10,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-salade-de-vermicelles",
+          "name": "Salade de vermicelles",
+          "description": "Salade de vermicelles, mangue, avocat, herbes thaï et cacahuètes. Format XL : 19 €.",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-salade-de-vermicelles-aux-crevettes",
+          "name": "Salade de vermicelles aux crevettes",
+          "description": "Salade de vermicelles aux crevettes, mangue, avocat, herbes thaï et cacahuètes. Format XL : 21 €.",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-salade-thai-au-boeuf",
+          "name": "Salade thaï au boeuf",
+          "description": "Sucrine, boeuf grillé, concombre, citron vert, citronnelle, menthe et riz grillé. Format XL : 22 €.",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-salade-thai-aux-crevettes",
+          "name": "Salade thaï aux crevettes",
+          "description": "Sucrine, crevettes, concombre, citron vert, citronnelle, menthe et riz grillé. Format XL : 21 €.",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-salade-thai-au-poulet",
+          "name": "Salade thaï au poulet",
+          "description": "Sucrine, poulet, concombre, citron vert, citronnelle, menthe et riz grillé. Format XL : 20 €.",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Rice noodles",
+      "dishes": [
+        {
+          "id": "crying-pad-thai-au-poulet",
+          "name": "Pad thaï au poulet",
+          "description": "Nouilles de riz sautées, poulet, tofu, oeuf, pousse de soja, coriandre et cacahuètes.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-pad-thai-aux-crevettes",
+          "name": "Pad thaï aux crevettes",
+          "description": "Nouilles de riz sautées, crevettes, tofu, oeuf, pousse de soja, coriandre et cacahuètes.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-mix-pad-thai-au-poulet-et-crevettes",
+          "name": "Mix pad thaï au poulet et crevettes",
+          "description": "Nouilles de riz sautées, poulet et crevettes, tofu, oeuf, pousse de soja, coriandre et cacahuètes.",
+          "price": 24,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-pad-thai-legumes",
+          "name": "Pad thaï légumes",
+          "description": "Nouilles de riz sautées, légumes croquants, tofu, pousses de soja, coriandre, cacahuètes. La carte l'annonce vegan ; le tableau des allergènes y déclare pourtant du poisson.",
+          "price": 20,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-mikati",
+          "name": "Mikati",
+          "description": "Nouilles de riz, curry rouge, citronnelle, poulet haché, lait de coco et cacahuètes.",
+          "price": 23,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Curry",
+      "dishes": [
+        {
+          "id": "crying-curry-vert-au-poulet",
+          "name": "Curry vert au poulet",
+          "description": "Curry vert, filets de poulet, lait de coco, légumes de saison et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-curry-vert-au-boeuf",
+          "name": "Curry vert au boeuf",
+          "description": "Curry vert, boeuf émincé, lait de coco, légumes de saison et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-curry-vert-au-tofu",
+          "name": "Curry vert au tofu",
+          "description": "Curry vert, tofu, lait de coco, légumes de saison et riz blanc.",
+          "price": 22,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-curry-jaune-aux-crevettes",
+          "name": "Curry jaune aux crevettes",
+          "description": "Curry jaune, crevettes, kaffir, lait de coco, légumes de saison et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-curry-jaune-au-poisson",
+          "name": "Curry jaune au poisson",
+          "description": "Curry jaune, filets de poisson, kaffir, lait de coco, légumes de saison et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-curry-jaune-au-tofu",
+          "name": "Curry jaune au tofu",
+          "description": "Curry jaune, tofu, lait de coco, légumes de saison et riz blanc.",
+          "price": 22,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Mains",
+      "dishes": [
+        {
+          "id": "crying-the-crying-tiger",
+          "name": "The Crying Tiger",
+          "description": "Boeuf Angus mariné et grillé, salade d’herbes fraîches et riz gluant.",
+          "price": 28,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-brochettes-de-poulet-au-satay",
+          "name": "Brochettes de poulet au satay",
+          "description": "Brochettes de poulet au Satay, salade d’herbes, riz blanc et sauce cacahuètes.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-poulet-saute-au-basilic-thai",
+          "name": "Poulet sauté au basilic thaï",
+          "description": "Poulet sauté au basilic thaï, oeuf frit et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-tofu-saute-au-basilic-thai",
+          "name": "Tofu sauté au basilic thaï",
+          "description": "Tofu sauté au basilic thaï et riz blanc. La carte l'annonce vegan ; le tableau des allergènes y déclare pourtant des mollusques et des crustacés.",
+          "price": 21,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-mignon-de-porc-saute-au-gingembre",
+          "name": "Mignon de porc sauté au gingembre",
+          "description": "Mignon de porc sauté au gingembre, champignons noirs, noix de cajou et riz blanc.",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "crying-tofu-saute-au-gingembre",
+          "name": "Tofu sauté au gingembre",
+          "description": "Tofu sauté au gingembre, champignons noirs, noix de cajou et riz blanc. La carte l'annonce vegan ; le tableau des allergènes y déclare pourtant des mollusques.",
+          "price": 21,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "crying-riz-gluant-mangue-fraiche-et-coco",
+          "name": "Riz gluant, mangue fraîche et coco",
+          "description": "Riz gluant, lait de coco et mangue fraîche.",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-perles-du-japon",
+          "name": "Perles du Japon",
+          "description": "Perles de Tapioca, lait de coco, bananes et glace coco pandan.",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-moelleux-au-chocolat-coco",
+          "name": "Moelleux au chocolat coco",
+          "description": "Moelleux au chocolat (sans gluten) et sorbet coco pandan.",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "crying-salade-de-fruits-exotiques",
+          "name": "Salade de fruits exotiques",
+          "description": "Salade de fruits exotiques de saison, sirop à la citronnelle.",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

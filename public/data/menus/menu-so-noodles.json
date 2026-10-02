@@ -1,0 +1,477 @@
+{
+  "menuId": "menu-so-noodles",
+  "restaurantId": "so-noodles-75009",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "sonoodles-raviolis-au-porc-a-la-sauce-pimentee",
+          "name": "Raviolis au porc à la sauce pimentée",
+          "description": "(5 pièces) Raviolis au porc, ciboulettes chinoises, cacahuètes, sésame.",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-edamame",
+          "name": "Edamame",
+          "description": "Fèves de soja, sel.",
+          "price": 5,
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-salade-d-algues-marinees",
+          "name": "Salade d’algues marinées",
+          "description": "Spaghetti d’algues marinées, concombres, carottes, sésame, vinaigre de riz.",
+          "price": 5,
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Nouilles en sauce",
+      "dishes": [
+        {
+          "id": "sonoodles-nouilles-dandan",
+          "name": "Nouilles Dandan",
+          "description": "Porc haché, cacahuètes, sauce sésame, poivre Sichuan, chou Shanghai, ciboulettes.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-nouilles-tiedes-au-poulet",
+          "name": "Nouilles tièdes au poulet",
+          "description": "Emincé de poulet, concombres, carottes, chou chinois, cacahuètes, sésame, ciboulettes.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-nouilles-tiedes-vegetariennes",
+          "name": "Nouilles tièdes végétariennes",
+          "description": "Tagliatelles d’omelette, concombres, carottes, chou chinois, cacahuètes, sésame, ciboulettes.",
+          "price": 12,
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-nouilles-au-boeuf-parfume-aux-cinq-epices",
+          "name": "Nouilles au boeuf parfumé aux cinq épices",
+          "description": "Boeufs braisés, concombres, carottes, sauce cinq épices, cacahuètes, sésame, oignons frits, ciboulettes.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-nouilles-tiedes-aux-crevettes",
+          "name": "Nouilles tièdes aux crevettes",
+          "description": "Crevettes, concombres, carottes, sésame, oignons frits, ciboulettes.",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-nouilles-sauce-tomates-et-oeufs",
+          "name": "Nouilles sauce tomates et oeufs",
+          "description": "Oeufs brouillés à la tomate, chou chinois, ciboulettes. La carte le range dans l'option veggie ; le tableau des allergènes y déclare pourtant des mollusques.",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Piment maison",
+      "dishes": [
+        {
+          "id": "sonoodles-sauce-piment-fait-maison",
+          "name": "Sauce piment fait maison",
+          "description": "Piment parfumé fait maison, au choix très léger, léger, moyen ou fort.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Nouilles en bouillon",
+      "dishes": [
+        {
+          "id": "sonoodles-soupe-de-nouilles-dandan",
+          "name": "Soupe de nouilles Dandan",
+          "description": "Porc haché, cacahuètes, poivre Sichuan, chou Shanghai, ciboulettes.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-soupe-de-nouilles-au-boeuf-pimente",
+          "name": "Soupe de nouilles au boeuf pimenté",
+          "description": "Morceaux de boeuf mijoté, chou Shanghai, ciboulettes, poivre Sichuan.",
+          "price": 15.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-soupe-de-nouilles-au-boeuf",
+          "name": "Soupe de nouilles au boeuf",
+          "description": "Tranches de boeuf braisé, chou Shanghai, ciboulettes, huile sésame.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-soupe-de-nouilles-au-poulet",
+          "name": "Soupe de nouilles au poulet",
+          "description": "Émincés de poulet, chou Shanghai, ciboulettes, huile sésame.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-soupe-de-nouilles-aux-crevettes",
+          "name": "Soupe de nouilles aux crevettes",
+          "description": "Crevettes, chou Shanghai, ciboulettes, huile sésame.",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "sonoodles-soupe-de-raviolis-au-porc-12pc",
+          "name": "Soupe de raviolis au porc (12pc)",
+          "description": "Raviolis au porc, chou Shanghai, ciboulettes, huile sésame.",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "sonoodles-mochis-glaces-2pc",
+          "name": "Mochis glacés (2pc)",
+          "description": "À choisir deux parmi ces trois parfums : « framboise & litchi » / « mangue & passion » / sésame noir.",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-nougats-chinois",
+          "name": "Nougats chinois",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-litchis",
+          "name": "Litchis",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonoodles-cafe-ou-the-gourmand",
+          "name": "Café ou Thé gourmand",
+          "description": "Un thé ou café au choix accompagné de nougats et d’un mochis glacé. Café : 5,5 €, thé : 6,5 €. Allergènes : ceux des nougats et du mochi glacé.",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

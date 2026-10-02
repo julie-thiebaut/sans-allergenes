@@ -1,0 +1,395 @@
+{
+  "menuId": "menu-maison-du-46",
+  "restaurantId": "la-maison-du-46-75008",
+  "categories": [
+    {
+      "category": "Plats signature",
+      "dishes": [
+        {
+          "id": "maison-du-46-plats-signature-pad-thai-poulet",
+          "name": "Pad Thaï - Poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâtes de riz sautées au wok, sauce tamarin maison. Arachides servies à part, retirées sur demande.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-pad-thai-veggie",
+          "name": "Pad Thaï - Veggie",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâtes de riz sautées au wok, sauce tamarin maison. Arachides servies à part, retirées sur demande.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-bo-bun-boeuf",
+          "name": "Bò Bún - Bœuf",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Vermicelles de riz tièdes, salade, pousses de soja, carotte, concombre, 2 nems frits. Coriandre et menthe sur demande.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-bo-bun-poulet",
+          "name": "Bò Bún - Poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Vermicelles de riz tièdes, salade, pousses de soja, carotte, concombre, 2 nems frits. Coriandre et menthe sur demande.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-bo-bun-crevette",
+          "name": "Bò Bún - Crevette",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Vermicelles de riz tièdes, salade, pousses de soja, carotte, concombre, 2 nems frits. Coriandre et menthe sur demande.",
+          "price": 12
+        },
+        {
+          "id": "maison-du-46-plats-signature-curry-thai-poulet",
+          "name": "Curry Thaï - Poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Curry vert, lait de coco, poivrons, carottes, haricots verts, courgette, citronnelle. Servi avec du riz parfumé.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-curry-thai-veggie",
+          "name": "Curry Thaï - Veggie",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Curry vert, lait de coco, poivrons, carottes, haricots verts, courgette, citronnelle. Servi avec du riz parfumé.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-curry-thai-saumon",
+          "name": "Curry Thaï - Saumon",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Curry vert, lait de coco, poivrons, carottes, haricots verts, courgette, citronnelle. Servi avec du riz parfumé.",
+          "price": 12
+        },
+        {
+          "id": "maison-du-46-plats-signature-soupe-pho-poulet",
+          "name": "Soupe Phô - Poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon mijoté 6 h, pâtes de riz, oignons, coriandre, citronnelle, pousses de soja, ciboulette.",
+          "price": 11.5
+        },
+        {
+          "id": "maison-du-46-plats-signature-poulet-du-chef",
+          "name": "Poulet du Chef",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Poulet laqué rôti au four, légumes sautés (poivron, carottes, haricots verts, courgette). Servi avec du riz.",
+          "price": 11.5
+        }
+      ]
+    },
+    {
+      "category": "Banh Mi",
+      "dishes": [
+        {
+          "id": "maison-du-46-banh-mi-banh-mi-boeuf",
+          "name": "Banh Mi - Bœuf",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Baguette croustillante, batavia, carotte, concombre, mayo. Coriandre sur demande.",
+          "price": 7.5
+        },
+        {
+          "id": "maison-du-46-banh-mi-banh-mi-poulet",
+          "name": "Banh Mi - Poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Baguette croustillante, batavia, carotte, concombre, mayo. Coriandre sur demande.",
+          "price": 7.5
+        }
+      ]
+    },
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "maison-du-46-entrees-rouleaux-de-printemps-poulet-crevettes",
+          "name": "Rouleaux de printemps - Poulet-crevettes",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps, garniture poulet-crevettes.",
+          "price": 3.5
+        },
+        {
+          "id": "maison-du-46-entrees-rouleaux-de-printemps-veggie",
+          "name": "Rouleaux de printemps - Veggie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps, garniture veggie.",
+          "price": 3.5
+        },
+        {
+          "id": "maison-du-46-entrees-brioche-bao-porc-laque",
+          "name": "Brioche Bao - Porc laqué",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brioche bao au porc laqué.",
+          "price": 4
+        },
+        {
+          "id": "maison-du-46-entrees-nems-poulet",
+          "name": "Nems - Poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nems, 3 pièces, garniture poulet.",
+          "price": 4
+        },
+        {
+          "id": "maison-du-46-entrees-nems-veggie",
+          "name": "Nems - Veggie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nems, 3 pièces, garniture veggie.",
+          "price": 4
+        }
+      ]
+    }
+  ]
+}

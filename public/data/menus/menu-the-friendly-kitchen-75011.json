@@ -1,0 +1,507 @@
+{
+  "menuId": "menu-the-friendly-kitchen-75011",
+  "restaurantId": "the-friendly-kitchen-75011",
+  "categories": [
+    {
+      "category": "Menu été 26 - Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1373070-ajo-blanco-estival",
+          "name": "Ajo blanco estival",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Haricots verts, chutney de tomate à la baie d'Andliman, pickles de pêche, vinaigrette vin rouge et échalotes, pousse de capucine."
+        },
+        {
+          "id": "zenchef-1373072-gaspacho-concombre-yuzu",
+          "name": "Gaspacho concombre & yuzu",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Huile de sésame, furikake, pickles de concombre - Servi avec un toast de ricotta au kosho vert, pousse de shiso"
+        },
+        {
+          "id": "zenchef-1373071-tartelette-d-inspiration-mexicaine",
+          "name": "Tartelette d'inspiration méxicaine",
+          "price": 10.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâte sablée maïs, frijoles refritos, crème de chèvre végétal, coulis de poivron rouge, coriandre, salsa macha"
+        },
+        {
+          "id": "zenchef-1373074-crackers-de-graines-maison",
+          "name": "Crackers de graines maison",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Menu été 26 - Plats",
+      "dishes": [
+        {
+          "id": "zenchef-1373075-aubergines-en-caponata",
+          "name": "Aubergines en caponata",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Panisse grillée, sauce tomate confite à la harissa douce, pesto de basilic, pickles de céleri, crumble de pignons, pousse de basilic"
+        },
+        {
+          "id": "zenchef-1373076-carottes-facon-fattoush",
+          "name": "Carottes façon fattoush",
+          "price": 19,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Taboulé de millet aux herbes fraîches, labneh végétal, sauce zhoug, dukkah aux amandes, chips de socca"
+        },
+        {
+          "id": "zenchef-1373077-malfatti-de-tofu-au-curry-vert",
+          "name": "Malfatti de tofu au curry vert",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Courgettes et brocolis snackés, huile pimentée, gomasio de noix de cajou, pousses de basilic thaï"
+        }
+      ]
+    },
+    {
+      "category": "Menu été 26 - Fromages",
+      "dishes": [
+        {
+          "id": "zenchef-1373079-assortiment-de-trois-specialites-vegetales-affinees",
+          "name": "Assortiment de trois spécialités végétales affinées",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fruit de saison, confiture, noix, pousses"
+        }
+      ]
+    },
+    {
+      "category": "Menu été 26 - Desserts",
+      "dishes": [
+        {
+          "id": "zenchef-1373082-tartelette-a-l-assiette",
+          "name": "Tartelette à l'assiette",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème diplomate à la fleur d'oranger, confiture de fenouil, sablé à la farine de sarrasin, pistaches torréfiées"
+        },
+        {
+          "id": "zenchef-1373088-focaccia-briochee-aux-abricots-rotis",
+          "name": "Focaccia briochée aux abricots rôtis",
+          "price": 10.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sirop cardamome, malabi amande, coulis d'abricot, amandes torréfiées"
+        },
+        {
+          "id": "zenchef-1373090-cheesecake-citron-myrtilles",
+          "name": "Cheesecake citron & myrtilles",
+          "price": 11,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Base biscuit avoine, gel citron, coulis de myrtille au vinaigre de framboise, dukkah sucré et rose"
+        }
+      ]
+    },
+    {
+      "category": "Menu automne 2026 - Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1062662-poireaux-mimosa-revisites",
+          "name": "Poireaux mimosa revisités",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pois chiches façon gribiche à la ciboulette, sauce yaourt et moutarde, granola salé aux noisettes, pousses de moutarde"
+        },
+        {
+          "id": "zenchef-1062663-betteraves-confites-a-la-melasse-de-grenade",
+          "name": "Betteraves confites à la melasse de grenade",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tahini à l’ail noir, feta végétale, vinaigrette au sumac, epine vinette, menthe et aneth"
+        },
+        {
+          "id": "zenchef-1062664-tempeh-laque-chili-oil-cacahuetes",
+          "name": "Tempeh laqué & “chili oil” cacahuètes",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Julienne de chou rave et radis à la prune umeboshi, mousseline de chou rave à la cacahuète, pickles de radis"
+        }
+      ]
+    },
+    {
+      "category": "Menu automne 2026 - Plats",
+      "dishes": [
+        {
+          "id": "zenchef-1062665-patate-douce-rotie-a-la-sauce-mole-poblano",
+          "name": "Patate douce rôtie à la sauce “mole poblano”",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salsa de haricots azuki et tofu au chimichurri, crème de cajou façon nachos, chips de tortilla, pousses de coriandre"
+        },
+        {
+          "id": "zenchef-1062666-petit-epeautre-cremeux-butternut-citron",
+          "name": "Petit épeautre crémeux, butternut & citron",
+          "price": 19,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Butternut rôtie, mayonnaise au citron confit, dukkah maison aux graines de nigelle, pétales de butternut au poivre de Sulawesi"
+        },
+        {
+          "id": "zenchef-1062667-polenta-doree-champignons-au-miso",
+          "name": "Polenta dorée & champignons au miso",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème d’oignons confits au xérès, pesto de roquette, crumble de noix et levure maltée, pickles de graines de moutarde, cédrèle"
+        }
+      ]
+    },
+    {
+      "category": "Menu automne 2026 - Fromages",
+      "dishes": [
+        {
+          "id": "zenchef-1145270-assiette-de-fromages",
+          "name": "Assiette de fromages",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiment de trois spécialités végétales affinées Fruit de saison, confiture, noix, pousses"
+        }
+      ]
+    },
+    {
+      "category": "Menu automne 2026 - Desserts",
+      "dishes": [
+        {
+          "id": "zenchef-1062959-tartelette-au-melilot-figues",
+          "name": "Tartelette au melilot & figues",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème diplomate au mélilot, poudre de feuilles de figuier, sablé sarrasin, figues fraîches laquées au balsamique blanc"
+        },
+        {
+          "id": "zenchef-1062960-comme-un-mille-feuilles",
+          "name": "Comme un mille-feuilles",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mousse au chocolat au lait, crème anglaise infusée aux cônes de sapin, tuiles sarrasin, gelée de baie d’argousier, fèves de cacao"
+        },
+        {
+          "id": "zenchef-1062961-financier-aux-noix-esprit-cappuccino",
+          "name": "Financier aux noix esprit cappuccino",
+          "price": 10.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ganache montée au café, coulis groseille, gelée de café “Terres de Café”, noix de Grenoble caramélisées"
+        }
+      ]
+    }
+  ]
+}

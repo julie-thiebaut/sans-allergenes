@@ -1,0 +1,446 @@
+{
+  "menuId": "menu-five-guys",
+  "restaurantId": "five-guys-75001",
+  "categories": [
+    {
+      "category": "Burgers",
+      "dishes": [
+        {
+          "id": "fiveguys-hamburger",
+          "name": "Hamburger",
+          "description": "Deux steaks de qualité fraîchement préparés à la main, cuits à la perfection sur le grill et placés sur un pain moelleux et toasté. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-cheeseburger",
+          "name": "Cheeseburger",
+          "description": "Des tranches de fromage fondu entre deux steaks frais et placés sur un pain moelleux et toasté. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-bacon-burger",
+          "name": "Bacon burger",
+          "description": "Deux steaks hachés fraîchement préparés et cuits sur le grill, accompagnés de tranches de bacon croustillant, le tout disposé sur un pain moelleux et toasté. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-bacon-cheeseburger",
+          "name": "Bacon cheeseburger",
+          "description": "Steaks hachés fraîchement préparés et cuits sur le grill avec du fromage fondu et du bacon croustillant. Placés sur un pain au sésame toasté et moelleux. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-little-hamburger",
+          "name": "Little Hamburger",
+          "description": "Steak haché fraîchement préparé et cuit sur le grill. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-little-cheeseburger",
+          "name": "Little Cheeseburger",
+          "description": "Steak haché fraîchement préparé et cuit sur le grill avec des tranches de fromage fondu. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-little-bacon-burger",
+          "name": "Little Bacon Burger",
+          "description": "Steak fraîchement préparé et grillé, accompagné de tranches de bacon croustillant. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-little-bacon-cheeseburger",
+          "name": "Little Bacon Cheeseburger",
+          "description": "Steak haché fraîchement préparé et cuit sur le grill, accompagné de fromage fondu et de tranches de bacon croustillant. Ajoutez autant de garnitures que vous le souhaitez.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Frites",
+      "dishes": [
+        {
+          "id": "fiveguys-loaded-fries",
+          "name": "Loaded Fries",
+          "description": "Savourez nos Frites Salées Signature Five Guys, accompagnées de Sauce au Fromage et de Sauce pour Frites.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-loaded-cajun-fries",
+          "name": "Loaded Cajun Fries",
+          "description": "Savourez nos Frites Cajun Signature Five Guys, accompagnées de Sauce au Fromage et de Sauce pour Frites.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-style-five-guys",
+          "name": "Style Five Guys",
+          "description": "Frites façon Boardwalk fraîchement préparées, cuites dans une huile 100 % pure arachide raffinée. Légèrement salées, toujours dorées.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-cajun",
+          "name": "Cajun",
+          "description": "Frites façon Boardwalk fraîchement préparées, cuites dans une huile 100 % pure arachide raffinée et accompagnées d’une bonne dose d’épices cajun.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Hot dogs",
+      "dishes": [
+        {
+          "id": "fiveguys-hot-dog",
+          "name": "Hot dog",
+          "description": "Un hot dog 100 % bœuf, grillé à la perfection et caramélisé. Ajoutez-y vos garnitures préférées.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-cheese-dog",
+          "name": "Cheese Dog",
+          "description": "Tout ce que vous aimez dans notre hot dog classique, plus une couche de fromage fondu et vos garnitures préférées.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-bacon-dog",
+          "name": "Bacon Dog",
+          "description": "Un hot dog 100 % bœuf avec du bacon croustillant fumé pour un duo savoureux. Ajoutez toutes vos garnitures préférées.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-bacon-cheese-dog",
+          "name": "Bacon Cheese Dog",
+          "description": "La meilleure façon de déguster un hot dog. Bacon fumé, fromage fondu et toutes vos garnitures préférées.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sandwichs",
+      "dishes": [
+        {
+          "id": "fiveguys-veggie-sandwich",
+          "name": "Veggie Sandwich",
+          "description": "Oignons Grillés, Champignons Grillés, Poivrons Verts, Salade et Tomates, le tout sur du pain toasté.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-cheese-veggie-sandwich",
+          "name": "Cheese Veggie Sandwich",
+          "description": "Oignons Grillés, Champignons Grillés, Poivrons Verts, salade, Tomates et Fromage fondu sur un pain toasté.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-grilled-cheese",
+          "name": "Grilled Cheese",
+          "description": "Tranches de fromage fondu sur un pain moelleux avec les garnitures de votre choix, grillé jusqu’à ce qu’il soit doré.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "fiveguys-blt",
+          "name": "BLT",
+          "description": "Du Bacon avec des Tomates fraîches, de la Salade et de la Mayo dans un pain toasté.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

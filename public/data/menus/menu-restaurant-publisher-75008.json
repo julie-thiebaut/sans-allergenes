@@ -1,0 +1,273 @@
+{
+  "menuId": "menu-restaurant-publisher-75008",
+  "restaurantId": "restaurant-publisher-75008",
+  "categories": [
+    {
+      "category": "Les entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1469793-sashimi-de-thon-sauce-ponzu-sesame-noir",
+          "name": "Sashimi de thon, sauce ponzu, sesame noir",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379030-raviole-farci-au-boudin-noir-au-piment-d-espelette-consomme-",
+          "name": "Raviole farci au boudin noir au piment d’espelette, consommé au volaille et chimichurri",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1382953-saint-jacques-marinees-au-sake-daikon-yuzu",
+          "name": "Saint Jacques marinées au saké, daikon, yuzu",
+          "price": 18,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "LES PLATS",
+      "dishes": [
+        {
+          "id": "zenchef-1379048-bacon-burger-potato-bun-steak-hache-100-charolais-cheddar-ma",
+          "name": "Bacon burger, potato bun, steak haché 100% charolais, cheddar maturé, sauce maison, frites maison et salade",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379045-filet-daurade-en-croute-de-noisettes-cremeux-d-epinards",
+          "name": "Filet daurade en croûte de noisettes, crémeux d’épinards,",
+          "price": 26,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1456979-tartare-de-daurade-mangue-avocat-grenade-salade-de-concombre",
+          "name": "Tartare de daurade, mangue, avocat, Grenade, salade de concombre et sesame, granité d’aneth",
+          "price": 27,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379032-tartare-de-veau-haricots-blancs-poutargue-poudre-d-orange-fr",
+          "name": "Tartare de veau, haricots blancs, poutargue, poudre d’orange, frites maison",
+          "price": 28,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379033-faux-filet-race-limousine-servi-avec-des-frites-et-bearnaise",
+          "name": "Faux filet race Limousine, servi avec des frites et béarnaise maison",
+          "price": 39,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379047-ris-de-veau-croustillant-puree-de-carottes-au-gingembre-pas-",
+          "name": "Ris de veau croustillant, purée de carottes au gingembre, pas choï, mis de champignon",
+          "price": 41,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "DESSERTS",
+      "dishes": [
+        {
+          "id": "zenchef-1379050-mousse-au-citron-meringue-sorbet-rhubarbe-maison",
+          "name": "Mousse au citron, meringue, sorbet rhubarbe maison",
+          "price": 13,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379051-poire-poche-au-vin-rouge-sorbet-au-vin-chaud-cristalline-de-",
+          "name": "Poire poché au vin rouge, sorbet au vin chaud, cristalline de poire, tuiles de sesame noire",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379049-mousse-tiede-au-chocolat-64-glace-au-caramel-au-beurre-sale-",
+          "name": "Mousse tiède au chocolat 64%, glace au caramel au beurre salé, crumble au chocolat",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

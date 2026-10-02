@@ -1,0 +1,541 @@
+{
+  "menuId": "menu-krousty-sabaidi",
+  "restaurantId": "krousty-sabaidi-chatelet-75001",
+  "categories": [
+    {
+      "category": "Krousty",
+      "dishes": [
+        {
+          "id": "krousty-krousty-krousty-original",
+          "name": "Krousty Original",
+          "description": "Riz thaï, sauce K (maison), poulet croustillant, oignons frits, ciboulette sèche, sauce PK brown (maison)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "krousty-krousty-krousty-aigre-douce",
+          "name": "Krousty Aigre Douce",
+          "description": "Riz thaï, sauce K (maison), poulet croustillant, oignons frits, ciboulette sèche, sauce PK brown (maison), sauce Aigre Douce",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Woks",
+      "dishes": [
+        {
+          "id": "krousty-woks-mee-pad",
+          "name": "Mee pad",
+          "description": "Savourez une combinaison exquise avec nos nouilles fines sautées, oignons rouges, poivrons, pousses de soja, carottes râpées, ciboulette, coriandre, oignons frits et la viande de votre choix : poulet, boeuf ou crevettes. Inspiré de la traditionnelle cuisine asiatique, ce wok est un vrai régal préparé avec passion par Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "krousty-woks-padthai",
+          "name": "Padthaï",
+          "description": "Découvrez le célèbre Pad Thaï avec ses féculents parfaitement sautés, œufs, pousses de soja, carottes râpées, ciboulette, coriandre, cacahuètes et oignons frits. Accompagnez-le de la viande de votre choix : poulet, boeuf ou crevettes. Un incontournable de la cuisine thaïlandaise, préparé avec soin dans un style authentique par Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-woks-udon",
+          "name": "Udon",
+          "description": "Dégustez nos udons japonais parfaits avec leurs saveurs délicates et leurs ingrédients frais : oignons rouges, poivrons, pousses de soja, carottes râpées, ciboulette, coriandre, oignons frits, et la viande de votre choix (poulet, boeuf ou crevettes). Un classique japonais revisité avec une touche d'authenticité asiatique par Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "krousty-woks-khao-pad",
+          "name": "Khao pad",
+          "description": "Plongez dans les saveurs thaïlandaises avec ce wok composé de riz thaï parfumé, oignons rouges, poivrons, pousses de soja, carottes râpées, ciboulette, coriandre, oignons frits et une touche de viande au choix : poulet, boeuf ou crevettes. Un plat réconfortant et gourmand préparé avec expertise par Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "krousty-woks-bobun",
+          "name": "Bobün",
+          "description": "Découvrez le Bobün, ce plat frais et gourmand composé de vermicelle blanche, salade croquante, pousses de soja, carottes râpées, nems découpés, ciboulette, coriandre, menthe, oignons frits et cacahuètes. Accompagnez-le avec la viande de votre choix : poulet, boeuf ou crevettes. Une option légère, authentique et gourmande pour les amateurs de Asian food, préparée par Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Baos",
+      "dishes": [
+        {
+          "id": "krousty-baos-bao-crevettes",
+          "name": "Bao crevettes",
+          "description": "Savourez une expérience unique avec notre bao composé de crevettes fries croquantes et dorées, accompagnées d'une savoureuse sauce Idaw. Le pain bao, avec sa texture légère, son moelleux délicat, apporte l'équilibre parfait à ce mélange gourmand. Une vraie pépite de Japan food qui révèle l'âme de la street food asiatique avec Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-baos-bao-poulet",
+          "name": "Bao poulet",
+          "description": "Découvrez le plaisir de croquer dans un pain bao authentique : un nuage de douceur et de moelleux inspiré des traditions japonaises. Avec son goût délicatement équilibré, ce pain enveloppe un poulet frit croustillant, du cheddar fondant, de la salade fraîche et une généreuse touche de sauce Mada. Une véritable expérience asiatique qui allie gourmandise et saveurs exquises – signée Krousty Sabaïdi.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-baos-bao-boeuf",
+          "name": "Bao boeuf",
+          "description": "Découvrez le mélange parfait entre tradition japonaise et saveurs modernes avec ce bao gourmand. Conçu avec un pain bao traditionnel, blanc, moelleux et léger, il se marie parfaitement avec le cheddar, la salade, les cornichons et le boeuf généreusement nappé de notre sauce maison Idaw, proche de la sriracha. Une véritable expérience Asian food dans chaque bouchée.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Formules",
+      "dishes": [
+        {
+          "id": "krousty-formules-krousty-duo",
+          "name": "Krousty Duo",
+          "description": "Le Krousty Duo est l'option idéale pour ceux qui souhaitent partager une expérience culinaire asiatique riche en saveurs. Cette formule comprend 2 Krousty taille M, accompagnés de 2 boissons au choix, pour un repas équilibré et gourmand. Parfaite pour une sortie entre amis ou en couple, cette offre vous garantit une explosion de saveurs à chaque bouchée.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "krousty-formules-asian-box",
+          "name": "Asian Box",
+          "description": "L’Asian Box est la formule idéale pour savourer le meilleur de l’Asie en une seule boîte. Composée de 3 tenders croustillants, 3 nems dorés, 3 gyozas savoureux, et accompagnée de 2 sauces au choix, elle offre une expérience gustative variée et gourmande. Parfait pour un repas sur le pouce ou un moment de partage autour des saveurs emblématiques de la cuisine asiatique.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "dishes": [
+        {
+          "id": "krousty-sides-tenders",
+          "name": "Tenders",
+          "description": "Nos Tenders Crispy sont le choix parfait pour une pause gourmande. Moelleux à l’intérieur, croquants et dorés à l’extérieur, ces morceaux de poulet panés sont assaisonnés avec une touche spéciale inspirée de la thai food.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-sides-nems",
+          "name": "Nems",
+          "description": "Savourez nos Nems Asiatiques, une spécialité incontournable de la cuisine street food. Préparés avec des ingrédients frais et une recette authentique, nos nems sont garnis d'une délicieuse farce composée de légumes croquants et de viande savoureuse, le tout enrobé dans une panure dorée et croustillante.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-sides-gyozas",
+          "name": "Gyozas",
+          "description": "Découvrez nos Gyozas, ces petits raviolis japonais aux saveurs exquises. Farcis de légumes frais ou de viande assaisonnée, ils sont délicieusement cuits à la vapeur ou grillés pour offrir une texture parfaite. Un vrai classique de la street food asiatique à partager avec vos amis ou en famille.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "krousty-desserts-tiramisu-nutella",
+          "name": "Tiramisu Nutella",
+          "description": "Notre tiramisu Nutella Spéculoos revisite la tradition italienne avec une note croquante et chocolatée. Un dessert crémeux et équilibré pour éveiller vos papilles.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-desserts-tiramisu-daim-caramel",
+          "name": "Tiramisu Daim caramel",
+          "description": "Découvrez le tiramisu Daim Caramel, où la douceur du caramel rencontre le croquant de Daim pour une expérience gustative inoubliable, fusion parfaite de textures et de saveurs.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-desserts-tiramisu-mangue",
+          "name": "Tiramisu Mangue",
+          "description": "Plongez dans la fraîcheur tropicale avec ce tiramisu à la mangue. Une délicieuse touche asiatique dans un dessert crémeux et rafraîchissant.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-desserts-tiramisu-pistache",
+          "name": "Tiramisu Pistache",
+          "description": "Laissez-vous séduire par notre tiramisu pistache, un mélange parfait entre douceur et saveurs légèrement noisettées, pour un dessert élégant et gourmand.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-desserts-tiramisu-fraise",
+          "name": "Tiramisu Fraise",
+          "description": "Savourez la douceur et la fraîcheur du tiramisu fraise, une version fruitée et crémeuse du classique italien, pour un dessert frais et irrésistible.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sauces",
+      "dishes": [
+        {
+          "id": "krousty-sauces-sauce-nems",
+          "name": "Sauce nems",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-sauces-sauce-aigre-douce",
+          "name": "Sauce aigre douce",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-sauces-sauce-sriracha",
+          "name": "Sauce sriracha",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "krousty-sauces-sauce-k",
+          "name": "Sauce K",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

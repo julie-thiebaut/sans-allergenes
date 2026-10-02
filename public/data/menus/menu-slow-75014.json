@@ -1,0 +1,293 @@
+{
+  "menuId": "menu-slow-75014",
+  "restaurantId": "slow-75014",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1348373-ajo-blanco",
+          "name": "Ajo blanco",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Délicieux gaspacho blanc fait d’amandes, vinaigre de Xérès, pain sans gluten, pointe de tabasco, servi avec une huile verte et ses raisins.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252533-poireau-vinaigrette",
+          "name": "Poireau vinaigrette",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poireau rôti, vinaigrette framboise et basilic thaï, mimosa de tofu au kalak malak, noisettes torréfiées.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252537-karaage-de-pleurotes",
+          "name": "Karaage de pleurotes",
+          "price": 10,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "L’automne annonce le retour des champignons et celui de nos karaage de pleurotes frites au paprika et cumin, servies avec un ketchup de tomates et betterave.",
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "zenchef-1257559-quinoa-a-la-forestiere",
+          "name": "Quinoa à la forestière",
+          "price": 17,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Quinoa dans une crème gourmande aux pleurotes, shiitake et champignons de Paris, filet végétal à base de protéine de pois chiche, dés de butternut, tomates cerises et noisettes torréfiées.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252535-tartare-a-la-thai",
+          "name": "Tartare à la thaï",
+          "price": 16.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tartare de champignons eryngii, courgettes et edamame marinés dans une sauce parfumée à la thaï, huile de sésame, tamari, beurre de cacahuète, coriandre, gingembre et basilic thaï, accompagné de ses frites de patates douces et de son ketchup de betterave.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252536-tigre-qui-pleure-revisite",
+          "name": "Tigre qui pleure revisité",
+          "price": 18,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tian de courgette ronde et de tofu fumé dans une sauce parfumée façon tigre qui pleure faite de tamari, gingembre, citronnelle servi avec une salade d’haricots verts et de pommes grenailles, vierge, ricotta de tofu et figues.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252538-aubergine-facon-natin",
+          "name": "Aubergine façon natin",
+          "price": 17,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chili sin carne légèrement épicé d’haricots rouges, oignons, poivrons, carottes, maïs, protéine de soja dans une aubergine rôtie, riz blanc parfumé, sauce lait de coco citron vert, pointe de gochujang agave et chips de racine de lotus.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1303955-tataki-de-bonite",
+          "name": "Tataki de bonite",
+          "price": 19,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bonite (poisson) mi-cuit, mariné dans une sauce à la thaï faite d’huile de sésame, tamari, beurre de cacahuète, gingembre et herbes parfumées, ricotta de tofu, servi avec une salade de pommes grenailles et haricots verts sauce moutarde et miso, figues fraîches."
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "zenchef-1252539-panacotta-revisitee",
+          "name": "Panacotta revisitée",
+          "price": 10,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lait de coco infusée au yuzu, purée de poire yuzu, framboise et myrtille, graines de tournesol caramélisées.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252541-moelleux-butternut-chataigne",
+          "name": "Moelleux butternut châtaigne",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fait de butternut châtaigne, crème anglaise faite de tofu soyeux et lait d’avoine à la châtaigne et ses éclats de châtaigne et noix de pécans caramélisés : une déclaration d’amour au retour de l’automne !",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1276775-fiadone-tres-revisite",
+          "name": "Fiadone très revisité",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Au citron vert, siphon aux agrumes et gingembre confit, coulis de fruit rouge et pistaches torréfiées.",
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
+    }
+  ]
+}

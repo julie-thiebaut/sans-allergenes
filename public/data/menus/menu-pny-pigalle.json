@@ -1,0 +1,974 @@
+{
+  "menuId": "menu-pny-pigalle",
+  "restaurantId": "pny-pigalle-75009",
+  "categories": [
+    {
+      "category": "LES CLASSIQUES",
+      "dishes": [
+        {
+          "id": "pny-pigalle-vintage-cheeseburger",
+          "name": "VINTAGE CHEESEBURGER",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY, old-fashioned cheddar, ketchup, moutarde, pickles, oignon rouge, salade iceberg",
+          "price": 12.9
+        },
+        {
+          "id": "pny-pigalle-vegan-nirvana",
+          "name": "VEGAN NIRVANA",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak végétal, pain vegan, cheddar vegan, ketchup, moutarde, oignon rouge, pickles, salade iceberg",
+          "price": 13.9
+        }
+      ]
+    },
+    {
+      "category": "LES SIGNATURES PNY",
+      "dishes": [
+        {
+          "id": "pny-pigalle-the-return-of-the-cowboy",
+          "name": "THE RETURN OF THE COWBOY",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre bestseller absolu ! Steak haché PNY grillé à la flamme, old-fashioned melted cheddar, beignet d'oignon, poitrine de porc fumée, confit d’oignons, our famous Sunday BBQ sauce",
+          "price": 14.9
+        },
+        {
+          "id": "pny-pigalle-atomic",
+          "name": "ATOMIC",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Champignon Portobello pané au panko, old-fashioned cheddar, sauce secrète PNY, oignon rouge, salade iceberg",
+          "price": 13.5
+        },
+        {
+          "id": "pny-pigalle-crispy",
+          "name": "CRISPY",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poulet mariné et pané, old-fashioned cheddar, sauce secrète PNY, oignon rouge, salade iceberg",
+          "price": 13.9
+        },
+        {
+          "id": "pny-pigalle-tribute",
+          "name": "TRIBUTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Hommage aux 50 ans de la sauce la plus addictive de la planète et en souvenir de nos kids anniv'",
+          "price": 13.9
+        },
+        {
+          "id": "pny-pigalle-los-pollos-hermanos",
+          "name": "LOS POLLOS HERMANOS",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crispy fried chicken mariné au gingembre, coriandre et paprika, old-fashioned melted cheddar, salade iceberg, sauce mayonnaise au paprika",
+          "price": 13.9
+        },
+        {
+          "id": "pny-pigalle-golden",
+          "name": "GOLDEN",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY, old-fashioned melted cheddar, poitrine de porc fumée sans nitrites, tomate cœur de boeuf, sauce au poivre moutarde à l’ancienne",
+          "price": 14.5
+        },
+        {
+          "id": "pny-pigalle-goodbye-california",
+          "name": "GOODBYE CALIFORNIA",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY grillé à la flamme, old-fashioned melted cheddar, sliced avocado, sauce chimichurri et mayonnaise légèrement épicée",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "TAKE MY MONEY",
+      "dishes": [
+        {
+          "id": "pny-pigalle-xxl-vintage-cheeseburger",
+          "name": "XXL VINTAGE CHEESEBURGER",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY «baseball-sized» de 250 grammes grillé à la flamme à plus de 650°Fahrenheit, old-fashioned melted cheddar, salade iceberg, ketchup, moutarde, pickles",
+          "price": 18.8
+        },
+        {
+          "id": "pny-pigalle-xxl-the-return-of-the-cowboy",
+          "name": "XXL THE RETURN OF THE COWBOY",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre bestseller absolu ! Steak haché PNY «baseball-sized» de 250 grammes grillé à la flamme à plus de 650°Fahrenheit, old-fashioned melted cheddar, beignet d'oignon, poitrine de porc fumée, confit d’oignons, our famous Sunday BBQ sauce",
+          "price": 20.8
+        },
+        {
+          "id": "pny-pigalle-xxl-tribute",
+          "name": "XXL TRIBUTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Hommage aux 50 ans de la sauce la plus addictive de la planète et en souvenir de nos kids anniv’, bun avec graines de sésame, steak haché PNY «baseball-sized» de 250 grammes grillé à la flamme à plus de 650°Fahrenheit, old-fashioned melted cheddar, american cheese, sauce Tribute à la sauce PNY, oignons, pickles & salade iceberg",
+          "price": 19.8
+        },
+        {
+          "id": "pny-pigalle-xxl-goodbye-california",
+          "name": "XXL GOODBYE CALIFORNIA",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY «baseball-sized» de 250 grammes grillé à la flamme à plus de 650°Fahrenheit, old-fashioned melted cheddar, sliced avocado, sauce chimichurri et mayonnaise légèrement épicée",
+          "price": 20.8
+        },
+        {
+          "id": "pny-pigalle-xxl-golden",
+          "name": "XXL GOLDEN",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Steak haché PNY «baseball-sized» de 250 grammes grillé à la flamme à plus de 650°Fahrenheit, old-fashioned melted cheddar, tomate cœur de boeuf, sauce au poivre moutarde à l’ancienne",
+          "price": 20.4
+        }
+      ]
+    },
+    {
+      "category": "SIDES",
+      "dishes": [
+        {
+          "id": "pny-pigalle-french-fries",
+          "name": "FRENCH FRIES",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Frites allumettes maison, pommes de terre en agriculture raisonnée",
+          "price": 4.9
+        },
+        {
+          "id": "pny-pigalle-patates-douces",
+          "name": "PATATES DOUCES",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Frites allumettes maison de patates douces",
+          "price": 5.9
+        },
+        {
+          "id": "pny-pigalle-loaded-fries",
+          "name": "LOADED FRIES",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Frites allumettes maison, cheddar 18 mois, bacon bites.",
+          "price": 6.9
+        },
+        {
+          "id": "pny-pigalle-green-wedge-salad",
+          "name": "GREEN WEDGE SALAD",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sucrine, PNY magic dressing, ciboulette",
+          "price": 4.5
+        }
+      ]
+    },
+    {
+      "category": "HOUSE SPECIALS",
+      "dishes": [
+        {
+          "id": "pny-pigalle-onion-rings-x3",
+          "name": "ONION RINGS x3",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 beignets d’oignon minute & our famous Sunday BBQ sauce",
+          "price": 3.9
+        },
+        {
+          "id": "pny-pigalle-onion-rings-x6",
+          "name": "ONION RINGS x6",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "6 beignets d’oignon minute & our famous Sunday BBQ sauce",
+          "price": 6.9
+        },
+        {
+          "id": "pny-pigalle-onion-rings-x9",
+          "name": "ONION RINGS x9",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "9 beignets d’oignon minute & our famous Sunday BBQ sauce",
+          "price": 8.9
+        },
+        {
+          "id": "pny-pigalle-jalapenos-poppers-x3",
+          "name": "JALAPEÑOS POPPERS X3",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cheese balls relevées aux jalapeños (not spicy)",
+          "price": 3.9
+        },
+        {
+          "id": "pny-pigalle-jalapenos-poppers-x6",
+          "name": "JALAPEÑOS POPPERS X6",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "6 cheese balls relevées aux jalapeños (not spicy)",
+          "price": 7.5
+        },
+        {
+          "id": "pny-pigalle-jalapenos-poppers-x9",
+          "name": "JALAPEÑOS POPPERS X9",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "9 cheese balls relevées aux jalapeños (not spicy)",
+          "price": 9.9
+        },
+        {
+          "id": "pny-pigalle-fried-chicken-x3",
+          "name": "FRIED CHICKEN x3",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 tenders de poulet marinés 24H fait maison et cuit à la commande, chapelure minute ultra-croustillante",
+          "price": 6.9
+        },
+        {
+          "id": "pny-pigalle-fried-chicken-x6",
+          "name": "FRIED CHICKEN x6",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "6 tenders de poulet marinés 24H fait maison et cuit à la commande, chapelure minute ultra-croustillante",
+          "price": 11.9
+        },
+        {
+          "id": "pny-pigalle-fried-chicken-x9",
+          "name": "FRIED CHICKEN x9",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "9 tenders de poulet marinés 24H fait maison et cuit à la commande, chapelure minute ultra-croustillante",
+          "price": 16.9
+        }
+      ]
+    },
+    {
+      "category": "SALADS",
+      "dishes": [
+        {
+          "id": "pny-pigalle-fried-chicken-sunlight",
+          "name": "FRIED CHICKEN SUNLIGHT",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poulet mariné au buttermilk et pané, bacon bites, avocat Hass, pépites de cheddar, tomate cerise, cœur de salade romaine, oeuf dur",
+          "price": 17.9
+        }
+      ]
+    },
+    {
+      "category": "DESSERTS",
+      "dishes": [
+        {
+          "id": "pny-pigalle-le-cheesecake",
+          "name": "LE CHEESECAKE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Accompagné de son coulis de fruits rouges",
+          "price": 8.9
+        },
+        {
+          "id": "pny-pigalle-cookie-balboa",
+          "name": "COOKIE BALBOA",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cookie aux pépites de chocolat et cacahuètes grillées",
+          "price": 4.9
+        },
+        {
+          "id": "pny-pigalle-blackout-chocolate-cake",
+          "name": "BLACKOUT CHOCOLATE CAKE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fait maison avec des pépites de chocolat",
+          "price": 7.5
+        }
+      ]
+    },
+    {
+      "category": "BIERES & CO",
+      "dishes": [
+        {
+          "id": "pny-pigalle-pils-33cl-deck-donohue",
+          "name": "PILS 33CL - DECK & DONOHUE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Blonde. Légère et équilibrée, brassée en respectant les techniques traditionnelles tchèques avec des malts et houblons 100% français. Pure et cristalline. La beauté du simple et la complexité de l'atteindre. 5°- 33cl",
+          "price": 6.5
+        },
+        {
+          "id": "pny-pigalle-indigo-ipa-33cl",
+          "name": "INDIGO IPA 33cL",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.5
+        },
+        {
+          "id": "pny-pigalle-45-days-organic-pilsner-to-l",
+          "name": "45 DAYS ORGANIC PILSNER - TO ØL",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Une bière blonde légère et rafraîchissante avec une amertume parfaitement contrôlée. 4,7° - 33cl",
+          "price": 7.9
+        }
+      ]
+    },
+    {
+      "category": "VINS",
+      "dishes": [
+        {
+          "id": "pny-pigalle-du-cote-de-chez-soif-75cl",
+          "name": "DU CÔTÉ DE CHEZ SOIF 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Une Syrah épicée avec du caractère comme dans le Sud, mais toujours frais. Notes de cassis, violette et olive noire.",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-ca-goute-le-ciel-75cl",
+          "name": "ÇA GOÛTE LE CIEL 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un rouge léger et clair comme de la grenadine : notes de fraise et framboise. La vie est belle.",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-paradis-blanc-75cl",
+          "name": "PARADIS BLANC 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un Chardonnay élégant avec sa robe aux reflets argentés. Une fraîcheur délicate de Printemps",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-remede-75cl",
+          "name": "REMÈDE 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un rouge réconfortant et bien rond avec ses notes de fruits rouges confiturés. Gourmand et bien équilibré.",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-terra-di-vinu-75cl",
+          "name": "TERRA DI VINU 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un rosé corse frais et lumineux, aux notes de fruits rouges et d’agrumes. Le soleil dans un verre.",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-c-est-bien-comme-ca-75cl",
+          "name": "C'EST BIEN COMME ÇA 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un blanc frais frais frais. Arômes d’agrumes et de fruits blancs : ultra désaltérant.",
+          "price": 19
+        },
+        {
+          "id": "pny-pigalle-petard-75cl",
+          "name": "PÉTARD 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Une limonade de vigneron : un rosé qui pétille, aux notes de fruits rouges, terriblement facile à boire.",
+          "price": 36
+        },
+        {
+          "id": "pny-pigalle-prosecco-corvezzo-75cl",
+          "name": "PROSECCO CORVEZZO 75CL",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un Prosecco printanier, aux notes de poire et de fleurs blanches. Léger et frais : ça se boit tout seul.",
+          "price": 31
+        }
+      ]
+    }
+  ]
+}

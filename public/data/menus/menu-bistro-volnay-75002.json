@@ -1,0 +1,1034 @@
+{
+  "menuId": "menu-bistro-volnay-75002",
+  "restaurantId": "bistro-volnay-75002",
+  "categories": [
+    {
+      "category": "Menu Déjeuner (du Lundi au Vendredi) - Les Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1336049-le-haricot",
+          "name": "Le Haricot",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En velouté, moules, focaccia aux herbes et haricot coco"
+        },
+        {
+          "id": "zenchef-1336050-le-canard",
+          "name": "Le Canard",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mariné aux épices, déclinaison de poivrons et vinaigre balsamique"
+        },
+        {
+          "id": "zenchef-1453241-la-terrine-de-porc-noir-de-bigorre",
+          "name": "La terrine de Porc Noir de Bigorre",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Compotée d’Oignons rouge au Porto et Moutarde, Noix, Gel sauce Soja"
+        },
+        {
+          "id": "zenchef-1336051-le-foie-gras-de-correze",
+          "name": "Le Foie Gras de Corrèze",
+          "price": 8,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En terrine, compote de figues, figues crues et pain brioche"
+        },
+        {
+          "id": "zenchef-1336052-la-gambas",
+          "name": "La Gambas",
+          "price": 6,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En Soar, Purée de Pommes vertes au baie rouge de Szechuan, gel à l’Ail noir"
+        }
+      ]
+    },
+    {
+      "category": "Menu Déjeuner (du Lundi au Vendredi) - Les Plats",
+      "dishes": [
+        {
+          "id": "zenchef-1336053-le-maigre",
+          "name": "Le Maigre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuit à basse témpérature, déclinaison de courgettes, noisettes"
+        },
+        {
+          "id": "zenchef-1336054-le-homard-bleu-de-nos-cotes",
+          "name": "Le Homard Bleu de nos Côtes",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rôti, Coco de Paimpol, Girolles pôelées et émulsion de crustacés"
+        },
+        {
+          "id": "zenchef-1336056-le-poulet-jaune",
+          "name": "Le Poulet Jaune",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En deux cuissons, suprême basse température et cuisse confite, déclinaison de carottes et jus de viande"
+        },
+        {
+          "id": "zenchef-1336058-le-boeuf-simmenthal",
+          "name": "Le Boeuf Simmenthal",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le filet, pommes de Terre grenailles et poêlée de Champignons, Sauce aux Poivres"
+        },
+        {
+          "id": "zenchef-1336060-le-ris-de-veau-uniquement-a-la-carte-52",
+          "name": "Le Ris de Veau (Uniquement à la Carte 52€)",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Croustillant, purée d’Artichaut, Artichaut rôtie et jus de Viande"
+        },
+        {
+          "id": "zenchef-1336061-le-risotto",
+          "name": "Le Risotto",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz Carnaroli, Comté 24 mois, Parmesan, Champignons, Noisettes"
+        }
+      ]
+    },
+    {
+      "category": "Menu Déjeuner (du Lundi au Vendredi) - Les fromages",
+      "dishes": [
+        {
+          "id": "zenchef-1336063-le-saint-nectaire-fermier",
+          "name": "Le Saint Nectaire Fermier",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Servit avec Carpaccio de Champignons de Paris, Poudre de Cacao"
+        },
+        {
+          "id": "zenchef-1336065-l-assiette-de-fromages-du-moment",
+          "name": "L'Assiette de Fromages du Moment",
+          "price": 7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sélection de Fromages Affinés"
+        }
+      ]
+    },
+    {
+      "category": "Menu Déjeuner (du Lundi au Vendredi) - Les Desserts",
+      "dishes": [
+        {
+          "id": "zenchef-1336066-le-chocolat",
+          "name": "Le Chocolat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Coulant au Chocolat de Samana, Glace au poivre et Noix de Pécan Caramélisés"
+        },
+        {
+          "id": "zenchef-1336067-l-abricot",
+          "name": "L'Abricot",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Compote d’Abricot et Sauge, Sable Linzer, Crème épaisse et Sorbet Abricot"
+        },
+        {
+          "id": "zenchef-1336068-le-cheesecake",
+          "name": "Le Cheesecake",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Coulis de fruit des bois, tuile de chocolat blanc et streusel"
+        }
+      ]
+    },
+    {
+      "category": "La Carte du Soir (du lundi au samedi) - Nos Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1043181-le-haricot",
+          "name": "Le Haricot",
+          "price": 20,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En velouté, moule, focaccia aux herbes et haricot coco"
+        },
+        {
+          "id": "zenchef-1043182-le-canard",
+          "name": "Le Canard",
+          "price": 19,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mariné aux épices, déclinaison de poivrons et vinaigre balsamique"
+        },
+        {
+          "id": "zenchef-1453249-la-terrine-de-porc-noir-de-bigorre",
+          "name": "La Terrine de Porc Noir de Bigorre",
+          "price": 19,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Compotée d’Oignons rouge au Porto et Moutarde, Noix, Gel sauce Soja"
+        },
+        {
+          "id": "zenchef-1453248-le-jambon",
+          "name": "Le Jambon",
+          "price": 24,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assiette de Jambon Ibérique 36 mois “Prudencia"
+        },
+        {
+          "id": "zenchef-1043183-le-foie-gras-de-correze",
+          "name": "Le Foie Gras de Corrèze",
+          "price": 25,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En terrine, compote de figues, figues crues et pain brioche"
+        },
+        {
+          "id": "zenchef-1043184-la-gambas",
+          "name": "La Gambas",
+          "price": 23,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En Soar, Purée de Pommes vertes au baie rouge de Szechuan, gel à l’Ail noir"
+        }
+      ]
+    },
+    {
+      "category": "La Carte du Soir (du lundi au samedi) - Nos Plats",
+      "dishes": [
+        {
+          "id": "zenchef-1043185-le-maigre",
+          "name": "Le Maigre",
+          "price": 36,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuit à basse témpérature, déclinaison de courgettes, noisettes"
+        },
+        {
+          "id": "zenchef-1043186-le-homard-bleu-de-nos-cotes",
+          "name": "Le Homard Bleu de nos Côtes",
+          "price": 39,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rôti, Coco de Paimpol, Girolles pôelées et émulsion de crustacés"
+        },
+        {
+          "id": "zenchef-1043187-le-poulet-jaune",
+          "name": "Le Poulet Jaune",
+          "price": 34,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "En deux cuissons, suprême basse température et cuisse confite, déclinaison de carottes et jus de viande"
+        },
+        {
+          "id": "zenchef-1043188-le-ris-de-veau",
+          "name": "Le Ris de Veau",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Croustillant, purée d’Artichaut, Artichaut rôtie et jus de Viande"
+        },
+        {
+          "id": "zenchef-1043189-le-boeuf-simmenthal",
+          "name": "Le Boeuf Simmenthal",
+          "price": 43,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le Filet, pommes de Terre grenailles et poêlée de Champignons, Sauce aux Poivres"
+        },
+        {
+          "id": "zenchef-1043190-le-risotto",
+          "name": "Le Risotto",
+          "price": 28,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz Carnaroli, Comté 24 mois, Parmesan, Champignons, Noisettes"
+        }
+      ]
+    },
+    {
+      "category": "La Carte du Soir (du lundi au samedi) - Nos Fromages",
+      "dishes": [
+        {
+          "id": "zenchef-1043191-le-saint-nectaire-fermier",
+          "name": "Le Saint-Nectaire Fermier",
+          "price": 15,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Saint-Nectaire Fermier, carpaccio de Champignons de Paris, poudre de Cacao"
+        },
+        {
+          "id": "zenchef-1043192-l-assiette-de-fromages-du-moment",
+          "name": "L'Assiette de Fromages du Moment",
+          "price": 19,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morbier, Pont l'Êveque, Tomme de Brebis"
+        }
+      ]
+    },
+    {
+      "category": "La Carte du Soir (du lundi au samedi) - Nos Desserts",
+      "dishes": [
+        {
+          "id": "zenchef-1043193-le-chocolat",
+          "name": "Le Chocolat",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Coulant au chocolat de Samana, glace au poivre, noix de Pécan caramélisées."
+        },
+        {
+          "id": "zenchef-1043195-l-abricot",
+          "name": "L'Abricot",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Compote d’Abricot et Sauge, Sable Linzer, Crème épaisse et Sorbet Abricot"
+        },
+        {
+          "id": "zenchef-1043196-le-cheesecake",
+          "name": "Le Cheesecake",
+          "price": 18,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Coulis de fruit des bois, tuile de chocolat blanc et streusel"
+        }
+      ]
+    },
+    {
+      "category": "Les Vins au Verre - Blancs",
+      "dishes": [
+        {
+          "id": "zenchef-742808-alsace-happy-lemon-domaine-3-terres-2024",
+          "name": "Alsace “Happy lemon’’ – Domaine 3 Terres – 2024",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-742805-igp-allobroges-petit-coin-de-paradis-domaine-dominique-lucas",
+          "name": "IGP Allobroges “Petit Coin de Paradis’’ – Domaine Dominique Lucas – 2017",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1324480-languedoc-vin-de-france-domaine-clos-lalfert-2o22",
+          "name": "Languedoc (Vin de France) – Domaine Clos Lalfert - 2O22",
+          "price": 15,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1353623-bourgogne-chardonnay-domaine-aline-beaune-2021",
+          "name": "Bourgogne “Chardonnay” - Domaine Aline Beauné - 2021",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-742807-pouilly-fuisse-1er-cru-chevrieres-domaine-cornin-2022",
+          "name": "Pouilly-Fuissé 1er Cru “Chevrières” – Domaine Cornin - 2022",
+          "price": 20,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Les Vins au Verre - Rouges",
+      "dishes": [
+        {
+          "id": "zenchef-742810-chinon-domaine-bernard-baudry-2023",
+          "name": "Chinon - Domaine Bernard Baudry – 2023",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-742812-languedoc-vin-de-france-domaine-clos-lalfert-2o22",
+          "name": "Languedoc (Vin de France) – Domaine Clos Lalfert - 2O22",
+          "price": 15,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-742813-moulis-en-medoc-domaine-chateau-dutruch-grand-poujeaux-2017",
+          "name": "Moulis-en-Médoc – Domaine Chateau Dutruch Grand Poujeaux - 2017",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1351883-auxey-duresses-domaine-lafouge-2023",
+          "name": "Auxey Duresses - Domaine Lafouge- 2023",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Les Vins au Verre - Rosé",
+      "dishes": [
+        {
+          "id": "zenchef-1460210-vdf-le-rose-domaine-clos-des-b-provence-2024",
+          "name": "VDF “Le Rosé” – Domaine Clos des B – (Provence) - 2024",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Les Vins au Verre - Moelleux",
+      "dishes": [
+        {
+          "id": "zenchef-687486-jurancon-domaine-clos-uroulat-2021",
+          "name": "Jurançon - Domaine Clos Uroulat - 2021",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-687487-montilla-morilles-gran-reserva-dom-px-domaine-toro-albala-19",
+          "name": "Montilla Morilles ''Gran Reserva Dom PX'' - Domaine Toro Albala - 1987",
+          "price": 19,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "menuId": "menu-sonnys-ssd",
+  "restaurantId": "sonny-s-pizza-75002",
+  "categories": [
+    {
+      "category": "COCKTAILS",
+      "dishes": [
+        {
+          "id": "sonnys-ssd-cocktails-margarita",
+          "name": "MARGARITA",
+          "description": "TEQUILA, CITRON VERT, TRIPLE SEC",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-cocktails-pineapple-tequila",
+          "name": "PINEAPPLE TEQUILA",
+          "description": "TEQUILA, PINEAPPLE SODA, CITRON VERT, TAJIN",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-cocktails-dark-and-stormy",
+          "name": "DARK AND STORMY",
+          "description": "RHUM BRUN, GINGER BEER, CITRON VERT",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-cocktails-spritz",
+          "name": "SPRITZ",
+          "description": "GIN, TONIC, CITRON VERT",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "BIÈRES/SOFTS",
+      "dishes": [
+        {
+          "id": "sonnys-ssd-bieres-softs-citronnade-maison",
+          "name": "CITRONNADE MAISON",
+          "description": "Peut être retiré : sulfites.",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-bieres-softs-the-glace-maison",
+          "name": "THÉ GLACÉ MAISON",
+          "description": "Peut être retiré : sulfites.",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-bieres-softs-soda-classiques",
+          "name": "SODA CLASSIQUES",
+          "description": "Peut être retiré : sulfites.",
+          "price": 2,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "SIDES",
+      "dishes": [
+        {
+          "id": "sonnys-ssd-sides-cesar-salade",
+          "name": "CÉSAR SALADE",
+          "description": "SANS POULET 12€ / AVEC POULET 14€. SALADE ROMAINE, POULET MARINÉ, SAUCE CÉSAR, CROUTONS ET PARMESAN",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-sides-salade-italienne",
+          "name": "SALADE ITALIENNE",
+          "description": "MESCLUN, ROQUETTE, BRESAOLA, BURRATINA, CROUTONS ET PESTO DE BASILIC",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "SLICES",
+      "dishes": [
+        {
+          "id": "sonnys-ssd-slices-margherita",
+          "name": "MARGHERITA",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE SAUCE TOMATE MAISON, HUILE D’OLIVE, BASILIC FRAIS, PARMESAN",
+          "price": 5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-slices-pepperoni",
+          "name": "PEPPERONI",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE SAUCE TOMATE MAISON, PEPPERONI",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-slices-pestoroni",
+          "name": "PESTORONI",
+          "description": "MOZZARELLA FIOR DI LATTE, SAUCE VODKA, PEPPERONI, SAUCE PESTO ET BASILIC",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-slices-jerk-chicken",
+          "name": "JERK CHICKEN",
+          "description": "MOZZARELLA FIOR DI LATTE, POULET, POIVRONS ROUGES CARAMÉLISÉS, ÉCHALOTES, CIBOULETTE, SAUCE JERK (ÉPICES JAMAÏCAINES)",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-slices-chopped-cheese",
+          "name": "CHOPPED CHEESE",
+          "description": "MOZZARELLA FIOR DI LATTE, CHEDDAR, SAUCE CHILI OIL, VIANDE HACHÉE, POIVRONS ROUGES, ONIONS",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "PIZZAS",
+      "dishes": [
+        {
+          "id": "sonnys-ssd-pizzas-margherita",
+          "name": "MARGHERITA",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE SAUCE TOMATE MAISON, HUILE D’OLIVE, BASILIC FRAIS, PARMESAN",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-vodka-sauce",
+          "name": "VODKA SAUCE",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE VODKA : SAUCE PESTO ET PARMESAN, BASILIC FRAIS",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-pepperoni",
+          "name": "PEPPERONI",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE SAUCE TOMATE MAISON, PEPPERONI",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-pestoroni",
+          "name": "PESTORONI",
+          "description": "MOZZARELLA FIOR DI LATTE, SAUCE VODKA, PEPPERONI, SAUCE PESTO ET BASILIC",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-gino",
+          "name": "GINO",
+          "description": "CRÈME D’ONIONS, COURGETTES JAUNES, COURGETTES VERTES, MOZZARELLA FUMÉE, ORIGAN",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-buffalo-chicken",
+          "name": "BUFFALO CHICKEN",
+          "description": "MOZZARELLA FIOR DI LATTE, POULET, SAUCE BUFFALO, SAUCE RANCH",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-jerk-chicken",
+          "name": "JERK CHICKEN",
+          "description": "MOZZARELLA FIOR DI LATTE, POULET, POIVRONS ROUGES CARAMÉLISÉS, ÉCHALOTES, CIBOULETTE, SAUCE JERK (ÉPICES JAMAÏCAINES)",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-meatballs",
+          "name": "MEATBALLS",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE SAUCE TOMATE, VIANDE HACHÉE, CORIANDRE, AIL, RICOTTA, ONIONS ROUGES",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-beef-parm",
+          "name": "BEEF PARM",
+          "description": "MOZZARELLA FIOR DI LATTE, ONIONS CARAMÉLISÉS, VIANDE HACHÉE, SAUCE ALFREDO",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-chopped-cheese",
+          "name": "CHOPPED CHEESE",
+          "description": "MOZZARELLA FIOR DI LATTE, CHEDDAR, SAUCE CHILI OIL, VIANDE HACHÉE, POIVRONS ROUGES, ONIONS",
+          "price": 17,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-sonny-s",
+          "name": "SONNY’S",
+          "description": "BASE SAUCE TOMATE MAISON, MOZZARELLA FIOR DI LATTE, VIANDE HACHÉE, BACON DE VEAU, PEPPERONI DE BŒUF",
+          "price": 17,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-jane",
+          "name": "JANE",
+          "description": "BASE SAUCE VODKA, FIOR DI LATTE, PEPPERONI DE BŒUF, GORGONZOLA, JALAPEÑOS",
+          "price": 17,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-hawaienne",
+          "name": "HAWAÏENNE",
+          "description": "MOZZARELLA FIOR DI LATTE, BASE TOMATE, ANANAS RÔTI AU MIEL PIMENTÉ, PEPPERONI, POULET BARBECUE, ONIONS ROUGES",
+          "price": 18,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sonnys-ssd-pizzas-black-truffle",
+          "name": "BLACK TRUFFLE",
+          "description": "MOZZARELLA FIOR DI LATTE, SAUCE TRUFFES, PLEUROTES, RICOTTA, PARMESAN",
+          "price": 19,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

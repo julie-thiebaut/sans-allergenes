@@ -1,0 +1,872 @@
+{
+  "menuId": "menu-bioburger-batignolles",
+  "restaurantId": "bioburger-batignolles",
+  "categories": [
+    {
+      "category": "BURGERS",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-l-original",
+          "name": "L'ORIGINAL",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de véritable Cheddar ou Gouda selon arrivage, de salade, de tomate, de confit d’oignons, de cornichons croquants accompagnés de notre sauce classic BB",
+          "price": 9.9
+        },
+        {
+          "id": "bioburger-batignolles-le-french-pepper",
+          "name": "LE FRENCH PEPPER",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché, steak de bœuf frais 100% pur bœuf, gouda, salade, tomate, confit d’oignons, sauce au poivre BB",
+          "price": 10.5
+        },
+        {
+          "id": "bioburger-batignolles-le-halloumi",
+          "name": "LE HALLOUMI",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un halloumi snacké, de salade, de tomate, d'oignons rouges accompagnés de mayonnaise et de miel",
+          "price": 10.9
+        },
+        {
+          "id": "bioburger-batignolles-le-bacon-cheese",
+          "name": "LE BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le classique indémodable ! Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de poitrine de porc fumée croustillante, d'une tranche de véritable Gouda, d'oignons frits, de cornichons accompagnés de notre sauce classic BB",
+          "price": 11.9
+        },
+        {
+          "id": "bioburger-batignolles-le-chicken-cheese",
+          "name": "LE CHICKEN CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet croustillant, d'une tranche de véritable gouda, d'oignons rouges accompagnés de notre sauce tartare",
+          "price": 9.9
+        },
+        {
+          "id": "bioburger-batignolles-le-chicken-bacon",
+          "name": "LE CHICKEN BACON",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le burger qui croustille ! Chicken Bacon (Pain BB légèrement brioché garni d'un pané de poulet, d'une tranche de poitrine de porc fumée croustillante, de salade, de tomate, de cornichons croquants accompagnés de mayonnaise et sauce barbecue) + homemade side au choix + BB Drink",
+          "price": 10.9
+        },
+        {
+          "id": "bioburger-batignolles-le-crispy",
+          "name": "LE CRISPY",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet végétal, de salade, d'oignons rouges accompagnés de notre sauce au poivre BB",
+          "price": 9.9
+        },
+        {
+          "id": "bioburger-batignolles-le-rustique",
+          "name": "LE RUSTIQUE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Son coulant va vous faire fondre ! Pain BB légèrement brioché garni d'un camembert pané coulant, d'oignons rouges frais, d'une confiture figue et miel, de salade accompagnés de notre sauce classic BB",
+          "price": 10.9
+        },
+        {
+          "id": "bioburger-batignolles-le-vegan",
+          "name": "LE VEGAN",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La meilleure façon de manger des légumes d'hiver ! Pain BB vegan garni d'une galette de seitan aux légumes d'hiver, de salade, de confit d'oignons, de cornichons accompagnés d'un mélange de sauces ketchup et barbecue",
+          "price": 10.9
+        },
+        {
+          "id": "bioburger-batignolles-le-chevre-miel",
+          "name": "LE CHÈVRE MIEL",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de chèvre, de salade, de cornichons, d'oignons rouges frais accompagnés de mayonnaise et de miel",
+          "price": 10.9
+        }
+      ]
+    },
+    {
+      "category": "SALADES",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-chicken-salad",
+          "name": "CHICKEN SALAD",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade verte accompagnée de poulet pané, de gouda, de tomate, d'oignons frits et de notre sauce caesar",
+          "price": 8.9
+        },
+        {
+          "id": "bioburger-batignolles-halloumi-salad",
+          "name": "HALLOUMI SALAD",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade verte accompagnée de cubes de halloumi frits, de tomate, d'oignons frits et de notre sauce caesar",
+          "price": 8.9
+        }
+      ]
+    },
+    {
+      "category": "FINGER FOOD",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-grilled-cheese-bacon",
+          "name": "GRILLED CHEESE BACON",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain légèrement brioché toasté garni d'une tranche de poitrine de porc fumée croustillante et de 2 tranches de véritable Cheddar",
+          "price": 5.4
+        },
+        {
+          "id": "bioburger-batignolles-grilled-cheese",
+          "name": "GRILLED CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain légèrement brioché toasté garni de 2 tranches de gouda au lait cru de la fromagerie d'Entrammes et de confit d'oignons",
+          "price": 5
+        },
+        {
+          "id": "bioburger-batignolles-little-cheeseburger",
+          "name": "LITTLE CHEESEBURGER",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de gouda au lait cru de la fromagerie d'Entrammes, de confit d'oignons, de cornichons croquants accompagnés de notre sauce classic BB",
+          "price": 6.4
+        },
+        {
+          "id": "bioburger-batignolles-les-poulettes-x4",
+          "name": "LES POULETTES X4",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "4 bouchées de volaille panées croustillantes accompagnées de sauce classic, ketchup, mayonnaise, moutarde, au poivre, ou barbecue au choix",
+          "price": 4.5
+        },
+        {
+          "id": "bioburger-batignolles-les-poulettes-x8",
+          "name": "LES POULETTES X8",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "8 bouchées de volaille panées croustillantes accompagnées de sauce classic, ketchup, mayonnaise, moutarde, au poivre, ou barbecue au choix",
+          "price": 9
+        },
+        {
+          "id": "bioburger-batignolles-crousti-halloumi-x4",
+          "name": "CROUSTI HALLOUMI X4",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "4 bouchées de halloumi frit",
+          "price": 4.2
+        },
+        {
+          "id": "bioburger-batignolles-crousti-halloumi-x8",
+          "name": "CROUSTI HALLOUMI X8",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "8 bouchées de halloumi frit",
+          "price": 8.4
+        }
+      ]
+    },
+    {
+      "category": "HOMEMADE SIDES",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-little-halloumi-salad",
+          "name": "LITTLE HALLOUMI SALAD",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade verte accompagnée de minis halloumis frits, de tomate, d'oignon rouge et de notre sauce caesar",
+          "price": 4.9
+        },
+        {
+          "id": "bioburger-batignolles-salade-verte",
+          "name": "SALADE VERTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade verte accompagnée de sauce caesar et d'oignons frits",
+          "price": 3.9
+        }
+      ]
+    },
+    {
+      "category": "SAUCES",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-pot-sauce-moutarde",
+          "name": "POT SAUCE MOUTARDE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0
+        },
+        {
+          "id": "bioburger-batignolles-pot-sauce-classic",
+          "name": "POT SAUCE CLASSIC",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0.8
+        },
+        {
+          "id": "bioburger-batignolles-pot-sauce-poivre",
+          "name": "POT SAUCE POIVRE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0.8
+        },
+        {
+          "id": "bioburger-batignolles-pot-sauce-americaine",
+          "name": "POT SAUCE AMÉRICAINE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0.8
+        }
+      ]
+    },
+    {
+      "category": "BB DRINKS",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-biere-pale-ale-blonde-brasserie-deck-donohue",
+          "name": "BIÈRE PALE ALE BLONDE BRASSERIE DECK & DONOHUE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brasserie Deck & Donohue : Pale Ale aux notes d’agrume 33cl, 4,8% alc.",
+          "price": 6
+        },
+        {
+          "id": "bioburger-batignolles-biere-ipa-brasserie-deck-donohue",
+          "name": "BIÈRE IPA BRASSERIE DECK & DONOHUE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brasserie Deck & Donohue : IPA aux notes herbacées et fruitées 33cl, 6,5% alc.",
+          "price": 6
+        },
+        {
+          "id": "bioburger-batignolles-blonde-pilsner-bioburger-x-deck-donohue",
+          "name": "BLONDE PILSNER - BIOBURGER x DECK & DONOHUE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Blonde Pilsner - Bioburger x Deck & Donohue 33cl, 4,5%",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "category": "DESSERTS",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-ice-bb-crush",
+          "name": "ICE BB CRUSH",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sundae accompagnée d’un nappage et d’un topping au choix Nappage : caramel beurre salé, nocciolata ou fraise Topping : cacahuètes caramélisées ou croquant noisettes",
+          "price": 4
+        },
+        {
+          "id": "bioburger-batignolles-brownie",
+          "name": "BROWNIE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brownie fondant au chocolat noir",
+          "price": 4.5
+        },
+        {
+          "id": "bioburger-batignolles-shake-bb-crush",
+          "name": "SHAKE BB CRUSH",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson glacée lactée saveur caramel beurre salé, nocciolata ou fraise",
+          "price": 4
+        },
+        {
+          "id": "bioburger-batignolles-yaourt-et-confiture-de-fraise",
+          "name": "YAOURT ET CONFITURE DE FRAISE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Yaourt et confiture de fraise",
+          "price": 3.1
+        }
+      ]
+    },
+    {
+      "category": "BOISSONS CHAUDES",
+      "dishes": [
+        {
+          "id": "bioburger-batignolles-espresso-macchiato",
+          "name": "ESPRESSO MACCHIATO",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.2
+        },
+        {
+          "id": "bioburger-batignolles-mocha",
+          "name": "MOCHA",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.6
+        },
+        {
+          "id": "bioburger-batignolles-cappuccino",
+          "name": "CAPPUCCINO",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.6
+        },
+        {
+          "id": "bioburger-batignolles-latte-macchiato",
+          "name": "LATTE MACCHIATO",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.6
+        },
+        {
+          "id": "bioburger-batignolles-flat-white",
+          "name": "FLAT WHITE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.6
+        },
+        {
+          "id": "bioburger-batignolles-chocolat-chaud",
+          "name": "CHOCOLAT CHAUD",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.6
+        }
+      ]
+    }
+  ]
+}

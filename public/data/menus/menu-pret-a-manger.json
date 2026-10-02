@@ -1,0 +1,4795 @@
+{
+  "menuId": "menu-pret-a-manger",
+  "restaurantId": "pret-a-manger-avenue-de-france-75013",
+  "categories": [
+    {
+      "category": "Plats chauds",
+      "dishes": [
+        {
+          "id": "pret-couscous-vegetarien-aux-legumes",
+          "name": "Couscous végétarien aux Légumes",
+          "description": "Semoule de blé accompagnée de courgettes, carottes, pois chiches, poivrons rouges et raisins secs, mijotés dans un bouillon aromatique tomaté parfumé aux ras-el-hanout et aux épices douces.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-curry-vert-de-legumes-riz-basmati",
+          "name": "Curry vert de légumes & Riz Basmati",
+          "description": "Carotte, épinard et brocoli mijotés dans du lait de coco parfumé à la citronnelle et aux épices à curry, servis avec du riz basmati et toppé d'un quartier de citron vert.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dahl-de-lentilles-veggie",
+          "name": "Dahl de Lentilles Veggie",
+          "description": "Sur une base de riz et d'épinards, un dahl de lentilles corail et pois chiche mijotés avec du lait de coco, des oignons, une sauce tomate, des carottes, curry et gingembre. Une recette veggie inspirée de la cuisine indienne réconfortante et savoureuse.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-fusilloni-sauce-bolognaise",
+          "name": "Fusilloni Sauce Bolognaise",
+          "description": "Des pâtes fusilloni accompagnées d'une délicieuse sauce bolognaise au bœuf mijoté au vin rouge et carottes servies avec des copeaux de fromage italien.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pad-thai-poulet",
+          "name": "Pad Thaï Poulet",
+          "description": "Nouilles de riz accompagnées de carottes, champignons noirs, filet de poulet français, omelette relevées de sauce soja, gingembre, coriandre et basilic thaï, servies avec un quartier de citron vert.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-poulet-curry-coco-riz-basmati",
+          "name": "Poulet Curry Coco & Riz Basmati",
+          "description": "Filet de poulet français, sauce au lait de coco et épices curry, servis avec un riz basmati aux fèves de soja et des copeaux de noix de coco séchée.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-poulet-korma-duo-de-riz",
+          "name": "Poulet Korma & Duo de Riz",
+          "description": "Filet de poulet français relevés d'une sauce korma crémeuse au lait de coco et mélange d'épices douces servis sur un duo de riz basmati et sauvage et des copeaux de noix de coco séchée en topping.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-poulet-tikka-masala-riz-basmati-sauvage",
+          "name": "Poulet Tikka Masala, Riz Basmati & Sauvage",
+          "description": "Filet de poulet français marinés dans une sauce crémeuse aux épices garam masala et légérement pimentée sur un mélange de riz basmati et riz sauvage.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-poulet-poelee-de-legumes-a-la-coriandre-quinoa",
+          "name": "Poulet, Poelée de Légumes à la Coriandre & Quinoa",
+          "description": "Filet de poulet français servi avec une poêlée de carottes, patates douces et aubergines assaisonnée d'un jus à la coriandre et un mélange quinoa-lentilles",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Pains briochés toastés",
+      "dishes": [
+        {
+          "id": "pret-breakfast-pain-brioche-omelette-fromage",
+          "name": "Breakfast Pain Brioché Omelette & Fromage",
+          "description": "Une omelette et du fromage italien lovés dans un moelleux pain brioché. Une recette chaude pour un petit déjeuner végétarien.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-breakfast-pain-brioche-omelette-bacon",
+          "name": "Breakfast Pain brioché Omelette & Bacon",
+          "description": "Un pain brioché garni d'une omelette et de bacon, mais aussi du fromage havarti pour encore plus de gourmandise. Servi chaud pour bien commencer la journée.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Toasties",
+      "dishes": [
+        {
+          "id": "pret-sandwich-toastie-poulet-chutney-d-oignons",
+          "name": "Sandwich Toastie Poulet & Chutney d'oignons",
+          "description": "Notre sandwich grillé aux filets de poulet, tranches de cheddar affiné et chutney d’oignon au vinaigre balsamique. Toasté minute au comptoir.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-toastie-jambon-fromage-moutarde",
+          "name": "Toastie Jambon, Fromage & Moutarde",
+          "description": "Tranches de jambon cuit supérieur et de cheddar affiné relevées d'une pointe de mayonnaise moutardée pour un sandwich grillé moelleux à l'intérieur et croustillant à l'extérieur. Toasté minute au comptoir.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Autres recettes chaudes",
+      "dishes": [
+        {
+          "id": "pret-croissant-jambon-fromage-tomates-lardons-fumes",
+          "name": "Croissant Jambon, Fromage, Tomates & Lardons fumés",
+          "description": "Notre croissant salé au jambon, emmental, lardons fumés et coulis de tomate.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-croissant-mozzarella-tomate",
+          "name": "Croissant Mozzarella & Tomate",
+          "description": "Garni de mozzarella, emmental et tomates, avec une pointe d’herbes de Provence.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-hot-wrap-falafels-cheddar-poivrons",
+          "name": "Hot Wrap Falafels, Cheddar & Poivrons",
+          "description": "Un wrap aux saveurs orientales mariant poivrons rouges, cheddar affiné, falafels de patate douce et tartinade poivron-tomate avec des oignons croustillants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-hot-wrap-poulet-piment-chipotle",
+          "name": "Hot Wrap Poulet & Piment Chipotle",
+          "description": "Un wrap chaud garni de filets de poulet, de tomates séchées et de fromage italien, relevé d'une touche de ketchup au piment chipotle.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-porridge-pret",
+          "name": "Porridge Pret",
+          "description": "La recette authentique du porridge avec des flocons d'avoine et du lait. Crémeux et délicieux. Servi avec un nappage miel ou cannelle au choix.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-quiche-lorraine",
+          "name": "Quiche lorraine",
+          "description": "Œufs plein air, poitrine fumée, emmental râpé, crème fraîche et pointe de muscade sur une délicieuse pâte avec de la semoule de maïs.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-tarte-chevre-epinards",
+          "name": "Tarte Chèvre Épinards",
+          "description": "Une tarte chaude végétarienne au fromage de chèvre, épinards et pointe de crème fraîche.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Soupes",
+      "dishes": [
+        {
+          "id": "pret-soupe-miso",
+          "name": "Soupe Miso",
+          "description": "Bouillon issu de la cuisine japonaise à base de miso (soja fermenté)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-vegan-lentilles-masala",
+          "name": "Soupe Vegan Lentilles Masala",
+          "description": "Inspirée de la cuisine indienne, une soupe masala préparée avec des lentilles rouges et vertes fondantes mijotées avec des tomates, des carottes, pommes de terre, épinards et des épices de garam masala et de cumin, le tout relevé d’herbes aromatiques, d’ail et d’une touche subtile de curcuma et de piment",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-veloute-de-poulet",
+          "name": "Soupe Velouté de Poulet",
+          "description": "Une soupe onctueuse au poulet, pommes de terre, champignons de Paris, céleri, carottes, chou kale et oignons, relevée de thym et de laurier.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-facon-bouillon-japonais-au-poulet",
+          "name": "Soupe façon Bouillon Japonais au Poulet",
+          "description": "Une soupe inspirée de la tradition japonaise, avec un bouillon parfumé au poulet français, agrémenté d’oignons, de champignons shiitakés, de carottes, de riz sauvage et de germes de haricot mungo. Relevée d’une touche de sauce soja et de sauce poisson, et parfumée au gingembre, à l’ail et à la ciboulette.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-facon-mexicaine-poulet-tomate",
+          "name": "Soupe façon Mexicaine Poulet & Tomate",
+          "description": "Une soupe onctueuse et relevée inspirée de la cuisine mexicaine à base de pulpe de tomates, de morceaux tendres de poulet, de poivrons rouges, de maïs et d'oignons frits avec une touche de crème. Chaque cuillère évoque la richesse et le caractère chaleureux de la cuisine mexicaine, parfaite pour un moment réconfortant et plein de goût.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-froide-courgette-menthe",
+          "name": "Soupe froide Courgette Menthe",
+          "description": "En exclusivité pour l'été, une soupe rafraîchissante et onctueuse à la courgette, relevée d'une pointe de menthe.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-froide-gazpacho",
+          "name": "Soupe froide Gazpacho",
+          "description": "En exclusivité pour l'été, un gazpacho très frais aux légumes d'été: tomates, concombres, poivrons rouges et oignons. Relevé d'une pointe de vinaigre balsamique et d'ail.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-vegan-carotte-coriandre",
+          "name": "Soupe vegan Carotte & Coriandre",
+          "description": "Une soupe vegan à la carotte et au lait de coco, accompagnée d'oignons et parfumée aux notes de piment, citronnelle et gingembre.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-vegan-petit-pois-menthe",
+          "name": "Soupe vegan Petit Pois & Menthe",
+          "description": "Une soupe vegan veloutée aux petits pois, parfumée à la menthe avec une pointe de gingembre et de piment.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-vegan-a-la-tomate",
+          "name": "Soupe vegan à la Tomate",
+          "description": "Notre super soupe vegan à la tomate, relevée d'oignons, d'une pointe d'ail et d'un soupçon d'origan et de poivre.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-soupe-veloutee-champignons-de-paris",
+          "name": "Soupe veloutée Champignons de Paris",
+          "description": "Une soupe aux champignons de Paris associée à l'onctuosité de la crème, avec des pommes de terre, des oignons et de la ciboulette.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sandwiches",
+      "dishes": [
+        {
+          "id": "pret-sandwich-pret-cheddar-chutney",
+          "name": "Sandwich PRET Cheddar Chutney",
+          "description": "Notre sandwich végétarien culte aux tranches de cheddar affiné, tomates, mélange de salades, relevé par un chutney d'oignons au vinaigre balsamique et des oignons rouges.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sandwich-poulet-avocat-basilic",
+          "name": "Sandwich Poulet, Avocat & Basilic",
+          "description": "Tranches d'avocat et filets de poulet sur un mélange de salades et basilic frais servis dans un pain aux céréales. Sauce mayonnaise et fromage blanc.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sandwich-saumon-fume",
+          "name": "Sandwich Saumon fumé",
+          "description": "De belles tranches de saumon fumé relevées de jus de citron, dans un pain aux céréales beurré. (Peut contenir des arêtes)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sandwich-slim-pret-cheddar-chutney",
+          "name": "Sandwich Slim Pret Cheddar Chutney",
+          "description": "Notre sandwich végétarien culte aux tranches de cheddar affiné, tomates, mélange de salades, relevé par un chutney d'oignons au vinaigre balsamique et des oignons rouges. Version Slim pour les petites faims.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sandwich-spicy-tuna",
+          "name": "Sandwich Spicy Tuna",
+          "description": "Dans un pain aux céréales, un mélange de thon et sauce Chipotle tel une tartinade, avec des pickes de chou rouge, du fromage frais, des pousses d'épinard, des carottes râpées, des oignons frits et d'une pincée de sel aux épices chili.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sandwich-super-club",
+          "name": "Sandwich Super Club",
+          "description": "Notre sandwich culte aux tomates, filets de poulet, tranches de bacon et mayonnaise sur un mélange de salades.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-super-club-slim-pret",
+          "name": "Super Club Slim Pret",
+          "description": "Notre sandwich culte aux tomates, filets de poulet, tranches de bacon et mayonnaise sur un mélange de salades.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Baguettes",
+      "dishes": [
+        {
+          "id": "pret-baguette-avocat-concasse-d-olives-noires-de-kalamata-pignons",
+          "name": "Baguette Avocat, Concassé d'olives noires de Kalamata & Pignons de pin",
+          "description": "Une baguette aux graines garnie d'avocat, concassé d'olives noires de Kalamata, tomates séchées, et feuilles de roquette, avec des pignons de pin et des feuilles de basilic frais, le tout signé d'un trait de jus de citron.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-cheddar-chutney",
+          "name": "Baguette Cheddar & Chutney",
+          "description": "Une baguette garnie de tranches de cheddar affiné, chutney d'oignons, tomates séchées, oignons rouges et feuilles de roquette.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-jambon-beurre",
+          "name": "Baguette Jambon-Beurre",
+          "description": "Une baguette tartinée de beurre garnie de généreuses tranches de jambon cuit supérieur et de petits cornichons croquants. Notre incontournable.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-poulet-bacon",
+          "name": "Baguette Poulet Bacon",
+          "description": "Dans une baguette aux graines, des filets de poulet français à la sauce Caesar, des tranches de bacon origine Royaume-Uni, des feuilles de roquette et des copeaux de fromage italien.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-poulet-satay",
+          "name": "Baguette Poulet Satay",
+          "description": "Dans une baguette aux graines, des filets de poulet français à la sauce Satay, de la mayonnaise, des carottes râpées et des pickles de chou rouge, le tout accompagné de feuilles de menthe et d'une pincée de sel aux épices chili.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-prosciutto-crudo",
+          "name": "Baguette Prosciutto Crudo",
+          "description": "Une baguette aux graines garnie de fines tranches de jambon sec italien Prosciutto Crudo affiné en Italie, tomates, copeaux de fromage italien et roquette, le tout signé d'un trait d'huile d'olive et colza.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-baguette-saumon-concombre",
+          "name": "Baguette Saumon & Concombre",
+          "description": "Dans une baguette aux graines tartinée de fromage nature, des tranches de saumon fumé citronnées et des rondelles de concombre, juste relevées de brins d'aneth frais.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-losange-breakfast-oeuf-avocat",
+          "name": "Losange Breakfast Œuf & Avocat",
+          "description": "Un pain losange garni d'œuf dur préparé avec un mélange moutarde-mayonnaise, d'avocat et d'une pointe de citron.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-losange-jambon-fromage",
+          "name": "Losange Jambon & Fromage",
+          "description": "Dans un pain losange beurré, du jambon cuit supérieur et du fromage danois havarti avec des cornichons croquants.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pain-rond-caprese",
+          "name": "Pain Rond Caprese",
+          "description": "Un pain rond au blé, orge maltée et seigle garni de mozzarella, tomate, basilic frais et d'un trait d'huile d'olive et colza.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Pinsa",
+      "dishes": [
+        {
+          "id": "pret-pinsa-mortadelle-mozza-basilic",
+          "name": "Pinsa Mortadelle, Mozza & Basilic",
+          "description": "Dans un pain Pinsa à la pâte aérée et moelleuse, de fines tranches de Mortadelle italienne, de la mozzarella, des feuilles de basilic frais et de roquette, le tout signé d'un trait d'huile d'olive et colza.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pinsa-mozza-courgette-poivron",
+          "name": "Pinsa Mozza, Courgette & Poivron",
+          "description": "Dans un pain Pinsa à la pâte aérée et moelleuse, de la mozzarella, des courgettes et des poivrons grillés, accompagnés de tartinade de poivrons et tomates, de copeaux de fromage italien et des feuilles de basilic frais. Toasté légèrement au comptoir.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pinsa-prosciutto-crudo-mozza-poivrons",
+          "name": "Pinsa Prosciutto Crudo, Mozza & Poivrons",
+          "description": "Dans un pain Pinsa à la pâte aérée et moelleuse, des tranches de tomates et mozzarella accompagnées de fines tranches de jambon sec Prosciutto Crudo affiné en Italie, d'une tartinade de poivrons et tomates ainsi que de feuilles de basilic frais.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Wraps & Pains Pita",
+      "dishes": [
+        {
+          "id": "pret-pain-pita-avocat-falafels",
+          "name": "Pain Pita Avocat & Falafels",
+          "description": "Un pain pita généreusement garni de tranches d'avocat, de tomates, de falafels de patate douce, d'oignons rouges, de jeunes pousses d'épinards, de fromage blanc, de mayonnaise, de jus de citron et de persil.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pain-pita-poulet-facon-grecque",
+          "name": "Pain Pita Poulet Façon Grecque",
+          "description": "Un pain pita généreusement garni de filets de poulet français enrobés de fromage blanc, avec de la tapenade d'olives noires de Kalamata, des poivrons rouges, de la feta AOP, des rondelles de concombre, un mélange de salade et quelques feuilles de menthe fraîche.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-wrap-avocat-pignons-toastes",
+          "name": "Wrap Avocat & Pignons Toastés",
+          "description": "Un wrap végétarien aux tranches d'avocat, tomates, concombres, jeunes pousses d'épinard, copeaux de fromage italien, pignons et basilic frais agrementés d'une sauce au fromage blanc.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-wrap-poulet-caesar",
+          "name": "Wrap Poulet Caesar",
+          "description": "Un wrap au poulet et sauce caesar, garni de tomates, concombres, jeunes pousses d'épinard et fromage italien, relevé d'un trait de jus de citron. Disponible dans une sélection de Pret A Manger. Produit congelé, ne pas décongeler.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-wrap-vegan-aubergine-satay",
+          "name": "Wrap Vegan Aubergine Satay",
+          "description": "Wrap généreusement garni d'aubergines enrobées de sauce Satay, avec des carottes râpées, des pousses d'épinard, des pickles de chou rouge, du concombre et des feuilles de menthe fraîche.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Petits Pots",
+      "dishes": [
+        {
+          "id": "pret-petit-pot-avocat-riz-noir-ecrevisses",
+          "name": "Petit Pot Avocat, Riz noir & Écrevisses",
+          "description": "Écrasé d'avocat citronné, riz noir vinaigré, concombre frais et écrevisses sauvages, simplement relevés d'un quartier de citron vert et de brins d'aneth.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pot-houmous-feta",
+          "name": "Petit Pot Houmous & Féta",
+          "description": "Notre houmous est servi avec des pois chiches entiers, des dés de féta, une pincée de graines de grenade et de la coriandre fraîche.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pot-lentilles-oeufs-poches",
+          "name": "Petit Pot Lentilles & Œufs pochés",
+          "description": "Une petite salade de lentilles et de petits pois à la vinaigrette moutardée, servie avec deux œufs pochés plein air.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pot-mozza-tomates-pesto-aux-noix-de-cajou",
+          "name": "Petit Pot Mozza, Tomates & Pesto aux noix de cajou",
+          "description": "Un petit pot composé de tomates cerises, de mozzarella, des feuilles de basilic et assaisonné d'une sauce pesto aux noix de cajou. Secouer avant de déguster!",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Salades",
+      "dishes": [
+        {
+          "id": "pret-bowl-falafel-mezze-quinoa",
+          "name": "Bowl Falafel Mezze & Quinoa",
+          "description": "Houmous, mélange gourmand de quinoa et lentilles, falafels de patate douce, concombres, chou pickle et persil frais sur une base de salades et de carottes râpées. Vinaigrette balsamique.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-bowl-fusilloni-mozza-pesto-aux-noix-de-cajou",
+          "name": "Bowl Fusilloni, Mozza & Pesto aux noix de cajou",
+          "description": "Pâtes Fusilloni mariées à une sauce pesto aux noix de cajou, mozzarella, tomates cerises et tomates séchées, servies sur un mélange de feuilles de roquette et basilic frais.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-bowl-poulet-pesto-aux-noix-de-cajou",
+          "name": "Bowl Poulet Pesto aux noix de cajou",
+          "description": "Filets de poulet français enrobés de notre pesto aux noix de cajou, avocat, mélange de salades, roquette, tomates cerises, quartier de citron. Vinaigrette balsamique.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-bowl-filet-de-saumon-riz-noir-sauce-soja-et-gingembre",
+          "name": "Bowl filet de Saumon, Riz Noir & Sauce Soja et Gingembre",
+          "description": "Un filet de saumon cuit basse température servi sur une base de feuilles de salade et carottes râpées avec du riz noir vinaigré, de l'avocat, du chou rouge façon pickles, des edamames, un quartier de citron vert, un filet de jus de citron et du persil, servi avec une sauce au soja & gingembre.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-bowl-avocat-ecrevisses",
+          "name": "Petit Bowl Avocat & Ecrevisses",
+          "description": "Sur un mélange de feuilles de salades, des écrevisses sauvages, de l'avocat, simplement relevés d'un quartier de citron, de jus de citron et d'une sauce vinaigrette balsamique.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-protein-bowl-au-saumon-fume",
+          "name": "Protein Bowl au Saumon fumé",
+          "description": "De savoureuses tranches de saumon fumé servies avec des œufs durs plein air et de l'avocat sur de jeunes pousses d'épinards. (Peut contenir des arêtes)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-salad-bowl-avocat-mozzarella-tapenade-d-olives-kalamata",
+          "name": "Salad Bowl Avocat, Mozzarella & Tapenade d'olives Kalamata",
+          "description": "Un bowl préparé sur une base de feuilles de salade et roquette, garni d'avocat, de mozzarella, de concassé d'olives noires de Kalamata, de tomates cerises et tomates séchées, accompagné de basilic frais et servi avec une sauce vinaigrette balsamique.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-super-bowl-poulet-green-red",
+          "name": "Super Bowl Poulet Green & Red",
+          "description": "Un super bowl composé de filets de poulet français enrobés de fromage blanc et parsemés d'aneth, avec des pousses d'épinard, un oeuf dur avec une pincée de sel aux épices chili, des pois chiches avec une tartinade de poivrons et tomates, des edamames, des poivrons grillés, du concombre et des graines de grenades. Servi avec une vinaigrette à la moutarde.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-super-bowl-poulet-satay",
+          "name": "Super Bowl Poulet Satay",
+          "description": "Un super bowl composé de filets de poulet français enrobés de sauce Satay parsemés de coriandre et de copeaux de noix de coco séchée, avec des pousses d'épinard, des aubergines, un mélange de quinoa et riz noir vinaigré, des edamames, des pickles de chou rouge et un quartier de citron vert.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Pots Desserts & Entremets",
+      "dishes": [
+        {
+          "id": "pret-cheesecake-au-citron",
+          "name": "Cheesecake au Citron",
+          "description": "Ce cheesecake au citron est idéal pour terminer le repas sur une note sucrée ou pour s'accorder une pause gourmande à tout moment de la journée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-coco-myrtille-bowl",
+          "name": "Coco & Myrtille Bowl",
+          "description": "Sur un délicieux dessert coco, notre granola gourmand servi avec des copeaux de noix de coco séchés, des tranches de banane et des myrtilles fraîches.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dessert-au-mascarpone-et-a-la-vanille-bourbon-fraises-myrtil",
+          "name": "Dessert au Mascarpone et à la Vanille Bourbon & Fraises & Myrtilles",
+          "description": "Un dessert onctueux au mascarpone et à la vanille Bourbon surmonté d'une compotée de fraises acidulée et myrtilles fraîches.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-entremets-au-chocolat",
+          "name": "Entremets au Chocolat",
+          "description": "Un entremet au chocolat ultra gourmand dans un petit pot.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-fromage-blanc-0-miel-granola",
+          "name": "Fromage Blanc 0 % Miel & Granola",
+          "description": "Fromage blanc 0 % au miel et granola.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-fromage-blanc-0-fruits-rouges-granola",
+          "name": "Fromage Blanc 0 %, Fruits Rouges & Granola",
+          "description": "Une généreuse portion de fromage blanc 0 % accompagnée d'une préparation fruitée aux cinq fruits rouges et de notre granola gourmand.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pot-tropical-coco",
+          "name": "Petit Pot Tropical Coco",
+          "description": "Sur un délicieux dessert Coco, une purée Sunshine mangue-banane avec un granola gourmand et des copeaux de noix de coco séchée en topping.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pot-coco-chia-passion",
+          "name": "Petit pot Coco Chia Passion",
+          "description": "Dessert coco, jus de pomme et graines de chia sur une délicieuse préparation fruitée au fruit de la passion.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-riz-au-lait",
+          "name": "Riz au Lait",
+          "description": "Gourmand et réconfortant, un dessert au parfum d'enfance.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sunshine-bowl",
+          "name": "Sunshine Bowl",
+          "description": "Notre granola servi sur une purée mangue-banane avec des tranches de banane et des copeaux de noix de coco.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-tiramisu",
+          "name": "Tiramisu",
+          "description": "Une classique crème au mascarpone, sur des biscuits à la cuillère imbibés de café, décorée de poudre de cacao amer. Un dessert qui incarne l’authentique tradition italienne.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Fruits",
+      "dishes": [
+        {
+          "id": "pret-banane",
+          "name": "Banane",
+          "description": "Origine Guadeloupe, Costa-Rica, Mexique ou Colombie",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-mangue-citron-vert",
+          "name": "Mangue & Citron Vert",
+          "description": "Fruits frais découpés, prêts à déguster.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-melon-myrtilles",
+          "name": "Melon & Myrtilles",
+          "description": "Dés de melon accompagnés de myrtilles, prêts à déguster.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pomme",
+          "name": "Pomme",
+          "description": "Cat. 1 Origine France, Argentine ou Chili",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-salade-de-fruits",
+          "name": "Salade de Fruits",
+          "description": "Fruits découpés prêts à déguster.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cookies & Pâtisseries",
+      "dishes": [
+        {
+          "id": "pret-biscuit-coeur-fondant-choco-noisettes",
+          "name": "Biscuit cœur fondant Choco-Noisettes",
+          "description": "Un cookie ultra gourmand au cœur praliné chocolat-noisettes, saupoudré de sucre glace et de poudre chocolatée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-canele-de-bordeaux",
+          "name": "Canelé de Bordeaux",
+          "description": "Notre canelé est une spécialité du Bordelais. Un délicieux petit gâteau aromatisé au rhum et à la vanille.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-carrot-cake",
+          "name": "Carrot Cake",
+          "description": "Une part de gâteau à la carotte préparé avec des œufs plein air, avec des morceaux de noix, des raisins secs et parfumé aux zestes d’agrumes, avec un glaçage gourmand au cream cheese toppé d’éclats de pistaches croquants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cookie-caramel-beurre-sale-pecan",
+          "name": "Cookie Caramel beurre salé & Pécan",
+          "description": "Un grand cookie moelleux aux éclats de noix de pécan et inclusions de caramel au beurre salé. Cuit sur place.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cookie-double-choco",
+          "name": "Cookie Double Choco",
+          "description": "Un généreux cookie aux éclats de chocolat blanc et au lait, pâte gourmande au chocolat noir. Cuit sur place.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cookie-aux-morceaux-de-chocolat",
+          "name": "Cookie aux morceaux de Chocolat",
+          "description": "Un cookie au beurre avec de généreux morceaux de chocolat fondants. Cuit sur place tout au long de la journée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cookie-eclats-chocolat-noir-et-pointe-de-sel",
+          "name": "Cookie éclats chocolat noir et pointe de sel",
+          "description": "Un cookie vegan extra-fondant aux éclats de chocolat noir réhaussée d'une pointe de sel de Camargue. Cuit sur place.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-muffin-aux-myrtilles",
+          "name": "Muffin aux Myrtilles",
+          "description": "Un muffin à la myrtille, toppé d’un crumble gourmand.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-muffin-coeur-fondant-choco-noisette",
+          "name": "Muffin cœur fondant choco-noisette",
+          "description": "Un muffin au cœur fondant choco-noisette.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-part-de-brownie",
+          "name": "Part de Brownie",
+          "description": "Notre incontournable brownie au chocolat et noix de pécan dans une portion généreuse, pour tous les gourmands.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-part-de-cake-citron-pavot",
+          "name": "Part de Cake Citron-Pavot",
+          "description": "Un cake moelleux au subtil parfum de citron jaune associé au croquant des graines de pavot, de zestes de citron décoré d'un trait de chocolat blanc parfait à la part pour le dessert ou le goûter.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Viennoiseries",
+      "dishes": [
+        {
+          "id": "pret-croissant-au-beurre",
+          "name": "Croissant au beurre",
+          "description": "Notre croissant au beurre est cuit sur place.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-croissant-au-chocolat",
+          "name": "Croissant au chocolat",
+          "description": "Notre recette de croissant au chocolat a été élaborée par une équipe de chefs pâtissiers de génie en France avec de la farine française, du bon beurre et le meilleur cacao du monde. Parfaitement feuilletés, ils sont cuits à la perfection dans nos restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-croissant-aux-amandes",
+          "name": "Croissant aux Amandes",
+          "description": "Un croissant saupoudré d'amandes effilées.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pain-au-chocolat",
+          "name": "Pain au chocolat",
+          "description": "Un pain au chocolat cuit sur place à la perfection et digne des meilleures boulangeries.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pain-aux-raisins",
+          "name": "Pain aux raisins",
+          "description": "Un pain aux raisins cuit sur place et digne des meilleures pâtisseries.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pastel-de-nata",
+          "name": "Pastel de Nata",
+          "description": "Une petite douceur traditionnelle de la cuisine portugaise, à la crème aux œufs plein air.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-roule-a-la-cannelle",
+          "name": "Roulé à la cannelle",
+          "description": "Une viennoiserie préparée avec une pâte feuilletée généreusement garnie de beurre parfumé à la cannelle et saupoudrée de sucre roux.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Pains",
+      "dishes": [
+        {
+          "id": "pret-pain-losange-beurre",
+          "name": "Pain Losange & Beurre",
+          "description": "Un petit pain losange cuit sur place accompagné d'une mini portion de beurre doux pour accompagner une salade ou une soupe.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-petit-pain-au-ble-orge-maltee-seigle-beurre",
+          "name": "Petit pain au blé, orge maltée, seigle & beurre",
+          "description": "Un petit pain rond au blé, orge maltée et seigle, servi avec un morceau de beurre.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Snacks Sucrés",
+      "dishes": [
+        {
+          "id": "pret-amandes-chocolatees",
+          "name": "Amandes chocolatées",
+          "description": "Un sachet d'amandes enrobées de chocolat noir.",
+          "tags": [
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-barre-pop-corn",
+          "name": "Barre Pop-Corn",
+          "description": "Une barre gourmande sans gluten, à base de chocolat blanc, de riz soufflé et de pop-corn, décorée d'une préparation à base de caramel et de chocolat au lait.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-brownie-au-chocolat",
+          "name": "Brownie au chocolat",
+          "description": "Notre barre brownie, moelleuse et chocolatée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-choc-bar",
+          "name": "Choc Bar",
+          "description": "Une barre gourmande pour les amateurs de chocolat.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-au-lait-36-caramel-valrhona",
+          "name": "Chocolat au lait 36% & Caramel Valrhona",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-au-lait-40-valrhona",
+          "name": "Chocolat au lait 40% Valrhona",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-noir-70-valrhona",
+          "name": "Chocolat noir 70% Valrhona",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-fruits-secs-noix-chocolat",
+          "name": "Fruits secs, Noix & Chocolat",
+          "description": "Dans ce sachet, un mélange gourmand d'amandes grillées, de canneberges séchées et de raisins secs enrobés de chocolat au lait.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-galettes-de-mais-au-chocolat-noir",
+          "name": "Galettes de maïs au chocolat noir",
+          "description": "Galettes de maïs soufflé nappées de chocolat noir.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-love-bar",
+          "name": "Love Bar",
+          "description": "Une barre façon muesli gourmand pour un petit en-cas à tout moment de la journée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-mangue-sechee",
+          "name": "Mangue sechée",
+          "description": "Un sachet rempli de morceaux de mangue séchée. À déguster seul ou à partager.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-pret-bar",
+          "name": "Pret Bar",
+          "description": "Une petite barre fruitée aux flocons d'avoine et miel.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Snacks Salés",
+      "dishes": [
+        {
+          "id": "pret-chips-au-paprika-bio",
+          "name": "Chips au paprika bio",
+          "description": "De croustillantes chips bio de pommes de terre françaises relevées d'une touche de paprika. Cuites à basse température pour conserver toutes les saveurs.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chips-au-sel-de-mer-bio",
+          "name": "Chips au sel de mer bio",
+          "description": "Nos chips bio croustillantes simplement relevées d'une subtile touche de sel de mer. Issues de pomme de terre française et cuites à basse température pour conserver toutes les saveurs.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chips-au-vinaigre-bio",
+          "name": "Chips au vinaigre bio",
+          "description": "De croustillantes chips bio de pommes de terre françaises relevées d'une pointe de vinaigre Cuites à basse température pour conserver toutes les saveurs.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chips-saveur-onion-cream-bio",
+          "name": "Chips saveur Onion & Cream bio",
+          "description": "De croustillantes chips bio de pommes de terre françaises gourmandes saveur oignon et crème. Cuites à basse température pour conserver toutes les saveurs.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-sweet-smoky-snack",
+          "name": "Sweet & Smoky Snack",
+          "description": "Légumineuses grillées salées aromatisées au piment ancho, noix de cajou caramélisées, maïs, fèves et Edamames salées. Un mélange un brin relevé (mais plein de douceur).",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Thés bio",
+      "dishes": [
+        {
+          "id": "pret-ceylan-cannelle",
+          "name": "Ceylan Cannelle",
+          "description": "Un délicieux thé Ceylan au goût épicé de cannelle et aux notes subtiles de gingembre et de cardamome.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-infusion-fruits-rouges",
+          "name": "Infusion Fruits Rouges",
+          "description": "Une infusion fruitée à base d’hibiscus et de rooibos, sublimée par des notes fraîches de baies et de fraise, pour une tasse intensément parfumée.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-infusion-rooibos-saveur-vanille",
+          "name": "Infusion Rooibos saveur Vanille",
+          "description": "Cette infusion de Rooïbos saveur vanille et cacao est une douce invitation à profiter d'une pause réconfortante.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-infusion-a-la-menthe",
+          "name": "Infusion à la Menthe",
+          "description": "Une infusion à l'arôme relaxant, mélange de notes de menthe verte et de menthe poivrée.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-the-earl-grey",
+          "name": "Thé Earl Grey",
+          "description": "Ce thé Earl Grey aux notes de bergamote se savoure à tout moment de la journée ou, à l'heure anglaise, agrémenté d'un nuage de lait ! Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-the-english-breakfast",
+          "name": "Thé English Breakfast",
+          "description": "Les notes subtiles des feuilles notre thé noir bio Ceylan s'apprécient volontiers à l'anglaise avec une touche de lait. Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-the-vert",
+          "name": "Thé Vert",
+          "description": "Ce thé vert est aromatisé aux fruits tropicaux et à la citronnelle bio pour une boisson délicatement acidulée.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Cafés bio",
+      "dishes": [
+        {
+          "id": "pret-allonge",
+          "name": "Allongé",
+          "description": "Toutes les saveurs de nos grains de café bio 100 % arabica dans une tasse. Avec une crème dense, couleur noisette, et un arôme long et persistant en bouche, notre café dévoile toutes les saveurs de notre assemblage de grains d'arabica bio.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-americano",
+          "name": "Americano",
+          "description": "Notre Americano bio se savoure agrémenté de lait ou \"naked\" (sans lait). Les informations nutritionnelles sont indiquées pour une boisson de 340 ml Toutes nos spécialités à base de lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cappuccino",
+          "name": "Cappuccino",
+          "description": "Le secret d'un cappuccino parfait réside dans le savoir-faire de notre Barista qui chauffe du lait bio à la vapeur pour obtenir une mousse aérienne, ajoute une dose de notre espresso bio et saupoudre le tout de chocolat ! Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé de 340ml.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dubai-style-chocolate-latte",
+          "name": "Dubai Style Chocolate Latte",
+          "description": "Une version gourmande et intensément chocolatée de notre latte onctueux, préparé par notre Barista avec du lait bio chauffé à la vapeur et une dose de notre espresso bio 100% Arabica, mêlé à un chocolat en poudre de haute qualité et aromatisé par des notes riches et délicatement toastées de pistache. Une recette douce, onctueuse et réconfortante.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-espresso",
+          "name": "Espresso",
+          "description": "Toutes les saveurs de nos grains de café bio 100 % arabica dans une petite tasse. Avec une crème dense, couleur noisette, et un arôme long et persistant en bouche, notre espresso dévoile toutes les saveurs de notre assemblage de grains d'arabica bio.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-latte",
+          "name": "Latte",
+          "description": "Une boisson incontournable préparée d'une main experte par notre Barista avec du lait bio chauffé à la vapeur et une dose de notre espresso bio 100 % arabica. Toutes nos spécialités à base de lait bio demi-écrémé peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale bio soja, coco ou avoine.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-latte-pistachio",
+          "name": "Latte Pistachio",
+          "description": "Un latte gourmand préparé par notre Barista avec du lait bio chauffé à la vapeur et une dose de notre espresso bio 100% Arabica, aromatisé par des notes riches et délicatement toastées de pistache.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-macchiato",
+          "name": "Macchiato",
+          "description": "Pour un Macchiato servi dans règles de l’art, notre Barista dépose une pointe de mousse de lait chauffé à la vapeur sur notre espresso bio. Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-mocha",
+          "name": "Mocha",
+          "description": "Un délicieux mélange d’espresso (préparé à partir de café bio 100 % arabica) et de lait bio complété de chocolat en poudre pour une boisson gourmande. Toutes nos spécialités à base de lait bio demi-écrémé peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale bio soja, coco ou avoine. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé de 340ml.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Autres boissons chaudes",
+      "dishes": [
+        {
+          "id": "pret-chai-latte-bio",
+          "name": "Chai Latte bio",
+          "description": "Un savoureux mélange de lait et de thé Chai aux notes épicées. Toutes nos spécialités à base de lait bio demi-écrémé peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale bio soja, coco ou avoine.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-viennois",
+          "name": "Chocolat Viennois",
+          "description": "Gourmand, à l'arôme intense et fabriqué par un grand chocolatier français, il est chauffé à la vapeur par notre Barista pour révéler sa texture veloutée et courrôné d'une crème Chantilly.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-chaud-onctueux",
+          "name": "Chocolat chaud onctueux",
+          "description": "Gourmand, à l'arôme intense et fabriqué par un grand chocolatier français, il est chauffé à la vapeur par notre Barista pour révéler sa texture veloutée.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dirty-chai-bio",
+          "name": "Dirty Chai bio",
+          "description": "Thé chai bio aux épices et lait avec un espresso en plus dans sa version \"Dirty\". Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. Les informations nutritionnelles sont indiquées pour une boisson de 340 ml",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dubai-style-lait-chocolate",
+          "name": "Dubaï Style Lait Chocolaté",
+          "description": "Pour la rentrée, un lait chocolaté préparé avec du lait bio mélangé à une poudre de chocolat de haute qualité, aromatisé à la pistache et saupoudré d'une légère touche de cacao en poudre. Inspiré de nos saveurs préférées du moment… Bonne dégustation !",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-golden-latte",
+          "name": "Golden Latte",
+          "description": "Préparé à base de notre boisson végétale coco bio, notre Golden Latte est parfumé au curcuma et aux épices (cannelle, muscade, poivre noir et cardamome).",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-lait-chaud-bio",
+          "name": "Lait chaud bio",
+          "description": "Lait bio chauffé à la vapeur par notre Barista. Une boisson réconfortante pour les petits et les grands ! Se décline aussi en version végétale avec une alternative soja, avoine ou riz-coco. Les valeurs nutritionnelles indiquées ci-dessous sont basées sur une boisson préparée avec du lait demi-écrémé de 340ml.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-lait-chocolate-bio",
+          "name": "Lait chocolaté bio",
+          "description": "Un lait bio chaud mélangé avec une poudre de chocolat de haute qualité, saupoudré d'une légère touche de chocolat pour un chocolat chaud délicieusement crémeux et riche.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-matcha-latte-bio",
+          "name": "Matcha Latte bio",
+          "description": "Notre Matcha Latte est préparé avec notre boisson végétale coco et une poudre de thé vert matcha, aux subtiles notes herbacées. Les informations nutritionnelles sont indiquées pour une boisson de 340 ml",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Boissons Glacées",
+      "dishes": [
+        {
+          "id": "pret-americano-glace",
+          "name": "Americano glacé",
+          "description": "Notre amerciano bio servi glacé. (340ml) Boisson disponible dans une sélection de restaurants. Les informations nutritionnelles sont indiquées pour une boisson de 340 ml",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-berries-cherries-fraise-mangue-cerise",
+          "name": "Berries & Cherries - Fraise, Mangue, Cerise",
+          "description": "Smoothie fraise, mangue, cerise, banane, framboise et cassis. Mixé minute avec du jus de pomme.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-berry-splash-citronnade",
+          "name": "Berry Splash Citronnade",
+          "description": "Ensoleillez votre journée avec cette citronnade raffraîchissante au citron et aromatisée à la framboise.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-cafe-frappe",
+          "name": "Café Frappé",
+          "description": "Mixé minute au comptoir par notre Barista, ce frappé aromatisé à la vanille est réalisé avec notre base d'espresso bio 100% arabica. (340 ml)",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chai-latte-glace",
+          "name": "Chai Latte glacé",
+          "description": "Notre chai latte bio, servi glacé. (340 ml) Boisson disponible dans une sélection de restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-chocolat-frappe",
+          "name": "Chocolat Frappé",
+          "description": "Mixé minute par notre Barista, ce frappé crémeux à l'arôme vanille est préparé avec une base de chocolat. (340 ml)",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dirty-chai-latte-glace",
+          "name": "Dirty Chai Latte glacé",
+          "description": "Thé chai bio aux épices et lait avec un espresso en plus dans sa version \"Dirty\". Toutes nos spécialités à base lait peuvent être préparées à partir de lait bio écrémé ou avec une alternative végétale soja, riz-coco ou avoine bio. En version glacée. Les informations nutritionnelles sont indiquées pour une boisson de 340 ml",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dubai-style-lait-chocolate-glace",
+          "name": "Dubaï Style Lait Chocolaté Glacé",
+          "description": "Pour la rentrée, un lait chocolaté glacé préparé avec du lait bio mélangé à une poudre de chocolat de haute qualité, aromatisé à la pistache et saupoudré d'une légère touche de cacao en poudre. Inspiré de nos saveurs préférées du moment… Bonne dégustation !",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-dubai-style-latte-choco-glace",
+          "name": "Dubaï Style Latte Choco Glacé",
+          "description": "Une version gourmande et intensément chocolatée de notre latte glacé, préparé par notre Barista avec du lait bio et une dose de notre espresso bio 100% Arabica, mêlé à un chocolat en poudre de haute qualité et aromatisé par des notes riches et délicatement toastées de pistache.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-frappe-matcha",
+          "name": "Frappé Matcha",
+          "description": "Mixé minute au comptoir par notre Barista, ce frappé aromatisé à la vanille est préparé avec notre matcha aux subtiles notes herbacées. Boisson disponible dans une sélection de restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-lait-cacaote-glace",
+          "name": "Lait cacaoté Glacé",
+          "description": "Un lait bio froid mélangé avec une poudre de chocolat de haute qualité, saupoudré d'une légère touche de chocolat pour un chocolat glacé délicieusement crémeux et riche.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-latte-pistachio-glace",
+          "name": "Latte Pistachio Glacé",
+          "description": "Un latte glacé gourmand préparé par notre Barista avec du lait bio et une dose de notre espresso bio 100% Arabica, aromatisé par des notes riches et délicatement toastées de pistache.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-latte-glace",
+          "name": "Latte glacé",
+          "description": "Notre Latte bio, servi glacé. (340 ml) Boisson disponible dans une sélection de restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-matcha-latte-glace",
+          "name": "Matcha Latte Glacé",
+          "description": "Préparé avec une boisson végétale coco et de la poudre the thé vert matcha, notre matcha latte se décline en version glacée. (340 ml) Boisson disponible dans une sélection de restaurants.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-matcha-passion-citronnade",
+          "name": "Matcha Passion Citronnade",
+          "description": "Ensoleillez votre journée avec cette citronnade rafraîchissante préparée avec une base matcha aux notes subtiles herbacées, du jus de citron et aromatisée à la passion.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-mint-breeze-citronnade",
+          "name": "Mint Breeze Citronnade",
+          "description": "Ensoleillez votre journée avec cette citronnade raffraîchissante au citron et aromatisée à la menthe, sublimée par des feuilles de menthe fraîche.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-mocha-glace",
+          "name": "Mocha Glacé",
+          "description": "Notre mocha bio décliné en version glacée. (340 ml) Boisson disponible dans une sélection de restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-peach-me-up-mangue-peche-ananas",
+          "name": "Peach Me Up - Mangue, Pêche, Ananas",
+          "description": "Smoothie mangue, pêche, ananas et fruit de la passsion (sans pépins). Mixé minute avec du jus de pomme.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-smoothie-tropical-mint-smoothie-tropical-mint-mangue-ananas-",
+          "name": "Smoothie Tropical Mint - Smoothie Tropical Mint Mangue, Ananas, Noix de Coco, Menthe",
+          "description": "Smoothie mangue, ananas, lait de coco, jus de citron vert et menthe. Mixé minute avec du jus de pomme. Boisson disponible dans une sélection de restaurants.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-the-vert-glace-framboise-citron-vert",
+          "name": "Thé vert glacé Framboise & Citron vert",
+          "description": "Rafraîchissez-vous avec notre thé vert glacé aux notes de fruit de framboise et citron vert.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-the-vert-glace-passion-basilic",
+          "name": "Thé vert glacé Passion & Basilic",
+          "description": "Rafraîchissez-vous avec notre thé vert glacé aux notes de fruit de la passion et basilic.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Jus & Smoothies",
+      "dishes": [
+        {
+          "id": "pret-easy-greens",
+          "name": "Easy Greens",
+          "description": "Jus vert pressé à froid.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-jus-carotte-orange-gingembre",
+          "name": "Jus Carotte, Orange & Gingembre",
+          "description": "250ml de jus de carotte réveillé par des notes de gingembre dans une nouvelle recette améliorée. Stabilisé à froid par haute pression pour préserver toutes les qualités des fruits !",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-jus-orange-fraise",
+          "name": "Jus Orange & Fraise",
+          "description": "Un mélange gourmand orange-fraise. (250 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-jus-d-orange",
+          "name": "Jus d'orange",
+          "description": "Pur jus d'orange. (250 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-shot-gingembre-pomme",
+          "name": "Shot Gingembre & Pomme",
+          "description": "Une petite bouteille de jus au parfum revigorant de gingembre, équilibré par les notes sucrées de la pomme. (110 ml)",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-shot-orange-curcuma-piment",
+          "name": "Shot Orange, Curcuma & Piment",
+          "description": "Pimentez votre journée avec ce shot de jus acidulé épicé au curcuma et au piment de Cayenne. (110 ml)",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-smoothie-ananas-coco",
+          "name": "Smoothie Ananas Coco",
+          "description": "Découvrez notre smoothie à la purée d'ananas et au lait de noix de coco. Un aller simple pour les tropiques. (250 ml)",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-smoothie-fruits-exotiques",
+          "name": "Smoothie Fruits Exotiques",
+          "description": "Découvrez notre smoothie aux fruits exotiques, à l'ananas, à la mangue et aux fruits de la passion. (250 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-smoothie-fruits-rouges",
+          "name": "Smoothie Fruits Rouges",
+          "description": "Notre smoothie gourmand à la fraise, à la myrtille et à la framboise. (250 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Eau & Softs",
+      "dishes": [
+        {
+          "id": "pret-badoit",
+          "name": "Badoit",
+          "description": "Badoit (500 ml)",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-boisson-petillante-ginger-beer",
+          "name": "Boisson pétillante Ginger Beer",
+          "description": "Une boisson pétillante aromatisée au gingembre. (330 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-boisson-petillante-pomme",
+          "name": "Boisson pétillante Pomme",
+          "description": "Une boisson pétillante aromatisée à la pomme. (330 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-coca-cola",
+          "name": "Coca Cola",
+          "description": "Coca Cola (330 ml)",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-coca-cola-light",
+          "name": "Coca Cola Light",
+          "description": "Coca Cola Light (330 ml)",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-coca-cola-zero",
+          "name": "Coca Cola Zero",
+          "description": "Coca Cola Zero (330 ml)",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-coca-cola-zero-sucres-zero-cafeine-zero-calories",
+          "name": "Coca-Cola Zero Sucres Zero Caféine Zero Calories",
+          "description": "Coca-Cola Zero Sucres Zero Caféine Zero Calories (330ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-aromatisee-canneberge-framboise",
+          "name": "Eau aromatisée Canneberge & Framboise",
+          "description": "Une boisson rafraîchissante aux notes acidulées de canneberge et de framboise. (500 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-aromatisee-citron-gingembre",
+          "name": "Eau aromatisée Citron & Gingembre",
+          "description": "Une touche épicée de gingembre vient réveiller les notes acidulées de cette boisson rafraîchissante au citron. (500 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-aromatisee-mangue-fruit-de-la-passion",
+          "name": "Eau aromatisée Mangue & Fruit de la Passion",
+          "description": "Une boisson rafraîchissante aromatisée à la mangue et au fruit de la passion. (500 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-aromatisee-the-vert-peche",
+          "name": "Eau aromatisée Thé Vert & Pêche",
+          "description": "Rafraîchissante et délicatement parfumée au thé vert et à la pêche. (500 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-gazeuse-aromatisee-citron-vert-framboise",
+          "name": "Eau gazeuse arômatisée Citron vert & Framboise",
+          "description": "Une eau gazeuse aux notes acidulées de citron vert et pointe de framboise.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-gazeuse-aromatisee-concombre-menthe",
+          "name": "Eau gazeuse arômatisée Concombre & Menthe",
+          "description": "Une eau gazeuse aux notes rafraîchissantes de concombre et de menthe.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-minerale-naturelle-pret",
+          "name": "Eau minérale naturelle Pret",
+          "description": "Eau minérale naturelle (500 ml) Source de Pédourès",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-eau-minerale-naturelle-gazeuse-pret",
+          "name": "Eau minérale naturelle gazeuse Pret",
+          "description": "Eau minérale naturelle gazeuse avec adjonction de gaz carbonique (500 ml) Source de Pédourès",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-evian",
+          "name": "Evian",
+          "description": "Evian 50cl",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-limonade-rhubarbe",
+          "name": "Limonade Rhubarbe",
+          "description": "Une boisson pétillante aromatisée au citron et à la rhubarbe. (330 ml)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Nos Box à partager",
+      "dishes": [
+        {
+          "id": "pret-box-mix-cookie",
+          "name": "Box Mix Cookie",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-box-salade-poulet-pesto",
+          "name": "Box Salade Poulet Pesto",
+          "description": "Pour 4 personnes Grande salade à partager garnie de filets de poulet, pesto aux noix de cajou mélange de salades et roquette, tomates cerise, vinaigrette au Xérès et à la moutarde à l'ancienne.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-boite-de-pastel-de-nata",
+          "name": "Boîte de pastel de Nata",
+          "description": "Un assortiment de 6 pastels de nata, nos petits gâteaux portugais à la crème aux œufs plein air.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-falafel-mezze-box",
+          "name": "Falafel Mezze box",
+          "description": "Grande salade veggie à partager, garnie de houmous, mélange gourmand de quinoa et lentilles, falafels de patate douce, concombres, chou pickle, graines de grenade et persil frais sur une base de salades et de carottes râpées. Vinaigrette balsamique. Box accompagnée d’une baguette.",
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-morning-box-croissants",
+          "name": "Morning Box Croissants",
+          "description": "10 pièces Un assortiment de 10 croissants cuits sur place pour vos petits déjeuners gourmands.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-morning-box-viennoiseries-3-recettes",
+          "name": "Morning Box Viennoiseries (3 recettes)",
+          "description": "12 pièces Un assortiment de 12 viennoiseries cuites sur place pour vos petits déjeuners gourmands. 4 Croissants 4 Pains au Chocolat 4 Pains aux raisins",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pret-morning-box-viennoiseries-4-recettes",
+          "name": "Morning Box Viennoiseries (4 recettes)",
+          "description": "12 pièces Un assortiment de 12 viennoiseries cuites sur place pour vos petits déjeuners gourmands. 4 Croissants 4 Pains au Chocolat 2 Pains aux raisins 2 Roulés à la Cannelle",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

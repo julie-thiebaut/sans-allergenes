@@ -1,0 +1,461 @@
+{
+  "menuId": "menu-l-opportun-bouchon-lyonnais-75014",
+  "restaurantId": "l-opportun-bouchon-lyonnais-75014",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "zenchef-1158517-foie-gras-maison",
+          "name": "FOIE GRAS MAISON",
+          "price": 30,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranche de 100g de foie gras de canard maison. Gelée de Sauternes au poivre de Sichuan & pain de campagne grillé au four"
+        },
+        {
+          "id": "zenchef-1158518-oeufs-mayonnaise",
+          "name": "OEUFS MAYONNAISE",
+          "price": 9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Oeufs durs mayonnaise maison à la moutarde Fallot. Finalistes du Championnat du monde de l'oeuf Mayo 2020"
+        },
+        {
+          "id": "zenchef-1158519-ravioles-de-saint-jean",
+          "name": "RAVIOLES DE SAINT-JEAN",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ravioles de St-Jean fourrées au fromage frais & fines herbes. Crème de fourme persillée du Beaujolais"
+        },
+        {
+          "id": "zenchef-1158525-oeuf-meurette",
+          "name": "OEUF MEURETTE",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Oeuf poché dans une réduction de vin rouge, oignons grelots et lard fermier. Tranche de pain de campagne grillé"
+        },
+        {
+          "id": "zenchef-1158526-harengs-marines-facon-bistrot",
+          "name": "HARENGS MARINÉS FAÇON BISTROT",
+          "price": 13,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Harengs marinés façon bistrot avec carottes et oignon blanc servis en terrine. Pommes vapeurs tiédies."
+        },
+        {
+          "id": "zenchef-1158527-escargots-de-bourgogne",
+          "name": "ESCARGOTS DE BOURGOGNE",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Escargots de bourgogne cuits en canelon au beurre persillé maison"
+        },
+        {
+          "id": "zenchef-1158529-petits-saladiers-lyonnais",
+          "name": "PETITS SALADIERS LYONNAIS",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiments d'entrées du pays Lyonnais, selon arrivage"
+        },
+        {
+          "id": "zenchef-1158530-assiette-terroir",
+          "name": "ASSIETTE TERROIR",
+          "price": 18,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiments de charcuterie de nos régions, terrine de campagne maison, jambon persillé au Bourgogne Aligoté. Beurre demi-sel & cornichons de la maison Fallot"
+        }
+      ]
+    },
+    {
+      "category": "SPÉCIALITÉS LYONNAISES",
+      "dishes": [
+        {
+          "id": "zenchef-1158531-andouilette-de-veau",
+          "name": "ANDOUILETTE DE VEAU",
+          "price": 25,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Andouillette de veau de la maison Bobosse à la fraise de veau. Braisée au four et servie avec son jus réduit aux oignons. Purée maison"
+        },
+        {
+          "id": "zenchef-1158532-quenelle-de-brochet",
+          "name": "QUENELLE DE BROCHET",
+          "price": 26,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Quenelle de brochet sauce Nantua aux écrevisses. Cuite au four 20 minutes et servie avec riz basmati."
+        },
+        {
+          "id": "zenchef-1158533-saucisson-lyonnais",
+          "name": "SAUCISSON LYONNAIS",
+          "price": 24,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Saucisson pistaché de la maison Bobosse. Salade de pommes de terre tiédies, vinaigrette maison et échalotes."
+        },
+        {
+          "id": "zenchef-1158535-tablier-de-sapeur",
+          "name": "TABLIER DE SAPEUR",
+          "price": 20,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tablier de sapeur des Gones : Panse de boeuf (nid d'abeille) marinée 24h avec citron et moutarde Fallot. Pané et servie dans sa forme traditionnelle avec beurre persillé maison et pommes vapeurs."
+        }
+      ]
+    },
+    {
+      "category": "VIANDES",
+      "dishes": [
+        {
+          "id": "zenchef-1158537-demi-rognon-de-veau",
+          "name": "DEMI ROGNON DE VEAU",
+          "price": 18,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Demi rognon de veau (Environ 180g) cuit au four dans son gras au gros sel. Servi avec un beurre aux échalotes et purée maison"
+        },
+        {
+          "id": "zenchef-1158540-onglet-aux-echalotes",
+          "name": "ONGLET AUX ÉCHALOTES",
+          "price": 26,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Environ 200g, servi échalotes au vin blanc et avec frites maison"
+        },
+        {
+          "id": "zenchef-1158544-le-duo-d-onglet",
+          "name": "LE DUO D'ONGLET",
+          "price": 30,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "200g d'onglets de boeuf et de veau avec échalotes au vin blanc et frites maison"
+        },
+        {
+          "id": "zenchef-1158546-ris-de-veau-en-persillade",
+          "name": "RIS DE VEAU EN PERSILLADE",
+          "price": 37,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ris de veau snackés et cuit au beurre persillé maison. Servi avec pommes grenailles et pleurotes."
+        },
+        {
+          "id": "zenchef-1158549-pave-a-la-fourme-persillee-du-beaujolais",
+          "name": "PAVÉ À LA FOURME PERSILLÉE DU BEAUJOLAIS",
+          "price": 29,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pavé de rumsteak d'environ 220g gratiné à la fourme persillée du Beaujolais. Servi avec des frites maison"
+        },
+        {
+          "id": "zenchef-1158558-tartare-de-boeuf",
+          "name": "TARTARE DE BOEUF",
+          "price": 24,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tartare de boeuf préparé à la commande avec notre sauce maison. Servi avec frites et salade."
+        },
+        {
+          "id": "zenchef-1158560-mythique-pave-au-poivre",
+          "name": "MYTHIQUE PAVÉ AU POIVRE",
+          "price": 35,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pavé de rumsteck d'environ 220g pané au poivre sauvage, flambé à l'armagnac et crémé. Servi avec frites maison. La sauce étant préparée à la commande, elle ne peut pas être servie en supplément."
+        },
+        {
+          "id": "zenchef-1158561-cote-de-boeuf-maturee",
+          "name": "CÔTE DE BOEUF MATURÉE",
+          "price": 120,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Côte de boeuf saturée au moins 30 jours, d'1kg200 environ cuite au four. Servie avec salade verte, frites maison et beurre aux échalotes."
+        }
+      ]
+    }
+  ]
+}

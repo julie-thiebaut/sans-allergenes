@@ -1,0 +1,417 @@
+{
+  "menuId": "menu-coupe-chou",
+  "restaurantId": "le-coupe-chou-75005",
+  "categories": [
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "coupechou-quinoa-et-lentilles-vertes-aux-betteraves-cuites-en-croute-d",
+          "name": "Quinoa et lentilles vertes aux betteraves cuites en croûte de sel, croustillants de noisettes, graines de courge",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15,
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
+        },
+        {
+          "id": "coupechou-gaspacho-de-pasteque-et-tomate-feta-fouettee-menthe-et-pimen",
+          "name": "Gaspacho de Pastèque et tomate, feta fouettée, menthe et piment d’espelette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15
+        },
+        {
+          "id": "coupechou-tartare-de-thon-avocat-coriandre-lait-de-coco-fenouil",
+          "name": "Tartare de thon, avocat, coriandre, lait de coco, fenouil",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16
+        },
+        {
+          "id": "coupechou-salade-de-poulpe-condiments-de-tomate-basilic-salade-frisee",
+          "name": "Salade de poulpe, condiments de tomate, basilic, salade frisée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "price": 19
+        },
+        {
+          "id": "coupechou-foie-gras-de-canard-mi-cuit-pain-de-campagne-toaste",
+          "name": "Foie gras de canard mi-cuit, pain de campagne toasté",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 24
+        },
+        {
+          "id": "coupechou-12-escargots-de-bourgogne-en-direct-du-producteur",
+          "name": "12 Escargots de Bourgogne en direct du producteur",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "price": 26,
+          "description": "(ou 6 escargots : 15 €)"
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "coupechou-pasteque-poelee-tofu-fume-petit-epeautre-aux-herbes-creme-de",
+          "name": "Pastèque poelée, tofu fumé, petit épeautre aux herbes, crème de cajou citronnée",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 24,
+          "tags": [
+            "vegetarien",
+            "vegan"
+          ]
+        },
+        {
+          "id": "coupechou-filet-mignon-de-porc-en-croute-d-herbes-puree-de-pommes-de-t",
+          "name": "Filet mignon de porc en croûte d'herbes, purée de pommes de terre, sauce aux fruits rouges",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 26
+        },
+        {
+          "id": "coupechou-pave-de-maigre-betteraves-cuites-au-sel-sauce-aigre-douce-au",
+          "name": "Pavé de maigre, betteraves cuites au sel, sauce aigre-douce aux groseilles et vinaigre de framboise",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 28
+        },
+        {
+          "id": "coupechou-mi-cuit-de-thon-pane-aux-graines-de-sesame-legumes-facon-wok",
+          "name": "Mi-cuit de thon pané aux graines de sésame, légumes façon wok, noix de cajou, sauce soja",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 31
+        },
+        {
+          "id": "coupechou-magret-de-canard-du-sud-ouest-grenades-et-ananas-puree-de-ce",
+          "name": "Magret de canard du sud-ouest, grenades et ananas, purée de céleri, jus de volaille",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 36
+        },
+        {
+          "id": "coupechou-onglet-de-boeuf-de-salers-mature-grenailles-feves-pois-gourm",
+          "name": "Onglet de boeuf de Salers maturé, grenailles, fèves, pois gourmands, petits pois, jus de veau",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 39
+        }
+      ]
+    },
+    {
+      "category": "Fromages",
+      "dishes": [
+        {
+          "id": "coupechou-selection-de-trois-fromages-salade",
+          "name": "Sélection de trois fromages, salade",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16,
+          "description": "affinés par Marie Quatrehomme 1ère femme \"Meilleur Ouvrier de France\" Promotion 2000 (Selles-sur-Cher AOP, Comté Couronne royale, Camembert AOP Saint Loup). 1 pièce au choix (sans garniture) : 8 €",
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "coupechou-choux-vanille-sauce-chocolat-amandes-torrefiees",
+          "name": "Choux vanille, sauce chocolat, amandes torréfiées",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12
+        },
+        {
+          "id": "coupechou-creme-brulee-a-la-feve-de-tonka",
+          "name": "Crème brulée à la fève de tonka",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12
+        },
+        {
+          "id": "coupechou-crumble-a-la-banane-flambee-au-rhum-meringue-vegetale-a-l-it",
+          "name": "Crumble à la banane flambée au rhum, meringue végétale à l’italienne",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12
+        },
+        {
+          "id": "coupechou-pain-perdu-croustillants-de-noisette-caramel-beurre-sale",
+          "name": "Pain perdu, croustillants de noisette, caramel beurre salé",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12
+        },
+        {
+          "id": "coupechou-ile-flottante-creme-anglaise-a-la-vanille-de-bourbon-pop-cor",
+          "name": "Ile flottante, crème anglaise à la vanille de Bourbon, pop-corn, caramel beurre salé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12
+        }
+      ]
+    }
+  ]
+}

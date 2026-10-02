@@ -1,0 +1,662 @@
+{
+  "menuId": "menu-iki-ramen",
+  "restaurantId": "iki-ramen-75014",
+  "categories": [
+    {
+      "category": "Ramen",
+      "dishes": [
+        {
+          "id": "iki-ramen-ramen-tonkotsu-classique",
+          "name": "Tonkotsu - Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon tonkotsu de porc, nouilles fraîches, 2 chashus de porc, pousses de bambou et soja, cébette, algue nori",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-ramen-tonkotsu-special",
+          "name": "Tonkotsu - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon tonkotsu de porc, nouilles fraîches, 2 chashus de porc, pousses de bambou et soja, cébette, algue nori - +2 chashu de porc braisé, +2 algue nori, +1 oeuf mollet",
+          "price": 17
+        },
+        {
+          "id": "iki-ramen-ramen-tori-paitan-classique",
+          "name": "Tori paitan - Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon paitan de poulet, nouilles fraîches, 2 chashus de poulet, pousses de bambou, cébette, algue nori, roquette, tomates cerises rôties, oignons rouge, lamelles de poireau",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-ramen-tori-paitan-special",
+          "name": "Tori paitan - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon paitan de poulet, nouilles fraîches, 2 chashus de poulet, pousses de bambou, cébette, algue nori, roquette, tomates cerises rôties, oignons rouge, lamelles de poireau - +2 chashus de poulet, +2 algue nori, +1 oeuf mollet",
+          "price": 17
+        },
+        {
+          "id": "iki-ramen-ramen-miso-classique",
+          "name": "Miso - Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon paitan de poulet, nouilles fraîches, 1 chashu de porc, 1 chashu de poulet, pousses de bambou et soja, baby maïs, cébette, algue nori, roquette",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-ramen-miso-special",
+          "name": "Miso - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon paitan de poulet, nouilles fraîches, 1 chashu de porc, 1 chashu de poulet, pousses de bambou et soja, baby maïs, cébette, algue nori, roquette - +1 chashu de porc, +1 chashu de poulet, +2 algue nori, +1 oeuf mollet",
+          "price": 17
+        },
+        {
+          "id": "iki-ramen-ramen-kinoko-classique",
+          "name": "Kinoko - Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon clair d’algue kombu et shiitaké, nouilles sans œuf, 2 tranches de tofu mijoté, champignon shiitaké, pousses de soja, roquette, baby maïs, algue nori, tomates cerises rôties, lamelles de poireau",
+          "price": 13,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "iki-ramen-ramen-kinoko-special",
+          "name": "Kinoko - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon clair d’algue kombu et shiitaké, nouilles sans œuf, 2 tranches de tofu mijoté, champignon shiitaké, pousses de soja, roquette, baby maïs, algue nori, tomates cerises rôties, lamelles de poireau - +2 tranches de tofu mijoté, +2 algues nori, +1 oeuf mollet",
+          "price": 17,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "iki-ramen-ramen-wonton-classique",
+          "name": "Wonton - Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon de poulet chintan, nouilles fraîches, 2 chashus de porc, 2 wontons aux porcs et crevettes, pousses de soja, cébette, algue nori, filaments de piment",
+          "price": 14
+        },
+        {
+          "id": "iki-ramen-ramen-wonton-special",
+          "name": "Wonton - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon de poulet chintan, nouilles fraîches, 2 chashus de porc, 2 wontons aux porcs et crevettes, pousses de soja, cébette, algue nori, filaments de piment - +1 chashu de porc, +1 Wonton aux porcs et crevettes, +1 oeuf mollet, +2 algues nori",
+          "price": 18
+        },
+        {
+          "id": "iki-ramen-ramen-ebi-special",
+          "name": "Ebi - Spécial",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bouillon à base de crevette, nouilles fraîches, 2 gambas grillées, 1 œuf mollet, œufs de poisson, pousses de soja, pousses de bambou, cébette, roquette, naruto",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "category": "Donburi",
+      "dishes": [
+        {
+          "id": "iki-ramen-donburi-chashu-don",
+          "name": "Chashu don",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bol de riz, chashu de porc grillé, oeuf mollet et cébette",
+          "price": 12
+        },
+        {
+          "id": "iki-ramen-donburi-tori-katsu-don",
+          "name": "Tori Katsu don",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bol de riz japonais, poulet pané, oignons et œuf",
+          "price": 13
+        }
+      ]
+    },
+    {
+      "category": "Curry",
+      "dishes": [
+        {
+          "id": "iki-ramen-curry-vege-curry",
+          "name": "Vege curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz japonais, curry japonais avec tempura de légume",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-curry-tori-katsu-curry",
+          "name": "Tori Katsu curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz japonais, curry japonais surmonté de poulet pané",
+          "price": 14
+        }
+      ]
+    },
+    {
+      "category": "À côté",
+      "dishes": [
+        {
+          "id": "iki-ramen-a-cote-edamame",
+          "name": "Edamame",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fèves de soja",
+          "price": 4,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "iki-ramen-a-cote-kakiage",
+          "name": "Kakiage",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tempura de légume croustillants",
+          "price": 3.5,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "iki-ramen-a-cote-gyoza-vege-x6",
+          "name": "Gyoza Végé x6",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raviolis grillés aux légumes",
+          "price": 6.5,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "iki-ramen-a-cote-gyoza-6",
+          "name": "Gyoza ×6",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raviolis grillés au poulet et aux légumes",
+          "price": 5
+        },
+        {
+          "id": "iki-ramen-a-cote-takoyaki",
+          "name": "Takoyaki",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boulettes de poulpe grillé",
+          "price": 6.5
+        },
+        {
+          "id": "iki-ramen-a-cote-bao-poulet",
+          "name": "Bao poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Petit pain vapeur au poulet",
+          "price": 3.5
+        },
+        {
+          "id": "iki-ramen-a-cote-ebi-ten",
+          "name": "Ebi-ten",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tempura de crevettes croustillantes - 2 pcs",
+          "price": 4.5
+        },
+        {
+          "id": "iki-ramen-a-cote-tori-kara-age",
+          "name": "Tori Kara-Age",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet frit à la japonaise",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "iki-ramen-desserts-glace-mochi",
+          "name": "Glace mochi",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "2 parfums au choix: parfums selon arrivage, demandez nos parfums du jour",
+          "price": 6
+        },
+        {
+          "id": "iki-ramen-desserts-daifuku",
+          "name": "Daifuku",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 parfum au choix : parfums selon arrivage, demandez nos parfums du jour",
+          "price": 4
+        },
+        {
+          "id": "iki-ramen-desserts-souffle-yuzu-glace",
+          "name": "Soufflé yuzu glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème glacée, montée sur un biscuit au parfum Yuzu, nappée de gelée de citron",
+          "price": 6.5
+        },
+        {
+          "id": "iki-ramen-desserts-taiyaki",
+          "name": "Taiyaki",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Gaufre japonaise fourré à la pâte d'anko (haricot rouge)",
+          "price": 6
+        },
+        {
+          "id": "iki-ramen-desserts-dorayaki",
+          "name": "Dorayaki",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pancake japonais fourré à la pâte d'anko (haricot rouge)",
+          "price": 6
+        }
+      ]
+    }
+  ]
+}

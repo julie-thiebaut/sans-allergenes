@@ -1,0 +1,3515 @@
+{
+  "menuId": "menu-nako",
+  "restaurantId": "nako-saint-dominique-75007",
+  "categories": [
+    {
+      "category": "Nakō Signatures",
+      "dishes": [
+        {
+          "id": "nako-nako-signatures-crispy-rice-beef",
+          "name": "Crispy Rice Beef",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Tataki de bœuf (origine France), ail noir, pickle de moutarde bio, ciboulette, sur cube de riz croustillant. 4 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-crispy-rice-saumon",
+          "name": "Crispy Rice Saumon",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Tartare de saumon, piment jalapeños, sésame, spicy mayo, teriyaki, sur cube de riz croustillant. 4 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-crispy-rice-effiloche",
+          "name": "Crispy Rice Effiloché",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Effiloché de bœuf (origine France), piment jalapeños, coriandre, spicy mayo, teriyaki, sur cube de riz croustillant. 4 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-volcano",
+          "name": "Volcano",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, riz soufflé, recouvert de tartare de saumon flambé, tobiko, piment jalapeños, spicy mayo, teriyaki. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-tacos-saumon",
+          "name": "Tacos saumon",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Spicy mayo, goma, tobiko, concombre, guacamole maison. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-tacos-thon",
+          "name": "Tacos thon",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Spicy mayo, goma, tobiko, concombre, guacamole maison. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-truffle-roll",
+          "name": "Truffle Roll",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, asperge, avocat, recouvert de thon, sésame, sakura cress, mayo truffée. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-tango",
+          "name": "Tango",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, avocat, cream cheese, recouvert de saumon tataki, sésame, piment jalapeños, flocon tempura, chipotle mayo. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-tnt",
+          "name": "TNT",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Concombre, avocat, asperge, recouvert de saumon tataki, piment jalapeños, flocon tempura, spicy mayo. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-chicken-roll",
+          "name": "Chicken Roll",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Poulet tempura, mangue, recouvert d'avocat, oignon crispy, sésame, curry mango. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-wagyu-roll",
+          "name": "Wagyu Roll",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, avocat, concombre, wagyu tataki, teriyaki, vene cress, sésame, miso séché à la truffe. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-pink",
+          "name": "Pink",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, avocat, mesclun, champignon enoki, feuille de soja rose, perle de yuzu, sauce exotique. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-dragon",
+          "name": "Dragon",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, mesclun, menthe, coriandre, avocat, mangue, tobiko, perle de yuzu, miso yuzu. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-lobster",
+          "name": "Lobster",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Chair de homard, crevette tempura, recouvert de mangue et avocat, tobiko, sésame, piment rouge, spicy mayo, teriyaki. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-ebi-tempura",
+          "name": "Ebi Tempura",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Crevette tempura, avocat, le tout tempura, tobiko, chipotle mayo. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-saumon-tempura",
+          "name": "Saumon Tempura",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon, avocat, cream cheese, le tout tempura, spicy mayo, teriyaki. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-inari-saumon",
+          "name": "Inari saumon",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon flambé, spicy mayo, avocat, riz vinaigré, vene cress, sésame, dans une poche de tofu marinée. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-inari-lobster",
+          "name": "Inari lobster",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Chair de homard, spicy mayo, tobiko, zeste de citron vert bio, mangue, riz vinaigré, ciboulette, sésame, dans une poche de tofu marinée. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-inari-passion",
+          "name": "Inari passion",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon, mangue, riz vinaigré, sauce exotique, coriandre, sésame, dans une poche de tofu marinée. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-sushi-wagyu",
+          "name": "Sushi wagyu",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sushi au bœuf wagyu flambé, ail noir, ciboulette. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-cesar-roll",
+          "name": "Cesar Roll",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Poulet tempura, parmesan AOP, flocon tempura, mesclun, graines de pavot, spicy mayo. 1 pièce."
+        },
+        {
+          "id": "nako-nako-signatures-croustillant-saumon",
+          "name": "Croustillant saumon",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon, avocat, le tout croustillant, spicy mayo, teriyaki. 4 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-croustillant-thon-cuit",
+          "name": "Croustillant thon cuit",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Thon cuit mayonnaise, avocat, le tout croustillant, spicy mayo, teriyaki. 4 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-sun",
+          "name": "Sun",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Tartare de saumon, croustillant, cream cheese, concombre, basilic, recouvert d'avocat, sésame, sauce exotique. 8 pièces."
+        },
+        {
+          "id": "nako-nako-signatures-anaconda",
+          "name": "Anaconda",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Tartare de saumon, concombre, enroulé de flocon tempura, recouvert de guacamole maison, piment rouge, chipotle mayo. 8 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Tiradito",
+      "dishes": [
+        {
+          "id": "nako-tiradito-saumon",
+          "name": "Saumon",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sashimi de saumon, mangue, piment jalapeños, sauce newstyle. 8 pièces. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-tiradito-truffe",
+          "name": "Truffe",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sashimi de saumon légèrement braisé, perle de yuzu, sakura cress, miso séché à la truffe, sauce ponzu aux 4 agrumes. 8 pièces. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-tiradito-yellowtail",
+          "name": "Yellowtail",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sashimi de sériole, framboise, vene cress, flocon tempura, zeste de citron vert bio, piment rouge, sel de Guérande, huile d'olive, citron vert bio. 8 pièces. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-tiradito-thon",
+          "name": "Thon",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sashimi de thon, pointe de guacamole maison, piment rouge, riz soufflé, menthe, sauce newstyle. 8 pièces. Servi avec riz vinaigré ou nature."
+        }
+      ]
+    },
+    {
+      "category": "Ceviche",
+      "dishes": [
+        {
+          "id": "nako-ceviche-saumon",
+          "name": "Saumon",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Dés de saumon, avocat, concombre, mangue, riz soufflé, oignon rouge, piment jalapeños, coriandre, menthe, perle de yuzu, sauce ponzu aux 4 agrumes. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-ceviche-yellowtail",
+          "name": "Yellowtail",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Dés de sériole, avocat, concombre, mangue, oignon rouge, piment rouge, edamame, riz soufflé, perle de yuzu, coriandre, menthe, sauce exotique. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-ceviche-thon",
+          "name": "Thon",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Dés de thon, avocat, concombre, oignon rouge, ananas, edamame, riz soufflé, coriandre, menthe, perle de yuzu, piment jalapeños, sauce newstyle. Servi avec riz vinaigré ou nature."
+        }
+      ]
+    },
+    {
+      "category": "Salades",
+      "dishes": [
+        {
+          "id": "nako-salades-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Salade iceberg, pousse d'épinard, avocat, concombre, carotte, oignon crispy, sauce Nako au miel ou vinaigrette japonaise."
+        },
+        {
+          "id": "nako-salades-sashimi-de-saumon-braise",
+          "name": "Sashimi de saumon braisé",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Salade iceberg, pousse d'épinard, avocat, carotte, edamame, miso séché à la truffe, vinaigrette japonaise."
+        }
+      ]
+    },
+    {
+      "category": "Poké",
+      "dishes": [
+        {
+          "id": "nako-poke-des-de-saumon",
+          "name": "Dés de saumon",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Base : riz vinaigré, avocat, concombre, chou blanc mariné, edamame, grenade, sésame. Sauce au choix : ponzu, exotique ou spicy mayo."
+        },
+        {
+          "id": "nako-poke-tataki-saumon",
+          "name": "Tataki saumon",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Base : riz vinaigré, avocat, concombre, chou blanc mariné, edamame, grenade, sésame. Sauce au choix : ponzu, exotique ou spicy mayo."
+        },
+        {
+          "id": "nako-poke-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Base : riz vinaigré, avocat, concombre, chou blanc mariné, edamame, grenade, sésame. Sauce au choix : ponzu, exotique ou spicy mayo."
+        },
+        {
+          "id": "nako-poke-mix-tempura",
+          "name": "Mix tempura",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Gyoza poulet, crevette tempura. Base : riz vinaigré, avocat, concombre, chou blanc mariné, edamame, grenade, sésame. Sauce au choix : ponzu, exotique ou spicy mayo."
+        }
+      ]
+    },
+    {
+      "category": "Riz tartare",
+      "dishes": [
+        {
+          "id": "nako-riz-tartare-tartare-de-saumon",
+          "name": "Tartare de saumon",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, riz soufflé, sésame, sur une base de riz vinaigré."
+        },
+        {
+          "id": "nako-riz-tartare-tartare-de-saumon-spicy-mayo",
+          "name": "Tartare de saumon spicy mayo",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, flocon tempura, sésame, sur une base de riz vinaigré."
+        },
+        {
+          "id": "nako-riz-tartare-thon-cuit-mayonnaise",
+          "name": "Thon cuit mayonnaise",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, oignon crispy, sésame, sur une base de riz vinaigré."
+        }
+      ]
+    },
+    {
+      "category": "Chirashi",
+      "dishes": [
+        {
+          "id": "nako-chirashi-saumon",
+          "name": "Saumon",
+          "price": 17.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        },
+        {
+          "id": "nako-chirashi-mix-saumon-thon",
+          "name": "Mix saumon / thon",
+          "price": 17.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        },
+        {
+          "id": "nako-chirashi-saumon-tataki",
+          "name": "Saumon tataki",
+          "price": 18.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Cream cheese, teriyaki, épices shichimi, sauce ponzu aux 4 agrumes."
+        }
+      ]
+    },
+    {
+      "category": "Bobun",
+      "dishes": [
+        {
+          "id": "nako-bobun-saumon-braise",
+          "name": "Saumon braisé",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nem légumes, mangue. Base : vermicelles de riz froid, pousse de soja, carotte, avocat, concombre, coriandre, menthe, cacahuète, sauce aigre douce épicée."
+        },
+        {
+          "id": "nako-bobun-tataki-de-boeuf",
+          "name": "Tataki de bœuf",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Bœuf d'origine France, nem poulet, mangue. Base : vermicelles de riz froid, pousse de soja, carotte, avocat, concombre, coriandre, menthe, cacahuète, sauce aigre douce épicée."
+        },
+        {
+          "id": "nako-bobun-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nem poulet, ananas. Base : vermicelles de riz froid, pousse de soja, carotte, avocat, concombre, coriandre, menthe, cacahuète, sauce aigre douce épicée."
+        }
+      ]
+    },
+    {
+      "category": "Ramen",
+      "dishes": [
+        {
+          "id": "nako-ramen-ramen-tempura",
+          "name": "Ramen tempura",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nouilles de blé, poulet tempura, œuf mollet, carotte, edamame, champignon, algue, coriandre."
+        },
+        {
+          "id": "nako-ramen-ramen-boeuf",
+          "name": "Ramen bœuf",
+          "price": 15.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nouilles de blé, tataki de bœuf (origine France), œuf mollet, carotte, edamame, champignon, algue, coriandre."
+        }
+      ]
+    },
+    {
+      "category": "Hot bowls",
+      "dishes": [
+        {
+          "id": "nako-hot-bowls-curry-poulet",
+          "name": "Curry poulet",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Poulet tempura, pomme de terre, carotte, oignon, sauce au curry, ciboulette, riz nature."
+        },
+        {
+          "id": "nako-hot-bowls-nouilles-boeuf",
+          "name": "Nouilles bœuf",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Effiloché de bœuf fondant (origine France), nouilles aux légumes."
+        },
+        {
+          "id": "nako-hot-bowls-nouilles-boulettes-de-poulet",
+          "name": "Nouilles boulettes de poulet",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nouilles aux légumes."
+        },
+        {
+          "id": "nako-hot-bowls-nouilles-poulet-tempura",
+          "name": "Nouilles poulet tempura",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Nouilles aux légumes."
+        },
+        {
+          "id": "nako-hot-bowls-chicken-lover",
+          "name": "Chicken Lover",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Poulet tempura, nems poulet, gyoza poulet, edamame, sur riz nature, sauce aigre douce."
+        }
+      ]
+    },
+    {
+      "category": "Bao",
+      "dishes": [
+        {
+          "id": "nako-bao-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Poulet tempura mariné dans une sauce sweet chili, dés d'aubergine frit, mesclun, sauce goma, coriandre."
+        },
+        {
+          "id": "nako-bao-saumon-cuit",
+          "name": "Saumon cuit",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Cream cheese, salade, avocat, spicy mayo, sésame, zeste de citron vert bio."
+        },
+        {
+          "id": "nako-bao-thon-cuit-mayonnaise",
+          "name": "Thon cuit mayonnaise",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Salade, avocat, sweet chili, ciboulette, oignon crispy."
+        },
+        {
+          "id": "nako-bao-effiloche-de-boeuf-fondant",
+          "name": "Effiloché de bœuf fondant",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Concombre, mesclun, sauce spicy mayo et curry mango, coriandre. Bœuf d'origine France."
+        }
+      ]
+    },
+    {
+      "category": "Spring",
+      "dishes": [
+        {
+          "id": "nako-spring-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 7.2,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Salade, avocat, concombre, coriandre, menthe, sweet chili. 6 pièces."
+        },
+        {
+          "id": "nako-spring-saumon",
+          "name": "Saumon",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Mesclun, avocat, concombre, coriandre, menthe, spicy mayo. 6 pièces."
+        },
+        {
+          "id": "nako-spring-crevette",
+          "name": "Crevette",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Salade, concombre, avocat, coriandre, menthe, tobiko, spicy mayo. 6 pièces."
+        },
+        {
+          "id": "nako-spring-vege",
+          "name": "Végé",
+          "price": 6.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "Mesclun, champignon enoki, avocat, concombre, carotte, coriandre, menthe, sauce exotique. 6 pièces."
+        }
+      ]
+    },
+    {
+      "category": "California",
+      "dishes": [
+        {
+          "id": "nako-california-saumon",
+          "name": "Saumon",
+          "price": 6.6,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, sésame. 6 pièces."
+        },
+        {
+          "id": "nako-california-saumon-cheese",
+          "name": "Saumon cheese",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon, cream cheese, sésame. 6 pièces."
+        },
+        {
+          "id": "nako-california-crevette-tempura",
+          "name": "Crevette tempura",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, sésame ume, spicy mayo. 6 pièces."
+        },
+        {
+          "id": "nako-california-thon",
+          "name": "Thon",
+          "price": 7.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, sésame. 6 pièces."
+        },
+        {
+          "id": "nako-california-thon-cuit",
+          "name": "Thon cuit",
+          "price": 6.6,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Thon cuit, mayonnaise, avocat, sésame. 6 pièces."
+        },
+        {
+          "id": "nako-california-green",
+          "name": "Green",
+          "price": 7.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon, avocat, concombre, recouvert de ciboulette, coriandre, menthe, miso yuzu. 6 pièces."
+        },
+        {
+          "id": "nako-california-vege",
+          "name": "Végé",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Concombre, avocat, carotte, mesclun, menthe, sésame au yuzu. 6 pièces."
+        },
+        {
+          "id": "nako-california-crispy-saumon",
+          "name": "Crispy saumon",
+          "price": 8.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, oignon crispy, spicy mayo. 6 pièces."
+        },
+        {
+          "id": "nako-california-crispy-thon-cuit",
+          "name": "Crispy thon cuit",
+          "price": 8.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Thon cuit, mayonnaise, avocat, concombre, oignon crispy, sweet chili. 6 pièces."
+        },
+        {
+          "id": "nako-california-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Concombre, carotte, salade, guacamole maison, spicy mayo, sésame. 6 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Rainbow",
+      "dishes": [
+        {
+          "id": "nako-rainbow-avocat",
+          "name": "Avocat",
+          "price": 8.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 pièces."
+        },
+        {
+          "id": "nako-rainbow-cream-cheese",
+          "name": "Cream cheese",
+          "price": 8.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 pièces."
+        },
+        {
+          "id": "nako-rainbow-tataki",
+          "name": "Tataki",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Saumon tataki, épices shichimi, cream cheese, sauce teriyaki. 6 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Maki",
+      "dishes": [
+        {
+          "id": "nako-maki-saumon",
+          "name": "Saumon",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 pièces."
+        },
+        {
+          "id": "nako-maki-thon-spicy-mayo",
+          "name": "Thon spicy mayo",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 pièces."
+        },
+        {
+          "id": "nako-maki-avocat-sesame",
+          "name": "Avocat & sésame",
+          "price": 5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Sushi",
+      "dishes": [
+        {
+          "id": "nako-sushi-saumon",
+          "name": "Saumon",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-sushi-thon",
+          "name": "Thon",
+          "price": 4.8,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-sushi-saumon-cream-cheese",
+          "name": "Saumon cream cheese",
+          "price": 4.7,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-sushi-saumon-tataki",
+          "name": "Saumon tataki",
+          "price": 4.7,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-sushi-yellowtail",
+          "name": "Yellowtail",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Piment rouge, coriandre, miso yuzu. 2 pièces."
+        },
+        {
+          "id": "nako-sushi-crevette",
+          "name": "Crevette",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sakura cress, chipotle mayo. 2 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Sashimi",
+      "dishes": [
+        {
+          "id": "nako-sashimi-saumon",
+          "name": "Saumon",
+          "price": 7.3,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "5 pièces 7,30 € ; 10 pièces, servies avec riz vinaigré ou nature, 14,00 €."
+        },
+        {
+          "id": "nako-sashimi-thon",
+          "name": "Thon",
+          "price": 7.7,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "5 pièces 7,70 € ; 10 pièces, servies avec riz vinaigré ou nature, 15,00 €."
+        },
+        {
+          "id": "nako-sashimi-mix",
+          "name": "Mix",
+          "price": 19.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "5 saumon, 5 thon, 5 yellowtail : 15 pièces, servies avec riz vinaigré ou nature."
+        }
+      ]
+    },
+    {
+      "category": "Tataki",
+      "dishes": [
+        {
+          "id": "nako-tataki-saumon",
+          "name": "Saumon",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sauce ponzu, épices shichimi, flocon tempura. 10 pièces. Servi avec riz vinaigré ou nature."
+        },
+        {
+          "id": "nako-tataki-thon",
+          "name": "Thon",
+          "price": 15.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sauce ponzu, épices shichimi, flocon tempura. 10 pièces. Servi avec riz vinaigré ou nature."
+        }
+      ]
+    },
+    {
+      "category": "Crisp",
+      "dishes": [
+        {
+          "id": "nako-crisp-gyoza-poulet",
+          "name": "Gyoza poulet",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "3 pièces."
+        },
+        {
+          "id": "nako-crisp-gyoza-vege",
+          "name": "Gyoza végé",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "3 pièces."
+        },
+        {
+          "id": "nako-crisp-gyoza-boeuf-wagyu",
+          "name": "Gyoza bœuf wagyu",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "3 pièces."
+        },
+        {
+          "id": "nako-crisp-nems-vege",
+          "name": "Nems végé",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 pièces."
+        },
+        {
+          "id": "nako-crisp-nems-poulet",
+          "name": "Nems poulet",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 pièces."
+        },
+        {
+          "id": "nako-crisp-calamars-panes",
+          "name": "Calamars panés",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "nako-crisp-poulet-karaage",
+          "name": "Poulet karaage",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 pièces. Sauce au choix : curry mango, sauce Nako au miel, spicy mayo ou mayo truffée."
+        },
+        {
+          "id": "nako-crisp-haricots-tempura",
+          "name": "Haricots tempura",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Aux épices cajun."
+        },
+        {
+          "id": "nako-crisp-poulet-tempura",
+          "name": "Poulet tempura",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Sauce au choix : curry mango, sauce Nako au miel, spicy mayo ou mayo truffée."
+        },
+        {
+          "id": "nako-crisp-crevette-tempura",
+          "name": "Crevette tempura",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "3 pièces. Sauce au choix : curry mango, sauce Nako au miel, spicy mayo ou mayo truffée."
+        }
+      ]
+    },
+    {
+      "category": "Yakitori",
+      "dishes": [
+        {
+          "id": "nako-yakitori-boeuf-fromage",
+          "name": "Bœuf fromage",
+          "price": 6.2,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-yakitori-boulettes-de-poulet",
+          "name": "Boulettes de poulet",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-yakitori-poulet-ou-poulet-negima",
+          "name": "Poulet ou poulet negima",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        },
+        {
+          "id": "nako-yakitori-saumon",
+          "name": "Saumon",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "2 pièces."
+        }
+      ]
+    },
+    {
+      "category": "Accompagnements",
+      "dishes": [
+        {
+          "id": "nako-accompagnements-green-salade",
+          "name": "Green salade",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Avocat, concombre, edamame, sésame, vinaigrette japonaise."
+        },
+        {
+          "id": "nako-accompagnements-edamame",
+          "name": "Edamame",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Fèves de soja, sel. Épices shichimi en supplément (1 €)."
+        },
+        {
+          "id": "nako-accompagnements-salade-de-calamars",
+          "name": "Salade de calamars",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "nako-accompagnements-salade-de-chou",
+          "name": "Salade de chou",
+          "price": 3.7,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Sauce vinaigrée, sésame."
+        },
+        {
+          "id": "nako-accompagnements-soupe-miso",
+          "name": "Soupe miso",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Tofu, champignon de Paris, poireau, algue."
+        },
+        {
+          "id": "nako-accompagnements-salade-wakame-et-goma",
+          "name": "Salade wakamé et goma",
+          "price": 5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        },
+        {
+          "id": "nako-accompagnements-riz-vinaigre",
+          "name": "Riz vinaigré",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        },
+        {
+          "id": "nako-accompagnements-riz-nature",
+          "name": "Riz nature",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Plateaux Signature",
+      "dishes": [
+        {
+          "id": "nako-plateaux-signature-signature-x12",
+          "name": "Signature x12",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 Volcano, 4 TNT, 4 Sun : 12 pièces. Non modifiable."
+        },
+        {
+          "id": "nako-plateaux-signature-signature-x16",
+          "name": "Signature x16",
+          "price": 20.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 Lobster, 4 Dragon, 4 Volcano, 4 TNT : 16 pièces. Non modifiable."
+        },
+        {
+          "id": "nako-plateaux-signature-signature-x24",
+          "name": "Signature x24",
+          "price": 30.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "may_contain"
+          },
+          "description": "4 Lobster, 4 Dragon, 4 Pink, 4 Chicken Roll, 4 Volcano, 4 TNT : 24 pièces. Non modifiable."
+        }
+      ]
+    },
+    {
+      "category": "Plateaux Classic",
+      "dishes": [
+        {
+          "id": "nako-plateaux-classic-full-sushi",
+          "name": "Full sushi",
+          "price": 17.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "10 sushi saumon : 10 pièces. Non modifiable."
+        },
+        {
+          "id": "nako-plateaux-classic-cheese-mix",
+          "name": "Cheese mix",
+          "price": 20.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "4 sushi saumon cream cheese, 6 rainbow cream cheese, 6 california saumon cheese : 16 pièces. Non modifiable."
+        },
+        {
+          "id": "nako-plateaux-classic-california-mix",
+          "name": "California mix",
+          "price": 21.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 california saumon avocat, 6 california crevette tempura, 6 california thon cuit, 6 california saumon cheese : 24 pièces. Non modifiable."
+        },
+        {
+          "id": "nako-plateaux-classic-yaki-mix",
+          "name": "Yaki mix",
+          "price": 22.9,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "8 yakitori au choix, servis avec un accompagnement : salade de chou, soupe miso, riz vinaigré ou nature. Non modifiable."
+        }
+      ]
+    },
+    {
+      "category": "Coffrets à partager",
+      "dishes": [
+        {
+          "id": "nako-coffrets-a-partager-classic",
+          "name": "Classic",
+          "price": 45,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 maki avocat, 6 california saumon avocat, 6 california thon cuit, 6 spring saumon avocat, 6 california poulet tempura, 6 rainbow cream cheese ; 2 sushi thon, 2 sushi saumon, 2 sushi saumon braisé : 42 pièces, 2 salades de chou offertes. Non modifiable."
+        },
+        {
+          "id": "nako-coffrets-a-partager-premium",
+          "name": "Premium",
+          "price": 55,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "8 Lobster ; 6 spring crevette, 6 rainbow tataki, 6 rainbow avocat, 6 california saumon avocat, 6 california crevette tempura ; 2 sushi thon, 2 sushi saumon : 42 pièces, 2 salades de chou offertes. Non modifiable."
+        },
+        {
+          "id": "nako-coffrets-a-partager-family",
+          "name": "Family",
+          "price": 74,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "6 california saumon avocat, 6 california saumon cheese, 6 california thon cuit, 6 california crevette tempura, 6 rainbow avocat, 6 spring saumon, 6 rainbow cream cheese, 6 california poulet tempura ; 4 sushi thon, 4 sushi saumon, 2 sushi yellowtail : 58 pièces, 4 salades de chou offertes. Non modifiable."
+        },
+        {
+          "id": "nako-coffrets-a-partager-deluxe",
+          "name": "Deluxe",
+          "price": 85,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "8 TNT, 8 Dragon, 8 Volcano ; 6 rainbow tataki, 6 spring saumon, 6 spring crevette, 6 california saumon cheese ; 4 sushi thon, 4 sushi saumon braisé, 2 sushi saumon cheese : 58 pièces, 4 salades de chou offertes. Non modifiable."
+        }
+      ]
+    },
+    {
+      "category": "Eaux et sodas",
+      "dishes": [
+        {
+          "id": "nako-eaux-et-sodas-coca-cola-33-cl",
+          "name": "Coca-Cola 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-coca-cola-zero-33-cl",
+          "name": "Coca-Cola Zero 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-fuze-tea-peche-33-cl",
+          "name": "Fuze Tea pêche 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-oasis-tropical-33-cl",
+          "name": "Oasis Tropical 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-orangina-33-cl",
+          "name": "Orangina 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-perrier-33-cl",
+          "name": "Perrier 33 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-eaux-et-sodas-evian-50-cl",
+          "name": "Evian 50 cl",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Boissons chaudes",
+      "dishes": [
+        {
+          "id": "nako-boissons-chaudes-cafe",
+          "name": "Café",
+          "price": 2.8,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Uniquement sur place."
+        },
+        {
+          "id": "nako-boissons-chaudes-the-kusmi-tea",
+          "name": "Thé Kusmi Tea",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thé vert à la menthe, thé vert sencha de Chine ou détox, bio. Uniquement sur place."
+        }
+      ]
+    },
+    {
+      "category": "Mangajo",
+      "dishes": [
+        {
+          "id": "nako-mangajo-yuzu-citron-25-cl",
+          "name": "Yuzu & citron 25 cl",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson sans sucre ajouté."
+        },
+        {
+          "id": "nako-mangajo-citron-the-vert-25-cl",
+          "name": "Citron & thé vert 25 cl",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson sans sucre ajouté."
+        },
+        {
+          "id": "nako-mangajo-grenade-the-vert-25-cl",
+          "name": "Grenade & thé vert 25 cl",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson sans sucre ajouté."
+        }
+      ]
+    },
+    {
+      "category": "Maya",
+      "dishes": [
+        {
+          "id": "nako-maya-litchi-31-cl",
+          "name": "Litchi 31 cl",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pur jus."
+        },
+        {
+          "id": "nako-maya-passion-ananas-et-mangue-31-cl",
+          "name": "Passion, ananas et mangue 31 cl",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pur jus."
+        }
+      ]
+    },
+    {
+      "category": "Vins",
+      "dishes": [
+        {
+          "id": "nako-vins-chardonnay-maison-castel",
+          "name": "Chardonnay, Maison Castel",
+          "price": 25,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Blanc, 75 cl."
+        },
+        {
+          "id": "nako-vins-petit-chablis-la-chablisienne",
+          "name": "Petit Chablis, La Chablisienne",
+          "price": 39,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Blanc, 75 cl."
+        },
+        {
+          "id": "nako-vins-cotes-de-provence-masfleurey",
+          "name": "Côtes de Provence, Masfleurey",
+          "price": 25,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rosé, 75 cl."
+        },
+        {
+          "id": "nako-vins-cotes-de-provence-cuvee-de-marafiance",
+          "name": "Côtes de Provence, cuvée de Marafiance",
+          "price": 39,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rosé, 75 cl."
+        },
+        {
+          "id": "nako-vins-pinot-noir-maison-castel",
+          "name": "Pinot noir, Maison Castel",
+          "price": 25,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouge, 75 cl."
+        },
+        {
+          "id": "nako-vins-brouilly-chateau-de-nevers",
+          "name": "Brouilly, Château de Nevers",
+          "price": 39,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouge, 75 cl."
+        }
+      ]
+    },
+    {
+      "category": "Bières",
+      "dishes": [
+        {
+          "id": "nako-bieres-kirin",
+          "name": "Kirin",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Canette 33 cl 4,50 €, canette 50 cl 5,50 €, bouteille 33 cl 4,50 €."
+        }
+      ]
+    },
+    {
+      "category": "Saké",
+      "dishes": [
+        {
+          "id": "nako-sake-sake-kaori-18-cl",
+          "name": "Saké Kaori 18 cl",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "nako-sake-sake-mio-petillant-30-cl",
+          "name": "Saké Mio pétillant 30 cl",
+          "price": 16.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "nako-desserts-mochi-glace-coco",
+          "name": "Mochi glacé coco",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 pièce."
+        },
+        {
+          "id": "nako-desserts-mochi-glace-mangue-passion",
+          "name": "Mochi glacé mangue passion",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 pièce."
+        },
+        {
+          "id": "nako-desserts-mochi-glace-chocolat",
+          "name": "Mochi glacé chocolat",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 pièce."
+        },
+        {
+          "id": "nako-desserts-mochi-glace-framboise-litchi",
+          "name": "Mochi glacé framboise litchi",
+          "price": 2.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 pièce."
+        },
+        {
+          "id": "nako-desserts-cheesecake-japonais",
+          "name": "Cheesecake japonais",
+          "price": 7,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Maison Takumi, coulis framboise ou chocolat."
+        },
+        {
+          "id": "nako-desserts-mi-cuit",
+          "name": "Mi-cuit",
+          "price": 5.3,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat."
+        },
+        {
+          "id": "nako-desserts-fruits-frais",
+          "name": "Fruits frais",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "De saison."
+        },
+        {
+          "id": "nako-desserts-ananas-frais",
+          "name": "Ananas frais",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

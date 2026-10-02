@@ -1,0 +1,546 @@
+{
+  "menuId": "menu-bomaye",
+  "restaurantId": "bomaye-burger-paradis-75010",
+  "categories": [
+    {
+      "category": "En ce moment",
+      "dishes": [
+        {
+          "id": "bomaye-champion-ile-de-france-2026",
+          "name": "CHAMPION ILE DE FRANCE 2026",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Élu meilleur burger d'ile de france en 2026 et 3eme national. Ingrédients : Bun brioché tréssé, Banane plantain smashé, Cheddar maturé, Sauce ketchup au bissap, Steak black angus maturé, Sauce mafé (cacahuhete, tomate), Pickliz haïtien (chou, carotte, oignons, citron), Poivre de penja (Cameroun), Cacahuete toréfié (Togo)."
+        }
+      ]
+    },
+    {
+      "category": "Burgers",
+      "dishes": [
+        {
+          "id": "bomaye-kin-la-belle",
+          "name": "KIN LA BELLE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par le poulet mayo - RDC. Ingrédients : Bun brioché, Poulet mariné dans 10 épices et frit, Mayo fumée maison, Pickliz haïtien (chou, carotte, oignons, citron), Chou rouge.",
+          "price": 11.9
+        },
+        {
+          "id": "bomaye-le-lion-de-la-teranga",
+          "name": "LE LION DE LA TERANGA",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par le poulet Yassa - Sénégal. Ingrédients : Bun brioché, Poulet mariné dans 10 épices et frit, Sauce aux oignons et yassa (citron, moutarde), Cheddar infusé au poivre de Penja, Mesclun.",
+          "price": 11.9
+        },
+        {
+          "id": "bomaye-babi-la-douce",
+          "name": "BABI LA DOUCE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par le Garba - Côte d’Ivoire. Ingrédients : Bun brioché, Thon épicé aux épices, Mayonnaise épicée maison, Sauce tomate maison, Attiéké rôti, Cébette, Petit piment végétarien (qui ne pique pas).",
+          "price": 14.9
+        },
+        {
+          "id": "bomaye-champion-dafrique-2022",
+          "name": "CHAMPION D'AFRIQUE 2022",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré du mafé - Sénégal. Ingrédients : Bun brioche, Steak Black Angus maturé, Cheddar infusé au paprika fumé, Sauce façon mafé (tomate, pâte d’arachides), Cacahuètes torréfiées, Mâche.",
+          "price": 12.9
+        },
+        {
+          "id": "bomaye-allocovor",
+          "name": "ALLOCOVOR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par l’Alloco - Côte d’Ivoire. Ingrédients : Bun brioche, ketchup au bissap maison, Klaklo (beignet de banane plantain, oignon, ail et épices), Sauce yaourt et menthe (sauce soja et menthe pour l’option vegan), Pickliz haïtien (chou, carotte, oignons, citron).",
+          "price": 11.9
+        },
+        {
+          "id": "bomaye-african-cheeseburger",
+          "name": "AFRICAN CHEESEBURGER",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Les codes d’un cheeseburger avec un ketchup au bissap. Ingrédients : Bun maison brioché, Steak Black Angus*, Ketchup au bissap, Cheddar mature.",
+          "price": 12.9
+        }
+      ]
+    },
+    {
+      "category": "Bowl",
+      "dishes": [
+        {
+          "id": "bomaye-waka-bowl-poulet-pane-10-epices",
+          "name": "WAKA BOWL POULET PANÉ 10 ÉPICES",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un bowl conçu à partir d’un mélange vibrant de saveurs afro et de soul food. Ingrédients : Sauce au choix, Base riz cassé deux fois aux épices, Poulet mariné et pané aux 10 épices, Patate douce rôtie, Alloco, Pickliz haïtien (chou, carotte, oignons, citron), Cacahuètes torréfiées.",
+          "price": 12.9
+        },
+        {
+          "id": "bomaye-waka-bowl-falafels-de-niebes-vege",
+          "name": "WAKA BOWL BEIGNET DE PLANTAIN (VÉGÉ)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un bowl conçu à partir d’un mélange vibrant de saveurs afro végé. Ingrédients : Sauce au choix, Base riz cassé deux fois aux épices, Klaklo (beignet de banane plantain salé), Patate douce rôtie, Alloco, Pickliz haïtien (chou, carotte, oignons, citron).",
+          "price": 12.9
+        },
+        {
+          "id": "bomaye-waka-bowl-poulet-marine-et-braise",
+          "name": "WAKA BOWL POULET MARINÉ ET BRAISÉ",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un bowl conçu à partir d’un mélange vibrant de saveurs afro braisé. Ingrédients : Sauce au choix, Base riz cassé deux fois aux épices, Poulet mariné et braisé, Patate douce rôtie, Alloco, Pickliz haïtien (chou, carotte, oignons, citron), Cacahuètes torréfiées.",
+          "price": 12.9
+        },
+        {
+          "id": "bomaye-waka-bowl-tataki-de-thon-rouge-sans-gluten",
+          "name": "WAKA BOWL TATAKI DE THON ROUGE (SANS GLUTEN)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Un bowl conçu à partir d’un mélange vibrant de saveurs afro et de la mer. Ingrédients : Sauce au choix, Base riz cassé deux fois aux épices, Tataki de thon rouge, Patate douce rôtie, Alloco, Pickliz haïtien (chou, carotte, oignons, citron), Cacahuètes torréfiées.",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "bomaye-poulet-frit",
+          "name": "POULET FRIT",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le poulet frit comme on l'aime. Ingrédients : Poulet mariné au lait ribot et aux épices, Panure aux épices, Servis avec la mayo de la maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bomaye-klaklo",
+          "name": "KLAKLO",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Recette dénichée en Côte d'Ivoire. Ingrédients : Klaklos (beignets à base de banane plantain, oignons, ail et épices), Sauce tomate maison.",
+          "price": 7.9
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "dishes": [
+        {
+          "id": "bomaye-alloco",
+          "name": "ALLOCO",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par l’alloco. Ingrédients : Frite de Banane Plantain.",
+          "price": 6.9
+        },
+        {
+          "id": "bomaye-frites-de-patate-douce-fraiche-maison",
+          "name": "FRITES DE PATATE DOUCE FRAÎCHE MAISON",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Il est inconcevable de ne pas l’offrir. Ingrédients : Frites de Patates Douces.",
+          "price": 5.9
+        },
+        {
+          "id": "bomaye-frites-epices",
+          "name": "FRITES ÉPICÉS",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré de notre recherche des meilleures frites. Ingrédients : Frites maison.",
+          "price": 4.9
+        },
+        {
+          "id": "bomaye-salade",
+          "name": "SALADE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La salade de notre tortue Wakita. Ingrédients : Mesclun, Oignons, Huile d’Olive.",
+          "price": 4.9
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "bomaye-godro-godro",
+          "name": "GODRO GODRO",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Prononcé “Gouje Gouje”, ceci est un gâteau traditionnel malgache. Ingrédients : Vanille, Cannelle, Lait, Sésame, Noix de coco.",
+          "price": 6.9
+        }
+      ]
+    },
+    {
+      "category": "Boissons",
+      "dishes": [
+        {
+          "id": "bomaye-bissap-maison",
+          "name": "BISSAP RECETTE MAISON",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bissap recette original Bomaye. Ingrédients : Fleur d’hibiscus, Menthe, Vanille, Fleur d’orangers.",
+          "price": 5
+        },
+        {
+          "id": "bomaye-bissap-maison-fizz",
+          "name": "BISSAP MAISON FIZZ",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bissap maison pétillante. Ingrédients : Fleur d’hibiscus, Menthe, Vanille, Fleur d’orangers, Des bulles.",
+          "price": 6
+        },
+        {
+          "id": "bomaye-just-de-gingembre-doux-maison",
+          "name": "JUS DE GINGEMBRE DOUX RECETTE MAISON",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson recette original bomaye. Ingrédients : Gingembre frais, Ananas.",
+          "price": 5
+        },
+        {
+          "id": "bomaye-bissap-recette-maison-1-litre-12eu",
+          "name": "BISSAP RECETTE MAISON 1 LITRE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bissap recette original Bomaye. Ingrédients : Fleur d’hibiscus, Menthe, Vanille, Fleur d’orangers.",
+          "price": 12
+        },
+        {
+          "id": "bomaye-just-de-gingembre-doux-recette-maison-1-litre-12eu",
+          "name": "JUS DE GINGEMBRE DOUX RECETTE MAISON 1 LITRE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson recette original bomaye. Ingrédients : Gingembre frais, Ananas.",
+          "price": 12
+        }
+      ]
+    }
+  ]
+}

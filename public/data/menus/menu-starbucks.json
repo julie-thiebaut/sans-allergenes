@@ -1,0 +1,1920 @@
+{
+  "menuId": "menu-starbucks",
+  "restaurantId": "starbucks-77-rue-rambuteau-75001",
+  "categories": [
+    {
+      "category": "Boissons à base d'espresso",
+      "dishes": [
+        {
+          "id": "starbucks-pumpkin-spice-latte",
+          "name": "Pumpkin Spice Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "L'expresso est mélangé à une sauce aromatisée à la citrouille et à du lait chaud, puis garni de crème légère fouettée et d'un nappage aux épices de citrouille. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-pumpkin-spice-caramel-macchiato",
+          "name": "Pumpkin Spice Caramel Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lait chaud à la vapeur nappé d'une sauce aromatisée aux épices de potiron, rehaussé d'un espresso « Signature » et agrémenté d'un filet de caramel. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-pecan-maple-macchiato",
+          "name": "Pecan Maple Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lait chaud aromatisé au sirop de noix de pécan, agrémenté d'un trait d'espresso Starbucks Blonde et d'un filet de sirop d'érable. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-pumpkin-spice-latte",
+          "name": "Iced Pumpkin Spice Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso Starbucks est mélangé à une sauce aromatisée à la citrouille, du lait et des glaçons, puis agrémenté d'une garniture aux épices de citrouille. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-pumpkin-spice-caramel-macchiato",
+          "name": "Iced Pumpkin Spice Caramel Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso Starbucks est mélangé à une sauce aromatisée à la citrouille épicée, du lait et des glaçons, puis agrémenté d'une garniture à la citrouille épicée. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-pecan-maple-macchiato",
+          "name": "Iced Pecan Maple Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "L'espresso « Blonde » de Starbucks est mélangé à du sirop à la noix de pécan, du lait et des glaçons, le tout agrémenté d'un filet de sirop d'érable. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-caffe-latte",
+          "name": "Caffè Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "L'intensité de notre espresso rencontre la douceur du lait chauffé à la vapeur, le tout recouvert d'une fine couche de mousse de lait Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-caffe-latte-glace",
+          "name": "Caffè Latte Glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "L'intensité de notre espresso rencontre la douceur du lait, servi recouvert de glaçons Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-cappuccino",
+          "name": "Cappuccino",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso surmonté d'une onctueuse couche de mousse de lait Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-caffe-mocha",
+          "name": "Caffè Mocha",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso riche et corsé, mélangé avec du sirop saveur chocolat et du lait chauffé à la vapeur Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-mocha",
+          "name": "Iced Mocha",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso riche et corsé, mélangé avec du sirop saveur chocolat, du lait et des glaçons Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-mocha-blanc",
+          "name": "Mocha Blanc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso riche et corsé, mélangé avec du sirop saveur chocolat blanc et du lait chauffé à la vapeur Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-mocha-blanc",
+          "name": "Iced Mocha Blanc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un espresso riche et corsé, mélangé avec du sirop saveur chocolat blanc, du lait et des glaçons Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-caramel-macchiato",
+          "name": "Caramel Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Du lait chaud saveur vanille taché d'un espresso surmonté d'un nappage saveur caramel Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-caramel-macchiato",
+          "name": "Iced Caramel Macchiato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Du lait saveur vanille taché d'un espresso surmonté d'un nappage saveur caramel, servi glacé Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-caffe-americano",
+          "name": "Caffè Americano",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Shots d'espresso couverts d'eau chaude, générant une fine couche crémeuse"
+        },
+        {
+          "id": "starbucks-iced-americano",
+          "name": "Iced Americano",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Shots d'espresso couverts d'eau, générant une fine couche crémeuse, versé sur des glaçons"
+        }
+      ]
+    },
+    {
+      "category": "Café Filtre",
+      "dishes": [
+        {
+          "id": "starbucks-cafe-filtre",
+          "name": "Café Filtre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Café de torréfaction moyenne, doux, équilibré et riche en saveur."
+        }
+      ]
+    },
+    {
+      "category": "Chocolats Chauds et Glacés",
+      "dishes": [
+        {
+          "id": "starbucks-chocolat-viennois-classique",
+          "name": "Chocolat Viennois Classique",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lait chauffé à la vapeur mélangé à un sirop saveur chocolat Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-chocolat-viennois-classique-glace",
+          "name": "Chocolat Viennois Classique Glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lait froid mélangé à un sirop saveur chocolat Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        }
+      ]
+    },
+    {
+      "category": "Tea Latte",
+      "dishes": [
+        {
+          "id": "starbucks-pumpkin-spice-matcha-latte",
+          "name": "Pumpkin Spice Matcha Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre thé vert matcha est cuit à la vapeur avec du lait, puis mélangé à une sauce aromatisée aux épices de citrouille. Le tout est agrémenté de crème légère fouettée et d'une pincée de mélange d'épices de citrouille. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-pumpkin-spice-matcha-latte",
+          "name": "Iced Pumpkin Spice Matcha Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre thé vert matcha est mélangé à du lait, des glaçons et un soupçon de sirop à la vanille, puis garni d'une mousse froide à la crème aromatisée aux épices de citrouille et d'une pincée de garniture aux épices de citrouille. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-apple-crumble-iced-matcha-latte",
+          "name": "Apple Crumble Iced Matcha Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre thé vert matcha est mélangé à du lait, des glaçons et un soupçon de sauce à la pomme, puis garni d'une mousse froide à la crème aromatisée à la pomme et d'une pincée de crumble aux biscuits. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-matcha-green-tea-latte",
+          "name": "Matcha Green Tea Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thé vert matcha mélangé à du lait Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-matcha-green-tea-latte",
+          "name": "Iced Matcha Green Tea Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thé vert matcha mélangé à du lait, versé sur des glaçons Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-iced-chai-tea-latte",
+          "name": "Iced Chai Tea Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thé noir infusé à la cardamone, à la canelle, au poivre noir et à l'anis étoilé, mélangé à du lait et à des glaçons Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        },
+        {
+          "id": "starbucks-chai-tea-latte",
+          "name": "Chai Tea Latte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un latte chaud et aromatique au thé Chai, merveilleusement doux et épicé. Le lait est celui de la recette standard (chantilly ou lait de vache) : la boisson peut se préparer sans, ou avec une alternative végétale."
+        }
+      ]
+    },
+    {
+      "category": "Thés Chauds",
+      "dishes": [
+        {
+          "id": "starbucks-english-breakfast-tea",
+          "name": "English Breakfast Tea",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thé noir corsé aux nuances riches et maltées."
+        },
+        {
+          "id": "starbucks-earl-grey-tea",
+          "name": "Earl Grey Tea",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mélange léger de thé noir, de bergamote parfumée et de lavande douce"
+        },
+        {
+          "id": "starbucks-emperor-clouds-mist-tea",
+          "name": "Emperor Clouds & Mist Tea",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un thé vert pur origine aux notes légères et sucrées"
+        }
+      ]
+    },
+    {
+      "category": "Espresso",
+      "dishes": [
+        {
+          "id": "starbucks-espresso",
+          "name": "Espresso",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Deux doses d’espresso. Rien de plus."
+        }
+      ]
+    },
+    {
+      "category": "Eau & Jus",
+      "dishes": [
+        {
+          "id": "starbucks-orange-juice",
+          "name": "Orange Juice",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "starbucks-apple-juice",
+          "name": "Apple Juice",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Viennoiseries et Cakepop · Viennoiseries",
+      "dishes": [
+        {
+          "id": "starbucks-croissant-au-levain-bis",
+          "name": "Croissant au levain BIS",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuit sur place"
+        },
+        {
+          "id": "starbucks-pain-au-chocolat-au-levain-bis",
+          "name": "Pain au chocolat au levain BIS",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuit sur place"
+        },
+        {
+          "id": "starbucks-pistachio-pyramid",
+          "name": "Pistachio Pyramid",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Viennoiserie fourrée à la pistache avec enrobage pistache"
+        },
+        {
+          "id": "starbucks-hazelnut-pyramid",
+          "name": "Hazelnut Pyramid",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Viennoiserie fourrée à la noisette avec enrobage cacao et noisettes"
+        }
+      ]
+    },
+    {
+      "category": "Viennoiseries et Cakepop · Cakepop",
+      "dishes": [
+        {
+          "id": "starbucks-pumpkin-cakepop",
+          "name": "Pumpkin cakepop",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake aux épices, biscuit, enrobage chocolat blanc et décor en sucre"
+        },
+        {
+          "id": "starbucks-cat-cakepop",
+          "name": "Cat cakepop",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake ube, biscuit, enrobage chocolat blanc et décor en sucre"
+        },
+        {
+          "id": "starbucks-birthday-cakepop",
+          "name": "Birthday Cakepop",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake vanille, biscuit, enrobage fraise et décor chocolate blanc"
+        },
+        {
+          "id": "starbucks-cookie-and-cream-cakepop",
+          "name": "Cookie And Cream Cakepop",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake vanille, biscuit \"cookie and cream\" enrobage chocolat blanc"
+        }
+      ]
+    },
+    {
+      "category": "Breakfast",
+      "dishes": [
+        {
+          "id": "starbucks-trio-de-pancakes",
+          "name": "Trio de Pancakes",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Servi avec un nappage au choix"
+        }
+      ]
+    },
+    {
+      "category": "Loaf Cakes & Rolls · Loaf Cakes",
+      "dishes": [
+        {
+          "id": "starbucks-pumpkin-cake",
+          "name": "Pumpkin Cake",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake aux épices avec glaçage vanille et graines de courge"
+        },
+        {
+          "id": "starbucks-choco-banana-bread",
+          "name": "Choco banana bread",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake à la banane garni d'un nappage au chocolat noir et de rondelles de banane séchées"
+        },
+        {
+          "id": "starbucks-carrot-cake",
+          "name": "Carrot Cake",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake à la carotte avec glaçage, aromatisé"
+        },
+        {
+          "id": "starbucks-cake-citron",
+          "name": "Cake Citron",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cake au citron et au pavot recouvert d’un glaçage au citron, aromatisé"
+        }
+      ]
+    },
+    {
+      "category": "Loaf Cakes & Rolls · Rolls",
+      "dishes": [
+        {
+          "id": "starbucks-cinnamon-roll-cuit-sur-place",
+          "name": "Cinnamon Roll Cuit sur place",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Roulé à la cannelle avec un nappage au sucre"
+        }
+      ]
+    },
+    {
+      "category": "Donuts",
+      "dishes": [
+        {
+          "id": "starbucks-cat-donut",
+          "name": "Cat Donut",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Beignet fourré au glaçage ube avec décor en sucre et chocolat"
+        },
+        {
+          "id": "starbucks-sugar-donut",
+          "name": "Sugar Donut",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Beignet avec glaçage au sucre"
+        },
+        {
+          "id": "starbucks-donut-blanc",
+          "name": "Donut Blanc",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Beignet recouvert d’un glaçage marbré blanc et noir"
+        }
+      ]
+    },
+    {
+      "category": "Cookies",
+      "dishes": [
+        {
+          "id": "starbucks-cookie-choco-spice-bis",
+          "name": "Cookie choco spice (BIS)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Biscuit rond aux pépites de chocolat au lait et épices, cuit sur place"
+        },
+        {
+          "id": "starbucks-cookie-pepites-cuit-sur-place",
+          "name": "Cookie pépites (cuit sur place)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Biscuit rond aux pépites de chocolat, cuit sur place"
+        },
+        {
+          "id": "starbucks-cookie-chocolat-blanc-cuit-sur-place",
+          "name": "Cookie chocolat blanc (cuit sur place)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Biscuit rond aux pépites de chocolat blanc, cuit sur place"
+        }
+      ]
+    },
+    {
+      "category": "Squares",
+      "dishes": [
+        {
+          "id": "starbucks-pistachio-square",
+          "name": "Pistachio Square",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brownie à la pistache avec éclats de pistache"
+        }
+      ]
+    },
+    {
+      "category": "Muffins",
+      "dishes": [
+        {
+          "id": "starbucks-pecan-roll-muffin",
+          "name": "Pecan Roll muffin",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Roulé façon babka saveur noix de pécan avec glaçage"
+        },
+        {
+          "id": "starbucks-pumpkin-roll-muffin",
+          "name": "Pumpkin roll muffin",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Roulé façon babka aux épices avec glaçage"
+        },
+        {
+          "id": "starbucks-cinnamon-roll-muffin",
+          "name": "Cinnamon roll muffin",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Roulé façon babka à la cannelle avec glaçage"
+        }
+      ]
+    },
+    {
+      "category": "Cheesecakes",
+      "dishes": [
+        {
+          "id": "starbucks-cheesecake-banane-caramel",
+          "name": "Cheesecake Banane Caramel",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un cheesecake irrésistible avec une base croustillante de spéculoos, un cœur fondant au fromage et une touche de banane et de caramel."
+        },
+        {
+          "id": "starbucks-cheesecake-framboise",
+          "name": "Cheesecake Framboise",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un cheesecake irrésistible avec une base croustillante de spéculoos, une garniture au fromage ultra-fondante et une touche de fraîcheur aux framboises."
+        },
+        {
+          "id": "starbucks-cheesecake-nature",
+          "name": "Cheesecake nature",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un cheesecake irrésistible avec une base croustillante de spéculoos et un cœur de fromage ultra-fondant."
+        }
+      ]
+    },
+    {
+      "category": "Yaourts & Fruits",
+      "dishes": [
+        {
+          "id": "starbucks-tiramisu",
+          "name": "Tiramisu",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Réalisé avec du café Starbucks"
+        },
+        {
+          "id": "starbucks-fruit-crush",
+          "name": "Fruit crush",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Framboise enrobée d’une couche de chocolat blanc puis d’une couche de chocolat au lait"
+        },
+        {
+          "id": "starbucks-yaourt-a-boire-fraise",
+          "name": "Yaourt à boire fraise",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Yaourt sucré à boire aromatisé à la fraise"
+        },
+        {
+          "id": "starbucks-creamy-protein-pistachio",
+          "name": "Creamy Protein Pistachio",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Dessert lacté à la pistache riche en protéines"
+        },
+        {
+          "id": "starbucks-creamy-protein-stracciatella",
+          "name": "Creamy Protein Stracciatella",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Dessert lacté riche en protéines préparé avec un arôme de vanille et des pépites de chocolat"
+        }
+      ]
+    },
+    {
+      "category": "Snacks",
+      "dishes": [
+        {
+          "id": "starbucks-mermaid-candy-50g",
+          "name": "Mermaid candy 50g",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bonbons arômatisés"
+        },
+        {
+          "id": "starbucks-biscuit-shortbread-x-2",
+          "name": "Biscuit Shortbread x 2",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Biscuit sablé écossais traditionnel, lot de 2"
+        },
+        {
+          "id": "starbucks-piece-en-chocolat",
+          "name": "Pièce en Chocolat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat au lait"
+        },
+        {
+          "id": "starbucks-paille-chocolat-biscuit",
+          "name": "Paille chocolat biscuit",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Paille en biscuit"
+        },
+        {
+          "id": "starbucks-gaufre-au-caramel",
+          "name": "Gaufre au Caramel",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Gaufres hollandaises au beurre fourrées de caramel onctueux"
+        }
+      ]
+    },
+    {
+      "category": "Sandwiches · Breakfast",
+      "dishes": [
+        {
+          "id": "starbucks-egg-bacon",
+          "name": "Egg Bacon",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Œufs brouillés avec du fromage et du bacon"
+        },
+        {
+          "id": "starbucks-egg-cheese",
+          "name": "Egg Cheese",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Œufs brouillés avec du fromage"
+        },
+        {
+          "id": "starbucks-egg-bacon-muffin-130g",
+          "name": "Egg & bacon muffin 130g",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain à muffin, œuf frit, poitrine de porc fumé et ciboulette"
+        },
+        {
+          "id": "starbucks-egg-and-avocado-muffin",
+          "name": "Egg and avocado muffin",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain à muffin, oeufs brouillés, avocat"
+        }
+      ]
+    },
+    {
+      "category": "Sandwiches · Mini-Sandwiches",
+      "dishes": [
+        {
+          "id": "starbucks-mini-salmon",
+          "name": "Mini Salmon",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain brioché avec fromage à tartiner et saumon"
+        },
+        {
+          "id": "starbucks-mini-dinde",
+          "name": "Mini dinde",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain brioché avec fromage et jambon de dinde (sans porc)"
+        }
+      ]
+    },
+    {
+      "category": "Sandwiches",
+      "dishes": [
+        {
+          "id": "starbucks-croque-monsieur-chat",
+          "name": "Croque-monsieur chat",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Croque monsieur gratiné jambon fromage en forme de chat"
+        },
+        {
+          "id": "starbucks-chicken-cajun-toastie",
+          "name": "Chicken cajun Toastie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Façon \"croque-monsieur\" gratiné au fromage et poulet façon cajun"
+        },
+        {
+          "id": "starbucks-primi-focaccia",
+          "name": "Primi Focaccia",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain foccaccia avec préparation de dinde, pistache et pesto"
+        },
+        {
+          "id": "starbucks-veggie-foccaccia",
+          "name": "Veggie Foccaccia",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain foccaccia avec courgette et fromage de chèvre"
+        },
+        {
+          "id": "starbucks-ham-cheese-croissant-brioche",
+          "name": "Ham & Cheese Croissant Brioche",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain moelleux en forme de croissant, jambon et fromage"
+        },
+        {
+          "id": "starbucks-turkey-toastie",
+          "name": "Turkey Toastie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Façon \"croque-monsieur\" gratiné au fromage, avec béchamel, fromages et jambon de dinde"
+        },
+        {
+          "id": "starbucks-sandwich-poulet-cheddar",
+          "name": "Sandwich Poulet & Cheddar",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain spécial garni de cheddar et moutarde à l'américaine"
+        },
+        {
+          "id": "starbucks-sandwich-tomates-mozzarella",
+          "name": "Sandwich Tomates & Mozzarella",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Pain spécial garni de tomates séchées, mozzarella et huile d'olive au basilic"
+        },
+        {
+          "id": "starbucks-toastie-jambon-fromage",
+          "name": "Toastie Jambon Fromage",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Façon \"croque-monsieur\" gratiné au fromage, avec moutarde américaine et jambon"
+        },
+        {
+          "id": "starbucks-toastie-5-fromages",
+          "name": "Toastie 5 Fromages",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "may_contain",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          },
+          "description": "Façon \"croque-monsieur\" gratiné au fromage, avec moutarde américaine"
+        }
+      ]
+    }
+  ]
+}

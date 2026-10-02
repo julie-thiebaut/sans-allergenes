@@ -1,0 +1,484 @@
+{
+  "menuId": "menu-central-cos",
+  "restaurantId": "central-cos-75013",
+  "categories": [
+    {
+      "category": "Boisson personnalisée : base",
+      "dishes": [
+        {
+          "id": "central-cos-boisson-personnalisee-base-chocolat",
+          "name": "Chocolat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat Van Houten, deux doses. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        }
+      ]
+    },
+    {
+      "category": "Boisson personnalisée : lait",
+      "dishes": [
+        {
+          "id": "central-cos-boisson-personnalisee-lait-lait-de-vache-demi-ecreme",
+          "name": "Lait de vache demi-écrémé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "250 ml. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-lait-lait-d-avoine",
+          "name": "Lait d'avoine",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "250 ml. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-lait-lait-de-soja",
+          "name": "Lait de soja",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "250 ml. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-lait-lait-de-coco",
+          "name": "Lait de coco",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "250 ml. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-lait-lait-d-amande",
+          "name": "Lait d'amande",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "250 ml. Inclus dans la boisson personnalisée de 350 ml, chaude ou froide (base, lait et sirop : 5,90 €)."
+        }
+      ]
+    },
+    {
+      "category": "Boisson personnalisée : suppléments",
+      "dishes": [
+        {
+          "id": "central-cos-boisson-personnalisee-supplements-chantilly",
+          "name": "Chantilly",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0.5
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-supplements-pepites-de-chocolat",
+          "name": "Pépites de chocolat",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Topping.",
+          "price": 0.7
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-supplements-eclats-de-caramel",
+          "name": "Éclats de caramel",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Topping.",
+          "price": 0.7
+        },
+        {
+          "id": "central-cos-boisson-personnalisee-supplements-brisures-de-cookie",
+          "name": "Brisures de cookie",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Topping.",
+          "price": 0.7
+        }
+      ]
+    },
+    {
+      "category": "Autres boissons",
+      "dishes": [
+        {
+          "id": "central-cos-autres-boissons-frappe-chocolat",
+          "name": "Frappé chocolat",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson glacée, 350 ml.",
+          "price": 5.9
+        },
+        {
+          "id": "central-cos-autres-boissons-frappe-vanille",
+          "name": "Frappé vanille",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boisson glacée, 350 ml.",
+          "price": 5.9
+        }
+      ]
+    },
+    {
+      "category": "Les douceurs",
+      "dishes": [
+        {
+          "id": "central-cos-les-douceurs-cookie-pepites-de-chocolat-noir",
+          "name": "Cookie pépites de chocolat noir",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-cookie-noisettes-et-pralin",
+          "name": "Cookie noisettes et pralin",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-cookie-chocolat-blanc-et-cranberries",
+          "name": "Cookie chocolat blanc et cranberries",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-cookie-pralines-roses-et-amandes",
+          "name": "Cookie pralines roses et amandes",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-cookie-chocolat-cacahuetes-et-beurre-de-cacahuete-maison",
+          "name": "Cookie chocolat, cacahuètes et beurre de cacahuète maison",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-cookie-sesame-et-chocolat-lait-caramel",
+          "name": "Cookie sésame et chocolat lait caramel",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sans gluten, selon la carte.",
+          "price": 3.9
+        },
+        {
+          "id": "central-cos-les-douceurs-lemon-cake",
+          "name": "Lemon cake",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 5
+        },
+        {
+          "id": "central-cos-les-douceurs-bostocks",
+          "name": "Bostocks",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 5
+        }
+      ]
+    },
+    {
+      "category": "Pour les toutous tout doux",
+      "dishes": [
+        {
+          "id": "central-cos-pour-les-toutous-tout-doux-pup-cup",
+          "name": "Pup Cup",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Petit pot de chantilly sans sucre et sans lactose pour les chiens qui accompagnent leurs maîtres. Recette changeante : coco, lait sans lactose, beurre de cacahuète, caroube.",
+          "price": 0.5
+        }
+      ]
+    }
+  ]
+}

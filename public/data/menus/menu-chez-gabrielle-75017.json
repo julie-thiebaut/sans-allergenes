@@ -1,0 +1,1049 @@
+{
+  "menuId": "menu-chez-gabrielle-75017",
+  "restaurantId": "chez-gabrielle-75017",
+  "categories": [
+    {
+      "category": "Carte - ENTREE",
+      "dishes": [
+        {
+          "id": "zenchef-1058633-tartare-de-bar-a-la-fleur-de-sel-et-ses-condiments-citron-et",
+          "name": "Tartare de bar à la fleur de sel et ses condiments, citron et vinaigre de cidre",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058667-asperges-blanches-du-maine-et-loire-facon-gribiche",
+          "name": "Asperges blanches du Maine et Loire façon Gribiche",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058660-poelee-d-escargots-et-champignons-de-paris-au-beurre-aille-c",
+          "name": "Poêlée d’escargots et champignons de Paris au beurre aillé, crème de céleri et émulsion de persil",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058662-espuma-de-choux-fleurs-poelee-de-gambas-et-bisque-de-gambas-",
+          "name": "Espuma de choux-fleurs, poêlée de Gambas et bisque de Gambas au whisky",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "zenchef-1058669-escalopine-de-foie-gras-sur-un-toast-de-pain-d-epices-gelee-",
+          "name": "Escalopine de foie gras sur un toast de pain d'épices, gelée de Gaillac et réduction de jus de raisin",
+          "price": 19,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Carte - PLAT",
+      "dishes": [
+        {
+          "id": "zenchef-1058672-rognon-de-veau-a-l-armagnac-gratin-dauphinois-maison",
+          "name": "Rognon de veau à l'Armagnac, gratin dauphinois maison",
+          "price": 29,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058674-paleron-de-veau-confit-longue-cuisson-au-vin-rouge-et-au-por",
+          "name": "Paleron de veau confit longue cuisson au vin rouge, et au Porto, aligot de panais et tomme fraîche",
+          "price": 29,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058673-filet-de-boeuf-a-la-creme-de-gorgonzola-et-son-gratin-dauphi",
+          "name": "Filet de boeuf à la crème de Gorgonzola et son gratin dauphinois maison",
+          "price": 32,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058675-poisson-du-jour-mousseline-de-choux-fleurs-coulis-de-cresson",
+          "name": "Poisson du jour, mousseline de choux-fleurs, coulis de cresson et ses condiments",
+          "price": 29,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Selon l'arrivage. Condiments : éclats de chou-fleur crus et coques cuisinées."
+        },
+        {
+          "id": "zenchef-1058676-poisson-du-jour-et-asperges-vertes-a-l-huile-vierge-emulsion",
+          "name": "Poisson du jour et asperges vertes à l'huile vierge, émulsion morilles",
+          "price": 29,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Selon l'arrivage."
+        },
+        {
+          "id": "zenchef-1058677-pave-de-thon-sur-un-ecrase-de-pommes-de-terre-vinaigrette-ep",
+          "name": "Pavé de thon sur un écrasé de pommes de terre, vinaigrette épicée, sucrine et copeaux de parmesan",
+          "price": 29,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058678-saint-jacques-flambees-au-noilly-prat-champignons-de-paris-e",
+          "name": "Saint Jacques flambées au Noilly Prat, champignons de Paris et girolles, sauce crémée",
+          "price": 32,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Recette historique de la maison, à la carte depuis près de cinquante ans."
+        }
+      ]
+    },
+    {
+      "category": "Carte - DESSERT",
+      "dishes": [
+        {
+          "id": "zenchef-1058679-dessert-italien-facon-tiramisu",
+          "name": "Dessert Italien façon tiramisu",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un fond de glace artisanale expresso, chantilly de mascarpone et marsala et biscuits cafés"
+        },
+        {
+          "id": "zenchef-1058680-souffle-au-chocolat-valrhona-caraibe-66-et-riz-souffle-caram",
+          "name": "Soufflé au chocolat Valrhona Caraïbe 66% et riz soufflé caramélisé",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058681-autour-de-la-fraise-fraises-sorbet-des-de-fraises-confits-au",
+          "name": "Autour de la fraise! Fraises, sorbet, dés de fraises confits au poivre, tuile et chantilly basilic-citron",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058682-gateau-mollet-a-la-chataigne-et-sa-glace-vanille",
+          "name": "Gâteau mollet à la châtaigne et sa glace vanille",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1058683-peche-rotie-au-cognac-et-creme-brulee-au-citron",
+          "name": "Pêche rôtie au Cognac et crème brûlée au citron",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le dessert de la maison."
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Bourgogne rouge",
+      "dishes": [
+        {
+          "id": "zenchef-1058700-maranges-1er-cru",
+          "name": "Maranges 1er cru",
+          "price": 43,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Edmont Monnot. Bouteille : 43 € ; 1/2 bouteille : 25 €."
+        },
+        {
+          "id": "zenchef-1058705-givry",
+          "name": "Givry",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le petit clos du Cellier"
+        },
+        {
+          "id": "zenchef-1058706-chorey-les-beaune",
+          "name": "Chorey les Beaune",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Maillard. Bouteille : 52 € ; 1/2 bouteille : 30 €."
+        },
+        {
+          "id": "zenchef-1058717-pommard",
+          "name": "Pommard",
+          "price": 75,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Maillard, 2020"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Bourgogne blanc",
+      "dishes": [
+        {
+          "id": "zenchef-1058721-chablis",
+          "name": "Chablis",
+          "price": 48,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Fèvre Nathalie et Gilles"
+        },
+        {
+          "id": "zenchef-1199328-chablis-1-2-bouteille",
+          "name": "Chablis 1/2 bouteille",
+          "price": 28,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Fèvre Nathalie et Gilles"
+        },
+        {
+          "id": "zenchef-1058722-chorey-les-beaune",
+          "name": "Chorey Les Beaune",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Maillard, 2021. Bouteille : 52 € ; 1/2 bouteille : 29 €."
+        },
+        {
+          "id": "zenchef-1058727-mercurey",
+          "name": "Mercurey",
+          "price": 59,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Les Margotons, Domaine du Cellier aux Moines"
+        },
+        {
+          "id": "zenchef-1058729-chassagne-montrachet-1er-cru-morgeot",
+          "name": "Chassagne-Montrachet 1er cru Morgeot",
+          "price": 95,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "P&L Borgeot"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Vallée de la Loire rosé",
+      "dishes": [
+        {
+          "id": "zenchef-1058767-reuilly",
+          "name": "Reuilly",
+          "price": 38,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La Grande Pièce, Nathalie Lafond"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Vallée de la Loire rouge",
+      "dishes": [
+        {
+          "id": "zenchef-1058733-reuilly",
+          "name": "Reuilly",
+          "price": 38,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Les Grandes Vignes, Nathalie Lafond"
+        },
+        {
+          "id": "zenchef-1058735-sancerre",
+          "name": "Sancerre",
+          "price": 49,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Petite Poussière, Alphonse Mellot"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Vallée de la Loire blanc",
+      "dishes": [
+        {
+          "id": "zenchef-1058739-reuilly",
+          "name": "Reuilly",
+          "price": 38,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La Raie, Nathalie Lafond,"
+        },
+        {
+          "id": "zenchef-1058736-sancerre",
+          "name": "Sancerre",
+          "price": 45,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La Moussière, Alphonse Mellot,"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Vallée du Rhône rouge",
+      "dishes": [
+        {
+          "id": "zenchef-1058747-saint-joseph",
+          "name": "Saint Joseph",
+          "price": 52,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La Cuvée de Papy, Stéphane Montez"
+        },
+        {
+          "id": "zenchef-1058750-cote-rotie",
+          "name": "Côte Rôtie",
+          "price": 70,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "La Germine, Benjamin et David Duclaux,"
+        },
+        {
+          "id": "zenchef-1285046-cote-rotie",
+          "name": "Côte Rôtie",
+          "price": 110,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bons Arrets, Stéphane Montez"
+        },
+        {
+          "id": "zenchef-1199336-chateauneuf-du-pape",
+          "name": "Châteauneuf du Pape",
+          "price": 80,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine de Saint Paul"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Vallée du Rhône blanc",
+      "dishes": [
+        {
+          "id": "zenchef-1058751-saint-joseph",
+          "name": "Saint Joseph",
+          "price": 50,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Stéphane Montez"
+        },
+        {
+          "id": "zenchef-1058753-condrieu",
+          "name": "Condrieu",
+          "price": 70,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Les Caillets, Benjamin et David Duclaux,"
+        },
+        {
+          "id": "zenchef-1285049-condrieu",
+          "name": "Condrieu",
+          "price": 80,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chanson, Stéphane Montez"
+        },
+        {
+          "id": "zenchef-1199339-chateauneuf-du-pape",
+          "name": "Châteauneuf du Pape",
+          "price": 75,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine de Saint Paul"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Bordeaux rouge",
+      "dishes": [
+        {
+          "id": "zenchef-1058760-saint-georges-saint-emilion",
+          "name": "Saint Georges Saint Emilion",
+          "price": 44,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Clos Haut Troquart, J.Appolllot. Bouteille : 44 € ; 1/2 bouteille : 24 €."
+        },
+        {
+          "id": "zenchef-1058763-saint-emilion-grand-cru",
+          "name": "Saint Emilion Grand Cru",
+          "price": 51,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Clos Trimoulet, EARL Appolllot. Bouteille : 51 € ; 1/2 bouteille : 29 €."
+        },
+        {
+          "id": "zenchef-1058765-moulis-en-medoc",
+          "name": "Moulis en Médoc",
+          "price": 90,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Château Chasse Spleen, 2015"
+        },
+        {
+          "id": "zenchef-1199343-saint-julien-chateau-beychevelle",
+          "name": "Saint Julien, Château Beychevelle",
+          "price": 120,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Château Chasse Spleen, 2015"
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Provence rosé",
+      "dishes": [
+        {
+          "id": "zenchef-1058770-cotes-de-provence",
+          "name": "Côtes de Provence",
+          "price": 40,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine des Peirecédes. Bouteille : 40 € ; 50 cl : 34 €."
+        }
+      ]
+    },
+    {
+      "category": "Carte des vins - Languedoc blanc",
+      "dishes": [
+        {
+          "id": "zenchef-1058778-pacherenc-du-vic-bilh",
+          "name": "Pacherenc du Vic Bilh",
+          "price": 33,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Domaine Laplace,"
+        }
+      ]
+    }
+  ]
+}
