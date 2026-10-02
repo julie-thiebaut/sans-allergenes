@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 interface ImageWithPlaceholderProps {
   src?: string;
   alt: string;
@@ -5,7 +7,11 @@ interface ImageWithPlaceholderProps {
 }
 
 export function ImageWithPlaceholder({ src, alt, className = "" }: ImageWithPlaceholderProps) {
-  if (!src) {
+  // Les photos sont servies depuis le site de chaque enseigne : si l'une disparaît ou si le site
+  // la bloque, on retombe sur le gabarit plutôt que d'afficher une image cassée. L'adresse en
+  // échec est mémorisée, pour qu'un changement de photo retente le chargement.
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  if (!src || failedSrc === src) {
     return (
       <div
         className={`flex items-center justify-center bg-gradient-to-br from-brand-100 to-brand-300 text-brand-700 ${className}`}
@@ -32,5 +38,13 @@ export function ImageWithPlaceholder({ src, alt, className = "" }: ImageWithPlac
     );
   }
 
-  return <img src={src} alt={alt} className={className} loading="lazy" />;
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      loading="lazy"
+      onError={() => setFailedSrc(src)}
+    />
+  );
 }

@@ -83,21 +83,6 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
 
       <AllergenSafetyDisclaimer />
 
-      {/* Séparé de la description et en rouge : ce n'est pas de la présentation, c'est une mise
-          en garde sur ce que la déclaration de l'établissement NE couvre PAS. Les plats non
-          couverts ne figurent pas dans la carte ci-dessous, faute de quoi ils passeraient pour
-          déclarés sans allergène. */}
-      {restaurant.allergenCoverageNotice && (
-        <p
-          role="alert"
-          // Même gabarit que le disclaimer juste au-dessus (role="note") : même taille de texte,
-          // même padding, même rayon. Seule la couleur distingue l'avertissement de la note.
-          className="mt-4 rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-800"
-        >
-          {restaurant.allergenCoverageNotice}
-        </p>
-      )}
-
       <div className="mt-6 space-y-8">
         {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
 
@@ -163,6 +148,22 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
             Contactez directement l&rsquo;établissement avant de commander si vous avez une
             allergie.
+          </p>
+        )}
+
+        {/* En rouge et APRÈS la carte : ce n'est pas de la présentation, c'est une mise en garde
+            sur ce que la déclaration de l'établissement NE couvre PAS. Les plats non couverts ne
+            figurent pas dans la carte ci-dessus, faute de quoi ils passeraient pour déclarés sans
+            allergène. Placé en tête, il retardait ce que le lecteur vient chercher, les plats ;
+            en fin de carte, il répond à la question qui vient alors, « et le reste ? ». */}
+        {restaurant.allergenCoverageNotice && (
+          <p
+            role="alert"
+            // Même gabarit que le disclaimer en tête de fiche (role="note") : même taille de
+            // texte, même padding, même rayon. Seule la couleur distingue l'avertissement.
+            className="rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-800"
+          >
+            {restaurant.allergenCoverageNotice}
           </p>
         )}
       </div>
