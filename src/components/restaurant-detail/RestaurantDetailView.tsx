@@ -14,6 +14,7 @@ import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
 import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
+import { ContactRestaurantCallout, ReportProblemLink } from "./RestaurantContact";
 
 const MENU_FILTER_DESCRIPTION =
   "Les plats déclarant cet allergène comme présent sont masqués. Les plats « traces possibles » " +
@@ -166,6 +167,8 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             {restaurant.allergenCoverageNotice}
           </p>
         )}
+
+        <ContactRestaurantCallout restaurant={restaurant} />
       </div>
 
       <footer className="mt-8 border-t border-neutral-200 pt-4 text-sm text-neutral-500">
@@ -203,6 +206,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         {restaurant.lastVerifiedAt && (
           <p>Dernière vérification : {formatVerifiedDate(restaurant.lastVerifiedAt)}</p>
         )}
+        <ReportProblemLink restaurant={restaurant} />
       </footer>
     </article>
   );

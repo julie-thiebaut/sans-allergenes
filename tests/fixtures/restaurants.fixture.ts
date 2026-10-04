@@ -22,6 +22,7 @@ export const restaurantWithFullInfo: RestaurantWithMenu = {
   },
   menuId: "menu-full-info",
   menu: fullInfoMenu,
+  contact: { email: "service.client@example.com", scope: "enseigne" },
 };
 
 export const restaurantWithoutAllergenInfo: RestaurantWithMenu = {

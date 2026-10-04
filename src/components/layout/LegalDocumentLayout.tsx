@@ -27,7 +27,7 @@ export function LegalDocumentLayout({
             </p>
             <h1 className="mt-2 text-3xl font-bold text-neutral-900 sm:text-4xl">{title}</h1>
             <p className="mt-4 max-w-2xl leading-relaxed text-neutral-600">{introduction}</p>
-            <p className="mt-3 text-sm text-neutral-500">Dernière mise à jour : 11 août 2026</p>
+            <p className="mt-3 text-sm text-neutral-500">Dernière mise à jour : 4 octobre 2026</p>
           </header>
 
           <div className="space-y-10 py-8 text-neutral-700">{children}</div>

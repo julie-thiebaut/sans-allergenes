@@ -151,7 +151,8 @@ export function LegalNoticePage() {
           <a className={LINK_CLASS} href="mailto:contact@sans-allergenes.fr">
             contact@sans-allergenes.fr
           </a>
-          . Merci d’indiquer le restaurant, la page concernée et, si possible, une source à jour.
+          , ou par le bouton « Signaler un problème » de chaque fiche, qui prépare le message. Merci
+          d’indiquer le restaurant, la page concernée et, si possible, une source à jour.
         </p>
       </Section>
 

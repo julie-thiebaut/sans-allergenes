@@ -156,6 +156,12 @@ export function PrivacyPage() {
           leurs paramètres d’URL. Le contenu des filtres, notamment le paramètre relatif aux
           allergènes à éviter, n’est donc pas transmis à l’outil de mesure d’audience.
         </p>
+        <p>
+          Le bouton « Contacter le restaurant » ouvre votre messagerie sur un message adressé au
+          restaurant ou à son enseigne. Le message part directement de vous : il ne transite pas par
+          Sans Allergènes, qui n’en a pas connaissance. Ce que vous y écrivez, notamment sur une
+          allergie, relève alors de la politique de confidentialité du restaurant.
+        </p>
       </Section>
 
       <Section id="cookies" title="4. Cookies et services tiers">

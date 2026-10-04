@@ -81,6 +81,33 @@ describe("RestaurantDetailPage (open/close)", () => {
     expect(screen.queryByText(/\bsafe\b|sûr|sans risque/i)).not.toBeInTheDocument();
   });
 
+  it("invites the visitor to ask the restaurant to clarify its allergens, by e-mail", () => {
+    renderDetailPage("/restaurant/le-restaurant-complet");
+    // Une seule fois, après la carte : pas de bouton en tête de fiche.
+    const button = screen.getByRole("link", { name: "Contacter le restaurant" });
+    expect(button.getAttribute("href")).toMatch(/^mailto:service\.client@example\.com\?subject=/);
+    expect(screen.getByText(/préciser sa carte des allergènes/)).toBeInTheDocument();
+    expect(screen.getByText(/adressé au service client de l.enseigne/)).toBeInTheDocument();
+  });
+
+  it("shows no contact box at all when the restaurant publishes no address", () => {
+    renderDetailPage("/restaurant/le-mystere");
+    expect(screen.queryByText(/une question sur un plat ou un allergène/i)).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole("link", { name: /contacter le restaurant/i }),
+    ).not.toBeInTheDocument();
+  });
+
+  it("sends problem reports to the publisher, never to the restaurant", () => {
+    renderDetailPage("/restaurant/le-restaurant-complet");
+    const report = screen.getByRole("link", { name: /signaler un problème/i });
+    const href = report.getAttribute("href") ?? "";
+    expect(href).toMatch(/^mailto:contact@sans-allergenes\.fr\?/);
+    expect(decodeURIComponent(href)).toContain(
+      "https://sans-allergenes.fr/restaurant/le-restaurant-complet/",
+    );
+  });
+
   it("closes back to the map via the back link", async () => {
     const user = userEvent.setup();
     renderDetailPage("/restaurant/le-restaurant-complet");

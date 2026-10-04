@@ -29,6 +29,15 @@ describe("RestaurantSchema", () => {
     const result = RestaurantSchema.safeParse({ ...rawRestaurant(), priceLevel: 7 });
     expect(result.success).toBe(false);
   });
+
+  it("rejects a contact without a valid e-mail address, a contact form included", () => {
+    const form = { formUrl: "https://example.com/contact", scope: "restaurant" };
+    const noEmail = { scope: "enseigne" };
+    const badEmail = { email: "pas-une-adresse", scope: "enseigne" };
+    for (const contact of [form, noEmail, badEmail]) {
+      expect(RestaurantSchema.safeParse({ ...rawRestaurant(), contact }).success).toBe(false);
+    }
+  });
 });
 
 describe("RestaurantListSchema", () => {

@@ -9,6 +9,7 @@ export type {
   MenuCategory,
   PriceLevel,
   Restaurant,
+  RestaurantContact,
   SourceKind,
 } from "./schemas";
 

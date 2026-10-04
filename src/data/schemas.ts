@@ -68,6 +68,23 @@ export const RestaurantSourceSchema = z
     message: 'source.kind "published" exige une url, "on_request" interdit d\'en avoir une',
   });
 
+/**
+ * Qui lira le message : `restaurant`, l'établissement lui-même ; `enseigne`, le service client de
+ * la chaîne. La fiche le dit, pour que personne ne croie écrire au comptoir quand le message part
+ * au siège.
+ */
+export const CONTACT_SCOPES = ["restaurant", "enseigne"] as const;
+
+/**
+ * L'adresse e-mail que le restaurant publie sur son site. Un restaurant qui n'offre qu'un
+ * formulaire n'en a pas : le message ne pourrait pas être prérempli, et la fiche n'affiche alors
+ * aucun encart de contact.
+ */
+export const RestaurantContactSchema = z
+  .object({ email: z.string().email(), scope: z.enum(CONTACT_SCOPES) })
+  .strict();
+export type RestaurantContact = z.infer<typeof RestaurantContactSchema>;
+
 export const RestaurantSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
@@ -84,6 +101,7 @@ export const RestaurantSchema = z.object({
   description: z.string().optional(),
   websiteUrl: z.string().url().optional(),
   phone: z.string().optional(),
+  contact: RestaurantContactSchema.optional(),
   priceLevel: PriceLevelSchema.optional(),
   /**
    * Autres documents allergènes publiés par l'établissement, en plus de celui qui a alimenté

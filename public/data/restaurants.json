@@ -39,7 +39,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-pyramides",
@@ -81,7 +85,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-petit-cafe-par-cojean",
@@ -123,7 +131,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-bourse",
@@ -165,7 +177,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-choiseul",
@@ -207,7 +223,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-bac",
@@ -249,7 +269,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-raspail",
@@ -291,7 +315,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-bienfaisance",
@@ -333,7 +361,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-miromesnil",
@@ -375,7 +407,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-hoche",
@@ -417,7 +453,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-marbeuf",
@@ -459,7 +499,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-mathurins",
@@ -501,7 +545,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-roosevelt",
@@ -543,7 +591,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-saint-lazare",
@@ -584,7 +636,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-surene",
@@ -626,7 +682,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-washington",
@@ -668,7 +728,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-amsterdam",
@@ -710,7 +774,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-grands-boulevards",
@@ -752,7 +820,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-haussmann",
@@ -794,7 +866,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-laffitte",
@@ -836,7 +912,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-madeleine",
@@ -878,7 +958,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-printemps",
@@ -920,7 +1004,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-provence",
@@ -962,7 +1050,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-trinite",
@@ -1004,7 +1096,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-gare-de-lyon",
@@ -1045,7 +1141,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-mendes-france",
@@ -1087,7 +1187,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-gaite",
@@ -1129,7 +1233,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-beaugrenelle",
@@ -1171,7 +1279,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-poincare",
@@ -1213,7 +1325,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-victor-hugo",
@@ -1255,7 +1371,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-poncelet",
@@ -1297,7 +1417,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cojean-prony",
@@ -1339,7 +1463,11 @@
         "url": "https://minio.cojean.fr/www/INFOS_NUTRITIONNELLES_ALLERGENES_BOISSONS.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "qualite@cojean.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bioburger-montorgueil",
@@ -1370,7 +1498,11 @@
     "priceLevel": 2,
     "menuId": "menu-bioburger-montorgueil",
     "allergenCoverageNotice": "Les informations allergènes publiées par Bioburger ne couvrent pas les éléments suivants : les Smash, les Italien, les Camemberts panés et les frites. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://media.zelty.fr/images/322/ed571.jpg"
+    "imageUrl": "https://media.zelty.fr/images/322/ed571.jpg",
+    "contact": {
+      "email": "wecare@bioburger.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bioburger-le-marais",
@@ -1401,7 +1533,11 @@
     "priceLevel": 2,
     "menuId": "menu-bioburger-le-marais",
     "allergenCoverageNotice": "Les informations allergènes publiées par Bioburger ne couvrent pas les éléments suivants : les Smash, les Italien, les Camemberts panés et les frites. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://media.zelty.fr/images/322/4b691.jpg"
+    "imageUrl": "https://media.zelty.fr/images/322/4b691.jpg",
+    "contact": {
+      "email": "wecare@bioburger.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bioburger-victoire",
@@ -1432,7 +1568,11 @@
     "priceLevel": 2,
     "menuId": "menu-bioburger-victoire",
     "allergenCoverageNotice": "Les informations allergènes publiées par Bioburger ne couvrent pas les éléments suivants : les Smash, les Italien, les Camemberts panés et les frites. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://media.zelty.fr/images/322/1d7a1.jpg"
+    "imageUrl": "https://media.zelty.fr/images/322/1d7a1.jpg",
+    "contact": {
+      "email": "wecare@bioburger.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bioburger-gobelins",
@@ -1463,7 +1603,11 @@
     "priceLevel": 2,
     "menuId": "menu-bioburger-gobelins",
     "allergenCoverageNotice": "Les informations allergènes publiées par Bioburger ne couvrent pas les éléments suivants : les Smash, les Italien, les Camemberts panés et les frites. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://media.zelty.fr/images/322/bda61.jpg"
+    "imageUrl": "https://media.zelty.fr/images/322/bda61.jpg",
+    "contact": {
+      "email": "wecare@bioburger.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bioburger-batignolles",
@@ -1494,7 +1638,11 @@
     "priceLevel": 2,
     "menuId": "menu-bioburger-batignolles",
     "allergenCoverageNotice": "Les informations allergènes publiées par Bioburger ne couvrent pas les éléments suivants : les Smash, les Italien, les Camemberts panés et les frites. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://media.zelty.fr/images/322/63711.jpg"
+    "imageUrl": "https://media.zelty.fr/images/322/63711.jpg",
+    "contact": {
+      "email": "wecare@bioburger.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-rambuteau",
@@ -1522,7 +1670,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-gare-du-nord",
@@ -1550,7 +1702,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-gare-de-l-est",
@@ -1578,7 +1734,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-bercy",
@@ -1606,7 +1766,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-avenue-de-france",
@@ -1634,7 +1798,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-montparnasse",
@@ -1662,7 +1830,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "exki-kleber",
@@ -1690,7 +1862,11 @@
       "kind": "published"
     },
     "menuId": "menu-exki",
-    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg"
+    "imageUrl": "https://www.exki.com/web/image/1166143-6e5d2775/Exki%20Beurs%20-10-12-25%20-%20Opening17%20%281%29.jpg",
+    "contact": {
+      "email": "hello@exki.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "leon-les-halles",
@@ -1720,7 +1896,11 @@
     "menuId": "menu-leon-les-halles",
     "allergenCoverageNotice": "Les informations allergènes publiées par Léon ne couvrent pas les éléments suivants : les croquettes de chèvre, la planche seafood, le fish crumble, la salade de thon mi-cuit, les pasta salmon balls, le mix platter, les gaufres cherry pistacchio et brownie, et la coupe caramel pop corn. Ils ne sont donc pas repris sur ce site.",
     "description": "Brasserie de poissons et fruits de mer depuis 1893 : moules-frites en cocotte, fish & chips de pêche française, burgers de la mer, paëlla et poisson frais, gaufres et coupes glacées, cocktails, bières et vins. Service continu, menus du déjeuner.",
-    "imageUrl": "https://a.storyblok.com/f/339489/af488a711a/lzlghfciotpfesbyf3qy4w0fpmmpquxj6oy-sk5-6hk_2000x1500.png/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/339489/af488a711a/lzlghfciotpfesbyf3qy4w0fpmmpquxj6oy-sk5-6hk_2000x1500.png/m/1200x0",
+    "contact": {
+      "email": "support@serviceclientsleon.zendesk.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "leon-montparnasse",
@@ -1750,7 +1930,11 @@
     "menuId": "menu-leon-montparnasse",
     "allergenCoverageNotice": "Les informations allergènes publiées par Léon ne couvrent pas les éléments suivants : le demi-crabe et les huîtres. Ils ne sont donc pas repris sur ce site.",
     "description": "Brasserie de poissons et fruits de mer depuis 1893 : moules-frites en cocotte, fish & chips de pêche française, burgers de la mer, paëlla et poisson frais, gaufres et coupes glacées, cocktails, bières et vins. Service continu, menus du déjeuner.",
-    "imageUrl": "https://a.storyblok.com/f/339489/058be0f418/qh9a9vdxgumevr7emjr7ggerkrbmvr6ioiw4va2adpc_3780x2835.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/339489/058be0f418/qh9a9vdxgumevr7emjr7ggerkrbmvr6ioiw4va2adpc_3780x2835.jpg/m/1200x0",
+    "contact": {
+      "email": "support@serviceclientsleon.zendesk.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "noglu-grenelle",
@@ -1779,7 +1963,11 @@
     },
     "phone": "01 58 90 18 12",
     "menuId": "menu-noglu",
-    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg"
+    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg",
+    "contact": {
+      "email": "contact@noglu.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "noglu-basfroi",
@@ -1808,7 +1996,11 @@
     },
     "phone": "01 42 36 52 50",
     "menuId": "menu-noglu",
-    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg"
+    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg",
+    "contact": {
+      "email": "contact@noglu.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "noglu-pont-traverse",
@@ -1837,7 +2029,11 @@
     },
     "phone": "01 43 42 95 14",
     "menuId": "menu-noglu-pont-traverse",
-    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg"
+    "imageUrl": "https://noglu.fr/cdn/shop/files/NoGlu-Sept-2020-69-min.jpg",
+    "contact": {
+      "email": "contact@noglu.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-chatelet-75001",
@@ -1865,7 +2061,11 @@
     },
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-sebastopol-75001",
@@ -1893,7 +2093,11 @@
     },
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-soufflot-75005",
@@ -1922,7 +2126,11 @@
     "phone": "01 56 24 16 61",
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-gare-de-lyon-75012",
@@ -1951,7 +2159,11 @@
     "phone": "01 43 43 31 98",
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-gare-de-lyon-meteor-75012",
@@ -1980,7 +2192,11 @@
     "phone": "01 43 43 31 98",
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-italie-2-75013",
@@ -2008,7 +2224,11 @@
     },
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "columbus-gare-montparnasse-75015",
@@ -2037,7 +2257,11 @@
     "phone": "06 27 37 17 70",
     "menuId": "menu-columbus",
     "description": "Coffee shop né il y a trente ans, 250 adresses dans sept pays : cafés bio torréfiés en France, lattes, chocolats et thés, boissons glacées et milkshakes, et la spécialité de la maison, le muffin préparé chaque jour par les baristas. Côté salé, bagels, clubs, ciabattas, croque-monsieur, salades et buddha bowls ; côté sucré, cookies, brownies, cheesecakes et pain perdu. Alternatives végétales pour les boissons lactées.",
-    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg"
+    "imageUrl": "https://columbus-uploads.cellar-c2.services.clever-cloud.com/uploads/2020/03/Columbus_Novembre_2025_Sebastien_Dray_283-scaled-e1773057649767-1100x1100.jpg",
+    "contact": {
+      "email": "serviceclient@columbuscafe.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75009",
@@ -2095,7 +2319,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6930779712a78bddbdfc1127_beaugrenelle%20(2)-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6930779712a78bddbdfc1127_beaugrenelle%20(2)-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-75012",
@@ -2125,7 +2353,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d0591645ff95d90b308c_bercy-village-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d0591645ff95d90b308c_bercy-village-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-75010",
@@ -2155,7 +2387,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909c8795c2dd3a69241745d_bonne%20nouvelle-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909c8795c2dd3a69241745d_bonne%20nouvelle-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-75009",
@@ -2185,7 +2421,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d5beb5b8de9c9fc9516d_clichy-landscape-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d5beb5b8de9c9fc9516d_clichy-landscape-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-club-maine-75014",
@@ -2215,7 +2455,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d5cfeacefd8d9ab06bb8_club-maine-landscape-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d5cfeacefd8d9ab06bb8_club-maine-landscape-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-denfert-rochereau-75014",
@@ -2245,7 +2489,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909c9b1b0d28e7f9789e988_denfert-rochereau.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909c9b1b0d28e7f9789e988_denfert-rochereau.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-75001",
@@ -2275,7 +2523,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909ca06a24882d37d3c65d9_les-halles-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909ca06a24882d37d3c65d9_les-halles-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-montparnasse-75014",
@@ -2305,7 +2557,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909ca44501eb30a768f346a_montparnasse-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909ca44501eb30a768f346a_montparnasse-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-republique-75003",
@@ -2335,7 +2591,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909caccbd66db0f4fe6256c_republique-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909caccbd66db0f4fe6256c_republique-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-75009-2",
@@ -2365,7 +2625,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d68bcfa4dedc825dde05_richelieu-landscape-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d68bcfa4dedc825dde05_richelieu-landscape-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-saint-cloud-75016",
@@ -2395,7 +2659,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d6ece99c2f3bf4161d00_saint-cloud-landscape-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d6ece99c2f3bf4161d00_saint-cloud-landscape-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-ternes-75008",
@@ -2425,7 +2693,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d767ade913c8a843e63d_ternes-landscape-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909d767ade913c8a843e63d_ternes-landscape-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "indiana-cafe-tolbiac-75013",
@@ -2455,7 +2727,11 @@
     "menuId": "menu-indiana-cafe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Indiana Café ne couvrent pas l'élément suivant : le hot cookie sundae. Il n'est donc pas repris sur ce site.",
     "description": "Pionnier de la cuisine tex-mex à Paris depuis 1988 : tapas, nachos, quesadillas, burgers, tacos, burritos, fajitas, grillades, desserts et plus de trente cocktails, en service continu du matin à la nuit, avec un happy hour tous les jours de 17 h à 20 h. Ambiance américaine ; tables de billard et écran géant dans plusieurs adresses.",
-    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909cbc8e69cae02345e4c0c_tolbiac-p-1080.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/67faec3b2d1b01e097ba65a9/6909cbc8e69cae02345e4c0c_tolbiac-p-1080.avif",
+    "contact": {
+      "email": "contact@indianacafe.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75008",
@@ -2564,7 +2840,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-bosquet-75007",
@@ -2592,7 +2872,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-ecole-militaire-75007",
@@ -2620,7 +2904,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-montmartre-75018",
@@ -2648,7 +2936,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-kanope-75009",
@@ -2677,7 +2969,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-pompidou-75004",
@@ -2705,7 +3001,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "kozy-south-pigalle-75009",
@@ -2733,7 +3033,11 @@
     "menuId": "menu-kozy",
     "allergenCoverageNotice": "Les informations allergènes publiées par Kozy ne couvrent pas l'élément suivant : la tartine figues et pistou de pistache. Il n'est donc pas repris sur ce site.",
     "description": "Salons de brunch et de café de spécialité, ouverts tous les jours : le all-day brunch à toute heure, avec les incontournables revisités (pancakes, œufs bénédicte, breakfast burritos, gaufres, french brioche, granola), une édition limitée de saison, cafés, matchas, lattes et thés glacés, smoothies et pâtisseries, sur place ou à emporter.",
-    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg"
+    "imageUrl": "https://kozy.fr/wp-content/uploads/2025/05/DSC04460-scaled.jpg",
+    "contact": {
+      "email": "contact@kozy.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-opera-75009",
@@ -3344,7 +3648,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-de-l-opera-75002",
@@ -3381,7 +3689,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-boulevard-saint-michel-75005",
@@ -3418,7 +3730,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-123-boulevard-haussmann-75008",
@@ -3455,7 +3771,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-marbeuf-75008",
@@ -3492,7 +3812,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-duphot-75008",
@@ -3529,7 +3853,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-marceau-75008",
@@ -3566,7 +3894,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-des-champs-elysees-75008",
@@ -3603,7 +3935,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-91-boulevard-haussmann-75008",
@@ -3640,7 +3976,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-passage-du-havre-75009",
@@ -3677,7 +4017,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-de-seze-75009",
@@ -3714,7 +4058,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-saint-lazare-75009",
@@ -3750,7 +4098,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-tronchet-75009",
@@ -3787,7 +4139,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-la-fayette-75009",
@@ -3824,7 +4180,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-75-rue-saint-lazare-75009",
@@ -3861,7 +4221,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-du-nord-75010",
@@ -3897,7 +4261,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-du-nord-kiosque-75010",
@@ -3933,7 +4301,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-de-lyon-rue-de-bercy-75012",
@@ -3969,7 +4341,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-de-lyon-hall-1-75012",
@@ -4006,7 +4382,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-de-france-75013",
@@ -4043,7 +4423,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-d-italie-75013",
@@ -4080,7 +4464,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-avenue-pierre-mendes-france-75013",
@@ -4117,7 +4505,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-montparnasse-kiosque-75015",
@@ -4154,7 +4546,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-gare-montparnasse-75015",
@@ -4191,7 +4587,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pret-a-manger-rue-mstislav-rostropovitch-75017",
@@ -4228,7 +4628,11 @@
         "url": "https://assets.ctfassets.net/4zu8gvmtwqss/7tVSWxpqOPfjdrbCu0dVt2/83a14874678b07ad71ecb16391a0d2ab/QMS_0015d_Allergen_Guide_-_MAI_26_-_FR-V4.pdf1.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "customer.serviceparis@pret.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75001",
@@ -4315,7 +4719,11 @@
     "phone": "01 43 07 82 25",
     "menuId": "menu-paradis-bastille",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-75001",
@@ -4344,7 +4752,11 @@
     "phone": "01 40 39 93 99",
     "menuId": "menu-paradis-les-halles",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-wagram-75008",
@@ -4373,7 +4785,11 @@
     "phone": "01 44 09 02 02",
     "menuId": "menu-paradis-wagram",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-saint-michel-75006",
@@ -4402,7 +4818,11 @@
     "phone": "09 79 71 80 79",
     "menuId": "menu-paradis-saint-michel",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-opera-75009",
@@ -4431,7 +4851,11 @@
     "phone": "01 47 70 33 28",
     "menuId": "menu-paradis-opera",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-montparnasse-75014",
@@ -4460,7 +4884,11 @@
     "phone": "01 40 47 53 44",
     "menuId": "menu-paradis-montparnasse",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-george-v-75008",
@@ -4489,7 +4917,11 @@
     "phone": "01 47 20 74 00",
     "menuId": "menu-paradis-george-v",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-bercy-village-75012",
@@ -4518,7 +4950,11 @@
     "phone": "01 43 42 27 28",
     "menuId": "menu-paradis-bercy-village",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-paradis-du-fruit-batignolles-75017",
@@ -4547,7 +4983,11 @@
     "phone": "01 43 87 94 62",
     "menuId": "menu-paradis-batignolles",
     "description": "Restaurant et bar à fruits né en 1982 : salades, toasts chauds, avocado toasts, burgers, marmites, assiettes à composer parmi 23 saveurs, desserts, gaufres, pancakes, coupes glacées et frozen yogurt, jus pressés minute et cocktails de fruits. Brunch tous les jours, formules du midi en semaine.",
-    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/289180802290860/5198x6925/66afce0319/20240828-pdf-x-the-travel-buds-20.jpg/m/1200x0",
+    "contact": {
+      "email": "serviceclient.paradisdufruit@bertrand-franchise.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75009-2",
@@ -4605,7 +5045,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-victoires",
@@ -4635,7 +5079,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-marais",
@@ -4665,7 +5113,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-gare-de-l-est",
@@ -4695,7 +5147,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-charonne",
@@ -4725,7 +5181,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-montparnasse",
@@ -4755,7 +5215,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-montparnasse-y8",
@@ -4784,7 +5248,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-victor-hugo",
@@ -4814,7 +5282,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-pain-quotidien-lepic",
@@ -4844,7 +5316,11 @@
     "menuId": "menu-pain-quotidien",
     "allergenCoverageNotice": "Les informations allergènes publiées par Le Pain Quotidien ne couvrent pas les éléments suivants : le saumon & avocat, le poulet & avocat et la sélection de pains. Ils ne sont donc pas repris sur ce site.",
     "description": "Boulangerie-restaurant née à Bruxelles en 1990 autour de la table commune et du pain au levain bio, pétri, façonné à la main et cuit après 24 heures de fermentation : petits-déjeuners et brunchs, œufs bio, tartines et toasts, bowls, salades, quiches, soupes, viennoiseries et desserts, avec des Meilleurs Choix élaborés avec une nutritionniste et des produits végans marqués sur la carte. Sur place ou à emporter.",
-    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg"
+    "imageUrl": "https://www.datocms-assets.com/138964/1751891519-2022_10_ruedesarchives_terrasse-2-2.jpeg",
+    "contact": {
+      "email": "france@lepainquotidien.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "sonny-s-75011",
@@ -4929,7 +5405,11 @@
     "menuId": "menu-hebe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Hébé ne couvrent pas les éléments suivants : les plats du menu du midi. Ils ne sont donc pas repris sur ce site.",
     "description": "Restaurant de partage au cœur du Quartier latin, à deux pas de Notre-Dame : une cuisine française inventive et de saison, aux saveurs méditerranéennes, en assiettes à partager, signée par la cheffe Sarah Édouard avec Michel Portos, chef consultant doublement étoilé. Carte renouvelée chaque saison ; menus dégustation pour deux ou trois, menu Gourmet et menu végétarien ou végan composés à partir de la carte, menu déjeuner en semaine. Carte des vins élaborée avec Stéphane Derenoncourt, au verre comme en bouteille.",
-    "imageUrl": "https://www.heberestaurant.com/wp-content/uploads/2018/11/Hebe-Restaurant-Paris-1024x628.jpg"
+    "imageUrl": "https://www.heberestaurant.com/wp-content/uploads/2018/11/Hebe-Restaurant-Paris-1024x628.jpg",
+    "contact": {
+      "email": "admin@heberestaurant.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "breakfast-in-america-75005",
@@ -5103,7 +5583,11 @@
     "menuId": "menu-pitaya",
     "allergenCoverageNotice": "Les informations allergènes publiées par Pitaya ne couvrent pas les éléments suivants : les chips de crevettes et les sachets de sauce soja et sriracha. Ils ne sont donc pas repris sur ce site.",
     "description": "Thaï street food : pad thaï, woks de nouilles et de riz, bò bún, bao thaï burgers, poulet crousty et desserts, dans une atmosphère urbaine rappelant Bangkok, avec une cuisine réalisée minute sous les yeux des clients. Recettes équilibrées et produits frais, commande en click & collect.",
-    "imageUrl": "https://a.storyblok.com/f/256036/1460x1070/04b9cf2cae/bao-curry-mango.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/256036/1460x1070/04b9cf2cae/bao-curry-mango.jpg/m/1200x0",
+    "contact": {
+      "email": "service.client@pitaya-thaistreetfood.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pitaya-place-de-clichy-75009",
@@ -5131,7 +5615,11 @@
     "menuId": "menu-pitaya",
     "allergenCoverageNotice": "Les informations allergènes publiées par Pitaya ne couvrent pas les éléments suivants : les chips de crevettes et les sachets de sauce soja et sriracha. Ils ne sont donc pas repris sur ce site.",
     "description": "Thaï street food : pad thaï, woks de nouilles et de riz, bò bún, bao thaï burgers, poulet crousty et desserts, dans une atmosphère urbaine rappelant Bangkok, avec une cuisine réalisée minute sous les yeux des clients. Recettes équilibrées et produits frais, commande en click & collect.",
-    "imageUrl": "https://a.storyblok.com/f/256036/1460x1070/04b9cf2cae/bao-curry-mango.jpg/m/1200x0"
+    "imageUrl": "https://a.storyblok.com/f/256036/1460x1070/04b9cf2cae/bao-curry-mango.jpg/m/1200x0",
+    "contact": {
+      "email": "service.client@pitaya-thaistreetfood.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "amorino-75001",
@@ -5211,7 +5699,11 @@
     "websiteUrl": "https://pizzaarlecchino.fr",
     "menuId": "menu-arlecchino",
     "description": "Pizzeria de la rue Neuve Popincourt, entre Oberkampf et Parmentier : pizzas à la tomate ou à la crème (Margherita, Napolitaine, Quatre saisons, chèvre miel, Pistacchio, Tartuffata), pâtes, salades et desserts italiens, à emporter ou livrés en quarante minutes dans les 2e, 3e, 10e, 11e et 20e. Ouvert sept jours sur sept, midi et soir.",
-    "phone": "01 43 38 07 06"
+    "phone": "01 43 38 07 06",
+    "contact": {
+      "email": "contact@pizzaarlecchino.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "dunkin-montmartre",
@@ -5351,7 +5843,11 @@
     "menuId": "menu-french-coffee-shop",
     "allergenCoverageNotice": "Les informations allergènes publiées par French Coffee Shop ne couvrent pas les éléments suivants : le club chaud et les produits propres à la boutique. Ils ne sont donc pas repris sur ce site.",
     "description": "Coffee shop de l'enseigne française, avenue du Maine : espressos et cafés de spécialité, boissons chaudes ou glacées à composer, frappés, bubble teas et smoothies, pâtisseries et snacking salé, sur place ou à emporter. Ouvert tous les jours de 7 h à 19 h.",
-    "imageUrl": "https://cdn.prod.website-files.com/64c110cfbf2b6e070209a13b/69ce882612a9759b4281192c_DSC00720-p-1600.jpg"
+    "imageUrl": "https://cdn.prod.website-files.com/64c110cfbf2b6e070209a13b/69ce882612a9759b4281192c_DSC00720-p-1600.jpg",
+    "contact": {
+      "email": "contact@frenchcoffeeshop.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "amorino-75007",
@@ -5431,7 +5927,11 @@
     "menuId": "menu-ya-bayte",
     "description": "Street food libanaise faite maison, « un petit air de Beyrouth en plein cœur de Paris » : mézas (hommos, mtabbal, mhammara, fatayir, kébbé), mashéwés grillés (chawarma, taouk, falafel, kafta) et desserts libanais. Fondé par Imad et Carole Kanaan, aussi à la tête d'Hébé et de Didon, avec des recettes élaborées avec le chef Karim Haidar ; produits frais, assiettes préparées à la minute, pain fait maison.",
     "imageUrl": "https://yabayte.com/wp-content/uploads/2021/02/yabayte-libanais-paris5-mhammara-pain-maison.jpg",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Ya Bayté ne couvrent pas l'élément suivant : le supplément kabis. Il n'est donc pas repris sur ce site."
+    "allergenCoverageNotice": "Les informations allergènes publiées par Ya Bayté ne couvrent pas l'élément suivant : le supplément kabis. Il n'est donc pas repris sur ce site.",
+    "contact": {
+      "email": "admin@heberestaurant.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "chicken-street-chatelet-75001",
@@ -5752,7 +6252,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-forum-des-halles-75001",
@@ -5788,7 +6292,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-invalides-75007",
@@ -5824,7 +6332,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-charles-de-gaulle-etoile-75008",
@@ -5860,7 +6372,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-gare-saint-lazare-75008",
@@ -5896,7 +6412,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-gare-saint-lazare-quai-75009",
@@ -5932,7 +6452,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-gare-de-lyon-hall-1-75012",
@@ -5968,7 +6492,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-gare-de-lyon-hall-3-75012",
@@ -6004,7 +6532,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-gare-montparnasse-75015",
@@ -6040,7 +6572,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "la-croissanterie-75019",
@@ -6076,7 +6612,11 @@
         "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-champs-elysees",
@@ -6107,7 +6647,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-demours",
@@ -6138,7 +6682,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-la-pompe",
@@ -6169,7 +6717,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-amelot",
@@ -6200,7 +6752,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-opera",
@@ -6231,7 +6787,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-gravilliers",
@@ -6262,7 +6822,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-charlot",
@@ -6293,7 +6857,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "wild-the-moon-saint-honore",
@@ -6324,7 +6892,11 @@
     "menuId": "menu-wild-the-moon",
     "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine végétale née en 2016, « fast good » 100 % vegan et sans chimie : jus pressés à froid non pasteurisés, laits végétaux maison, smoothies, superbowls, salades, toastés, soupes, pâtisseries et snacks enrichis en superfoods, sans sucre ajouté ni conservateurs, dans des emballages sans plastique. Huit boutiques à Paris, sur place, à emporter, en livraison et en click & collect.",
-    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg"
+    "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
+    "contact": {
+      "email": "contact@wildandthemoon.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75009-3",
@@ -6416,7 +6988,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-bastille-75011",
@@ -6452,7 +7028,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-cardinet-75017",
@@ -6488,7 +7068,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-chatelet-75001",
@@ -6523,7 +7107,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-gambetta-75020",
@@ -6559,7 +7147,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-gare-du-nord-75010",
@@ -6595,7 +7187,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-la-chapelle-75018",
@@ -6631,7 +7227,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-75016",
@@ -6667,7 +7267,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-patay-75013",
@@ -6703,7 +7307,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-alesia-75014",
@@ -6738,7 +7346,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-pigalle-75018",
@@ -6774,7 +7386,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-place-italie-75013",
@@ -6809,7 +7425,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-porte-de-saint-ouen-75017",
@@ -6845,7 +7465,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-porte-de-vincennes-75012",
@@ -6881,7 +7505,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-porte-doree-75012",
@@ -6917,7 +7545,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-reaumur-75002",
@@ -6952,7 +7584,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-republique-75003",
@@ -6988,7 +7624,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-saint-michel-75006",
@@ -7023,7 +7663,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-tour-eiffel-75015",
@@ -7059,7 +7703,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-vavin-75006",
@@ -7095,7 +7743,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-wagram-75017",
@@ -7131,7 +7783,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "serviceclient@otacos.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "o-tacos-rosa-parks-75019",
@@ -7166,7 +7822,11 @@
         "url": "https://pub-3e289d306c7a4cbe92ad05c129a9823b.r2.dev/11%2008%202026_ADO_FR_V45.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "service-conso@o-tacos.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "twilsons-75001",
@@ -7195,7 +7855,11 @@
     "menuId": "menu-twilsons",
     "allergenCoverageNotice": "Les informations allergènes publiées par Twilsons ne couvrent pas les éléments suivants : les burgers, les baos et la salade L'Originale Bistro. Ils ne sont donc pas repris sur ce site.",
     "description": "Le « bistro 2.0 » des frères Touil : une cuisine bistronomique revisitée aux saveurs d'Asie et d'Amérique du Nord, à mi-chemin entre bistronomie et restauration rapide. Smash burgers et Twils burger trempé dans le cheddar, baos, bowls, salades et starters, 90 % fait maison ; tous les produits carnés sont halal, des options végétariennes sont proposées sur place. Au Forum des Halles, ouvert tous les jours de 11 h à 22 h, sur place, à emporter ou en livraison.",
-    "imageUrl": "https://twilsons.fr/wp-content/uploads/2024/01/Twilsons-5-scaled.jpg"
+    "imageUrl": "https://twilsons.fr/wp-content/uploads/2024/01/Twilsons-5-scaled.jpg",
+    "contact": {
+      "email": "contact@twilsons.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "five-guys-75010",
@@ -7253,7 +7917,11 @@
     "allergenCoverageNotice": "Les informations allergènes publiées par le Train Bleu ne couvrent pas les éléments suivants : au Lounge la tarte framboise pistache, le chou chantilly aux fraises et la coupe glacée aux fruits rouges ; au petit déjeuner les créations à partager, le skyr, le granola, le porridge et les fruits, le jardin du matin, les omelettes nature et garnie, les œufs bénédictine et mollets, le duo et l'assiette de fromages ; et le café ou thé gourmand, qui renvoie aux desserts. Ils ne sont donc pas repris sur ce site.",
     "description": "Le buffet de la gare de Lyon, construit pour l'Exposition universelle de 1900 et inauguré en 1901, devenu Le Train Bleu en 1963 en hommage au Paris-Vintimille, classé monument historique en 1972 : salles dorées, fresques et moulures au premier étage de la gare. Cuisine française classique, gigot d'agneau à la voiture de tranche, baba bouchon et crêpes Suzette flambées ; bar-lounge de 7 h 30 à 22 h 30, petit déjeuner et cartes « sur le pouce ». Ouvert tous les jours.",
     "imageUrl": "https://www.le-train-bleu.com/media/cache/jadro_resize/rc/2CMFefIi1741249987/jadroRoot/medias/5aafbd3bc117c/le-train-bleu-008_2800x2100.jpg",
-    "phone": "01 43 43 09 06"
+    "phone": "01 43 43 09 06",
+    "contact": {
+      "email": "reservation.trainbleu@ssp.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "roberta-gare-saint-lazare-75009",
@@ -7283,7 +7951,11 @@
     "menuId": "menu-roberta-caffe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Roberta Caffè ne couvrent pas les éléments suivants : le pain aux raisins et le lot de mini viennoiseries. Ils ne sont donc pas repris sur ce site.",
     "description": "Street food italienne en gare, quatre comptoirs à Paris : ciabattas, focaccias et pagnotte garnies, parts de pizza sulla pala, pâtes fraîches et sauces, insalate, antipasti et planches. Côté sucré, viennoiseries italiennes, bomboloni, cannoli, tiramisù, crostate et maritozzi, et un comptoir de cafés à l'italienne. Préparé sur place, à emporter ou sur le pouce.",
-    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-de-lest.jpg"
+    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-de-lest.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "roberta-gare-de-l-est-75010",
@@ -7313,7 +7985,11 @@
     "menuId": "menu-roberta-caffe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Roberta Caffè ne couvrent pas les éléments suivants : le pain aux raisins et le lot de mini viennoiseries. Ils ne sont donc pas repris sur ce site.",
     "description": "Street food italienne en gare, quatre comptoirs à Paris : ciabattas, focaccias et pagnotte garnies, parts de pizza sulla pala, pâtes fraîches et sauces, insalate, antipasti et planches. Côté sucré, viennoiseries italiennes, bomboloni, cannoli, tiramisù, crostate et maritozzi, et un comptoir de cafés à l'italienne. Préparé sur place, à emporter ou sur le pouce.",
-    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-de-lest.jpg"
+    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-de-lest.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "roberta-gare-de-lyon-75012",
@@ -7343,7 +8019,11 @@
     "menuId": "menu-roberta-caffe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Roberta Caffè ne couvrent pas les éléments suivants : le pain aux raisins et le lot de mini viennoiseries. Ils ne sont donc pas repris sur ce site.",
     "description": "Street food italienne en gare, quatre comptoirs à Paris : ciabattas, focaccias et pagnotte garnies, parts de pizza sulla pala, pâtes fraîches et sauces, insalate, antipasti et planches. Côté sucré, viennoiseries italiennes, bomboloni, cannoli, tiramisù, crostate et maritozzi, et un comptoir de cafés à l'italienne. Préparé sur place, à emporter ou sur le pouce.",
-    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/RC-Gare-de-Lyon-360x240.jpg"
+    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/RC-Gare-de-Lyon-360x240.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "roberta-gare-montparnasse-75015",
@@ -7373,7 +8053,11 @@
     "menuId": "menu-roberta-caffe",
     "allergenCoverageNotice": "Les informations allergènes publiées par Roberta Caffè ne couvrent pas les éléments suivants : le pain aux raisins et le lot de mini viennoiseries. Ils ne sont donc pas repris sur ce site.",
     "description": "Street food italienne en gare, quatre comptoirs à Paris : ciabattas, focaccias et pagnotte garnies, parts de pizza sulla pala, pâtes fraîches et sauces, insalate, antipasti et planches. Côté sucré, viennoiseries italiennes, bomboloni, cannoli, tiramisù, crostate et maritozzi, et un comptoir de cafés à l'italienne. Préparé sur place, à emporter ou sur le pouce.",
-    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-Montparnasse-360x382.jpg"
+    "imageUrl": "https://www.roberta-caffe.fr/wp-content/uploads/2025/02/rc-gare-Montparnasse-360x382.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cafe-maa-75005",
@@ -7400,7 +8084,11 @@
     "websiteUrl": "https://www.institut-finlandais.fr/gastronomie/",
     "menuId": "menu-cafe-maa",
     "description": "Le café de l'Institut finlandais, au cœur du Quartier latin : la gastronomie finlandaise à Paris, avec des produits frais, locaux et de saison et une carte qui change plusieurs fois par an. Tartines de seigle, tarte carélienne, salades, brioches à la cannelle et à la cardamome, pâtisseries, cafés torréfiés à Paris et à Turku, thés et boissons bio. Ouvert du mardi au samedi de 11 h à 18 h, au rythme des concerts et dîners de l'Institut.",
-    "imageUrl": "https://www.institut-finlandais.fr/wp-content/uploads/2025/07/R0005654-1024x682.jpg"
+    "imageUrl": "https://www.institut-finlandais.fr/wp-content/uploads/2025/07/R0005654-1024x682.jpg",
+    "contact": {
+      "email": "cafemaa@institut-finlandais.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "le-relais-du-louvre-75001",
@@ -7517,7 +8205,11 @@
     "websiteUrl": "https://restaurants.bnwburger.com/paris-1-chatelet/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
     "menuId": "menu-black-white-burger",
     "description": "Burgers noirs et blancs lancés à Paris en 2018 par les vidéastes Ibra TV et Djam : pain brioché bicolore au charbon végétal, steak Black Angus et cheddar Wyke. Signatures, smash, baby boxs, sides et desserts.",
-    "imageUrl": "https://restaurants.bnwburger.com/wp-content/uploads/2021/03/burger-black-and-white.jpg"
+    "imageUrl": "https://restaurants.bnwburger.com/wp-content/uploads/2021/03/burger-black-and-white.jpg",
+    "contact": {
+      "email": "bnw.chatelet@bnwburger.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "les-fondus-de-la-raclette-paris-9eme-opera-75009",
@@ -7698,7 +8390,11 @@
         "url": "https://www.rebalto.com/menu",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@rebalto.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "so-noodles-75009",
@@ -7725,7 +8421,11 @@
     "websiteUrl": "https://www.sonoodles.fr/",
     "menuId": "menu-so-noodles",
     "description": "Restaurant chinois de nouilles faites maison chaque jour à la farine de blé français, rue de Clichy : recettes traditionnelles revisitées, plus saines et moins grasses, nouilles en sauce à mélanger ou en bouillon léger de poulet et de bœuf, raviolis au porc. Ouvert du lundi au samedi, midi et soir.",
-    "imageUrl": "https://www.sonoodles.fr/wp-content/uploads/2020/11/4.jpg"
+    "imageUrl": "https://www.sonoodles.fr/wp-content/uploads/2020/11/4.jpg",
+    "contact": {
+      "email": "contact@sonoodles.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "big-smash-paris-75018",
@@ -7754,7 +8454,11 @@
     "menuId": "menu-big-smash",
     "allergenCoverageNotice": "Les informations allergènes publiées par Big Smash ne couvrent pas les éléments suivants : les crevettes panées, le chicken pop-corn (nature ou épicé), le Big Mountain, le Surf Turf, la Big Salade, le Little Wrap Spicy, les frites épicées et le Big Sundae pistachio. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter une erreur : elles ne déclarent qu'en traces la moutarde de l'Original Cheese, dont la carte annonce la moutarde US.",
     "description": "Smash burgers et poulet frit croustillant faits maison, dans l'esprit de la street food américaine : burgers, hot-dogs, tacos, tenders et nuggets, frites et pops, desserts glacés. Ouvert du lundi au mercredi de 11 h 30 à 23 h, du jeudi au samedi jusqu'à 2 h, le dimanche de 12 h à 23 h.",
-    "imageUrl": "https://cdn.prod.website-files.com/67d1526a4a9145ae97541f0d/6826ebbdd69897fd19caf5c8_DSC07222.webp"
+    "imageUrl": "https://cdn.prod.website-files.com/67d1526a4a9145ae97541f0d/6826ebbdd69897fd19caf5c8_DSC07222.webp",
+    "contact": {
+      "email": "sav@bigsmash.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "blu-cafe-75002",
@@ -7784,7 +8488,11 @@
     "allergenCoverageNotice": "Les informations allergènes publiées par Blu Café semblent comporter des erreurs : elles ne déclarent ni le céleri du Green Juice, ni le sésame du Roast Honey Tofu, ni le poisson du caviar, que la carte annonce.",
     "description": "Coffee shop et bar à cocktails au premier étage de l'atelier Alpine, boulevard des Capucines : salades, sandos, smashed croissants, bagels et douceurs maison du chef Vittorio Beltramelli, matchas, lattes et cafés de spécialité. Ouvert du mardi au dimanche de 10 h à 20 h, brunch le samedi et le dimanche.",
     "imageUrl": "https://www.blucafe.fr/design/medias/blu-cafe-home-2-1.jpg",
-    "phone": "07 56 85 50 00"
+    "phone": "07 56 85 50 00",
+    "contact": {
+      "email": "hello@blucafe.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "cafe-mareva-75018",
@@ -7814,7 +8522,11 @@
     "allergenCoverageNotice": "Les informations allergènes publiées par Café Mareva ne couvrent pas les éléments suivants : le fried korean honey chicken et le korean fried chicken bowl, le french breakfast, la gaufre du moment, le fruit bowl, les garnitures sucre glace, chocolat, banane, fruits de saison et sirop d'érable, et les suppléments. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter une erreur : elles ne déclarent pas les arachides du glow toast (beurre de cacahuète).",
     "description": "Café de spécialité et brunch au pied de Montmartre, qui annonce une cuisine faite maison entièrement sans gluten et sans lactose : gaufres de patate douce, pancakes, bowls, toasts, smoothie bowls et pâtisseries. Café torréfié à Paris par Lomi. Ouvert de 9 h à 17 h en semaine, de 9 h à 18 h le week-end.",
     "imageUrl": "https://static.wixstatic.com/media/c470d3_c34d1ba27c6944239ee3952e0fdeca32~mv2.jpg",
-    "phone": "09 88 03 12 00"
+    "phone": "09 88 03 12 00",
+    "contact": {
+      "email": "contact@cafemareva.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "chicken-s-king-75020",
@@ -7851,7 +8563,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-belleville-75010",
@@ -7888,7 +8604,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-flandre-75019",
@@ -7925,7 +8645,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-italie-75013",
@@ -7962,7 +8686,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-jaures-75019",
@@ -7998,7 +8726,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-montreuil-75020",
@@ -8035,7 +8767,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-ornano-75018",
@@ -8072,7 +8808,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "chickens-king-strasbourg-75010",
@@ -8109,7 +8849,11 @@
         "url": "https://chickensking.com/docs/allergenes-chickens-king.pdf",
         "kind": "published"
       }
-    ]
+    ],
+    "contact": {
+      "email": "contact@chickensking.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cupkie-cookie-dough-cookies-a-la-francaise-75005",
@@ -8139,7 +8883,11 @@
     "allergenCoverageNotice": "Les informations allergènes publiées par Cupkie ne couvrent pas les éléments suivants : les cookie dough Brookie choco caramel pécan et Originale praliné crunchy, les cookies et hot cookies, et les glaces. Ils ne sont donc pas repris sur ce site.",
     "description": "La première boutique de pâte à cookie crue « à la française », rue Monge, au cœur du Quartier latin : des cups de cookie dough à composer (une taille, un nappage offert, une à trois recettes, des toppings à volonté), des recettes moins sucrées, sans gluten et pour deux d'entre elles véganes, préparées artisanalement dans un laboratoire pâtissier parisien qui manipule tous types d'allergènes (traces possibles), avec des glaces artisanales, des cookies cuits, des milkshakes et des cafés. Ouvert du mardi au dimanche de 12 h 30 à 22 h.",
     "imageUrl": "https://cupkie.fr/wp-content/uploads/2019/12/Cupkie-4.jpg",
-    "phone": "09 71 39 64 14"
+    "phone": "09 71 39 64 14",
+    "contact": {
+      "email": "hello@cupkie.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "soup-juice-saint-lazare-75008",
@@ -8168,7 +8916,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue de Londres, près de la gare Saint-Lazare. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue de Londres, près de la gare Saint-Lazare. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-bourse-75002",
@@ -8197,7 +8949,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue Montmartre, près de la Bourse. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue Montmartre, près de la Bourse. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-haussmann-75009",
@@ -8226,7 +8982,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue Taitbout, près du boulevard Haussmann. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue Taitbout, près du boulevard Haussmann. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-ecuries-75010",
@@ -8255,7 +9015,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue des Petites-Écuries. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue des Petites-Écuries. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-etoile-75016",
@@ -8284,7 +9048,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Avenue Kléber, près de l'Arc de Triomphe. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Avenue Kléber, près de l'Arc de Triomphe. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-opera-75002",
@@ -8313,7 +9081,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue du Quatre-Septembre, près de l'Opéra. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue du Quatre-Septembre, près de l'Opéra. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-honore-75008",
@@ -8342,7 +9114,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue de Berri, près des Champs-Élysées. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue de Berri, près des Champs-Élysées. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "soup-juice-madeleine-75008",
@@ -8371,7 +9147,11 @@
     "menuId": "menu-soup-juice",
     "allergenCoverageNotice": "Les informations allergènes publiées par Soup & Juice ne couvrent pas les éléments suivants : le wrap poulet yassaté, le bagel New York, les quatre fromages blancs, les jus, les milkshakes, les boosters et les boissons. Ils ne sont donc pas repris sur ce site.",
     "imageUrl": "/data/images/soup-juice.webp",
-    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue d'Anjou, près de la Madeleine. Ouvert du lundi au vendredi de 9 h à 15 h."
+    "description": "Enseigne de restauration rapide née en 2001 : soupes et plats chauds faits maison, jus, milkshakes, salades, wraps et bagels, desserts. Rue d'Anjou, près de la Madeleine. Ouvert du lundi au vendredi de 9 h à 15 h.",
+    "contact": {
+      "email": "contact@soup-juice.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "maison-pradier-75016",
@@ -8401,7 +9181,11 @@
     "menuId": "menu-maison-pradier",
     "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
     "description": "Maison parisienne de boulangerie-pâtisserie depuis 1859 : sandwichs, salades, quiches et plats chauds préparés sur place, pâtisseries, viennoiseries et macarons de Meilleur Ouvrier de France. Avenue Kléber, une boutique avec salle, ouverte tous les jours de 8 h à 20 h.",
-    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Kleber-1.jpg"
+    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Kleber-1.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "maison-pradier-gare-de-l-est-75010",
@@ -8431,7 +9215,11 @@
     "menuId": "menu-maison-pradier",
     "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
     "description": "Maison parisienne de boulangerie-pâtisserie depuis 1859 : sandwichs, salades, quiches et plats chauds préparés sur place, pâtisseries, viennoiseries et macarons de Meilleur Ouvrier de France. Dans la gare de l'Est, vente à emporter, tous les jours de 6 h à 21 h (21 h 30 le vendredi et le dimanche).",
-    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Gare-de-lest-2.jpg"
+    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Gare-de-lest-2.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "maison-pradier-gare-de-lyon-75012",
@@ -8461,7 +9249,11 @@
     "menuId": "menu-maison-pradier",
     "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
     "description": "Maison parisienne de boulangerie-pâtisserie depuis 1859 : sandwichs, salades, quiches et plats chauds préparés sur place, pâtisseries, viennoiseries et macarons de Meilleur Ouvrier de France. Dans la gare de Lyon, vente à emporter, tous les jours de 6 h à 20 h.",
-    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-gare-de-lyon-1-scaled.jpg"
+    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-gare-de-lyon-1-scaled.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "maison-pradier-gare-montparnasse-quai-75015",
@@ -8491,7 +9283,11 @@
     "menuId": "menu-maison-pradier",
     "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
     "description": "Maison parisienne de boulangerie-pâtisserie depuis 1859 : sandwichs, salades, quiches et plats chauds préparés sur place, pâtisseries, viennoiseries et macarons de Meilleur Ouvrier de France. Dans la gare Montparnasse, au niveau des quais, vente à emporter, tous les jours de 6 h à 21 h.",
-    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-quai-1.jpg"
+    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-quai-1.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "maison-pradier-gare-montparnasse-niveau-2-75015",
@@ -8521,7 +9317,11 @@
     "menuId": "menu-maison-pradier",
     "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
     "description": "Maison parisienne de boulangerie-pâtisserie depuis 1859 : sandwichs, salades, quiches et plats chauds préparés sur place, pâtisseries, viennoiseries et macarons de Meilleur Ouvrier de France. Dans la gare Montparnasse, au niveau 2, vente à emporter, tous les jours de 6 h à 22 h.",
-    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-niveau-2-1.jpg"
+    "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-niveau-2-1.jpg",
+    "contact": {
+      "email": "service.consommateurs@groupe-delineo.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "iki-ramen-75014",
@@ -8579,7 +9379,11 @@
     },
     "menuId": "menu-noo",
     "imageUrl": "https://framerusercontent.com/images/pyPcdw1vfR0xSp4IRCkjcbHVnE.jpeg",
-    "phone": "01 42 00 37 78"
+    "phone": "01 42 00 37 78",
+    "contact": {
+      "email": "restaurant.noo.paris@gmail.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "le-chant-des-voyelles-75004",
@@ -8634,7 +9438,11 @@
     },
     "menuId": "menu-sam-chic",
     "allergenCoverageNotice": "Les informations allergènes publiées par Sam Chic ne couvrent pas les éléments suivants : le magret de canard mariné (Ori yangnyeom gui), le bulgogi en plat, le tiramisu maison et les suppléments. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://samchic.fr/wp-content/uploads/2021/07/hanbok.jpg"
+    "imageUrl": "https://samchic.fr/wp-content/uploads/2021/07/hanbok.jpg",
+    "contact": {
+      "email": "reserv.samchic@gmail.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "romeo-bar-grill-75016",
@@ -8664,7 +9472,11 @@
     "menuId": "menu-romeo",
     "allergenCoverageNotice": "Les informations allergènes publiées par Romeo ne couvrent pas les éléments suivants : la stracciatella à la truffe, le carpaccio de concombres et rillette de crabe, l'œuf mollet aux épinards et saumon fumé, les gambas rôties au satay, le poulpe façon ceviche, les garnitures, le risotto aux gambas, la pavlova, la tarte au citron, la nuvola chocolat, les merveilles, l'assiette de fraises, la fraise Melba, l'assiette de fromages italiens, les focaccias et la carte du petit-déjeuner. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter des erreurs : elles ne déclarent ni le poisson du tartare de saumon et daurade, ni le lait du pecorino des rigatoni cacio pepe et du fritto misto, ni celui du beurre des linguine primavera, ni les fruits à coque des noix des gnocchi gorgonzola.",
     "imageUrl": "https://www.restaurantromeo.fr/themes/romeo-en/img/bg-restaurant.jpg",
-    "phone": "01 45 01 22 22"
+    "phone": "01 45 01 22 22",
+    "contact": {
+      "email": "serviceprivatisation@restaurantromeo.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "sawadee-75015",
@@ -8692,7 +9504,11 @@
     "menuId": "menu-sawadee",
     "allergenCoverageNotice": "Les informations allergènes publiées par Sawadee ne couvrent pas les éléments suivants : les rouleaux frits (Thord Rummit), les assortiments de brochettes « Le Gourmand » et « Le Duo », le porc mariné 12 heures, l'émincé de bœuf au basilic et poivre vert, le brocoli sauté, les woks de courgette et de chou de Shanghai, la pavlova litchi et le dessert du moment. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter une erreur : elles ne déclarent pas les mollusques de la sauce d'huître des légumes de saison.",
     "imageUrl": "https://www.sawadeethai1988.com/wp-content/uploads/2021/11/CoverImageSawadeeHP.jpg",
-    "phone": "01 45 77 68 90"
+    "phone": "01 45 77 68 90",
+    "contact": {
+      "email": "contact@sawadeethai1988.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "land-monkeys-les-halles-75001",
@@ -8721,7 +9537,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/5R7A2838.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/5R7A2838.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-pernety-75014",
@@ -8750,7 +9570,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_PER_EXTERIEUR-47.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_PER_EXTERIEUR-47.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-turenne-75004",
@@ -8779,7 +9603,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_TUR_EXT-3.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_TUR_EXT-3.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-roquette-75011",
@@ -8808,7 +9636,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-beaumarchais-75011",
@@ -8837,7 +9669,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-amsterdam-75009",
@@ -8866,7 +9702,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/Photo-amsterdam.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/Photo-amsterdam.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-montmartre-75018",
@@ -8895,7 +9735,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_MON_SHOOTING-OUVERTURE-DECEMBRE-2024-28.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LM_BOU_MON_SHOOTING-OUVERTURE-DECEMBRE-2024-28.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "land-monkeys-grands-boulevards-75009",
@@ -8925,7 +9769,11 @@
     },
     "menuId": "menu-land-monkeys",
     "allergenCoverageNotice": "Les informations allergènes publiées par Land&Monkeys ne couvrent pas les éléments suivants : les beignets, les cookies, les macarons, le granola, la salade de fruits, le pain suisse, le croissant aux amandes, cinq pains et quatre produits salés dont le hot dog. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp"
+    "imageUrl": "https://www.land-and-monkeys.com/app/uploads/2026/04/LANDMONKEYS_NOVEMBRE-25_GB_V2_HD-1-54.webp",
+    "contact": {
+      "email": "hello@land-and-monkeys.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "krousty-sabaidi-chatelet-75001",
@@ -9012,7 +9860,11 @@
     },
     "menuId": "menu-toppin",
     "allergenCoverageNotice": "Les informations allergènes publiées par TOPP'IN ne couvrent pas les éléments suivants : le poulet frit karaage, la protéine végétale HappyVore, la sauce verte, le cookie chocolat noir, le mochi et le banana bread. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://v2cdn1.centralappstatic.com/image/resize/1080x647_cover_315c16e08d29485e992e057f31c3add4.jpeg"
+    "imageUrl": "https://v2cdn1.centralappstatic.com/image/resize/1080x647_cover_315c16e08d29485e992e057f31c3add4.jpeg",
+    "contact": {
+      "email": "toppin.paris@gmail.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "la-closerie-des-lilas-75006",
@@ -9069,7 +9921,11 @@
     },
     "menuId": "menu-malro-75003",
     "imageUrl": "https://ugc.zenchef.com/3/5/2/0/7/8/1/5/1/5/2/2/0/1715960037_292/9257847c02846eee89cd78b08f26884d.clandscape_hd.jpg",
-    "phone": "01 42 77 38 47"
+    "phone": "01 42 77 38 47",
+    "contact": {
+      "email": "contact@restaurantmalro.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "le-rempart-bastille-75004",
@@ -9500,7 +10356,11 @@
     },
     "menuId": "menu-soya-75011",
     "imageUrl": "https://www.soya-cantine-bio.fr/i/soya-cantine-bio/3/4/7/4/0/9/1/5/0/1/0/7/5/1511358253_177/b06c8b543c2aced88c31614110ce92a5.small_original.jpg",
-    "phone": "01 48 06 33 02"
+    "phone": "01 48 06 33 02",
+    "contact": {
+      "email": "soyacommandes@gmail.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "the-friendly-kitchen-75011",
@@ -9641,7 +10501,11 @@
       "kind": "published"
     },
     "menuId": "menu-central-cos",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Central Cos ne couvrent pas l'élément suivant : le carrot cake. Il n'est donc pas repris sur ce site."
+    "allergenCoverageNotice": "Les informations allergènes publiées par Central Cos ne couvrent pas l'élément suivant : le carrot cake. Il n'est donc pas repris sur ce site.",
+    "contact": {
+      "email": "contact@centralcos.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "cafe-de-l-homme-75016",
@@ -9670,7 +10534,11 @@
     "menuId": "menu-cafe-de-l-homme",
     "allergenCoverageNotice": "Les informations allergènes publiées par le Café de l'Homme semblent comporter une erreur : elles ne déclarent pas le gluten du pain de campagne servi avec les fromages.",
     "imageUrl": "https://www.cafedelhomme.com/home/hero.jpg",
-    "phone": "01 44 05 30 15"
+    "phone": "01 44 05 30 15",
+    "contact": {
+      "email": "reservation@cafedelhomme.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "gosier-75009",
@@ -9699,7 +10567,11 @@
     },
     "menuId": "menu-gosier",
     "imageUrl": "https://www.gosier-paris.fr/wp-content/uploads/2025/10/IMG-20251010-WA0002-1024x768.jpg",
-    "phone": "01 71 97 60 77"
+    "phone": "01 71 97 60 77",
+    "contact": {
+      "email": "contact@gosier-paris.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "la-maison-du-46-75008",
@@ -9755,7 +10627,11 @@
       "kind": "published"
     },
     "menuId": "menu-wellington",
-    "imageUrl": "https://assets.zyrosite.com/Y4LV1J6l2vFQQ12N/img_7218-YleQPly1WJtPVRKj.jpg"
+    "imageUrl": "https://assets.zyrosite.com/Y4LV1J6l2vFQQ12N/img_7218-YleQPly1WJtPVRKj.jpg",
+    "contact": {
+      "email": "info@thewellingtonpubs.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "bomaye-burger-paradis-75010",
@@ -9783,7 +10659,11 @@
     },
     "menuId": "menu-bomaye",
     "imageUrl": "https://cdn.prod.website-files.com/631ad9acf0eb1c0d7a752631/67b601b6a38f3d9c33125d02_6350d57438c7c9631e1daf32_Bomaye_Lion-min.jpg",
-    "phone": "06 95 61 29 30"
+    "phone": "06 95 61 29 30",
+    "contact": {
+      "email": "hello@bomayeclub.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "dochilak-75006",
@@ -9900,7 +10780,11 @@
     "menuId": "menu-juste",
     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55d483a8e4b070510b2b24c9/1668610460828-HRNFD7TWGKIQ4DOICHZT/Restaurant-JUSTE-Paris-Salle.jpg",
     "phone": "09 82 33 93 47",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Juste semblent incomplètes : absents de la liste, les acras, la brandade, la crème brûlée et le café gourmand sont publiés sans allergène mais en contiennent très probablement. Les informations publiées semblent également comporter des erreurs : elles ne déclarent ni les crustacés du tourteau, des langoustines, du carpaccio de gambas et de la soupe de poisson et crustacé, ni le poisson de l'aile de raie, ni le lait du riz au beurre citronné, servi seul ou avec la raie."
+    "allergenCoverageNotice": "Les informations allergènes publiées par Juste semblent incomplètes : absents de la liste, les acras, la brandade, la crème brûlée et le café gourmand sont publiés sans allergène mais en contiennent très probablement. Les informations publiées semblent également comporter des erreurs : elles ne déclarent ni les crustacés du tourteau, des langoustines, du carpaccio de gambas et de la soupe de poisson et crustacé, ni le poisson de l'aile de raie, ni le lait du riz au beurre citronné, servi seul ou avec la raie.",
+    "contact": {
+      "email": "justin@juste-producteur.com",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "nako-saint-dominique-75007",
@@ -9930,7 +10814,11 @@
     "menuId": "menu-nako",
     "allergenCoverageNotice": "Les informations allergènes publiées par Nako ne couvrent pas les éléments suivants : les ramen et hot bowls aux gyoza légumes. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter des erreurs : elles ne déclarent qu'en trace le sésame du Sun et de la salade de chou, et le poisson du spring crevette (tobiko).",
     "imageUrl": "https://na-ko.fr/wp-content/uploads/2024/07/ambi-BOL-5-37-copie.jpg",
-    "phone": "01 40 86 90 90"
+    "phone": "01 40 86 90 90",
+    "contact": {
+      "email": "contact@na-ko.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "pny-faubourg-saint-denis-75010",
@@ -9957,7 +10845,11 @@
     },
     "menuId": "menu-pny-st-denis",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/8883b424-7d75-425d-b049-91eae71d3da9/69710808994d55.16220477.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/8883b424-7d75-425d-b049-91eae71d3da9/69710808994d55.16220477.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-gaite-75014",
@@ -9984,7 +10876,11 @@
     },
     "menuId": "menu-pny-gaite",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/20361862-bbbd-464e-a7e6-5e43f5d3e32c/697107064e7640.60286290.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/20361862-bbbd-464e-a7e6-5e43f5d3e32c/697107064e7640.60286290.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-pigalle-75009",
@@ -10011,7 +10907,11 @@
     },
     "menuId": "menu-pny-pigalle",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/50bd7361-ec65-40e9-b56c-d335dc1ff579/697108c8dfd5e1.05028714.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/50bd7361-ec65-40e9-b56c-d335dc1ff579/697108c8dfd5e1.05028714.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bistro-volnay-75002",
@@ -10152,7 +11052,11 @@
     "menuId": "menu-pizza-di-loretta",
     "allergenCoverageNotice": "Les informations allergènes publiées par Pizza Di Loretta semblent comporter des erreurs : elles ne déclarent ni le lait de la pizza patata mozzarella, des douze pizzas sans ligne « Allergènes » (mozzarella, feta, ricotta, parmesan) et des paninos melanzana burger (mozzarella), caprese (bufala) et frittata (pecorino), ni les œufs des pizzas spinaci ricotta uova et shakshuka uova (jaune d'œuf) et des paninos pan' bagnato et frittata (omelette), ni les fruits à coque de la focaccia spinaci ricotta (noix), du tiramisu aux fruits rouges (amandes) et des pizzas prosciutto al tartufo e pistacchio et mortadella pistache (pistaches), ni le sésame de la pizza feta pomodorini e speck, ni les crustacés de la pizza gamberi mozzarella (crevettes), ni le poisson du pan' bagnato (thon).",
     "description": "Pizza romaine al taglio, à la coupe, cuite en grandes plaques et vendue à la part, avec des produits importés d'Italie ; paninos, focaccias, supplì et desserts maison. Boulevard de Courcelles, près du parc Monceau, avec une terrasse d'avril à octobre. Ouvert tous les jours de 11 h 30 à 22 h.",
-    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/10/Courcelles-550x0-c-default.webp"
+    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/10/Courcelles-550x0-c-default.webp",
+    "contact": {
+      "email": "info@pizzadiloretta.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pizza-di-loretta-voltaire-75011",
@@ -10181,7 +11085,11 @@
     "menuId": "menu-pizza-di-loretta",
     "allergenCoverageNotice": "Les informations allergènes publiées par Pizza Di Loretta semblent comporter des erreurs : elles ne déclarent ni le lait de la pizza patata mozzarella, des douze pizzas sans ligne « Allergènes » (mozzarella, feta, ricotta, parmesan) et des paninos melanzana burger (mozzarella), caprese (bufala) et frittata (pecorino), ni les œufs des pizzas spinaci ricotta uova et shakshuka uova (jaune d'œuf) et des paninos pan' bagnato et frittata (omelette), ni les fruits à coque de la focaccia spinaci ricotta (noix), du tiramisu aux fruits rouges (amandes) et des pizzas prosciutto al tartufo e pistacchio et mortadella pistache (pistaches), ni le sésame de la pizza feta pomodorini e speck, ni les crustacés de la pizza gamberi mozzarella (crevettes), ni le poisson du pan' bagnato (thon).",
     "description": "Pizza romaine al taglio, à la coupe, cuite en grandes plaques et vendue à la part, avec des produits importés d'Italie ; paninos, focaccias, supplì et desserts maison. Rue de la Roquette, près de la place Voltaire ; à emporter ou debout au comptoir. Ouvert du mardi au samedi de 11 h 30 à 22 h, le lundi de 11 h 30 à 14 h et de 18 h à 22 h, le dimanche de 18 h à 22 h.",
-    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/06/image28-550x0-c-default.webp"
+    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/06/image28-550x0-c-default.webp",
+    "contact": {
+      "email": "info@pizzadiloretta.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pizza-di-loretta-pigalle-75009",
@@ -10210,7 +11118,11 @@
     "menuId": "menu-pizza-di-loretta",
     "allergenCoverageNotice": "Les informations allergènes publiées par Pizza Di Loretta semblent comporter des erreurs : elles ne déclarent ni le lait de la pizza patata mozzarella, des douze pizzas sans ligne « Allergènes » (mozzarella, feta, ricotta, parmesan) et des paninos melanzana burger (mozzarella), caprese (bufala) et frittata (pecorino), ni les œufs des pizzas spinaci ricotta uova et shakshuka uova (jaune d'œuf) et des paninos pan' bagnato et frittata (omelette), ni les fruits à coque de la focaccia spinaci ricotta (noix), du tiramisu aux fruits rouges (amandes) et des pizzas prosciutto al tartufo e pistacchio et mortadella pistache (pistaches), ni le sésame de la pizza feta pomodorini e speck, ni les crustacés de la pizza gamberi mozzarella (crevettes), ni le poisson du pan' bagnato (thon).",
     "description": "Pizza romaine al taglio, à la coupe, cuite en grandes plaques et vendue à la part, avec des produits importés d'Italie ; paninos, focaccias, supplì et desserts maison. Rue Rodier, avec une salle de 22 places. Ouvert du lundi au samedi de 11 h 30 à 14 h et de 18 h à 22 h, le dimanche de 18 h à 22 h.",
-    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/10/Rodier-1200x0-c-default.webp"
+    "imageUrl": "https://www.pizzadiloretta.com/wp-content/uploads/2023/10/Rodier-1200x0-c-default.webp",
+    "contact": {
+      "email": "info@pizzadiloretta.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "bomaye-burger-charonne-75011",
@@ -10238,7 +11150,11 @@
     },
     "menuId": "menu-bomaye",
     "imageUrl": "https://cdn.prod.website-files.com/631ad9acf0eb1c0d7a752631/67b601b6a38f3d9c33125d02_6350d57438c7c9631e1daf32_Bomaye_Lion-min.jpg",
-    "phone": "06 95 10 97 07"
+    "phone": "06 95 10 97 07",
+    "contact": {
+      "email": "hello@bomayeclub.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-marais-bretonnerie-75004",
@@ -10265,7 +11181,11 @@
     },
     "menuId": "menu-pny-bretonnerie",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/ac636c49-d5ee-41e0-b10a-4665e6010540/6978e4f5ccdcf0.20611268.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/ac636c49-d5ee-41e0-b10a-4665e6010540/6978e4f5ccdcf0.20611268.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-marais-temple-75003",
@@ -10292,7 +11212,11 @@
     },
     "menuId": "menu-pny-marais",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/4143f762-ff42-44a3-932b-8eecca785b13/697108483ee177.35294786.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/4143f762-ff42-44a3-932b-8eecca785b13/697108483ee177.35294786.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-faubourg-saint-antoine-75012",
@@ -10319,7 +11243,11 @@
     },
     "menuId": "menu-pny-st-antoine",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/af4af662-6596-4b03-a2e6-76b6e1ddd356/697107f933edb5.94839511.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/af4af662-6596-4b03-a2e6-76b6e1ddd356/697107f933edb5.94839511.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "pny-oberkampf-75011",
@@ -10346,7 +11274,11 @@
     },
     "menuId": "menu-pny-oberkampf",
     "allergenCoverageNotice": "Les informations allergènes publiées par PNY ne couvrent pas les éléments suivants : le Vintage Bacon Cheeseburger, les Fisherman cut fries et les salades Sunlight grillée et veggie. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/b221a47d-ca71-4dd0-9bb8-5e0f1fbc5674/6971089eaadab4.58524057.jpg"
+    "imageUrl": "https://dood-media-prod.s3.eu-west-1.amazonaws.com/media/b221a47d-ca71-4dd0-9bb8-5e0f1fbc5674/6971089eaadab4.58524057.jpg",
+    "contact": {
+      "email": "911@pnyburger.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "manhattn-s-burgers-75004",
@@ -10373,7 +11305,11 @@
     },
     "menuId": "menu-manhattns",
     "allergenCoverageNotice": "Les informations allergènes publiées par Manhattn's ne couvrent pas les éléments suivants : le guacamole frais et l'El Barrio burger. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.manhattns.com/sites/default/files/2024-04/Manhattns_Burgers_Avril_24_Se%CC%81bastien_Dray_39.jpg"
+    "imageUrl": "https://www.manhattns.com/sites/default/files/2024-04/Manhattns_Burgers_Avril_24_Se%CC%81bastien_Dray_39.jpg",
+    "contact": {
+      "email": "info@manhattns.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "manhattn-s-burgers-75002",
@@ -10400,7 +11336,11 @@
     },
     "menuId": "menu-manhattns",
     "allergenCoverageNotice": "Les informations allergènes publiées par Manhattn's ne couvrent pas les éléments suivants : le guacamole frais et l'El Barrio burger. Ils ne sont donc pas repris sur ce site.",
-    "imageUrl": "https://www.manhattns.com/sites/default/files/2022-05/DSC06470.jpg"
+    "imageUrl": "https://www.manhattns.com/sites/default/files/2022-05/DSC06470.jpg",
+    "contact": {
+      "email": "info@manhattns.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "emma-duvere-patisserie-salon-de-the-75011",
@@ -10430,7 +11370,11 @@
     },
     "menuId": "menu-emma-duvere",
     "imageUrl": "https://www.emmaduvere.fr/web/wp-content/uploads/2020/04/A_boire_et_a_Manger_Emma_Duvere_photo_Diane_Arques_Adagp_LRcarre12.jpg",
-    "phone": "09 83 20 99 55"
+    "phone": "09 83 20 99 55",
+    "contact": {
+      "email": "info@emmaduvere.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "starbucks-77-rue-rambuteau-75001",
@@ -10465,7 +11409,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-4-rue-aubry-le-boucher-75004",
@@ -10500,7 +11448,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-21-rue-des-petits-carreaux-75002",
@@ -10535,7 +11487,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-30-av-d-italie-75013",
@@ -10570,7 +11526,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-66-av-de-la-motte-picquet-75015",
@@ -10605,7 +11565,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-face-boutique-sncf-75010",
@@ -10640,7 +11604,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-107-av-de-france-75013",
@@ -10675,7 +11643,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-5-rue-de-l-ambroisie-75012",
@@ -10710,7 +11682,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-297-rue-de-vaugirard-75015",
@@ -10745,7 +11721,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-43-av-felix-faure-75015",
@@ -10780,7 +11760,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-face-aux-voies-6-et-7-75015",
@@ -10815,7 +11799,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-4-pl-felix-eboue-75012",
@@ -10850,7 +11838,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-83-rue-st-charles-75015",
@@ -10885,7 +11877,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-211-rue-de-bercy-75012",
@@ -10920,7 +11916,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-square-hall-1-75012",
@@ -10955,7 +11955,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-2-rue-de-l-echelle-75001",
@@ -10990,7 +11994,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-2-pl-de-la-republique-75011",
@@ -11025,7 +12033,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-90-av-victor-hugo-75016",
@@ -11060,7 +12072,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-26-av-de-l-opera-75001",
@@ -11095,7 +12111,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-76-78-av-des-champs-elysees-75008",
@@ -11130,7 +12150,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-162-rue-du-faubourg-saint-honore-75008",
@@ -11165,7 +12189,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-3-bd-des-capucines-75002",
@@ -11200,7 +12228,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-18-bd-montmartre-75009",
@@ -11235,7 +12267,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-gare-paris-saint-lazare-75008",
@@ -11270,7 +12306,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-54-bd-gouvion-saint-cyr-75017",
@@ -11305,7 +12345,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-18-rue-de-dunkerque-75010",
@@ -11340,7 +12384,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "starbucks-5-pl-blanche-75009",
@@ -11375,7 +12423,11 @@
         "kind": "published"
       }
     ],
-    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg"
+    "imageUrl": "https://www.starbucks.fr/sites/starbucks-fr-pwa/files/2020-07/About-Us-Page-Image-C03-RESIZED_0.jpg",
+    "contact": {
+      "email": "service.clientele@starbucks.fr",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-rambuteau-75003",
@@ -11404,7 +12456,11 @@
     "phone": "01 85 53 07 47",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-monge-75005",
@@ -11433,7 +12489,11 @@
     "phone": "01 44 08 75 00",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-boetie-75008",
@@ -11462,7 +12522,11 @@
     "phone": "01 85 09 18 17",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-gare-du-nord-75010",
@@ -11491,7 +12555,11 @@
     "phone": "01 89 43 32 91",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-voltaire-75011",
@@ -11520,7 +12588,11 @@
     "phone": "01 48 07 70 70",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-gare-de-lyon-75012",
@@ -11549,7 +12621,11 @@
     "phone": "01 85 53 81 79",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-alesia-75014",
@@ -11578,7 +12654,11 @@
     "phone": "01 42 18 07 97",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-gare-montparnasse-75014",
@@ -11607,7 +12687,11 @@
     "phone": "01 71 25 27 03",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-pyrenees-75020",
@@ -11636,7 +12720,11 @@
     "phone": "01 43 15 17 17",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-doumer-75116",
@@ -11665,7 +12753,11 @@
     "phone": "01 40 72 15 15",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "cote-sushi-kleber-75116",
@@ -11694,7 +12786,11 @@
     "phone": "01 53 70 86 86",
     "menuId": "menu-cote-sushi",
     "description": "Enseigne de cuisine Nikkei, la rencontre des gastronomies japonaise et péruvienne, née en 2007 : sushis, california et signature rolls, maki, tacos, sashimis et tiraditos, ceviches, chirashis et pokes, plats chauds (crispy, yakitori, gyozas, donburi et nouilles udon), box et plateaux à partager. Sur place, à emporter et en livraison.",
-    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp"
+    "imageUrl": "https://cotesushi.com/img/hero-banner-2026-v3.webp",
+    "contact": {
+      "email": "sav@cotesushi.com",
+      "scope": "enseigne"
+    }
   },
   {
     "id": "le-petit-retro-75116",
