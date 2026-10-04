@@ -2,6 +2,7 @@ import type {
   AddressSuggestion,
   LatLngLiteral,
   MapBoundsLiteral,
+  MapCamera,
   MapMarkerHandle,
   MapMarkerPoint,
   MapsAdapter,
@@ -80,10 +81,7 @@ export class GoogleMapsAdapter implements MapsAdapter {
   private autocompleteSessionToken: google.maps.places.AutocompleteSessionToken | null = null;
   private lastPredictions = new Map<string, google.maps.places.PlacePrediction>();
 
-  async mount(
-    container: HTMLElement,
-    options: { center: LatLngLiteral; zoom: number },
-  ): Promise<void> {
+  async mount(container: HTMLElement, options: MapCamera): Promise<void> {
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
     if (!apiKey) {
       throw new Error("VITE_GOOGLE_MAPS_API_KEY est manquante, voir .env.example");
@@ -175,6 +173,13 @@ export class GoogleMapsAdapter implements MapsAdapter {
     const ne = bounds.getNorthEast();
     const sw = bounds.getSouthWest();
     return { north: ne.lat(), east: ne.lng(), south: sw.lat(), west: sw.lng() };
+  }
+
+  getCamera(): MapCamera | null {
+    const center = this.map?.getCenter();
+    const zoom = this.map?.getZoom();
+    if (!center || zoom === undefined) return null;
+    return { center: { lat: center.lat(), lng: center.lng() }, zoom };
   }
 
   async getAddressSuggestions(input: string): Promise<AddressSuggestion[]> {

@@ -10,6 +10,12 @@ export interface MapBoundsLiteral {
   west: number;
 }
 
+/** Where the map is looking: enough to put a remounted map back exactly where it was. */
+export interface MapCamera {
+  center: LatLngLiteral;
+  zoom: number;
+}
+
 export interface MapMarkerHandle {
   id: string;
   setHighlighted(highlighted: boolean): void;
@@ -35,13 +41,14 @@ export interface AddressSuggestion {
  * adapter and the disabled/failed fallback path.
  */
 export interface MapsAdapter {
-  mount(container: HTMLElement, options: { center: LatLngLiteral; zoom: number }): Promise<void>;
+  mount(container: HTMLElement, options: MapCamera): Promise<void>;
   unmount(): void;
   setMarkers(points: MapMarkerPoint[], onMarkerClick: (id: string) => void): MapMarkerHandle[];
   setCenter(position: LatLngLiteral, zoom?: number): void;
   /** Returns an unsubscribe function. */
   onBoundsChanged(callback: (bounds: MapBoundsLiteral) => void): () => void;
   getBounds(): MapBoundsLiteral | null;
+  getCamera(): MapCamera | null;
   /** Live address predictions as the user types, biased to Paris. Empty input -> []. */
   getAddressSuggestions(input: string): Promise<AddressSuggestion[]>;
   /** Resolves a previously-suggested place (by id) to a coordinate. */

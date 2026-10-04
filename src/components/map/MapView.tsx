@@ -10,6 +10,7 @@ import {
 import { useMapsContext } from "../../maps/useMapsContext";
 import { useMapActionsContext } from "../../state/mapActionsContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
+import { useMapPageMemory } from "../../state/MapPageMemoryContext";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { LoadingState } from "../common/LoadingState";
 import { MapFallback } from "./MapFallback";
@@ -29,6 +30,7 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
   const { setBounds } = useMapBoundsContext();
   const { hoveredId, selectedId, setSelectedId } = useSelectionContext();
   const { registerActions } = useMapActionsContext();
+  const memory = useMapPageMemory();
 
   const containerRef = useRef<HTMLDivElement>(null);
   const adapterRef = useRef<MapsAdapter | null>(null);
@@ -45,10 +47,12 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
       try {
         const adapter = await createAdapter();
         if (cancelled || !containerRef.current) return;
-        await adapter.mount(containerRef.current, {
-          center: PARIS_CENTER,
-          zoom: PARIS_DEFAULT_ZOOM,
-        });
+        // Back where the user left it, whether they went to a restaurant or to the list view —
+        // both unmount this map.
+        await adapter.mount(
+          containerRef.current,
+          memory?.camera ?? { center: PARIS_CENTER, zoom: PARIS_DEFAULT_ZOOM },
+        );
         if (cancelled) {
           adapter.unmount();
           return;
@@ -66,14 +70,17 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
       adapterRef.current?.unmount();
       adapterRef.current = null;
     };
-  }, [configState, createAdapter]);
+  }, [configState, createAdapter, memory]);
 
   // Markers + bounds listener, once the map has actually mounted.
   useEffect(() => {
     const adapter = adapterRef.current;
     if (mapStatus !== "ready" || !adapter) return;
 
-    const unsubscribeBounds = adapter.onBoundsChanged((bounds) => setBounds(bounds));
+    const unsubscribeBounds = adapter.onBoundsChanged((bounds) => {
+      setBounds(bounds);
+      if (memory) memory.camera = adapter.getCamera();
+    });
     const handles = adapter.setMarkers(
       restaurants.map((restaurant) => ({
         id: restaurant.id,
@@ -89,7 +96,7 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
       handles.forEach((handle) => handle.remove());
       markerHandlesRef.current = new Map();
     };
-  }, [mapStatus, restaurants, setBounds, setSelectedId]);
+  }, [mapStatus, restaurants, setBounds, setSelectedId, memory]);
 
   // Highlight the hovered/selected marker — size/outline change, not color alone.
   useEffect(() => {

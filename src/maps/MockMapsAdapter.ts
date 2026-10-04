@@ -2,6 +2,7 @@ import type {
   AddressSuggestion,
   LatLngLiteral,
   MapBoundsLiteral,
+  MapCamera,
   MapMarkerHandle,
   MapMarkerPoint,
   MapsAdapter,
@@ -27,10 +28,7 @@ export class MockMapsAdapter implements MapsAdapter {
   private suggestions: AddressSuggestion[] = [];
   private placeResults = new Map<string, LatLngLiteral | null>();
 
-  async mount(
-    _container: HTMLElement,
-    options: { center: LatLngLiteral; zoom: number },
-  ): Promise<void> {
+  async mount(_container: HTMLElement, options: MapCamera): Promise<void> {
     this.center = options.center;
     this.zoom = options.zoom;
   }
@@ -71,6 +69,10 @@ export class MockMapsAdapter implements MapsAdapter {
 
   getBounds(): MapBoundsLiteral | null {
     return this.lastBounds;
+  }
+
+  getCamera(): MapCamera | null {
+    return this.center && this.zoom !== null ? { center: this.center, zoom: this.zoom } : null;
   }
 
   async getAddressSuggestions(input: string): Promise<AddressSuggestion[]> {

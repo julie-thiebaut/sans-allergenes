@@ -1,9 +1,10 @@
-import { useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import type { RestaurantWithMenu } from "../../data/types";
 import { filterRestaurants } from "../../filtering/filterRestaurants";
 import { PARIS_CENTER } from "../../maps/MapsAdapter";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
+import { sameBounds, useMapPageMemory } from "../../state/MapPageMemoryContext";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import { SearchFilterBar } from "../filters/SearchFilterBar";
@@ -19,8 +20,28 @@ const DESKTOP_MEDIA_QUERY = "(min-width: 768px)";
 export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMenu[] }) {
   const filters = useFilterState();
   const { bounds } = useMapBoundsContext();
+  const memory = useMapPageMemory();
   const isDesktop = useMediaQuery(DESKTOP_MEDIA_QUERY);
-  const [mobileView, setMobileView] = useState<MobileViewMode>("map");
+  const [mobileView, setMobileView] = useState<MobileViewMode>(memory?.mobileView ?? "map");
+  const showList = isDesktop || mobileView === "list";
+  const listScrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (memory) memory.mobileView = mobileView;
+  }, [memory, mobileView]);
+
+  // Put the list back where it was scrolled, each time it appears: back from a restaurant, or
+  // back from the mobile map view. Only if it is still the same list — after the map has moved,
+  // the old offset would land in the middle of different restaurants, and the nearest ones at
+  // the top are the right place to start. Layout effect, so it lands before the first paint and
+  // before RestaurantList's scroll-to-selection, which then finds the card already in view.
+  useLayoutEffect(() => {
+    const list = listScrollRef.current;
+    if (!showList || !list || !memory) return;
+    if (sameBounds(memory.listScroll.bounds, bounds)) list.scrollTop = memory.listScroll.top;
+    // Only when the list (re)appears: a later bounds change must not yank the scroll position.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showList]);
 
   const filteredRestaurants = useMemo(
     () => filterRestaurants(allRestaurants, filters),
@@ -60,8 +81,14 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
       <ResultCount count={visibleInList.length} />
 
       <div className="grid min-h-0 flex-1 md:grid-cols-[minmax(360px,1fr)_1.4fr]">
-        {(isDesktop || mobileView === "list") && (
-          <div className="min-h-0 overflow-y-auto">
+        {showList && (
+          <div
+            ref={listScrollRef}
+            className="min-h-0 overflow-y-auto"
+            onScroll={(event) => {
+              if (memory) memory.listScroll = { top: event.currentTarget.scrollTop, bounds };
+            }}
+          >
             <RestaurantList restaurants={visibleInList} />
           </div>
         )}

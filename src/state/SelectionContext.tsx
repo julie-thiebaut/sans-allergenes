@@ -1,4 +1,5 @@
-import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from "react";
+import { useMapPageMemory } from "./MapPageMemoryContext";
 
 interface SelectionContextValue {
   hoveredId: string | null;
@@ -11,12 +12,25 @@ const SelectionContext = createContext<SelectionContextValue | null>(null);
 
 /** Shared hover/selection channel between RestaurantCard (list) and MapView (markers). */
 export function SelectionProvider({ children }: { children: ReactNode }) {
+  const memory = useMapPageMemory();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  // The selection is remembered (the restaurant just opened stays highlighted, and its preview
+  // card is back on the mobile map); the hover is not, since the pointer has moved on.
+  const [selectedId, setSelectedIdState] = useState<string | null>(memory?.selectedId ?? null);
+
+  // Written here rather than in an effect: clicking a card in the list selects it AND leaves
+  // the page in the same render, so an effect on selectedId would never get to run.
+  const setSelectedId = useCallback(
+    (id: string | null) => {
+      if (memory) memory.selectedId = id;
+      setSelectedIdState(id);
+    },
+    [memory],
+  );
 
   const value = useMemo(
     () => ({ hoveredId, selectedId, setHoveredId, setSelectedId }),
-    [hoveredId, selectedId],
+    [hoveredId, selectedId, setSelectedId],
   );
 
   return <SelectionContext.Provider value={value}>{children}</SelectionContext.Provider>;

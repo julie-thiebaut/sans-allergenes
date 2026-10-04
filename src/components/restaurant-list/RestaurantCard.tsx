@@ -6,6 +6,7 @@ import {
 } from "../../filtering/allergenLogic";
 import type { RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
+import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { formatVerifiedDate } from "../../utils/formatDate";
@@ -73,6 +74,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
               {isWarning && <AllergenWarningIcon />}
               <Link
                 to={`/restaurant/${restaurant.slug}`}
+                state={OPENED_FROM_MAP_PAGE}
                 className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
                 onFocus={() => setHoveredId(restaurant.id)}
                 onBlur={() => setHoveredId(null)}
