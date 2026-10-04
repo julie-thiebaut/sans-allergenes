@@ -12,19 +12,19 @@
           "price": 12.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -34,19 +34,19 @@
           "price": 12.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -56,19 +56,19 @@
           "price": 12.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -78,19 +78,19 @@
           "price": 12.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -100,19 +100,19 @@
           "price": 12.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -122,19 +122,19 @@
           "price": 11,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -144,19 +144,19 @@
           "price": 11,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -171,19 +171,19 @@
           "price": 9.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "present",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -193,19 +193,19 @@
           "price": 9.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "present",
             "sulfites": "present",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -215,19 +215,19 @@
           "price": 9.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "present",
             "moutarde": "not_declared",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -242,19 +242,19 @@
           "price": 12.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -269,19 +269,19 @@
           "price": 12,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -291,19 +291,19 @@
           "price": 12,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -313,19 +313,19 @@
           "price": 12,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -335,19 +335,19 @@
           "price": 12,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -357,19 +357,19 @@
           "price": 12,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -379,19 +379,19 @@
           "price": 8.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -401,19 +401,19 @@
           "price": 8.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -423,19 +423,19 @@
           "price": 8.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -445,19 +445,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -472,19 +472,19 @@
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -494,19 +494,19 @@
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -516,19 +516,19 @@
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -538,19 +538,19 @@
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -560,19 +560,19 @@
           "price": 5.5,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -582,19 +582,19 @@
           "price": 4.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -604,19 +604,19 @@
           "price": 2.8,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -631,19 +631,19 @@
           "price": 6.2,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -653,19 +653,19 @@
           "price": 6.2,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -675,19 +675,19 @@
           "price": 6.2,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -702,19 +702,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -724,19 +724,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -746,19 +746,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -768,19 +768,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -790,19 +790,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -812,19 +812,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -834,19 +834,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -856,19 +856,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -878,19 +878,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -900,19 +900,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -922,19 +922,19 @@
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -944,19 +944,19 @@
           "price": 8,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -966,19 +966,19 @@
           "price": 8,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -988,19 +988,19 @@
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1010,19 +1010,19 @@
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1032,19 +1032,19 @@
           "price": 3.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1054,19 +1054,19 @@
           "price": 3,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -1081,19 +1081,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1103,19 +1103,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1125,19 +1125,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1147,19 +1147,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1169,19 +1169,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1191,19 +1191,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "present",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1213,19 +1213,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1235,19 +1235,19 @@
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -1262,19 +1262,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1284,19 +1284,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1306,19 +1306,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -1333,19 +1333,19 @@
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1355,19 +1355,19 @@
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1377,19 +1377,19 @@
           "price": 3.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1399,19 +1399,19 @@
           "price": 4.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1421,19 +1421,19 @@
           "price": 3.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -1448,19 +1448,19 @@
           "price": 4.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1470,19 +1470,19 @@
           "price": 4.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
@@ -1497,19 +1497,19 @@
           "price": 8.2,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "present",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1519,19 +1519,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1541,19 +1541,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1563,19 +1563,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1585,19 +1585,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         },
         {
@@ -1607,19 +1607,19 @@
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "unknown"
           }
         }
       ]
