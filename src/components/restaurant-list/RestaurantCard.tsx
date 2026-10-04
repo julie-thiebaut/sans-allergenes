@@ -1,10 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import {
-  assessMenuAgainstAvoidance,
-  countDishesDeclaringAvoided,
-} from "../../filtering/allergenLogic";
-import type { RestaurantWithMenu } from "../../data/types";
+import { countDishesDeclaringAvoided } from "../../filtering/allergenLogic";
+import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { useSelectionContext } from "../../state/SelectionContext";
@@ -16,6 +13,57 @@ import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
 import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
+
+const DISH = { one: "plat", many: "plats", none: "Aucun plat" };
+const DRINK = { one: "boisson", many: "boissons", none: "Aucune boisson" };
+
+interface AvoidanceLine {
+  text: string;
+  tone: "warning" | "neutral";
+}
+
+/**
+ * Ce que la carte déclare pour l'allergène à éviter, compté plat par plat, boissons mises à part
+ * (une carte faite seulement de boissons se juge sur elles, comme dans le filtre) : « 10 plats sur
+ * 99 ne déclarent pas l'allergène à éviter », c'est-à-dire ne le déclarent pas PRÉSENT. Les traces
+ * n'y sont pas nommées : la fiche du restaurant les montre plat par plat, et le visiteur peut les
+ * exclure (`excludeTraces`), elles comptent alors comme une déclaration. « Ne déclare pas », jamais
+ * « sans » : un plat qui ne déclare rien ne promet rien. Avec plusieurs allergènes à éviter, un plat
+ * compte dès qu'il en déclare un : « 10 plats sur 99 ne déclarent aucun des allergènes à éviter ».
+ */
+function describeAvoidance(
+  menu: Menu | undefined,
+  avoid: AllergenId[],
+  excludeTraces: boolean,
+): AvoidanceLine[] {
+  if (avoid.length === 0) return [];
+  const several = avoid.length > 1;
+  const incomplete: AvoidanceLine = {
+    text: `Information incomplète pour ${several ? "les allergènes" : "l’allergène"} à éviter`,
+    tone: "neutral",
+  };
+  if (!menu) return [incomplete];
+
+  const { dishes, drinks } = countDishesDeclaringAvoided(menu, avoid, { excludeTraces });
+  const [count, noun] = dishes.total > 0 ? [dishes, DISH] : [drinks, DRINK];
+  const clear = count.total - count.declaring;
+
+  const lines: AvoidanceLine[] = [];
+  if (count.declaring > 0 && clear > 0) {
+    const verb = clear > 1 ? "ne déclarent" : "ne déclare";
+    lines.push({
+      text: `${clear} ${clear > 1 ? noun.many : noun.one} sur ${count.total} ${verb} ${several ? "aucun des allergènes" : "pas l’allergène"} à éviter`,
+      tone: "warning",
+    });
+  } else if (count.declaring + count.unknown === 0) {
+    lines.push({
+      text: `${noun.none} ne déclare ${several ? "les allergènes" : "l’allergène"} à éviter`,
+      tone: "neutral",
+    });
+  }
+  if (count.unknown > 0) lines.push(incomplete);
+  return lines;
+}
 
 function Badge({ children }: { children: ReactNode }) {
   return (
@@ -33,16 +81,13 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
   const isWarning = !restaurant.allergenInformationAvailable;
 
   // A restaurant is only excluded when EVERY dish declares an avoided allergen, so cards here
-  // may still have some offending dishes — the count says how many, rather than leaving the
-  // user to discover it after opening the menu.
-  const avoidanceAssessment =
-    filters.allergensToAvoid.length > 0
-      ? assessMenuAgainstAvoidance(restaurant.menu, filters.allergensToAvoid)
-      : null;
-  const { declaring, total } =
-    filters.allergensToAvoid.length > 0
-      ? countDishesDeclaringAvoided(restaurant.menu, filters.allergensToAvoid)
-      : { declaring: 0, total: 0 };
+  // may still have some offending dishes — the count says how many are left, rather than
+  // leaving the user to discover it after opening the menu.
+  const avoidanceLines = describeAvoidance(
+    restaurant.menu,
+    filters.allergensToAvoid,
+    filters.excludeTraces,
+  );
 
   return (
     <article
@@ -112,22 +157,16 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             )}
           </div>
 
-          {declaring > 0 && (
-            <p className="mt-1 text-xs font-medium text-amber-700">
-              {declaring} plat{declaring > 1 ? "s" : ""} sur {total} déclare
-              {declaring > 1 ? "nt" : ""} l&rsquo;allergène à éviter
+          {avoidanceLines.map((line) => (
+            <p
+              key={line.text}
+              className={`mt-1 text-xs font-medium ${
+                line.tone === "warning" ? "text-amber-700" : "text-neutral-600"
+              }`}
+            >
+              {line.text}
             </p>
-          )}
-          {avoidanceAssessment === "may_contain_avoided" && (
-            <p className="mt-1 text-xs font-medium text-amber-700">
-              ⚠ Traces possibles de l&rsquo;allergène à éviter. Vérifiez avant de commander.
-            </p>
-          )}
-          {avoidanceAssessment === "incomplete_info_for_avoided" && (
-            <p className="mt-1 text-xs font-medium text-neutral-600">
-              Information incomplète pour l&rsquo;allergène à éviter
-            </p>
-          )}
+          ))}
         </div>
       </div>
     </article>

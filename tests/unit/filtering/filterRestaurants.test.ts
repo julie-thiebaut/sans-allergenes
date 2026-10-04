@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { DEFAULT_FILTER_STATE, filterRestaurants } from "../../../src/filtering/filterRestaurants";
 import type { RestaurantWithMenu } from "../../../src/data/types";
-import { fullInfoMenu, makeAllergenMap } from "../../fixtures/menu.fixture";
+import { fullInfoMenu, makeAllergenMap, menuWithDrinks } from "../../fixtures/menu.fixture";
 import {
   allFixtureRestaurants,
   restaurantWithFullInfo,
@@ -64,6 +64,81 @@ describe("filterRestaurants", () => {
       allergensToAvoid: ["gluten"],
     });
     expect(result).toEqual([]);
+  });
+
+  it("excludes a restaurant whose every dish declares the allergen, even if a drink doesn't", () => {
+    // The coffee-shop case: every pastry declares gluten, only the coffee is left.
+    const allGlutenButWater: RestaurantWithMenu = {
+      ...restaurantWithFullInfo,
+      id: "rest-all-gluten-but-water",
+      slug: "rest-all-gluten-but-water",
+      menu: {
+        ...menuWithDrinks,
+        categories: menuWithDrinks.categories.map((category) =>
+          category.category === "Plats"
+            ? {
+                ...category,
+                dishes: category.dishes.map((dish) => ({
+                  ...dish,
+                  allergens: makeAllergenMap({ gluten: "present" }),
+                })),
+              }
+            : category,
+        ),
+      },
+    };
+
+    const result = filterRestaurants([allGlutenButWater], {
+      ...DEFAULT_FILTER_STATE,
+      allergensToAvoid: ["gluten"],
+    });
+    expect(result).toEqual([]);
+  });
+
+  it("excludes a restaurant whose dishes all declare the allergen or traces, once traces are excluded", () => {
+    // fullInfoMenu with milk: "Plat au blé" declares traces, "Salade simple" nothing.
+    const tracesOrMilk: RestaurantWithMenu = {
+      ...restaurantWithFullInfo,
+      id: "rest-traces-or-milk",
+      slug: "rest-traces-or-milk",
+      menu: {
+        ...fullInfoMenu,
+        categories: [
+          {
+            category: "Plats",
+            dishes: [
+              fullInfoMenu.categories[0]!.dishes[0]!,
+              {
+                ...fullInfoMenu.categories[0]!.dishes[1]!,
+                allergens: makeAllergenMap({ lait: "present" }),
+              },
+            ],
+          },
+        ],
+      },
+    };
+    const avoidMilk = { ...DEFAULT_FILTER_STATE, allergensToAvoid: ["lait" as const] };
+
+    expect(filterRestaurants([tracesOrMilk], avoidMilk)).toEqual([tracesOrMilk]);
+    expect(filterRestaurants([tracesOrMilk], { ...avoidMilk, excludeTraces: true })).toEqual([]);
+  });
+
+  it("judges a menu made only of drinks on its drinks", () => {
+    const drinksOnly: RestaurantWithMenu = {
+      ...restaurantWithFullInfo,
+      id: "rest-drinks-only",
+      slug: "rest-drinks-only",
+      menu: {
+        ...menuWithDrinks,
+        categories: menuWithDrinks.categories.filter((category) => category.category === "Bières"),
+      },
+    };
+
+    const result = filterRestaurants([drinksOnly], {
+      ...DEFAULT_FILTER_STATE,
+      allergensToAvoid: ["gluten"],
+    });
+    expect(result).toEqual([drinksOnly]);
   });
 
   it("keeps a restaurant with only unknown info for the avoided allergen (never silently marked safe)", () => {

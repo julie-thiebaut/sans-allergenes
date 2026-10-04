@@ -4,6 +4,7 @@ import { filterMenuAgainstAvoidance } from "../../filtering/allergenLogic";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { AllergensToAvoidFilter } from "../filters/AllergensToAvoidFilter";
+import { ExcludeTracesFilter } from "../filters/ExcludeTracesFilter";
 import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import type { RestaurantWithMenu } from "../../data/types";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
@@ -16,21 +17,44 @@ import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
 import { ContactRestaurantCallout, ReportProblemLink } from "./RestaurantContact";
 
-const MENU_FILTER_DESCRIPTION =
-  "Les plats déclarant cet allergène comme présent sont masqués. Les plats « traces possibles » " +
-  "et ceux sans information restent affichés : leur présence dans la carte ne constitue jamais " +
-  "une garantie.";
+function menuFilterDescription(excludeTraces: boolean, several = false): string {
+  const allergen = several ? "l’un de ces allergènes" : "cet allergène";
+  return excludeTraces
+    ? `Les plats déclarant ${allergen}, présent ou en traces, sont masqués. Ceux sans ` +
+        "information restent affichés : leur présence dans la carte ne constitue jamais une " +
+        "garantie."
+    : `Les plats déclarant ${allergen} comme présent sont masqués. Les plats « traces ` +
+        "possibles » et ceux sans information restent affichés : leur présence dans la carte ne " +
+        "constitue jamais une garantie.";
+}
+
+// « 3 plats et 2 boissons masqués », « 1 boisson masquée » : les boissons sont comptées à part.
+function describeHidden(dishCount: number, drinkCount: number): string {
+  const dishes = `${dishCount} plat${dishCount > 1 ? "s" : ""}`;
+  const drinks = `${drinkCount} boisson${drinkCount > 1 ? "s" : ""}`;
+  if (drinkCount === 0) return `${dishes} masqué${dishCount > 1 ? "s" : ""}`;
+  if (dishCount === 0) return `${drinks} masquée${drinkCount > 1 ? "s" : ""}`;
+  return `${dishes} et ${drinks} masqués`;
+}
 
 export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWithMenu }) {
   const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
-  const { allergensToAvoid } = useFilterState();
+  const { allergensToAvoid, excludeTraces } = useFilterState();
   // Rendered in one place or the other, never both: two copies would mean duplicate checkboxes
   // for the same allergen in the accessibility tree.
   const isDesktop = useMediaQuery("(min-width: 768px)");
   const menu =
     restaurant.allergenInformationAvailable && restaurant.menu
-      ? filterMenuAgainstAvoidance(restaurant.menu, allergensToAvoid)
+      ? filterMenuAgainstAvoidance(restaurant.menu, allergensToAvoid, { excludeTraces })
       : null;
+  const menuFilter = (
+    <div className="space-y-3">
+      <AllergensToAvoidFilter
+        description={menuFilterDescription(excludeTraces, allergensToAvoid.length > 1)}
+      />
+      <ExcludeTracesFilter />
+    </div>
+  );
 
   return (
     <article>
@@ -91,21 +115,19 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           <>
             {isDesktop ? (
               <div className="rounded-md border border-neutral-200 bg-neutral-50 p-4">
-                <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
+                {menuFilter}
               </div>
             ) : (
               <div className="flex justify-end">
-                <MobileFilterSheet title="Filtrer par allergènes">
-                  <AllergensToAvoidFilter description={MENU_FILTER_DESCRIPTION} />
-                </MobileFilterSheet>
+                <MobileFilterSheet title="Filtrer par allergènes">{menuFilter}</MobileFilterSheet>
               </div>
             )}
 
-            {menu.excludedDishCount > 0 && (
+            {(menu.excludedDishCount > 0 || menu.excludedDrinkCount > 0) && (
               <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
-                {menu.excludedDishCount}{" "}
-                {menu.excludedDishCount > 1 ? "plats masqués" : "plat masqué"} : l&rsquo;allergène à
-                éviter y est déclaré présent.
+                {describeHidden(menu.excludedDishCount, menu.excludedDrinkCount)} :{" "}
+                {allergensToAvoid.length > 1 ? "un des allergènes" : "l’allergène"} à éviter y est
+                déclaré{excludeTraces ? ", présent ou en traces." : " présent."}
               </p>
             )}
 

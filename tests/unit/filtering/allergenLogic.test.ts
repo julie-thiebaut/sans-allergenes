@@ -1,10 +1,15 @@
 import { describe, expect, it } from "vitest";
 import {
   assessDishAgainstAvoidance,
-  assessMenuAgainstAvoidance,
+  countDishesDeclaringAvoided,
   filterMenuAgainstAvoidance,
 } from "../../../src/filtering/allergenLogic";
-import { fullInfoMenu, makeAllergenMap, unknownInfoMenu } from "../../fixtures/menu.fixture";
+import {
+  fullInfoMenu,
+  makeAllergenMap,
+  menuWithDrinks,
+  unknownInfoMenu,
+} from "../../fixtures/menu.fixture";
 
 describe("assessDishAgainstAvoidance", () => {
   it("returns no_allergens_selected when the avoid list is empty", () => {
@@ -21,23 +26,23 @@ describe("assessDishAgainstAvoidance", () => {
     expect(assessDishAgainstAvoidance(allergens, ["gluten"])).toBe("may_contain_avoided");
   });
 
-  it("returns incomplete_info_for_avoided for unknown/not_declared — never a safe outcome", () => {
+  it("returns incomplete_info_for_avoided when the document doesn't cover the allergen", () => {
     expect(assessDishAgainstAvoidance(makeAllergenMap({ gluten: "unknown" }), ["gluten"])).toBe(
       "incomplete_info_for_avoided",
     );
-    expect(
-      assessDishAgainstAvoidance(makeAllergenMap({ gluten: "not_declared" }), ["gluten"]),
-    ).toBe("incomplete_info_for_avoided");
   });
 
-  it("never produces an outcome outside the three non-safe possibilities once an allergen is selected", () => {
-    const allStatuses = ["present", "may_contain", "not_declared", "unknown"] as const;
-    for (const status of allStatuses) {
-      const result = assessDishAgainstAvoidance(makeAllergenMap({ gluten: status }), ["gluten"]);
-      expect(["contains_avoided", "may_contain_avoided", "incomplete_info_for_avoided"]).toContain(
-        result,
-      );
-    }
+  it("returns not_declared_for_avoided when the document is silent — a report, not an all-clear", () => {
+    expect(
+      assessDishAgainstAvoidance(makeAllergenMap({ gluten: "not_declared" }), ["gluten"]),
+    ).toBe("not_declared_for_avoided");
+  });
+
+  it("lets an unknown avoided allergen outweigh a silent one", () => {
+    const allergens = makeAllergenMap({ gluten: "not_declared", lupin: "unknown" });
+    expect(assessDishAgainstAvoidance(allergens, ["gluten", "lupin"])).toBe(
+      "incomplete_info_for_avoided",
+    );
   });
 
   it("prioritizes the worst status across multiple avoided allergens", () => {
@@ -46,27 +51,51 @@ describe("assessDishAgainstAvoidance", () => {
   });
 });
 
-describe("assessMenuAgainstAvoidance", () => {
-  it("returns no_allergens_selected when the avoid list is empty", () => {
-    expect(assessMenuAgainstAvoidance(fullInfoMenu, [])).toBe("no_allergens_selected");
+describe("countDishesDeclaringAvoided", () => {
+  it("counts the drinks apart from the dishes", () => {
+    expect(countDishesDeclaringAvoided(menuWithDrinks, ["gluten"])).toEqual({
+      dishes: { declaring: 1, traces: 0, unknown: 0, total: 2 },
+      drinks: { declaring: 1, traces: 0, unknown: 0, total: 2 },
+    });
   });
 
-  it("treats a missing menu as incomplete info, never as an all-clear", () => {
-    expect(assessMenuAgainstAvoidance(undefined, ["gluten"])).toBe("incomplete_info_for_avoided");
+  it("counts traces and uncovered dishes apart from the declaring ones", () => {
+    // fullInfoMenu: "Plat au blé" declares traces of milk; unknownInfoMenu covers nothing.
+    expect(countDishesDeclaringAvoided(fullInfoMenu, ["lait"]).dishes).toEqual({
+      declaring: 0,
+      traces: 1,
+      unknown: 0,
+      total: 2,
+    });
+    expect(countDishesDeclaringAvoided(unknownInfoMenu, ["gluten"]).dishes).toEqual({
+      declaring: 0,
+      traces: 0,
+      unknown: 1,
+      total: 1,
+    });
   });
 
-  it("returns contains_avoided if any dish in the menu has a confirmed match", () => {
-    expect(assessMenuAgainstAvoidance(fullInfoMenu, ["gluten"])).toBe("contains_avoided");
+  it("counts traces as declaring when the visitor excludes them", () => {
+    expect(
+      countDishesDeclaringAvoided(fullInfoMenu, ["lait"], { excludeTraces: true }).dishes,
+    ).toEqual({ declaring: 1, traces: 0, unknown: 0, total: 2 });
   });
 
-  it("returns incomplete_info_for_avoided for a menu where every allergen is unknown", () => {
-    expect(assessMenuAgainstAvoidance(unknownInfoMenu, ["gluten"])).toBe(
-      "incomplete_info_for_avoided",
-    );
+  it("returns zero totals when there is no menu", () => {
+    expect(countDishesDeclaringAvoided(undefined, ["gluten"])).toEqual({
+      dishes: { declaring: 0, traces: 0, unknown: 0, total: 0 },
+      drinks: { declaring: 0, traces: 0, unknown: 0, total: 0 },
+    });
   });
 });
 
 describe("filterMenuAgainstAvoidance", () => {
+  it("counts hidden drinks apart from hidden dishes", () => {
+    const result = filterMenuAgainstAvoidance(menuWithDrinks, ["gluten"]);
+    expect(result.excludedDishCount).toBe(1);
+    expect(result.excludedDrinkCount).toBe(1);
+  });
+
   it("returns the menu untouched when no allergens are selected", () => {
     const result = filterMenuAgainstAvoidance(fullInfoMenu, []);
     expect(result.categories).toEqual(fullInfoMenu.categories);
@@ -86,6 +115,13 @@ describe("filterMenuAgainstAvoidance", () => {
     const names = result.categories.flatMap((c) => c.dishes.map((d) => d.name));
     expect(names).toContain("Plat au blé"); // lait is may_contain here
     expect(result.excludedDishCount).toBe(0);
+  });
+
+  it("hides 'may_contain' dishes too when the visitor excludes traces", () => {
+    const result = filterMenuAgainstAvoidance(fullInfoMenu, ["lait"], { excludeTraces: true });
+    const names = result.categories.flatMap((c) => c.dishes.map((d) => d.name));
+    expect(names).toEqual(["Salade simple"]);
+    expect(result.excludedDishCount).toBe(1);
   });
 
   it("keeps dishes whose information is entirely unknown — absence of data is never an all-clear", () => {

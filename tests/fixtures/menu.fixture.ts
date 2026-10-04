@@ -32,6 +32,30 @@ export const fullInfoMenu: Menu = {
   ],
 };
 
+// fullInfoMenu plus a drinks section: the beer declares gluten, the water declares nothing.
+export const menuWithDrinks: Menu = {
+  menuId: "menu-with-drinks",
+  restaurantId: "rest-full-info",
+  categories: [
+    ...fullInfoMenu.categories,
+    {
+      category: "Bières",
+      dishes: [
+        {
+          id: "drink-beer",
+          name: "Bière blonde",
+          allergens: makeAllergenMap({ gluten: "present" }),
+        },
+        {
+          id: "drink-water",
+          name: "Eau plate",
+          allergens: makeAllergenMap(),
+        },
+      ],
+    },
+  ],
+};
+
 export const unknownInfoMenu: Menu = {
   menuId: "menu-unknown-info",
   restaurantId: "rest-unknown-info",

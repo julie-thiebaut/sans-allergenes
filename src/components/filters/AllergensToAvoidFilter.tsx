@@ -2,22 +2,22 @@ import { ALLERGEN_ICONS, ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../../d
 import type { AllergenId } from "../../data/types";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
-const LIST_DESCRIPTION =
-  "Les restaurants dont un plat déclare cet allergène comme présent sont exclus des résultats. " +
-  "Les mentions « traces possibles » ou « information incomplète » restent affichées : rester " +
-  "dans la liste ne constitue jamais une garantie pour ce restaurant.";
+function listDescription(excludeTraces: boolean, several = false): string {
+  return (
+    "Un restaurant est retiré des résultats quand tous ses plats déclarent " +
+    (several ? "l’un de ces allergènes" : "cet allergène") +
+    " comme " +
+    (excludeTraces ? "présent ou en traces." : "présent.")
+  );
+}
 
 /**
  * `description` is overridable because the same control filters two different things (the
  * restaurant list, and a single restaurant's menu) and must state precisely what it excludes
  * in each case — vague wording here is exactly how a filter gets mistaken for a safety filter.
  */
-export function AllergensToAvoidFilter({
-  description = LIST_DESCRIPTION,
-}: {
-  description?: string;
-}) {
-  const { allergensToAvoid } = useFilterState();
+export function AllergensToAvoidFilter({ description }: { description?: string }) {
+  const { allergensToAvoid, excludeTraces } = useFilterState();
   const dispatch = useFilterDispatch();
 
   function toggle(id: AllergenId) {
@@ -30,7 +30,9 @@ export function AllergensToAvoidFilter({
   return (
     <fieldset>
       <legend className="mb-1 text-sm font-medium text-neutral-700">Allergènes à éviter</legend>
-      <p className="mb-2 text-xs text-neutral-500">{description}</p>
+      <p className="mb-2 text-xs text-neutral-500">
+        {description ?? listDescription(excludeTraces, allergensToAvoid.length > 1)}
+      </p>
       <div className="flex flex-wrap gap-1.5">
         {ALLERGENS_SORTED_FR.map((id) => {
           const checked = allergensToAvoid.includes(id);

@@ -11,6 +11,7 @@ const PARAM_KEYS = {
   veganOnly: "vegan",
   allergenInfoAvailableOnly: "hasAllergenInfo",
   allergensToAvoid: "avoid",
+  excludeTraces: "noTraces",
 } as const;
 
 function parseFilterStateFromParams(params: URLSearchParams): FilterState {
@@ -25,6 +26,7 @@ function parseFilterStateFromParams(params: URLSearchParams): FilterState {
     veganOnly: params.get(PARAM_KEYS.veganOnly) === "1",
     allergenInfoAvailableOnly: params.get(PARAM_KEYS.allergenInfoAvailableOnly) === "1",
     allergensToAvoid,
+    excludeTraces: params.get(PARAM_KEYS.excludeTraces) === "1",
   };
 }
 
@@ -42,6 +44,7 @@ function filterStateToParams(filters: FilterState): URLSearchParams {
   if (filters.allergensToAvoid.length > 0) {
     params.set(PARAM_KEYS.allergensToAvoid, filters.allergensToAvoid.join(","));
   }
+  if (filters.excludeTraces) params.set(PARAM_KEYS.excludeTraces, "1");
   return params;
 }
 

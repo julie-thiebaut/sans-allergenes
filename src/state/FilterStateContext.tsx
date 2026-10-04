@@ -8,6 +8,7 @@ export type FilterAction =
   | { type: "SET_VEGAN_ONLY"; value: boolean }
   | { type: "SET_ALLERGEN_INFO_AVAILABLE_ONLY"; value: boolean }
   | { type: "SET_ALLERGENS_TO_AVOID"; value: AllergenId[] }
+  | { type: "SET_EXCLUDE_TRACES"; value: boolean }
   | { type: "RESET" }
   | { type: "REPLACE_ALL"; value: FilterState };
 
@@ -23,6 +24,8 @@ function filterReducer(state: FilterState, action: FilterAction): FilterState {
       return { ...state, allergenInfoAvailableOnly: action.value };
     case "SET_ALLERGENS_TO_AVOID":
       return { ...state, allergensToAvoid: action.value };
+    case "SET_EXCLUDE_TRACES":
+      return { ...state, excludeTraces: action.value };
     case "RESET":
       return DEFAULT_FILTER_STATE;
     case "REPLACE_ALL":
