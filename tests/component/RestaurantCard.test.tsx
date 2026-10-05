@@ -47,6 +47,13 @@ describe("RestaurantCard", () => {
     expect(screen.queryByText(/infos allergènes disponibles/i)).not.toBeInTheDocument();
   });
 
+  // Les options végétariennes ou véganes restent sur la fiche du restaurant, pas dans la liste.
+  it("leaves the vegetarian and vegan options off the card", () => {
+    renderCard(restaurantWithUnknownInfo);
+    expect(screen.getByText("Fusion")).toBeInTheDocument();
+    expect(screen.queryByText(/végétarien|végane?/i)).not.toBeInTheDocument();
+  });
+
   it("shows the demo data badge for fixture restaurants", () => {
     renderCard();
     expect(screen.getByText(/donnée de démonstration/i)).toBeInTheDocument();

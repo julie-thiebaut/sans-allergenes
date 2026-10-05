@@ -1,4 +1,5 @@
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
+import { cuisineLine } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import { filterMenuAgainstAvoidance } from "../../filtering/allergenLogic";
 import { useFilterState } from "../../state/FilterStateContext";
@@ -74,10 +75,8 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           {arrondissement ? ` · ${arrondissement}` : ""}
         </p>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-neutral-700">
-          <span>{restaurant.cuisineTypes.join(", ")}</span>
+          <span>{cuisineLine(restaurant)}</span>
           <PriceLevelIndicator level={restaurant.priceLevel} />
-          {restaurant.vegetarianOptions && <span>Options végétariennes</span>}
-          {restaurant.veganOptions && <span>Options véganes</span>}
           <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
         </div>
         <div className="mt-3 flex flex-wrap gap-4 text-sm">

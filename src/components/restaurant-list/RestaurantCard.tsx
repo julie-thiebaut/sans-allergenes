@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { countDishesDeclaringAvoided } from "../../filtering/allergenLogic";
 import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
@@ -65,14 +64,6 @@ function describeAvoidance(
   return lines;
 }
 
-function Badge({ children }: { children: ReactNode }) {
-  return (
-    <span className="inline-flex items-center rounded-full bg-brand-100 px-2 py-0.5 font-medium text-brand-800">
-      {children}
-    </span>
-  );
-}
-
 export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu }) {
   const { hoveredId, selectedId, setHoveredId, setSelectedId } = useSelectionContext();
   const filters = useFilterState();
@@ -136,8 +127,6 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
           <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
 
           <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
-            {restaurant.vegetarianOptions && <Badge>Végétarien</Badge>}
-            {restaurant.veganOptions && <Badge>Végane</Badge>}
             {restaurant.source && <SourceProvenanceBadge kind={restaurant.source.kind} />}
             {restaurant.isDemoData && <DemoDataBadge />}
           </div>
