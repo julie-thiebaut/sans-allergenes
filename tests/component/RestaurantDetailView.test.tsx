@@ -63,6 +63,15 @@ describe("RestaurantDetailPage (open/close)", () => {
     ).toBeInTheDocument();
   });
 
+  it("puts the disclaimer after the menu, so the dishes come first on a phone", () => {
+    renderDetailPage("/restaurant/le-restaurant-complet");
+    const dish = screen.getByText("Plat au blé");
+    const disclaimer = screen.getByRole("note");
+    expect(
+      dish.compareDocumentPosition(disclaimer) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
   it("filters the menu by allergen without implying the remaining dishes are safe", async () => {
     const user = userEvent.setup();
     renderDetailPage("/restaurant/le-restaurant-complet");

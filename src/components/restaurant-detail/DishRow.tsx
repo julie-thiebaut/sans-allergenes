@@ -12,7 +12,7 @@ const DIET_TAG_LABELS: Record<DietTag, string> = {
  * information and would drown the two that do.
  *
  * Nothing here restates that missing data isn't a guarantee: AllergenSafetyDisclaimer says
- * exactly that, once, at the top of every restaurant page (including restaurants with no
+ * exactly that, once, right after the menu on every restaurant page (including restaurants with no
  * allergen data at all). Repeating it under each dish added noise, not safety.
  */
 function groupByStatus(dish: Dish): { present: AllergenId[]; mayContain: AllergenId[] } {

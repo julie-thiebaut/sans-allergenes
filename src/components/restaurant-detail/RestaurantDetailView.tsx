@@ -91,8 +91,6 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         </div>
       </header>
 
-      <AllergenSafetyDisclaimer />
-
       <div className="mt-6 space-y-8">
         {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
 
@@ -167,13 +165,18 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         {restaurant.allergenCoverageNotice && (
           <p
             role="alert"
-            // Même gabarit que le disclaimer en tête de fiche (role="note") : même taille de
-            // texte, même padding, même rayon. Seule la couleur distingue l'avertissement.
+            // Même gabarit que le disclaimer qui le suit (role="note") : même taille de texte,
+            // même padding, même rayon. Seule la couleur distingue l'avertissement.
             className="rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-800"
           >
             {restaurant.allergenCoverageNotice}
           </p>
         )}
+
+        {/* Après la carte, comme le bandeau rouge : en tête, il repoussait les plats sous la
+            ligne de flottaison sur mobile. Il suit ce bandeau, propre à l'enseigne, et précède
+            l'invitation à contacter le restaurant, qu'il annonce. */}
+        <AllergenSafetyDisclaimer />
 
         <ContactRestaurantCallout restaurant={restaurant} />
       </div>
