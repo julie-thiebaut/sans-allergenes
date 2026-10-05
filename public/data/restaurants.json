@@ -2275,7 +2275,7 @@
     "cuisineTypes": [
       "Burgers"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-14T00:00:00Z",
@@ -2773,7 +2773,7 @@
     "cuisineTypes": [
       "Française"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-12T00:00:00Z",
@@ -2800,8 +2800,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -2828,7 +2828,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -2860,7 +2860,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -2892,7 +2892,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -2924,7 +2924,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -2956,7 +2956,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -2989,7 +2989,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -3021,7 +3021,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://kozy.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-15T00:00:00Z",
@@ -3051,7 +3051,7 @@
     "cuisineTypes": [
       "Burgers"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-14T00:00:00Z",
@@ -3571,7 +3571,7 @@
     "cuisineTypes": [
       "Française"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-12T00:00:00Z",
@@ -4647,7 +4647,7 @@
       "Burgers"
     ],
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-14T00:00:00Z",
     "source": {
@@ -5001,7 +5001,7 @@
     "cuisineTypes": [
       "Burgers"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-14T00:00:00Z",
@@ -5364,7 +5364,7 @@
       "Pizza",
       "Américaine"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-17T00:00:00Z",
@@ -5513,8 +5513,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -5633,8 +5633,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -5660,8 +5660,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -5687,7 +5687,7 @@
       "Pizza",
       "Italienne"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -5719,7 +5719,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://www.dunkinfrance.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -5747,7 +5747,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://www.dunkinfrance.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -5775,7 +5775,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://www.dunkinfrance.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -5803,7 +5803,7 @@
       "Coffee shop"
     ],
     "websiteUrl": "https://www.dunkinfrance.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -5861,8 +5861,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -5887,8 +5887,8 @@
     "cuisineTypes": [
       "Glaces"
     ],
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -6121,8 +6121,8 @@
     ],
     "description": "Restaurant thaï pensé comme un bistrot traditionnel : une cuisine simple, authentique et faite maison, chaque plat cuisiné minute, des nems aux currys et au bœuf mariné et grillé qui donne son nom à la maison. Ouvert du lundi au dimanche.",
     "websiteUrl": "https://www.thecryingtiger.fr/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-24T00:00:00Z",
     "source": {
@@ -6149,8 +6149,8 @@
     ],
     "description": "Restaurant thaï pensé comme un bistrot traditionnel : une cuisine simple, authentique et faite maison, chaque plat cuisiné minute, des nems aux currys et au bœuf mariné et grillé qui donne son nom à la maison. Ouvert du lundi au dimanche.",
     "websiteUrl": "https://www.thecryingtiger.fr/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-24T00:00:00Z",
     "source": {
@@ -6177,8 +6177,8 @@
     ],
     "description": "Restaurant thaï pensé comme un bistrot traditionnel : une cuisine simple, authentique et faite maison, chaque plat cuisiné minute, des nems aux currys et au bœuf mariné et grillé qui donne son nom à la maison. Ouvert du lundi au dimanche.",
     "websiteUrl": "https://www.thecryingtiger.fr/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-24T00:00:00Z",
     "source": {
@@ -6205,8 +6205,8 @@
     ],
     "description": "Restaurant thaï pensé comme un bistrot traditionnel : une cuisine simple, authentique et faite maison, chaque plat cuisiné minute, des nems aux currys et au bœuf mariné et grillé qui donne son nom à la maison. Ouvert du lundi au dimanche.",
     "websiteUrl": "https://www.thecryingtiger.fr/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-24T00:00:00Z",
     "source": {
@@ -6910,7 +6910,7 @@
     "cuisineTypes": [
       "Burgers"
     ],
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-14T00:00:00Z",
@@ -7903,7 +7903,7 @@
       "Gastronomique",
       "Brasserie"
     ],
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-21T00:00:00Z",
@@ -8189,11 +8189,10 @@
     "longitude": 2.3480299,
     "cuisineTypes": [
       "Burgers",
-      "Végétarien",
       "Fast-food",
       "Américaine"
     ],
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-11T00:00:00Z",
@@ -9368,7 +9367,7 @@
     ],
     "description": "Maison de nouilles chinoises de la rue Joubert, ouverte par Shinko : des nouilles biangbiang pétries et étirées à la main chaque matin, servies sautées ou dans des bouillons mijotés, avec la pâte à volonté. Salades et entrées du Shaanxi, wontons larges aux crevettes, raviolis grillés, rou jia mo et riz au seau de bois. Ouvert tous les jours de midi à 23 heures.",
     "websiteUrl": "https://restaurantnoo.fr/",
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-23T00:00:00Z",
@@ -9427,7 +9426,7 @@
     ],
     "description": "Restaurant coréen du quartier Pyramides, rue Rameau, spécialisé dans les barbecues (viandes marinées grillées à table, accompagnées de riz et de banchan), les fondues coréennes pour deux et les plats traditionnels (ragoûts épicés, bibimbap au bol de pierre, nouilles froides), dans une salle calme et feutrée où trône un hanbok de créatrice. Formule le midi en semaine.",
     "websiteUrl": "https://samchic.fr/",
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -10113,8 +10112,8 @@
     ],
     "description": "Coffeehouse et restaurant de brunch fait maison : pancakes, œufs, toasts et sandwichs du petit-déjeuner servis toute la journée, gâteaux du comptoir et café de spécialité. Ouvert en semaine de 8 h 30 à 15 h 30, le week-end de 9 h à 16 h.",
     "websiteUrl": "http://www.papilles-restaurant.com/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-24T00:00:00Z",
     "source": {
@@ -10286,8 +10285,8 @@
     ],
     "description": "Bistrot-brasserie du XIe, à deux pas de la place de la République, qui tient depuis 1956 le répertoire de la cuisine bistrotière et bourgeoise française, de saison et préparée sur place, ouvert sept jours sur sept au déjeuner et au dîner : harengs marinés, pâté en croûte, turbot au beurre blanc, pigeonneau, baba au rhum, et le grand plateau de fromages affinés par la Maison Anthès. Carte des vins de plus de 200 références, salle de 1956 aux chaises Baumann et salon à l'étage.",
     "websiteUrl": "http://www.restaurant-astier.com/",
-    "vegetarianOptions": false,
-    "veganOptions": false,
+    "vegetarianOptions": true,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
     "source": {
@@ -10464,7 +10463,7 @@
     ],
     "description": "Restaurant italien du groupe Terra, rue des Gravilliers : cuisine fraîche et de saison, pizzas sur une pâte maison élaborée à la manière biga (70 % d'humidité, levure organique, 24 h de pousse au minimum), antipasti, focaccias et salades, cocktails maison et carte des vins 100 % italiens. Ouvert tous les jours, midi et soir ; à emporter.",
     "websiteUrl": "https://www.terrapizzaparis.fr/",
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-16T00:00:00Z",
@@ -10617,7 +10616,7 @@
     ],
     "description": "Pub irlandais à l'esprit néo-zélandais, rue du Plâtre dans le Marais : tourtes néo-zélandaises et snacks, bières et cocktails, avec un lunch « Pie & Pint ».",
     "websiteUrl": "http://www.thewellingtonpubs.com/",
-    "vegetarianOptions": false,
+    "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-09T00:00:00Z",
@@ -10649,7 +10648,7 @@
     "description": "Burgers inspirés des cuisines d'Afrique, rue de Paradis et rue de Charonne : recettes maison nées du mafé, du poulet yassa, du garba ou de l'alloco, poulet frit aux dix épices, waka bowls, klaklos, godro godro malgache et bissap maison, le tout fait maison, sans conservateurs ni cube Maggi. Sur place, à emporter et en click & collect.",
     "websiteUrl": "https://www.bomayeclub.com/",
     "vegetarianOptions": true,
-    "veganOptions": false,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
     "source": {
@@ -10802,7 +10801,7 @@
     ],
     "description": "Cuisine fusion asiatique : sushis, rolls et créations signature, tiradito et ceviche, poké, bobun, ramen et hot bowls, bao, plateaux et coffrets à partager. Sur place, à emporter ou en livraison.",
     "websiteUrl": "https://na-ko.fr/",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-10-02T00:00:00Z",
@@ -11140,7 +11139,7 @@
     "description": "Burgers inspirés des cuisines d'Afrique, rue de Paradis et rue de Charonne : recettes maison nées du mafé, du poulet yassa, du garba ou de l'alloco, poulet frit aux dix épices, waka bowls, klaklos, godro godro malgache et bissap maison, le tout fait maison, sans conservateurs ni cube Maggi. Sur place, à emporter et en click & collect.",
     "websiteUrl": "https://www.bomayeclub.com/",
     "vegetarianOptions": true,
-    "veganOptions": false,
+    "veganOptions": true,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
     "source": {
@@ -11294,7 +11293,7 @@
     ],
     "description": "Burgers new-yorkais d'une enseigne belge née à Bruxelles en 2014 : bœuf Irish Angus nourri à l'herbe et grillé à la flamme, pain brioché cuit chaque jour, frites belges à double cuisson et sauces maison. Deux adresses à Paris, à Beaubourg et rue Montorgueil.",
     "websiteUrl": "https://www.manhattns.com/location/beaubourg",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
@@ -11325,7 +11324,7 @@
     ],
     "description": "Burgers new-yorkais d'une enseigne belge née à Bruxelles en 2014 : bœuf Irish Angus nourri à l'herbe et grillé à la flamme, pain brioché cuit chaque jour, frites belges à double cuisson et sauces maison. Deux adresses à Paris, à Beaubourg et rue Montorgueil.",
     "websiteUrl": "https://www.manhattns.com/location/beaubourg",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
@@ -11359,7 +11358,7 @@
     "description": "Pâtisserie écoresponsable créée en 2015 rue Sedaine, labellisée trois Écotables, et son salon de thé ouvert fin 2025 : tout est fait maison avec des farines bio d'Île-de-France, des œufs bio de plein air, du beurre AOP et un sucre mesuré. Petit déjeuner, déjeuner (quiche, croque-monsieur d'Emma, sandwich frittata, soupe), cookies, tartes, cheesecake, brunch et tea time, sur place ou à emporter.",
     "websiteUrl": "https://www.emmaduvere.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Emma Duvéré ne couvrent pas les éléments suivants : la soupe, le croque-monsieur d'Emma, le sandwich frittata, la salade, l'éclair au chocolat, le croissant, le pain au chocolat, le chausson aux pommes et le granola servi. Ils ne sont donc pas repris sur ce site.",
-    "vegetarianOptions": true,
+    "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-18T00:00:00Z",
@@ -11393,7 +11392,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11432,7 +11431,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11471,7 +11470,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11510,7 +11509,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11549,7 +11548,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11588,7 +11587,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11627,7 +11626,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11666,7 +11665,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11705,7 +11704,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11744,7 +11743,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11783,7 +11782,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11822,7 +11821,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11861,7 +11860,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11900,7 +11899,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11939,7 +11938,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -11978,7 +11977,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12017,7 +12016,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12056,7 +12055,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12095,7 +12094,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12134,7 +12133,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12173,7 +12172,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12212,7 +12211,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12251,7 +12250,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12290,7 +12289,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12329,7 +12328,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12368,7 +12367,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
@@ -12407,7 +12406,7 @@
     "websiteUrl": "https://www.starbucks.fr/",
     "allergenCoverageNotice": "Les informations allergènes publiées par Starbucks ne couvrent pas les éléments suivants : les boissons protéinées glacées, l'Espresso Macchiato, le Very Berry smoothie, le Half Bagel et les eaux. Ils ne sont donc pas repris sur ce site.",
     "vegetarianOptions": true,
-    "veganOptions": true,
+    "veganOptions": false,
     "allergenInformationAvailable": true,
     "lastVerifiedAt": "2026-09-10T00:00:00Z",
     "source": {
