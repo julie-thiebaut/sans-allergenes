@@ -11,7 +11,6 @@ import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
-import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 
 const DISH = { one: "plat", many: "plats", none: "Aucun plat" };
 const DRINK = { one: "boisson", many: "boissons", none: "Aucune boisson" };
@@ -126,19 +125,16 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
           </p>
           <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
 
-          <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
-            {restaurant.source && <SourceProvenanceBadge kind={restaurant.source.kind} />}
-            {restaurant.isDemoData && <DemoDataBadge />}
-          </div>
+          {restaurant.isDemoData && (
+            <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
+              <DemoDataBadge />
+            </div>
+          )}
 
           <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
-            {/* Quand l'information existe, la provenance en dit plus que sa simple existence :
-                le badge « publiés en ligne » remplace donc « infos disponibles », qui était
-                redondant. L'absence d'information, elle, reste signalée telle quelle - c'est
-                un avertissement, pas une nuance de provenance. */}
-            {!restaurant.allergenInformationAvailable && (
-              <AllergenAvailabilityBadge available={false} />
-            )}
+            {/* Seule l'absence d'information est signalée : c'est un avertissement. Quand
+                l'information existe, la carte n'en dit rien de plus. */}
+            {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
             {restaurant.lastVerifiedAt && (
               <span className="text-xs text-neutral-500">
                 Vérifié le {formatVerifiedDate(restaurant.lastVerifiedAt)}

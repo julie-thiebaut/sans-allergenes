@@ -39,11 +39,10 @@ describe("RestaurantCard", () => {
     expect(screen.getByText(/infos allergènes non disponibles/i)).toBeInTheDocument();
   });
 
-  // Quand l'information existe, l'aperçu affiche sa PROVENANCE plutôt que sa simple
-  // existence : « publiés en ligne » est ce que le visiteur peut aller vérifier.
-  it("highlights allergens published online rather than restating that info exists", () => {
+  // Quand l'information existe, la carte n'en dit rien : ni sa provenance, ni sa simple existence.
+  it("says nothing more when allergen info exists", () => {
     renderCard(restaurantWithFullInfo);
-    expect(screen.getByText(/allergènes publiés en ligne/i)).toBeInTheDocument();
+    expect(screen.queryByText(/allergènes publiés en ligne/i)).not.toBeInTheDocument();
     expect(screen.queryByText(/infos allergènes disponibles/i)).not.toBeInTheDocument();
   });
 

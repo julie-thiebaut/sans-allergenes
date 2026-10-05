@@ -13,7 +13,6 @@ import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
-import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
 import { ContactRestaurantCallout, ReportProblemLink } from "./RestaurantContact";
@@ -77,7 +76,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-neutral-700">
           <span>{cuisineLine(restaurant)}</span>
           <PriceLevelIndicator level={restaurant.priceLevel} />
-          <AllergenAvailabilityBadge available={restaurant.allergenInformationAvailable} />
+          {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
         </div>
         <div className="mt-3 flex flex-wrap gap-4 text-sm">
           {restaurant.websiteUrl && (
@@ -92,17 +91,6 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           )}
           {restaurant.phone && <span>{restaurant.phone}</span>}
         </div>
-
-        {/* La provenance tient sa propre ligne. Placée entre le type de cuisine et le niveau de
-            prix, elle passait pour une caractéristique du restaurant, alors qu'elle qualifie les
-            DONNÉES. Le document lui-même reste cité en pied de fiche, avec la date de
-            vérification : ici on annonce la nature de la source, là on la donne. */}
-        {restaurant.source && (
-          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-neutral-600">
-            <span>Source :</span>
-            <SourceProvenanceBadge kind={restaurant.source.kind} />
-          </div>
-        )}
       </header>
 
       <AllergenSafetyDisclaimer />

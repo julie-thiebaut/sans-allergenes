@@ -3,7 +3,6 @@ import type { RestaurantWithMenu } from "../../data/types";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
-import { SourceProvenanceBadge } from "../common/SourceProvenanceBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { ChevronIcon } from "../common/ChevronIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
@@ -67,13 +66,9 @@ export function MapSelectionPreviewCard({
         </p>
         <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
-          {/* Même arbitrage que sur la carte de la liste : la provenance remplace la simple
-              disponibilité, mais l'absence d'information reste affichée telle quelle. */}
-          {restaurant.allergenInformationAvailable ? (
-            restaurant.source && <SourceProvenanceBadge kind={restaurant.source.kind} />
-          ) : (
-            <AllergenAvailabilityBadge available={false} />
-          )}
+          {/* Même arbitrage que sur la carte de la liste : seule l'absence d'information est
+              signalée. */}
+          {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
         <Link
