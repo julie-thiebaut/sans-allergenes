@@ -54,7 +54,9 @@ export function DishRow({ dish }: { dish: Dish }) {
   const { present, mayContain } = groupByStatus(dish);
 
   return (
-    <li className="border-b border-neutral-200 py-4 last:border-b-0">
+    // Pas de marge haute au premier plat : le titre de rubrique doit être plus près de ses plats
+    // que de ce qui le précède (le bouton de filtre, sur mobile, n'est qu'à 1 rem au-dessus).
+    <li className="border-b border-neutral-200 py-4 first:pt-0 last:border-b-0">
       <div className="flex items-baseline justify-between gap-4">
         {/* Diet tags sit inline with the name: they qualify the dish itself, so reading them
             after the title (rather than under the description) matches how the name is read. */}
