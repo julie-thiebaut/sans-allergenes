@@ -77,8 +77,6 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           <span>{cuisineLine(restaurant)}</span>
           <PriceLevelIndicator level={restaurant.priceLevel} />
           {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
-        </div>
-        <div className="mt-3 flex flex-wrap gap-4 text-sm">
           {restaurant.websiteUrl && (
             <a
               href={restaurant.websiteUrl}
