@@ -58,7 +58,9 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
 
   return (
     <article>
-      <header className="mb-6">
+      {/* Sur mobile, 1 rem entre l'en-tête et la description, comme autour du bouton de filtre
+          plus bas : les deux marges se confondent, elles changent donc ensemble. */}
+      <header className={isDesktop ? "mb-6" : "mb-4"}>
         <ImageWithPlaceholder
           src={restaurant.imageUrl}
           alt={restaurant.name}
@@ -91,11 +93,15 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         </div>
       </header>
 
-      <div className="mt-6 space-y-8">
+      <div className={`${isDesktop ? "mt-6" : "mt-4"} space-y-8`}>
         {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
 
         {menu ? (
-          <>
+          // Sur mobile, le bouton de filtre n'a qu'1 rem au-dessus et au-dessous, au lieu des 2 rem
+          // qui séparent les blocs de la fiche : c'est une ligne presque vide, qui repoussait les
+          // plats vers le bas de l'écran. D'où ce bloc commun au filtre et à la carte, et le `!`
+          // qui l'emporte sur le `space-y-8` du parent.
+          <div className={isDesktop ? undefined : "!mt-4"}>
             {isDesktop ? (
               <div className="rounded-md border border-neutral-200 bg-neutral-50 p-4">
                 {menuFilter}
@@ -106,24 +112,26 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               </div>
             )}
 
-            {(menu.excludedDishCount > 0 || menu.excludedDrinkCount > 0) && (
-              <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
-                {describeHidden(menu.excludedDishCount, menu.excludedDrinkCount)} :{" "}
-                {allergensToAvoid.length > 1 ? "un des allergènes" : "l’allergène"} à éviter y est
-                déclaré{excludeTraces ? ", présent ou en traces." : " présent."}
-              </p>
-            )}
+            <div className={`${isDesktop ? "mt-8" : "mt-4"} space-y-8`}>
+              {(menu.excludedDishCount > 0 || menu.excludedDrinkCount > 0) && (
+                <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
+                  {describeHidden(menu.excludedDishCount, menu.excludedDrinkCount)} :{" "}
+                  {allergensToAvoid.length > 1 ? "un des allergènes" : "l’allergène"} à éviter y est
+                  déclaré{excludeTraces ? ", présent ou en traces." : " présent."}
+                </p>
+              )}
 
-            {menu.categories.length > 0 ? (
-              menu.categories.map((category) => (
-                <MenuSection key={category.category} category={category} />
-              ))
-            ) : (
-              <p className="rounded-md border border-neutral-300 bg-neutral-50 p-4 text-neutral-700">
-                Aucun plat de cette carte ne correspond aux allergènes à éviter sélectionnés.
-              </p>
-            )}
-          </>
+              {menu.categories.length > 0 ? (
+                menu.categories.map((category) => (
+                  <MenuSection key={category.category} category={category} />
+                ))
+              ) : (
+                <p className="rounded-md border border-neutral-300 bg-neutral-50 p-4 text-neutral-700">
+                  Aucun plat de cette carte ne correspond aux allergènes à éviter sélectionnés.
+                </p>
+              )}
+            </div>
+          </div>
         ) : restaurant.allergenInformationAvailable ? (
           // The restaurant does publish its allergens, we simply don't republish them dish by
           // dish (typically because the source is a scanned grid that cannot be transcribed
