@@ -130,16 +130,21 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             </div>
           )}
 
-          <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
-            {/* Seule l'absence d'information est signalée : c'est un avertissement. Quand
-                l'information existe, la carte n'en dit rien de plus. */}
-            {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
-            {restaurant.lastVerifiedAt && (
-              <span className="text-xs text-neutral-500">
+          {/* Seule l'absence d'information est signalée : c'est un avertissement. Quand
+              l'information existe, la carte n'en dit rien de plus que sa date. Sans allergènes,
+              pas de date dans la liste : « Vérifié le » s'y lirait comme un gage ; la fiche la
+              donne (Julie, 7 octobre 2026). À 0,25 rem comme les lignes au-dessus. */}
+          {isWarning ? (
+            <p className="mt-1 text-xs">
+              <AllergenAvailabilityBadge />
+            </p>
+          ) : (
+            restaurant.lastVerifiedAt && (
+              <p className="mt-1 text-xs text-neutral-500">
                 Vérifié le {formatVerifiedDate(restaurant.lastVerifiedAt)}
-              </span>
-            )}
-          </div>
+              </p>
+            )
+          )}
 
           {avoidanceLines.map((line) => (
             <p

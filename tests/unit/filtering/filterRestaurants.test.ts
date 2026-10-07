@@ -10,16 +10,19 @@ import {
 } from "../../fixtures/restaurants.fixture";
 
 describe("filterRestaurants", () => {
-  it("returns everything with default filters", () => {
-    expect(filterRestaurants(allFixtureRestaurants, DEFAULT_FILTER_STATE)).toHaveLength(3);
+  it("hides restaurants without allergen information by default", () => {
+    expect(DEFAULT_FILTER_STATE.allergenInfoAvailableOnly).toBe(true);
+    const result = filterRestaurants(allFixtureRestaurants, DEFAULT_FILTER_STATE);
+    expect(result).toHaveLength(2);
+    expect(result).not.toContainEqual(restaurantWithoutAllergenInfo);
   });
 
-  it("filters by allergenInfoAvailableOnly", () => {
+  it("returns everything once allergenInfoAvailableOnly is unchecked", () => {
     const result = filterRestaurants(allFixtureRestaurants, {
       ...DEFAULT_FILTER_STATE,
-      allergenInfoAvailableOnly: true,
+      allergenInfoAvailableOnly: false,
     });
-    expect(result).not.toContainEqual(restaurantWithoutAllergenInfo);
+    expect(result).toHaveLength(3);
   });
 
   it("filters by cuisine type", () => {
@@ -152,6 +155,7 @@ describe("filterRestaurants", () => {
   it("keeps a restaurant with no menu data at all when avoiding an allergen", () => {
     const result = filterRestaurants(allFixtureRestaurants, {
       ...DEFAULT_FILTER_STATE,
+      allergenInfoAvailableOnly: false,
       allergensToAvoid: ["gluten"],
     });
     expect(result).toContainEqual(restaurantWithoutAllergenInfo);

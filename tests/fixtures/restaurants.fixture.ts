@@ -39,6 +39,7 @@ export const restaurantWithoutAllergenInfo: RestaurantWithMenu = {
   veganOptions: false,
   allergenInformationAvailable: false,
   isDemoData: true,
+  contact: { email: "bonjour@example.com", scope: "restaurant" },
 };
 
 export const restaurantWithUnknownInfo: RestaurantWithMenu = {

@@ -30,12 +30,28 @@ describe("RestaurantDetailPage (open/close)", () => {
     expect(screen.getByText(/informations présentées sont indicatives/i)).toBeInTheDocument();
   });
 
-  it("shows the disclaimer even when allergen info is unavailable for the restaurant", () => {
+  it("drops the disclaimer when allergen info is unavailable: the red warning says it all", () => {
     renderDetailPage("/restaurant/le-bistrot-sans-info");
-    expect(screen.getByText(/informations présentées sont indicatives/i)).toBeInTheDocument();
+    expect(screen.queryByText(/informations présentées sont indicatives/i)).not.toBeInTheDocument();
+    expect(screen.queryByRole("note")).not.toBeInTheDocument();
     expect(
       screen.getByText(/aucune information sur les allergènes n.est disponible/i),
     ).toBeInTheDocument();
+  });
+
+  it("asks a restaurant without allergen information to publish them, right under the warning", () => {
+    renderDetailPage("/restaurant/le-bistrot-sans-info");
+    const button = screen.getByRole("link", { name: "Écrire au restaurant" });
+    expect(button.getAttribute("href")).toMatch(/^mailto:bonjour@example\.com\?subject=/);
+    expect(decodeURIComponent(button.getAttribute("href") ?? "")).toContain(
+      "publier la liste des allergènes",
+    );
+    expect(screen.getByText(/message prêt à envoyer, adressé au restaurant/)).toBeInTheDocument();
+    // Pas la boîte « Une question sur un plat » : il n'y a aucun plat sur lequel poser une question.
+    expect(screen.queryByRole("link", { name: "Contacter le restaurant" })).not.toBeInTheDocument();
+    // Juste après l'avertissement.
+    const warning = screen.getByText(/aucune information sur les allergènes n.est disponible/i);
+    expect(warning.compareDocumentPosition(button) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
   });
 
   it("shows a not-found message for an unknown slug", () => {

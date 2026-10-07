@@ -38,6 +38,28 @@ export function restaurantQuestionMailto(restaurant: Restaurant, email: string):
   );
 }
 
+/**
+ * Le message préparé pour un restaurant qui ne publie pas ses allergènes : lui demander de mettre
+ * sa liste en ligne. Complet, prêt à partir : le visiteur n'a rien à y ajouter, seulement à
+ * l'envoyer. Il nomme l'adresse, comme le message de question, pour que le restaurant sache de
+ * quel établissement on parle.
+ */
+export function publishAllergensMailto(restaurant: Restaurant, email: string): string {
+  return mailto(
+    email,
+    `Vos allergènes en ligne : ${restaurant.name}`,
+    [
+      "Bonjour,",
+      "",
+      `J'aimerais connaître les allergènes de vos plats avant de venir au restaurant ${restaurant.name} (${fullAddress(restaurant)}).`,
+      "",
+      "Pourriez-vous publier la liste des allergènes de votre carte sur votre site internet ? Les personnes allergiques pourraient ainsi choisir leurs plats avant de se déplacer, et retrouver votre carte sur sans-allergenes.fr.",
+      "",
+      "Merci d'avance.",
+    ].join("\r\n"),
+  );
+}
+
 /** Le signalement reprend ce que les mentions légales demandent : la fiche, sa page, une source. */
 export function reportProblemMailto(restaurant: Restaurant): string {
   return mailto(

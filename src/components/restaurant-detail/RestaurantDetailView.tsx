@@ -154,11 +154,16 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             )}
           </p>
         ) : (
-          <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
-            Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
-            Contactez directement l&rsquo;établissement avant de commander si vous avez une
-            allergie.
-          </p>
+          <>
+            <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
+              Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
+              Contactez directement l&rsquo;établissement avant de commander si vous avez une
+              allergie.
+            </p>
+            {/* Ici et non en fin de fiche : sans carte, demander au restaurant de publier ses
+                allergènes est ce que la page a de plus utile à proposer. */}
+            <ContactRestaurantCallout restaurant={restaurant} />
+          </>
         )}
 
         {/* En rouge et APRÈS la carte : ce n'est pas de la présentation, c'est une mise en garde
@@ -179,10 +184,15 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
 
         {/* Après la carte, comme le bandeau rouge : en tête, il repoussait les plats sous la
             ligne de flottaison sur mobile. Il suit ce bandeau, propre à l'enseigne, et précède
-            l'invitation à contacter le restaurant, qu'il annonce. */}
-        <AllergenSafetyDisclaimer />
-
-        <ContactRestaurantCallout restaurant={restaurant} />
+            l'invitation à contacter le restaurant, qu'il annonce. Sans allergènes, ni l'un ni
+            l'autre : il n'y a rien d'indicatif à nuancer, l'avertissement rouge dit déjà tout
+            (Julie, 7 octobre 2026). */}
+        {restaurant.allergenInformationAvailable && (
+          <>
+            <AllergenSafetyDisclaimer />
+            <ContactRestaurantCallout restaurant={restaurant} />
+          </>
+        )}
       </div>
 
       <footer className="mt-8 border-t border-neutral-200 pt-4 text-sm text-neutral-500">

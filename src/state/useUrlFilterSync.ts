@@ -24,7 +24,9 @@ function parseFilterStateFromParams(params: URLSearchParams): FilterState {
     cuisineTypes: (params.get(PARAM_KEYS.cuisineTypes) ?? "").split(",").filter(Boolean),
     vegetarianOnly: params.get(PARAM_KEYS.vegetarianOnly) === "1",
     veganOnly: params.get(PARAM_KEYS.veganOnly) === "1",
-    allergenInfoAvailableOnly: params.get(PARAM_KEYS.allergenInfoAvailableOnly) === "1",
+    // Coché par défaut : seul « 0 » le décoche. Une URL qui ne le nomme pas, ou un ancien lien
+    // partagé en « 1 », garde la case cochée.
+    allergenInfoAvailableOnly: params.get(PARAM_KEYS.allergenInfoAvailableOnly) !== "0",
     allergensToAvoid,
     excludeTraces: params.get(PARAM_KEYS.excludeTraces) === "1",
   };
@@ -40,7 +42,7 @@ function filterStateToParams(filters: FilterState): URLSearchParams {
     params.set(PARAM_KEYS.cuisineTypes, filters.cuisineTypes.join(","));
   if (filters.vegetarianOnly) params.set(PARAM_KEYS.vegetarianOnly, "1");
   if (filters.veganOnly) params.set(PARAM_KEYS.veganOnly, "1");
-  if (filters.allergenInfoAvailableOnly) params.set(PARAM_KEYS.allergenInfoAvailableOnly, "1");
+  if (!filters.allergenInfoAvailableOnly) params.set(PARAM_KEYS.allergenInfoAvailableOnly, "0");
   if (filters.allergensToAvoid.length > 0) {
     params.set(PARAM_KEYS.allergensToAvoid, filters.allergensToAvoid.join(","));
   }

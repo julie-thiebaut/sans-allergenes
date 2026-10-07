@@ -15,7 +15,9 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   cuisineTypes: [],
   vegetarianOnly: false,
   veganOnly: false,
-  allergenInfoAvailableOnly: false,
+  // Coché par défaut : la carte montre d'abord où manger. Les restaurants sans allergènes publiés
+  // n'apparaissent qu'à qui décoche, et leur fiche invite à leur demander de les publier.
+  allergenInfoAvailableOnly: true,
   allergensToAvoid: [],
   excludeTraces: false,
 };
@@ -25,7 +27,7 @@ export function isFilterStateDefault(filters: FilterState): boolean {
     filters.cuisineTypes.length === 0 &&
     !filters.vegetarianOnly &&
     !filters.veganOnly &&
-    !filters.allergenInfoAvailableOnly &&
+    filters.allergenInfoAvailableOnly === DEFAULT_FILTER_STATE.allergenInfoAvailableOnly &&
     filters.allergensToAvoid.length === 0 &&
     !filters.excludeTraces
   );

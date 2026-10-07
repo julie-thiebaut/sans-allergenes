@@ -28,6 +28,7 @@ Elles valent pour la démonstration comme pour le jeu réel, et expliquent pourq
 - `additionalSources` liste les autres documents publiés par l'enseigne, quand la carte a été transcrite depuis une source et que la fiche PDF existe par ailleurs.
 - `allergenCoverageNotice` dit, en rouge et à part de la description, ce que la déclaration **ne couvre pas**. Les plats hors couverture ne sont jamais listés.
 - Un établissement qui publie ses allergènes sans reprise plat par plat renvoie à sa source ; il n'est jamais présenté comme n'ayant aucune information.
+- Un restaurant qui ne publie **aucun** allergène (`allergenInformationAvailable: false`) n'a une fiche que s'il publie une adresse e-mail sur son site : sa page invite le visiteur à lui écrire pour qu'il mette sa liste en ligne, message prérempli. La case « Informations allergènes disponibles uniquement » est cochée par défaut, et ces restaurants n'apparaissent dans la liste et sur la carte qu'une fois décochée (`?hasAllergenInfo=0`).
 
 ## Stack
 

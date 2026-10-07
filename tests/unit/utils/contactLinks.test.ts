@@ -1,6 +1,30 @@
 import { describe, expect, it } from "vitest";
-import { reportProblemMailto, restaurantQuestionMailto } from "../../../src/utils/contactLinks";
-import { restaurantWithFullInfo } from "../../fixtures/restaurants.fixture";
+import {
+  publishAllergensMailto,
+  reportProblemMailto,
+  restaurantQuestionMailto,
+} from "../../../src/utils/contactLinks";
+import {
+  restaurantWithFullInfo,
+  restaurantWithoutAllergenInfo,
+} from "../../fixtures/restaurants.fixture";
+
+describe("publishAllergensMailto", () => {
+  it("asks the restaurant to publish its allergen list online, naming the exact address", () => {
+    const { to, subject, body } = parts(
+      publishAllergensMailto(restaurantWithoutAllergenInfo, "bonjour@example.com"),
+    );
+    expect(to).toBe("bonjour@example.com");
+    expect(subject).toBe("Vos allergènes en ligne : Le Bistrot Sans Info");
+    expect(body).toContain("Le Bistrot Sans Info (2 rue de Test, 75002 Paris)");
+    expect(body).toContain("publier la liste des allergènes de votre carte");
+  });
+
+  it("is ready to send: no field left for the visitor to fill in", () => {
+    const { body } = parts(publishAllergensMailto(restaurantWithoutAllergenInfo, "a@example.com"));
+    expect(body).not.toMatch(/: \r\n|: $/);
+  });
+});
 
 function parts(href: string) {
   const url = new URL(href);

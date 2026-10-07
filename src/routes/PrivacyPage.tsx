@@ -157,10 +157,11 @@ export function PrivacyPage() {
           allergènes à éviter, n’est donc pas transmis à l’outil de mesure d’audience.
         </p>
         <p>
-          Le bouton « Contacter le restaurant » ouvre votre messagerie sur un message adressé au
-          restaurant ou à son enseigne. Le message part directement de vous : il ne transite pas par
-          Sans Allergènes, qui n’en a pas connaissance. Ce que vous y écrivez, notamment sur une
-          allergie, relève alors de la politique de confidentialité du restaurant.
+          Les boutons « Contacter le restaurant » et « Écrire au restaurant » ouvrent votre
+          messagerie sur un message adressé au restaurant ou à son enseigne. Le message part
+          directement de vous : il ne transite pas par Sans Allergènes, qui n’en a pas connaissance.
+          Ce que vous y écrivez, notamment sur une allergie, relève alors de la politique de
+          confidentialité du restaurant.
         </p>
       </Section>
 

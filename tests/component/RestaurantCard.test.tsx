@@ -47,6 +47,15 @@ describe("RestaurantCard", () => {
     expect(screen.getByText(/infos allergènes non disponibles/i)).toBeInTheDocument();
   });
 
+  // Sans allergènes, « Vérifié le » se lirait comme un gage : la date reste sur la fiche seule.
+  it("shows the verification date only when allergen info exists", () => {
+    const verifiedAt = "2026-08-10T00:00:00Z";
+    renderCard({ ...restaurantWithoutAllergenInfo, lastVerifiedAt: verifiedAt });
+    expect(screen.queryByText(/vérifié le/i)).not.toBeInTheDocument();
+    renderCard({ ...restaurantWithFullInfo, lastVerifiedAt: verifiedAt });
+    expect(screen.getByText(/vérifié le 10 août 2026/i)).toBeInTheDocument();
+  });
+
   // Quand l'information existe, la carte n'en dit rien : ni sa provenance, ni sa simple existence.
   it("says nothing more when allergen info exists", () => {
     renderCard(restaurantWithFullInfo);

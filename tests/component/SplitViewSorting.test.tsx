@@ -8,10 +8,7 @@ import { FilterStateProvider } from "../../src/state/FilterStateContext";
 import { MapActionsProvider } from "../../src/state/mapActionsContext";
 import { MapBoundsProvider } from "../../src/state/mapBoundsContext";
 import { SelectionProvider } from "../../src/state/SelectionContext";
-import {
-  restaurantWithFullInfo,
-  restaurantWithoutAllergenInfo,
-} from "../fixtures/restaurants.fixture";
+import { restaurantWithFullInfo, restaurantWithUnknownInfo } from "../fixtures/restaurants.fixture";
 
 afterEach(() => vi.restoreAllMocks());
 
@@ -36,7 +33,7 @@ describe("SplitView restaurant ordering", () => {
       longitude: 2.34,
     };
     const eastRestaurant = {
-      ...restaurantWithoutAllergenInfo,
+      ...restaurantWithUnknownInfo,
       id: "east",
       name: "Restaurant Est",
       slug: "restaurant-est",

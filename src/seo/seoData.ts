@@ -57,9 +57,13 @@ export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): Pa
   const canonical = `${siteUrl.replace(/\/$/, "")}/restaurant/${restaurant.slug}/`;
   const primaryCuisine = restaurant.cuisineTypes[0] ?? "Restaurant";
   const title = `${restaurant.name} · ${primaryCuisine} à ${restaurant.city} | ${SITE_NAME}`;
+  // Une fiche sans allergènes ne doit pas s'annoncer comme leur source dans un résultat de
+  // recherche : elle dit ce qui manque, et ce qu'on peut y faire.
   const description =
     restaurant.description ??
-    `Informations sur les allergènes pour ${restaurant.name}, ${restaurant.cuisineTypes.join(", ")} à ${restaurant.city}.`;
+    (restaurant.allergenInformationAvailable
+      ? `Informations sur les allergènes pour ${restaurant.name}, ${restaurant.cuisineTypes.join(", ")} à ${restaurant.city}.`
+      : `${restaurant.name} ne publie pas les allergènes de ses plats en ligne. Demandez-lui de publier sa liste.`);
 
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",

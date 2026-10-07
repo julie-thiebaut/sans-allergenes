@@ -9,10 +9,7 @@ import { MapPage } from "../../src/routes/MapPage";
 import { RestaurantDetailPage } from "../../src/routes/RestaurantDetailPage";
 import { FilterStateProvider } from "../../src/state/FilterStateContext";
 import { MapPageMemoryProvider } from "../../src/state/MapPageMemoryContext";
-import {
-  restaurantWithFullInfo,
-  restaurantWithoutAllergenInfo,
-} from "../fixtures/restaurants.fixture";
+import { restaurantWithFullInfo, restaurantWithUnknownInfo } from "../fixtures/restaurants.fixture";
 
 /** A POP onto /carte right after the restaurant means "Retour" stepped back in history; a PUSH
  * would mean a new /carte entry stacked on top of the restaurant. */
@@ -37,7 +34,7 @@ function renderSite(initialPath: string) {
       <DataContext.Provider
         value={{
           status: "ready",
-          restaurants: [restaurantWithFullInfo, restaurantWithoutAllergenInfo],
+          restaurants: [restaurantWithFullInfo, restaurantWithUnknownInfo],
         }}
       >
         <MapsContext.Provider value={{ configState: "enabled", createAdapter }}>
@@ -136,7 +133,7 @@ describe("Retour from a restaurant to /carte", () => {
     act(() => {
       firstMap.setCenter(zoomedIn.center, zoomedIn.zoom);
       firstMap.simulateBoundsChanged({ north: 48.87, south: 48.85, east: 2.36, west: 2.33 });
-      firstMap.simulateMarkerClick(restaurantWithoutAllergenInfo.id);
+      firstMap.simulateMarkerClick(restaurantWithUnknownInfo.id);
     });
 
     await user.click(await screen.findByRole("link", { name: "Voir la fiche" }));
