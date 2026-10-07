@@ -1,6 +1,6 @@
-import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { cuisineLine } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
+import { fullAddress } from "../../utils/fullAddress";
 import { filterMenuAgainstAvoidance } from "../../filtering/allergenLogic";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMediaQuery } from "../../utils/useMediaQuery";
@@ -38,7 +38,6 @@ function describeHidden(dishCount: number, drinkCount: number): string {
 }
 
 export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWithMenu }) {
-  const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
   const { allergensToAvoid, excludeTraces } = useFilterState();
   // Rendered in one place or the other, never both: two copies would mean duplicate checkboxes
   // for the same allergen in the accessibility tree.
@@ -71,10 +70,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           <h1 className="text-2xl font-bold text-neutral-900">{restaurant.name}</h1>
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
-        <p className="mt-1 text-neutral-600">
-          {restaurant.address}, {restaurant.postalCode} {restaurant.city}
-          {arrondissement ? ` · ${arrondissement}` : ""}
-        </p>
+        <p className="mt-1 text-neutral-600">{fullAddress(restaurant)}</p>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-neutral-700">
           <span>{cuisineLine(restaurant)}</span>
           <PriceLevelIndicator level={restaurant.priceLevel} />

@@ -34,6 +34,14 @@ describe("RestaurantCard", () => {
     );
   });
 
+  // L'adresse complète situe le restaurant dans n'importe quelle ville ; l'arrondissement ne
+  // valait que pour Paris.
+  it("situates the restaurant by its full address, not its arrondissement", () => {
+    renderCard();
+    expect(screen.getByText("1 rue de Test, 75001 Paris")).toBeInTheDocument();
+    expect(screen.queryByText(/arrondissement/i)).not.toBeInTheDocument();
+  });
+
   it("indicates when allergen info is unavailable", () => {
     renderCard(restaurantWithoutAllergenInfo);
     expect(screen.getByText(/infos allergènes non disponibles/i)).toBeInTheDocument();

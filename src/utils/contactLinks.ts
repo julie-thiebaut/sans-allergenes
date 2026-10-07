@@ -1,4 +1,5 @@
 import type { Restaurant } from "../data/types";
+import { fullAddress } from "./fullAddress";
 
 /** L'adresse de l'éditrice, celle des mentions légales : les signalements y arrivent. */
 export const REPORT_EMAIL = "contact@sans-allergenes.fr";
@@ -12,9 +13,6 @@ function mailto(to: string, subject: string, body: string): string {
   // messageries reprennent tels quels dans l'objet du message.
   return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
-
-const fullAddress = (restaurant: Restaurant) =>
-  `${restaurant.address}, ${restaurant.postalCode} ${restaurant.city}`;
 
 /**
  * Le message préparé pour le restaurant : lui demander de préciser sa carte des allergènes. Il

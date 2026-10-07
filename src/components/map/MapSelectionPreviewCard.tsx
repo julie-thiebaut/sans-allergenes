@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import type { RestaurantWithMenu } from "../../data/types";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
-import { arrondissementFromPostalCode } from "../../utils/arrondissement";
+import { fullAddress } from "../../utils/fullAddress";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { ChevronIcon } from "../common/ChevronIcon";
@@ -27,8 +27,6 @@ export function MapSelectionPreviewCard({
   restaurant: RestaurantWithMenu;
   onDismiss: () => void;
 }) {
-  const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
-
   return (
     <div
       className={`fixed inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border p-3 shadow-lg ${
@@ -61,9 +59,9 @@ export function MapSelectionPreviewCard({
             ✕
           </button>
         </div>
-        <p className="truncate text-sm text-neutral-600">
-          {arrondissement ?? restaurant.city} · {restaurant.cuisineTypes.join(", ")}
-        </p>
+        {/* Comme sur la carte de la liste : l'adresse, puis les cuisines. */}
+        <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
+        <p className="truncate text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
         <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
           {/* Même arbitrage que sur la carte de la liste : seule l'absence d'information est

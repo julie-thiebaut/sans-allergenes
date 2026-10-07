@@ -4,8 +4,8 @@ import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { useSelectionContext } from "../../state/SelectionContext";
-import { arrondissementFromPostalCode } from "../../utils/arrondissement";
 import { formatVerifiedDate } from "../../utils/formatDate";
+import { fullAddress } from "../../utils/fullAddress";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
@@ -66,7 +66,6 @@ function describeAvoidance(
 export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu }) {
   const { hoveredId, selectedId, setHoveredId, setSelectedId } = useSelectionContext();
   const filters = useFilterState();
-  const arrondissement = arrondissementFromPostalCode(restaurant.postalCode);
   const isHighlighted = hoveredId === restaurant.id || selectedId === restaurant.id;
   const isWarning = !restaurant.allergenInformationAvailable;
 
@@ -120,9 +119,9 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             </h3>
             <PriceLevelIndicator level={restaurant.priceLevel} />
           </div>
-          <p className="truncate text-sm text-neutral-600">
-            {arrondissement ?? restaurant.city} · {restaurant.address}
-          </p>
+          {/* Une seule ligne, coupée par des points de suspension : sur un téléphone, une adresse
+              sur trois la dépasse, et la fiche la donne en entier. */}
+          <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
           <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
 
           {restaurant.isDemoData && (
