@@ -10,9 +10,12 @@ export function Footer() {
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-4 gap-y-1 sm:justify-between">
         <span>© {year} Julie Thiebaut</span>
         <nav
-          aria-label="Informations légales"
+          aria-label="Informations sur le site"
           className="flex flex-wrap justify-center gap-x-4 gap-y-1"
         >
+          <Link className="hover:text-neutral-900 hover:underline" to="/notes/allergenes-en-ligne">
+            Notes
+          </Link>
           <Link className="hover:text-neutral-900 hover:underline" to="/mentions-legales">
             Mentions légales
           </Link>

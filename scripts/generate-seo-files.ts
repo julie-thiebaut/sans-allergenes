@@ -22,6 +22,7 @@ async function main(): Promise<void> {
     `${SITE_URL}carte/`,
     `${SITE_URL}mentions-legales/`,
     `${SITE_URL}confidentialite/`,
+    `${SITE_URL}notes/allergenes-en-ligne/`,
     ...restaurants.map((restaurant) => `${SITE_URL}restaurant/${restaurant.slug}/`),
   ];
 

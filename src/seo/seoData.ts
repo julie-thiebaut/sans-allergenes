@@ -53,6 +53,34 @@ export function buildPrivacyMeta(siteUrl: string): PageMeta {
   };
 }
 
+/** Shared by the note, its search metadata and its teaser on the landing page. */
+export const ALLERGENS_ONLINE_NOTE_TITLE =
+  "Allergènes au restaurant : ce que dit la loi, ce que l’on trouve en ligne";
+/** The note's date, shown under its title and given to search engines as its publication date. */
+export const ALLERGENS_ONLINE_NOTE_DATE = "2026-10-08";
+/** Written out rather than formatted from the ISO date, which would shift a day west of Paris. */
+export const ALLERGENS_ONLINE_NOTE_DATE_LABEL = "8 octobre 2026";
+
+export function buildAllergensOnlineNoteMeta(siteUrl: string): PageMeta {
+  const title = ALLERGENS_ONLINE_NOTE_TITLE;
+  const canonical = siteUrl.replace(/\/$/, "") + "/notes/allergenes-en-ligne/";
+  return {
+    title: `${title} · ${SITE_NAME}`,
+    description:
+      "Ce que la loi impose aux restaurants sur les allergènes, ce que constatent les contrôles de la DGCCRF, et ce que l’on trouve sur plus de 7 200 sites de restaurants parisiens.",
+    canonical,
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: title,
+      datePublished: ALLERGENS_ONLINE_NOTE_DATE,
+      author: { "@type": "Person", name: "Julie Thiebaut" },
+      inLanguage: "fr",
+      url: canonical,
+    },
+  };
+}
+
 export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): PageMeta {
   const canonical = `${siteUrl.replace(/\/$/, "")}/restaurant/${restaurant.slug}/`;
   const primaryCuisine = restaurant.cuisineTypes[0] ?? "Restaurant";

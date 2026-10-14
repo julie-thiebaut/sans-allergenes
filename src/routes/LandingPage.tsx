@@ -4,7 +4,12 @@ import { ALLERGEN_ICONS, ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../data
 import { CafeIllustration } from "../components/common/CafeIllustration";
 import { Navbar } from "../components/layout/Navbar";
 import { Seo } from "../seo/Seo";
-import { buildHomeMeta } from "../seo/seoData";
+import {
+  ALLERGENS_ONLINE_NOTE_DATE,
+  ALLERGENS_ONLINE_NOTE_DATE_LABEL,
+  ALLERGENS_ONLINE_NOTE_TITLE,
+  buildHomeMeta,
+} from "../seo/seoData";
 
 const HOME_META = buildHomeMeta(typeof window !== "undefined" ? window.location.origin : "");
 
@@ -121,6 +126,37 @@ export function LandingPage() {
               ))}
             </ul>
           </div>
+        </section>
+
+        {/* The note on the law and on what restaurants publish: a plain white card, so it never
+            outweighs the limits block, and a hairline after it so the two boxes don't run
+            together */}
+        <section className="mx-auto max-w-5xl px-4 pt-14 md:pt-20">
+          <div className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm md:p-8">
+            <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">
+              Note ·{" "}
+              <time dateTime={ALLERGENS_ONLINE_NOTE_DATE}>{ALLERGENS_ONLINE_NOTE_DATE_LABEL}</time>
+            </p>
+            <h2 className="mt-2 text-xl font-bold text-neutral-900 sm:text-2xl">
+              {ALLERGENS_ONLINE_NOTE_TITLE}
+            </h2>
+            <p className="mt-3 leading-relaxed text-neutral-600">
+              En août 2026, j’ai examiné plus de 7&nbsp;200 sites de restaurants parisiens. Sur plus
+              de 95&nbsp;% d’entre eux, aucune information reliant les plats à leurs allergènes n’a
+              été trouvée.
+            </p>
+            <p className="mt-3 leading-relaxed text-neutral-600">
+              Découvrez les résultats de cette recherche et comment aider à rendre ces informations
+              plus accessibles.
+            </p>
+            <Link
+              to="/notes/allergenes-en-ligne"
+              className="mt-4 inline-block font-semibold text-neutral-900 underline decoration-brand-500 decoration-2 underline-offset-4 hover:decoration-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
+            >
+              Lire la note
+            </Link>
+          </div>
+          <hr className="mt-14 border-neutral-200 md:mt-20" />
         </section>
 
         {/* Limits — deliberately the most prominent block on the page */}

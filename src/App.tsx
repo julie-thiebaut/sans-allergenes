@@ -11,6 +11,7 @@ import { MapPage } from "./routes/MapPage";
 import { RestaurantDetailPage } from "./routes/RestaurantDetailPage";
 import { LegalNoticePage } from "./routes/LegalNoticePage";
 import { PrivacyPage } from "./routes/PrivacyPage";
+import { AllergensOnlineNotePage } from "./routes/AllergensOnlineNotePage";
 import { PrerenderReadyMarker } from "./seo/PrerenderReadyMarker";
 
 export function App() {
@@ -39,6 +40,10 @@ export function App() {
                       <Route path="/restaurant/:slug" element={<RestaurantDetailPage />} />
                       <Route path="/mentions-legales" element={<LegalNoticePage />} />
                       <Route path="/confidentialite" element={<PrivacyPage />} />
+                      <Route
+                        path="/notes/allergenes-en-ligne"
+                        element={<AllergensOnlineNotePage />}
+                      />
                       <Route path="*" element={<NotFoundPage />} />
                     </Routes>
                   </main>

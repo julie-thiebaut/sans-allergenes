@@ -59,4 +59,12 @@ describe("LandingPage", () => {
     // name it rather than leaving the reader to infer it.
     expect(screen.getByText(/contamination croisée/i)).toBeInTheDocument();
   });
+
+  it("leads to the note on the law and on what restaurants publish", () => {
+    renderLanding();
+    expect(screen.getByRole("link", { name: /lire la note/i })).toHaveAttribute(
+      "href",
+      "/notes/allergenes-en-ligne",
+    );
+  });
 });

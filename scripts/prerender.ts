@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { RestaurantListSchema } from "../src/data/schemas";
 import {
+  buildAllergensOnlineNoteMeta,
   buildHomeMeta,
   buildLegalMeta,
   buildMapMeta,
@@ -157,6 +158,11 @@ async function main(): Promise<void> {
       urlPath: "/confidentialite/",
       outFile: path.join(DIST_DIR, "confidentialite", "index.html"),
       meta: buildPrivacyMeta(SITE_URL),
+    },
+    {
+      urlPath: "/notes/allergenes-en-ligne/",
+      outFile: path.join(DIST_DIR, "notes", "allergenes-en-ligne", "index.html"),
+      meta: buildAllergensOnlineNoteMeta(SITE_URL),
     },
     ...restaurants.map((restaurant): RouteToRender => ({
       urlPath: `/restaurant/${restaurant.slug}/`,
