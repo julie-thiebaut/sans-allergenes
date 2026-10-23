@@ -1,0 +1,675 @@
+{
+  "menuId": "menu-lucien",
+  "restaurantId": "lucien-maison-tunisienne-75011",
+  "categories": [
+    {
+      "category": "Entrées froides",
+      "dishes": [
+        {
+          "id": "lucien-entrees-froides-slata-mechouia",
+          "name": "Slata Mechouia",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poivrons et tomates grillés, écrasés à l'huile d'olive, thon émietté et œuf",
+          "price": 9
+        },
+        {
+          "id": "lucien-entrees-froides-slata-houria",
+          "name": "Slata Houria",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Carottes cuites et fondantes, relevées à la harissa et parfumées au carvi",
+          "price": 9
+        },
+        {
+          "id": "lucien-entrees-froides-slata-tounsia",
+          "name": "Slata Tounsia",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Concombre, tomate et oignon en dés, huile d'olive et citron frais",
+          "price": 9
+        },
+        {
+          "id": "lucien-entrees-froides-boutargue",
+          "name": "Boutargue",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Œufs de mulet séchés et fumés au goût prononcé, le caviar tunisien",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "category": "Entrées chaudes",
+      "dishes": [
+        {
+          "id": "lucien-entrees-chaudes-bricks",
+          "name": "Bricks",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Feuilles croustillantes garnies d’œuf, thon et pomme de terre",
+          "price": 9
+        },
+        {
+          "id": "lucien-entrees-chaudes-petite-shakshuka",
+          "name": "Petite Shakshuka",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomates et poivrons mijotés, œuf coulant, boulettes ou merguez selon l'arrivage",
+          "price": 14
+        },
+        {
+          "id": "lucien-entrees-chaudes-boulettes",
+          "name": "Boulettes",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Viande hachée parfumée à la menthe séchée et aux épices",
+          "price": 13
+        },
+        {
+          "id": "lucien-entrees-chaudes-assiette-de-merguez",
+          "name": "Assiette de merguez",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Merguez grillée de la boucherie \"Chez Jojo\"",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "lucien-plats-couscous-aux-legumes-vg",
+          "name": "Couscous aux légumes (VG)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre best-seller en version végétarienne, légumes selon les arrivages La semoule est travaillée à la main, et celui-ci se fait sans viande ni poisson.",
+          "price": 16,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "lucien-plats-linguine-boutargue",
+          "name": "Linguine boutargue",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Linguine al dente, boutargue, huile d'olive et citron confit",
+          "price": 24
+        },
+        {
+          "id": "lucien-plats-grande-shakshuka",
+          "name": "Grande Shakshuka",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomates et poivrons mijotés, œuf coulant, boulettes ou merguez au choix",
+          "price": 21
+        },
+        {
+          "id": "lucien-plats-assiette-tunisienne",
+          "name": "Assiette tunisienne",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nos slatas, harissa, thon et un œuf coulant",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "category": "Grill",
+      "dishes": [
+        {
+          "id": "lucien-grill-parguit-grille",
+          "name": "Parguit grillé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Haut de cuisse de poulet désossé, mariné puis grillé, accompagnement au choix",
+          "price": 24
+        },
+        {
+          "id": "lucien-grill-assiette-de-grillades",
+          "name": "Assiette de grillades",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Viandes grillées, pommes de terre au four, tastira et piment grillé",
+          "price": 33
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "lucien-desserts-harissa-de-tata-viviane",
+          "name": "Harissa de Tata Viviane",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Gâteau de semoule fondant imbibé de sirop",
+          "price": 7
+        },
+        {
+          "id": "lucien-desserts-sorbet-citron-menthe-mann-el",
+          "name": "Sorbet citron & menthe - Mann'el",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Citron frais, intense et acidulé",
+          "price": 8
+        },
+        {
+          "id": "lucien-desserts-sabayon-mann-el",
+          "name": "Sabayon - Mann'el",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Dessert traditionnel à la pistache et à la fleur d'oranger",
+          "price": 9
+        }
+      ]
+    },
+    {
+      "category": "Boissons fraîches",
+      "dishes": [
+        {
+          "id": "lucien-boissons-fraiches-biere-bouteille-25cl-33cl",
+          "name": "Bière bouteille 25cl / 33cl",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 4 / 5,5 €.",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "category": "Boissons chaudes",
+      "dishes": [
+        {
+          "id": "lucien-boissons-chaudes-the-vert-a-la-menthe",
+          "name": "Thé vert à la menthe",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Servi avec des pignons de pin",
+          "price": 5.5
+        }
+      ]
+    },
+    {
+      "category": "Vins rouges",
+      "dishes": [
+        {
+          "id": "lucien-vins-rouges-demoiselle-d-haut-peyrat",
+          "name": "Demoiselle d'Haut Peyrat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Merlot, Cabernet Sauvignon - Haut-Médoc - 37,5 cl, bouteille uniquement",
+          "price": 29
+        },
+        {
+          "id": "lucien-vins-rouges-chateau-des-places",
+          "name": "Château des Places",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Merlot, Cabernet Sauvignon - Graves Format : 8 / 35 €.",
+          "price": 8
+        },
+        {
+          "id": "lucien-vins-rouges-dalton-estate",
+          "name": "Dalton Estate",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cabernet Sauvignon - Galilée, Israël Format : 9 / 42 €.",
+          "price": 9
+        },
+        {
+          "id": "lucien-vins-rouges-poggio-chianti-riserva",
+          "name": "Poggio Chianti Riserva",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sangiovese - Toscane Format : 10 / 54 €.",
+          "price": 10
+        },
+        {
+          "id": "lucien-vins-rouges-har-odem-forest",
+          "name": "Har Odem Forest",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cabernet, Nebbiolo, Syrah - Israël Format : 10 / 54 €.",
+          "price": 10
+        },
+        {
+          "id": "lucien-vins-rouges-chateau-marquisat-de-binet",
+          "name": "Château Marquisat de Binet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuvée Abel, Merlot - Montagne-Saint-Émilion, bouteille uniquement",
+          "price": 58
+        }
+      ]
+    },
+    {
+      "category": "Vins blancs",
+      "dishes": [
+        {
+          "id": "lucien-vins-blancs-chateau-des-places",
+          "name": "Château des Places",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sauvignon, Sémillon, Muscadelle - Graves Format : 8 / 35 €.",
+          "price": 8
+        },
+        {
+          "id": "lucien-vins-blancs-har-odem-forest",
+          "name": "Har Odem Forest",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chardonnay - Israël Format : 10 / 54 €.",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "category": "Vins rosés",
+      "dishes": [
+        {
+          "id": "lucien-vins-roses-eclat-de-diamant",
+          "name": "Éclat de Diamant",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 7 / 31 €.",
+          "price": 7
+        }
+      ]
+    }
+  ]
+}

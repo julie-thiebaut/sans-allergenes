@@ -1,0 +1,4996 @@
+{
+  "menuId": "menu-bo-bun-flandre",
+  "restaurantId": "bo-bun-flandre-75019",
+  "categories": [
+    {
+      "category": "Bo bun",
+      "dishes": [
+        {
+          "id": "bobun-flandre-bo-bun-bobun-au-boeuf",
+          "name": "BoBun au bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Salade verte, Concombre, Carottes râpées, Nems, Cacahuètes",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bo-bun-bobun-au-porc-grille",
+          "name": "BoBun au porc grillé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc grillé, Salade verte, Concombre, Carottes râpées, Nems, Cacahuètes",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bo-bun-bo-bun-au-poulet",
+          "name": "Bò bún au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Vermicelles de riz, poulet grillé, salade verte, concombre, carottes râpées, 2 nems coupés en 6 morceaux, cacahuètes concassées, sauce vietnamienne au nước-mắm.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bo-bun-bobun-aux-crevettes",
+          "name": "BoBun aux crevettes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Salade verte, Concombre, Carottes râpées, Nems, Cacahuètes",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-bo-bun-bobun-vegetarien",
+          "name": "BoBun végétarien",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tofu, Salade verte, Concombre, Carottes râpées, Nems, Cacahuètes",
+          "price": 13.9,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bobun-flandre-bo-bun-bobun-au-boeuf-sate-epice",
+          "name": "BoBun au bœuf saté épicé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf saté, Salade verte, Concombre, Carottes râpées, Nems, Cacahuètes",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Phở & soupes",
+      "dishes": [
+        {
+          "id": "bobun-flandre-pho-soupes-pho-special",
+          "name": "Phở spécial",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nouilles de riz, bœuf cru, bœuf cuit, oignon, coriandre et ciboule, 2 boulettes de bœuf, bouillon de bœuf. Servis à part : germes de soja, citron vert, piment frais, basilic thaï et herbes aromatiques vietnamiennes.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-pho-au-boeuf-cru-avec-boulettes-de-boeuf",
+          "name": "Soupe Phở au bœuf cru avec boulettes de bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe au bœuf avec morceaux de bœuf cru et boulettes de bœuf, accompagnée de nouilles de riz, d'herbes aromatiques et de bouillon parfumé.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-pho-au-boeuf-cru",
+          "name": "Soupe Phở au bœuf cru",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe traditionnelle au bœuf avec fines tranches de bœuf cru, nouilles de riz et herbes aromatiques.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-pho-au-boeuf-cuit",
+          "name": "Soupe Phở au bœuf cuit",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe au bœuf avec morceaux de bœuf cuits, nouilles de riz et herbes aromatiques.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-pho-aux-boulettes-de-boeuf",
+          "name": "Soupe Phở aux boulettes de bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe savoureuse avec boulettes de bœuf, nouilles de riz et herbes aromatiques.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-saigonnaise-ou-servies-a-sec",
+          "name": "Soupe Saigonnaise (ou servies à sec)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe à la façon de Saigon, servie en soupe ou à sec, avec nouilles de riz, viande, herbes aromatiques et assaisonnements maison.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-riz-phnom-penh",
+          "name": "Soupe de riz Phnom-Penh",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe de riz à la façon de Phnom-Penh avec filets de poisson, crevettes, calamars et porc. Servie avec germes de soja, herbes aromatiques, piment frais et citron.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-nouilles-au-canard-laque-ou-servies-a-sec",
+          "name": "Soupe de nouilles au canard laqué (ou servies à sec)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe de nouilles de riz avec canard laqué. Servie avec germes de soja, herbes aromatiques, piment frais et citron.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-pates-de-riz-ou-nouilles-vegetarienne",
+          "name": "Soupe de pâtes de riz (ou nouilles) végétarienne",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe végétarienne avec Shanghai (choi sum), champignons et légumes frais. Servie avec germes de soja, herbes aromatiques, piment frais et citron.",
+          "price": 13.9,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-pho-sate-epice-ou-nouilles",
+          "name": "Phở saté (epice) (ou nouilles)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe de nouilles de riz épicée au saté avec bœuf cru, bœuf cuit et boulettes de bœuf. Servie avec germes de soja, herbes aromatiques, piment frais et citron.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-pate-de-riz-ou-nouilles-au-ragout-de-boeuf",
+          "name": "Soupe de pâte de riz (ou nouilles) au ragoût de bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-nouilles-avec-raviolis-aux-crevettes",
+          "name": "Soupe de nouilles avec raviolis aux crevettes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-de-nouilles-au-porc-laque-ou-servies-a-sec",
+          "name": "Soupe de nouilles au porc laqué (ou servies à sec)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pho-soupes-soupe-pho-au-poulet",
+          "name": "Soupe Phở au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 13.9
+        }
+      ]
+    },
+    {
+      "category": "Entrée",
+      "dishes": [
+        {
+          "id": "bobun-flandre-entree-nems-au-porc-4-pieces",
+          "name": "Nems au porc 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux impériaux au porc et aux légumes, frits et croustillants. Servis avec salade fraiche et sauce nuoc-mâm maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entree-raviolis-aux-crevettes-frits-5-pieces",
+          "name": "Raviolis aux crevettes frits 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raviolis croustillants aux crevettes, frits à la perfection. Servis avec salade fraiche et sauce aigre-douce.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-entree-crevettes-frites-5-pieces",
+          "name": "Crevettes frites 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux croustillants aux crevettes et légumes. Servis avec salade fraiche et sauce maison.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-entree-nems-au-poulet-4-pieces",
+          "name": "Nems au poulet 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux impériaux au poulet et aux légumes, frits et croustillants. Servis avec salade fraiche et sauce nuoc-mâm maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entree-nems-vegetariens-4-pieces",
+          "name": "Nems végétariens 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux croustillants aux légumes variés. Servis avec salade fraiche et sauce nuoc-mâm maison.",
+          "price": 6.9,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bobun-flandre-entree-nems-aux-crevettes-4-pieces",
+          "name": "Nems aux crevettes 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux impériaux aux crevettes et légumes, frits et croustillants. Servis avec salade fraiche et sauce nuoc-mâm maison.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-entree-samoussas-au-boeuf-5-pieces",
+          "name": "Samoussas au bœuf 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Beignets croustillants au bœuf haché et aux épices, servis avec salade fraiche et sauce maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entree-assortiment-de-fritures-8-pieces",
+          "name": "Assortiment de fritures 8 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "2 nems poulet, 2 nems aux crevettes, 2 raviolis crevette frits et 2 tempura crevette",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-entree-gyozas-grilles-6-pieces",
+          "name": "Gyozas grillés 6 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raviolis japonais grillés farcis au poulet et aux légumes, tendres à l'intérieur et légèrement croustillants à l'cetérieur. Servis avec sauce maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entree-tempura-au-crevettes-4-pieces",
+          "name": "Tempura au crevettes 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes enrobées d'une pâte légère et croustillante, frites à la perfection. Servies avec salade fraiche et sauce maison.",
+          "price": 7.9
+        }
+      ]
+    },
+    {
+      "category": "Salade",
+      "dishes": [
+        {
+          "id": "bobun-flandre-salade-salade-de-papaye-aux-crevettes-et-au-porc",
+          "name": "Salade de papaye aux crevettes et au porc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade de papaye verte croquante, aux crevettes et au porc, relevée d'une sauce maison légèrement acidulée et parfumée.",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-salade-salade-de-crevettes-citronnee",
+          "name": "Salade de crevettes citronnee",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade fraiche aux crevettes, citronnée et légèrement épicée, avec des légumes croquants. et des herbes aromatiques.",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-salade-salade-de-boeuf-cru-citronnee",
+          "name": "Salade de bœuf cru citronnée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fines tranches de bœuf cru marinées au citron, servies avec des légumes croquants et des herbes aromatiques.",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-salade-rouleaux-de-printemps-aux-crevettes-et-au-porc",
+          "name": "Rouleaux de printemps aux crevettes et au porc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps frais aux crevettes et au porc, des légumes frais et des herbes aromatiques. Servis avec une sauce maison légèrement sucrée.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-salade-rouleaux-de-printemps-au-boeuf",
+          "name": "Rouleaux de printemps au bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps frais au bœuf, des légumes frais et des herbes aromatiques. Servis avec une sauce maison légèrement sucrée.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-salade-rouleaux-de-printemps-au-porc-lamine",
+          "name": "Rouleaux de printemps au porc lamine",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps frais au porc haché, des légumes frais et des herbes aromatiques. Servis avec une sauce maison légèrement sucrée.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-salade-rouleaux-de-printemps-au-poulet",
+          "name": "Rouleaux de printemps au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps frais au poulet, des légumes frais et des herbes aromatiques. Servis avec une sauce maison légèrement sucrée.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-salade-rouleaux-de-printemps-aux-crevettes",
+          "name": "Rouleaux de printemps aux crevettes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rouleaux de printemps frais aux crevettes, des légumes frais et des herbes aromatiques. Servis avec une sauce maison légèrement sucrée.",
+          "price": 6.9
+        }
+      ]
+    },
+    {
+      "category": "Vapeurs",
+      "dishes": [
+        {
+          "id": "bobun-flandre-vapeurs-raviolis-vietnamiens-au-porc-4-pieces",
+          "name": "Raviolis vietnamiens au porc 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc, Légumes, Herbes aromatiques, Galette de riz, Sauce maison",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-raviolis-vietnamiens-aux-crevettes-4-pieces",
+          "name": "Raviolis vietnamiens aux crevettes 4 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Légumes, Galette de riz, Sauce maison",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-raviolis-de-crevettes-5p",
+          "name": "Raviolis de crevettes 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Galette de riz, Légumes, Sauce maison",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-bouchees-aux-crevettes-5p",
+          "name": "Bouchées aux crevettes 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Légumes, Galette de riz, Sauce maison",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-bouchees-au-porc-5p",
+          "name": "Bouchées au porc 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc, Légumes, Épices, Galette de riz, Sauce maison",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-assortiments-de-vapeur-5p",
+          "name": "Assortiments de vapeur 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 ravioli aux crevettes (HAOKAO), 2 bouchées aux crevettes, 2 bouchées au porc. Ingrédients illustrés : Crevettes, Porc, Légumes, Galette de riz",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-mini-brioches-au-porc-5p",
+          "name": "Mini brioches au porc 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc, Farine de blé, Légumes, Sauce maison",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-pattes-de-poulet-au-soja-noir-fermente",
+          "name": "Pattes de poulet au soja noir fermenté",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet, Soja, Épices, Sauce soja, Sauce maison",
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-vapeurs-travers-de-porc-au-soja-noir-fermente",
+          "name": "Travers de porc au soja noir fermenté",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc, Soja, Épices, Sauce soja, Sauce maison",
+          "price": 9.9
+        }
+      ]
+    },
+    {
+      "category": "Entrées froides",
+      "dishes": [
+        {
+          "id": "bobun-flandre-entrees-froides-concombre-a-l-ail",
+          "name": "Concombre à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À emporter 5,90 €, sur place 6,90 €.",
+          "price": 5.9
+        },
+        {
+          "id": "bobun-flandre-entrees-froides-champignons-noirs",
+          "name": "Champignons noirs",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À emporter 5,90 €, sur place 6,90 €.",
+          "price": 5.9
+        },
+        {
+          "id": "bobun-flandre-entrees-froides-edamame",
+          "name": "Edamame",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À emporter 5,90 €, sur place 6,90 €.",
+          "price": 5.9
+        },
+        {
+          "id": "bobun-flandre-entrees-froides-algues-marinees",
+          "name": "Algues marinées",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À emporter 5,90 €, sur place 6,90 €.",
+          "price": 5.9
+        }
+      ]
+    },
+    {
+      "category": "Raviolis grillés ouverts",
+      "dishes": [
+        {
+          "id": "bobun-flandre-raviolis-grilles-ouverts-porc-ciboulette",
+          "name": "Porc & ciboulette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-grilles-ouverts-porc-chou-chinois",
+          "name": "Porc & chou chinois",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-grilles-ouverts-poulet-champignons",
+          "name": "Poulet & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-grilles-ouverts-legumes-champignons",
+          "name": "Légumes & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Raviolis vapeur ouverts",
+      "dishes": [
+        {
+          "id": "bobun-flandre-raviolis-vapeur-ouverts-porc-ciboulette",
+          "name": "Porc & ciboulette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-vapeur-ouverts-poulet-champignons",
+          "name": "Poulet & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-vapeur-ouverts-trois-delices",
+          "name": "Trois délices",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc, crevette et ciboule chinoise",
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-vapeur-ouverts-legumes-champignons",
+          "name": "Légumes & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Raviolis bouillis",
+      "dishes": [
+        {
+          "id": "bobun-flandre-raviolis-bouillis-porc-ciboulette",
+          "name": "Porc & ciboulette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-bouillis-porc-chou-chinois",
+          "name": "Porc & chou chinois",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-bouillis-poulet-champignons",
+          "name": "Poulet & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-bouillis-legumes-champignons",
+          "name": "Légumes & champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 10.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Mini Xiao Long Bao grillés",
+      "dishes": [
+        {
+          "id": "bobun-flandre-mini-xiao-long-bao-grilles-porc-ciboule",
+          "name": "Porc & ciboule",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 11.9
+        },
+        {
+          "id": "bobun-flandre-mini-xiao-long-bao-grilles-poulet-oignon-ciboulette-chinoise",
+          "name": "Poulet, oignon & ciboulette chinoise",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 11.9
+        },
+        {
+          "id": "bobun-flandre-mini-xiao-long-bao-grilles-boeuf-oignon",
+          "name": "Bœuf & oignon",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 11.9
+        },
+        {
+          "id": "bobun-flandre-mini-xiao-long-bao-grilles-vegetarien-champignons-tofu",
+          "name": "Végétarien, champignons & tofu",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 11.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Raviolis grillés ouverts signature",
+      "dishes": [
+        {
+          "id": "bobun-flandre-raviolis-grilles-ouverts-signature-crevette-entiere-poulet",
+          "name": "Crevette entière & poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Ravioli aux fruits de mer",
+      "dishes": [
+        {
+          "id": "bobun-flandre-ravioli-aux-fruits-de-mer-raviolis-cristal-calmar-5p",
+          "name": "Raviolis cristal calmar 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-ravioli-aux-fruits-de-mer-raviolis-cristal-a-la-seiche-5p",
+          "name": "Raviolis cristal à la seiche 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-ravioli-aux-fruits-de-mer-raviolis-cristal-aux-crevettes-5p",
+          "name": "Raviolis cristal aux crevettes 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-ravioli-aux-fruits-de-mer-raviolis-cristal-au-merlu-5p",
+          "name": "Raviolis cristal au merlu 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-ravioli-aux-fruits-de-mer-raviolis-cristal-a-la-perche-5p",
+          "name": "Raviolis cristal à la perche 5p",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        }
+      ]
+    },
+    {
+      "category": "Raviolis aux viandes",
+      "dishes": [
+        {
+          "id": "bobun-flandre-raviolis-aux-viandes-raviolis-aux-poulet-5-pieces",
+          "name": "Raviolis aux poulet 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-aux-viandes-raviolis-aux-canard-laque-5-pieces",
+          "name": "Raviolis aux canard laqué 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-aux-viandes-raviolis-au-boeuf-5-pieces",
+          "name": "Raviolis au bœuf 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-aux-viandes-raviolis-aux-porc-laque-5-pieces",
+          "name": "Raviolis aux porc laqué 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-raviolis-aux-viandes-ravioli-aux-legumes-5-pieces",
+          "name": "Ravioli aux légumes 5 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bento",
+      "dishes": [
+        {
+          "id": "bobun-flandre-bento-poulet-frit",
+          "name": "Poulet frit",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poulet marinés et frits, croustillants à l'extérieur et tendres à l'intérieur. Servi avec du riz blanc parsemé de sésame, des légumes frais (concombre, tomate), mais et une sauce maison légèrement sucrée.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bento-poisson-frit",
+          "name": "Poisson frit",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poisson marinés et frits, croustillants et savoureux. Servi avec du riz blanc au sésame, des légumes frais (concombre, tomate), mais et une sauce maison légèrement sucrée.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bento-poulet-pane",
+          "name": "Poulet pané",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poulet pané, doré et croustillant, tendre à l'intérieur. Servi avec du riz blanc au sésame, des légumes frais (concombre, tomate), mais et une sauce maison légèrement sucrée.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-bento-vegetarien",
+          "name": "Végétarien",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mélange de légumes sautés : brocoli, carotte, champignons, courgette et autres légumes de saison. Servi avec du riz blanc au sésame, des légumes frais (concombre, tomate), mais et une sauce maison légèrement sucrée.",
+          "price": 13.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Pâtes de riz ou nouilles sautées",
+      "dishes": [
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-canard-laque",
+          "name": "Pâtes de riz (ou nouilles) sautées au canard laqué",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Canard laqué, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-aux-fruits-de-mer",
+          "name": "Pâtes de riz (ou nouilles) sautées aux fruits de mer",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Calamar, Pâtes de riz / Nouilles, Œuf, Pousses de soja, Ciboule, Coriandre",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-aux-crevettes",
+          "name": "Pâtes de riz (ou nouilles) sautées aux crevettes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-poulet",
+          "name": "Pâtes de riz (ou nouilles) sautées au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-boeuf",
+          "name": "Pâtes de riz (ou nouilles) sautées au bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-porc-emince",
+          "name": "Pâtes de riz (ou nouilles) sautées au porc émincé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc émincé, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-porc-laque",
+          "name": "Pâtes de riz (ou nouilles) sautées au porc laqué",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc laqué, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-poulet-et-au-boeuf",
+          "name": "Pâtes de riz (ou nouilles) sautées au poulet et au bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Poulet, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-au-boeuf-sate-epice",
+          "name": "Pâtes de riz (ou nouilles) sautées au bœuf saté épicé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-pates-de-riz-ou-nouilles-sautees-pates-de-riz-ou-nouilles-sautees-aux-legumes",
+          "name": "Pâtes de riz (ou nouilles) sautées aux légumes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Légumes frais, Pâtes de riz / Nouilles, Pousses de soja, Œuf, Ciboule, Coriandre",
+          "price": 14.9,
+          "tags": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Riz sautés",
+      "dishes": [
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-au-boeuf",
+          "name": "Riz sauté au bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Œuf, Riz, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-aux-crevettes-et-porc-laque",
+          "name": "Riz sauté aux crevettes et porc laqué",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Porc laqué, Œuf, Riz, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-aux-crevettes-epice",
+          "name": "Riz sauté aux crevettes épicé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Œuf, Riz, Piment, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-frit-aux-fruits-de-mer",
+          "name": "Riz sauté frit aux fruits de mer",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Calamar, Œuf, Riz, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-au-poulet",
+          "name": "Riz sauté au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet, Œuf, Riz, Ciboule, Coriandre",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-au-porc-emince",
+          "name": "Riz sauté au porc émincé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc émincé, œuf, riz, ciboule, coriandre.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-riz-sautes-riz-saute-facon-cantonais",
+          "name": "Riz sauté façon cantonais",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jambon, Œuf, Riz, Ciboule, Coriandre",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Grillades",
+      "dishes": [
+        {
+          "id": "bobun-flandre-grillades-poulet-grille-avec-riz-parfume",
+          "name": "Poulet grillé avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cuisse de poulet grillée savoureuse, servie avec du riz parfumé, des légumes frais et une sauce maison légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-canard-laque-avec-riz-parfume",
+          "name": "Canard laqué avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Canard laqué croustillant et tendre, servi avec du riz parfumé, des légumes frais et une sauce maison légèrement sucrée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-grillades-riz-nature-aux-trois-tresors-crevettes-porc-porc-laque-porc-laque",
+          "name": "Riz nature aux trois trésors (crevettes porc, porc laqué, porc laqué)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiment de grillades (porc laqué, côtes de porc, porc émincé), servi avec du riz parfumé, des légumes frais et une sauce maison légèrement sucrée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-grillades-porc-laque-avec-riz-parfume",
+          "name": "Porc laqué avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc laqué (char siu) tendre et savoureux, servi avec du riz parfumé, des légumes frais et une sauce maison légèrement sucrée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-grillades-legumes-de-saison-sautes-avec-riz-parfume",
+          "name": "Légumes de saison sautés avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Légumes frais sautés avec du tofu, servis avec du riz parfumé et une sauce maison légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-boeuf-saute-facon-loc-lac-avec-riz-saute-a-la-tomate",
+          "name": "Bœuf sauté façon Loc Lac avec riz sauté à la tomate",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf tendre sauté, servi avec du riz sauté à la tomate, des légumes frais et une sauce maison légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-crevettes-sautees-facon-loc-lac-avec-riz-saute-a-la-tomate",
+          "name": "Crevettes sautées façon Loc Lac avec riz sauté à la tomate",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes, Tomate, Œuf",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-grillades-cotes-de-porc-grille-a-la-citronnelle-avec-riz-parfume",
+          "name": "Côtes de porc grillé à la citronnelle avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Côtes de porc, Riz parfumé, Légumes, Sauce maison",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-ragout-de-boeuf-avec-riz-parfume",
+          "name": "Ragoût de bœuf avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf, Riz parfumé, Légumes, Sauce maison",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-grillades-trois-rotisseries-avec-riz-parfume",
+          "name": "Trois rôtisseries avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Porc laqué (char siu), Porc, Poulet, Riz parfumé, Légumes, Sauce maison",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-grillades-poulet-curry-avec-riz-parfume",
+          "name": "Poulet curry avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet, Légumes, Riz parfumé, Sauce maison",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-poitrine-de-porc-croustillant-avec-riz-parfume",
+          "name": "Poitrine de porc croustillant avec riz parfumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poitrine de porc, Riz parfumé, Légumes, Sauce maison",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-canard-laque",
+          "name": "Canard laqué",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Canard mariné et rôti selon la tradition asiatique, peau croustillante et chair tendre. Servi avec une sauce maison au soja légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-porc-laque",
+          "name": "Porc laqué",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Émincé de porc mariné, grillé et laqué, tendre et savoureux. Servi avec une sauce maison au soja légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-poitrine-de-porc-croustillant",
+          "name": "Poitrine de porc croustillant",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poitrine de porc grillée à l'extérieur, croustillante et dorée, tendre à l'intérieur. Servi avec une sauce maison au soja légèrement sucrée.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-grillades-assortiment-de-trois-rotisseries",
+          "name": "Assortiment de trois rôtisseries",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiment de trois viandes grillées : canard laqué, porc laqué et poitrine de porc croustillant. Servi avec une sauce maison au soja légèrement sucrée.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-grillades-brochettes-de-boeuf-grille-a-la-citronnelle-avec-vermicelles-ou-riz",
+          "name": "Brochettes de bœuf grillé à la citronnelle avec vermicelles (ou riz)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Au choix : Vermicelles ou Riz parfumé. Ingrédients illustrés : Bœuf, Citronnelle, Vermicelles (ou riz), Laitue Salade, Carotte Concombre Herbes aromatiques, Sauce maison (nuoc-mâm)",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-grillades-brochettes-de-crevettes-grillees-avec-vermicelles-ou-riz",
+          "name": "Brochettes de crevettes grillées avec vermicelles (ou riz)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Au choix : Vermicelles ou Riz parfumé. Ingrédients illustrés : Crevettes, Citronnelle, Vermicelles (ou riz), Laitue Salade, Carotte Concombre Herbes aromatiques, Sauce maison (nuoc-mâm)",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-grillades-brochettes-de-poulet-grille-avec-vermicelles-ou-riz",
+          "name": "Brochettes de poulet grillé avec vermicelles (ou riz)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Au choix : Vermicelles ou Riz parfumé. Ingrédients illustrés : Poulet, Citronnelle, Vermicelles (ou riz), Laitue Salade, Carotte Concombre Herbes aromatiques, Sauce maison (nuoc-mâm)",
+          "price": 16.9
+        }
+      ]
+    },
+    {
+      "category": "Entrées d'Asie",
+      "dishes": [
+        {
+          "id": "bobun-flandre-entrees-d-asie-edamame-cuit-a-l-eau-salee",
+          "name": "Edamamé cuit à l’eau salée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fèves de soja fraîches cuites à l'eau, légèrement salées, servies chaudes. Une entrée simple et saine, idéale pour commencer votre repas.",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entrees-d-asie-concombre-a-la-sauce-pimentee",
+          "name": "Concombre à la sauce pimentée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Concombre frais légèrement écrasé, mariné dans une sauce maison épicée et parfumée. Une entrée croquante et rafraîchissante aux saveurs relevées.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-entrees-d-asie-radis-blanc-a-la-sauce-acidulee",
+          "name": "Radis blanc à la sauce acidulée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-entrees-d-asie-salade-de-champignons",
+          "name": "Salade de champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Champignons noirs assaisonnés à la façon vietnamienne, avec des herbes fraîches, une sauce légère et parfumée. Une entrée fraiche, délicate et savoureuse.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-entrees-d-asie-tofu-d-oeuf-marine",
+          "name": "Tofu d’œuf marine",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 9.9
+        },
+        {
+          "id": "bobun-flandre-entrees-d-asie-tripes-frites",
+          "name": "Tripes frites",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12.9
+        }
+      ]
+    },
+    {
+      "category": "Potages & Plaque chauffante",
+      "dishes": [
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-potages-pekinois-epice",
+          "name": "Potages Pékinois (épice)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un potage traditionnel aux saveurs relevées et équilibrées, préparé avec du tofu, des champignons noirs, des champignons shiitake, des pousses de bambou, des lamelles de porc et des œufs, assaisonné au vinaigre et au poivre blanc.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-potages-aux-crabe-et-asperge",
+          "name": "Potages aux crabe et asperge",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un potage délicat préparé avec de la chair de crabe et des asperges tendres, dans un bouillon léger et légèrement lié.",
+          "price": 8.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-veloute-aux-fruit-de-mer",
+          "name": "Velouté aux fruit de mer",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 8.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-veloute-au-boeuf-et-oeuf",
+          "name": "Velouté au bœuf et œuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un velouté savoureux à base de bœuf finement émincé et d'œufs, relevé par des herbes fraîches, dans un bouillon délicat et onctueux.",
+          "price": 8.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-potage-de-poulet-aux-vermicelles",
+          "name": "Potage de poulet aux vermicelles",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un potage léger et réconfortant avec du poulet tendre et des vermicelles de riz, parfumé aux oignons verts et aux herbes fraîches.",
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-boeuf-sate-sur-une-plaque-chauffante",
+          "name": "Bœuf saté sur une plaque chauffante",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-poulet-sate-sur-une-plaque-chauffante",
+          "name": "Poulet saté sur une plaque chauffante",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-boeuf-au-poivre-noir-sur-une-plaque-chauffant",
+          "name": "Bœuf au poivre noir sur une plaque chauffant",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-fruit-de-mer-sur-une-plaque-chauffante",
+          "name": "Fruit de mer sur une plaque chauffante",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-tofu-sur-une-plaque-chauffante",
+          "name": "Tofu sur une plaque chauffante",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-haricot-vert-saute-au-porc",
+          "name": "Haricot vert sauté au porc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Haricots verts sautés avec des morceaux de porc, de l'ail et des épices, pour un goût savoureux et légérement épicé.",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-brocolis-saute-a-l-ail",
+          "name": "Brocolis sauté à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Brocolis frais sautés avec de l'ail, à la fois léger et savoureux.",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-chou-bok-choy-saute-a-l-ail",
+          "name": "Chou bok choy sauté à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jeunes bok choy sautés avec de l'ail, une texture croquante et un goût délicat.",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-choux-cabus-saute-a-l-ail",
+          "name": "Choux cabus sauté à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Choux cabus frais sautés avec de l'ail, à la fois simple, sain et savoureux.",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-legume-chinoise-moutarde-saute-a-l-ail",
+          "name": "Légume chinoise moutarde sauté à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-potages-plaque-chauffante-salade-vert-saute-a-l-ail",
+          "name": "Salade vert sauté à l’ail",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12.9
+        }
+      ]
+    },
+    {
+      "category": "Porc",
+      "dishes": [
+        {
+          "id": "bobun-flandre-porc-porc-a-la-sauce-aigre-douce-aux-ananas",
+          "name": "Porc à la sauce aigre douce aux ananas",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-porc-travers-de-porc-a-la-cantonais",
+          "name": "Travers de porc à la cantonais",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-porc-travers-de-porc-au-sel-et-poivre",
+          "name": "Travers de porc au sel et poivre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des travers de porc marinés puis frits jusqu'à une texture croustillante, assaisonnés de sel, de poivre, d'ail et d'épices aromatiques. Un plat savoureux et parfumé, à l'extérieur croustillant et à l'intérieur tendre, aux saveurs typiques de la cuisine d’Asie.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-porc-porc-cuit-et-saute-aux-piments",
+          "name": "Porc cuit et sauté aux piments",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de poitrine de porc d'abord cuites, puis sautées avec des poivrons, des oignons et des oignons verts, relevées d'une sauce savoureuse à la façon sichuanaise. Un plat emblématique, parfumé, légèrement épicé et riche en saveurs.",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Poulet",
+      "dishes": [
+        {
+          "id": "bobun-flandre-poulet-curry-thai-aux-poulet",
+          "name": "Curry Thaï aux poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poulet mijotés dans une sauce au curry thaï onctueuse et parfumée, au lait de coco, relevée d'épices douces, avec des légumes frais. Un goût riche, légèrement épicé et parfumé.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-poulet-champignons-noir-saute-au-poulet",
+          "name": "Champignons noir sauté au poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Émincés de poulet sautés avec des champignons noirs, des oignons et des légumes croquants, dans une sauce légère et savoureuse. Une texture tendre et un goût délicat et parfumé.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-poulet-poulet-saute-a-l-ananas",
+          "name": "Poulet sauté à l’ananas",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poulet sautés avec des ananas frais, des poivrons et des oignons, le tout nappé d'une sauce aigre-douce maison. Un plat équilibré, fruité et savoureux.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-poulet-poulet-au-sel-et-poivre",
+          "name": "Poulet au sel et poivre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poulet croustillants, sautés avec de l'ail, des oignons, des poivrons et des épices (sel et poivre). Un plat croustillant, parfumé et savoureux, typique de la cuisine d’Asie.",
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "category": "Bœuf",
+      "dishes": [
+        {
+          "id": "bobun-flandre-boeuf-boeuf-aux-oignons",
+          "name": "Bœuf aux oignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf tendre sautées avec des oignons frais, dans une sauce savoureuse et légèrement sucrée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-boeuf-boeuf-au-poivron-vert",
+          "name": "Bœuf au poivron vert",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf sautées avec des poivrons verts croquants, relevées d'une sauce parfumée, légèrement épicée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-boeuf-boeuf-au-gingembre-et-ciboulette",
+          "name": "Bœuf au gingembre et ciboulette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf sautées avec du gingembre frais et de la ciboulette, pour un goût parfumé et équilibré.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-boeuf-boeuf-saute-aux-egumes-de-saison",
+          "name": "Bœuf sauté aux égumes de saison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf sautées avec un mélange de légumes frais de saison, dans une sauce légére et savoureuse.",
+          "price": 15.9
+        }
+      ]
+    },
+    {
+      "category": "Marmites",
+      "dishes": [
+        {
+          "id": "bobun-flandre-marmites-marmite-de-crevettes-et-vermicelles",
+          "name": "Marmite de crevettes et vermicelles",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des crevettes fraîches préparées dans une marmite avec des vermicelles de haricots mungo, de l'ail, des oignons et une sauce savoureuse légérement relevée. Les vermicelles absorbent le jus de cuisson et offrent une texture fondante et parfumée.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-marmites-marmite-aux-vegetariennes-tofu",
+          "name": "Marmite aux végétariennes (Tofu)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Un assortiment de légumes frais mijotés avec du tofu dans une sauce légère et savoureuse. Un plat sain, équilibré et riche en saveurs, servi bien chaud dans une marmite traditionnelle.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-marmites-marmite-de-fruits-de-mer",
+          "name": "Marmite de fruits de mer",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 17.9
+        }
+      ]
+    },
+    {
+      "category": "Fruits de mer",
+      "dishes": [
+        {
+          "id": "bobun-flandre-fruits-de-mer-filet-de-poisson-flambe-au-gingembre-et-ciboulette",
+          "name": "Filet de poisson flambé au gingembre et ciboulette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-fruits-de-mer-filet-de-poisson-a-la-sauce-aigre-douce",
+          "name": "Filet de poisson à la sauce aigre douce",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-fruits-de-mer-crevettes-au-sel-et-poivre",
+          "name": "Crevettes au sel et poivre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des crevettes fraîches sautées, légèrement frites, assaisonnées de sel, de poivre, d'ail et d'épices aromatiques. Un plat croustillant à l'extérieur et tendre à l'intérieur, au goût savoureux et parfumé.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-fruits-de-mer-crevettes-a-la-sauce-pimente",
+          "name": "Crevettes à la sauce pimenté",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des crevettes sautées avec des piments séchés, de l'ail et des épices, offrant une saveur épicée et parfumée, typique de la cuisine d’Asie.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-fruits-de-mer-crevettes-au-a-la-sauce-curry",
+          "name": "Crevettes au à la sauce curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des crevettes mijotées dans une sauce au curry thaï, au lait de coco, avec des légumes frais. Un plat onctueux, légèrement épicé et parfumé.",
+          "price": 16.9
+        }
+      ]
+    },
+    {
+      "category": "Les Plats Spéciaux",
+      "dishes": [
+        {
+          "id": "bobun-flandre-les-plats-speciaux-canard-laque-pekinois-entier",
+          "name": "Canard laqué Pekinois (entier)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À commander 24h à l’avance. 1. Peau de canard tranchée (servie avec des petites crêpes de riz, sauce barbecue, ciboulette) · 2. Pâte de riz sauté au canard laqué · 3. Soupe de vermicelles au canard laqué",
+          "price": 69
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-marmite-de-boeuf-garnie-de-tofu-et-de-choux",
+          "name": "Marmite de bœuf garnie de tofu et de choux",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf tendre mijoté dans une sauce épicée au Sichuan, avec du tofu et du chou chinois.",
+          "price": 26.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-boeuf-boouillon-avec-choucroutes",
+          "name": "Bœuf boouillon avec choucroutes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf tendre mijoté avec de la choucroute dans un bouillon savoureux et légèrement acidulé.",
+          "price": 26.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-boeuf-saute-a-la-sauce-poivre-noir",
+          "name": "Bœuf sauté à la sauce poivre noir",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Lamelles de bœuf sautées avec poivrons, oignons et une sauce au poivre noir parfumée.",
+          "price": 19.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-marmite-de-poitrine-de-boeuf",
+          "name": "Marmite de poitrine de bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bœuf fondant mijoté avec des pommes de terre et des carottes dans une sauce savoureuse.",
+          "price": 26.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poisson-bouillon-avec-choucroutes",
+          "name": "Poisson bouillon avec choucroutes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poisson tendre mijoté avec de la choucroute, relevé d'ail et de piment.",
+          "price": 26.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-bar-a-la-vapeur",
+          "name": "Bar à la vapeur",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bar entier cuit à la vapeur, relevé d'une sauce au soja et garni de gingembre et de ciboulette. Chair tendre et saveur délicate.",
+          "price": 25.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-bar-grille",
+          "name": "Bar grillé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bar entier grillé, peau croustillante et chair tendre, assaisonné simplement pour préserver la saveur du poisson.",
+          "price": 25.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-bar-aux-piments-haches",
+          "name": "Bar aux piments hachés",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bar entier nappé de piments rouges hachés, cuit à la vapeur, au goût relevé et parfumé.",
+          "price": 25.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-a-l-imperial",
+          "name": "Poulet à l’impérial",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Dés de poulet sautés avec des cacahuètes, des piments séchés, des oignons et des légumes. Un grand classique au goût légèrement épicé et savoureux.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-marmite-de-poulet",
+          "name": "Marmite de poulet",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 20.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-a-la-vapeur",
+          "name": "Poulet à la vapeur",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-a-la-sauce-pimente",
+          "name": "Poulet à la sauce pimenté",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet tendre nappé d'une sauce pimentée maison aux arômes de sésame, d'ail et d'épices. Frais, tendre et relevé.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-crevettes-frites-saute-a-l-ail-et-piment",
+          "name": "Crevettes frites sauté à l’ail et piment",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes sautées au cumin, avec oignons, piments et épices aromatiques. Une saveur grillée et parfumée.",
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-gambas-sur-une-plaque-chauffante",
+          "name": "Gambas sur une plaque chauffante",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-assortiment-legumes-sautes",
+          "name": "Assortiment légumes sautés",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Assortiment de légumes frais sautés, au goût léger et parfumé.",
+          "price": 13.9,
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-marmite-d-aubergine-au-porc-hache",
+          "name": "Marmite d’aubergine au porc haché",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Aubergines mijotées avec du porc haché dans une sauce savoureuse.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-mapo-tofu-epice-avec-porc-hache",
+          "name": "Mapo tofu épicé avec porc haché",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tofu tendre mijoté avec du porc haché dans une sauce épicée et parfumée du Sichuan.",
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-omelette-saute-au-poivron-vert",
+          "name": "Omelette sauté au poivron vert",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 12.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-porc-laque-saute-au-poivron-vert",
+          "name": "Porc laqué sauté au poivron vert",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-saucisses-et-legumes-saute-a-la-sauce-soja",
+          "name": "Saucisses et légumes sauté à la sauce soja",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-basilic-thai-saute-aux-moules",
+          "name": "Basilic Thaï sauté aux moules",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-saute-au-piment",
+          "name": "Poulet sauté au piment",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Morceaux de poulet sautés avec des piments séchés, légèrement épicés et parfumés.",
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-fondue-au-boeuf-pour-2-3-personnes",
+          "name": "Fondue au bœuf (pour 2-3 personnes)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 40.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-crevettes-sautees-en-marmite",
+          "name": "Crevettes sautées en marmite",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes sautées à la façon “marmite”, avec oignons, céleri, piments et épices. Un plat parfumé, relevé et savoureux.",
+          "price": 23.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-casserole-de-poulet-fume",
+          "name": "Casserole de poulet fumé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet fumé mijoté avec des légumes et des champignons, au goût savoureux.",
+          "price": 43.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-au-poivre-vert-du-sichuan",
+          "name": "Poulet au poivre vert du Sichuan",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet tendre nappé d'une sauce au poivre vert du Sichuan, légèrement relevée et parfumée.",
+          "price": 23.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-boeuf-braise-aux-enokitakes",
+          "name": "Bœuf braisé aux enokitakes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf tendres braisées avec des champignons enoki.",
+          "price": 37.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-crevettes-kung-pao",
+          "name": "Crevettes kung Pao",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crevettes sautées avec cacahuètes, piments séchés et légumes, un grand classique au goût légèrement épicé.",
+          "price": 26.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-soupe-de-poulet-aux-tripes-de-porc",
+          "name": "Soupe de poulet aux tripes de porc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Soupe savoureuse au poulet et aux tripes de porc, au goût riche et réconfortant.",
+          "price": 43.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-tofu-au-corail-de-crabe",
+          "name": "Tofu au corail de crabe",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tofu soyeux au corail de crabe, une texture délicate et un goût raffiné.",
+          "price": 19.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-cotes-de-porc-aigres-douces",
+          "name": "Côtes de porc aigres-douces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Travers de porc sautés dans une sauce aigre-douce, au goût équilibré et savovreux.",
+          "price": 19.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-boeuf-saute-aux-piments",
+          "name": "Bœuf sauté aux piments",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Émincé de bœuf sauté avec des poivrons et des épices, un classique savovreux.",
+          "price": 19.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poulet-chongqing-en-marmite-epicee",
+          "name": "Poulet Chongqing en marmite épicée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet mijoté façon Chongqing avec des épices, des poivrons et des oignons.",
+          "price": 23.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-poisson-du-sichuan-a-l-huile-pimentee",
+          "name": "Poisson du Sichuan à l'huile pimentée",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poisson entier nappé d'une sauce à l'huile pimentée, au goût intense et parfumé.",
+          "price": 33.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-intestins-de-porc-au-wok-facon-dry-pot",
+          "name": "Intestins de porc au wok (façon “dry pot”)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Intestins de porc sautés avec des poivrons, des oignons et des épices dans un style “dry pot”.",
+          "price": 21.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-tripes-de-porc-aux-legumes-marines",
+          "name": "Tripes de porc aux légumes marinés",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tripes de porc mijotées avec des légumes marinés, au goût légèrement acidulé.",
+          "price": 23.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-champignons-blancs-facon-gan-guo",
+          "name": "Champignons blancs façon “gan guo”",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Champignons blancs sautés avec des poivrons, des oignons et des épices, dans un style “gan guo”.",
+          "price": 19.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-tofu-aux-oeufs",
+          "name": "Tofu aux œufs",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tofu aux œufs mijoté dans une sauce savoureuse avec champignons et ciboulette.",
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-pommes-de-terre-sautees",
+          "name": "Pommes de terre sautées",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pommes de terre sautées dans un style “gan guo”, avec des épices et des piments, au goût relevé et parfumé.",
+          "price": 16.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-piments-verts-peau-de-tigre",
+          "name": "Piments verts peau de tigre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Piments verts sautés à la poêle, légèrement brûlés pour une texture “peau de tigre”, au goût parfumé et relevé.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-pommes-de-terre-rapees-sautees",
+          "name": "Pommes de terre râpées sautées",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pommes de terre finement râpées sautées, avec des poivrons, au goût croquant et légèrement épicé.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-chou-chinois-aigre-et-epice",
+          "name": "Chou chinois aigre et épicé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chou chinois sauté avec une sauce aigre-douce légèrement relevée, au goût frais et savoureux.",
+          "price": 13.9
+        },
+        {
+          "id": "bobun-flandre-les-plats-speciaux-chou-saute-en-marmite",
+          "name": "Chou sauté en marmite",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chou sauté façon “marmite”, avec des épices et une légère touche de piquant.",
+          "price": 13.9
+        }
+      ]
+    },
+    {
+      "category": "Thaï",
+      "dishes": [
+        {
+          "id": "bobun-flandre-thai-poulet-saute-au-basilic-thai",
+          "name": "Poulet sauté au basilic Thai",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Émincés de poulet sautés avec du basilic thai frais, des oignons, des poivrons et une sauce savoureuse légèrement épicée. Un plat parfumé aux arômes typiques thaïlandais.",
+          "price": 14.9
+        },
+        {
+          "id": "bobun-flandre-thai-boeuf-saute-au-basilic-thai",
+          "name": "Boeuf sauté au basilic Thai",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tranches de bœuf sautées avec du basilic thai frais, des oignons et des piments, dans une sauce parfumée et légèrement épicée.",
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-thai-crevettes-sautees-au-basilic-thai",
+          "name": "Crevettes sautées au basilic Thai",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Des crevettes sautées avec du basilic thaï frais, de l'ail, des oignons et des piments, dans une sauce savoureuse et légèrement épicée. Un plat parfumé aux arômes thaïlandais.",
+          "price": 17.9
+        },
+        {
+          "id": "bobun-flandre-thai-filet-de-poisson-saute-au-basilic-thai",
+          "name": "Filet de poisson sauté au basilic Thai",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15.9
+        },
+        {
+          "id": "bobun-flandre-thai-noix-de-saint-jacques-sautees-au-basilic-thai",
+          "name": "Noix de saint-jacques sautées au basilic Thaï",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 19.9
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "bobun-flandre-desserts-composer-votre-coupe",
+          "name": "Composer votre coupe",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Parfums : vanille intense de Madagascar, chocolat et ses morceaux, cœur de fraise, café pur Arabica, mangue exotique. Format : 2,90 € / 5,50 € / 7,90 €.",
+          "price": 2.9
+        },
+        {
+          "id": "bobun-flandre-desserts-chocolat-liegeois",
+          "name": "Chocolat Liégeois",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-desserts-banana-split",
+          "name": "Banana Split",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-desserts-dame-blanche",
+          "name": "Dame Blanche",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-desserts-tapioca-a-la-mangue-et-lait-de-coco",
+          "name": "Tapioca à la mangue et lait de coco",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-desserts-mochi-glaces-2-pieces",
+          "name": "Mochi glacés 2 pièces",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-desserts-riz-gluant-avec-de-la-mangue-fraiche",
+          "name": "Riz gluant avec de la mangue fraiche",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 7.9
+        },
+        {
+          "id": "bobun-flandre-desserts-granite-maison",
+          "name": "Granité maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Parfums au choix : mangue · litchi · passion · fraise",
+          "price": 6.9
+        },
+        {
+          "id": "bobun-flandre-desserts-nougats-chinois",
+          "name": "Nougats chinois",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4.9
+        },
+        {
+          "id": "bobun-flandre-desserts-gingembre-confit",
+          "name": "Gingembre confit",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4.9
+        },
+        {
+          "id": "bobun-flandre-desserts-litchi-au-sirop",
+          "name": "Litchi au sirop",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4.9
+        },
+        {
+          "id": "bobun-flandre-desserts-perles-de-coco-2p",
+          "name": "Perles de coco (2p)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4.9
+        }
+      ]
+    },
+    {
+      "category": "Boissons sans alcool",
+      "dishes": [
+        {
+          "id": "bobun-flandre-boissons-sans-alcool-lait-de-soja",
+          "name": "Lait de soja",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        }
+      ]
+    }
+  ]
+}

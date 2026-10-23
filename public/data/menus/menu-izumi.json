@@ -1,0 +1,574 @@
+{
+  "menuId": "menu-izumi",
+  "restaurantId": "le-bar-a-sushi-izumi-75008",
+  "categories": [
+    {
+      "category": "Assortiments",
+      "dishes": [
+        {
+          "id": "izumi-assortiment-de-10-sushi-nigiri-varies",
+          "name": "Assortiment de 10 sushi nigiri variés",
+          "description": "Servis avec une soupe miso et un amuse-bouche.",
+          "price": 39.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "izumi-assortiment-de-12-sushi-nigiri-varies",
+          "name": "Assortiment de 12 sushi nigiri variés",
+          "description": "Servis avec une soupe miso et un amuse-bouche.",
+          "price": 45.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sashimi",
+      "dishes": [
+        {
+          "id": "izumi-sashimi-saumon-label-rouge",
+          "name": "Sashimi saumon label rouge",
+          "price": 30.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-sashimi-thon-rouge",
+          "name": "Sashimi thon rouge",
+          "price": 36.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-sashimi-thon-et-saumon-label-rouge",
+          "name": "Sashimi thon et saumon label rouge",
+          "price": 35.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-sashimi-de-luxe",
+          "name": "Sashimi de luxe",
+          "price": 45.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "present",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Chirashi",
+      "dishes": [
+        {
+          "id": "izumi-chirashi-saumon-label-rouge",
+          "name": "Chirashi saumon label rouge",
+          "price": 33,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-chirashi-thon-et-saumon",
+          "name": "Chirashi thon et saumon",
+          "price": 36,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-chirashi-izumi",
+          "name": "Chirashi Izumi",
+          "description": "Avec anguille et thon gras.",
+          "price": 46.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "izumi-salade-wakame-concombre",
+          "name": "Salade Wakamé/concombre",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-salade-poulpe-wakame-concombre",
+          "name": "Salade poulpe Wakamé/concombre",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "izumi-sashimi-de-saint-jacques",
+          "name": "Sashimi de Saint-Jacques",
+          "price": 25.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "present",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "izumi-tartare-saumon-avocat-huile-de-sesame",
+          "name": "Tartare saumon avocat huile de sésame",
+          "price": 15.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Gunkan (1 pièce)",
+      "dishes": [
+        {
+          "id": "izumi-gunkan-oursin",
+          "name": "Gunkan oursin",
+          "price": 10.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "izumi-gunkan-oeufs-de-saumon",
+          "name": "Gunkan Œufs de saumon",
+          "price": 8.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-gunkan-tartare-de-saumon",
+          "name": "Gunkan Tartare de saumon",
+          "price": 8,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Maki (6 pièces)",
+      "dishes": [
+        {
+          "id": "izumi-maki-au-thon",
+          "name": "Maki au thon",
+          "price": 13,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-maki-au-saumon-label-rouge",
+          "name": "Maki au saumon label rouge",
+          "price": 12,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-california-saumon-avocat",
+          "name": "California saumon avocat",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-california-crevette-avocat",
+          "name": "California crevette avocat",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-california-a-la-chair-de-crabe-avocat",
+          "name": "California à la chair de crabe avocat",
+          "price": 15.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Accompagnement",
+      "dishes": [
+        {
+          "id": "izumi-soupe-miso",
+          "name": "Soupe miso",
+          "price": 5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "izumi-daifuku-patisserie-japonaise-au-haricot-rouge-azuki",
+          "name": "Daifuku (pâtisserie japonaise au haricot rouge azuki)",
+          "price": 7.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-glace-au-the-vert",
+          "name": "Glace au thé vert",
+          "price": 7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "izumi-glace-au-sesame",
+          "name": "Glace au sésame",
+          "price": 7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "unknown",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "unknown",
+            "celeri": "unknown",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "unknown",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    }
+  ]
+}

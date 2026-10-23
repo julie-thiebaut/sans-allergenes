@@ -29224,5 +29224,115 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 77 18 39 16"
+  },
+  {
+    "id": "bo-bun-flandre-75019",
+    "name": "Bo Bun Flandre",
+    "slug": "bo-bun-flandre-75019",
+    "address": "133 avenue de Flandre",
+    "postalCode": "75019",
+    "city": "Paris",
+    "latitude": 48.892195099999995,
+    "longitude": 2.3783094,
+    "cuisineTypes": ["Vietnamienne", "Asiatique"],
+    "description": "Restaurant vietnamien : bò bún, phở au bouillon mijoté, raviolis faits maison et spécialités chinoises et thaïes.",
+    "websiteUrl": "https://bobunflandre.com/",
+    "vegetarianOptions": true,
+    "veganOptions": false,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
+    "source": {
+      "label": "Bo Bun Flandre : allergènes indiqués plat par plat sur la carte du site",
+      "url": "https://bobunflandre.com/la-carte",
+      "kind": "published"
+    },
+    "menuId": "menu-bo-bun-flandre",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Bo Bun Flandre semblent comporter des erreurs : elles ne déclarent ni les œufs des pâtes de riz et riz sautés, de l'omelette, des tofus aux œufs, du velouté au bœuf et œuf, du potage pékinois et des crevettes façon Loc Lac, ni les crustacés et mollusques des plats aux fruits de mer, ni les crustacés des assortiments aux crevettes, des raviolis trois délices et à la crevette entière, ni les mollusques des raviolis au calmar et à la seiche, des moules et des saint-jacques, ni le poisson, les crustacés et les mollusques de la soupe de riz Phnom-Penh, ni les arachides du poulet à l'impérial, ni le sésame du poulet à la sauce pimentée, ni le gluten des mini brioches au porc, ni le céleri des crevettes sautées en marmite.",
+    "imageUrl": "https://bobunflandre.com/images/salle_vide.webp",
+    "phone": "01 40 36 89 92"
+  },
+  {
+    "id": "lucien-maison-tunisienne-75011",
+    "name": "Lucien Maison Tunisienne",
+    "slug": "lucien-maison-tunisienne-75011",
+    "address": "40 rue des Boulets",
+    "postalCode": "75011",
+    "city": "Paris",
+    "latitude": 48.851897699999995,
+    "longitude": 2.3894149,
+    "cuisineTypes": ["Tunisienne", "Casher"],
+    "description": "Maison tunisienne casher : couscous à la semoule roulée à la main, bricks, shakshuka et cuisine de famille.",
+    "websiteUrl": "https://restaurant-lucien.fr/",
+    "vegetarianOptions": true,
+    "veganOptions": false,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
+    "source": {
+      "label": "Lucien : allergènes indiqués plat par plat sur le menu du site",
+      "url": "https://restaurant-lucien.fr/menu",
+      "kind": "published"
+    },
+    "menuId": "menu-lucien",
+    "imageUrl": "https://restaurant-lucien.fr/photos/lucien-01.jpg",
+    "phone": "01 88 61 43 47",
+    "contact": {
+      "email": "contact@restaurant-lucien.fr",
+      "scope": "restaurant"
+    }
+  },
+  {
+    "id": "l-oenovice-75011",
+    "name": "L'OenoVice",
+    "slug": "l-oenovice-75011",
+    "address": "33 rue de Crussol",
+    "postalCode": "75011",
+    "city": "Paris",
+    "latitude": 48.8647151,
+    "longitude": 2.3696946,
+    "cuisineTypes": ["Bistrot", "Bar à vins"],
+    "description": "Bistrot à vins : planches de charcuteries et de fromages, tapas maison et dégustations de vins et fromages.",
+    "websiteUrl": "https://www.loenovice.com/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
+    "source": {
+      "label": "L'OenoVice : allergènes indiqués plat par plat sur la carte du site",
+      "url": "https://www.loenovice.com/menus-carte/",
+      "kind": "published"
+    },
+    "menuId": "menu-l-oenovice-75011",
+    "imageUrl": "https://ugc.zenchef.com/3/7/2/6/9/1/1/5/5/0/7/3/1/1737654337_404/9c369b1a03dffdc27ccafe01d63c4de3.website.jpg",
+    "phone": "06 30 81 26 31"
+  },
+  {
+    "id": "le-bar-a-sushi-izumi-75008",
+    "name": "Le Bar à sushi Izumi",
+    "slug": "le-bar-a-sushi-izumi-75008",
+    "address": "55 boulevard des Batignolles",
+    "postalCode": "75008",
+    "city": "Paris",
+    "latitude": 48.881394799999995,
+    "longitude": 2.3182985,
+    "cuisineTypes": ["Japonaise", "Sushi"],
+    "description": "Bar à sushi ouvert en 2011 : le chef y travaille des poissons extra-frais dans la pure tradition japonaise.",
+    "websiteUrl": "https://www.lebarasushi.com/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
+    "source": {
+      "label": "Le Bar à sushi Izumi : tableau des allergènes de la page d'accueil du site",
+      "url": "https://www.lebarasushi.com/",
+      "kind": "published"
+    },
+    "menuId": "menu-izumi",
+    "allergenCoverageNotice": "Les informations allergènes publiées par le Bar à sushi Izumi ne couvrent pas les éléments suivants : les sushis et temakis à la pièce, le chirashi mixte, l'edamame, le carpaccio de bar, la seiche au natto, le gunkan à la chair de crabe, les makis à l'anguille, au concombre et à la prune salée, et le bol de riz. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter des erreurs : elles ne déclarent pas le sésame du tartare de saumon à l'huile de sésame ni de la glace au sésame. Ces informations ne portent que sur dix des quatorze allergènes : ni les arachides, ni les fruits à coque, ni le céleri, ni les sulfites n'y figurent.",
+    "imageUrl": "https://www.lebarasushi.com/images/lebarasushi/facadeIzumi0417.jpg",
+    "phone": "01 45 22 43 55",
+    "contact": {
+      "email": "lebarasushi@gmail.com",
+      "scope": "restaurant"
+    }
   }
 ]
