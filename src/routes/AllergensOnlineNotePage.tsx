@@ -21,6 +21,8 @@ const LINK_CLASS =
  * signed. The census figures come from the import repository's August audit
  * (docs/audit-exhaustif-sites-2026-08-10.md: 8 023 sites, 820 unreadable, 6 874 without
  * anything found, so 7 203 examined); the published ones from public/data on 8 October 2026.
+ * The October retry of the 820 (tmp/all-sites-audit-retry-2026-10 in the import repository):
+ * 208 read, 189 of them with nothing found, 307 domains gone; hence 7 411 and 7 063.
  */
 
 function Section({ id, title, children }: { id: string; title: string; children: ReactNode }) {
@@ -227,6 +229,12 @@ export function AllergensOnlineNotePage() {
                   bloquaient la lecture automatique.
                 </li>
               </ul>
+              <p>
+                En octobre 2026, j’ai relancé la recherche sur ces 820 sites : 208 ont pu être
+                examinés, et 307 n’existent plus. Au total, 7&nbsp;411 sites ont donc été examinés,
+                dont 7&nbsp;063 sans aucune information trouvée reliant les plats proposés à leurs
+                allergènes.
+              </p>
               <p>
                 Plus de 95&nbsp;% des sites examinés ne présentaient aucune information trouvée
                 reliant les plats proposés à leurs allergènes.
