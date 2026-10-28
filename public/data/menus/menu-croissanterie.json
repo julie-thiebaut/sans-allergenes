@@ -6,6 +6,132 @@
       "category": "Croissants Signatures",
       "dishes": [
         {
+          "id": "croissanterie-croissant-jambon-bechamel",
+          "name": "Croissant Jambon Béchamel",
+          "description": "Croissant, béchamel, jambon de Paris, emmental, muscade.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-croissant-boeuf-pepper-cheddar",
+          "name": "Croissant Bœuf Pepper Cheddar",
+          "description": "Croissant, effiloché de bœuf, sauce au poivre, cheddar, salade, oignons frits.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-croissant-cookie-cream",
+          "name": "Croissant Cookie & Cream",
+          "description": "Croissant, pâte à tartiner cookies & cream, Oreo®.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-croissant-caramel-pecan",
+          "name": "Croissant Caramel Pecan",
+          "description": "Croissant, sauce caramel au beurre salé, noix de pécan.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-croissant-poulet-crispy-bbq",
+          "name": "Croissant Poulet Crispy BBQ",
+          "description": "Croissant, aiguillettes de poulet pané, cheddar, lard fumé, salade, sauce BBQ, sauce piment d'Espelette, oignons frits.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-croissant-octobre-rose",
+          "name": "Croissant Octobre Rose",
+          "description": "Croissant, confiture framboise, éclats de framboises. Pour chaque croissant, 0,50 € reversés à l'association SKIN.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "croissanterie-croissant-gourmand-nutella",
           "name": "Croissant Gourmand Nutella®",
           "description": "Croissant garni au Nutella®, noisette.",
@@ -48,27 +174,6 @@
           }
         },
         {
-          "id": "croissanterie-croissant-gourmand-speculoos",
-          "name": "Croissant Gourmand Spéculoos",
-          "description": "Croissant, pâte à tartiner spéculoos, spéculoos.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "croissanterie-croissant-gourmand-pistache",
           "name": "Croissant Gourmand Pistache",
           "description": "Croissant, pâte à tartiner pistache, pistaches.",
@@ -83,48 +188,6 @@
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-croissant-gourmand-framboise",
-          "name": "Croissant Gourmand Framboise",
-          "description": "Croissant, confiture framboise, éclats de framboises.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-croissant-jambon-emmental",
-          "name": "Croissant Jambon Emmental",
-          "description": "Croissant, jambon de Paris, emmental, salade, cream cheese, moutarde à l'ancienne.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -151,30 +214,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "croissanterie-croissant-caprese",
-          "name": "Croissant Caprese",
-          "description": "Croissant, mozzarella fior di latte, tomates, roquette, cream cheese, pesto rouge.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
@@ -182,9 +221,9 @@
       "category": "Sandwichs",
       "dishes": [
         {
-          "id": "croissanterie-sandwich-bun-poulet-curry",
-          "name": "Sandwich Bun Poulet Curry",
-          "description": "Bun brioché, effiloché de poulet français, tomates, roquette, sauce curry, pickles de concombre, oignons frits.",
+          "id": "croissanterie-toaste-dinde-fumee",
+          "name": "Toasté Dinde Fumée",
+          "description": "Pain ciabatta, blanc de dinde fumée, béchamel, pesto, tomate marinée.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -203,9 +242,99 @@
           }
         },
         {
-          "id": "croissanterie-sandwich-bun-pulled-pork",
-          "name": "Sandwich Bun Pulled Pork",
-          "description": "Bun brioché, effiloché de porc BBQ français, cheddar, jalapeños, roquette, crème de poivrons rouges, sauce piment d'Espelette.",
+          "id": "croissanterie-toaste-4-fromages",
+          "name": "Toasté 4 Fromages",
+          "description": "Pain ciabatta, mozzarella, mascarpone et gorgonzola, chèvre, crème fraîche.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-toaste-savoyard",
+          "name": "Toasté Savoyard",
+          "description": "Pain ciabatta, coppa, raclette, béchamel, oignons frits, muscade.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-sandwich-bun-fromage",
+          "name": "Sandwich Bun Fromage",
+          "description": "Bun brioché, crousti fromage, sauce aux 3 fromages, emmental français, salade, pickles d'oignons rouges.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-sandwich-baguette-poulet-crispy-cheddar-bbq",
+          "name": "Sandwich Baguette Poulet Crispy Cheddar BBQ",
+          "description": "Pain farine française, aiguillettes de poulet pané, cheddar, oignons frits, sauce BBQ.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-sandwich-bun-poulet-curry",
+          "name": "Sandwich Bun Poulet Curry",
+          "description": "Bun brioché, effiloché de poulet français, tomates, roquette, sauce curry, pickles de concombre, oignons frits.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -245,96 +374,6 @@
           }
         },
         {
-          "id": "croissanterie-sandwich-baguette-libanais",
-          "name": "Sandwich Baguette Libanais",
-          "description": "Pain farine française, falafels, roquette, concombre, légumes grillés, tzatziki, pickles d'oignons rouges, menthe.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-sandwich-baguette-poulet-crispy-cheddar",
-          "name": "Sandwich Baguette Poulet Crispy Cheddar",
-          "description": "Pain farine française, aiguillettes de poulet pané français, cheddar, oignons frits, sauce piment d'Espelette.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-panini-4-fromages",
-          "name": "Panini 4 fromages",
-          "description": "Pain panini, gorgonzola, chèvre, mozzarella, mascarpone.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-sandwich-baguette-toscan",
-          "name": "Sandwich Baguette Toscan",
-          "description": "Légumes grillés, coppa, mâche, pesto rouge, parmesan.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "present",
-            "mollusques": "present"
-          }
-        },
-        {
           "id": "croissanterie-american-hot-dog",
           "name": "American Hot Dog",
           "description": "Pain farine française, saucisse de Francfort, bacon fumé, emmental, sauce 3 fromages, sauce moutarde à l'ancienne.",
@@ -347,27 +386,6 @@
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-panini-new-delhi",
-          "name": "Panini New Delhi",
-          "description": "Pain panini farine française, effiloché de poulet français, tomate, chèvre, sauce curry.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
@@ -442,8 +460,119 @@
       ]
     },
     {
-      "category": "Bowls & Plats chauds",
+      "category": "Bowls",
       "dishes": [
+        {
+          "id": "croissanterie-risotto-champignon",
+          "name": "Risotto Champignon",
+          "description": "Risotto, champignons, parmesan AOP.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-poulet-tikka",
+          "name": "Poulet Tikka",
+          "description": "Riz, effiloché de poulet, sauce tikka, coriandre, amandes.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-poulet-krousti",
+          "name": "Poulet Krousti",
+          "description": "Riz, aiguillettes de poulet pané, fromage frais, sauce chili, oignons frits, flocons de poivrons.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-rigatoni-carbonara",
+          "name": "Rigatoni Carbonara",
+          "description": "Rigatoni, sauce carbonara, parmesan AOP.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-bowl-lentilles-pommes-chevres",
+          "name": "Bowl Lentilles Pommes Chèvres",
+          "description": "Trio de lentilles, chèvre, pomme, roquette, pickles d'oignons rouges, miel, noix, persil.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
         {
           "id": "croissanterie-ravioli-ricotta-epinards",
           "name": "Ravioli Ricotta Epinards",
@@ -469,30 +598,35 @@
           }
         },
         {
-          "id": "croissanterie-fusilli-bolognaise",
-          "name": "Fusilli Bolognaise",
-          "description": "Fusilli, sauce bolognaise, parmesan AOP.",
+          "id": "croissanterie-bowl-crispy-caesar",
+          "name": "Bowl Crispy Caesar",
+          "description": "Salade, aiguillettes de poulet pané français, tomates, parmesan AOP, croûtons, œuf, sauce Caesar.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
-            "fruits_a_coque": "not_declared",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
+        }
+      ]
+    },
+    {
+      "category": "Snackings Salés",
+      "dishes": [
         {
-          "id": "croissanterie-bowl-falafel-mezze",
-          "name": "Bowl Falafel Mezze",
-          "description": "Taboulé, falafels, pois chiches, féta AOP, roquette, tomates marinées, concombre, tzatziki, bruschetta à la tomate.",
+          "id": "croissanterie-bretzel-cheddar",
+          "name": "Bretzel Cheddar",
+          "description": "Bretzel, cheddar.",
           "tags": [
             "vegetarien"
           ],
@@ -514,9 +648,12 @@
           }
         },
         {
-          "id": "croissanterie-bowl-coppa-pesto",
-          "name": "Bowl Coppa Pesto",
-          "description": "Fusilli, roquette, mozzarella, melon, coppa, tomates, pesto, olives, basilic.",
+          "id": "croissanterie-petite-salade-lentilles",
+          "name": "Petite Salade Lentilles",
+          "description": "Trio de lentilles, carottes jaunes, roquette, cream cheese, moutarde, oignons frits, ciboulette.",
+          "tags": [
+            "vegetarien"
+          ],
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -525,27 +662,27 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "croissanterie-bowl-nicois",
-          "name": "Bowl Niçois",
-          "description": "Boulgour, quinoa et légumes, thon, œufs, légumes grillés, concombre, tomates, olives, bruschetta à la tomate.",
+          "id": "croissanterie-pizza-jambon",
+          "name": "Pizza Jambon",
+          "description": "Pâte à pizza, sauce tomate, mozzarella, jambon de Paris, roquette.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
+            "soja": "present",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -556,9 +693,32 @@
           }
         },
         {
-          "id": "croissanterie-bowl-crispy-caesar",
-          "name": "Bowl Crispy Caesar",
-          "description": "Salade, aiguillettes de poulet pané français, tomates, parmesan AOP, croûtons, œuf, sauce Caesar.",
+          "id": "croissanterie-pizza-margherita",
+          "name": "Pizza Margherita",
+          "description": "Pâte à pizza, sauce tomate, mozzarella fior di latte, basilic.",
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-bretzel",
+          "name": "Bretzel",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -567,11 +727,53 @@
             "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-chips-herbes-de-provence",
+          "name": "Chips Herbes de Provence",
+          "description": "Chips aux herbes de Provence, cuites au chaudron.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "croissanterie-chips-classiques",
+          "name": "Chips Classiques",
+          "description": "Chips nature, cuites au chaudron.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -817,9 +1019,9 @@
       "category": "Desserts",
       "dishes": [
         {
-          "id": "croissanterie-fromage-blanc-fraise-selon-saison",
-          "name": "Fromage Blanc Fraise (selon saison)",
-          "description": "Verrine fruitée de l'été.",
+          "id": "croissanterie-fromage-blanc-miel-granola",
+          "name": "Fromage Blanc Miel Granola",
+          "description": "Fromage blanc, miel, granola, courge, cranberries.",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -838,72 +1040,9 @@
           }
         },
         {
-          "id": "croissanterie-muffin-coco-passion",
-          "name": "Muffin Coco Passion",
-          "description": "Muffin coco-passion, coulis de fruits exotiques.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-fromage-blanc-framboise-selon-saison",
-          "name": "Fromage Blanc Framboise (selon saison)",
-          "description": "Verrine fruitée de l'été.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-tartelette-framboise-selon-saison",
-          "name": "Tartelette Framboise (selon saison)",
-          "description": "Framboises, crème pâtissière, pistaches.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-fraise-melon-ou-melon",
-          "name": "Fraise / Melon ou Melon",
-          "description": "Fruit frais à croquer.",
+          "id": "croissanterie-salade-de-fruits",
+          "name": "Salade de Fruits",
+          "description": "Mangue, fruit du dragon, kiwi, cassis.",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -922,16 +1061,16 @@
           }
         },
         {
-          "id": "croissanterie-graines-de-chia-coco-mangue",
-          "name": "Graines de Chia Coco Mangue",
-          "description": "Graines de chia coco, mangue, coulis de fruits exotiques.",
+          "id": "croissanterie-fondant-chocolat",
+          "name": "Fondant Chocolat",
+          "description": "Fondant au chocolat.",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -943,21 +1082,22 @@
           }
         },
         {
-          "id": "croissanterie-maxi-cookie-chocolat-lait-noisette",
-          "name": "Maxi Cookie Chocolat Lait Noisette",
+          "id": "croissanterie-tartelette-noisette",
+          "name": "Tartelette Noisette",
+          "description": "Fond de tartelette, crème pâtissière noisette, Nutella®, noisettes.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -986,7 +1126,7 @@
         {
           "id": "croissanterie-muffin-chocolat",
           "name": "Muffin Chocolat",
-          "description": "Muffin double chocolat fourré au chocolat. Chocolat au lait, noisette.",
+          "description": "Muffin au chocolat, cœur coulant chocolat.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1089,27 +1229,6 @@
           }
         },
         {
-          "id": "croissanterie-tartelette-fraise-selon-saison",
-          "name": "Tartelette Fraise (selon saison)",
-          "description": "Fraises, crème pâtissière, pistaches.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "croissanterie-tarte-pistache-cranberries",
           "name": "Tarte Pistache Cranberries",
           "description": "Pâte à tarte à la poudre d'amandes, pistaches, cranberries, vanille.",
@@ -1175,60 +1294,11 @@
       ]
     },
     {
-      "category": "Snackings Salés",
+      "category": "Boissons Chaudes",
       "dishes": [
         {
-          "id": "croissanterie-pizza-jambon",
-          "name": "Pizza Jambon",
-          "description": "Pâte à pizza, sauce tomate, mozzarella, jambon de Paris, roquette.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-pizza-margherita",
-          "name": "Pizza Margherita",
-          "description": "Pâte à pizza, sauce tomate, mozzarella fior di latte, basilic.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-p-tite-salade-italienne",
-          "name": "P’tite Salade Italienne",
-          "description": "Roquette, tomates, melon, mozzarella fior di latte, olives, pesto.",
-          "tags": [
-            "vegetarien"
-          ],
+          "id": "croissanterie-latte-noisette",
+          "name": "Latte Noisette",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1246,121 +1316,6 @@
             "mollusques": "not_declared"
           }
         },
-        {
-          "id": "croissanterie-p-tite-salade-grecque",
-          "name": "P’tite Salade Grecque",
-          "description": "Féta AOP, concombre, tomates, tzatziki.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-pizza-3-fromages",
-          "name": "Pizza 3 fromages",
-          "description": "Pâte à pizza, crème fraîche, mascarpone, gorgonzola, mozzarella.",
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-bretzel",
-          "name": "Bretzel",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-chips-herbes-de-provence",
-          "name": "Chips Herbes de Provence",
-          "description": "Chips aux herbes de Provence, cuites au chaudron.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "croissanterie-chips-classiques",
-          "name": "Chips Classiques",
-          "description": "Chips nature, cuites au chaudron.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Boissons Chaudes",
-      "dishes": [
         {
           "id": "croissanterie-latte-pistache",
           "name": "Latte Pistache",
@@ -1647,26 +1602,6 @@
           }
         },
         {
-          "id": "croissanterie-cafe-grand-cru-100-arabica",
-          "name": "Café Grand Cru 100% Arabica",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "croissanterie-cafe-noisette",
           "name": "Café Noisette",
           "allergens": {
@@ -1689,31 +1624,6 @@
         {
           "id": "croissanterie-cafe-expresso",
           "name": "Café Expresso",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Boissons Fraîches",
-      "dishes": [
-        {
-          "id": "croissanterie-jus-d-orange-presse-25cl",
-          "name": "Jus d’Orange Pressé 25cl",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",

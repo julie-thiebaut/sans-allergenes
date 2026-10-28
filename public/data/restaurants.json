@@ -5602,7 +5602,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5610,12 +5610,12 @@
     },
     "phone": "01 83 75 99 77",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5638,7 +5638,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5646,13 +5646,13 @@
     },
     "phone": "01 42 86 92 82",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/01/lc-halles.jpg",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5675,7 +5675,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5683,13 +5683,13 @@
     },
     "phone": "06 20 30 68 91",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/05/Invalides1.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5712,7 +5712,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5720,13 +5720,13 @@
     },
     "phone": "06 29 90 38 98",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/05/CDGetoile1.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5749,7 +5749,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5757,13 +5757,13 @@
     },
     "phone": "01 40 07 16 78",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds. Dans la gare Saint-Lazare.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2023/05/1-1.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5786,7 +5786,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5794,13 +5794,13 @@
     },
     "phone": "01 40 06 01 99",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds. Dans la gare Saint-Lazare.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2023/05/1.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5823,7 +5823,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5831,13 +5831,13 @@
     },
     "phone": "06 13 34 86 28",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds. Dans la gare de Lyon.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/01/GaredeLyonHall1_2.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5860,7 +5860,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5868,13 +5868,13 @@
     },
     "phone": "06 14 51 71 97",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds. Dans la gare de Lyon.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/01/GaredeLyonH31.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5897,7 +5897,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5905,13 +5905,13 @@
     },
     "phone": "06 10 01 54 12",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2024/01/lc-montparnasse-2.jpg",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -5934,7 +5934,7 @@
     "vegetarianOptions": true,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "La Croissanterie : allergènes publiés sur chaque fiche produit",
       "url": "https://www.lacroissanterie.fr/carte-menus/",
@@ -5942,13 +5942,13 @@
     },
     "phone": "09 67 66 95 68",
     "menuId": "menu-croissanterie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas les fruits à coque de la noisette du muffin chocolat, ni sur sa fiche ni dans le PDF de l'enseigne.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par La Croissanterie semblent comporter une erreur : elles ne déclarent pas le lait du sandwich bun fromage (emmental, sauce aux 3 fromages) sur sa fiche, alors que le PDF de l'enseigne le déclare.",
     "description": "Sandwicherie-boulangerie née en 1977 : croissants signatures, sandwichs et plats chauds.",
     "imageUrl": "https://www.lacroissanterie.fr/wp-content/uploads/2023/05/M181001_E1.png",
     "additionalSources": [
       {
         "label": "La Croissanterie : fiche allergènes PDF de l'enseigne",
-        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/05/Allergenes-LC-PE26-_CC_CV-PE-2026-20.04.pdf",
+        "url": "https://www.lacroissanterie.fr/wp-content/uploads/2026/10/Allergenes-LC-_CC_CV-AH-2026-2209.pdf",
         "kind": "published"
       }
     ],
@@ -8244,7 +8244,7 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Maison Pradier : allergènes publiés sur chaque fiche produit de la carte en ligne",
       "url": "https://www.maison-pradier.fr/fr/notre-carte/",
@@ -8252,7 +8252,7 @@
     },
     "phone": "01 89 40 54 08",
     "menuId": "menu-maison-pradier",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten des feuilletés cabécou et tartiflette (pâte feuilletée), du sandwich poulet César, du toasté champignon comté moutarde, du bretzel crevette, des petits céréales cabécou et poulet, du pain baguette poulet moutarde, du pain céréales truite des Pyrénées, des rigatoni saumon, des coquillettes jambon truffe, de la verrine boulgour crevette et du plateau L'Authentique (petits pains), ni le lait des feuilletés (cabécou, reblochon), du sandwich poulet César (parmesan), du toasté champignon comté moutarde (comté, beurre), du bretzel crevette, de la salade bol lentille et de la verrine quinoa (cream cheese), du petit céréales cabécou (chèvre), du bretzel jambon comté, du risotto champignon (parmesan), des coquillettes (emmental), des onctueux fromage blanc et muesli, du cookie chocolat au lait et noisette, des coffrets de rochers et de palets (chocolat au lait) et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson des rigatoni saumon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les crustacés du bretzel crevette et de la verrine boulgour crevette, ni les œufs du sandwich poulet César (œuf dur) et des plateaux L'Audacieuse et La Pimpante (œuf mimosa), ni la moutarde du toasté champignon comté moutarde et de ces deux plateaux (poulet moutarde), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du petit céréales cabécou (noix), des cookies caramel pécan et chocolat au lait et noisette, du chou'rprise et de l'onctueux trois noisettes, du coffret de rochers (praliné noisettes, amandes) et du plateau La Pimpante (noix).",
     "description": "Boulangerie-pâtisserie depuis 1859 : sandwichs, quiches, plats chauds et macarons. Une boutique avec salle.",
     "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Kleber-1.jpg",
     "contact": {
@@ -8274,7 +8274,7 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Maison Pradier : allergènes publiés sur chaque fiche produit de la carte en ligne",
       "url": "https://www.maison-pradier.fr/fr/notre-carte/",
@@ -8282,7 +8282,7 @@
     },
     "phone": "01 44 89 27 03",
     "menuId": "menu-maison-pradier",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten des feuilletés cabécou et tartiflette (pâte feuilletée), du sandwich poulet César, du toasté champignon comté moutarde, du bretzel crevette, des petits céréales cabécou et poulet, du pain baguette poulet moutarde, du pain céréales truite des Pyrénées, des rigatoni saumon, des coquillettes jambon truffe, de la verrine boulgour crevette et du plateau L'Authentique (petits pains), ni le lait des feuilletés (cabécou, reblochon), du sandwich poulet César (parmesan), du toasté champignon comté moutarde (comté, beurre), du bretzel crevette, de la salade bol lentille et de la verrine quinoa (cream cheese), du petit céréales cabécou (chèvre), du bretzel jambon comté, du risotto champignon (parmesan), des coquillettes (emmental), des onctueux fromage blanc et muesli, du cookie chocolat au lait et noisette, des coffrets de rochers et de palets (chocolat au lait) et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson des rigatoni saumon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les crustacés du bretzel crevette et de la verrine boulgour crevette, ni les œufs du sandwich poulet César (œuf dur) et des plateaux L'Audacieuse et La Pimpante (œuf mimosa), ni la moutarde du toasté champignon comté moutarde et de ces deux plateaux (poulet moutarde), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du petit céréales cabécou (noix), des cookies caramel pécan et chocolat au lait et noisette, du chou'rprise et de l'onctueux trois noisettes, du coffret de rochers (praliné noisettes, amandes) et du plateau La Pimpante (noix).",
     "description": "Boulangerie-pâtisserie depuis 1859 : sandwichs, quiches, plats chauds et macarons. Dans la gare de l'Est, à emporter.",
     "imageUrl": "https://www.maison-pradier.fr/app/uploads/2024/06/Gare-de-lest-2.jpg",
     "contact": {
@@ -8304,7 +8304,7 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Maison Pradier : allergènes publiés sur chaque fiche produit de la carte en ligne",
       "url": "https://www.maison-pradier.fr/fr/notre-carte/",
@@ -8312,7 +8312,7 @@
     },
     "phone": "01 83 96 36 57",
     "menuId": "menu-maison-pradier",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten des feuilletés cabécou et tartiflette (pâte feuilletée), du sandwich poulet César, du toasté champignon comté moutarde, du bretzel crevette, des petits céréales cabécou et poulet, du pain baguette poulet moutarde, du pain céréales truite des Pyrénées, des rigatoni saumon, des coquillettes jambon truffe, de la verrine boulgour crevette et du plateau L'Authentique (petits pains), ni le lait des feuilletés (cabécou, reblochon), du sandwich poulet César (parmesan), du toasté champignon comté moutarde (comté, beurre), du bretzel crevette, de la salade bol lentille et de la verrine quinoa (cream cheese), du petit céréales cabécou (chèvre), du bretzel jambon comté, du risotto champignon (parmesan), des coquillettes (emmental), des onctueux fromage blanc et muesli, du cookie chocolat au lait et noisette, des coffrets de rochers et de palets (chocolat au lait) et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson des rigatoni saumon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les crustacés du bretzel crevette et de la verrine boulgour crevette, ni les œufs du sandwich poulet César (œuf dur) et des plateaux L'Audacieuse et La Pimpante (œuf mimosa), ni la moutarde du toasté champignon comté moutarde et de ces deux plateaux (poulet moutarde), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du petit céréales cabécou (noix), des cookies caramel pécan et chocolat au lait et noisette, du chou'rprise et de l'onctueux trois noisettes, du coffret de rochers (praliné noisettes, amandes) et du plateau La Pimpante (noix).",
     "description": "Boulangerie-pâtisserie depuis 1859 : sandwichs, quiches, plats chauds et macarons. Dans la gare de Lyon, à emporter.",
     "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-gare-de-lyon-1-scaled.jpg",
     "contact": {
@@ -8334,7 +8334,7 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Maison Pradier : allergènes publiés sur chaque fiche produit de la carte en ligne",
       "url": "https://www.maison-pradier.fr/fr/notre-carte/",
@@ -8342,7 +8342,7 @@
     },
     "phone": "01 86 25 19 51",
     "menuId": "menu-maison-pradier",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten des feuilletés cabécou et tartiflette (pâte feuilletée), du sandwich poulet César, du toasté champignon comté moutarde, du bretzel crevette, des petits céréales cabécou et poulet, du pain baguette poulet moutarde, du pain céréales truite des Pyrénées, des rigatoni saumon, des coquillettes jambon truffe, de la verrine boulgour crevette et du plateau L'Authentique (petits pains), ni le lait des feuilletés (cabécou, reblochon), du sandwich poulet César (parmesan), du toasté champignon comté moutarde (comté, beurre), du bretzel crevette, de la salade bol lentille et de la verrine quinoa (cream cheese), du petit céréales cabécou (chèvre), du bretzel jambon comté, du risotto champignon (parmesan), des coquillettes (emmental), des onctueux fromage blanc et muesli, du cookie chocolat au lait et noisette, des coffrets de rochers et de palets (chocolat au lait) et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson des rigatoni saumon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les crustacés du bretzel crevette et de la verrine boulgour crevette, ni les œufs du sandwich poulet César (œuf dur) et des plateaux L'Audacieuse et La Pimpante (œuf mimosa), ni la moutarde du toasté champignon comté moutarde et de ces deux plateaux (poulet moutarde), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du petit céréales cabécou (noix), des cookies caramel pécan et chocolat au lait et noisette, du chou'rprise et de l'onctueux trois noisettes, du coffret de rochers (praliné noisettes, amandes) et du plateau La Pimpante (noix).",
     "description": "Boulangerie-pâtisserie depuis 1859 : sandwichs, quiches, plats chauds et macarons. Dans la gare Montparnasse, à emporter.",
     "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-quai-1.jpg",
     "contact": {
@@ -8364,7 +8364,7 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Maison Pradier : allergènes publiés sur chaque fiche produit de la carte en ligne",
       "url": "https://www.maison-pradier.fr/fr/notre-carte/",
@@ -8372,7 +8372,7 @@
     },
     "phone": "01 81 70 88 76",
     "menuId": "menu-maison-pradier",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten du pain baguette poulet moutarde, du pain céréales truite des Pyrénées et du plateau L'Authentique (petits pains), ni le lait du fidèle bretzel jambon comté, du petit céréales crémeux de thon (fromage frais), de la salade verrine conchiglie (cream cheese), des onctueux muesli et fromage blanc et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson du petit céréales crémeux de thon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du cookie caramel pécan et du plateau La Pimpante (noix), ni les œufs et la moutarde des plateaux L'Audacieuse et La Pimpante (œuf mimosa, poulet moutarde).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Maison Pradier semblent comporter des erreurs : elles ne déclarent ni le gluten des feuilletés cabécou et tartiflette (pâte feuilletée), du sandwich poulet César, du toasté champignon comté moutarde, du bretzel crevette, des petits céréales cabécou et poulet, du pain baguette poulet moutarde, du pain céréales truite des Pyrénées, des rigatoni saumon, des coquillettes jambon truffe, de la verrine boulgour crevette et du plateau L'Authentique (petits pains), ni le lait des feuilletés (cabécou, reblochon), du sandwich poulet César (parmesan), du toasté champignon comté moutarde (comté, beurre), du bretzel crevette, de la salade bol lentille et de la verrine quinoa (cream cheese), du petit céréales cabécou (chèvre), du bretzel jambon comté, du risotto champignon (parmesan), des coquillettes (emmental), des onctueux fromage blanc et muesli, du cookie chocolat au lait et noisette, des coffrets de rochers et de palets (chocolat au lait) et des plateaux L'Audacieuse, La Pimpante et La Fruitée (comté, chèvre, fromage blanc), ni le poisson des rigatoni saumon et des plateaux L'Authentique et La Pimpante (thon, truite), ni les crustacés du bretzel crevette et de la verrine boulgour crevette, ni les œufs du sandwich poulet César (œuf dur) et des plateaux L'Audacieuse et La Pimpante (œuf mimosa), ni la moutarde du toasté champignon comté moutarde et de ces deux plateaux (poulet moutarde), ni les fruits à coque des snacks Pierrot Gourmand (noisettes, amandes), du petit céréales cabécou (noix), des cookies caramel pécan et chocolat au lait et noisette, du chou'rprise et de l'onctueux trois noisettes, du coffret de rochers (praliné noisettes, amandes) et du plateau La Pimpante (noix).",
     "description": "Boulangerie-pâtisserie depuis 1859 : sandwichs, quiches, plats chauds et macarons. Dans la gare Montparnasse, à emporter.",
     "imageUrl": "https://www.maison-pradier.fr/app/uploads/2022/09/maison-pradier-montparnasse-niveau-2-1.jpg",
     "contact": {
@@ -8953,14 +8953,14 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-29T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Restaurant Publisher : allergènes indiqués plat par plat sur la carte du site",
       "url": "https://www.restaurantpublisher.fr/menus-carte/",
       "kind": "published"
     },
     "menuId": "menu-restaurant-publisher-75008",
-    "allergenCoverageNotice": "Les informations allergènes publiées par le Publisher semblent comporter des erreurs : elles ne déclarent ni les mollusques des Saint-Jacques, ni le lait du cheddar du bacon burger, ni les fruits à coque des noisettes du filet de daurade, ni le poisson de la poutargue du tartare de veau.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par le Publisher semblent comporter des erreurs : elles ne déclarent ni les mollusques des Saint-Jacques, ni le lait du cheddar du bacon burger, ni le céleri de la purée de céleri du filet de daurade.",
     "imageUrl": "https://www.restaurantpublisher.fr/i/restaurant-publisher/3/7/5/2/9/6/1/5/6/0/9/4/7/1760380257_416/021c1fab7d6a3f5eb8d05ef3b35c06de.small_original.jpg",
     "phone": "09 84 01 74 47"
   },
@@ -9066,32 +9066,6 @@
     "menuId": "menu-le-p-tit-troquet-75007",
     "imageUrl": "https://www.leptittroquet.fr/i/le-p-tit-troquet/3/4/8/4/7/1/1/5/0/2/6/0/3/1717574629_188/76020770b128084bff17bbb088a48957.small_original.jpg",
     "phone": "01 47 05 80 39"
-  },
-  {
-    "id": "papilles-75009",
-    "name": "Papilles",
-    "slug": "papilles-75009",
-    "address": "77 rue Marguerite de Rochechouart",
-    "postalCode": "75009",
-    "city": "Paris",
-    "latitude": 48.8816547,
-    "longitude": 2.3464509,
-    "cuisineTypes": ["Brunch", "Coffee shop"],
-    "description": "Coffeehouse et brunch fait maison : pancakes, œufs, toasts et sandwichs toute la journée, café de spécialité.",
-    "websiteUrl": "http://www.papilles-restaurant.com/",
-    "vegetarianOptions": true,
-    "veganOptions": true,
-    "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
-    "source": {
-      "label": "Papilles : allergènes indiqués plat par plat sur la carte du site",
-      "url": "https://www.papilles-restaurant.com/menus-carte/",
-      "kind": "published"
-    },
-    "menuId": "menu-papilles-75009",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Papilles semblent comporter des erreurs : elles ne déclarent ni le lait du croissant au beurre, ni les fruits à coque des pancakes Passion Pecan (noix de pécan), ni le lait et les fruits à coque de leur version sans gluten (beurre salé, pécan), ni les œufs des Savory Pancakes sans gluten, du Breakfast Sandwich Bacon, de l'œuf mollet et de l'œuf au plat, ni le gluten du Papilles Smorrebrod et des deux toasts avocat (pain), ni le gluten et le lait de la brioche poulet-aubergine (pain au lait), ni le poisson du saumon fumé, seul ou sur le toast, ni le lait de l'extra cheddar, ni la moutarde de la salade César, ni le sésame et le soja du cookie miso caramel sésame.",
-    "imageUrl": "https://www.papilles-restaurant.com/i/papilles-coffeehouse-restaurant-papilles/uploaded-files/354175/albums/creating/bAf8QRkNou2zYqIKEUxindlpvduPCYhT5sHxXeO2.website.jpg",
-    "phone": "01 40 35 80 35"
   },
   {
     "id": "le-brandevin-75016",
@@ -9261,14 +9235,14 @@
     "vegetarianOptions": true,
     "veganOptions": true,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Slow : allergènes indiqués plat par plat sur la carte du site",
       "url": "https://www.slowfamily.fr/menus-carte/",
       "kind": "published"
     },
     "menuId": "menu-slow-75014",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Slow semblent comporter une erreur : elles ne déclarent pas le soja du tartare à la thaï (edamame, tamari).",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Slow semblent comporter une erreur : elles ne déclarent pas le soja du steak de chou-fleur sauce tigre (tamari).",
     "imageUrl": "https://www.slowfamily.fr/i/slow/3/6/6/5/7/4/1/5/2/1/3/2/9/1747409491_236/2e43e86c59d067a856eb71ea061827ea.small_original.jpg",
     "phone": "01 40 47 56 81"
   },
@@ -9341,14 +9315,14 @@
     "vegetarianOptions": false,
     "veganOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-10-02T00:00:00Z",
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
     "source": {
       "label": "Le bon, la butte : allergènes indiqués plat par plat sur la carte du site",
       "url": "https://www.lebonlabutte.fr/menus-carte/",
       "kind": "published"
     },
     "menuId": "menu-le-bon-la-butte-75018",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Le bon, la butte semblent comporter des erreurs : elles ne déclarent ni le poisson de la bouillabaisse de rascasse, ni les mollusques de l'aïoli de poulpe, ni le lait des tomates-burrata, de la mousse de camembert et des fromages.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Le bon, la butte ne couvrent pas l'élément suivant : les cannellonis de brousse corse. Il n'est donc pas repris sur ce site. Les informations publiées semblent également comporter des erreurs : elles ne déclarent ni le poisson de la bouillabaisse de rascasse, ni les mollusques de l'aïoli de poulpe, ni le lait des tomates-burrata, de la mousse de camembert et des fromages.",
     "imageUrl": "https://ugc.zenchef.com/3/5/1/8/8/4/1/5/0/3/4/8/8/1540468753_374/0e969d42b7480a38b8e72334476e3a58.website.jpg",
     "phone": "09 70 93 55 52"
   },

@@ -6,18 +6,18 @@
       "category": "Entrées",
       "dishes": [
         {
-          "id": "zenchef-1348373-ajo-blanco",
-          "name": "Ajo blanco",
-          "price": 9,
+          "id": "zenchef-1348373-veloute-de-butternut",
+          "name": "Velouté de butternut",
+          "price": 8,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "not_declared",
             "lait": "not_declared",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -25,7 +25,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Délicieux gaspacho blanc fait d’amandes, vinaigre de Xérès, pain sans gluten, pointe de tabasco, servi avec une huile verte et ses raisins.",
+          "description": "Velouté réconfortant de butternut, cacahuètes et lait de coco, pointe de gingembre et citron, oignons frits, huile de cacahuète.",
           "tags": [
             "vegan"
           ]
@@ -44,28 +44,28 @@
             "lait": "not_declared",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Poireau rôti, vinaigrette framboise et basilic thaï, mimosa de tofu au kalak malak, noisettes torréfiées.",
+          "description": "Poireau rôti, vinaigrette à la betterave, mimosa de tofu au kalak malak et curcuma, noisettes torréfiées.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1252537-karaage-de-pleurotes",
-          "name": "Karaage de pleurotes",
-          "price": 10,
+          "id": "zenchef-1252537-beignets-de-chou-fleur",
+          "name": "Beignets de chou fleur",
+          "price": 9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -75,7 +75,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "L’automne annonce le retour des champignons et celui de nos karaage de pleurotes frites au paprika et cumin, servies avec un ketchup de tomates et betterave.",
+          "description": "De délicieux beignets de chou fleurs frits aux épices, servi avec crème au tofu soyeux, herbes fraîches et yuzu.",
           "tags": [
             "vegan"
           ]
@@ -105,14 +105,39 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Quinoa dans une crème gourmande aux pleurotes, shiitake et champignons de Paris, filet végétal à base de protéine de pois chiche, dés de butternut, tomates cerises et noisettes torréfiées.",
+          "description": "Quinoa à la crème forestière de shiitake et champignons de Paris, filet végétal à base de protéine de pois chiches, brunoise de butternut, noisettes torréfiées, pickles de shimeji et nori.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1252535-tartare-a-la-thai",
-          "name": "Tartare à la thaï",
+          "id": "zenchef-1252535-bourguignon-de-legumes",
+          "name": "Bourguignon de légumes",
+          "price": 18,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Revisité certes mais tout aussi réconfortant que l’original ! avec du tofu fumé, carottes, navet, pleurotes mijotés au vin rouge, accompagné d’un écrasé de pomme de terre gourmand et ses figues de saison.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252536-steak-de-chou-fleur-sauce-tigre",
+          "name": "Steak de chou fleur sauce tigre",
           "price": 16.5,
           "allergens": {
             "gluten": "not_declared",
@@ -125,44 +150,19 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Tartare de champignons eryngii, courgettes et edamame marinés dans une sauce parfumée à la thaï, huile de sésame, tamari, beurre de cacahuète, coriandre, gingembre et basilic thaï, accompagné de ses frites de patates douces et de son ketchup de betterave.",
-          "tags": [
-            "vegan"
-          ]
-        },
-        {
-          "id": "zenchef-1252536-tigre-qui-pleure-revisite",
-          "name": "Tigre qui pleure revisité",
-          "price": 18,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Tian de courgette ronde et de tofu fumé dans une sauce parfumée façon tigre qui pleure faite de tamari, gingembre, citronnelle servi avec une salade d’haricots verts et de pommes grenailles, vierge, ricotta de tofu et figues.",
+          "description": "Chou fleur rôti avec une sauce parfumée à base de tamari, citronnelle, gingembre et basilic thaï, façon tigre qui pleure, pois chiche grillés aux épices et cacahuètes, servi avec une délicieuse purée de maïs et ses pickles d’oignon rouge.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1252538-aubergine-facon-natin",
-          "name": "Aubergine façon natin",
+          "id": "zenchef-1252538-mapo-tofu-revisite",
+          "name": "Mapo tofu revisité",
           "price": 17,
           "allergens": {
             "gluten": "not_declared",
@@ -180,32 +180,32 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Chili sin carne légèrement épicé d’haricots rouges, oignons, poivrons, carottes, maïs, protéine de soja dans une aubergine rôtie, riz blanc parfumé, sauce lait de coco citron vert, pointe de gochujang agave et chips de racine de lotus.",
+          "description": "Un classique de la cuisine sichuanaise, avec du tofu frit et ses légumes dans une sauce façon mapo tofu légèrement relevée, avec un riz thaï au lait de coco citron vert, pak choi vapeur, chips de racine de lotus.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1303955-tataki-de-bonite",
-          "name": "Tataki de bonite",
+          "id": "zenchef-1303955-maquereau-a-la-flamme",
+          "name": "Maquereau à la flamme",
           "price": 19,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Bonite (poisson) mi-cuit, mariné dans une sauce à la thaï faite d’huile de sésame, tamari, beurre de cacahuète, gingembre et herbes parfumées, ricotta de tofu, servi avec une salade de pommes grenailles et haricots verts sauce moutarde et miso, figues fraîches."
+          "description": "Filet de maquereau mariné au yuzu, saisi à la flamme, salade de lentilles beluga et carotte, crème au tofu soyeux et herbes, fenouil rôti et sauce vierge parfumée."
         }
       ]
     },
@@ -213,9 +213,9 @@
       "category": "Desserts",
       "dishes": [
         {
-          "id": "zenchef-1252539-panacotta-revisitee",
-          "name": "Panacotta revisitée",
-          "price": 10,
+          "id": "zenchef-1252539-figues-pochees",
+          "name": "Figues pochées",
+          "price": 12,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -232,7 +232,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Lait de coco infusée au yuzu, purée de poire yuzu, framboise et myrtille, graines de tournesol caramélisées.",
+          "description": "Figues pochées au jus de pomme et ses épices, siphon de crème végétale à la vanille, graines de courge caramélisées.",
           "tags": [
             "vegan"
           ]
@@ -263,9 +263,9 @@
           ]
         },
         {
-          "id": "zenchef-1276775-fiadone-tres-revisite",
-          "name": "Fiadone très revisité",
-          "price": 11,
+          "id": "zenchef-1276775-far-breton-revisite",
+          "name": "Far breton revisité",
+          "price": 10,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -282,7 +282,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Au citron vert, siphon aux agrumes et gingembre confit, coulis de fruit rouge et pistaches torréfiées.",
+          "description": "Far breton végétal au lait d’avoine, cœur fondant pomme & poire, caramel façon beurre salé, amandes effilées.",
           "tags": [
             "vegan"
           ]

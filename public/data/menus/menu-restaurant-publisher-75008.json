@@ -6,27 +6,6 @@
       "category": "Les entrées",
       "dishes": [
         {
-          "id": "zenchef-1469793-sashimi-de-thon-sauce-ponzu-sesame-noir",
-          "name": "Sashimi de thon, sauce ponzu, sesame noir",
-          "price": 16,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "zenchef-1379030-raviole-farci-au-boudin-noir-au-piment-d-espelette-consomme-",
           "name": "Raviole farci au boudin noir au piment d’espelette, consommé au volaille et chimichurri",
           "price": 15,
@@ -67,6 +46,27 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
+        },
+        {
+          "id": "zenchef-1469793-oeuf-en-meurette-lardon-champignon-grelots",
+          "name": "Œuf en meurette, lardon champignon, grelots",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         }
       ]
     },
@@ -95,14 +95,14 @@
           }
         },
         {
-          "id": "zenchef-1379045-filet-daurade-en-croute-de-noisettes-cremeux-d-epinards",
-          "name": "Filet daurade en croûte de noisettes, crémeux d’épinards,",
-          "price": 26,
+          "id": "zenchef-1379032-filet-de-canette-puree-de-topinambour-mini-carottes-jus-de-v",
+          "name": "Filet de canette, purée de topinambour, mini carottes, jus de viande",
+          "price": 29,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -116,59 +116,17 @@
           }
         },
         {
-          "id": "zenchef-1456979-tartare-de-daurade-mangue-avocat-grenade-salade-de-concombre",
-          "name": "Tartare de daurade, mangue, avocat, Grenade, salade de concombre et sesame, granité d’aneth",
-          "price": 27,
+          "id": "zenchef-1379045-filet-de-daurade-puree-de-celeri-salsifis-caramelises-giroll",
+          "name": "Filet de daurade, purée de céleri, salsifis caramélisés, girolles, huile de sarrasin",
+          "price": 29,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1379032-tartare-de-veau-haricots-blancs-poutargue-poudre-d-orange-fr",
-          "name": "Tartare de veau, haricots blancs, poutargue, poudre d’orange, frites maison",
-          "price": 28,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1379033-faux-filet-race-limousine-servi-avec-des-frites-et-bearnaise",
-          "name": "Faux filet race Limousine, servi avec des frites et béarnaise maison",
-          "price": 39,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
@@ -180,7 +138,7 @@
         },
         {
           "id": "zenchef-1379047-ris-de-veau-croustillant-puree-de-carottes-au-gingembre-pas-",
-          "name": "Ris de veau croustillant, purée de carottes au gingembre, pas choï, mis de champignon",
+          "name": "Ris de veau croustillant, purée de carottes au gingembre, pas choï, mix de champignon",
           "price": 41,
           "allergens": {
             "gluten": "not_declared",
