@@ -38,8 +38,10 @@ export function RestaurantDetailPage() {
 
   return (
     // Own scroll container: the app shell is viewport-height capped for the map/list split,
-    // so this ordinary long document has to scroll itself rather than the page.
-    <div className="mx-auto w-full max-w-3xl overflow-y-auto p-4">
+    // so this ordinary long document has to scroll itself rather than the page. `relative` keeps
+    // absolutely positioned descendants (sr-only text) inside it: otherwise they hang off the
+    // page at their place at the bottom of the menu and stretch it far below the footer.
+    <div className="relative mx-auto w-full max-w-3xl overflow-y-auto p-4">
       <Seo meta={meta} />
       <BackToMapPageLink />
       <RestaurantDetailView restaurant={restaurant} />
