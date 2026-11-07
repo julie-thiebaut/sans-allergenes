@@ -33,11 +33,12 @@ export type AllergenId = z.infer<typeof AllergenIdSchema>;
 export const AllergenStatusSchema = z.enum(["present", "may_contain", "not_declared", "unknown"]);
 export type AllergenStatus = z.infer<typeof AllergenStatusSchema>;
 
-// z.record with an enum key does NOT enforce that every key is present, only that any
+// z.partialRecord with an enum key does NOT enforce that every key is present, only that any
 // keys that ARE present are valid — hence the .refine() forcing all 14 allergens to be
-// declared per dish, so a missing key can never be silently mistaken for "no info".
+// declared per dish, so a missing key can never be silently mistaken for "no info", and is
+// reported with this message rather than a generic one.
 export const AllergenMapSchema = z
-  .record(AllergenIdSchema, AllergenStatusSchema)
+  .partialRecord(AllergenIdSchema, AllergenStatusSchema)
   .refine((map) => ALLERGEN_IDS.every((id) => id in map), {
     message: "All 14 EU allergens must have an explicit status for every dish",
   });
@@ -159,7 +160,7 @@ export const DishSchema = z.object({
   tags: z.array(DietTagSchema).optional(),
   description: z.string().optional(),
 });
-// Zod infers z.record(enumKey, value) as Partial<Record<...>> (it can't statically guarantee
+// Zod infers z.partialRecord(enumKey, value) as Partial<Record<...>> (it can't statically guarantee
 // every enum key is present, only validate the ones that are — that's exactly why the .refine()
 // above enforces it at runtime). Override the field here so the *type* matches what's actually
 // guaranteed once validation has run, instead of forcing `?? "unknown"` fallbacks everywhere

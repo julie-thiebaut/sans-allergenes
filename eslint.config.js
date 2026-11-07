@@ -28,6 +28,11 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      // React Compiler rules (react-hooks 7) at odds with deliberate patterns: MapPageMemory is
+      // a plain mutable object by design, and the address search clears its suggestions in the
+      // fetch effect. The project does not run the compiler.
+      "react-hooks/immutability": "off",
+      "react-hooks/set-state-in-effect": "off",
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     },
