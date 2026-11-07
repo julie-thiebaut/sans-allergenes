@@ -60,6 +60,15 @@ export function publishAllergensMailto(restaurant: Restaurant, email: string): s
   );
 }
 
+/** Le message préparé pour suggérer une ville que le site ne couvre pas encore : reste à la nommer. */
+export function requestAreaMailto(): string {
+  return mailto(
+    REPORT_EMAIL,
+    "Sans Allergènes dans une autre ville",
+    ["Bonjour,", "", "La ville que je suggère : "].join("\r\n"),
+  );
+}
+
 /** Le signalement reprend ce que les mentions légales demandent : la fiche, sa page, une source. */
 export function reportProblemMailto(restaurant: Restaurant): string {
   return mailto(

@@ -8,8 +8,10 @@ import { sameBounds, useMapPageMemory } from "../../state/MapPageMemoryContext";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import { SearchFilterBar } from "../filters/SearchFilterBar";
+import { isOutsideCoverage } from "../map/isOutsideCoverage";
 import { MapView } from "../map/MapView";
 import { mapBoundsToRestaurantIds } from "../map/mapBoundsToRestaurantIds";
+import { OutsideCoverageBanner } from "../map/OutsideCoverageBanner";
 import { mapBoundsCenter, sortRestaurantsByDistance } from "../map/sortRestaurantsByDistance";
 import { ResultCount } from "../restaurant-list/ResultCount";
 import { RestaurantList } from "../restaurant-list/RestaurantList";
@@ -63,6 +65,11 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
     return sortRestaurantsByDistance(visibleRestaurants, center);
   }, [filteredRestaurants, bounds]);
 
+  const outsideCoverage = useMemo(
+    () => bounds !== null && isOutsideCoverage(bounds, allRestaurants),
+    [allRestaurants, bounds],
+  );
+
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <div className="hidden md:block">
@@ -79,6 +86,9 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
       </div>
 
       <ResultCount count={visibleInList.length} />
+
+      {/* Above the two panes rather than in the list: on a phone the map view has no list. */}
+      {outsideCoverage && <OutsideCoverageBanner />}
 
       <div className="grid min-h-0 flex-1 md:grid-cols-[minmax(360px,1fr)_1.4fr]">
         {showList && (

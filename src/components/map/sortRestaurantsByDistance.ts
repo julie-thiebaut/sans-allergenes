@@ -19,7 +19,7 @@ export function mapBoundsCenter(bounds: MapBoundsLiteral): LatLngLiteral {
  * Haversine's intermediate value is monotonic with great-circle distance, so it can be used
  * directly for sorting without paying for the final asin/square-root conversion to metres.
  */
-function distanceScore(from: LatLngLiteral, to: LatLngLiteral): number {
+export function distanceScore(from: LatLngLiteral, to: LatLngLiteral): number {
   const fromLat = from.lat * DEGREES_TO_RADIANS;
   const toLat = to.lat * DEGREES_TO_RADIANS;
   const latitudeDelta = (to.lat - from.lat) * DEGREES_TO_RADIANS;

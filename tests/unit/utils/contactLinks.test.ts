@@ -2,12 +2,22 @@ import { describe, expect, it } from "vitest";
 import {
   publishAllergensMailto,
   reportProblemMailto,
+  requestAreaMailto,
   restaurantQuestionMailto,
 } from "../../../src/utils/contactLinks";
 import {
   restaurantWithFullInfo,
   restaurantWithoutAllergenInfo,
 } from "../../fixtures/restaurants.fixture";
+
+describe("requestAreaMailto", () => {
+  it("writes to the editor and leaves the visitor to name the city", () => {
+    const { to, subject, body } = parts(requestAreaMailto());
+    expect(to).toBe("contact@sans-allergenes.fr");
+    expect(subject).toBe("Sans Allergènes dans une autre ville");
+    expect(body).toMatch(/La ville que je suggère : $/);
+  });
+});
 
 describe("publishAllergensMailto", () => {
   it("asks the restaurant to publish its allergen list online, naming the exact address", () => {
