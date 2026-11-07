@@ -53,11 +53,13 @@ const DRINK_WORDS = [
   "matcha",
 ];
 
+// Pas de lookbehind `(?<!…)` pour le début de mot : Safari le refuse avant 16.4, et une expression
+// refusée au chargement de ce module empêche toute l'application de démarrer.
 const DRINK_PATTERN = new RegExp(
-  `(?<![\\p{L}\\p{N}])(?:${DRINK_WORDS.join("|")})(?![\\p{L}\\p{N}])`,
+  `(?:^|[^\\p{L}\\p{N}])(?:${DRINK_WORDS.join("|")})(?![\\p{L}\\p{N}])`,
   "u",
 );
-const FOOD_PATTERN = /(?<![\p{L}\p{N}])(?:brunch|gourmands?|bowls?)(?![\p{L}\p{N}])/u;
+const FOOD_PATTERN = /(?:^|[^\p{L}\p{N}])(?:brunch|gourmands?|bowls?)(?![\p{L}\p{N}])/u;
 
 const DRINK_CATEGORIES_BY_MENU: Record<string, readonly string[]> = {
   "menu-chant-des-voyelles": ["Happy Hours · 16h-21h"],

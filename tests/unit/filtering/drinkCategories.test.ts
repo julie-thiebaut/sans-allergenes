@@ -17,6 +17,7 @@ describe("isDrinkCategory", () => {
     "Chocolats Chauds et Glacés",
     "SPIRITUEUX - Whiskies",
     "Saké",
+    "L'eau de source",
   ])("recognises « %s » as drinks", (category) => {
     expect(isDrinkCategory("menu-any", category)).toBe(true);
   });
@@ -27,6 +28,8 @@ describe("isDrinkCategory", () => {
     // The English article is not « thé ».
     "From the Griddle",
     "The Classics",
+    // A drink word has to start a word: « eaux » is not in « beaux ».
+    "Les beaux plats",
     // A food word wins over a drink word.
     "Café ou Thé Gourmand",
     "BRUNCH & COFFEE SHOP",
