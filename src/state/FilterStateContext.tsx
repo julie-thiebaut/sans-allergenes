@@ -6,6 +6,7 @@ export type FilterAction =
   | { type: "SET_CUISINE_TYPES"; value: string[] }
   | { type: "SET_VEGETARIAN_ONLY"; value: boolean }
   | { type: "SET_VEGAN_ONLY"; value: boolean }
+  | { type: "SET_MEAT_ONLY"; value: boolean }
   | { type: "SET_ALLERGEN_INFO_AVAILABLE_ONLY"; value: boolean }
   | { type: "SET_ALLERGENS_TO_AVOID"; value: AllergenId[] }
   | { type: "SET_EXCLUDE_TRACES"; value: boolean }
@@ -20,6 +21,8 @@ function filterReducer(state: FilterState, action: FilterAction): FilterState {
       return { ...state, vegetarianOnly: action.value };
     case "SET_VEGAN_ONLY":
       return { ...state, veganOnly: action.value };
+    case "SET_MEAT_ONLY":
+      return { ...state, meatOnly: action.value };
     case "SET_ALLERGEN_INFO_AVAILABLE_ONLY":
       return { ...state, allergenInfoAvailableOnly: action.value };
     case "SET_ALLERGENS_TO_AVOID":

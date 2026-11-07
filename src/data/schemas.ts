@@ -122,6 +122,8 @@ export const RestaurantSchema = z.object({
   allergenCoverageNotice: z.string().min(1).optional(),
   vegetarianOptions: z.boolean(),
   veganOptions: z.boolean(),
+  /** Déduit des noms de plats par le pipeline d'import : aucun restaurant n'écrit « carné ». */
+  meatOptions: z.boolean(),
   imageUrl: z.string().optional(),
   allergenInformationAvailable: z.boolean(),
   lastVerifiedAt: z.string().datetime().optional(),

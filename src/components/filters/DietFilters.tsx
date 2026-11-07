@@ -1,7 +1,7 @@
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
-export function VegBooleanFilters() {
-  const { vegetarianOnly, veganOnly } = useFilterState();
+export function DietFilters() {
+  const { vegetarianOnly, veganOnly, meatOnly } = useFilterState();
   const dispatch = useFilterDispatch();
 
   return (
@@ -14,7 +14,7 @@ export function VegBooleanFilters() {
             dispatch({ type: "SET_VEGETARIAN_ONLY", value: event.target.checked })
           }
         />
-        Options végétariennes
+        Plats végétariens
       </label>
       <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
         <input
@@ -22,7 +22,15 @@ export function VegBooleanFilters() {
           checked={veganOnly}
           onChange={(event) => dispatch({ type: "SET_VEGAN_ONLY", value: event.target.checked })}
         />
-        Options véganes
+        Plats végétaliens
+      </label>
+      <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
+        <input
+          type="checkbox"
+          checked={meatOnly}
+          onChange={(event) => dispatch({ type: "SET_MEAT_ONLY", value: event.target.checked })}
+        />
+        Plats carnés
       </label>
     </div>
   );

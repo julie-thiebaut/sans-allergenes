@@ -33,6 +33,18 @@ describe("filterRestaurants", () => {
     expect(result).toEqual([restaurantWithUnknownInfo]);
   });
 
+  it("filters by each diet", () => {
+    const diet = (filter: "vegetarianOnly" | "veganOnly" | "meatOnly") =>
+      filterRestaurants(allFixtureRestaurants, {
+        ...DEFAULT_FILTER_STATE,
+        allergenInfoAvailableOnly: false,
+        [filter]: true,
+      });
+    expect(diet("vegetarianOnly")).toEqual([restaurantWithFullInfo, restaurantWithUnknownInfo]);
+    expect(diet("veganOnly")).toEqual([restaurantWithUnknownInfo]);
+    expect(diet("meatOnly")).toEqual([restaurantWithFullInfo]);
+  });
+
   it("keeps a restaurant that still has a dish without the avoided allergen", () => {
     // fullInfoMenu: "Plat au blé" declares gluten, "Salade simple" doesn't. One offending dish
     // must not remove an establishment where something else is still on the table.

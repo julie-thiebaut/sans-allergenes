@@ -13,6 +13,7 @@ export const restaurantWithFullInfo: RestaurantWithMenu = {
   cuisineTypes: ["Française"],
   vegetarianOptions: true,
   veganOptions: false,
+  meatOptions: true,
   allergenInformationAvailable: true,
   isDemoData: true,
   source: {
@@ -37,6 +38,7 @@ export const restaurantWithoutAllergenInfo: RestaurantWithMenu = {
   cuisineTypes: ["Française"],
   vegetarianOptions: false,
   veganOptions: false,
+  meatOptions: false,
   allergenInformationAvailable: false,
   isDemoData: true,
   contact: { email: "bonjour@example.com", scope: "restaurant" },
@@ -54,6 +56,7 @@ export const restaurantWithUnknownInfo: RestaurantWithMenu = {
   cuisineTypes: ["Fusion"],
   vegetarianOptions: true,
   veganOptions: true,
+  meatOptions: false,
   allergenInformationAvailable: true,
   isDemoData: true,
   menuId: "menu-unknown-info",

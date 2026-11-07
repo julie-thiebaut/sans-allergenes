@@ -5,6 +5,7 @@ export interface FilterState {
   cuisineTypes: string[];
   vegetarianOnly: boolean;
   veganOnly: boolean;
+  meatOnly: boolean;
   allergenInfoAvailableOnly: boolean;
   allergensToAvoid: AllergenId[];
   /** Set aside the dishes declaring traces of an avoided allergen, as well as those declaring it. */
@@ -15,6 +16,7 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   cuisineTypes: [],
   vegetarianOnly: false,
   veganOnly: false,
+  meatOnly: false,
   // Coché par défaut : la carte montre d'abord où manger. Les restaurants sans allergènes publiés
   // n'apparaissent qu'à qui décoche, et leur fiche invite à leur demander de les publier.
   allergenInfoAvailableOnly: true,
@@ -27,6 +29,7 @@ export function isFilterStateDefault(filters: FilterState): boolean {
     filters.cuisineTypes.length === 0 &&
     !filters.vegetarianOnly &&
     !filters.veganOnly &&
+    !filters.meatOnly &&
     filters.allergenInfoAvailableOnly === DEFAULT_FILTER_STATE.allergenInfoAvailableOnly &&
     filters.allergensToAvoid.length === 0 &&
     !filters.excludeTraces
@@ -59,6 +62,7 @@ export function filterRestaurants(
 
     if (filters.vegetarianOnly && !restaurant.vegetarianOptions) return false;
     if (filters.veganOnly && !restaurant.veganOptions) return false;
+    if (filters.meatOnly && !restaurant.meatOptions) return false;
     if (filters.allergenInfoAvailableOnly && !restaurant.allergenInformationAvailable) return false;
 
     if (filters.allergensToAvoid.length > 0) {

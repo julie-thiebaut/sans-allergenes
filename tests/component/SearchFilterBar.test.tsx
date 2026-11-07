@@ -19,8 +19,21 @@ describe("SearchFilterBar", () => {
       </FilterStateProvider>,
     );
 
-    await user.click(screen.getByRole("checkbox", { name: /options végétariennes/i }));
+    await user.click(screen.getByRole("checkbox", { name: /plats végétariens/i }));
     expect(screen.getByTestId("state")).toHaveTextContent('"vegetarianOnly":true');
+  });
+
+  it("toggles the meat filter", async () => {
+    const user = userEvent.setup();
+    render(
+      <FilterStateProvider>
+        <SearchFilterBar />
+        <FilterStateSpy />
+      </FilterStateProvider>,
+    );
+
+    await user.click(screen.getByRole("checkbox", { name: /plats carnés/i }));
+    expect(screen.getByTestId("state")).toHaveTextContent('"meatOnly":true');
   });
 
   it("toggles the exclusion of traces", async () => {
@@ -62,7 +75,7 @@ describe("SearchFilterBar", () => {
       </FilterStateProvider>,
     );
 
-    await user.click(screen.getByRole("checkbox", { name: /options végétariennes/i }));
+    await user.click(screen.getByRole("checkbox", { name: /plats végétariens/i }));
     await user.click(screen.getByRole("checkbox", { name: "Gluten" }));
     await user.click(screen.getByRole("checkbox", { name: /exclure les traces possibles/i }));
     await user.click(screen.getByRole("button", { name: /réinitialiser/i }));
