@@ -1,4 +1,5 @@
 import type { Restaurant } from "../data/types";
+import { cuisineLabels, mainCuisineLabel } from "../utils/cuisineLine";
 
 export interface PageMeta {
   title: string;
@@ -83,14 +84,14 @@ export function buildAllergensOnlineNoteMeta(siteUrl: string): PageMeta {
 
 export function buildRestaurantMeta(restaurant: Restaurant, siteUrl: string): PageMeta {
   const canonical = `${siteUrl.replace(/\/$/, "")}/restaurant/${restaurant.slug}/`;
-  const primaryCuisine = restaurant.cuisineTypes[0] ?? "Restaurant";
+  const primaryCuisine = mainCuisineLabel(restaurant.cuisineTypes);
   const title = `${restaurant.name} · ${primaryCuisine} à ${restaurant.city} | ${SITE_NAME}`;
   // Une fiche sans allergènes ne doit pas s'annoncer comme leur source dans un résultat de
   // recherche : elle dit ce qui manque, et ce qu'on peut y faire.
   const description =
     restaurant.description ??
     (restaurant.allergenInformationAvailable
-      ? `Informations sur les allergènes pour ${restaurant.name}, ${restaurant.cuisineTypes.join(", ")} à ${restaurant.city}.`
+      ? `Informations sur les allergènes pour ${restaurant.name}, ${cuisineLabels(restaurant.cuisineTypes)} à ${restaurant.city}.`
       : `${restaurant.name} ne publie pas les allergènes de ses plats en ligne. Demandez-lui de publier sa liste.`);
 
   const jsonLd: Record<string, unknown> = {

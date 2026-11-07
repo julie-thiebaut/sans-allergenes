@@ -4,6 +4,7 @@ import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { useSelectionContext } from "../../state/SelectionContext";
+import { cuisineLabels } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import { fullAddress } from "../../utils/fullAddress";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
@@ -122,7 +123,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
           {/* Une seule ligne, coupée par des points de suspension : sur un téléphone, une adresse
               sur trois la dépasse, et la fiche la donne en entier. */}
           <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
-          <p className="mt-1 text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
+          <p className="mt-1 text-sm text-neutral-700">{cuisineLabels(restaurant.cuisineTypes)}</p>
 
           {restaurant.isDemoData && (
             <div className="mt-2 flex flex-wrap gap-1.5 text-xs">

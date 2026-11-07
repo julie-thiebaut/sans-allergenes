@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cuisineLine } from "../../../src/utils/cuisineLine";
+import { cuisineLabels, cuisineLine, mainCuisineLabel } from "../../../src/utils/cuisineLine";
 
 function line(
   cuisineTypes: string[],
@@ -24,7 +24,7 @@ describe("cuisineLine", () => {
   });
 
   it("names the meat dishes alone", () => {
-    expect(line(["Française"], false, false, true)).toBe("Française · plats carnés disponibles");
+    expect(line(["Française"], false, false, true)).toBe("Français · plats carnés disponibles");
   });
 
   it("puts the plant-based and meat dishes in one mention", () => {
@@ -41,7 +41,7 @@ describe("cuisineLine", () => {
   });
 
   it("leaves the types alone when there are no such dishes", () => {
-    expect(line(["Française"], false, false)).toBe("Française");
+    expect(line(["Bistrot"], false, false)).toBe("Bistrot");
   });
 
   it("doesn't repeat what a type already says", () => {
@@ -52,7 +52,45 @@ describe("cuisineLine", () => {
 
   it("still names vegan dishes after a vegetarian type", () => {
     expect(line(["Végétarien", "Indienne"], true, true)).toBe(
-      "Végétarien, Indienne · plats végétaliens disponibles",
+      "Végétarien, Indien · plats végétaliens disponibles",
     );
+  });
+});
+
+describe("cuisineLabels", () => {
+  it("puts the origins in the masculine", () => {
+    expect(cuisineLabels(["Bistrot", "Française"])).toBe("Bistrot, Français");
+    expect(cuisineLabels(["Café", "Finlandaise"])).toBe("Café, Finlandais");
+    expect(cuisineLabels(["Kebab", "Turque"])).toBe("Kebab, Turc");
+    expect(cuisineLabels(["Grecque"])).toBe("Grec");
+  });
+
+  it("names what the restaurant is before its origin, whatever the record's order", () => {
+    expect(cuisineLabels(["Française", "Bistrot"])).toBe("Bistrot, Français");
+    expect(cuisineLabels(["Pub", "Irlandais"])).toBe("Pub, Irlandais");
+    expect(cuisineLabels(["Savoyarde", "Française", "Raclette", "Fondue"])).toBe(
+      "Raclette, Fondue, Savoyard, Français",
+    );
+  });
+
+  it("leaves the other labels as they are", () => {
+    expect(cuisineLabels(["Burgers", "Fast-food"])).toBe("Burgers, Fast-food");
+    expect(cuisineLabels(["Brasserie", "Gastronomique"])).toBe("Brasserie, Gastronomique");
+  });
+});
+
+describe("mainCuisineLabel", () => {
+  it("names the first label that isn't an origin", () => {
+    expect(mainCuisineLabel(["Française", "Bistrot"])).toBe("Bistrot");
+    expect(mainCuisineLabel(["Pub", "Irlandais"])).toBe("Pub");
+  });
+
+  it("calls a record with only an origin a restaurant", () => {
+    expect(mainCuisineLabel(["Française"])).toBe("Restaurant français");
+    expect(mainCuisineLabel(["Asiatique", "Chinoise"])).toBe("Restaurant asiatique");
+  });
+
+  it("falls back on a plain restaurant without labels", () => {
+    expect(mainCuisineLabel([])).toBe("Restaurant");
   });
 });

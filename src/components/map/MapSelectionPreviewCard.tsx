@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import type { RestaurantWithMenu } from "../../data/types";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
+import { cuisineLabels } from "../../utils/cuisineLine";
 import { fullAddress } from "../../utils/fullAddress";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
@@ -61,7 +62,9 @@ export function MapSelectionPreviewCard({
         </div>
         {/* Comme sur la carte de la liste : l'adresse, puis les cuisines. */}
         <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
-        <p className="truncate text-sm text-neutral-700">{restaurant.cuisineTypes.join(", ")}</p>
+        <p className="truncate text-sm text-neutral-700">
+          {cuisineLabels(restaurant.cuisineTypes)}
+        </p>
         <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
           {/* Même arbitrage que sur la carte de la liste : seule l'absence d'information est

@@ -28,12 +28,64 @@ function dietMention(restaurant: CuisineFields) {
 }
 
 /**
+ * Les origines sont enregistrées au féminin (« cuisine française »), ce qui sonne faux à côté
+ * d'un type : « Bistrot, Française ». Elles s'affichent donc au masculin. Les fiches ne changent
+ * pas : leurs étiquettes entrent dans l'empreinte du registre de relecture. Une origine absente
+ * de cette table s'affiche telle qu'elle est enregistrée, à sa place dans la fiche.
+ */
+const ORIGIN_LABELS = new Map([
+  ["Africaine", "Africain"],
+  ["Américaine", "Américain"],
+  ["Asiatique", "Asiatique"],
+  ["Belge", "Belge"],
+  ["Chinoise", "Chinois"],
+  ["Coréenne", "Coréen"],
+  ["Finlandaise", "Finlandais"],
+  ["Française", "Français"],
+  ["Grecque", "Grec"],
+  ["Indienne", "Indien"],
+  ["Irlandais", "Irlandais"],
+  ["Italienne", "Italien"],
+  ["Japonaise", "Japonais"],
+  ["Libanaise", "Libanais"],
+  ["Lyonnaise", "Lyonnais"],
+  ["Méditerranéenne", "Méditerranéen"],
+  ["Mexicaine", "Mexicain"],
+  ["Savoyarde", "Savoyard"],
+  ["Thaïlandaise", "Thaïlandais"],
+  ["Tunisienne", "Tunisien"],
+  ["Turque", "Turc"],
+  ["Vietnamienne", "Vietnamien"],
+]);
+
+/**
+ * Les étiquettes telles qu'on les lit : ce qu'est le restaurant d'abord, son origine ensuite,
+ * quel que soit l'ordre de la fiche (« Bistrot, Français » comme « Pub, Irlandais »).
+ */
+export function cuisineLabels(cuisineTypes: string[]): string {
+  const types = cuisineTypes.filter((type) => !ORIGIN_LABELS.has(type));
+  const origins = cuisineTypes.flatMap((type) => ORIGIN_LABELS.get(type) ?? []);
+  return [...types, ...origins].join(", ");
+}
+
+/**
+ * L'étiquette à nommer seule, dans le titre d'une page. Une origine ne se lit pas seule
+ * (« Français à Paris ») : une fiche qui n'a qu'elle devient « Restaurant français à Paris ».
+ */
+export function mainCuisineLabel(cuisineTypes: string[]): string {
+  const type = cuisineTypes.find((candidate) => !ORIGIN_LABELS.has(candidate));
+  if (type) return type;
+  const origin = ORIGIN_LABELS.get(cuisineTypes[0] ?? "");
+  return origin ? `Restaurant ${origin.toLowerCase()}` : "Restaurant";
+}
+
+/**
  * La ligne de type d'un restaurant, suivie des régimes qu'il sert :
  * « Burgers, Fast-food · plats végétariens et carnés disponibles ». Le point médian sépare ce
  * qu'est le restaurant de ce qu'il propose.
  */
 export function cuisineLine(restaurant: CuisineFields): string {
-  const types = restaurant.cuisineTypes.join(", ");
+  const types = cuisineLabels(restaurant.cuisineTypes);
   const diet = dietMention(restaurant);
   if (!diet) return types;
   if (!types) return diet.charAt(0).toUpperCase() + diet.slice(1);
