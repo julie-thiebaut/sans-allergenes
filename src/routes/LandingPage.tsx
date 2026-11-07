@@ -67,8 +67,8 @@ export function LandingPage() {
                 </span>
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-                La loi impose aux restaurants de déclarer la présence de 14 allergènes. Consultez
-                leurs déclarations et préparez votre sortie plus sereinement.
+                En France, la loi impose aux restaurants de déclarer la présence de 14 allergènes.
+                Consultez leurs déclarations et préparez votre sortie plus sereinement.
               </p>
               <div className="mt-7">
                 <CtaButton>Explorer la carte</CtaButton>
