@@ -70,9 +70,8 @@ export function LandingPage() {
                 La loi impose aux restaurants de déclarer la présence de 14 allergènes. Consultez
                 leurs déclarations et préparez votre sortie plus sereinement.
               </p>
-              <div className="mt-7 flex flex-wrap items-center gap-4">
+              <div className="mt-7">
                 <CtaButton>Explorer la carte</CtaButton>
-                <span className="text-sm text-neutral-600">Gratuit, sans compte</span>
               </div>
             </div>
             <div className="flex justify-center md:pl-4">
