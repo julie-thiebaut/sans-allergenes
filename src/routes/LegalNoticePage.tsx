@@ -23,42 +23,6 @@ export function LegalNoticePage() {
       introduction="Cette page identifie l’éditrice et l’hébergeur du site, puis fixe les règles d’utilisation du service Sans Allergènes."
       meta={LEGAL_META}
     >
-      <nav aria-label="Sommaire des mentions légales" className="rounded-xl bg-neutral-100 p-5">
-        <h2 className="font-semibold text-neutral-900">Sommaire</h2>
-        <ul className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-          <li>
-            <a className={LINK_CLASS} href="#edition">
-              Édition et publication
-            </a>
-          </li>
-          <li>
-            <a className={LINK_CLASS} href="#hebergement">
-              Hébergement
-            </a>
-          </li>
-          <li>
-            <a className={LINK_CLASS} href="#service">
-              Objet du service
-            </a>
-          </li>
-          <li>
-            <a className={LINK_CLASS} href="#allergenes">
-              Informations sur les allergènes
-            </a>
-          </li>
-          <li>
-            <a className={LINK_CLASS} href="#propriete-intellectuelle">
-              Propriété intellectuelle
-            </a>
-          </li>
-          <li>
-            <a className={LINK_CLASS} href="#services-tiers">
-              Services tiers
-            </a>
-          </li>
-        </ul>
-      </nav>
-
       <Section id="edition" title="1. Édition et direction de la publication">
         <p>
           Le site <strong>Sans Allergènes</strong>, accessible à l’adresse{" "}
