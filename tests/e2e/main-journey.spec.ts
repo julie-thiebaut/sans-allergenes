@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { installGoogleMapsRequestGuard } from "../mocks/googleMapsScriptMock";
+import { serveFixtureData } from "../mocks/siteDataMock";
 
 // The list and the map live at /carte; "/" is the landing page.
 const MAP_PATH = "/carte";
@@ -19,6 +20,10 @@ async function disableGoogleMaps(page: Page): Promise<void> {
     });
   });
 }
+
+test.beforeEach(async ({ page }) => {
+  await serveFixtureData(page);
+});
 
 test("browse the list, open a restaurant and see allergen info — no real Maps call", async ({
   page,

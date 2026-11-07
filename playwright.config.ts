@@ -10,7 +10,9 @@ export default defineConfig({
     trace: "on-first-retry",
   },
   webServer: {
-    command: "npm run build && npm run preview -- --port 4173 --strictPort",
+    // vite build rather than npm run build: the journey runs in the client on its own data, and
+    // the prerender step opens every page of the site, which takes far longer than this timeout.
+    command: "npx vite build && npm run preview -- --port 4173 --strictPort",
     url: "http://localhost:4173",
     reuseExistingServer: !process.env.CI,
     timeout: 180_000,
