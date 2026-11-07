@@ -127,11 +127,22 @@ export function LandingPage() {
           </div>
         </section>
 
-        {/* The note on the law and on what restaurants publish: a plain white card, so it never
-            outweighs the limits block, and a hairline after it so the two boxes don't run
-            together */}
+        {/* Who runs the site, ahead of the note because the note says "j’ai examiné". The
+            no-partnership claim repeats the legal notice; change them together. The note on the law
+            and on what restaurants publish: a plain white card, so it never outweighs the limits
+            block, and a hairline after it so the two boxes don't run together */}
         <section className="mx-auto max-w-5xl px-4 pt-14 md:pt-20">
-          <div className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm md:p-8">
+          <h2 className="text-2xl font-bold text-neutral-900 sm:text-3xl">
+            Qui est derrière ce site&nbsp;?
+          </h2>
+          <p className="mt-3 leading-relaxed text-neutral-600">
+            Moi-même allergique, je sais combien il peut être difficile de trouver les informations
+            sur les allergènes avant de choisir un restaurant. J’ai créé Sans Allergènes pour les
+            rendre plus accessibles et aider d’autres personnes à préparer leurs sorties. Je m’en
+            occupe bénévolement&nbsp;: c’est un projet personnel, sans partenariat commercial avec
+            les restaurants.
+          </p>
+          <div className="mt-8 rounded-xl border border-neutral-200 bg-white p-6 shadow-sm md:p-8">
             <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">
               Note ·{" "}
               <time dateTime={ALLERGENS_ONLINE_NOTE_DATE}>{ALLERGENS_ONLINE_NOTE_DATE_LABEL}</time>
