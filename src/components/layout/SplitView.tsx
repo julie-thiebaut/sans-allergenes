@@ -5,6 +5,7 @@ import { PARIS_CENTER } from "../../maps/MapsAdapter";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
 import { sameBounds, useMapPageMemory } from "../../state/MapPageMemoryContext";
+import { formatMonthYear } from "../../utils/formatDate";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { MobileFilterSheet } from "../filters/MobileFilterSheet";
 import { SearchFilterBar } from "../filters/SearchFilterBar";
@@ -18,6 +19,15 @@ import { RestaurantList } from "../restaurant-list/RestaurantList";
 import { MobileViewToggle, type MobileViewMode } from "./MobileViewToggle";
 
 const DESKTOP_MEDIA_QUERY = "(min-width: 768px)";
+
+// ISO dates compare correctly as plain text.
+function latestUpdate(restaurants: RestaurantWithMenu[]): string | undefined {
+  return restaurants.reduce<string | undefined>(
+    (latest, { lastVerifiedAt }) =>
+      lastVerifiedAt && (!latest || lastVerifiedAt > latest) ? lastVerifiedAt : latest,
+    undefined,
+  );
+}
 
 export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMenu[] }) {
   const filters = useFilterState();
@@ -65,6 +75,9 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
     return sortRestaurantsByDistance(visibleRestaurants, center);
   }, [filteredRestaurants, bounds]);
 
+  // From the whole catalog, not the filtered list: filters must not change when the site was updated.
+  const lastUpdate = useMemo(() => latestUpdate(allRestaurants), [allRestaurants]);
+
   const outsideCoverage = useMemo(
     () => bounds !== null && isOutsideCoverage(bounds, allRestaurants),
     [allRestaurants, bounds],
@@ -85,7 +98,17 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
         </MobileFilterSheet>
       </div>
 
-      <ResultCount count={visibleInList.length} />
+      {/* The information may have changed since this date, so visitors see it above the map. On
+          the count's line, it takes no height from the map; outside ResultCount, since that one's
+          live region should only announce the count. */}
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 px-3 py-2">
+        <ResultCount count={visibleInList.length} />
+        {lastUpdate && (
+          <p className="text-xs text-neutral-600 md:text-sm">
+            Mise à jour : {formatMonthYear(lastUpdate)}
+          </p>
+        )}
+      </div>
 
       {/* Above the two panes rather than in the list: on a phone the map view has no list. */}
       {outsideCoverage && <OutsideCoverageBanner />}
