@@ -8,7 +8,11 @@ interface SelectionContextValue {
   setSelectedId: (id: string | null) => void;
 }
 
+type SelectionActions = Pick<SelectionContextValue, "setHoveredId" | "setSelectedId">;
+
 const SelectionContext = createContext<SelectionContextValue | null>(null);
+// Apart, like FilterDispatchContext: what only writes the selection is not re-rendered by a hover.
+const SelectionActionsContext = createContext<SelectionActions | null>(null);
 
 /** Shared hover/selection channel between RestaurantCard (list) and MapView (markers). */
 export function SelectionProvider({ children }: { children: ReactNode }) {
@@ -32,14 +36,29 @@ export function SelectionProvider({ children }: { children: ReactNode }) {
     () => ({ hoveredId, selectedId, setHoveredId, setSelectedId }),
     [hoveredId, selectedId, setSelectedId],
   );
+  const actions = useMemo(() => ({ setHoveredId, setSelectedId }), [setSelectedId]);
 
-  return <SelectionContext.Provider value={value}>{children}</SelectionContext.Provider>;
+  return (
+    <SelectionContext.Provider value={value}>
+      <SelectionActionsContext.Provider value={actions}>
+        {children}
+      </SelectionActionsContext.Provider>
+    </SelectionContext.Provider>
+  );
 }
 
 export function useSelectionContext(): SelectionContextValue {
   const context = useContext(SelectionContext);
   if (!context) {
     throw new Error("useSelectionContext must be used within a SelectionProvider");
+  }
+  return context;
+}
+
+export function useSelectionActions(): SelectionActions {
+  const context = useContext(SelectionActionsContext);
+  if (!context) {
+    throw new Error("useSelectionActions must be used within a SelectionProvider");
   }
   return context;
 }

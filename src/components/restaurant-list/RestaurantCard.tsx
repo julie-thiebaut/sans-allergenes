@@ -1,9 +1,10 @@
+import { memo } from "react";
 import { Link } from "react-router-dom";
 import { countDishesDeclaringAvoided } from "../../filtering/allergenLogic";
 import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
-import { useSelectionContext } from "../../state/SelectionContext";
+import { useSelectionActions } from "../../state/SelectionContext";
 import { cuisineLabels } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import { fullAddress } from "../../utils/fullAddress";
@@ -64,10 +65,17 @@ function describeAvoidance(
   return lines;
 }
 
-export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu }) {
-  const { hoveredId, selectedId, setHoveredId, setSelectedId } = useSelectionContext();
+// Memo, with the highlight as a prop: a hover concerns one card out of hundreds, and the others
+// must not recount their dishes for it.
+export const RestaurantCard = memo(function RestaurantCard({
+  restaurant,
+  isHighlighted = false,
+}: {
+  restaurant: RestaurantWithMenu;
+  isHighlighted?: boolean;
+}) {
+  const { setHoveredId, setSelectedId } = useSelectionActions();
   const filters = useFilterState();
-  const isHighlighted = hoveredId === restaurant.id || selectedId === restaurant.id;
   const isWarning = !restaurant.allergenInformationAvailable;
 
   // A restaurant is only excluded when EVERY dish declares an avoided allergen, so cards here
@@ -161,4 +169,4 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
       </div>
     </article>
   );
-}
+});

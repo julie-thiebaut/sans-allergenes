@@ -122,7 +122,13 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
               if (memory) memory.listScroll = { top: event.currentTarget.scrollTop, bounds };
             }}
           >
-            <RestaurantList restaurants={visibleInList} />
+            {/* The same condition as the layout effect above, which scrolls it back there. */}
+            <RestaurantList
+              restaurants={visibleInList}
+              initialScrollTop={
+                memory && sameBounds(memory.listScroll.bounds, bounds) ? memory.listScroll.top : 0
+              }
+            />
           </div>
         )}
         {(isDesktop || mobileView === "map") && (

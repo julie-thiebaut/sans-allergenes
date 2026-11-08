@@ -128,10 +128,17 @@ export class GoogleMapsAdapter implements MapsAdapter {
       marker.addListener("click", () => onMarkerClick(point.id));
       this.markers.set(point.id, marker);
       googleMarkers.push(marker);
+      let currentlyHighlighted = false;
 
       return {
         id: point.id,
-        setHighlighted: (highlighted: boolean) => marker.setIcon(markerIcon(highlighted)),
+        // MapView goes through every marker at each hover or selection: only those that change
+        // get a new icon.
+        setHighlighted: (highlighted: boolean) => {
+          if (highlighted === currentlyHighlighted) return;
+          currentlyHighlighted = highlighted;
+          marker.setIcon(markerIcon(highlighted));
+        },
         remove: () => {
           marker.setMap(null);
           this.markers.delete(point.id);
