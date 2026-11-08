@@ -38,12 +38,15 @@ export function ImageWithPlaceholder({ src, alt, className = "" }: ImageWithPlac
     );
   }
 
+  // Décodée hors du fil principal : les photos arrivent en grand format, et leur décodage figeait
+  // la liste environ 300 ms sur un téléphone lent.
   return (
     <img
       src={src}
       alt={alt}
       className={className}
       loading="lazy"
+      decoding="async"
       onError={() => setFailedSrc(src)}
     />
   );
