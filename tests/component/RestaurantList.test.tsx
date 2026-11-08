@@ -83,13 +83,22 @@ describe("RestaurantList", () => {
   });
 
   it("keeps the selected card highlighted once the pointer has left", () => {
-    renderList();
+    renderList(undefined, { extra: <SelectButton id={restaurantWithFullInfo.id} /> });
 
+    fireEvent.click(screen.getByRole("button", { name: "Sélectionner" }));
     fireEvent.mouseEnter(fullInfoCard());
-    fireEvent.click(screen.getByRole("link", { name: restaurantWithFullInfo.name }));
     fireEvent.mouseLeave(fullInfoCard());
 
     expect(fullInfoCard()).toHaveClass("border-brand-500");
+  });
+
+  it("leaves nothing selected once a card is opened", () => {
+    renderList(undefined, { extra: <SelectButton id={restaurantWithFullInfo.id} /> });
+
+    fireEvent.click(screen.getByRole("button", { name: "Sélectionner" }));
+    fireEvent.click(screen.getByRole("link", { name: restaurantWithFullInfo.name }));
+
+    expect(fullInfoCard()).not.toHaveClass("border-brand-500");
   });
 
   it("builds the first cards at once, and the others soon after", async () => {

@@ -121,7 +121,9 @@ export const RestaurantCard = memo(function RestaurantCard({
                 className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
                 onFocus={() => setHoveredId(restaurant.id)}
                 onBlur={() => setHoveredId(null)}
-                onClick={() => setSelectedId(restaurant.id)}
+                // Opened from the list, nothing stays selected: back on the list, no card is
+                // highlighted, and its scroll offset alone brings the visitor back where they were.
+                onClick={() => setSelectedId(null)}
               >
                 {restaurant.name}
               </Link>

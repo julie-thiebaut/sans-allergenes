@@ -93,7 +93,7 @@ afterEach(() => vi.restoreAllMocks());
 describe("Retour from a restaurant to /carte", () => {
   it("comes back to the list view, scrolled where it was, by stepping back in history", async () => {
     const user = userEvent.setup();
-    renderSite("/carte");
+    const { adapters } = renderSite("/carte");
 
     await user.click(screen.getByRole("button", { name: "Liste" }));
     const list = listScrollContainer();
@@ -118,10 +118,12 @@ describe("Retour from a restaurant to /carte", () => {
       navigationType: "POP",
     });
 
-    // The click that opened it also selected it: the map's preview card is that restaurant.
+    // Opened from the list, it is not left highlighted there, nor previewed on the map.
+    const card = screen.getByRole("link", { name: restaurantWithFullInfo.name }).closest("article");
+    expect(card).not.toHaveClass("border-brand-500");
     await user.click(screen.getByRole("button", { name: "Carte" }));
-    expect(await screen.findByRole("link", { name: "Voir la fiche" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: restaurantWithFullInfo.name })).toBeInTheDocument();
+    await mountedMap(adapters, 1);
+    expect(screen.queryByRole("link", { name: "Voir la fiche" })).not.toBeInTheDocument();
   });
 
   it("comes back to the map at the same place and zoom, with the restaurant still selected", async () => {

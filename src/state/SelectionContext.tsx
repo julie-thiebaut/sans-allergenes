@@ -18,8 +18,8 @@ const SelectionActionsContext = createContext<SelectionActions | null>(null);
 export function SelectionProvider({ children }: { children: ReactNode }) {
   const memory = useMapPageMemory();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
-  // The selection is remembered (the restaurant just opened stays highlighted, and its preview
-  // card is back on the mobile map); the hover is not, since the pointer has moved on.
+  // The selection is remembered (a restaurant opened from its marker has its preview card back
+  // on the mobile map); the hover is not, since the pointer has moved on.
   const [selectedId, setSelectedIdState] = useState<string | null>(memory?.selectedId ?? null);
 
   // Written here rather than in an effect: clicking a card in the list selects it AND leaves
