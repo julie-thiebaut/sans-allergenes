@@ -175,7 +175,7 @@ export function LegalNoticePage() {
         </ul>
         <p>
           Les modalités liées aux données personnelles et aux traceurs sont détaillées dans la{" "}
-          <Link className={LINK_CLASS} to="/confidentialite">
+          <Link className={LINK_CLASS} to="/confidentialite/">
             politique de confidentialité et cookies
           </Link>
           .

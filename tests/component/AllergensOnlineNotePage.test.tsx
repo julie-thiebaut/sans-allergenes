@@ -21,7 +21,7 @@ describe("Allergens online article", () => {
     );
     expect(screen.getByRole("link", { name: /^notes$/i })).toHaveAttribute(
       "href",
-      "/notes/allergenes-en-ligne",
+      "/notes/allergenes-en-ligne/",
     );
   });
 
@@ -52,7 +52,7 @@ describe("Allergens online article", () => {
     renderNote();
     expect(screen.getByRole("link", { name: /carte de sans allergènes/i })).toHaveAttribute(
       "href",
-      "/carte",
+      "/carte/",
     );
     expect(
       screen.getByText(/décochez le filtre «\s*informations allergènes disponibles\s+uniquement/i),

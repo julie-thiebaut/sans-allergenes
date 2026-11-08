@@ -19,6 +19,9 @@ function MapPageContent() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Navbar />
+      {/* Le seul titre de la page : la carte n'en affiche aucun, mais moteurs de recherche et
+          lecteurs d'écran en attendent un. */}
+      <h1 className="sr-only">La carte des restaurants et des allergènes de leurs plats</h1>
       {data.status === "loading" && <LoadingState label="Chargement des restaurants…" />}
       {data.status === "error" && <ErrorState message={data.message} />}
       {data.status === "ready" && <SplitView allRestaurants={data.restaurants} />}

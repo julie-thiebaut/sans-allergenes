@@ -69,17 +69,6 @@ export function cuisineLabels(cuisineTypes: string[]): string {
 }
 
 /**
- * L'étiquette à nommer seule, dans le titre d'une page. Une origine ne se lit pas seule
- * (« Français à Paris ») : une fiche qui n'a qu'elle devient « Restaurant français à Paris ».
- */
-export function mainCuisineLabel(cuisineTypes: string[]): string {
-  const type = cuisineTypes.find((candidate) => !ORIGIN_LABELS.has(candidate));
-  if (type) return type;
-  const origin = ORIGIN_LABELS.get(cuisineTypes[0] ?? "");
-  return origin ? `Restaurant ${origin.toLowerCase()}` : "Restaurant";
-}
-
-/**
  * La ligne de type d'un restaurant, suivie des régimes qu'il sert :
  * « Burgers, Fast-food · plats végétariens et carnés disponibles ». Le point médian sépare ce
  * qu'est le restaurant de ce qu'il propose.

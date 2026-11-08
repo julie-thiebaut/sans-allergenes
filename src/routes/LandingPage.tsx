@@ -36,7 +36,7 @@ const STEPS = [
 function CtaButton({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
     <Link
-      to="/carte"
+      to="/carte/"
       className={`inline-block rounded-lg bg-brand-500 px-6 py-3 text-base font-semibold text-neutral-900 shadow-sm transition-colors hover:bg-brand-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 ${className}`}
     >
       {children}
@@ -160,7 +160,7 @@ export function LandingPage() {
               plus accessibles.
             </p>
             <Link
-              to="/notes/allergenes-en-ligne"
+              to="/notes/allergenes-en-ligne/"
               className="mt-4 inline-block font-semibold text-neutral-900 underline decoration-brand-500 decoration-2 underline-offset-4 hover:decoration-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
             >
               Lire la note

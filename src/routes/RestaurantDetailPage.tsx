@@ -24,7 +24,7 @@ export function RestaurantDetailPage() {
     return (
       <div className="overflow-y-auto p-6">
         <p>Restaurant introuvable.</p>
-        <Link to="/carte" className="text-brand-500 underline">
+        <Link to="/carte/" className="text-brand-500 underline">
           Retour à la carte
         </Link>
       </div>
@@ -34,6 +34,7 @@ export function RestaurantDetailPage() {
   const meta = buildRestaurantMeta(
     restaurant,
     typeof window !== "undefined" ? window.location.origin : "",
+    data.restaurants,
   );
 
   return (
@@ -63,7 +64,7 @@ function BackToMapPageLink() {
 
   return (
     <Link
-      to="/carte"
+      to="/carte/"
       onClick={(event) => {
         if (!wasOpenedFromMapPage(location.state)) return;
         // Leave a ctrl/cmd/middle click to the browser: it opens /carte in a new tab.

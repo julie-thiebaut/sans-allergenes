@@ -13,13 +13,13 @@ export function Footer() {
           aria-label="Informations sur le site"
           className="flex flex-wrap justify-center gap-x-4 gap-y-1"
         >
-          <Link className="hover:text-neutral-900 hover:underline" to="/notes/allergenes-en-ligne">
+          <Link className="hover:text-neutral-900 hover:underline" to="/notes/allergenes-en-ligne/">
             Notes
           </Link>
-          <Link className="hover:text-neutral-900 hover:underline" to="/mentions-legales">
+          <Link className="hover:text-neutral-900 hover:underline" to="/mentions-legales/">
             Mentions légales
           </Link>
-          <Link className="hover:text-neutral-900 hover:underline" to="/confidentialite">
+          <Link className="hover:text-neutral-900 hover:underline" to="/confidentialite/">
             Politique de confidentialité
           </Link>
           {analyticsConsent.isAvailable && (

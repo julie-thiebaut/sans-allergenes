@@ -15,11 +15,11 @@ describe("Legal and privacy pages", () => {
 
     expect(screen.getByRole("link", { name: /^mentions légales$/i })).toHaveAttribute(
       "href",
-      "/mentions-legales",
+      "/mentions-legales/",
     );
     expect(screen.getByRole("link", { name: /^politique de confidentialité$/i })).toHaveAttribute(
       "href",
-      "/confidentialite",
+      "/confidentialite/",
     );
     expect(screen.getByRole("link", { name: /contact/i })).toHaveAttribute(
       "href",
@@ -45,7 +45,7 @@ describe("Legal and privacy pages", () => {
     ).toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: /politique de confidentialité et cookies/i }),
-    ).toHaveAttribute("href", "/confidentialite");
+    ).toHaveAttribute("href", "/confidentialite/");
   });
 
   it("explains Analytics, Google Maps and Places, URL filters, retention and data rights", () => {

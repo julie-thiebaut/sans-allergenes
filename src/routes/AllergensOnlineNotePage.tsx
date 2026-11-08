@@ -325,7 +325,7 @@ export function AllergensOnlineNotePage() {
               </h3>
               <p>
                 Rendez-vous sur la{" "}
-                <Link className={LINK_CLASS} to="/carte">
+                <Link className={LINK_CLASS} to="/carte/">
                   carte de Sans Allergènes
                 </Link>
                 .

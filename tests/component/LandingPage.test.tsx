@@ -25,7 +25,7 @@ describe("LandingPage", () => {
 
     const mapLinks = screen.getAllByRole("link", { name: /explorer la carte/i });
     expect(mapLinks.length).toBeGreaterThan(0);
-    mapLinks.forEach((link) => expect(link).toHaveAttribute("href", "/carte"));
+    mapLinks.forEach((link) => expect(link).toHaveAttribute("href", "/carte/"));
   });
 
   it("renders without a map, so it must not require the maps providers", () => {
@@ -64,7 +64,7 @@ describe("LandingPage", () => {
     renderLanding();
     expect(screen.getByRole("link", { name: /lire la note/i })).toHaveAttribute(
       "href",
-      "/notes/allergenes-en-ligne",
+      "/notes/allergenes-en-ligne/",
     );
   });
 });

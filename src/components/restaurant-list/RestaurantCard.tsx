@@ -108,7 +108,7 @@ export function RestaurantCard({ restaurant }: { restaurant: RestaurantWithMenu 
             <h3 className="flex items-center gap-1 font-semibold text-neutral-900">
               {isWarning && <AllergenWarningIcon />}
               <Link
-                to={`/restaurant/${restaurant.slug}`}
+                to={`/restaurant/${restaurant.slug}/`}
                 state={OPENED_FROM_MAP_PAGE}
                 className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
                 onFocus={() => setHoveredId(restaurant.id)}

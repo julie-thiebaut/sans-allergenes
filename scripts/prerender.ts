@@ -167,7 +167,7 @@ async function main(): Promise<void> {
     ...restaurants.map((restaurant): RouteToRender => ({
       urlPath: `/restaurant/${restaurant.slug}/`,
       outFile: path.join(DIST_DIR, "restaurant", restaurant.slug, "index.html"),
-      meta: buildRestaurantMeta(restaurant, SITE_URL),
+      meta: buildRestaurantMeta(restaurant, SITE_URL, restaurants),
     })),
   ];
 

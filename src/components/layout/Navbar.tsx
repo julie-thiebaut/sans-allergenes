@@ -20,7 +20,7 @@ export function Navbar({ showSearch = true }: { showSearch?: boolean }) {
         </div>
       ) : (
         <Link
-          to="/carte"
+          to="/carte/"
           className="shrink-0 rounded-md bg-brand-500 px-3 py-2 text-sm font-semibold text-neutral-900 hover:bg-brand-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
         >
           Explorer la carte

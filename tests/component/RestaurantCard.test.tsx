@@ -30,7 +30,7 @@ describe("RestaurantCard", () => {
     renderCard();
     expect(screen.getByRole("link", { name: "Le Restaurant Complet" })).toHaveAttribute(
       "href",
-      "/restaurant/le-restaurant-complet",
+      "/restaurant/le-restaurant-complet/",
     );
   });
 

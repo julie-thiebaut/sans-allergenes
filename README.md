@@ -78,6 +78,8 @@ Les données arrivent ici par le dépôt d'import, jamais écrites à la main.
 
 Chaque page porte son jeu complet `og:` / `twitter:` et son URL canonique, écrit à deux endroits : par `<Seo>` lors de la navigation dans l'application, et par `scripts/prerender.ts` dans le HTML servi aux robots qui n'exécutent pas de JavaScript. Les deux marquent leurs balises `data-seo-managed`, ce qui permet au pré-rendu de retirer exactement celles-là avant d'injecter les siennes — sans quoi la page finale en porterait deux exemplaires.
 
+L'image de partage, `public/og-image.png`, est la même pour toutes les pages. Elle se régénère avec `npm run share-image`, après un changement de son texte ou de l'illustration.
+
 ## Variable d'environnement
 
 Une clé Google restreinte est nécessaire pour afficher la carte et proposer la recherche d'adresse (voir `.env.example`). Elle doit autoriser deux API : **Maps JavaScript API** (carte) et **Places API (New)** (suggestions d'adresses et récupération de la position sélectionnée). Sans clé, l'application fonctionne normalement, avec la carte simplement désactivée.

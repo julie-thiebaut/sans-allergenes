@@ -48,7 +48,7 @@ export function AnalyticsConsentBanner({
             d’adresse ne sont jamais transmis à Analytics.{" "}
             <Link
               className="font-medium text-brand-700 underline underline-offset-2"
-              to="/confidentialite#cookies"
+              to="/confidentialite/#cookies"
             >
               En savoir plus
             </Link>

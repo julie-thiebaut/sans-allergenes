@@ -18,7 +18,8 @@
     "test:unit": "vitest run",
     "test:unit:watch": "vitest",
     "test:e2e": "playwright test",
-    "favicons": "tsx scripts/generate-favicons.ts"
+    "favicons": "tsx scripts/generate-favicons.ts",
+    "share-image": "tsx scripts/generate-share-image.ts"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.5.3",

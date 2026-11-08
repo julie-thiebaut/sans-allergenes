@@ -325,7 +325,7 @@ export function PrivacyPage() {
         <p>
           Pour l’identité de l’éditrice, l’hébergeur et les règles générales du service, consultez
           les{" "}
-          <Link className={LINK_CLASS} to="/mentions-legales">
+          <Link className={LINK_CLASS} to="/mentions-legales/">
             mentions légales et conditions d’utilisation
           </Link>
           .

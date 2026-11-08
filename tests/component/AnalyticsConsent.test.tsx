@@ -29,7 +29,7 @@ describe("Analytics consent banner", () => {
     expect(screen.queryByRole("button", { name: /fermer/i })).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: /en savoir plus/i })).toHaveAttribute(
       "href",
-      "/confidentialite#cookies",
+      "/confidentialite/#cookies",
     );
 
     await user.click(screen.getByRole("button", { name: "Refuser" }));

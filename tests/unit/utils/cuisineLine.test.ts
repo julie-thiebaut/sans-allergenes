@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cuisineLabels, cuisineLine, mainCuisineLabel } from "../../../src/utils/cuisineLine";
+import { cuisineLabels, cuisineLine } from "../../../src/utils/cuisineLine";
 
 function line(
   cuisineTypes: string[],
@@ -76,21 +76,5 @@ describe("cuisineLabels", () => {
   it("leaves the other labels as they are", () => {
     expect(cuisineLabels(["Burgers", "Fast-food"])).toBe("Burgers, Fast-food");
     expect(cuisineLabels(["Brasserie", "Gastronomique"])).toBe("Brasserie, Gastronomique");
-  });
-});
-
-describe("mainCuisineLabel", () => {
-  it("names the first label that isn't an origin", () => {
-    expect(mainCuisineLabel(["Française", "Bistrot"])).toBe("Bistrot");
-    expect(mainCuisineLabel(["Pub", "Irlandais"])).toBe("Pub");
-  });
-
-  it("calls a record with only an origin a restaurant", () => {
-    expect(mainCuisineLabel(["Française"])).toBe("Restaurant français");
-    expect(mainCuisineLabel(["Asiatique", "Chinoise"])).toBe("Restaurant asiatique");
-  });
-
-  it("falls back on a plain restaurant without labels", () => {
-    expect(mainCuisineLabel([])).toBe("Restaurant");
   });
 });

@@ -73,7 +73,7 @@ export function MapSelectionPreviewCard({
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
         <Link
-          to={`/restaurant/${restaurant.slug}`}
+          to={`/restaurant/${restaurant.slug}/`}
           state={OPENED_FROM_MAP_PAGE}
           className="mt-2 inline-flex items-center gap-0.5 text-sm font-medium text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
         >

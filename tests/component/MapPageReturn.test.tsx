@@ -169,10 +169,10 @@ describe("Retour from a restaurant to /carte", () => {
     renderSite(`/restaurant/${restaurantWithFullInfo.slug}`);
 
     const back = screen.getByRole("link", { name: "Retour à la carte" });
-    expect(back).toHaveAttribute("href", "/carte");
+    expect(back).toHaveAttribute("href", "/carte/");
     await user.click(back);
 
-    expect(seenLocations.at(-1)?.pathname).toBe("/carte");
+    expect(seenLocations.at(-1)?.pathname).toBe("/carte/");
     expect(screen.getByRole("button", { name: "Carte" })).toHaveAttribute("aria-pressed", "true");
   });
 });
