@@ -7628,6 +7628,36 @@
     }
   },
   {
+    "id": "big-smash-paris-75018",
+    "name": "Big Smash Paris",
+    "slug": "big-smash-paris-75018",
+    "address": "148 avenue de Saint-Ouen",
+    "postalCode": "75018",
+    "city": "Paris",
+    "latitude": 48.8968869,
+    "longitude": 2.3291659,
+    "cuisineTypes": ["Restauration rapide"],
+    "vegetarianOptions": true,
+    "veganOptions": false,
+    "meatOptions": true,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "source": {
+      "label": "Big Smash : tableau des allergènes PDF publié par l'établissement",
+      "url": "https://cdn.prod.website-files.com/67d1526a4a9145ae97541f0d/681916480339e273bbeb0584_TABLEAU%20ALLERGE%CC%80NES.pdf",
+      "kind": "published"
+    },
+    "websiteUrl": "https://bigsmash.fr/",
+    "menuId": "menu-big-smash",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Big Smash ne couvrent pas les éléments suivants : les crevettes panées, le chicken pop-corn (nature ou épicé), le Big Mountain, le Surf Turf, la Big Salade, le Little Wrap Spicy, les frites épicées et le Big Sundae pistachio. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter une erreur : elles ne déclarent qu'en traces la moutarde de l'Original Cheese, dont la carte annonce la moutarde US.",
+    "description": "Smash burgers et poulet frit croustillant faits maison : burgers, hot-dogs, tacos, tenders et desserts glacés.",
+    "imageUrl": "https://cdn.prod.website-files.com/67d1526a4a9145ae97541f0d/6826ebbdd69897fd19caf5c8_DSC07222.webp",
+    "contact": {
+      "email": "sav@bigsmash.fr",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "blu-cafe-75002",
     "name": "Blu Café",
     "slug": "blu-cafe-75002",
@@ -8562,6 +8592,37 @@
     }
   },
   {
+    "id": "sawadee-75015",
+    "name": "Sawadee",
+    "slug": "sawadee-75015",
+    "address": "53 avenue Émile Zola",
+    "postalCode": "75015",
+    "city": "Paris",
+    "latitude": 48.8465306,
+    "longitude": 2.2836849,
+    "cuisineTypes": ["Restaurant thaï"],
+    "description": "Restaurant thaïlandais depuis 1988 : les plats emblématiques de la cuisine thaïe, produits français et épices d'Asie.",
+    "websiteUrl": "https://www.sawadeethai1988.com/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": true,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-09-27T00:00:00Z",
+    "source": {
+      "label": "Sawadee : matrice des allergènes du « Menu complet » PDF",
+      "url": "https://www.sawadeethai1988.com/wp-content/uploads/2024/10/Menu-Septembre-V3-2024.pdf",
+      "kind": "published"
+    },
+    "menuId": "menu-sawadee",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Sawadee ne couvrent pas les éléments suivants : les rouleaux frits (Thord Rummit), les assortiments de brochettes « Le Gourmand » et « Le Duo », le porc mariné 12 heures, l'émincé de bœuf au basilic et poivre vert, le brocoli sauté, les woks de courgette et de chou de Shanghai, la pavlova litchi et le dessert du moment. Ils ne sont donc pas repris sur ce site. Les informations publiées semblent également comporter une erreur : elles ne déclarent pas les mollusques de la sauce d'huître des légumes de saison.",
+    "imageUrl": "https://www.sawadeethai1988.com/wp-content/uploads/2021/11/CoverImageSawadeeHP.jpg",
+    "phone": "01 45 77 68 90",
+    "contact": {
+      "email": "contact@sawadeethai1988.com",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "land-monkeys-les-halles-75001",
     "name": "Land&Monkeys Les Halles",
     "slug": "land-monkeys-les-halles-75001",
@@ -9342,6 +9403,33 @@
     "phone": "01 43 57 33 42"
   },
   {
+    "id": "le-bon-la-butte-75018",
+    "name": "Le bon, la butte",
+    "slug": "le-bon-la-butte-75018",
+    "address": "102 ter rue Lepic",
+    "postalCode": "75018",
+    "city": "Paris",
+    "latitude": 48.8869926,
+    "longitude": 2.3378569,
+    "cuisineTypes": ["Restaurant français"],
+    "description": "Néo-bistrot de Montmartre du chef David Polin : carte de saison entre cuisine du marché, bodega et izakaya.",
+    "websiteUrl": "https://www.lebonlabutte.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": true,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-10-23T00:00:00Z",
+    "source": {
+      "label": "Le bon, la butte : allergènes indiqués plat par plat sur la carte du site",
+      "url": "https://www.lebonlabutte.fr/menus-carte/",
+      "kind": "published"
+    },
+    "menuId": "menu-le-bon-la-butte-75018",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Le bon, la butte ne couvrent pas l'élément suivant : les cannellonis de brousse corse. Il n'est donc pas repris sur ce site. Les informations publiées semblent également comporter des erreurs : elles ne déclarent ni le poisson de la bouillabaisse de rascasse, ni les mollusques de l'aïoli de poulpe, ni le lait des tomates-burrata, de la mousse de camembert et des fromages.",
+    "imageUrl": "https://ugc.zenchef.com/3/5/1/8/8/4/1/5/0/3/4/8/8/1540468753_374/0e969d42b7480a38b8e72334476e3a58.website.jpg",
+    "phone": "09 70 93 55 52"
+  },
+  {
     "id": "la-grande-ourse-75014",
     "name": "La Grande Ourse",
     "slug": "la-grande-ourse-75014",
@@ -9538,6 +9626,33 @@
       "email": "info@thewellingtonpubs.com",
       "scope": "restaurant"
     }
+  },
+  {
+    "id": "dochilak-75006",
+    "name": "Dochilak",
+    "slug": "dochilak-75006",
+    "address": "15 rue Littré",
+    "postalCode": "75006",
+    "city": "Paris",
+    "latitude": 48.8451399,
+    "longitude": 2.3242843,
+    "cuisineTypes": ["Restaurant coréen"],
+    "description": "Traiteur coréen et street food : poulet frit coréen, bibimbap au bol de pierre chaude, corn dogs, tteokbokki.",
+    "websiteUrl": "http://www.dochilak.com/",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Dochilak ne couvrent pas les éléments suivants : le dakgangjeong honey mustard, le chibap, les corn dogs, les tteokbokki et tteokkochi, les raviolis au poulet, le tiramisu injeolmi et le cheesecake au yuzu. Ils ne sont donc pas repris sur ce site.",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": true,
+    "allergenInformationAvailable": true,
+    "lastVerifiedAt": "2026-09-24T00:00:00Z",
+    "source": {
+      "label": "Dochilak : matrice des allergènes publiée en image par l'enseigne, septembre 2020",
+      "url": "https://dochilak.com/wp-content/uploads/Liste-Allerge%CC%80ne-DOCHILAK-CHICKN.jpg",
+      "kind": "published"
+    },
+    "menuId": "menu-dochilak",
+    "imageUrl": "https://dochilak.com/wp-content/uploads/113B6347-.jpg",
+    "phone": "01 42 22 16 48"
   },
   {
     "id": "higuma-75001",
@@ -16472,6 +16587,27 @@
     }
   },
   {
+    "id": "divellec-75007",
+    "name": "Divellec",
+    "slug": "divellec-75007",
+    "address": "18 rue Fabert",
+    "postalCode": "75007",
+    "city": "Paris",
+    "latitude": 48.861019,
+    "longitude": 2.311303,
+    "cuisineTypes": ["Restaurant de fruits de mer"],
+    "websiteUrl": "https://www.divellec-paris.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "contact@divellec-paris.fr",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "django-75009",
     "name": "Django",
     "slug": "django-75009",
@@ -17820,6 +17956,27 @@
     "phone": "+33 1 44 63 82 62"
   },
   {
+    "id": "hanami-taiyaki-coffeeshop-icecream-75003",
+    "name": "Hanami Taiyaki - Coffeeshop Icecream",
+    "slug": "hanami-taiyaki-coffeeshop-icecream-75003",
+    "address": "25 rue des Gravilliers",
+    "postalCode": "75003",
+    "city": "Paris",
+    "latitude": 48.863793,
+    "longitude": 2.356717,
+    "cuisineTypes": ["Boutique de desserts"],
+    "websiteUrl": "https://hanamitaiyaki.com/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "contact@hanamitaiyaki.com",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "hanami-teatime-75003",
     "name": "Hanami Teatime",
     "slug": "hanami-teatime-75003",
@@ -18122,6 +18279,28 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 42 81 91 00"
+  },
+  {
+    "id": "villa-m-75015",
+    "name": "Villa M",
+    "slug": "villa-m-75015",
+    "address": "28 boulevard Pasteur",
+    "postalCode": "75015",
+    "city": "Paris",
+    "latitude": 48.842292,
+    "longitude": 2.312461,
+    "cuisineTypes": ["Restaurant méditerranéen"],
+    "websiteUrl": "https://www.hotelvillam-paris15.com/restaurant-bar",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "reception@hotelvillam-paris.com",
+      "scope": "restaurant"
+    },
+    "phone": "+33 1 70 61 70 40"
   },
   {
     "id": "la-mesa-de-hoy-75009",
@@ -19859,6 +20038,27 @@
     "phone": "+33 1 40 39 93 70"
   },
   {
+    "id": "la-guinguette-de-la-ressourcerie-creative-75014",
+    "name": "La Guinguette de la Ressourcerie Créative",
+    "slug": "la-guinguette-de-la-ressourcerie-creative-75014",
+    "address": "Square du serment de Koufra, 187 rue de la Légion Étrangère",
+    "postalCode": "75014",
+    "city": "Paris",
+    "latitude": 48.821684,
+    "longitude": 2.322595,
+    "cuisineTypes": ["Bar"],
+    "websiteUrl": "https://www.laressourceriecreative.com/la-guinguette",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "contact@laressourceriecreative.com",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "l-argument-75015",
     "name": "L'Argument",
     "slug": "l-argument-75015",
@@ -20294,6 +20494,28 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 43 87 73 83"
+  },
+  {
+    "id": "le-baili-restaurant-mexicain-75020",
+    "name": "Le Baïli - Restaurant Mexicain",
+    "slug": "le-baili-restaurant-mexicain-75020",
+    "address": "29 rue Saint-Blaise",
+    "postalCode": "75020",
+    "city": "Paris",
+    "latitude": 48.859078,
+    "longitude": 2.405741,
+    "cuisineTypes": ["Restaurant mexicain"],
+    "websiteUrl": "https://www.lebaili.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "lebailiparis@gmail.com",
+      "scope": "restaurant"
+    },
+    "phone": "+33 1 89 32 18 23"
   },
   {
     "id": "l-ebauchoir-75012",
@@ -21098,6 +21320,28 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 42 97 40 68"
+  },
+  {
+    "id": "le-miami-75014",
+    "name": "Le Miami",
+    "slug": "le-miami-75014",
+    "address": "2 rue Émile Faguet",
+    "postalCode": "75014",
+    "city": "Paris",
+    "latitude": 48.821993,
+    "longitude": 2.330037,
+    "cuisineTypes": ["Bar à chicha"],
+    "websiteUrl": "https://lemiami.eatbu.com/?lang=fr",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "lemiami75014@gmail.com",
+      "scope": "restaurant"
+    },
+    "phone": "+33 9 50 98 78 21"
   },
   {
     "id": "lemoni-cafe-75001",
@@ -23970,6 +24214,27 @@
     }
   },
   {
+    "id": "oh-la-saucisse-hot-dog-75016",
+    "name": "Oh la saucisse - Hot dog",
+    "slug": "oh-la-saucisse-hot-dog-75016",
+    "address": "1 rue Bosio",
+    "postalCode": "75016",
+    "city": "Paris",
+    "latitude": 48.849035,
+    "longitude": 2.265155,
+    "cuisineTypes": ["Restaurant américain"],
+    "websiteUrl": "https://www.ohlasaucisse.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "ohlasaucisse@gmail.com",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "oh-vin-dieu-75008",
     "name": "Oh Vin Dieu !",
     "slug": "oh-vin-dieu-75008",
@@ -24054,6 +24319,27 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 44 78 09 19"
+  },
+  {
+    "id": "original-green-75008",
+    "name": "Original Green",
+    "slug": "original-green-75008",
+    "address": "27 rue de Saint-Pétersbourg",
+    "postalCode": "75008",
+    "city": "Paris",
+    "latitude": 48.88195,
+    "longitude": 2.325594,
+    "cuisineTypes": ["Traiteur"],
+    "websiteUrl": "https://www.originalgreen.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "contact@originalgreen.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "oronza-75005",
@@ -24314,6 +24600,27 @@
       "scope": "restaurant"
     },
     "phone": "+33 1 88 48 40 70"
+  },
+  {
+    "id": "le-papacionu-75009",
+    "name": "Le Papacionu",
+    "slug": "le-papacionu-75009",
+    "address": "7 rue Cadet",
+    "postalCode": "75009",
+    "city": "Paris",
+    "latitude": 48.874817,
+    "longitude": 2.342791,
+    "cuisineTypes": ["Pizzeria"],
+    "websiteUrl": "https://papacionuparis.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "contact@papacionuparis.fr",
+      "scope": "restaurant"
+    }
   },
   {
     "id": "dans-le-noir-75004",
@@ -26010,6 +26317,28 @@
     "phone": "+33 6 84 05 89 54"
   },
   {
+    "id": "chez-bebert-75006",
+    "name": "Chez Bébert",
+    "slug": "chez-bebert-75006",
+    "address": "71 boulevard du Montparnasse",
+    "postalCode": "75006",
+    "city": "Paris",
+    "latitude": 48.843889,
+    "longitude": 2.324556,
+    "cuisineTypes": ["Restaurant méditerranéen"],
+    "websiteUrl": "https://restaurantchezbebert.com/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "chezbebert.montparnasse@gmail.com",
+      "scope": "restaurant"
+    },
+    "phone": "+33 1 42 22 55 31"
+  },
+  {
     "id": "coretta-75017",
     "name": "Coretta",
     "slug": "coretta-75017",
@@ -26662,6 +26991,27 @@
     }
   },
   {
+    "id": "da-pupetta-75015",
+    "name": "Da Pupetta",
+    "slug": "da-pupetta-75015",
+    "address": "55 rue Brancion",
+    "postalCode": "75015",
+    "city": "Paris",
+    "latitude": 48.833081,
+    "longitude": 2.303923,
+    "cuisineTypes": ["Restaurant italien"],
+    "websiteUrl": "https://www.ristoranteitalianodapupetta.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "ristoranteitalianodapupetta@gmail.com",
+      "scope": "restaurant"
+    }
+  },
+  {
     "id": "riviera-fuga-75007",
     "name": "Riviera Fuga",
     "slug": "riviera-fuga-75007",
@@ -26920,6 +27270,28 @@
       "scope": "enseigne"
     },
     "phone": "+33 1 42 01 43 18"
+  },
+  {
+    "id": "restaurant-royal-pokhara-75010",
+    "name": "Restaurant Royal Pokhara",
+    "slug": "restaurant-royal-pokhara-75010",
+    "address": "229 rue du Faubourg Saint-Martin",
+    "postalCode": "75010",
+    "city": "Paris",
+    "latitude": 48.88184,
+    "longitude": 2.365823,
+    "cuisineTypes": ["Indienne"],
+    "websiteUrl": "https://royalpokhara.fr/",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "royalpokhara@gmail.com",
+      "scope": "restaurant"
+    },
+    "phone": "+33 1 42 09 66 57"
   },
   {
     "id": "safe-urban-concept-75003",
@@ -27393,6 +27765,28 @@
       "scope": "restaurant"
     },
     "phone": "+33 6 18 83 36 66"
+  },
+  {
+    "id": "louise-75015",
+    "name": "Louise",
+    "slug": "louise-75015",
+    "address": "11 rue Tisserand",
+    "postalCode": "75015",
+    "city": "Paris",
+    "latitude": 48.840336,
+    "longitude": 2.285105,
+    "cuisineTypes": ["Bar à vin"],
+    "websiteUrl": "https://sharies.co/fr/restaurants/louise",
+    "vegetarianOptions": false,
+    "veganOptions": false,
+    "meatOptions": false,
+    "allergenInformationAvailable": false,
+    "lastVerifiedAt": "2026-08-10T00:00:00Z",
+    "contact": {
+      "email": "hello@sharies.co",
+      "scope": "restaurant"
+    },
+    "phone": "+33 7 57 60 38 88"
   },
   {
     "id": "shim-kafe-75020",

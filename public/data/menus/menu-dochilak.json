@@ -1,0 +1,309 @@
+{
+  "menuId": "menu-dochilak",
+  "restaurantId": "dochilak-75006",
+  "categories": [
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "dochilak-plats-dakgangjeong-nature",
+          "name": "Dakgangjeong nature",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet frit coréen. Petite portion (150 g) 7,90 €, grande portion (300 g) 14,90 €.",
+          "price": 7.9
+        },
+        {
+          "id": "dochilak-plats-dakgangjeong-yangnyeom",
+          "name": "Dakgangjeong Yangnyeom",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet frit coréen, sauce sucrée et épicée. Petite portion (150 g) 7,90 €, grande portion (300 g) 14,90 €.",
+          "price": 7.9
+        },
+        {
+          "id": "dochilak-plats-dakgangjeong-soy-garlic",
+          "name": "Dakgangjeong Soy Garlic",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet frit coréen, sauce ail et sauce soja. Petite portion (150 g) 7,90 €, grande portion (300 g) 14,90 €.",
+          "price": 7.9
+        },
+        {
+          "id": "dochilak-plats-bibimbap-legumes",
+          "name": "Bibimbap légumes",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz, légumes et garniture, servi dans un bol en pierre chaude.",
+          "price": 12.9
+        },
+        {
+          "id": "dochilak-plats-bibimbap-boeuf",
+          "name": "Bibimbap bœuf",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz, légumes et bœuf, servi dans un bol en pierre chaude.",
+          "price": 13.9
+        },
+        {
+          "id": "dochilak-plats-bibimbap-poulet",
+          "name": "Bibimbap poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz, légumes et poulet, servi dans un bol en pierre chaude.",
+          "price": 13.9
+        },
+        {
+          "id": "dochilak-plats-bibimbap-tofu",
+          "name": "Bibimbap tofu",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz, légumes et tofu, servi dans un bol en pierre chaude.",
+          "price": 13.9
+        }
+      ]
+    },
+    {
+      "category": "Tapas coréens",
+      "dishes": [
+        {
+          "id": "dochilak-tapas-coreens-japchae",
+          "name": "Japchae",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Vermicelle sauté aux légumes.",
+          "price": 7
+        },
+        {
+          "id": "dochilak-tapas-coreens-kimchi",
+          "name": "Kimchi",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chou fermenté épicé.",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "category": "Accompagnements",
+      "dishes": [
+        {
+          "id": "dochilak-accompagnements-riz-nature",
+          "name": "Riz nature",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 2.5
+        },
+        {
+          "id": "dochilak-accompagnements-frites",
+          "name": "Frites",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.5
+        },
+        {
+          "id": "dochilak-accompagnements-salade-verte",
+          "name": "Salade verte",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
+        {
+          "id": "dochilak-desserts-tiramisu-matcha",
+          "name": "Tiramisu Matcha",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Quatre-quarts, coulis de matcha, mascarpone.",
+          "price": 4.5
+        }
+      ]
+    }
+  ]
+}
