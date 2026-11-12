@@ -8,6 +8,11 @@ export default defineConfig({
   use: {
     baseURL: "http://localhost:4173",
     trace: "on-first-retry",
+    screenshot: "only-on-failure",
+  },
+  expect: {
+    // Anti-aliasing varies by a few pixels between runs; a layout change moves far more.
+    toHaveScreenshot: { maxDiffPixelRatio: 0.002 },
   },
   webServer: {
     // vite build rather than npm run build: the journey runs in the client on its own data, and
