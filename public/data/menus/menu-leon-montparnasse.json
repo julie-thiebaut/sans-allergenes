@@ -6,14 +6,14 @@
       "category": "TAPAS DE LA MER",
       "dishes": [
         {
-          "id": "leon-fritures-de-petits-poissons",
-          "name": "Fritures de petits poissons",
-          "price": 4.9,
+          "id": "leon-crousti-gaufrettes",
+          "name": "Crousti’ gaufrettes",
+          "price": 5.5,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
@@ -26,6 +26,71 @@
             "mollusques": "not_declared"
           },
           "description": "Sauce tartare"
+        },
+        {
+          "id": "leon-rillettes-de-thon",
+          "name": "Rillettes de thon",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sauce curry"
+        },
+        {
+          "id": "leon-moules-gratinees",
+          "name": "Moules gratinées",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Sauce crémeuse citron moutarde, Emmental"
+        },
+        {
+          "id": "leon-fish-croquettes",
+          "name": "Fish croquettes",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         },
         {
           "id": "leon-beignets-de-calamars",
@@ -47,61 +112,17 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Mayo sriracha"
+          "description": "Sauce mayo sriracha"
         },
         {
-          "id": "leon-moules-gratinees",
-          "name": "Moules gratinées",
-          "price": 5.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Beurre à l’ail, Emmental"
-        },
-        {
-          "id": "leon-rillettes-de-thon",
-          "name": "Rillettes de thon",
-          "price": 4.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Sauce moutardée estragon, oignons frits"
-        },
-        {
-          "id": "leon-fish-croquettes",
-          "name": "Fish croquettes",
+          "id": "leon-croquettes-de-raclette-fumee",
+          "name": "Croquettes de raclette fumée",
           "price": 6.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
@@ -112,18 +133,61 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "leon-friture-de-moules",
+          "name": "Friture de moules",
+          "price": 7.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
           },
-          "description": "Saumon, églefin, ail"
+          "description": "Sauce tartare"
+        },
+        {
+          "id": "leon-minis-fish-chips",
+          "name": "Minis Fish & Chips",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sauce tartare"
         }
       ]
     },
     {
-      "category": "Cocottes",
+      "category": "Les moules - Cocottes",
       "dishes": [
         {
           "id": "leon-traditionnelle",
           "name": "Traditionnelle",
-          "price": 14.5,
+          "price": 13.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -167,7 +231,7 @@
         {
           "id": "leon-curry-madras",
           "name": "Curry Madras",
-          "price": 16.5,
+          "price": 17.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -189,7 +253,7 @@
         {
           "id": "leon-leon",
           "name": "LÉON",
-          "price": 16.9,
+          "price": 17.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -211,7 +275,7 @@
         {
           "id": "leon-roquefort-aop",
           "name": "Roquefort AOP",
-          "price": 18.9,
+          "price": 19.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -231,9 +295,53 @@
           "description": "Roquefort AOP, crème fraîche, échalotes, vin blanc"
         },
         {
-          "id": "leon-djionnaise",
-          "name": "Djionnaise",
-          "price": 17.5,
+          "id": "leon-4-fromages",
+          "name": "4 fromages",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Sauce crémeuse raclette fumée, sauce Cheddar, Grana Padano AOP, Emmental, oignons crispy"
+        },
+        {
+          "id": "leon-ardennaise",
+          "name": "Ardennaise",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Crispy bacon fumé, champignons, crème fraîche, vin blanc"
+        },
+        {
+          "id": "leon-dijonnaise",
+          "name": "Dijonnaise",
+          "price": 19.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -250,29 +358,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Moutarde de Dijon, crème fraîche, moutarde à l’ancienne, échalotes, estragon, vin blanc"
-        },
-        {
-          "id": "leon-ail-fines-herbes",
-          "name": "Ail & fines herbes",
-          "price": 17.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Sauce fromagère ail et fines herbes, ail confit"
+          "description": "Moutardes de Dijon, crème fraîche, échalote, estragon, vin blanc"
         }
       ]
     },
@@ -282,7 +368,7 @@
         {
           "id": "leon-burger-classique",
           "name": "Burger Classique",
-          "price": 15.2,
+          "price": 15.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -299,12 +385,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Steak haché de boeuf, sauce Cheddar, oignons confits, romaine, oignons crispy, sauce burger, cornichon aigre doux, frites"
+          "description": "Steak haché de bœuf, sauce Cheddar, oignons confits, romaine, oignons crispy, sauce burger, cornichon aigre doux, frites"
         },
         {
           "id": "leon-burger-crispy-chicken",
           "name": "Burger Crispy Chicken",
-          "price": 13.9,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -326,7 +412,7 @@
         {
           "id": "leon-burger-crispy-veggie",
           "name": "Burger Crispy Veggie",
-          "price": 13.9,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -347,7 +433,7 @@
         {
           "id": "leon-entrecote",
           "name": "Entrecôte",
-          "price": 24.5,
+          "price": 25.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -364,7 +450,77 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sauce Roquefort AOP, frites"
+          "description": "Sauce Roquefort, frites"
+        }
+      ]
+    },
+    {
+      "category": "SALADES",
+      "dishes": [
+        {
+          "id": "leon-salade-caesar-poulet",
+          "name": "Salade Caesar Poulet",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet croustillant, Grana Padano AOP, romaine, sauce caesar, croûtons"
+        },
+        {
+          "id": "leon-salade-caesar-veggie",
+          "name": "Salade Caesar Veggie",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "leon-salade-creamy-saumon",
+          "name": "Salade Creamy Saumon",
+          "price": 18.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Saumon, pommes de terre rôties, oignons rouges, sauce crémeuse moutardée, échalotes confites, huile au paprika fumé"
         }
       ]
     },
@@ -391,7 +547,28 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "par personne / Minimum 2 personnes Moules, crevettes roses, blanc de seiche, noix de Saint- Jacques, coquillages, maïs, pomme de terre, gousses"
+          "description": "par personne / Minimum 2 personnes"
+        },
+        {
+          "id": "leon-demi-crabe-tourteau",
+          "name": "Demi Crabe (tourteau)",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         },
         {
           "id": "leon-homard-entier",
@@ -417,95 +594,51 @@
       ]
     },
     {
-      "category": "POISSONS",
+      "category": "TAPAS DE LA MER - À partager",
       "dishes": [
         {
-          "id": "leon-parmentier-de-poisson",
-          "name": "Parmentier de poisson",
-          "price": 12.9,
+          "id": "leon-fritto-misto",
+          "name": "Fritto Misto",
+          "price": 16.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "present"
           },
-          "description": "Purée de pommes de terre, filet d’églefin, emmental, échalotes, ail confit"
+          "description": "Beignets de calamars, Crousti’ gaufrettes, fish croquettes, sauce tartare"
         },
         {
-          "id": "leon-cassolette-leon",
-          "name": "Cassolette LÉON",
-          "price": 16.9,
+          "id": "leon-fritto-misto-xxl",
+          "name": "Fritto Misto XXL",
+          "price": 26.5,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "present",
             "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
+            "celeri": "present",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Saumon, dos de merlu blanc, moules, pommes de terre, sauce crémeuse citron sriracha"
-        },
-        {
-          "id": "leon-pave-de-saumon-teriyaki",
-          "name": "Pavé de saumon Teriyaki",
-          "price": 19.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Purée de pommes de terre, sauce vierge"
-        },
-        {
-          "id": "leon-homard-roti-selon-arrivage",
-          "name": "Homard rôti (selon arrivage)",
-          "price": 29.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Homard américain ou canadien (env.500g), beurre demi-sel, frites"
+          "description": "Crevettes panées coco, minis fish & chips, calamar rings, fish croquettes, moules panées, frites, sauces tartare, mayo sriracha et burger"
         }
       ]
     },
@@ -515,7 +648,7 @@
         {
           "id": "leon-calamar",
           "name": "Calamar",
-          "price": 14.9,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -532,7 +665,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Beignets de calamar, sauce sriracha, frites"
+          "description": "Beignets de calamar, sauce mayo sriracha, frites"
         },
         {
           "id": "leon-original",
@@ -557,28 +690,6 @@
           "description": "Beignets d’églefin, sauce tartare, frites"
         },
         {
-          "id": "leon-bar",
-          "name": "Bar",
-          "price": 18.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Beignets de bar, sauce tartare, frites"
-        },
-        {
           "id": "leon-saumon",
           "name": "Saumon",
           "price": 19.9,
@@ -598,12 +709,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Beignets de saumon, sauce sour cream, frites"
+          "description": "Beignets de saumon, sauce crémeuse moutardée, frites"
         },
         {
-          "id": "leon-fish-chips-mix-solo",
-          "name": "Fish & Chips Mix solo",
-          "price": 16.9,
+          "id": "leon-mix-platter",
+          "name": "Mix Platter",
+          "price": 18.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -620,7 +731,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Beignet d’églefin, beignet de saumon, beignets de calamar, mayo sriracha, frites"
+          "description": "Beignet d’églefin, beignet de saumon, beignets de calamar, sauce mayo sriracha, frites"
         },
         {
           "id": "leon-burger-cheesy-leon",
@@ -647,33 +758,82 @@
       ]
     },
     {
+      "category": "POISSONS",
+      "dishes": [
+        {
+          "id": "leon-fish-parmentier",
+          "name": "Fish parmentier",
+          "price": 12.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Purée de pomme de terre, sauce crémeuse citron, échalotes confites, ail, Emmental"
+        },
+        {
+          "id": "leon-cassolette-leon",
+          "name": "Cassolette LÉON",
+          "price": 17.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Saumon, dos de merlu blanc, moules, pommes de terre et patates douces rôties, sauce crémeuse citron sriracha"
+        },
+        {
+          "id": "leon-pave-de-saumon-teriyaki",
+          "name": "Pavé de saumon Teriyaki",
+          "price": 19.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "description": "Pommes de terre et patates douces rôties, sauce crémeuse citron sriracha"
+        }
+      ]
+    },
+    {
       "category": "FISH & CHIPS - À partager",
       "dishes": [
         {
-          "id": "leon-fish-chips-mix-duo-2-pers",
-          "name": "Fish & Chips Mix Duo (2 pers)",
-          "price": 29.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Beignets d’églefin, beignets de saumon, beignets de calamar, sauce tartare, sauce sriracha, frites"
-        },
-        {
           "id": "leon-le-fish-chips-geant-2-pers",
-          "name": "Le Fish & Chips Géant (2 pers)",
+          "name": "Le Fish & Chips Géant (2 pers.)",
           "price": 29.9,
           "allergens": {
             "gluten": "present",
@@ -684,79 +844,52 @@
             "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "present",
+            "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Beignet de lieu noir (env. 400gr) sauce tartare, frites"
+          "description": "Beignet géant de lieu noir, sauce mayo sriracha, sauce tartare, frites"
         }
       ]
     },
     {
-      "category": "À PARTAGER",
+      "category": "Les moules - Gratinées",
       "dishes": [
         {
-          "id": "leon-le-fritto-misto-leon",
-          "name": "Le Fritto misto LEON",
-          "price": 14.9,
+          "id": "leon-gratinees-leon",
+          "name": "LÉON",
+          "price": 16.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Fish croquettes, beignets de calamars, friture de petits poissons, sauce tartare"
+          "description": "Sauce crémeuse citron Grana Padano AOP, Emmental"
         },
         {
-          "id": "leon-giant-platter",
-          "name": "Giant Platter",
-          "price": 24.9,
+          "id": "leon-raclette-fumee",
+          "name": "Raclette fumée",
+          "price": 17.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Crevettes panées, beignets de merlu blanc, calamar rings, fish croquettes, moules panées, frites, sauces tartare, mayo sriracha et burger"
-        }
-      ]
-    },
-    {
-      "category": "Spéciales - Gratinées",
-      "dishes": [
-        {
-          "id": "leon-chevre-tomate",
-          "name": "Chèvre tomate",
-          "price": 17.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
@@ -767,66 +900,17 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Morceaux de chèvre, sauce tomate basilic, sauce fromagère au chèvre, Emmental, huile de basilic"
+          "description": "Raclette fumée, sauce crémeuse citron"
         }
       ]
     },
     {
-      "category": "Spéciales - Plancha",
+      "category": "Les moules - Signatures",
       "dishes": [
         {
-          "id": "leon-chevre-basilic",
-          "name": "Chèvre basilic",
-          "price": 18.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Moules, morceaux de chèvre, courgette, tomates cerise, sauce fromagère au chèvre, sauce tomate basilic, oignons rouges, huile de basilic"
-        },
-        {
-          "id": "leon-piperade",
-          "name": "Piperade",
-          "price": 18.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Moules, Chorizo, crème de poivrons, sauce piperade, crème fraîche"
-        }
-      ]
-    },
-    {
-      "category": "Spéciales - Signatures",
-      "dishes": [
-        {
-          "id": "leon-pasta-leon",
-          "name": "Pasta LÉON",
-          "price": 16.9,
+          "id": "leon-pasta-crevettes",
+          "name": "Pasta crevettes",
+          "price": 16.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
@@ -843,7 +927,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Rigatoni, moules, crevettes, sauce crémeuse citron, Grana Padano AOP"
+          "description": "Linguine, moules, crevettes roses, sauce crémeuse citron Grana Padano AOP, zeste de citron vert"
         },
         {
           "id": "leon-paella-leon",
@@ -865,94 +949,108 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "Moules, encornets, crevettes, Chorizo, poivrons, tomates cerise, fèves, oignons, ail confit, riz"
+          "description": "Moules, encornets, crevettes, Chorizo, poivrons, fèves, oignons, ail confit, riz"
         }
       ]
     },
     {
-      "category": "SALADES",
+      "category": "Garnitures",
       "dishes": [
         {
-          "id": "leon-salade-caesar-poulet",
-          "name": "Salade Caesar Poulet",
-          "price": 13.9,
+          "id": "leon-garniture-frites",
+          "name": "Garniture : frites",
+          "price": 4,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Poulet croustillant, Grana Padano AOP, romaine, sauce caesar, croûtons"
-        },
-        {
-          "id": "leon-salade-caesar-veggie",
-          "name": "Salade Caesar Veggie",
-          "price": 13.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "leon-salade-caesar-saumon",
-          "name": "Salade Caesar Saumon",
-          "price": 15.9,
+          "id": "leon-garniture-pommes-de-terre-et-patates-douces-roties",
+          "name": "Garniture : pommes de terre et patates douces rôties",
+          "price": 4,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Saumon, Grana Padano AOP, romaine, sauce caesar, croûtons"
-        }
-      ]
-    },
-    {
-      "category": "GAUFRES",
-      "dishes": [
-        {
-          "id": "leon-gaufre-au-sucre",
-          "name": "Gaufre au sucre",
-          "price": 4.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "leon-garniture-haricots-verts",
+          "name": "Garniture : haricots verts",
+          "price": 4,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "leon-garniture-riz-pilaf",
+          "name": "Garniture : riz pilaf",
+          "price": 4,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "leon-garniture-puree-de-pommes-de-terre",
+          "name": "Garniture : purée de pommes de terre",
+          "price": 4,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -964,9 +1062,35 @@
           }
         },
         {
-          "id": "leon-gaufre-creme-brulee",
-          "name": "Gaufre crème brûlée",
-          "price": 5.5,
+          "id": "leon-garniture-salade",
+          "name": "Garniture : salade",
+          "price": 4,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "GAUFRES",
+      "dishes": [
+        {
+          "id": "leon-gaufre-au-sucre",
+          "name": "Gaufre au sucre",
+          "price": 4.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1004,7 +1128,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Crème glacée vanille, sauce au chocolat, crème fouettée"
+          "description": "Glace vanille, sauce au chocolat, crème fouettée"
         },
         {
           "id": "leon-gaufre-tatin-facon-pain-perdu",
@@ -1026,257 +1150,21 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pommes caramélisées, crème glacée vanille, sauce caramel beurre salé, crème fouettée"
-        }
-      ]
-    },
-    {
-      "category": "Compose ta Gaufre",
-      "dishes": [
-        {
-          "id": "leon-topping-compotee-de-fruits-rouges",
-          "name": "Topping compotée de fruits rouges",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
+          "description": "Pommes caramélisées, glace vanille, sauce caramel beurre salé, crème fouettée"
         },
         {
-          "id": "leon-topping-compotee-de-fruit-de-la-passion",
-          "name": "Topping compotée de fruit de la passion",
-          "price": 1,
+          "id": "leon-gaufre-creme-brulee",
+          "name": "Gaufre Crème brûlée",
+          "price": 6.9,
           "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-sauce-chocolat-noisette",
-          "name": "Topping sauce chocolat noisette",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-sauce-chocolat",
-          "name": "Topping sauce chocolat",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-sauce-caramel-beurre-sale",
-          "name": "Topping sauce caramel beurre salé",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-des-d-ananas",
-          "name": "Topping dés d'ananas",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-glace-vanille",
-          "name": "Topping glace vanille",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-creme-anglaise",
-          "name": "Topping crème anglaise",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-creme-fouettee",
-          "name": "Topping crème fouettée",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-pop-corn",
-          "name": "Topping pop corn",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-eclats-de-pistache",
-          "name": "Topping éclats de pistache",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "leon-topping-pepites-caramelisees",
-          "name": "Topping pépites caramélisées",
-          "price": 1,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -1293,15 +1181,15 @@
         {
           "id": "leon-salade-de-fruits",
           "name": "Salade de fruits",
-          "price": 4.9,
+          "price": 5.1,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -1336,7 +1224,7 @@
         {
           "id": "leon-mi-cuit-au-chocolat",
           "name": "Mi-cuit au chocolat",
-          "price": 6.9,
+          "price": 7.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1386,7 +1274,7 @@
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
@@ -1397,298 +1285,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Mousse mascarpone fruits rouges, crème brûlée brownie, salade de fruits, gaufre"
-        }
-      ]
-    },
-    {
-      "category": "Coupes Glacées",
-      "dishes": [
-        {
-          "id": "leon-brownie",
-          "name": "Brownie",
-          "price": 7.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Glace vanille, glace chocolat, morceaux de brownies, sauce chocolat noisette, grué de cacao, cacao en poudre, crème fouettée"
-        },
-        {
-          "id": "leon-exotique",
-          "name": "Exotique",
-          "price": 7.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Glace noix de coco, sorbet fruit de la passion, compotée de fruit de la passion, ananas, noix de coco râpée, zeste de citron vert, crème fouettée, gaufre"
-        },
-        {
-          "id": "leon-tiramisu-fruits-rouges",
-          "name": "Tiramisu fruits rouges",
-          "price": 8.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Glace vanille, sorbet fruits rouges, biscuit cuillère, compotée de fruits rouges, mousse mascarpone pistache, crème fouettée, palmier"
-        },
-        {
-          "id": "leon-glace-cafe",
-          "name": "Glace café",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-glace-chocolat",
-          "name": "Glace chocolat",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-glace-vanille",
-          "name": "Glace vanille",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-glace-caramel-beurre-sale",
-          "name": "Glace caramel beurre salé",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-glace-pistache",
-          "name": "Glace pistache",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-glace-noix-de-coco",
-          "name": "Glace noix de coco",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-sorbet-framboise",
-          "name": "Sorbet framboise",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-sorbet-fraise",
-          "name": "Sorbet fraise",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-sorbet-citron",
-          "name": "Sorbet citron",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
-        },
-        {
-          "id": "leon-sorbet-fruit-de-la-passion",
-          "name": "Sorbet fruit de la passion",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Format : 2 boules 5 € / 3 boules 6 €."
+          "description": "Mousse Montblanc myrtilles, crème brûlée, pommes rôties, salade de fruits, gaufre"
         }
       ]
     },
@@ -1698,7 +1295,7 @@
         {
           "id": "leon-chardonnay-sur-mer",
           "name": "Chardonnay sur mer",
-          "price": 5.5,
+          "price": 5.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1715,7 +1312,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Format : Verre 14 cl 5,50 € / Verre 20 cl 6,20 € / Pot 46 cl 14,20 € / Bouteille 75 cl 25 €."
+          "description": "Format : Verre 14 cl 5,90 € / Verre 20 cl 6,50 € / Pot 46 cl 14,50 € / Bouteille 75 cl 25 €."
         },
         {
           "id": "leon-rose-sur-mer",
@@ -1737,7 +1334,298 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Format : Verre 14 cl 5,50 € / Verre 20 cl 6,20 € / Pot 46 cl 11,90 € / Bouteille 75 cl 19,90 €."
+          "description": "Format : Verre 14 cl 5,50 € / Verre 20 cl 6,20 € / Pot 46 cl 11,90 € / Bouteille 75 cl 19,50 €."
+        }
+      ]
+    },
+    {
+      "category": "Coupes glacées",
+      "dishes": [
+        {
+          "id": "leon-brownie",
+          "name": "Brownie",
+          "price": 8.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Glace vanille, glace chocolat, morceaux de brownies, sauce chocolat noisette, grué de cacao, cacao en poudre, crème fouettée"
+        },
+        {
+          "id": "leon-montblanc-myrtille",
+          "name": "Montblanc Myrtille",
+          "price": 8.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Glace vanille, mousse de marron, compotée de myrtilles, crème de marron, crème fouettée, mousse BeNuts*, granola sucré"
+        },
+        {
+          "id": "leon-tatin",
+          "name": "Tatin",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème glacée caramel beurre salé, compotée de pommes caramélisées, sauce caramel beurre salé, crème fouettée, palmier"
+        },
+        {
+          "id": "leon-glace-cafe",
+          "name": "Glace café",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-glace-chocolat",
+          "name": "Glace chocolat",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-glace-vanille",
+          "name": "Glace vanille",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-creme-glacee-caramel-beurre-sale",
+          "name": "Crème glacée caramel beurre salé",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-creme-glacee-cacahuete",
+          "name": "Crème glacée cacahuète",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-glace-noix-de-coco",
+          "name": "Glace noix de coco",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-sorbet-framboise",
+          "name": "Sorbet framboise",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-sorbet-fraise",
+          "name": "Sorbet fraise",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-sorbet-citron",
+          "name": "Sorbet citron",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
+        },
+        {
+          "id": "leon-sorbet-fruit-de-la-passion",
+          "name": "Sorbet fruit de la passion",
+          "price": 5.7,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : 2 boules 5,70 € / 3 boules 6,80 €."
         }
       ]
     }

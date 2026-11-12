@@ -24,7 +24,51 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sans Gluten – Sans fruits à coques C’est notre seule recette sans aucuns fruits à coques. Contient : Oeuf (blanc d’oeuf pasteurisé) / Lait (beurre). Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings à volonté 2 €.",
+          "description": "Blanc d’œuf pasteurisé ; seule Cookie Dough sans fruits à coque. Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings 0,90 € l'unité ou 2 € à volonté.",
+          "price": 6.5
+        },
+        {
+          "id": "cupkie-cookie-dough-brookie-choco-caramel-pecan",
+          "name": "Brookie choco caramel pécan",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings 0,90 € l'unité ou 2 € à volonté.",
+          "price": 6.5
+        },
+        {
+          "id": "cupkie-cookie-dough-originale-praline-crunchy",
+          "name": "Originale praliné crunchy",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings 0,90 € l'unité ou 2 € à volonté.",
           "price": 6.5
         },
         {
@@ -46,7 +90,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sans Gluten – 100% Vegan Contient : Fruits à coque (purée d’amandes Bio + lait d’amandes). Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings à volonté 2 €.",
+          "description": "Purée d’amandes bio + lait d’amandes. Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings 0,90 € l'unité ou 2 € à volonté.",
           "price": 6.5,
           "tags": [
             "vegan"
@@ -71,11 +115,1023 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sans Gluten – 100% Vegan C’est notre seul produit contenant des Arachides (en + des toppings M&Ms et Coulis beurre de cacahuètes). Contient : Fruits à coque (lait d’amandes, lait de noisette) / Arachides (beurre de cacahuètes). Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings à volonté 2 €.",
+          "description": "Format : cup 6,50 € / XL 8 € / Kid's cup 5,90 € ; nappage offert, toppings 0,90 € l'unité ou 2 € à volonté.",
           "price": 6.5,
           "tags": [
             "vegan"
           ]
+        }
+      ]
+    },
+    {
+      "category": "Nappages",
+      "dishes": [
+        {
+          "id": "cupkie-nappages-nutella",
+          "name": "Nutella",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        },
+        {
+          "id": "cupkie-nappages-nocciolata",
+          "name": "Nocciolata",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        },
+        {
+          "id": "cupkie-nappages-coulis-praline-crunchy-noisettes-amandes-maison",
+          "name": "Coulis praliné crunchy noisettes amandes maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-nappages-coulis-praline-noix-de-pecan-maison",
+          "name": "Coulis praliné noix de pécan maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-nappages-coulis-praline-gianduja-chocolat-au-lait-maison",
+          "name": "Coulis praliné gianduja chocolat au lait maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        },
+        {
+          "id": "cupkie-nappages-coulis-choco-noir",
+          "name": "Coulis choco noir",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-nappages-coulis-choco-blanc",
+          "name": "Coulis choco blanc",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        },
+        {
+          "id": "cupkie-nappages-coulis-fruits-rouges",
+          "name": "Coulis fruits rouges",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-nappages-coulis-beurre-de-cacahuetes",
+          "name": "Coulis beurre de cacahuètes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        },
+        {
+          "id": "cupkie-nappages-creme-de-marrons",
+          "name": "Crème de marrons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-nappages-caramel-beurre-sale-maison",
+          "name": "Caramel beurre salé maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Offert avec la cup de cookie dough."
+        }
+      ]
+    },
+    {
+      "category": "Cookies mi-cuits",
+      "dishes": [
+        {
+          "id": "cupkie-cookies-mi-cuits-classique",
+          "name": "Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-tout-choco",
+          "name": "Tout choco",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-speculoos",
+          "name": "Speculoos",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-pralin-fourre-nutella",
+          "name": "Pralin fourré Nutella",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-matcha-chocolat-blanc",
+          "name": "Matcha chocolat blanc",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-fourre-frangipane",
+          "name": "Fourré frangipane",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 4.6
+        },
+        {
+          "id": "cupkie-cookies-mi-cuits-pistache-chocolat-au-lait",
+          "name": "Pistache chocolat au lait",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "3 cookies : 12 € ; 6 cookies : 23 €.",
+          "price": 5.5
+        }
+      ]
+    },
+    {
+      "category": "Hot cookies",
+      "dishes": [
+        {
+          "id": "cupkie-hot-cookies-classique",
+          "name": "Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À manger à la cuillère.",
+          "price": 7.5
+        },
+        {
+          "id": "cupkie-hot-cookies-nutella-bomb",
+          "name": "Nutella Bomb",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À manger à la cuillère.",
+          "price": 7.5
+        },
+        {
+          "id": "cupkie-hot-cookies-vegan-classique",
+          "name": "Vegan Classique",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À manger à la cuillère.",
+          "price": 7.5,
+          "tags": [
+            "vegan"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Glaces",
+      "dishes": [
+        {
+          "id": "cupkie-glaces-vanille",
+          "name": "Vanille",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8
+        },
+        {
+          "id": "cupkie-glaces-cafe",
+          "name": "Café",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8
+        },
+        {
+          "id": "cupkie-glaces-chocolat",
+          "name": "Chocolat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8
+        },
+        {
+          "id": "cupkie-glaces-framboise",
+          "name": "Framboise",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8,
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "cupkie-glaces-yaourt",
+          "name": "Yaourt",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8
+        },
+        {
+          "id": "cupkie-glaces-cacahuete",
+          "name": "Cacahuète",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "1 boule 3,80 € ; 2 boules 5,80 € ; 3 boules 7,50 €.",
+          "price": 3.8
+        }
+      ]
+    },
+    {
+      "category": "Milkshakes",
+      "dishes": [
+        {
+          "id": "cupkie-milkshakes-base-milkshake-3-boules-lait-chantilly",
+          "name": "Base milkshake (3 boules + lait + chantilly)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 8
+        },
+        {
+          "id": "cupkie-milkshakes-sundae-shake-vanille-caramel-cacahuetes",
+          "name": "Sundae Shake (vanille, caramel, cacahuètes)",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 9
+        },
+        {
+          "id": "cupkie-milkshakes-cookie-shake-vanille-morceaux-de-cookie",
+          "name": "Cookie Shake (vanille, morceaux de cookie)",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 9
+        }
+      ]
+    },
+    {
+      "category": "Boissons",
+      "dishes": [
+        {
+          "id": "cupkie-boissons-cafe-glace",
+          "name": "Café glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-cafe-frappe",
+          "name": "Café frappé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 8
+        },
+        {
+          "id": "cupkie-boissons-latte-glace",
+          "name": "Latte glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4.9
+        },
+        {
+          "id": "cupkie-boissons-citronnade",
+          "name": "Citronnade",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-mix-des-2",
+          "name": "Mix des 2",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-the-glace",
+          "name": "Thé glacé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-cristaline",
+          "name": "Cristaline",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 2.2
+        },
+        {
+          "id": "cupkie-boissons-diabolos",
+          "name": "Diabolos",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-san-pellegrino",
+          "name": "San Pellegrino",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3
+        },
+        {
+          "id": "cupkie-boissons-sodas",
+          "name": "Sodas",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3
+        },
+        {
+          "id": "cupkie-boissons-jus-de-fruits-granini",
+          "name": "Jus de fruits Granini",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3.5
+        },
+        {
+          "id": "cupkie-boissons-expresso-bio",
+          "name": "Expresso bio",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 2.2
+        },
+        {
+          "id": "cupkie-boissons-americano-bio",
+          "name": "Americano bio",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 2.5
+        },
+        {
+          "id": "cupkie-boissons-latte-cappuccino",
+          "name": "Latte / Cappuccino",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 4
+        },
+        {
+          "id": "cupkie-boissons-the-bio",
+          "name": "Thé bio",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 3
         }
       ]
     }

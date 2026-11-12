@@ -6,54 +6,10 @@
       "category": "Superbowls",
       "dishes": [
         {
-          "id": "wild-six-pack-bowl-granola-original",
-          "name": "Six Pack Bowl (granola original)",
-          "description": "Banane, beurre d’amande, protéine vegan, cacao cru, toppings",
-          "price": 12.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-six-pack-bowl-granola-pink-flamingo",
-          "name": "Six Pack Bowl (granola pink flamingo)",
-          "description": "Banane, beurre d’amande, protéine vegan, cacao cru, toppings",
-          "price": 12.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-acai-bowl-granola-original",
-          "name": "Acai Bowl (granola original)",
-          "description": "Açaï, banane, sirop d’érable, toppings",
-          "price": 12.5,
+          "id": "wild-six-pack-bowl",
+          "name": "Six Pack Bowl",
+          "description": "Protéine vanille vegan, banane, cacao cru, wild granola, beurre de cajou, fruits frais, lait d’amande",
+          "price": 13.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -72,10 +28,10 @@
           }
         },
         {
-          "id": "wild-acai-bowl-granola-pink-flamingo",
-          "name": "Acai Bowl (granola pink flamingo)",
-          "description": "Açaï, banane, sirop d’érable, toppings",
-          "price": 12.5,
+          "id": "wild-acai-bowl",
+          "name": "Acai Bowl",
+          "description": "Açaï, banane, wild granola, fruits frais, lait d’amande",
+          "price": 13.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -94,10 +50,10 @@
           }
         },
         {
-          "id": "wild-glow-bowl",
-          "name": "Glow Bowl",
-          "description": "Mangue, passion, banane, sirop d’érable, toppings",
-          "price": 12.5,
+          "id": "wild-granola-bowl",
+          "name": "Granola Bowl",
+          "description": "Yaourt coco, wild granola, fruits frais",
+          "price": 8.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -116,10 +72,10 @@
           }
         },
         {
-          "id": "wild-granola-bowl-granola-original",
-          "name": "Granola Bowl (granola original)",
-          "description": "Granola (Pink ou Original), coco yogurt & fruits de saison",
-          "price": 11,
+          "id": "wild-porridge",
+          "name": "Porridge",
+          "description": "Avoine, figue, noisette, cannelle, fruits frais, lait d’amande",
+          "price": 8.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -138,17 +94,17 @@
           }
         },
         {
-          "id": "wild-granola-bowl-granola-pink-flamingo",
-          "name": "Granola Bowl (granola pink flamingo)",
-          "description": "Granola (Pink ou Original), coco yogurt & fruits de saison. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 11,
+          "id": "wild-chia-pudding",
+          "name": "Chia Pudding",
+          "description": "Lait de coco, graines de chia, fruits frais",
+          "price": 8.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -165,9 +121,9 @@
       "category": "Salades",
       "dishes": [
         {
-          "id": "wild-protein-bowl",
-          "name": "Protein Bowl",
-          "description": "Quinoa, concombre, petit pois, crème d’artichaut, persil, menthe, oignon nouveau",
+          "id": "wild-falafel-salad-bowl",
+          "name": "Falafel Salad Bowl",
+          "description": "Quinoa, falafels, légumes du soleil, pois chiche, olives kalamata, laitue, sauce à l’ail",
           "price": 9.9,
           "allergens": {
             "gluten": "not_declared",
@@ -175,100 +131,24 @@
             "oeufs": "unknown",
             "poisson": "unknown",
             "arachides": "not_declared",
-            "soja": "present",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-pad-thai-salad",
-          "name": "Pad Thai Salad",
-          "description": "Nouilles konjac, carotte, chou chinois, pois nouveau, chou rouge, vegan chicken meat, cacahuète, coriandre",
-          "price": 9.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
+            "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "unknown"
           }
         },
         {
-          "id": "wild-green-hoummous",
-          "name": "Green & Hoummous",
-          "description": "Haricot vert, kale, épinard, roquette, brocoli, houmous",
+          "id": "wild-lentil-bowl",
+          "name": "Lentil Bowl",
+          "description": "Lentille verte au balsamique, potimarron, carotte, oignon et sauce aux câpres, crème au paprika fumé, épinard et cranberry",
           "price": 9.9,
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Plats Chauds",
-      "dishes": [
-        {
-          "id": "wild-jack-s-bowl",
-          "name": "Jack’s Bowl",
-          "description": "Effiloché végétal, sauce saté, carotte râpée, chou chinois, concombre, coriandre, cacahuète, servi avec riz complet",
-          "price": 12.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Toastés",
-      "dishes": [
-        {
-          "id": "wild-chicken-burger",
-          "name": "Chicken Burger",
-          "description": "Chickmeat, bun brioché gluten, salade, tomate, pickles oignon rouge, sauce big wild + frites paille 2€",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
@@ -285,9 +165,63 @@
           }
         },
         {
-          "id": "wild-wild-banh-mi-pain-avec-gluten",
-          "name": "Wild Banh mi (pain avec gluten)",
-          "description": "Pain gluten, vegan meat, bun, sauce saté, carotte râpée, chou chinois, concombre, coriandre",
+          "id": "wild-autumn-protein-bowl",
+          "name": "Autumn Protein Bowl",
+          "description": "Mélange quinoa et pois chiche, carotte, céleri rave, houmous betterave, topping granola salé",
+          "price": 9.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Munchies",
+      "dishes": [
+        {
+          "id": "wild-nuggets",
+          "name": "Nuggets",
+          "description": "6 nuggets végétaux, sauce wild",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Hot Dishes",
+      "dishes": [
+        {
+          "id": "wild-chicken-burger-pain-avec-gluten",
+          "name": "Chicken Burger (pain avec gluten)",
+          "description": "Chickmeat, bun brioché gluten, salade, tomate, pickles oignon rouge, sauce wild",
           "price": 12,
           "allergens": {
             "gluten": "present",
@@ -295,7 +229,7 @@
             "oeufs": "unknown",
             "poisson": "unknown",
             "arachides": "present",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -307,17 +241,17 @@
           }
         },
         {
-          "id": "wild-wild-banh-mi-pain-sans-gluten",
-          "name": "Wild Banh mi (pain sans gluten)",
-          "description": "Pain sans gluten, vegan meat, bun, sauce saté, carotte râpée, chou chinois, concombre, coriandre",
+          "id": "wild-chicken-burger-pain-sans-gluten",
+          "name": "Chicken Burger (pain sans gluten)",
+          "description": "Chickmeat, bun sans gluten, salade, tomate, pickles oignon rouge, sauce wild",
           "price": 12,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
+            "arachides": "present",
+            "soja": "present",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -328,23 +262,72 @@
             "mollusques": "unknown"
           }
         },
+        {
+          "id": "wild-avocado-toast-pain-avec-gluten",
+          "name": "Avocado Toast (pain avec gluten)",
+          "description": "Pain aux graines, avocat, roquette, pickles, graines de chanvre et courge, sauce cajou",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-avocado-toast-pain-sans-gluten",
+          "name": "Avocado Toast (pain sans gluten)",
+          "description": "Pain aux graines, avocat, roquette, pickles, graines de chanvre et courge, sauce cajou",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Sandwichs",
+      "dishes": [
         {
           "id": "wild-pastrami-pain-avec-gluten",
           "name": "Pastrami (pain avec gluten)",
-          "description": "Pain gluten, pastrami vegan, crudités, mayo spicy, pickles d’oignon rouge & chou rouge",
+          "description": "Pain aux graines, pastrami, tomate, salade, pickles, sauce wild",
           "price": 12,
           "allergens": {
             "gluten": "present",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "unknown"
@@ -353,20 +336,64 @@
         {
           "id": "wild-pastrami-pain-sans-gluten",
           "name": "Pastrami (pain sans gluten)",
-          "description": "Pain sans gluten, pastrami vegan, crudités, mayo spicy, pickles d’oignon rouge & chou rouge",
+          "description": "Pain aux graines, pastrami, tomate, salade, pickles, sauce wild",
           "price": 12,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-b-l-t-pain-avec-gluten",
+          "name": "B.L.T (pain avec gluten)",
+          "description": "Pain aux graines, avocat, bacon, tomate, salade, pickles, sauce wild",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-b-l-t-pain-sans-gluten",
+          "name": "B.L.T (pain sans gluten)",
+          "description": "Pain aux graines, avocat, bacon, tomate, salade, pickles, sauce wild",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "unknown"
@@ -375,14 +402,63 @@
         {
           "id": "wild-grilled-cheezy-pain-avec-gluten",
           "name": "Grilled Cheezy (pain avec gluten)",
-          "description": "Pain gluten, ched’R, mozza, spicy mayo, salade",
+          "description": "Pain aux graines, vegan cheddar, salade, sauce wild",
           "price": 8.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
-            "arachides": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-grilled-cheezy-pain-sans-gluten",
+          "name": "Grilled Cheezy (pain sans gluten)",
+          "description": "Pain aux graines, vegan cheddar, salade, sauce wild",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Bowls",
+      "dishes": [
+        {
+          "id": "wild-jack-s-bowl",
+          "name": "Jack’s Bowl",
+          "description": "Riz de konjac, beans n’tomatoes, coriandre, vegan meat, cacahuètes",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "present",
             "soja": "not_declared",
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
@@ -395,10 +471,10 @@
           }
         },
         {
-          "id": "wild-grilled-cheezy-pain-sans-gluten",
-          "name": "Grilled Cheezy (pain sans gluten)",
-          "description": "Pain sans gluten, ched’R, mozza, spicy mayo, salade",
-          "price": 8.9,
+          "id": "wild-falafel-protein",
+          "name": "Falafel Protein",
+          "description": "Falafels, quinoa, houmous, beans n’tomatoes, avocat, coriandre, pickles d’oignons, graines de courge",
+          "price": 14.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -409,53 +485,9 @@
             "lait": "unknown",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-avocado-toast",
-          "name": "Avocado Toast",
-          "description": "Pain gluten, avocat, crème cajou miso, roquette, graines & huile de courge, graines de chanvre, pickles d’oignon rouges",
-          "price": 8.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-wild-nuggets",
-          "name": "Wild Nuggets",
-          "description": "Soja, farine de riz & de maïs, huile d’olive & de colza",
-          "price": 7.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "unknown"
           }
@@ -466,9 +498,9 @@
       "category": "Pâtisseries",
       "dishes": [
         {
-          "id": "wild-pistachio-cookie",
-          "name": "Pistachio Cookie",
-          "description": "Pistache, farine de châtaigne, tamalga, fleur d’oranger",
+          "id": "wild-blueberry-scone",
+          "name": "Blueberry Scone",
+          "description": "Poudre d’amande, myrtille, vanille, lait de coco",
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
@@ -490,7 +522,7 @@
         {
           "id": "wild-smashed-cookie",
           "name": "Smashed Cookie",
-          "description": "Poudre d’amande, chocolat, purée d’amande, farine de riz blanc, sucre de coco",
+          "description": "Farine de riz et d’amandes, cacao cru, beurre d’amandes, lait d’avoine, sucre de coco, cacahuètes",
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
@@ -512,7 +544,7 @@
         {
           "id": "wild-banana-cake",
           "name": "Banana Cake",
-          "description": "Banane, farine de riz blanc, lait d’amande, sarasin, noix de coco râpée, cannelle, sauce vanille cajou",
+          "description": "Banane, farine de riz, noisette, flocon de sarrasin, noix de coco râpée, farine de riz blanc, muscade, cannelle",
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
@@ -526,40 +558,18 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "unknown"
           }
         },
         {
-          "id": "wild-blueberry-scone",
-          "name": "Blueberry Scone",
-          "description": "Poudre d’amande, myrtille, lait d’avoine, lait de coco, farine de riz blanc, sauce vanille cajou",
-          "price": 7,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-greek-muffin",
-          "name": "Greek Muffin",
-          "description": "Fetavégétale, tomate, épinard, flocons d’avoine, moutarde, basilic, menthe, graines de chia & de tournesol",
+          "id": "wild-greek-tomato-muffin",
+          "name": "Greek Tomato Muffin",
+          "description": "Feta vegan, tomate, épinard, flocon d’avoine, basilic, menthe, moutarde, graines de chia et tournesol",
           "price": 5.5,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "unknown",
             "oeufs": "unknown",
             "poisson": "unknown",
@@ -570,109 +580,16 @@
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "unknown"
           }
         },
         {
-          "id": "wild-rice-crispy",
-          "name": "Rice Crispy",
-          "description": "Riz soufflé, chocolat blanc vegan, beurre de cacahuète, huile de coco, noisette, graine de chia, tournesol & pavot, ashwagandha",
-          "price": 4.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-matcha-bite",
-          "name": "Matcha Bite",
-          "description": "Chocolat blanc vegan, crumble de noisette, caramel de dattes, matcha, framboise, fleurs de bleuets",
-          "price": 2.8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Desserts",
-      "dishes": [
-        {
-          "id": "wild-pistachio-overnight",
-          "name": "Pistachio Overnight",
-          "description": "Lait de pistache, fromage blanc, flocons d’avoine, coulis de myrtille, pistaches",
-          "price": 6.2,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-mango-chia-pudding",
-          "name": "Mango Chia Pudding",
-          "description": "Mangue, lait de coco, menthe, graines de chia. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 6.2,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-raw-chocolate-pudding",
-          "name": "Raw Chocolate Pudding",
-          "description": "Noix de cajou, cacao, datte, vanille, sucre coco",
-          "price": 6.2,
+          "id": "wild-wild-bounty",
+          "name": "Wild Bounty",
+          "description": "Lait de coco, noix de coco râpée, chocolat noir, amande, vanille",
+          "price": 4.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -685,7 +602,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "unknown"
           }
@@ -696,9 +613,8 @@
       "category": "Café & Lattes",
       "dishes": [
         {
-          "id": "wild-chai-latte-lait-d-amande-maison",
-          "name": "Chai Latte (lait d'amande maison)",
-          "description": "Amande & coco, épices chaï",
+          "id": "wild-chai-latte-lait-d-amande",
+          "name": "Chai Latte (lait d'amande)",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -718,9 +634,9 @@
           }
         },
         {
-          "id": "wild-chai-latte-lait-d-avoine",
-          "name": "Chai Latte (lait d'avoine)",
-          "description": "Amande & coco, épices chaï. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-chai-latte-lait-d-avoine-ou-de-coco",
+          "name": "Chai Latte (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -740,9 +656,8 @@
           }
         },
         {
-          "id": "wild-chocolate-mushroom-lait-d-amande-maison",
-          "name": "Chocolate Mushroom (lait d'amande maison)",
-          "description": "Amande & coco, cacao cru, mushroom mix, érable",
+          "id": "wild-chocolate-mushroom-lait-d-amande",
+          "name": "Chocolate Mushroom (lait d'amande)",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -762,9 +677,9 @@
           }
         },
         {
-          "id": "wild-chocolate-mushroom-lait-d-avoine",
-          "name": "Chocolate Mushroom (lait d'avoine)",
-          "description": "Amande & coco, cacao cru, mushroom mix, érable. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-chocolate-mushroom-lait-d-avoine-ou-de-coco",
+          "name": "Chocolate Mushroom (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -784,9 +699,8 @@
           }
         },
         {
-          "id": "wild-macaccino-lait-d-amande-maison",
-          "name": "Macaccino (lait d'amande maison)",
-          "description": "Amande & coco, maca, guarana, cacao cru, érable",
+          "id": "wild-golden-latte-lait-d-amande",
+          "name": "Golden Latte (lait d'amande)",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -806,9 +720,9 @@
           }
         },
         {
-          "id": "wild-macaccino-lait-d-avoine",
-          "name": "Macaccino (lait d'avoine)",
-          "description": "Amande & coco, maca, guarana, cacao cru, érable. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-golden-latte-lait-d-avoine-ou-de-coco",
+          "name": "Golden Latte (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -828,9 +742,51 @@
           }
         },
         {
-          "id": "wild-golden-latte-lait-d-amande-maison",
-          "name": "Golden Latte (lait d'amande maison)",
-          "description": "Amande & coco, épices chaï, piment de cayenne, érable",
+          "id": "wild-ube-vanilla-latte-lait-d-amande",
+          "name": "Ube Vanilla Latte (lait d'amande)",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-ube-vanilla-latte-lait-d-avoine-ou-de-coco",
+          "name": "Ube Vanilla Latte (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-matcha-latte-lait-d-amande",
+          "name": "Matcha Latte (lait d'amande)",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -850,9 +806,9 @@
           }
         },
         {
-          "id": "wild-golden-latte-lait-d-avoine",
-          "name": "Golden Latte (lait d'avoine)",
-          "description": "Amande & coco, épices chaï, piment de cayenne, érable. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-matcha-latte-lait-d-avoine-ou-de-coco",
+          "name": "Matcha Latte (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -872,10 +828,9 @@
           }
         },
         {
-          "id": "wild-ube-vanilla-latte",
-          "name": "Ube Vanilla Latte",
-          "description": "Amande & coco, ube, vanilla",
-          "price": 6.9,
+          "id": "wild-matcha-pistache-lait-d-amande",
+          "name": "Matcha Pistache (lait d'amande)",
+          "price": 8.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -894,10 +849,9 @@
           }
         },
         {
-          "id": "wild-matcha-latte-lait-d-amande-maison",
-          "name": "Matcha Latte (lait d'amande maison)",
-          "description": "Matcha, spiruline, lait d’amande maison",
-          "price": 6.9,
+          "id": "wild-matcha-pistache-lait-d-avoine-ou-de-coco",
+          "name": "Matcha Pistache (lait d'avoine ou de coco)",
+          "price": 8.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -916,75 +870,8 @@
           }
         },
         {
-          "id": "wild-matcha-latte-lait-d-avoine",
-          "name": "Matcha Latte (lait d'avoine)",
-          "description": "Matcha, spiruline, lait d’amande maison. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 6.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-matcha-pistache-lait-d-amande-maison",
-          "name": "Matcha Pistache (lait d'amande maison)",
-          "description": "Matcha, pistache, lait d’amande maison",
-          "price": 8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-matcha-pistache-lait-d-avoine",
-          "name": "Matcha Pistache (lait d'avoine)",
-          "description": "Matcha, pistache, lait d’amande maison",
-          "price": 8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-coffee-latte-lait-d-amande-maison",
-          "name": "Coffee Latte (lait d'amande maison)",
-          "description": "Espresso, lait de coco, lait d’amande maison",
+          "id": "wild-coffee-latte-lait-d-amande",
+          "name": "Coffee Latte (lait d'amande)",
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1004,9 +891,9 @@
           }
         },
         {
-          "id": "wild-coffee-latte-lait-d-avoine",
-          "name": "Coffee Latte (lait d'avoine)",
-          "description": "Espresso, lait de coco, lait d’amande maison. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-coffee-latte-lait-d-avoine-ou-de-coco",
+          "name": "Coffee Latte (lait d'avoine ou de coco)",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1028,7 +915,7 @@
         {
           "id": "wild-americano-coffee",
           "name": "Americano Coffee",
-          "description": "Biologique & issu du commerce équitable. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 3.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1050,8 +937,30 @@
         {
           "id": "wild-espresso",
           "name": "Espresso",
-          "description": "Biologique & issu du commerce équitable. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 3,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-wild-herbal-teas",
+          "name": "Wild Herbal Teas",
+          "description": "Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "price": 4.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -1075,9 +984,9 @@
       "category": "Smoothies",
       "dishes": [
         {
-          "id": "wild-acai-smoothie-lait-d-amande-ou-de-pistache-maison",
-          "name": "Açaï Smoothie (lait d'amande ou de pistache maison)",
-          "description": "Açaï, banane, cerise, collagène, érable, amande",
+          "id": "wild-drive-me-mango-lait-d-amande",
+          "name": "Drive Me Mango (lait d'amande)",
+          "description": "Mangue, graines de chia, citron vert, cardamome, datte, lait d’amande",
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1097,53 +1006,9 @@
           }
         },
         {
-          "id": "wild-acai-smoothie-lait-d-avoine-ou-de-coco",
-          "name": "Açaï Smoothie (lait d'avoine ou de coco)",
-          "description": "Açaï, banane, cerise, collagène, érable, amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 11.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-drive-me-mango-lait-d-amande-ou-de-pistache-maison",
-          "name": "Drive Me Mango (lait d'amande ou de pistache maison)",
-          "description": "Mangue, fruit de la passion, tapioca, érable, amande",
-          "price": 11.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-drive-me-mango-lait-d-avoine-ou-de-coco",
-          "name": "Drive Me Mango (lait d'avoine ou de coco)",
-          "description": "Mangue, fruit de la passion, tapioca, érable, amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-drive-me-mango-lait-d-avoine",
+          "name": "Drive Me Mango (lait d'avoine)",
+          "description": "Mangue, graines de chia, citron vert, cardamome, datte, lait d’amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1163,53 +1028,9 @@
           }
         },
         {
-          "id": "wild-protein-shake-lait-d-amande-ou-de-pistache-maison",
-          "name": "Protein Shake (lait d'amande ou de pistache maison)",
-          "description": "Protéine vegan, banane, chanvre, fleur d’oranger, amande",
-          "price": 11.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-protein-shake-lait-d-avoine-ou-de-coco",
-          "name": "Protein Shake (lait d'avoine ou de coco)",
-          "description": "Protéine vegan, banane, chanvre, fleur d’oranger, amande",
-          "price": 11.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-dr-green-lait-d-amande-ou-de-pistache-maison",
-          "name": "Dr Green (lait d'amande ou de pistache maison)",
-          "description": "Banane, spiruline, chlorelle, kale, menthe fraîche, amande",
+          "id": "wild-protein-shake-lait-d-amande",
+          "name": "Protein Shake (lait d'amande)",
+          "description": "Protéine vanille vegan, banane, fleur d’oranger, chanvre, beurre de cajou, lait d’amande",
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1229,9 +1050,97 @@
           }
         },
         {
-          "id": "wild-dr-green-lait-d-avoine-ou-de-coco",
-          "name": "Dr Green (lait d'avoine ou de coco)",
-          "description": "Banane, spiruline, chlorelle, kale, menthe fraîche, amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-protein-shake-lait-d-avoine",
+          "name": "Protein Shake (lait d'avoine)",
+          "description": "Protéine vanille vegan, banane, fleur d’oranger, chanvre, beurre de cajou, lait d’amande",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-dr-green-lait-d-amande",
+          "name": "Dr Green (lait d'amande)",
+          "description": "Menthe, kale, banane, herbe de blé, spiruline, chlorelle, lait d’amande",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-dr-green-lait-d-avoine",
+          "name": "Dr Green (lait d'avoine)",
+          "description": "Menthe, kale, banane, herbe de blé, spiruline, chlorelle, lait d’amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-berry-strong-lait-d-amande",
+          "name": "Berry Strong (lait d'amande)",
+          "description": "Fraise, banane, créatine, datte, lait d’amande",
+          "price": 11.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "unknown",
+            "oeufs": "unknown",
+            "poisson": "unknown",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "unknown",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "unknown"
+          }
+        },
+        {
+          "id": "wild-berry-strong-lait-d-avoine",
+          "name": "Berry Strong (lait d'avoine)",
+          "description": "Fraise, banane, créatine, datte, lait d’amande. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 11.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1258,7 +1167,7 @@
         {
           "id": "wild-hollyweed",
           "name": "Hollyweed",
-          "description": "Extrait de CBD, cajou, fleur d’oranger, vanille, érable",
+          "description": "Ashwagandha, lait de cajou, fleur d’oranger, vanille",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1280,29 +1189,7 @@
         {
           "id": "wild-collagen-matcha-mylk",
           "name": "Collagen Matcha Mylk",
-          "description": "Lait d’amande maison, collagène, spiruline, matcha",
-          "price": 7.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-la-vie-en-rose",
-          "name": "La Vie en Rose",
-          "description": "Lait d’amande, betterave, eau de rose, graine de chia, sirop d’érable",
+          "description": "Lait d’amande, matcha, collagène vegan, spiruline",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1351,30 +1238,8 @@
         {
           "id": "wild-it-s-britney-b-tch",
           "name": "It’s Britney B*tch",
-          "description": "Eau filtrée, citron, cerise, collagène vegan, betterave. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "description": "Eau filtrée, cerise, collagène vegan. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 6.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-eau-dementhe",
-          "name": "Eau Démenthe",
-          "description": "Eau filtrée, menthe, chlorophylle, fenouil. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 3.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "unknown",
@@ -1535,9 +1400,9 @@
           }
         },
         {
-          "id": "wild-longevity",
-          "name": "Longevity",
-          "description": "Pomme, fenouil, menthe, citron, chlorophylle. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-simply-green",
+          "name": "Simply Green",
+          "description": "Concombre, pomme, fenouil, kale, citron, spiruline. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1557,9 +1422,9 @@
           }
         },
         {
-          "id": "wild-l-ete",
-          "name": "L’Été",
-          "description": "Rhubarbe, pomme, baobab, piment de cayenne. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-tummy-buddy",
+          "name": "Tummy Buddy",
+          "description": "Poire, vinaigre de cidre, pomme, citron vert, gingembre. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1579,31 +1444,9 @@
           }
         },
         {
-          "id": "wild-beach-body",
-          "name": "Beach Body",
-          "description": "Pastèque, menthe. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
-          "price": 7.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "unknown",
-            "oeufs": "unknown",
-            "poisson": "unknown",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "unknown",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "unknown"
-          }
-        },
-        {
-          "id": "wild-albert-camu-camu",
-          "name": "Albert Camu Camu",
-          "description": "Mangue, pomme, citron, gingembre, camu camu. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
+          "id": "wild-once-in-a-blue-moon",
+          "name": "Once in a Blue Moon",
+          "description": "Myrtille, fenouil, pomme, açaï. Le restaurant déclare ce produit sans aucun des allergènes de sa grille.",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",

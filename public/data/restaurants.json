@@ -1693,15 +1693,15 @@
     "veganOptions": false,
     "meatOptions": true,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-15T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Léon : synthèse des allergènes, carte PE 2026, édition du 02/06/2026 (PDF)",
-      "url": "https://a.storyblok.com/f/339489/x/81ff7b1a43/allergenes-pe-26-light-au-02-06-2026.pdf",
+      "label": "Léon : synthèse des allergènes, carte AH 2026, édition du 19/08/2026 (PDF)",
+      "url": "https://a.storyblok.com/f/339489/x/7a45de5237/allergenes-ah26-au-19-08-2026.pdf",
       "kind": "published"
     },
     "phone": "01 42 36 18 50",
     "menuId": "menu-leon-les-halles",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Léon ne couvrent pas les éléments suivants : les croquettes de chèvre, la planche seafood, le fish crumble, la salade de thon mi-cuit, les pasta salmon balls, le mix platter, les gaufres cherry pistacchio et brownie, et la coupe caramel pop corn. Ils ne sont donc pas repris sur ce site.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Léon semblent comporter une erreur : elles ne déclarent pas la moutarde des moules gratinées (sauce crémeuse citron moutarde).",
     "description": "Brasserie de poissons et fruits de mer depuis 1893 : moules-frites en cocotte, fish & chips, paëlla.",
     "imageUrl": "https://a.storyblok.com/f/339489/af488a711a/lzlghfciotpfesbyf3qy4w0fpmmpquxj6oy-sk5-6hk_2000x1500.png/m/1200x0",
     "contact": {
@@ -1724,15 +1724,15 @@
     "veganOptions": false,
     "meatOptions": true,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-15T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Léon : synthèse des allergènes, carte PE 2026, édition du 02/06/2026 (PDF)",
-      "url": "https://a.storyblok.com/f/339489/x/81ff7b1a43/allergenes-pe-26-light-au-02-06-2026.pdf",
+      "label": "Léon : synthèse des allergènes, carte AH 2026, édition du 19/08/2026 (PDF)",
+      "url": "https://a.storyblok.com/f/339489/x/7a45de5237/allergenes-ah26-au-19-08-2026.pdf",
       "kind": "published"
     },
     "phone": "01 43 21 66 62",
     "menuId": "menu-leon-montparnasse",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Léon ne couvrent pas les éléments suivants : le demi-crabe et les huîtres. Ils ne sont donc pas repris sur ce site.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Léon semblent comporter une erreur : elles ne déclarent pas la moutarde des moules gratinées (sauce crémeuse citron moutarde).",
     "description": "Brasserie de poissons et fruits de mer depuis 1893 : moules-frites en cocotte, fish & chips, paëlla.",
     "imageUrl": "https://a.storyblok.com/f/339489/058be0f418/qh9a9vdxgumevr7emjr7ggerkrbmvr6ioiw4va2adpc_3780x2835.jpg/m/1200x0",
     "contact": {
@@ -5982,15 +5982,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 84 25 06 66",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6013,15 +6013,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 44 96 75 51",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6044,15 +6044,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 43 20 50 01",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6075,15 +6075,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 84 25 82 70",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6106,15 +6106,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 86 95 40 45",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6137,15 +6137,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "01 86 95 40 44",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -6168,15 +6168,15 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-18T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Wild & The Moon : grille des allergènes de l'enseigne, été 2026 (PDF)",
-      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20SUMMER%202026%20.pdf",
+      "label": "Wild & The Moon : grille des allergènes de l'enseigne, automne 2026 (PDF)",
+      "url": "https://www.wildandthemoon.fr/img/cms/ALLERG%C3%88NES/Allerge%CC%80nes%20AUTUMN%202026%20%20.pdf",
       "kind": "published"
     },
     "phone": "09 72 65 22 96",
     "menuId": "menu-wild-the-moon",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas l'élément suivant : le Wild Bounty. Il n'est donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
+    "allergenCoverageNotice": "Les informations allergènes publiées par Wild & The Moon ne couvrent pas les éléments suivants : le Holy Chick, le Muscle Up et l'Açai Glow. Ils ne sont donc pas repris sur ce site. L'enseigne étant 100 % végétale, ces informations ne portent que sur neuf allergènes et préviennent que ses produits peuvent contenir des traces de gluten.",
     "description": "Cantine 100 % vegan née en 2016 : jus pressés à froid, laits végétaux maison, superbowls, sans sucre ajouté.",
     "imageUrl": "https://www.wildandthemoon.fr/img/cms/hero-wm-2023.jpg",
     "contact": {
@@ -8023,17 +8023,16 @@
     "veganOptions": true,
     "meatOptions": false,
     "allergenInformationAvailable": true,
-    "lastVerifiedAt": "2026-09-16T00:00:00Z",
+    "lastVerifiedAt": "2026-11-12T00:00:00Z",
     "source": {
-      "label": "Cupkie : allergènes déclarés recette par recette sur la page du site",
+      "label": "Cupkie : allergènes déclarés produit par produit sur la page du site",
       "url": "https://cupkie.fr/allergenes/",
       "kind": "published"
     },
     "websiteUrl": "http://www.cupkie.fr/",
     "menuId": "menu-cupkie",
-    "allergenCoverageNotice": "Les informations allergènes publiées par Cupkie ne couvrent pas les éléments suivants : les cookie dough Brookie choco caramel pécan et Originale praliné crunchy, les cookies et hot cookies, et les glaces. Ils ne sont donc pas repris sur ce site.",
     "description": "Pâte à cookie crue à composer, recettes sans gluten, préparées dans un laboratoire qui manipule tous types d'allergènes.",
-    "imageUrl": "https://cupkie.fr/wp-content/uploads/2019/12/Cupkie-4.jpg",
+    "imageUrl": "https://www.cupkie.fr/_astro/boutique-interieur.C6Mwc4CK_aEGgu.webp",
     "phone": "09 71 39 64 14",
     "contact": {
       "email": "hello@cupkie.fr",
