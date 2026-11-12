@@ -6,6 +6,72 @@
       "category": "BURGERS",
       "dishes": [
         {
+          "id": "bioburger-le-marais-le-raclette",
+          "name": "LE RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de mayonnaise",
+          "price": 13
+        },
+        {
+          "id": "bioburger-le-marais-le-pepper-raclette",
+          "name": "LE PEPPER RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de notre sauce au poivre",
+          "price": 13
+        },
+        {
+          "id": "bioburger-le-marais-le-smoky-raclette",
+          "name": "LE SMOKY RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de notre sauce Classic BB au paprika fumé",
+          "price": 13
+        },
+        {
           "id": "bioburger-le-marais-l-original",
           "name": "L'ORIGINAL",
           "allergens": {
@@ -24,52 +90,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de véritable Cheddar ou Gouda selon arrivage, de salade, de tomate, de confit d’oignons, de cornichons croquants accompagnés de notre sauce classic BB",
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de véritable Cheddar ou de gouda (selon arrivage), de salade, de confit d’oignons, de cornichons accompagnés de notre sauce classic BB",
           "price": 11
-        },
-        {
-          "id": "bioburger-le-marais-le-french-pepper",
-          "name": "LE FRENCH PEPPER",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché, steak de bœuf frais 100% pur bœuf, gouda, salade, tomate, confit d’oignons, sauce au poivre BB",
-          "price": 11.5
-        },
-        {
-          "id": "bioburger-le-marais-le-halloumi",
-          "name": "LE HALLOUMI",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché garni d'un halloumi snacké, de salade, de tomate, d'oignons rouges accompagnés de mayonnaise et de miel",
-          "price": 11.5
         },
         {
           "id": "bioburger-le-marais-le-bacon-cheese",
@@ -94,14 +116,14 @@
           "price": 12.5
         },
         {
-          "id": "bioburger-le-marais-le-chicken-cheese",
-          "name": "LE CHICKEN CHEESE",
+          "id": "bioburger-le-marais-le-hot-peanut-butter-chicken",
+          "name": "LE HOT PEANUT BUTTER CHICKEN",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
@@ -112,12 +134,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un pané de poulet croustillant, d'une tranche de véritable gouda, d'oignons rouges accompagnés de notre sauce tartare",
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet croustillant, de beurre de cacahuètes, de salade, de cornichons accompagnés de notre ketchup au piment rouge",
           "price": 11.5
         },
         {
-          "id": "bioburger-le-marais-le-chicken-bacon",
-          "name": "LE CHICKEN BACON",
+          "id": "bioburger-le-marais-little-smash-cheese",
+          "name": "LITTLE SMASH CHEESE",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -129,13 +151,167 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "present",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Le burger qui croustille ! Chicken Bacon (Pain BB légèrement brioché garni d'un pané de poulet, d'une tranche de poitrine de porc fumée croustillante, de salade, de tomate, de cornichons croquants accompagnés de mayonnaise et sauce barbecue) + homemade side au choix + BB Drink",
-          "price": 11.5
+          "description": "Potato bun garni de 1 steak pur boeuf smashé, de 1 tranche de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 9.4
+        },
+        {
+          "id": "bioburger-le-marais-smash-cheese",
+          "name": "SMASH CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks pur boeuf smashé, de 2 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 11.4
+        },
+        {
+          "id": "bioburger-le-marais-big-smash-cheese",
+          "name": "BIG SMASH CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 3 steaks pur boeuf smashé, de 3 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 13.4
+        },
+        {
+          "id": "bioburger-le-marais-little-smash-bacon-cheese",
+          "name": "LITTLE SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 1 steak pur boeuf smashé, de 1 tranche de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 10.4
+        },
+        {
+          "id": "bioburger-le-marais-smash-bacon-cheese",
+          "name": "SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks pur boeuf smashé, de 2 tranches de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 12.4
+        },
+        {
+          "id": "bioburger-le-marais-big-smash-bacon-cheese",
+          "name": "BIG SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 3 steaks pur boeuf smashé, de 3 tranches de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 14.4
+        },
+        {
+          "id": "bioburger-le-marais-little-smash-vg",
+          "name": "LITTLE SMASH VG",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni d' 1 steak de soja français smashé, d' 1 tranche de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 9.4
+        },
+        {
+          "id": "bioburger-le-marais-smash-vg",
+          "name": "SMASH VG",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks de soja français smashés, de 2 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 11.4
         },
         {
           "id": "bioburger-le-marais-le-crispy",
@@ -145,7 +321,7 @@
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "may_contain",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
@@ -156,7 +332,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un pané de poulet végétal, de salade, d'oignons rouges accompagnés de notre sauce au poivre BB",
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet végétal au soja français, de salade, d'oignons rouges accompagnés de notre sauce au poivre BB",
           "price": 10.5
         },
         {
@@ -202,83 +378,34 @@
           },
           "description": "La meilleure façon de manger des légumes d'hiver ! Pain BB vegan garni d'une galette de seitan aux légumes d'hiver, de salade, de confit d'oignons, de cornichons accompagnés d'un mélange de sauces ketchup et barbecue",
           "price": 11.5
-        },
-        {
-          "id": "bioburger-le-marais-le-chevre-miel",
-          "name": "LE CHÈVRE MIEL",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de chèvre, de salade, de cornichons, d'oignons rouges frais accompagnés de mayonnaise et de miel",
-          "price": 11.5
-        }
-      ]
-    },
-    {
-      "category": "SALADES",
-      "dishes": [
-        {
-          "id": "bioburger-le-marais-chicken-salad",
-          "name": "CHICKEN SALAD",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Salade verte accompagnée de poulet pané, de gouda, de tomate, d'oignons frits et de notre sauce caesar",
-          "price": 13
-        },
-        {
-          "id": "bioburger-le-marais-halloumi-salad",
-          "name": "HALLOUMI SALAD",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Salade verte accompagnée de cubes de halloumi frits, de tomate, d'oignons frits et de notre sauce caesar",
-          "price": 13
         }
       ]
     },
     {
       "category": "FINGER FOOD",
       "dishes": [
+        {
+          "id": "bioburger-le-marais-grilled-cheese-raclette",
+          "name": "GRILLED CHEESE RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain légèrement brioché toasté garni d'une tranche de poitrine de porc fumée croustillante et de 2 tranches de raclette au lait cru",
+          "price": 5.4
+        },
         {
           "id": "bioburger-le-marais-grilled-cheese-bacon",
           "name": "GRILLED CHEESE BACON",
@@ -321,7 +448,7 @@
             "mollusques": "not_declared"
           },
           "description": "Pain légèrement brioché toasté garni de 2 tranches de gouda au lait cru de la fromagerie d'Entrammes et de confit d'oignons",
-          "price": 5
+          "price": 4.4
         },
         {
           "id": "bioburger-le-marais-little-cheeseburger",
@@ -365,7 +492,7 @@
             "mollusques": "not_declared"
           },
           "description": "4 bouchées de volaille panées croustillantes accompagnées de sauce classic, ketchup, mayonnaise, moutarde, au poivre, ou barbecue au choix",
-          "price": 5
+          "price": 4.4
         },
         {
           "id": "bioburger-le-marais-les-poulettes-x8",
@@ -387,7 +514,7 @@
             "mollusques": "not_declared"
           },
           "description": "8 bouchées de volaille panées croustillantes accompagnées de sauce classic, ketchup, mayonnaise, moutarde, au poivre, ou barbecue au choix",
-          "price": 9.9
+          "price": 8.5
         },
         {
           "id": "bioburger-le-marais-crousti-halloumi-x4",
@@ -409,7 +536,7 @@
             "mollusques": "not_declared"
           },
           "description": "4 bouchées de halloumi frit",
-          "price": 5
+          "price": 4.4
         },
         {
           "id": "bioburger-le-marais-crousti-halloumi-x8",
@@ -431,7 +558,7 @@
             "mollusques": "not_declared"
           },
           "description": "8 bouchées de halloumi frit",
-          "price": 9.9
+          "price": 8.5
         }
       ]
     },
@@ -439,10 +566,10 @@
       "category": "HOMEMADE SIDES",
       "dishes": [
         {
-          "id": "bioburger-le-marais-little-halloumi-salad",
-          "name": "LITTLE HALLOUMI SALAD",
+          "id": "bioburger-le-marais-salade-verte",
+          "name": "SALADE VERTE",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
@@ -457,14 +584,35 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Salade verte accompagnée de minis halloumis frits, de tomate, d'oignon rouge et de notre sauce caesar",
-          "price": 4.9
+          "description": "Salade verte accompagnée de sauce caesar et d'oignons frits",
+          "price": 3.5
         }
       ]
     },
     {
       "category": "SAUCES",
       "dishes": [
+        {
+          "id": "bioburger-le-marais-pot-sauce-mayonnaise",
+          "name": "POT SAUCE MAYONNAISE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0
+        },
         {
           "id": "bioburger-le-marais-pot-sauce-moutarde",
           "name": "POT SAUCE MOUTARDE",
@@ -626,8 +774,30 @@
       "category": "DESSERTS",
       "dishes": [
         {
-          "id": "bioburger-le-marais-ice-bb-crush",
-          "name": "ICE BB CRUSH",
+          "id": "bioburger-le-marais-bb-sundae-peanut-butter",
+          "name": "BB SUNDAE PEANUT BUTTER",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sundae accompagné de beurre de cacahuète et de cacahuètes caramélisées",
+          "price": 4.4
+        },
+        {
+          "id": "bioburger-le-marais-bb-sundae",
+          "name": "BB SUNDAE",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -645,7 +815,7 @@
             "mollusques": "not_declared"
           },
           "description": "Sundae accompagnée d’un nappage et d’un topping au choix Nappage : caramel beurre salé, nocciolata ou fraise Topping : cacahuètes caramélisées ou croquant noisettes",
-          "price": 2
+          "price": 4.4
         },
         {
           "id": "bioburger-le-marais-brownie",
@@ -670,14 +840,58 @@
           "price": 4.4
         },
         {
-          "id": "bioburger-le-marais-shake-bb-crush",
-          "name": "SHAKE BB CRUSH",
+          "id": "bioburger-le-marais-cookie-chocolat-noir",
+          "name": "COOKIE CHOCOLAT NOIR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cookie chocolat noir",
+          "price": 4.4
+        },
+        {
+          "id": "bioburger-le-marais-bb-shake-peanut-butter",
+          "name": "BB SHAKE PEANUT BUTTER",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Milkshake au beurre de cacahuètes",
+          "price": 4.4
+        },
+        {
+          "id": "bioburger-le-marais-bb-shake",
+          "name": "BB SHAKE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",

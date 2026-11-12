@@ -52,7 +52,7 @@
         {
           "id": "pain-quotidien-pain-perdu",
           "name": "PAIN PERDU",
-          "description": "brioche, fruits de saison, menthe fraîche et confiture de fraises",
+          "description": "brioche, fruits de saison, menthe fraîche et skyr bio",
           "price": 10.95,
           "allergens": {
             "gluten": "present",
@@ -96,7 +96,7 @@
         {
           "id": "pain-quotidien-breakfast-bowl",
           "name": "BREAKFAST BOWL",
-          "description": "taboulé de quinoa, œufs brouillés bio, tomates cerises, purée d'avocat, persil, citron, mesclun et supergraines, servi avec pain bio au cannabis-chanvre",
+          "description": "taboulé de quinoa, oeufs brouillés bio, tomates cerises, purée d’avocat, persil, citron, mesclun, vinaigrette végane et supergraines, servi avec pain bio au cannabis-chanvre",
           "price": 14.95,
           "allergens": {
             "gluten": "present",
@@ -118,10 +118,10 @@
         {
           "id": "pain-quotidien-manhattan-breakfast",
           "name": "MANHATTAN BREAKFAST",
-          "description": "saumon Atlantique fumé*, skyr bio aux herbes fraîches, œuf à la coque bio, mesclun, sélection de pains bio & baguette bio",
+          "description": "saumon Atlantique fumé, skyr bio aux herbes fraîches*, oeuf à la coque bio, mesclun, sélection de pains bio & baguette bio",
           "price": 14.95,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "present",
@@ -190,9 +190,9 @@
           }
         },
         {
-          "id": "pain-quotidien-delice-de-chia-aux-fruits-rouges",
-          "name": "DÉLICE DE CHIA AUX FRUITS ROUGES",
-          "description": "à base de lait d'amande bio et de purée de framboise avec framboises, fraises, myrtilles et chocolat noir bio - choix entre: yaourt entier bio, skyr bio ou yaourt au soja bio",
+          "id": "pain-quotidien-delice-de-chia-a-la-passion",
+          "name": "DÉLICE DE CHIA À LA PASSION",
+          "description": "à base de lait d’amande bio et de purée de fruit de la passion, servi avec myrtilles, raisins noirs, grenade et chocolat noir bio - choix entre: yaourt entier bio, skyr bio ou yaourt au soja bio",
           "price": 9.95,
           "allergens": {
             "gluten": "may_contain",
@@ -219,7 +219,7 @@
         {
           "id": "pain-quotidien-oeufs-brouilles",
           "name": "ŒUFS BROUILLÉS",
-          "description": "avec baguette bio et pain de blé au levain bio • avec avocat tranché +3.5 € • avec poitrine fumée +3.5 € • avec saumon Atlantique fumé* +4 €",
+          "description": "avec baguette bio & pain de blé au levain bio • avec avocat tranché +3.5 € • avec poitrine fumée +3.5 € • avec saumon Atlantique fumé* +4 €",
           "price": 11.95,
           "allergens": {
             "gluten": "present",
@@ -241,7 +241,7 @@
         {
           "id": "pain-quotidien-oeuf-au-plat-1-ou-2",
           "name": "ŒUF AU PLAT (1 OU 2)",
-          "description": "avec baguette bio et pain de blé au levain bio (4.95 / 6.95 €)",
+          "description": "avec baguette bio, beurre bio et pain de blé au levain bio (4.95 / 6.95 €)",
           "price": 4.95,
           "allergens": {
             "gluten": "present",
@@ -263,7 +263,7 @@
         {
           "id": "pain-quotidien-oeuf-a-la-coque-1-ou-2",
           "name": "ŒUF À LA COQUE (1 OU 2)",
-          "description": "avec baguette bio et mouillettes de pain de blé au levain bio (4.95 / 6.95 €)",
+          "description": "avec baguette bio, beurre bio et mouillettes de pain de blé au levain bio (4.95 / 6.95 €)",
           "price": 4.95,
           "allergens": {
             "gluten": "present",
@@ -285,7 +285,7 @@
         {
           "id": "pain-quotidien-toast-aux-oeufs-brouilles",
           "name": "TOAST AUX ŒUFS BROUILLÉS",
-          "description": "pain de blé au levain bio toasté, œufs brouillés bio, avocat, tomates cerises, coriandre et pesto rosso bio",
+          "description": "pain de blé au levain bio toasté, oeufs brouillés bio, avocat, tomates cerises et pesto rosso bio",
           "price": 14.95,
           "allergens": {
             "gluten": "present",
@@ -310,29 +310,8 @@
       "category": "PAINS & VIENNOISERIES",
       "dishes": [
         {
-          "id": "pain-quotidien-portion-de-baguette-bio",
-          "name": "PORTION DE BAGUETTE BIO",
-          "price": 4,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pain-quotidien-roule-a-la-cannelle",
-          "name": "ROULÉ À LA CANNELLE",
+          "name": "ROULÉ A LA CANNELLE",
           "price": 4.45,
           "tags": [
             "vegan"
@@ -397,6 +376,69 @@
           }
         },
         {
+          "id": "pain-quotidien-carre-creme",
+          "name": "CARRÉ CRÈME",
+          "price": 4.75,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-roule-nougatine-praline",
+          "name": "ROULÉ NOUGATINE PRALINÉ",
+          "price": 4.75,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-chausson-aux-pommes",
+          "name": "CHAUSSON AUX POMMES",
+          "price": 4.45,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "pain-quotidien-tortillon",
           "name": "TORTILLON",
           "price": 3.95,
@@ -425,7 +467,7 @@
         {
           "id": "pain-quotidien-toast-avocat",
           "name": "TOAST AVOCAT",
-          "description": "purée d'avocat, concombre, radis, supergraines & sel citron-cumin • avec œuf poché bio +2.5 € • avec poitrine fumée +3.5 € • avec saumon Atlantique fumé* +4 €",
+          "description": "purée d’avocat, concombre, radis, supergraines & sel citron-cumin • avec œufs poché bio +2.5 € • avec poitrine fumée +3.5 € • avec saumon Atlantique fumé* +4 €",
           "price": 14.95,
           "tags": [
             "vegan"
@@ -495,6 +537,28 @@
           }
         },
         {
+          "id": "pain-quotidien-croque-club-poulet",
+          "name": "CROQUE CLUB POULET",
+          "description": "double tranche de pain de blé au levain bio toasté avec poulet plein champ, poitrine fumée, oeuf dur bio, tomates, salade romaine, mayonnaise & citron",
+          "price": 18.95,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "pain-quotidien-thon",
           "name": "THON",
           "description": "houmous, céleri, ciboulette, radis & concombre",
@@ -541,124 +605,6 @@
       ]
     },
     {
-      "category": "SPÉCIALITÉS DE SAISON",
-      "dishes": [
-        {
-          "id": "pain-quotidien-gourmet-breakfast",
-          "name": "GOURMET BREAKFAST",
-          "description": "croissant pur beurre aux œufs brouillés bio servi chaud, saumon Atlantique fumé*, avocat, mesclun, vinaigrette végane, concombre, tomates cerises, pain de blé au levain bio & baguette bio",
-          "price": 16.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-bowl-aux-legumes-de-saison",
-          "name": "BOWL AUX LÉGUMES DE SAISON",
-          "description": "poivrons rôtis, avocat, taboulé de quinoa, houmous, concombre, mesclun, vinaigrette végane, jeunes pousses & croûtons de pain de blé bio • avec feta +3 € • poulet plein champ +4 €",
-          "price": 14.95,
-          "tags": [
-            "vegan"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-bowl-au-saumon-quinoa",
-          "name": "BOWL AU SAUMON & QUINOA",
-          "description": "saumon Atlantique fumé*, taboulé de quinoa, pickles de légumes, salade romaine, vinaigrette végane, concombre, tomates cerises, jeunes pousses, citron & sauce aux herbes fraîches • avec avocat +3.5 €",
-          "price": 18.95,
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-salade-mediterraneenne",
-          "name": "SALADE MÉDITERRANÉENNE",
-          "description": "melon charentais, mozzarella di bufala D.O.P., courgettes grillées, flatbread toasté, mesclun, vinaigrette végane, pickles d'oignons rouges, tomates cerises, jeunes pousses & huile de basilic • avec Speck IGP +3.5 €",
-          "price": 16.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-croque-club-poulet",
-          "name": "CROQUE CLUB POULET",
-          "description": "double tranche de pain de blé au levain bio toasté avec poulet plein champ, poitrine fumée, œuf dur bio, tomates, salade romaine, mayonnaise & citron",
-          "price": 18.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
       "category": "SALADES",
       "dishes": [
         {
@@ -684,31 +630,9 @@
           }
         },
         {
-          "id": "pain-quotidien-salade-mediterraneenne",
-          "name": "SALADE MÉDITERRANÉENNE",
-          "description": "melon charentais, mozzarella di bufala D.O.P., courgettes grillées, flatbread toasté, mesclun, vinaigrette végane, pickles d'oignons rouges, tomates cerises, jeunes pousses & huile de basilic • avec Speck IGP +3.5 €",
-          "price": 16.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-cesar",
-          "name": "CÉSAR",
-          "description": "poulet plein champ, poitrine fumée, Parmesan, croûtons bio faits maison, œuf dur bio, salade romaine & sauce César",
+          "id": "pain-quotidien-caesar",
+          "name": "CAESAR",
+          "description": "poulet plein champ, poitrine fumée, Parmesan, croûtons bio faits maison, oeuf dur bio, salade romaine & sauce César",
           "price": 17.95,
           "allergens": {
             "gluten": "present",
@@ -733,9 +657,9 @@
       "category": "FLATBREADS",
       "dishes": [
         {
-          "id": "pain-quotidien-legumes-grilles",
-          "name": "LÉGUMES GRILLÉS",
-          "description": "houmous, poivrons rôtis, courgettes grillées, jeunes pousses et huile de basilic • avec mozzarella di bufala D.O.P. +3.5 € • avec Speck IGP +3.5 €",
+          "id": "pain-quotidien-portobello-legumes-rotis",
+          "name": "PORTOBELLO & LÉGUMES RÔTIS",
+          "description": "tapenade de champignons, butternut rôti, brocoli & champignons portobello, pickles d’oignon rouge, persil et huile épicée maison • avec mozzarella di bufala D.O.P. +3.5 € • avec Speck IGP +3.5 €",
           "price": 16.95,
           "tags": [
             "vegan"
@@ -744,28 +668,6 @@
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "not_declared",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-avec-deux-oeufs-au-plat-bio",
-          "name": "AVEC DEUX ŒUFS AU PLAT BIO",
-          "description": "skyr bio, sel citron-cumin, tomates cerises rôties, persil et huile épicée maison • avec avocat tranché +3.5 € • avec poitrine fumée +3.5 € • avec saumon Atlantique fumé* +4 €",
-          "price": 14.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
             "poisson": "may_contain",
             "arachides": "not_declared",
             "soja": "present",
@@ -781,7 +683,7 @@
         },
         {
           "id": "pain-quotidien-a-l-italienne",
-          "name": "À L'ITALIENNE",
+          "name": "À L’ITALIENNE",
           "description": "Speck IGP, mozzarella di bufala D.O.P., pesto rosso bio, tomates cerises & huile de basilic",
           "price": 17.95,
           "allergens": {
@@ -807,9 +709,9 @@
       "category": "SOUPES & QUICHES",
       "dishes": [
         {
-          "id": "pain-quotidien-quiche-lorraine",
-          "name": "QUICHE Lorraine",
-          "description": "avec une salade mixte",
+          "id": "pain-quotidien-quiche",
+          "name": "QUICHE",
+          "description": "demi quiche avec salade mixte • Lorraine • feta et épinards • potimarron & chèvre • oignons caramélisés",
           "price": 15.95,
           "allergens": {
             "gluten": "present",
@@ -819,6 +721,80 @@
             "arachides": "not_declared",
             "soja": "may_contain",
             "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "SPÉCIALITÉS DE SAISON",
+      "dishes": [
+        {
+          "id": "pain-quotidien-oeufs-au-plat-benedicte",
+          "name": "ŒUFS AU PLAT BÉNÉDICTE",
+          "description": "brioche, 2 oeufs au plat, sauce hollandaise, pickles de concombre, tomates cerises, mesclun, jeunes pousses et vinaigrette végane • avec de l’avocat +3.5 € • avec saumon Atlantique fumé* +4 € • avec poitrine fumée +3.5 €",
+          "price": 15.95,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-bowl-aux-legumes-de-saison",
+          "name": "BOWL AUX LÉGUMES DE SAISON",
+          "description": "butternut rôti, pain au potiron bio, chou-fleur au curcuma, riz complet, jeunes pousses, brocoli, avocat, champignons sautés et une vinaigrette végane • avec poulet plein champ +4 € • avec feta +3 € • avec saumon Atlantique fumé* +4 €",
+          "price": 14.95,
+          "tags": [
+            "vegan"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-bowl-au-poulet-crispy",
+          "name": "BOWL AU POULET CRISPY",
+          "description": "poulet croustillant, riz complet, chou-fleur au curcuma, butternut rôti, pain au potiron bio, brocoli, vinaigrette Sriracha et jeunes pousses",
+          "price": 16.95,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
             "fruits_a_coque": "may_contain",
             "celeri": "may_contain",
             "moutarde": "present",
@@ -829,21 +805,21 @@
           }
         },
         {
-          "id": "pain-quotidien-quiche-feta-et-epinards",
-          "name": "QUICHE feta et épinards",
-          "description": "avec une salade mixte",
-          "price": 15.95,
+          "id": "pain-quotidien-double-toast-chevre-avocat",
+          "name": "DOUBLE TOAST CHÈVRE & AVOCAT",
+          "description": "double pain de blé au levain bio, garni de fromage de chèvre et agave, guacamole, courgettes grillées, radis, tomates cerises, sel citron-cumin, supergraines, jeunes pousses et vinaigrette balsamique-myrtilles",
+          "price": 18.95,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "may_contain",
             "poisson": "may_contain",
             "arachides": "not_declared",
             "soja": "may_contain",
             "lait": "present",
             "fruits_a_coque": "may_contain",
             "celeri": "may_contain",
-            "moutarde": "present",
+            "moutarde": "may_contain",
             "sesame": "may_contain",
             "sulfites": "present",
             "lupin": "not_declared",
@@ -877,30 +853,9 @@
           }
         },
         {
-          "id": "pain-quotidien-tartelette-pomme-cannelle",
-          "name": "TARTELETTE POMME-CANNELLE",
-          "price": 6.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pain-quotidien-gaufre-de-liege",
           "name": "GAUFRE DE LIÈGE",
-          "description": "• banane ou fraises ou sauce au chocolat 7.5 € • banane ou fraises et sauce au chocolat 7.95 €",
+          "description": "• banane sauce au chocolat +0.5 € • banane sauce au chocolat +1 €",
           "price": 6.95,
           "allergens": {
             "gluten": "present",
@@ -910,30 +865,6 @@
             "arachides": "not_declared",
             "soja": "may_contain",
             "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-pavlova-aux-fraises",
-          "name": "PAVLOVA AUX FRAISES",
-          "price": 6.95,
-          "tags": [
-            "vegan"
-          ],
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
             "fruits_a_coque": "may_contain",
             "celeri": "may_contain",
             "moutarde": "may_contain",
@@ -1007,55 +938,13 @@
           }
         },
         {
-          "id": "pain-quotidien-eclair-vanille-chocolat",
-          "name": "ÉCLAIR VANILLE & CHOCOLAT",
-          "price": 6.45,
+          "id": "pain-quotidien-millefeuille-aux-pommes",
+          "name": "MILLEFEUILLE AUX POMMES",
+          "price": 7.45,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-merveilleux-au-chocolat",
-          "name": "MERVEILLEUX AU CHOCOLAT",
-          "price": 6.95,
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-feuillete-aux-pommes",
-          "name": "FEUILLETÉ AUX POMMES",
-          "price": 5.45,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "may_contain",
             "poisson": "may_contain",
             "arachides": "not_declared",
             "soja": "may_contain",
@@ -1091,30 +980,6 @@
           }
         },
         {
-          "id": "pain-quotidien-moelleux-au-chocolat",
-          "name": "MŒLLEUX AU CHOCOLAT",
-          "price": 6.95,
-          "tags": [
-            "vegan"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "present",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pain-quotidien-brownie-au-chocolat-belge",
           "name": "BROWNIE AU CHOCOLAT BELGE",
           "price": 6.45,
@@ -1138,7 +1003,6 @@
         {
           "id": "pain-quotidien-part-de-cake-au-choix",
           "name": "PART DE CAKE AU CHOIX",
-          "description": "cake nature, cake au chocolat ou cake au citron",
           "price": 4.95,
           "allergens": {
             "gluten": "present",
@@ -1163,9 +1027,8 @@
       "category": "BOISSONS CHAUDES BIO",
       "dishes": [
         {
-          "id": "pain-quotidien-expresso",
-          "name": "EXPRESSO",
-          "description": "(2.95 / 3.95 €)",
+          "id": "pain-quotidien-espresso",
+          "name": "ESPRESSO",
           "price": 2.95,
           "allergens": {
             "gluten": "not_declared",
@@ -1187,7 +1050,6 @@
         {
           "id": "pain-quotidien-cafe-long",
           "name": "CAFÉ LONG",
-          "description": "(3.5 / 4 €)",
           "price": 3.5,
           "allergens": {
             "gluten": "present",
@@ -1209,7 +1071,6 @@
         {
           "id": "pain-quotidien-noisette",
           "name": "NOISETTE",
-          "description": "(3.5 / 4 €)",
           "price": 3.5,
           "allergens": {
             "gluten": "present",
@@ -1231,7 +1092,6 @@
         {
           "id": "pain-quotidien-cafe-creme",
           "name": "CAFÉ CRÈME",
-          "description": "(4.95 / 5.95 €)",
           "price": 4.95,
           "allergens": {
             "gluten": "present",
@@ -1253,7 +1113,6 @@
         {
           "id": "pain-quotidien-cappuccino",
           "name": "CAPPUCCINO",
-          "description": "(4.95 / 5.95 €)",
           "price": 4.95,
           "allergens": {
             "gluten": "present",
@@ -1275,7 +1134,7 @@
         {
           "id": "pain-quotidien-flat-white",
           "name": "FLAT WHITE",
-          "description": "(5.95 / 6.95 €)",
+          "description": "double espresso crème",
           "price": 5.95,
           "allergens": {
             "gluten": "present",
@@ -1297,6 +1156,7 @@
         {
           "id": "pain-quotidien-latte-macchiato",
           "name": "LATTE MACCHIATO",
+          "description": "+ avec du sirop à la vanille, au caramel ou à la noisette* +0.5 €",
           "price": 5.95,
           "allergens": {
             "gluten": "present",
@@ -1339,7 +1199,7 @@
         },
         {
           "id": "pain-quotidien-the-a-la-menthe-fraiche",
-          "name": "THÉ À LA MENTHE FRAÎCHE**",
+          "name": "THÉ À LA MENTHE FRAÎCHE*",
           "price": 5.95,
           "allergens": {
             "gluten": "may_contain",
@@ -1380,9 +1240,10 @@
           }
         },
         {
-          "id": "pain-quotidien-chai-latte",
-          "name": "CHAÏ LATTE",
-          "price": 6.5,
+          "id": "pain-quotidien-pumpkin-spice-latte",
+          "name": "PUMPKIN SPICE LATTE",
+          "description": "latte aux saveurs de citrouille, cannelle, gingembre, muscade et sucre de coco",
+          "price": 6.45,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1403,27 +1264,6 @@
         {
           "id": "pain-quotidien-matcha-latte",
           "name": "MATCHA LATTE",
-          "price": 6.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-caramel-latte-macchiato",
-          "name": "CARAMEL LATTE MACCHIATO**",
           "price": 6.95,
           "allergens": {
             "gluten": "present",
@@ -1443,9 +1283,30 @@
           }
         },
         {
+          "id": "pain-quotidien-chai-latte",
+          "name": "CHAÏ LATTE",
+          "price": 5.95,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "pain-quotidien-elixir-gingembre",
-          "name": "ÉLIXIR GINGEMBRE**",
-          "price": 5.6,
+          "name": "ÉLIXIR GINGEMBRE*",
+          "price": 4.95,
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -1511,9 +1372,9 @@
           }
         },
         {
-          "id": "pain-quotidien-jus-detox-presse-a-froid",
-          "name": "JUS DETOX PRESSÉ À FROID",
-          "description": "• pomme, charbon actif et citron vert • carotte, gingembre et curcuma bio • poire bio, épinard et menthe bio",
+          "id": "pain-quotidien-jus-presse-a-froid",
+          "name": "JUS PRESSÉ À FROID",
+          "description": "• pomme, charbon actif et citron vert • carotte, gingembre et curcuma bio • poire bio, épinard et menthe bio • chia, orange, mangue et fruit de la passion",
           "price": 6.95,
           "allergens": {
             "gluten": "may_contain",
@@ -1554,96 +1415,9 @@
           }
         },
         {
-          "id": "pain-quotidien-the-glace-maison",
-          "name": "THÉ GLACÉ MAISON",
-          "description": "• thé vert ou fruit de la passion ou pêche",
-          "price": 6.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-kombucha-bio",
-          "name": "KOMBUCHA BIO",
-          "description": "de saison",
-          "price": 7.95,
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pain-quotidien-citronnade-maison",
           "name": "CITRONNADE MAISON",
           "price": 6.5,
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-frappe-cookie-chocolat-ou-caramel",
-          "name": "FRAPPÉ COOKIE CHOCOLAT OU CARAMEL",
-          "description": "• avec shot expresso +1 €",
-          "price": 6.95,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pain-quotidien-expresso-tonic-botanique",
-          "name": "EXPRESSO TONIC BOTANIQUE",
-          "price": 5.95,
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -1683,10 +1457,74 @@
           }
         },
         {
-          "id": "pain-quotidien-eau-petillante-infusee",
-          "name": "EAU PÉTILLANTE INFUSÉE",
-          "description": "• fraises, citron & menthe • concombre, citron & menthe • framboises, myrtilles & menthe",
-          "price": 5.95,
+          "id": "pain-quotidien-kombucha-bio",
+          "name": "KOMBUCHA BIO",
+          "description": "de saison",
+          "price": 7.95,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-the-glace-maison",
+          "name": "THÉ GLACÉ MAISON",
+          "description": "• thé vert • fruit de la passion • pêche",
+          "price": 6.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "may_contain",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-shot-de-collagene",
+          "name": "SHOT DE COLLAGÈNE",
+          "price": 4.45,
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pain-quotidien-boisson-energisante-au-mate",
+          "name": "BOISSON ÉNERGISANTE AU MATÉ",
+          "price": 4.95,
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -1712,8 +1550,8 @@
         {
           "id": "pain-quotidien-igp-vaucluse-principaute-d-orange",
           "name": "IGP VAUCLUSE PRINCIPAUTÉ D’ORANGE",
-          "description": "ROUGE - OÉ. (6.5 / 27.5 €)",
-          "price": 6.5,
+          "description": "ROUGE - OÉ.",
+          "price": 27.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1732,10 +1570,10 @@
           }
         },
         {
-          "id": "pain-quotidien-aoc-languedoc-le-languedoc",
-          "name": "AOC LANGUEDOC, LE LANGUEDOC",
-          "description": "ROUGE - OÉ. (6.5 / 27.5 €)",
-          "price": 6.5,
+          "id": "pain-quotidien-aoc-langedoc-le-languedoc",
+          "name": "AOC LANGEDOC, LE LANGUEDOC",
+          "description": "ROUGE - OÉ.",
+          "price": 27.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1756,8 +1594,8 @@
         {
           "id": "pain-quotidien-aoc-cote-du-rhone-le-cote-du-rhone",
           "name": "AOC CÔTE DU RHÔNE, LE CÔTE DU RHÔNE",
-          "description": "BLANC - OÉ. (6.5 / 27.5 €)",
-          "price": 6.5,
+          "description": "BLANC - OÉ.",
+          "price": 27.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1778,8 +1616,8 @@
         {
           "id": "pain-quotidien-aoc-bugey-le-bugey",
           "name": "AOC BUGEY, LE BUGEY",
-          "description": "BLANC - OÉ. (6.5 / 27.5 €)",
-          "price": 6.5,
+          "description": "BLANC - OÉ.",
+          "price": 27.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1799,9 +1637,9 @@
         },
         {
           "id": "pain-quotidien-igp-provence-le-rose-mediterranee",
-          "name": "IGP PROVENCE, LE ROSÉ MÉDITERRANÉE",
-          "description": "ROSÉ - OÉ. (6.5 / 27.5 €)",
-          "price": 6.5,
+          "name": "IGP PROVENCE, LE ROSÉ MEDITERRANÉE",
+          "description": "ROSÉ - OÉ.",
+          "price": 27.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1843,7 +1681,7 @@
         },
         {
           "id": "pain-quotidien-mimosa-ou-bellini",
-          "name": "MIMOSA OU BELLINI",
+          "name": "MIMOSA* OU BELLINI*",
           "description": "PÉTILLANT.",
           "price": 6.95,
           "allergens": {

@@ -6,15 +6,15 @@
       "category": "Entrées",
       "dishes": [
         {
-          "id": "zenchef-1348373-veloute-de-butternut",
-          "name": "Velouté de butternut",
-          "price": 8,
+          "id": "zenchef-1348373-veloute-de-poireaux",
+          "name": "Velouté de poireaux",
+          "price": 8.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
@@ -25,14 +25,14 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Velouté réconfortant de butternut, cacahuètes et lait de coco, pointe de gingembre et citron, oignons frits, huile de cacahuète.",
+          "description": "Poireaux, pomme de terre, huile infusée au poivre de Sichuan, oignons frits, ciboulette.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1252533-poireau-vinaigrette",
-          "name": "Poireau vinaigrette",
+          "id": "zenchef-1252533-tataki-de-kakis",
+          "name": "Tataki de kakis",
           "price": 9,
           "allergens": {
             "gluten": "not_declared",
@@ -44,13 +44,13 @@
             "lait": "not_declared",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Poireau rôti, vinaigrette à la betterave, mimosa de tofu au kalak malak et curcuma, noisettes torréfiées.",
+          "description": "Des kakis snackées façon tataki accompagnés d’une ricotta de tofu et une sauce légèrement relevée gochujang agave, éclats de noisettes.",
           "tags": [
             "vegan"
           ]
@@ -75,7 +75,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "De délicieux beignets de chou fleurs frits aux épices, servi avec crème au tofu soyeux, herbes fraîches et yuzu.",
+          "description": "Chou fleur frit dans un appareil fait de lait d’avoine, d’épices et de farine sans gluten, sauce verte au tofu soyeux, coriandre et persil, pickles d’oignon rouge.",
           "tags": [
             "vegan"
           ]
@@ -86,8 +86,8 @@
       "category": "Plats",
       "dishes": [
         {
-          "id": "zenchef-1257559-quinoa-a-la-forestiere",
-          "name": "Quinoa à la forestière",
+          "id": "zenchef-1257559-polpette-a-la-bolognaise",
+          "name": "Polpette à la bolognaise",
           "price": 17,
           "allergens": {
             "gluten": "not_declared",
@@ -95,9 +95,9 @@
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -105,7 +105,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Quinoa à la crème forestière de shiitake et champignons de Paris, filet végétal à base de protéine de pois chiches, brunoise de butternut, noisettes torréfiées, pickles de shimeji et nori.",
+          "description": "Des boulettes aux haricots blancs et tomates confites façon polpette dans une sauce bolognaise vegan gourmande, servies avec une crème de chou fleur, choux de bruxelles et panais rôtis, pickles d’oignon rouge.",
           "tags": [
             "vegan"
           ]
@@ -130,22 +130,22 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Revisité certes mais tout aussi réconfortant que l’original ! avec du tofu fumé, carottes, navet, pleurotes mijotés au vin rouge, accompagné d’un écrasé de pomme de terre gourmand et ses figues de saison.",
+          "description": "Revisité certes mais tout aussi réconfortant que l’original ! avec du tofu fumé, carottes, panais, shiitake mijotés au vin rouge, accompagné d’un écrasé de pomme de terre gourmand.",
           "tags": [
             "vegan"
           ]
         },
         {
-          "id": "zenchef-1252536-steak-de-chou-fleur-sauce-tigre",
-          "name": "Steak de chou fleur sauce tigre",
-          "price": 16.5,
+          "id": "zenchef-1252536-steak-de-quinoa-et-pois-chiche",
+          "name": "Steak de quinoa et pois chiche",
+          "price": 17,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -155,7 +155,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Chou fleur rôti avec une sauce parfumée à base de tamari, citronnelle, gingembre et basilic thaï, façon tigre qui pleure, pois chiche grillés aux épices et cacahuètes, servi avec une délicieuse purée de maïs et ses pickles d’oignon rouge.",
+          "description": "Steak de pois chiches et quinoa poêlé, pleurotes marinés dans une sauce façon tigre qui pleure au tamari et aux herbes parfumées, tombée d’épinards, ricotta de tofu et kaki rôtis.",
           "tags": [
             "vegan"
           ]
@@ -186,8 +186,8 @@
           ]
         },
         {
-          "id": "zenchef-1303955-maquereau-a-la-flamme",
-          "name": "Maquereau à la flamme",
+          "id": "zenchef-1303955-merlu-facon-meuniere",
+          "name": "Merlu façon meunière",
           "price": 19,
           "allergens": {
             "gluten": "not_declared",
@@ -195,7 +195,7 @@
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -205,7 +205,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Filet de maquereau mariné au yuzu, saisi à la flamme, salade de lentilles beluga et carotte, crème au tofu soyeux et herbes, fenouil rôti et sauce vierge parfumée."
+          "description": "Accompagné d’un écrasé de pomme de terre, tombée d’épinards, choux de bruxelles rôtis, vierge d’herbes parfumées et câpres, pickles d’oignon rouge."
         }
       ]
     },
@@ -213,9 +213,59 @@
       "category": "Desserts",
       "dishes": [
         {
-          "id": "zenchef-1252539-figues-pochees",
-          "name": "Figues pochées",
-          "price": 12,
+          "id": "zenchef-1252539-riz-au-lait-noisettes",
+          "name": "Riz au lait noisettes",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz au lait d’amande infusé à la crème de noisettes, noisettes caramélisées, pommes poêlées au sirop d’agave et pointe de cannelle.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1252541-brownie-choco-matcha",
+          "name": "Brownie choco matcha",
+          "price": 11,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fait de chocolat et pois chiche, oui oui vous avez bien lu ! mais tout aussi bon qu’un vrai brownie, accompagné de son caramel et cacahuètes façon snickers, siphon au matcha.",
+          "tags": [
+            "vegan"
+          ]
+        },
+        {
+          "id": "zenchef-1276775-tarte-citron-destructuree",
+          "name": "Tarte citron destructurée",
+          "price": 11,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -232,57 +282,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Figues pochées au jus de pomme et ses épices, siphon de crème végétale à la vanille, graines de courge caramélisées.",
-          "tags": [
-            "vegan"
-          ]
-        },
-        {
-          "id": "zenchef-1252541-moelleux-butternut-chataigne",
-          "name": "Moelleux butternut châtaigne",
-          "price": 11,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Fait de butternut châtaigne, crème anglaise faite de tofu soyeux et lait d’avoine à la châtaigne et ses éclats de châtaigne et noix de pécans caramélisés : une déclaration d’amour au retour de l’automne !",
-          "tags": [
-            "vegan"
-          ]
-        },
-        {
-          "id": "zenchef-1276775-far-breton-revisite",
-          "name": "Far breton revisité",
-          "price": 10,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Far breton végétal au lait d’avoine, cœur fondant pomme & poire, caramel façon beurre salé, amandes effilées.",
+          "description": "Crème de citron yuzu vegan, biscuit sans gluten, copeaux de meringue au jus de pois chiche et gingembre confit.",
           "tags": [
             "vegan"
           ]

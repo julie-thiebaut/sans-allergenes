@@ -25,7 +25,7 @@
             "mollusques": "present"
           },
           "price": 7.5,
-          "description": "Calamar frit, sauce tartare. Format : 7,50 € / 14 € / 19 €."
+          "description": "Calamar frit, sauce tartare. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-tempura-de-gambas",
@@ -47,7 +47,7 @@
             "mollusques": "present"
           },
           "price": 7.5,
-          "description": "Beignets de gambas, sauce tartare. Format : 7,50 € / 14 € / 19 €."
+          "description": "Beignets de gambas, sauce tartare. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-spicy-acras",
@@ -69,7 +69,7 @@
             "mollusques": "not_declared"
           },
           "price": 7.5,
-          "description": "Acras pimentés, sauce mayo curry mango. Format : 7,50 € / 14 € / 19 €."
+          "description": "Acras pimentés, sauce mayo curry mango. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-chicken-tenders",
@@ -91,7 +91,7 @@
             "mollusques": "not_declared"
           },
           "price": 7.5,
-          "description": "Aiguillettes de poulet panées, sauce barbecue. Format : 7,50 € / 14 € / 19 €."
+          "description": "Aiguillettes de poulet panées, sauce barbecue. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-chicken-wings",
@@ -113,7 +113,7 @@
             "mollusques": "not_declared"
           },
           "price": 7.5,
-          "description": "Ailerons de poulet, sauce barbecue. Format : 7,50 € / 14 € / 19 €."
+          "description": "Ailerons de poulet, sauce barbecue. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-croquetas-chorizo",
@@ -135,7 +135,7 @@
             "mollusques": "not_declared"
           },
           "price": 7.5,
-          "description": "Croquettes de chorizo, sauce mayo chipotle. Format : 7,50 € / 14 € / 19 €."
+          "description": "Croquettes de chorizo, sauce mayo chipotle. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-beignets-de-mozza",
@@ -157,7 +157,7 @@
             "mollusques": "not_declared"
           },
           "price": 7.5,
-          "description": "Beignets de mozzarella, salsa roja. Format : 7,50 € / 14 € / 19 €."
+          "description": "Beignets de mozzarella, salsa roja. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-chili-cheddar-nuggets",
@@ -179,7 +179,7 @@
             "mollusques": "present"
           },
           "price": 7.5,
-          "description": "Beignets de cheddar et piment, salsa roja. Format : 7,50 € / 14 € / 19 €."
+          "description": "Beignets de cheddar et piment, salsa roja. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         },
         {
           "id": "indiana-mac-cheese-balls",
@@ -201,7 +201,7 @@
             "mollusques": "present"
           },
           "price": 7.5,
-          "description": "Croquettes de macaronis au fromage, sauce mayo truffe. Format : 7,50 € / 14 € / 19 €."
+          "description": "Croquettes de macaronis au fromage, sauce mayo truffe. Format : 7,50 € / 14 € / 197,90 € / 15 € / 19,50 €."
         }
       ]
     },
@@ -227,7 +227,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.5,
           "description": "Purée d’avocat, pico de gallo, citron vert, coriandre et chips de maïs"
         },
         {
@@ -249,7 +248,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 9.9,
           "description": "Avec fromage fondu, guacamole, crème fraîche et jalapeños"
         },
         {
@@ -271,7 +269,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 11.9,
           "description": "Avec poulet grillé, fromage fondu, guacamole, crème fraîche et jalapeños"
         }
       ]
@@ -298,7 +295,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 6.5,
           "description": "Tortillas de blé, cheddar, Monterey cheese, mayo chipotle et salsa roja"
         },
         {
@@ -320,7 +316,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.9,
           "description": "Tortillas de blé, poulet grillé, fromages, mayo chipotle et salsa roja"
         },
         {
@@ -342,7 +337,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Fromage, poulet & boeuf quesadillas avec crème fraîche et salsa roja"
         }
       ]
@@ -369,7 +363,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Mesclun, bacon croustillant, œuf poché, blue cheese, tomates cerises, pickles d’oignon, noisettes, ciboulette, vinaigrette indiana"
         },
         {
@@ -391,7 +384,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Romaine, poulet frit, parmesan, croûtons à l’ail, avocat, pico de gallo, coriandre, sauce Caesar"
         },
         {
@@ -413,7 +405,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.9,
           "description": "Iceberg, chair de homard, avocat, œuf, cheddar, radis, concombre, tomates cerises, oignons frits, ciboulette, mayo chipotle, sauce poke"
         },
         {
@@ -438,7 +429,6 @@
           "tags": [
             "vegetarien"
           ],
-          "price": 14.9,
           "description": "Acras de légumes, quinoa, avocat, mangue, tomates cerises, carottes, concombre, edamame, coriandre, sauce poke"
         },
         {
@@ -460,7 +450,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.5,
           "description": "Salade mélangée, émincés de poulet, légumes grillés, cheddar, pico de gallo, guacamole, jalapeños, coriandre, mayo chipotle, tortilla croustillante, vinaigrette"
         },
         {
@@ -482,7 +471,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Dés de saumon cru mariné, riz coriandre-lime, avocat, mangue, carottes, concombre, radis, edamame, sésame, sauce poke"
         }
       ]
@@ -509,7 +497,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 15.9,
           "description": "Potato buns artisanal, burger «Redefine Meat» grillé, avocat, Monterey cheese, oignons frits, coriandre, sauce burger Indiana"
         },
         {
@@ -531,7 +518,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Potato buns artisanal, filet de poulet pané, Monterey cheese, cajun onion rings, jalapeños, spicy mayo curry mango"
         },
         {
@@ -553,7 +539,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Potato buns artisanal, steak haché frais façon bouchère, cheddar mature, american cheese, sauce burger Indiana"
         },
         {
@@ -575,7 +560,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Potato buns artisanal, filet de poulet pané, cheddar mature, bacon croustillant, oignons frits, sauce BBQ"
         },
         {
@@ -597,7 +581,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Potato buns artisanal, effiloché de porc fumé, cheddar fondu, rösti, spicy onion rings, ciboulette, sauce BBQ"
         },
         {
@@ -619,7 +602,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Potato buns artisanal, steak haché frais façon bouchère, blue cheese, rösti, oignons frits, sauce burger Indiana"
         },
         {
@@ -641,7 +623,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.9,
           "description": "Potato buns artisanal, steak haché frais façon bouchère, cheddar mature, bacon croustillant, sauce burger Indiana"
         },
         {
@@ -663,7 +644,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18.9,
           "description": "Potato buns artisanal, double smash burger, american cheese, sauce burger Indiana, trempé dans du cheddar fondu bouillant"
         },
         {
@@ -685,7 +665,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18.9,
           "description": "Potato buns artisanal, steak haché frais façon bouchère, cheddar mature, bacon croustillant, oignons frits, œuf au plat, sauce burger indiana"
         }
       ]
@@ -715,7 +694,6 @@
           "tags": [
             "vegetarien"
           ],
-          "price": 14.9,
           "description": "Pain de campagne toasté, avocat, guacamole, radis, concombre, pickles d’oignon, sésame, coriandre, avec quinoa, mesclun et citron vert"
         },
         {
@@ -737,7 +715,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.5,
           "description": "English muffin, avocat, tomate, bacon croustillant, œufs pochés, sauce hollandaise, ciboulette, avec frites et mesclun"
         },
         {
@@ -759,7 +736,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Pain de mie grillé, poulet rôti, bacon croustillant, iceberg, œuf, pico de gallo, avocat, mayonnaise, avec frites"
         }
       ]
@@ -786,7 +762,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Beignets de poisson blanc, sauce tartare avec frites et citron vert"
         },
         {
@@ -808,7 +783,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.9,
           "description": "Pavé de saumon mariné puis grillé, sauce soja-sésame, avec riz coriandre-lime, haricots verts et citron vert"
         },
         {
@@ -830,7 +804,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18.9,
           "description": "Pain brioché toasté, chair de homard, sauce hollandaise, œuf, iceberg, mayo chipotle, oignons frits, ciboulette avec frites, mesclun et citron vert"
         }
       ]
@@ -857,7 +830,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Tortillas de maïs x3, sauté de poulet aux épices, iceberg, mayo chipotle, pickles d’oignon, coriandre avec guacamole, riz mexicain, salsa roja et citron vert"
         },
         {
@@ -879,7 +851,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Tortillas de maïs x3, effiloché de bœuf fumé, iceberg, mayo chipotle, pickles d’oignon, coriandre avec guacamole, riz mexicain, salsa roja et citron vert"
         },
         {
@@ -901,7 +872,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Chicken pastor, beef barbacoa & pork pibil tacos avec guacamole, riz mexicain, salsa roja et citron vert"
         }
       ]
@@ -928,7 +898,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Tortilla de blé, poulet mariné grillé, cheddar, Monterey cheese, pico de gallo, coriandre, maïs, iceberg, pickles d’oignon, mayo chipotle avec guacamole et riz mexicain"
         },
         {
@@ -950,7 +919,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Tortilla de blé, bœuf mijoté aux épices, cheddar, Monterey cheese, pico de gallo, coriandre, maïs, iceberg, pickles d’oignon, mayo chipotle avec guacamole et riz mexicain"
         },
         {
@@ -972,7 +940,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 16.9,
           "description": "Tortilla de blé, effiloché de porc confit, cheddar, Monterey cheese, pico de gallo, coriandre, maïs, iceberg, pickles d’oignon, mayo chipotle avec guacamole et riz mexicain"
         }
       ]
@@ -999,7 +966,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Blancs de poulet panés, sauce BBQ avec frites et coleslaw"
         },
         {
@@ -1021,7 +987,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 15.9,
           "description": "Ailerons de poulet épicés, sauce BBQ ou blue cheese, frites et coleslaw"
         },
         {
@@ -1043,7 +1008,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 15.9,
           "description": "Steak haché boucher frais XL, œuf au plat, avec frites et mesclun"
         },
         {
@@ -1065,7 +1029,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 20.9,
           "description": "Travers de porc laqué BBQ avec frites et coleslaw"
         },
         {
@@ -1087,7 +1050,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18.9,
           "description": "Brochette de filet de bœuf marinée puis grillée, avec frites et mesclun"
         },
         {
@@ -1109,7 +1071,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 20.9,
           "description": "Cœur d’onglet de bœuf Angus grillé, avec frites et mesclun"
         },
         {
@@ -1131,7 +1092,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 24.5,
           "description": "Belle entrecôte grillée de 300g avec frites et mesclun"
         },
         {
@@ -1153,7 +1113,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 24.5,
           "description": "BBQ ribs, poitrine fumée BBQ & chicken wings avec mac & cheese et coleslaw"
         }
       ]
@@ -1180,7 +1139,6 @@
             "lupin": "present",
             "mollusques": "not_declared"
           },
-          "price": 14.9,
           "description": "Grosse portion de macaronis au cheddar, poulet frit, bacon croustillant, fromages gratinés, onions frits, jalapeños, ciboulette"
         },
         {
@@ -1202,7 +1160,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16.5,
           "description": "Émincés de filet de poulet marinés, légumes grillés, salsa roja, crème fraîche, curry, pico de gallo, riz coriandre-lime, citron vert"
         },
         {
@@ -1224,7 +1181,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 17.5,
           "description": "Tortillas de maïs, poulet mijoté, fromages gratinés, salsa roja, crème fraîche, coriandre avec riz mexicain et guacamole"
         }
       ]
@@ -1251,7 +1207,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 20.9,
           "description": "Émincés de filet de poulet aux épices et légumes grillés avec tortillas de blé, guacamole, pico de gallo, crème fraîche, citron vert, coriandre et riz mexicain"
         },
         {
@@ -1273,7 +1228,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 20.9,
           "description": "Émincés de bœuf aux épices et légumes grillés avec tortillas de blé, guacamole, pico de gallo, crème fraîche, citron vert, coriandre et riz mexicain"
         },
         {
@@ -1295,7 +1249,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 20.9,
           "description": "Émincés de poulet et bœuf aux épices et légumes grillés avec tortillas de blé, guacamole, pico de gallo, crème fraîche, citron vert, coriandre et riz mexicain Nos fajitas sont disponibles en version spicy ou soft."
         }
       ]
@@ -1321,8 +1274,7 @@
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "price": 3.9
+          }
         },
         {
           "id": "indiana-frites-indiana",
@@ -1342,8 +1294,7 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "price": 4.9
+          }
         },
         {
           "id": "indiana-frites-de-patate-douce",
@@ -1363,8 +1314,7 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "price": 5.5
+          }
         },
         {
           "id": "indiana-spicy-onion-rings",
@@ -1385,7 +1335,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 5.9,
           "description": "Beignets d’oignons pimentés"
         },
         {
@@ -1406,8 +1355,7 @@
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "price": 6.5
+          }
         },
         {
           "id": "indiana-frites-truffe-parmesan",
@@ -1427,265 +1375,7 @@
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "price": 6.5
-        }
-      ]
-    },
-    {
-      "category": "Caféterie",
-      "dishes": [
-        {
-          "id": "indiana-cafe-affogato",
-          "name": "Café Affogato",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.5,
-          "description": "Glace vanille, expresso, chocolat"
-        },
-        {
-          "id": "indiana-cappuccino-frappe",
-          "name": "Cappuccino Frappé",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.9,
-          "description": "Cappuccino, crème glacée, crème fouettée, poudre cacao"
-        },
-        {
-          "id": "indiana-mocha-viennois",
-          "name": "Mocha Viennois",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.9,
-          "description": "Expresso, chocolat chaud, crème fouettée, poudre cacao"
-        },
-        {
-          "id": "indiana-cookie-irish-coffee",
-          "name": "Cookie Irish Coffee",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 10,
-          "description": "Whiskey, café, sirop cookie, crème fouettée, brisures Oreo"
-        }
-      ]
-    },
-    {
-      "category": "Smoothies",
-      "dishes": [
-        {
-          "id": "indiana-tropical",
-          "name": "Tropical",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.9,
-          "description": "Mangue, passion, banane"
-        },
-        {
-          "id": "indiana-red-fruits",
-          "name": "Red Fruits",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.9,
-          "description": "Fraise, framboise, myrtille"
-        },
-        {
-          "id": "indiana-coco-lada",
-          "name": "Coco Lada",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 6.9,
-          "description": "Noix de coco, ananas"
-        }
-      ]
-    },
-    {
-      "category": "Milkshakes",
-      "dishes": [
-        {
-          "id": "indiana-vanilla-berry",
-          "name": "Vanilla Berry",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 7.5,
-          "description": "Fruits rouges, vanille, crème fouettée"
-        },
-        {
-          "id": "indiana-choco-daim",
-          "name": "Choco Daim",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 7.5,
-          "description": "Chocolat, Daim, crème fouettée"
-        },
-        {
-          "id": "indiana-cookie-oreo",
-          "name": "Cookie Oreo",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 7.5,
-          "description": "Oreo, sirop cookie, crème fouettée"
-        },
-        {
-          "id": "indiana-caramel-speculoos",
-          "name": "Caramel Spéculoos",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 7.5,
-          "description": "Spéculoos, caramel beurre salé, crème fouettée"
+          }
         }
       ]
     },
@@ -1711,7 +1401,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.5,
           "description": "Sirop d’érable, crème fouettée, fruits rouges"
         },
         {
@@ -1733,7 +1422,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.9,
           "description": "Nutella, crème fouettée, noisettes"
         },
         {
@@ -1755,7 +1443,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.5,
           "description": "Banane, chocolat fondu, crème fouettée, brisures Oreo"
         },
         {
@@ -1777,7 +1464,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 6.9,
           "description": "Sauce au choix : caramel, chocolat ou Nutella"
         },
         {
@@ -1799,7 +1485,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.5,
           "description": "Cassonade, crème fouettée, chocolat fondu"
         },
         {
@@ -1821,7 +1506,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.9,
           "description": "Cassonade, crème fouettée, Nutella"
         },
         {
@@ -1843,7 +1527,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.5,
           "description": "Fruits rouges, crème fouettée, coulis de fraise, brisures de spéculoos"
         },
         {
@@ -1865,7 +1548,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.9,
           "description": "Nutella, banane, crème fouettée, noisettes"
         },
         {
@@ -1887,7 +1569,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.5,
           "description": "Glace vanille, crème fouettée, chocolat fondu, brisures Oreo"
         },
         {
@@ -2119,7 +1800,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 9.9,
           "description": "Glace vanille, crème fouettée, chocolat fondu, amandes"
         },
         {
@@ -2141,7 +1821,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 7.9,
           "description": "Glace caramel brownie, crème fouettée, caramel beurre salé, brisures de Daim"
         },
         {
@@ -2163,7 +1842,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.9,
           "description": "Glace fudge brownie, crème fouettée, chocolat fondu, brisures Oreo"
         },
         {
@@ -2185,7 +1863,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 10.5,
           "description": "Glace vanille, banane, crème fouettée, dulce de leche, arrosé de rhum"
         },
         {
@@ -2207,7 +1884,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.5,
           "description": "Glace vanille, crème fouettée, chocolat fondu, noisettes"
         }
       ]
@@ -2235,7 +1911,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "À l’extrait naturel de vanille. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "À l’extrait naturel de vanille. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-cookie-dough",
@@ -2257,7 +1933,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "Glace vanille au cookie et pépites de chocolat. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "Glace vanille au cookie et pépites de chocolat. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-double-caramel-brownie",
@@ -2279,7 +1955,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "Glace caramel au brownie et caramel salé. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "Glace caramel au brownie et caramel salé. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-chocolate-fudge-brownie",
@@ -2301,7 +1977,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "Glace chocolat aux morceaux de brownie. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "Glace chocolat aux morceaux de brownie. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-fraise",
@@ -2323,7 +1999,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "48% de fraise Senga Sengana. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "48% de fraise Senga Sengana. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-mangue",
@@ -2345,7 +2021,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "45% de mangue Alphonso d’Inde. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "45% de mangue Alphonso d’Inde. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-citron-jaune",
@@ -2367,7 +2043,7 @@
             "mollusques": "not_declared"
           },
           "price": 4,
-          "description": "27% de jus de citron de Sicile. Format : 4 € / 6,50 € / 8,50 €."
+          "description": "27% de jus de citron de Sicile. Format : 4 € / 6,50 € / 8,54 € / 6,90 € / 8,90 €."
         },
         {
           "id": "indiana-caramel-cookie-liegeois",
@@ -2388,7 +2064,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.9,
           "description": "Glaces cookie, caramel brownie et vanilla avec crème fouettée, caramel beurre salé et brisures Oreo"
         },
         {
@@ -2410,7 +2085,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 8.9,
           "description": "Glaces vanilla, chocolate brownie et caramel brownie avec crème fouettée, chocolat fondu et brisures de Daim"
         },
         {
@@ -2495,7 +2169,255 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "price": 9.51,
           "description": "Trois boules de sorbet citron avec fruits rouges, feuilles de menthe et nappées de vodka"
+        }
+      ]
+    },
+    {
+      "category": "Caféterie",
+      "dishes": [
+        {
+          "id": "indiana-cafe-affogato",
+          "name": "Café Affogato",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Glace vanille, expresso, chocolat"
+        },
+        {
+          "id": "indiana-cappuccino-frappe",
+          "name": "Cappuccino Frappé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cappuccino, crème glacée, crème fouettée, poudre cacao"
+        },
+        {
+          "id": "indiana-mocha-viennois",
+          "name": "Mocha Viennois",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Expresso, chocolat chaud, crème fouettée, poudre cacao"
+        },
+        {
+          "id": "indiana-cookie-irish-coffee",
+          "name": "Cookie Irish Coffee",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 1010,
+          "description": "Whiskey, café, sirop cookie, crème fouettée, brisures Oreo"
+        }
+      ]
+    },
+    {
+      "category": "Smoothies",
+      "dishes": [
+        {
+          "id": "indiana-tropical",
+          "name": "Tropical",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mangue, passion, banane"
+        },
+        {
+          "id": "indiana-red-fruits",
+          "name": "Red Fruits",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fraise, framboise, myrtille"
+        },
+        {
+          "id": "indiana-coco-lada",
+          "name": "Coco Lada",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Noix de coco, ananas"
+        }
+      ]
+    },
+    {
+      "category": "Milkshakes",
+      "dishes": [
+        {
+          "id": "indiana-vanilla-berry",
+          "name": "Vanilla Berry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fruits rouges, vanille, crème fouettée"
+        },
+        {
+          "id": "indiana-choco-daim",
+          "name": "Choco Daim",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat, Daim, crème fouettée"
+        },
+        {
+          "id": "indiana-cookie-oreo",
+          "name": "Cookie Oreo",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Oreo, sirop cookie, crème fouettée"
+        },
+        {
+          "id": "indiana-caramel-speculoos",
+          "name": "Caramel Spéculoos",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Spéculoos, caramel beurre salé, crème fouettée"
         }
       ]
     }

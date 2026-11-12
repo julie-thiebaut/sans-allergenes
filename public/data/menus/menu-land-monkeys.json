@@ -251,8 +251,8 @@
           }
         },
         {
-          "id": "land-monkeys-babka-choco-noisette",
-          "name": "Babka choco noisette",
+          "id": "land-monkeys-chausson-aux-pommes",
+          "name": "Chausson aux pommes",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -260,8 +260,8 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -291,26 +291,6 @@
           }
         },
         {
-          "id": "land-monkeys-cinnamon-roll",
-          "name": "Cinnamon roll",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "land-monkeys-viennoise-nature",
           "name": "Viennoise nature",
           "allergens": {
@@ -322,6 +302,26 @@
             "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "land-monkeys-babka-choco-noisette",
+          "name": "Babka choco noisette",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -351,8 +351,8 @@
           }
         },
         {
-          "id": "land-monkeys-chausson-aux-pommes",
-          "name": "Chausson aux pommes",
+          "id": "land-monkeys-cinnamon-roll",
+          "name": "Cinnamon roll",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -360,8 +360,8 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -409,57 +409,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        }
-      ]
-    },
-    {
-      "category": "Pâtisseries",
-      "dishes": [
+        },
         {
-          "id": "land-monkeys-tarte-aux-fraises",
-          "name": "Tarte aux fraises",
+          "id": "land-monkeys-croissant-aux-amandes",
+          "name": "Croissant aux amandes",
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "may_contain",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-craquant-framboise",
-          "name": "Craquant framboise",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "may_contain",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-cheesecake-framboise",
-          "name": "Cheesecake framboise",
-          "allergens": {
-            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
@@ -476,48 +431,8 @@
           }
         },
         {
-          "id": "land-monkeys-tarte-myrtilles",
-          "name": "Tarte myrtilles",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "may_contain",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-tarte-citron",
-          "name": "Tarte citron",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "may_contain",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-flan-vanille",
-          "name": "Flan vanille",
+          "id": "land-monkeys-pain-au-chocolat-aux-amandes",
+          "name": "Pain au chocolat aux amandes",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -534,10 +449,15 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
+        }
+      ]
+    },
+    {
+      "category": "Pâtisseries",
+      "dishes": [
         {
-          "id": "land-monkeys-banana-bread",
-          "name": "Banana bread",
+          "id": "land-monkeys-chimp-cookie",
+          "name": "Chimp cookie",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -547,6 +467,26 @@
             "soja": "present",
             "lait": "may_contain",
             "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "land-monkeys-flan-vanille",
+          "name": "Flan vanille",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -596,26 +536,6 @@
           }
         },
         {
-          "id": "land-monkeys-moon-bread",
-          "name": "Moon bread",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "land-monkeys-brownie",
           "name": "Brownie",
           "allergens": {
@@ -626,6 +546,66 @@
             "arachides": "not_declared",
             "soja": "present",
             "lait": "may_contain",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "land-monkeys-tarte-citron",
+          "name": "Tarte citron",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "land-monkeys-cheesecake-framboise",
+          "name": "Cheesecake framboise",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "land-monkeys-moon-bread",
+          "name": "Moon bread",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -716,8 +696,8 @@
           }
         },
         {
-          "id": "land-monkeys-cake-citron",
-          "name": "Cake citron",
+          "id": "land-monkeys-banana-bread",
+          "name": "Banana bread",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -756,20 +736,20 @@
           }
         },
         {
-          "id": "land-monkeys-grand-moelleux-chocolat",
-          "name": "Grand moelleux chocolat",
+          "id": "land-monkeys-granola",
+          "name": "Granola",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
+            "soja": "not_declared",
+            "lait": "not_declared",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -801,108 +781,8 @@
       "category": "Produits salés",
       "dishes": [
         {
-          "id": "land-monkeys-green-dwich",
-          "name": "Green dwich",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-focaccia-poivrons",
-          "name": "Focaccia poivrons",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-lentilles",
-          "name": "Lentilles",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-summer",
-          "name": "Summer",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-chick-bun",
-          "name": "Chick bun",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-fermier",
-          "name": "Fermier",
+          "id": "land-monkeys-sandwich-fermier",
+          "name": "Sandwich Fermier",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -921,28 +801,8 @@
           }
         },
         {
-          "id": "land-monkeys-green",
-          "name": "Green",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-marin",
-          "name": "Marin",
+          "id": "land-monkeys-sandwich-marin",
+          "name": "Sandwich Marin",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -961,48 +821,8 @@
           }
         },
         {
-          "id": "land-monkeys-grecque",
-          "name": "Grecque",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-caprese",
-          "name": "Caprese",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-banh-mi",
-          "name": "Banh mi",
+          "id": "land-monkeys-sandwich-lyonnais",
+          "name": "Sandwich Lyonnais",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1014,15 +834,15 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "present",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "land-monkeys-blt",
-          "name": "BLT",
+          "id": "land-monkeys-hot-dog",
+          "name": "Hot dog",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1033,29 +853,9 @@
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-lyonnais",
-          "name": "Lyonnais",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -1081,8 +881,8 @@
           }
         },
         {
-          "id": "land-monkeys-lorraine",
-          "name": "Lorraine",
+          "id": "land-monkeys-bagel-nordique",
+          "name": "Bagel nordique",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1090,52 +890,12 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "may_contain",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-quiche-legumes",
-          "name": "Quiche légumes",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "land-monkeys-quiche-thon-tomates",
-          "name": "Quiche thon tomates",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }

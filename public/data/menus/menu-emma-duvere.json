@@ -188,7 +188,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Nature ou aux pépites de chocolat.",
           "price": 1.5
         }
       ]
@@ -219,8 +218,8 @@
           "price": 6.5
         },
         {
-          "id": "emma-duvere-patisseries-tarte-citron-du-moment",
-          "name": "Tarte citron du moment",
+          "id": "emma-duvere-patisseries-tarte-citron",
+          "name": "Tarte citron",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -237,7 +236,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Équilibrée et acidulée !",
+          "description": "Équilibrée et acidulée ! Infusion aux herbes fraîches de saison.",
           "price": 5.9
         },
         {
@@ -259,7 +258,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Voir ardoise.",
+          "description": "Voir vitrine.",
           "price": 7
         }
       ]

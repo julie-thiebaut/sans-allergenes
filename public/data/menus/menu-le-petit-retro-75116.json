@@ -3,12 +3,11 @@
   "restaurantId": "le-petit-retro-75116",
   "categories": [
     {
-      "category": "A partager",
+      "category": "À partager",
       "dishes": [
         {
-          "id": "zenchef-1150256-assiette-de-cecina-de-boeuf-angus",
-          "name": "Assiette de cecina de bœuf Angus",
-          "price": 24,
+          "id": "petit-retro-a-partager-planche-de-cecina-de-boeuf-suprema",
+          "name": "Planche de cecina de bœuf suprema",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -24,12 +23,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 24
         },
         {
-          "id": "zenchef-1132614-planche-de-jambon-de-parme-saint-ilario-30-mois",
-          "name": "Planche de jambon de Parme Saint Ilario 30 mois",
-          "price": 19,
+          "id": "petit-retro-a-partager-planche-de-jambon-de-parme-st-ilario-30-mois",
+          "name": "Planche de jambon de Parme St Ilario 30 mois",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -45,12 +44,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 19
         },
         {
-          "id": "zenchef-1132615-planche-mixte-cecina-et-st-ilario",
-          "name": "Planche mixte, Cecina et St Ilario",
-          "price": 23,
+          "id": "petit-retro-a-partager-planche-mixte-cecina-st-ilario",
+          "name": "Planche mixte, cecina & St Ilario",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -66,17 +65,38 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 23
+        },
+        {
+          "id": "petit-retro-a-partager-rillettes-maison-au-porc-noir-de-bigorre",
+          "name": "Rillettes maison au porc noir de Bigorre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15
         }
       ]
     },
     {
-      "category": "Hors d’œuvre",
+      "category": "Entrées",
       "dishes": [
         {
-          "id": "zenchef-1166798-saumon-gravlax-yaourt-acidule",
-          "name": "Saumon gravlax & yaourt acidulé",
-          "price": 17,
+          "id": "petit-retro-entrees-salade-de-champignons-de-paris-jambon-blanc-creme-crue",
+          "name": "Salade de champignons de Paris, jambon blanc & crème crue",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -92,12 +112,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 15
         },
         {
-          "id": "zenchef-1132607-ravioles-de-langoustines-et-sa-bisque",
-          "name": "Ravioles de langoustines et sa bisque",
-          "price": 22,
+          "id": "petit-retro-entrees-ravioles-de-langoustines-sa-bisque",
+          "name": "Ravioles de langoustines & sa bisque",
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
@@ -113,12 +133,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 22
         },
         {
-          "id": "zenchef-1132609-oeufs-mayonnaise",
-          "name": "Œufs mayonnaise",
-          "price": 9,
+          "id": "petit-retro-entrees-terrine-aux-foies-de-volaille",
+          "name": "Terrine aux foies de volaille",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -134,12 +154,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 14
         },
         {
-          "id": "zenchef-1166801-la-traditionnelle-soupe-a-l-oignon-gratinee-au-comte-aop",
+          "id": "petit-retro-entrees-la-traditionnelle-soupe-a-l-oignon-gratinee-au-comte-aop",
           "name": "La traditionnelle soupe à l'oignon gratinée au comté AOP",
-          "price": 17,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -155,12 +175,33 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 17
         },
         {
-          "id": "zenchef-1242399-terrine-aux-foies-de-volaille",
-          "name": "Terrine aux foies de volaille",
-          "price": 14,
+          "id": "petit-retro-entrees-gravlax-de-saumon-et-yaourt-acidule",
+          "name": "Gravlax de saumon et yaourt acidulé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 17
+        },
+        {
+          "id": "petit-retro-entrees-oeufs-bio-mayonnaise",
+          "name": "Œufs Bio mayonnaise",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -176,12 +217,17 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
-        },
+          },
+          "price": 9
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
         {
-          "id": "zenchef-1313958-salade-de-champignons-de-paris-jambon-blanc-creme-crue-a-la-",
-          "name": "Salade de champignons de Paris, jambon blanc & crème crue à la ciboulette",
-          "price": 15,
+          "id": "petit-retro-plats-risotto-au-parmesan-creme-de-butternut-ricotta-au-cresson",
+          "name": "Risotto au parmesan, crème de butternut & ricotta au cresson",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -191,23 +237,18 @@
             "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "present",
+            "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Plats",
-      "dishes": [
+          },
+          "price": 25
+        },
         {
-          "id": "zenchef-1132616-entrecote-normande-persillee-300g-sauce-bearnaise",
-          "name": "Entrecôte Normande persillée 300G & sauce béarnaise",
-          "price": 41,
+          "id": "petit-retro-plats-entrecote-normande-persillee-300-g-bearnaise",
+          "name": "Entrecôte Normande persillée 300 g & béarnaise",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -223,12 +264,33 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 41
         },
         {
-          "id": "zenchef-1150257-fricassee-de-ris-de-veau-aux-champignons-jus-de-veau",
+          "id": "petit-retro-plats-blanquette-de-veau-a-l-ancienne-et-riz-pilaf",
+          "name": "Blanquette de veau à l'ancienne et riz pilaf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 29
+        },
+        {
+          "id": "petit-retro-plats-fricassee-de-ris-de-veau-aux-champignons-jus-de-veau",
           "name": "Fricassée de ris de veau aux champignons & jus de veau",
-          "price": 38,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -244,12 +306,12 @@
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 38
         },
         {
-          "id": "zenchef-1132619-supreme-de-volaille-sauce-cremeuse-aux-girolles",
-          "name": "Supreme de volaille, sauce crémeuse aux girolles",
-          "price": 29,
+          "id": "petit-retro-plats-cote-de-boeuf-1-kg-france-pour-deux-personnes-sauce-bearnaise",
+          "name": "Côte de bœuf 1 kg (France) pour deux personnes & sauce béarnaise",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -265,12 +327,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 99
         },
         {
-          "id": "zenchef-1245740-aubergine-rotie-stracciatella-fumee-salade-de-courgette-au-p",
-          "name": "Aubergine rôtie, stracciatella fumée & salade de courgette au pesto",
-          "price": 25,
+          "id": "petit-retro-plats-supreme-de-volaille-sauce-au-chorizo",
+          "name": "Suprême de volaille & sauce au chorizo",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -286,28 +348,8 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1278359-cote-de-boeuf-1kg-pour-deux-personnes-sauce-bearnaise",
-          "name": "Côte de bœuf 1kg pour deux personnes, sauce Béarnaise",
-          "price": 95,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
+          },
+          "price": 29
         }
       ]
     },
@@ -315,8 +357,8 @@
       "category": "Accompagnements",
       "dishes": [
         {
-          "id": "zenchef-1132621-pommes-allumette-maison",
-          "name": "Pommes allumette Maison",
+          "id": "petit-retro-accompagnements-pommes-allumettes",
+          "name": "Pommes allumettes",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -335,7 +377,7 @@
           }
         },
         {
-          "id": "zenchef-1132622-mesclun",
+          "id": "petit-retro-accompagnements-mesclun",
           "name": "Mesclun",
           "allergens": {
             "gluten": "not_declared",
@@ -355,8 +397,8 @@
           }
         },
         {
-          "id": "zenchef-1132623-gratin-de-macaroni-maison",
-          "name": "Gratin de macaroni Maison",
+          "id": "petit-retro-accompagnements-gratin-de-macaroni",
+          "name": "Gratin de macaroni",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -375,7 +417,7 @@
           }
         },
         {
-          "id": "zenchef-1150264-legumes-du-jour",
+          "id": "petit-retro-accompagnements-legumes-du-jour",
           "name": "Légumes du jour",
           "allergens": {
             "gluten": "not_declared",
@@ -395,8 +437,8 @@
           }
         },
         {
-          "id": "zenchef-1150266-puree-de-pomme-de-terre-maison",
-          "name": "Purée de pomme de terre Maison",
+          "id": "petit-retro-accompagnements-puree-de-pommes-de-terre-maison",
+          "name": "Purée de pommes de terre maison",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -420,77 +462,8 @@
       "category": "Fromages",
       "dishes": [
         {
-          "id": "zenchef-1132625-fromages-affines-par-frederic-ledoux",
-          "name": "Fromages affinés par Fréderic Ledoux",
-          "price": 18,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Desserts",
-      "dishes": [
-        {
-          "id": "zenchef-1166807-souffle-au-chocolat-noir",
-          "name": "Soufflé au chocolat noir",
-          "price": 14,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1132629-ile-flottante-vanille-de-madagascar-amandes-grillees",
-          "name": "Ile flottante vanille de Madagascar & amandes grillées",
-          "price": 12,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1132630-des-glaces-des-sorbets-maison-pedone",
-          "name": "Des glaces, des sorbets, Maison Pédone",
-          "price": 4,
+          "id": "petit-retro-fromages-fromages-affines-par-frederic-ledoux",
+          "name": "Fromages affinés par Frédéric Ledoux",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -507,12 +480,16 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Café, chocolat, lait d’amandes, praline rose, vanille abricot, citron vert, framboise, mangue. 1 parfum : 4 € ; 3 parfums : 10 €."
-        },
+          "price": 18
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "dishes": [
         {
-          "id": "zenchef-1178991-cafe-gourmand",
-          "name": "Café gourmand",
-          "price": 13,
+          "id": "petit-retro-desserts-ile-flottante-a-la-vanille-de-madagascar-amandes-grillees",
+          "name": "Île flottante à la vanille de Madagascar & amandes grillées",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -528,12 +505,54 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 12
         },
         {
-          "id": "zenchef-1248970-tarte-fine-aux-figues-creme-mousseline-vanille-chouchous-pis",
+          "id": "petit-retro-desserts-souffle-au-chocolat-noir",
+          "name": "Soufflé au chocolat noir",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 15
+        },
+        {
+          "id": "petit-retro-desserts-profiteroles-glace-vanille-chocolat-chaud-chantilly",
+          "name": "Profiteroles, glace vanille & chocolat chaud & Chantilly",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 14
+        },
+        {
+          "id": "petit-retro-desserts-tarte-fine-aux-figues-creme-mousseline-vanille-chouchous-pistache",
           "name": "Tarte fine aux figues, crème mousseline vanille & chouchous pistache",
-          "price": 16,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -549,12 +568,12 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 16
         },
         {
-          "id": "zenchef-1265282-profiteroles-glace-vanille-chocolat-chaud",
-          "name": "Profiteroles, glace vanille & chocolat chaud",
-          "price": 14,
+          "id": "petit-retro-desserts-cafe-gourmand",
+          "name": "Café gourmand",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -570,7 +589,30 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "price": 13
+        },
+        {
+          "id": "petit-retro-desserts-des-glaces-des-sorbets-maison-pedone",
+          "name": "Des glaces, des sorbets, Maison Pédone",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat, vanille, fraise, citron vert, mangue. 1 parfum : 4 € ; 3 parfums : 10 €.",
+          "price": 4
         }
       ]
     }

@@ -3,6 +3,120 @@
   "restaurantId": "o-tacos-75016",
   "categories": [
     {
+      "category": "WESTAF’",
+      "dishes": [
+        {
+          "id": "otacos-otacos-westaf",
+          "name": "OTACOS WESTAF’",
+          "description": "Nuggets de poulet ou crispy végé, sauce mafé, allocos, cacahuètes, frites, sauce fromagère",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "otacos-cro-usty-westaf",
+          "name": "CRO’USTY WESTAF’",
+          "description": "Nuggets de poulet ou crispy végé, sauce mafé, allocos, cacahuètes, riz, sauce fromagère ou cro’usty",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "otacos-allocos-sauce-mafe",
+          "name": "ALLOCOS + SAUCE MAFÉ",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "HOT HONEY",
+      "dishes": [
+        {
+          "id": "otacos-box-hot-honey",
+          "name": "BOX HOT HONEY",
+          "description": "Otacos m hot honey, tenders classiques ou spicy, frites, cup hot honey",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "otacos-otacos-m-hot-honey-cup-de-sauce",
+          "name": "OTACOS M HOT HONEY + CUP DE SAUCE",
+          "description": "Spicy tenders, cornichons, sauce hot honey, cheddar fondu, frites, sauce fromagère, cup hot honey",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
       "category": "O’BOSS",
       "dishes": [
         {
@@ -371,27 +485,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "otacos-frero-spicy",
-          "name": "FRERO’ SPICY",
-          "description": "Spicy tenders, piments japalenos, samouraï, frites, sauce fromagère",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
@@ -511,26 +604,6 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "otacos-triangle-cheddar",
-          "name": "TRIANGLE CHEDDAR",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "may_contain"
           }
         },
         {
@@ -758,6 +831,26 @@
     {
       "category": "DESSERTS",
       "dishes": [
+        {
+          "id": "otacos-mini-churros-pomme-cannelle",
+          "name": "MINI CHURROS POMME CANNELLE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
         {
           "id": "otacos-cookie-chocolat-au-lait",
           "name": "COOKIE CHOCOLAT AU LAIT",

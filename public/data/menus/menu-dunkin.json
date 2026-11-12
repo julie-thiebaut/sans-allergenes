@@ -132,132 +132,6 @@
           }
         },
         {
-          "id": "dunkin-oreo-coldbrew-latte-lait-d-avoine",
-          "name": "OREO COLDBREW LATTE (lait d'avoine)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-oreo-coldbrew-latte-lait-d-amande",
-          "name": "OREO COLDBREW LATTE (lait d'amande)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-oreo-coldbrew-latte-lait-de-coco",
-          "name": "OREO COLDBREW LATTE (lait de coco)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-oreo-coldbrew-latte-lait-de-soja",
-          "name": "OREO COLDBREW LATTE (lait de soja)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-oreo-coldbrew-latte-lait-demi-ecreme",
-          "name": "OREO COLDBREW LATTE (lait demi-écrémé)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-oreo-coldbrew-latte-lait-proteine",
-          "name": "OREO COLDBREW LATTE (lait protéiné)",
-          "description": "Café infusé à froid pendant 12h, mélangé avec du lait, du sirop saveur cookie et des éclats d’Oreo®",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "dunkin-oreo-donut-frappe-lait-d-avoine",
           "name": "OREO DONUT FRAPPE (lait d'avoine)",
           "description": "Boisson glacée mixée à base de lait, d’un donut saveur Oreo et recouvert de crème fouettée et de brisures d’Oreo®",
@@ -2086,6 +1960,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-d-avoine",
           "name": "FRAPPÉ CARAMEL (lait d'avoine)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -2106,6 +1981,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-d-amande",
           "name": "FRAPPÉ CARAMEL (lait d'amande)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2126,6 +2002,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-de-coco",
           "name": "FRAPPÉ CARAMEL (lait de coco)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2146,6 +2023,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-de-soja",
           "name": "FRAPPÉ CARAMEL (lait de soja)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2166,6 +2044,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-demi-ecreme",
           "name": "FRAPPÉ CARAMEL (lait demi-écrémé)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2186,6 +2065,7 @@
         {
           "id": "dunkin-frappe-caramel-lait-proteine",
           "name": "FRAPPÉ CARAMEL (lait protéiné)",
+          "description": "Boisson glacée mixée saveur caramel, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2206,6 +2086,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-d-avoine",
           "name": "FRAPPE CHOCOLAT (lait d'avoine)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -2226,6 +2107,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-d-amande",
           "name": "FRAPPE CHOCOLAT (lait d'amande)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2246,6 +2128,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-de-coco",
           "name": "FRAPPE CHOCOLAT (lait de coco)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2266,6 +2149,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-de-soja",
           "name": "FRAPPE CHOCOLAT (lait de soja)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2286,6 +2170,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-demi-ecreme",
           "name": "FRAPPE CHOCOLAT (lait demi-écrémé)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2306,6 +2191,7 @@
         {
           "id": "dunkin-frappe-chocolat-lait-proteine",
           "name": "FRAPPE CHOCOLAT (lait protéiné)",
+          "description": "Boisson glacée mixée saveur chocolat, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2326,6 +2212,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-d-avoine",
           "name": "FRAPPÉ VANILLE (lait d'avoine)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -2346,6 +2233,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-d-amande",
           "name": "FRAPPÉ VANILLE (lait d'amande)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2366,6 +2254,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-de-coco",
           "name": "FRAPPÉ VANILLE (lait de coco)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2386,6 +2275,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-de-soja",
           "name": "FRAPPÉ VANILLE (lait de soja)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2406,6 +2296,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-demi-ecreme",
           "name": "FRAPPÉ VANILLE (lait demi-écrémé)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2426,6 +2317,7 @@
         {
           "id": "dunkin-frappe-vanille-lait-proteine",
           "name": "FRAPPÉ VANILLE (lait protéiné)",
+          "description": "Boisson glacée mixée saveur vanille, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2446,6 +2338,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-d-avoine",
           "name": "FRAPPÉ FRAISE (lait d'avoine)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -2466,6 +2359,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-d-amande",
           "name": "FRAPPÉ FRAISE (lait d'amande)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2486,6 +2380,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-de-coco",
           "name": "FRAPPÉ FRAISE (lait de coco)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2506,6 +2401,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-de-soja",
           "name": "FRAPPÉ FRAISE (lait de soja)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2526,6 +2422,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-demi-ecreme",
           "name": "FRAPPÉ FRAISE (lait demi-écrémé)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -2546,6 +2443,7 @@
         {
           "id": "dunkin-frappe-fraise-lait-proteine",
           "name": "FRAPPÉ FRAISE (lait protéiné)",
+          "description": "Boisson glacée mixée saveur fraise, recouverte d'une onctueuse crème fouettée",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -4083,6 +3981,7 @@
         {
           "id": "dunkin-the-vert-harmony-leaf",
           "name": "THÉ VERT HARMONY LEAF",
+          "description": "Infusion délicate de thé vert aux notes végétales et rafraîchissantes",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -4101,8 +4000,9 @@
           }
         },
         {
-          "id": "dunkin-the-noir-english-breaksfast",
-          "name": "THÉ NOIR ENGLISH BREAKSFAST",
+          "id": "dunkin-the-noir-english-breakfast",
+          "name": "THÉ NOIR ENGLISH BREAKFAST",
+          "description": "Mélange de thés noirs aux notes riches et équilibrées",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -4123,6 +4023,7 @@
         {
           "id": "dunkin-the-camomille",
           "name": "THÉ CAMOMILLE",
+          "description": "Infusion délicate à la camomille aux notes douces et florales.",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -4143,6 +4044,7 @@
         {
           "id": "dunkin-the-hibiscus",
           "name": "THÉ HIBISCUS",
+          "description": "Infusion d’hibiscus aux notes fruitées et florales.",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -4497,6 +4399,27 @@
       "category": "PÂTISSERIES",
       "dishes": [
         {
+          "id": "dunkin-choco-cronut",
+          "name": "CHOCO CRONUT",
+          "description": "Cronut recouvert d’un glaçage saveur chocolat et de biscuits crunchy saveur fruits rouges",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "dunkin-riri-roll",
           "name": "RIRI ROLL",
           "description": "Cinnamon roll garni de fromage frais",
@@ -4538,16 +4461,16 @@
           }
         },
         {
-          "id": "dunkin-cake-cerise",
-          "name": "CAKE CERISE",
+          "id": "dunkin-cake-marbre",
+          "name": "CAKE MARBRÉ",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "may_contain",
+            "soja": "present",
+            "lait": "present",
             "fruits_a_coque": "may_contain",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -4598,16 +4521,16 @@
           }
         },
         {
-          "id": "dunkin-cake-marbre",
-          "name": "CAKE MARBRÉ",
+          "id": "dunkin-cake-cerise",
+          "name": "CAKE CERISE",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
+            "soja": "may_contain",
+            "lait": "may_contain",
             "fruits_a_coque": "may_contain",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -4785,6 +4708,27 @@
           }
         },
         {
+          "id": "dunkin-oreo-crunch",
+          "name": "OREO CRUNCH",
+          "description": "Donut recouvert d’un glaçage chocolat blanc et de brisures d’Oreo",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "dunkin-the-og",
           "name": "THE OG",
           "description": "L’iconique donut Dunkin’ recouvert d’un glaçage au sucre",
@@ -4796,48 +4740,6 @@
             "arachides": "not_declared",
             "soja": "present",
             "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-choco-cronut",
-          "name": "CHOCO CRONUT",
-          "description": "Fusion de la pâte feuilleté d’un croissant et de la générosité d’un donut recouvert d'un glaçage saveur chocolat noir.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-peanut-addict",
-          "name": "PEANUT ADDICT",
-          "description": "Donut garni d’une crème saveur beurre de cacahuète, recouvert d’un glaçage saveur chocolat noir et de morceaux de cacahuètes",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "present",
-            "lait": "present",
             "fruits_a_coque": "may_contain",
             "celeri": "not_declared",
             "moutarde": "may_contain",
@@ -4953,27 +4855,6 @@
           }
         },
         {
-          "id": "dunkin-oreo-crunch",
-          "name": "OREO CRUNCH",
-          "description": "Donut recouvert d’un glaçage chocolat blanc et de brisures d’Oreo",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "dunkin-bueno-magic",
           "name": "BUENO MAGIC",
           "description": "Donut garni d’une crème saveur noisettes et recouvert d’un glaçage saveur chocolat blanc et chocolat au lait",
@@ -5007,48 +4888,6 @@
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-love-in-paris",
-          "name": "LOVE IN PARIS",
-          "description": "Donut garni d’une confiture à la framboise, recouvert d’un glaçage saveur fraise et d’un médaillon saveur chocolat blanc",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "may_contain",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-blue-monster",
-          "name": "BLUE MONSTER",
-          "description": "Donut recouvert d’un glaçage chocolat blanc et de vermicelles bleus",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
             "celeri": "not_declared",
             "moutarde": "may_contain",
             "sesame": "not_declared",
@@ -5100,27 +4939,6 @@
             "moutarde": "present",
             "sesame": "may_contain",
             "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "dunkin-dunk-croque",
-          "name": "DUNK'CROQUE",
-          "description": "Pain de campagne garni de tranches de dinde et de cheddar",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }

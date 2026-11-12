@@ -31,38 +31,38 @@
           "description": "à l’ancienne grillée, ail, huile de menthe, pistache, granité d’arak, eau de tomate anisée (peut être retiré du plat : fruits à coque)"
         },
         {
-          "id": "hebe-asperges",
-          "name": "Asperges",
+          "id": "hebe-cepes",
+          "name": "Cèpes",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "may_contain",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18,
+          "price": 25,
           "tags": [
             "vegetarien"
           ],
-          "description": "blanches, pesto de roquette, mayonnaise aux agrumes, crème de féta (peut être retiré du plat : gluten, œufs, fruits à coque)"
+          "description": "en velouté, shiitakés au gingembre, crème montée à la tonka, sarrasin (peut être retiré du plat : gluten, soja)"
         },
         {
-          "id": "hebe-truite",
-          "name": "Truite",
+          "id": "hebe-noix-de-saint-jacques",
+          "name": "Noix de Saint-Jacques",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
@@ -70,12 +70,12 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "present"
           },
-          "price": 24,
-          "description": "en gravlax, ketchup de betterave, mûre, pickles d’oignons rouges, chips d’ail"
+          "price": 25,
+          "description": "nacrées, aji amarillo, Granny Smith, huile de piment rouge, maïs"
         },
         {
           "id": "hebe-veau",
@@ -123,24 +123,24 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 26,
+          "price": 27,
           "tags": [
             "vegan"
           ],
           "description": "en ravioles, truffe, consommé au kombu royal, pickles de shimeji (peut être retiré du plat : soja, sulfites)"
         },
         {
-          "id": "hebe-risotto",
-          "name": "Risotto",
+          "id": "hebe-gnocchis",
+          "name": "Gnocchis",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -148,55 +148,55 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 27,
+          "price": 28,
           "tags": [
             "vegetarien"
           ],
-          "description": "de petit épeautre à la crème d’Isigny, petits pois, émulsion persillade, salicorne, noisette (peut être retiré du plat : fruits à coque)"
+          "description": "snackés, haricots verts, chou-fleur en pickles, crème d’ail confit, crème d’ail noir au gingembre"
         },
         {
-          "id": "hebe-lieu-noir",
-          "name": "Lieu noir",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 30,
-          "description": "rôti, mousseline de chou-fleur caramélisé au tahini, condiment fenouil citron confit et cacahuète, fumet à la feuille de combava et gingembre (peut être retiré du plat : arachides)"
-        },
-        {
-          "id": "hebe-dorade",
-          "name": "Dorade",
+          "id": "hebe-maigre",
+          "name": "Maigre",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "price": 42,
+          "description": "à la plancha, guacamole de brocoli, tartare d’algues et huîtres, fumet à la carambole, romanesco en pickles (peut être retiré du plat : moutarde, mollusques)"
+        },
+        {
+          "id": "hebe-cabillaud",
+          "name": "Cabillaud",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "present"
           },
           "price": 44,
-          "description": "royale grillée, broccolini sauté au soja, kiwi, yaourt grec au citron (peut être retiré du plat : soja, lait, sésame, sulfites)"
+          "description": "rôti et laqué à la mélasse de grenade, salsa verde au kiwi, jalapenos, épinard (peut être retiré du plat : gluten, lait, mollusques)"
         },
         {
           "id": "hebe-poulpe",
@@ -217,18 +217,40 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 42,
+          "price": 47,
           "description": "grillé, piperade, patate douce, sablé olives noires, jus de poulpe à la gallega (peut être retiré du plat : gluten, lait, fruits à coque)"
         },
         {
-          "id": "hebe-canette",
-          "name": "Canette",
+          "id": "hebe-supreme-de-volaille",
+          "name": "Suprême de volaille",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 38,
+          "description": "fermière label rouge rôti, sauce chien, condiment au tamarin, riz croustillant au colombo (peut être retiré du plat : lait, sulfites)"
+        },
+        {
+          "id": "hebe-pluma-de-porc-iberique",
+          "name": "Pluma de porc ibérique",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "present",
             "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
@@ -239,30 +261,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 38,
-          "description": "filet rôti, boulgour, oignons, basilic thaï, mangue au zaatar, caramel de miso"
-        },
-        {
-          "id": "hebe-agneau",
-          "name": "Agneau",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 40,
-          "description": "épaule roulée et farcie aux abricots secs, gingembre, miel, zaatar, mousseline de carotte, pickles de navet, jus de braisage (peut être retiré du plat : lait)"
+          "price": 42,
+          "description": "grillée, aubergine, condiment thaï au concombre, miso, jus de viande à la citronnelle et kombawa (peut être retiré du plat : arachides, soja, sésame, sulfites, poisson)"
         },
         {
           "id": "hebe-bavette-de-boeuf",
@@ -283,7 +283,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 45,
+          "price": 46,
           "description": "Black Angus, pak choï braisé, menthe, espuma paloise, jus corsé (peut être retiré du plat : œufs)"
         }
       ]
@@ -292,26 +292,26 @@
       "category": "Accompagnements",
       "dishes": [
         {
-          "id": "hebe-boulgour-condimente",
-          "name": "Boulgour condimenté",
+          "id": "hebe-aubergine-grillee",
+          "name": "Aubergine grillée",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
           "price": 6,
-          "description": "avec confit d’oignons, pistache, graines de moutarde"
+          "description": "avec miso, roquette, sésame noir et grenade (peut être retiré du plat : soja, sésame)"
         },
         {
           "id": "hebe-pommes-de-terre-grenaille",
@@ -333,7 +333,29 @@
             "mollusques": "not_declared"
           },
           "price": 6,
-          "description": "avec champignons boutons rôtis (peut être retiré du plat : lait)"
+          "description": "rôties et beurre persillade (peut être retiré du plat : lait)"
+        },
+        {
+          "id": "hebe-mesclun",
+          "name": "Mesclun",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 6,
+          "description": "avec vinaigrette thaï, pickles de graines de moutarde et oignons frits (peut être retiré du plat : moutarde, sésame, poisson)"
         }
       ]
     },
@@ -359,7 +381,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16,
+          "price": 17,
           "description": "crémeux, espuma de lait fermenté à l’eau de rose, sablé à la pistache, vinaigrette huile d’olive et miel"
         },
         {
@@ -381,19 +403,19 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16,
+          "price": 17,
           "description": "en ganache à la cardamome, financier, cacahuètes caramélisées et en glace (peut être retiré du plat : fruits à coque)"
         },
         {
-          "id": "hebe-fraise-vegan-sans-gluten",
-          "name": "Fraise (végan, sans gluten)",
+          "id": "hebe-blanc-manger-coco",
+          "name": "Blanc-manger coco",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
@@ -403,8 +425,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16,
-          "description": "en déclinaisons, crème montée, crumble d’amandes, praline d’amandes"
+          "price": 17,
+          "tags": [
+            "vegan"
+          ],
+          "description": "avec génoise aux amandes, ananas flambé aux baies de Timut et citron vert, sorbet coco (peut être retiré du plat : gluten, soja, fruits à coque)"
         },
         {
           "id": "hebe-duo-de-fromages",
@@ -419,14 +444,14 @@
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 19,
-          "description": "Ossau-Iraty et Brie de Meaux, gel de goyave rose, compotée de banane plantain au muscovado, mesclun (peut être retiré du plat : moutarde)"
+          "price": 20,
+          "description": "Pélardon et tomme au fenugrec, compotée de figues au balsamique et miel à l'estragon (peut être retiré du plat : sulfites)"
         }
       ]
     }

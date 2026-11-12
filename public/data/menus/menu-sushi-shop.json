@@ -3,127 +3,12 @@
   "restaurantId": "sushi-shop-faubourg-saint-antoine-75011",
   "categories": [
     {
-      "category": "Le Petit Prince®",
-      "dishes": [
-        {
-          "id": "sushishop-box-le-petit-prince",
-          "name": "Box Le Petit Prince®",
-          "description": "42 pièces. 2 Sushi Étoile, 3 Maki Prince, 3 California Rose, 6 Spring Renard, 2 Sushi Saumon, 2 Sushi Saumon Teriyaki, 6 California Thon Cuit Avocat, 6 California Chicken Katsu, 6 California Saumon Crispy Onion, 6 Spring Roll Crevette Tempura",
-          "price": 45,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-sushi-etoile",
-          "name": "Sushi Étoile",
-          "description": "2 pièces. Saumon snacké, Mayonnaise miso yuzu, Carambole",
-          "price": 4.8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-spring-renard",
-          "name": "Spring Renard",
-          "description": "6 pièces. Saumon, Mangue, Carotte, Iki Masagi, Mayonnaise épicée",
-          "price": 7.8,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-california-rose",
-          "name": "California Rose",
-          "description": "6 pièces. Cream cheese, Avocat, Betterave chiogga, Betterave cuite, Confit de rose, Shiso cress, Sésame doré",
-          "price": 6.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-maki-prince",
-          "name": "Maki Prince",
-          "description": "6 pièces. Cream cheese, Avocat, Concombre, Menthe, Thé matcha",
-          "price": 6.2,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
       "category": "Collection KENKO",
       "dishes": [
         {
           "id": "sushishop-kenko-mix",
           "name": "KENKO Mix",
-          "description": "18 pièces. 6 Maki KENKO Cheese Avocat, 6 California KENKO Saumon Avocat, 6 California KENKO Thon Cuit Avocat",
+          "description": "22 pièces. 6 Maki KENKO Cheese Avocat, 8 California KENKO Saumon Avocat, 8 California KENKO Thon Cuit Avocat",
           "price": 17.9,
           "allergens": {
             "gluten": "not_declared",
@@ -145,7 +30,7 @@
         {
           "id": "sushishop-california-kenko-poulet-cajun",
           "name": "California KENKO Poulet Cajun",
-          "description": "6 pièces. Avocat, Poulet, Riz KENKO, Mayonnaise cajun",
+          "description": "8 pièces. Avocat, Poulet, Riz KENKO, Mayonnaise cajun",
           "price": 6.9,
           "allergens": {
             "gluten": "not_declared",
@@ -167,7 +52,7 @@
         {
           "id": "sushishop-california-kenko-thon-cuit-avocat",
           "name": "California KENKO Thon Cuit Avocat",
-          "description": "6 pièces. Riz KENKO, Thon cuit, Avocat, Sésame noir et blanc",
+          "description": "8 pièces. Riz KENKO, Thon cuit, Avocat, Sésame noir et blanc",
           "price": 6.8,
           "allergens": {
             "gluten": "not_declared",
@@ -441,15 +326,15 @@
         {
           "id": "sushishop-sushi-box-du-moment",
           "name": "Sushi Box du Moment",
-          "description": "18 pièces. 3 Sushi Saumon, 6 Spring Saumon Guacamole, 6 California Saumon Crispy Onion, 3 Maki Cheese Avocat",
+          "description": "23 pièces. 2 Sushi Saumon, 3 Maki Salmon Roll, 4 California Chicken Curry, 6 Maki Cheese Avocat, 8 California Saumon Crispy Onion",
           "price": 14.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "present",
+            "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "present",
@@ -461,9 +346,53 @@
           }
         },
         {
+          "id": "sushishop-box-duo-essentiels",
+          "name": "Box Duo Essentiels",
+          "description": "14 pièces. 8 California Saumon Avocat, 6 Maki Cheese Avocat",
+          "price": 9.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-little-salmon-mix",
+          "name": "Little Salmon Mix",
+          "description": "12 pièces. 4 Spring Saumon Avocat, 4 California Saumon Avocat, 4 Sushi Saumon",
+          "price": 9.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "sushishop-salmon-lovers",
           "name": "Salmon Lovers",
-          "description": "18 pièces. 6 California Saumon Avocat, 6 Spring Saumon Avocat, 6 Sushi Saumon",
+          "description": "23 pièces. 7 Sushi Saumon, 8 California Saumon Avocat, 8 Spring Saumon Avocat",
           "price": 17.9,
           "allergens": {
             "gluten": "not_declared",
@@ -485,7 +414,7 @@
         {
           "id": "sushishop-super-salmon",
           "name": "Super Salmon",
-          "description": "24 pièces. 6 California Saumon Avocat, 6 Maki Salmon Roll, 6 Maki saumon, 6 Spring Saumon Avocat",
+          "description": "28 pièces. 8 California Saumon Avocat, 6 Maki Salmon Roll, 6 Maki Saumon, 8 Spring Saumon Avocat",
           "price": 21.9,
           "allergens": {
             "gluten": "not_declared",
@@ -507,7 +436,7 @@
         {
           "id": "sushishop-amateur-mix",
           "name": "Amateur Mix",
-          "description": "15 pièces. 3 Maki Salmon Roll, 3 Spring Saumon Avocat, 6 Maki Cheese Avocat, 3 California Saumon Avocat",
+          "description": "17 pièces. 3 Maki Salmon Roll, 4 Spring Saumon Avocat, 6 Maki Cheese Avocat, 4 California Saumon Avocat",
           "price": 13.9,
           "allergens": {
             "gluten": "not_declared",
@@ -527,10 +456,10 @@
           }
         },
         {
-          "id": "sushishop-little-salmon-mix",
-          "name": "Little Salmon Mix",
-          "description": "9 pièces. 3 Sushi Saumon, 3 Spring Saumon Avocat, 3 California Saumon Avocat",
-          "price": 9.9,
+          "id": "sushishop-fresh-mix",
+          "name": "Fresh Mix",
+          "description": "26 pièces. 4 Sushi Saumon, 4 Sushi Salmon Cheese, 4 Signature Nordic Flame, 6 Maki Salmon Roll, 8 California Saumon Avocat",
+          "price": 24.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -538,31 +467,9 @@
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-fresh-mix",
-          "name": "Fresh Mix",
-          "description": "22 pièces. 2 Sushi Salmon Cheese, 4 Sushi Saumon, 4 Signature Rock n Roll, 6 Maki Salmon Roll, 6 California Saumon Avocat",
-          "price": 24.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "present",
+            "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "not_declared",
@@ -573,7 +480,7 @@
         {
           "id": "sushishop-california-dream",
           "name": "California Dream",
-          "description": "24 pièces. 6 California Salmon Aburi, 6 California Chicken Curry, 6 California Thon Cuit Avocat, 6 California Saumon Avocat",
+          "description": "28 pièces. 8 California Salmon Aburi, 8 California Chicken Curry, 8 California Thon Cuit Avocat, 4 California Saumon Avocat",
           "price": 21.9,
           "allergens": {
             "gluten": "present",
@@ -593,44 +500,22 @@
           }
         },
         {
-          "id": "sushishop-sunrise",
-          "name": "Sunrise",
-          "description": "18 pièces. 6 Maki Salmon Roll, 6 California Saumon Avocat, 6 California Thon Cuit Avocat",
-          "price": 17.9,
+          "id": "sushishop-salmon-classic",
+          "name": "Salmon Classic",
+          "description": "10 pièces. 4 Sushi Saumon, 3 Sushi Salmon Cheese, 3 Sushi Saumon Teriyaki",
+          "price": 17.5,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-salmon-classic",
-          "name": "Salmon Classic",
-          "description": "10 pièces. 10 Sushi Saumon",
-          "price": 17.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -639,7 +524,7 @@
         {
           "id": "sushishop-salmon-original",
           "name": "Salmon Original",
-          "description": "11 pièces. 5 Sushi Saumon, 6 California Saumon Avocat",
+          "description": "13 pièces. 5 Sushi Saumon, 8 California Saumon Avocat",
           "price": 13.9,
           "allergens": {
             "gluten": "not_declared",
@@ -661,7 +546,7 @@
         {
           "id": "sushishop-veggie-box",
           "name": "Veggie Box",
-          "description": "18 pièces. 6 Maki Cheese Avocat, 6 California Veggie, 6 Spring Cheese Concombre",
+          "description": "22 pièces. 6 Maki Cheese Avocat, 8 California Veggie, 8 Spring Cheese Concombre",
           "price": 12.9,
           "tags": [
             "vegetarien"
@@ -689,13 +574,13 @@
       "category": "Boxes à partager",
       "dishes": [
         {
-          "id": "sushishop-box-for-two",
-          "name": "Box for Two",
-          "description": "42 pièces. 2 Sushi Saumon, 2 Sushi Saumon Teriyaki, 2 Sushi Thon, 6 Maki Cheese Avocat, 6 Maki Salmon Roll, 6 California Saumon Avocat, 6 California Chicken Curry, 6 Spring Saumon Avocat, 6 Spring Thon Cuit Avocat",
-          "price": 45,
+          "id": "sushishop-signature-box",
+          "name": "Signature Box",
+          "description": "20 pièces. 4 Signature Nordic Flame Roll, 4 Signature Rock n Roll, 4 Signature Chicken Dragon Roll, 4 Signature Extreme Fire Roll, 4 Signature Dragon Roll",
+          "price": 26.9,
           "allergens": {
             "gluten": "present",
-            "crustaces": "not_declared",
+            "crustaces": "present",
             "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
@@ -713,7 +598,7 @@
         {
           "id": "sushishop-salmon-addict",
           "name": "Salmon Addict",
-          "description": "42 pièces. 6 Sushi Saumon, 6 Maki saumon, 6 California Saumon Crispy Onion, 6 California Saumon Avocat, 6 Spring Saumon Avocat, 6 Maki Salmon Roll, 6 Spring Tataki Saumon",
+          "description": "50 pièces. 6 Sushi Saumon, 6 Maki Saumon, 6 Maki Salmon Roll, 8 California Saumon Avocat, 8 California Saumon Crispy Onion, 8 Spring Saumon Avocat, 8 Spring Tataki Saumon",
           "price": 46,
           "allergens": {
             "gluten": "present",
@@ -733,10 +618,10 @@
           }
         },
         {
-          "id": "sushishop-offre-sunday-club",
-          "name": "Offre Sunday Club",
-          "description": "40 pièces. 6 Sushi Saumon, 6 Maki Cheese Avocat, 6 California Saumon Avocat, 6 California Thon Cuit Avocat, 6 Spring Fried Chicken, 4 Gyoza Poulet, 4 Gyoza Veggie, 2 Soupe Miso",
-          "price": 34,
+          "id": "sushishop-box-for-two",
+          "name": "Box for Two",
+          "description": "50 pièces. 2 Sushi Saumon, 2 Sushi Saumon Teriyaki, 2 Sushi Thon, 6 Maki Cheese Avocat, 6 Maki Salmon Roll, 8 California Saumon Avocat, 8 California Chicken Curry, 8 Spring Saumon Avocat, 8 Spring Thon Cuit Avocat",
+          "price": 45,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -757,7 +642,7 @@
         {
           "id": "sushishop-happy-sushi-box",
           "name": "Happy Sushi Box",
-          "description": "42 pièces. 2 Sushi Saumon Teriyaki, 4 Sushi Saumon, 6 Maki saumon, 6 Maki Avocat Cheese, 6 California Saumon Avocat, 6 California Thon Cuit Avocat, 6 Spring Fried Chicken Avocat, 6 Spring Concombre Cheese",
+          "description": "50 pièces. 2 Sushi Saumon Teriyaki, 4 Sushi Saumon, 6 Maki Saumon, 6 Maki Avocat Cheese, 8 California Saumon Avocat, 8 California Thon Cuit Avocat, 8 Spring Fried Chicken Avocat, 8 Spring Concombre Cheese",
           "price": 28,
           "allergens": {
             "gluten": "present",
@@ -779,7 +664,7 @@
         {
           "id": "sushishop-box-for-two-gourmet",
           "name": "Box for Two Gourmet",
-          "description": "44 pièces. 2 Sushi Saumon, 2 Sushi Saumon Teriyaki, 2 Sushi Thon, 6 Maki Salmon Roll, 6 California Saumon Avocat, 6 California French Touch, 6 Spring Tataki Saumon, 6 Spring Crevette Guacamole, 8 Signature Rock n Roll",
+          "description": "50 pièces. 2 Sushi Saumon, 2 Sushi Saumon Teriyaki, 2 Sushi Thon, 6 Maki Thon Spicy, 6 Maki Salmon Roll, 8 California Saumon Avocat, 8 California French Touch, 8 Spring Crevette Guacamole, 8 Signature Rock n Roll",
           "price": 49,
           "allergens": {
             "gluten": "present",
@@ -793,7 +678,7 @@
             "celeri": "present",
             "moutarde": "present",
             "sesame": "present",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -801,7 +686,7 @@
         {
           "id": "sushishop-blackbox-classic",
           "name": "Blackbox Classic",
-          "description": "58 pièces. 2 Sushi Crevette, 2 Sushi Thon, 2 Sushi Salmon Cheese, 4 Sushi Saumon Teriyaki, 6 Sushi Saumon, 6 Maki Cheese Avocat, 6 Maki Salmon Roll, 6 California Crevette Tempura, 6 California Thon Cuit Avocat, 6 California Saumon Avocat, 6 Spring Saumon Avocat, 6 Spring Fried Chicken Avocat",
+          "description": "62 pièces. 2 Sushi Saumon Teriyaki, 2 Sushi Salmon Cheese, 2 Sushi Thon, 4 Sushi Saumon, 6 Maki Salmon Roll, 6 Maki Saumon, 8 California Crevette Tempura, 8 California Thon Cuit Avocat, 8 California Saumon Avocat, 8 Spring Saumon Avocat, 8 Spring Fried Chicken Avocat",
           "price": 69,
           "allergens": {
             "gluten": "present",
@@ -823,14 +708,14 @@
         {
           "id": "sushishop-blackbox-gourmet",
           "name": "Blackbox Gourmet",
-          "description": "58 pièces. 2 Sushi Crevette, 2 Sushi Daurade, 2 Sushi Thon, 4 Sushi Saumon, 4 Sushi Saumon Teriyaki, 6 Maki Salmon Roll, 6 California Salmon Aburi, 6 California French Touch, 6 California Crevette Tempura, 6 Spring Daurade Basilimon, 6 Spring Tataki Thon, 8 Signature Rock n Roll",
+          "description": "62 pièces. 2 Sushi Saumon Teriyaki, 2 Sushi Thon, 2 Sushi Daurade, 4 Sushi Saumon, 6 Maki Thon Spicy, 6 Maki Salmon Roll, 8 California Crevette Tempura, 8 California French Touch, 8 Spring Daurade Basilimon, 8 Signature Rock n Roll, 8 Signature Nordic Flame",
           "price": 79,
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
             "oeufs": "present",
             "poisson": "present",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
@@ -850,7 +735,7 @@
         {
           "id": "sushishop-california-salmon-aburi-roll",
           "name": "California Salmon Aburi Roll",
-          "description": "6 pièces. Saumon, Saumon snacké, Cream cheese, Ciboulette, 7 épices, Sésame",
+          "description": "8 pièces. Saumon, Saumon snacké, Cream cheese, Ciboulette, 7 épices, Sésame",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -872,7 +757,7 @@
         {
           "id": "sushishop-california-saumon-avocat",
           "name": "California Saumon Avocat",
-          "description": "6 pièces. Saumon, Avocat, Sésame",
+          "description": "8 pièces. Saumon, Avocat, Sésame",
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
@@ -894,7 +779,7 @@
         {
           "id": "sushishop-california-saumon-crispy-onion",
           "name": "California Saumon Crispy Onion",
-          "description": "6 pièces. Saumon snacké, Cream cheese, Concombre, Aneth, Sésame, Oignons frits",
+          "description": "8 pièces. Saumon snacké, Cream cheese, Concombre, Aneth, Sésame, Oignons frits",
           "price": 6.8,
           "allergens": {
             "gluten": "present",
@@ -916,7 +801,7 @@
         {
           "id": "sushishop-california-chicken-curry",
           "name": "California Chicken Curry",
-          "description": "6 pièces. Poulet pané, Oignons frits, Oignons rouge, Mayonnaise au curry",
+          "description": "8 pièces. Poulet pané, Oignons frits, Oignons rouge, Mayonnaise au curry",
           "price": 7,
           "allergens": {
             "gluten": "present",
@@ -938,7 +823,7 @@
         {
           "id": "sushishop-california-thon-cuit-avocat",
           "name": "California Thon Cuit Avocat",
-          "description": "6 pièces. Thon cuit, Avocat, Sésame",
+          "description": "8 pièces. Thon cuit, Avocat, Sésame",
           "price": 6.8,
           "allergens": {
             "gluten": "not_declared",
@@ -960,7 +845,7 @@
         {
           "id": "sushishop-california-thon-avocat",
           "name": "California Thon Avocat",
-          "description": "6 pièces. Thon, Avocat, Sésame",
+          "description": "8 pièces. Thon, Avocat, Sésame",
           "price": 7,
           "allergens": {
             "gluten": "not_declared",
@@ -982,7 +867,7 @@
         {
           "id": "sushishop-california-french-touch",
           "name": "California French Touch",
-          "description": "6 pièces. Bloc de foie gras de canard, Confiture de figue, Pralin",
+          "description": "8 pièces. Bloc de foie gras de canard, Confiture de figue, Pralin",
           "price": 8,
           "allergens": {
             "gluten": "present",
@@ -1004,7 +889,7 @@
         {
           "id": "sushishop-california-crevette-tempura",
           "name": "California Crevette Tempura",
-          "description": "6 pièces. Crevettes Tempura, Avocat, Sésame, Sauce mayonnaise épicée",
+          "description": "8 pièces. Crevettes Tempura, Avocat, Sésame, Sauce mayonnaise épicée",
           "price": 7.7,
           "allergens": {
             "gluten": "present",
@@ -1026,7 +911,7 @@
         {
           "id": "sushishop-california-veggie",
           "name": "California Veggie",
-          "description": "6 pièces. Oignon rouge, Avocat, Concombre, Carotte, Betterave chioggia, Roquette, Coriandre, Mayonnaise japonaise, Sésame",
+          "description": "8 pièces. Oignon rouge, Avocat, Concombre, Carotte, Betterave chioggia, Roquette, Coriandre, Mayonnaise japonaise, Sésame",
           "price": 6.5,
           "tags": [
             "vegetarien"
@@ -1197,31 +1082,9 @@
       "category": "Spring Rolls",
       "dishes": [
         {
-          "id": "sushishop-spring-saumon-guacamole",
-          "name": "Spring Saumon Guacamole",
-          "description": "6 pièces. Saumon, Guacamole, Laitue, Ciboulette thaï, Coriandre, Piment rouge",
-          "price": 7.8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "sushishop-spring-chicken-facon-cesar",
           "name": "Spring Chicken Façon César",
-          "description": "6 pièces. Poulet pané, Avocat, Parmesan AOP, Poivre blanc de Penja IGP, Laitue, sauce façon césar (mayonnaise japonaise, cornichon, huile de sésame, ciboulette), Citron vert",
+          "description": "8 pièces. Poulet pané, Avocat, Parmesan AOP, Poivre blanc de Penja IGP, Laitue, sauce façon césar (mayonnaise japonaise, cornichon, huile de sésame, ciboulette), Citron vert",
           "price": 7.9,
           "allergens": {
             "gluten": "present",
@@ -1243,7 +1106,7 @@
         {
           "id": "sushishop-spring-daurade-basilimon",
           "name": "Spring Daurade Basilimon",
-          "description": "6 pièces. Daurade, Pomme verte, Laitue, Basilic, Mayonnaise citron vert, Gel citron vert, Shiso cress vert",
+          "description": "8 pièces. Daurade, Pomme verte, Laitue, Basilic, Mayonnaise citron vert, Gel citron vert, Shiso cress vert",
           "price": 7.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1265,7 +1128,7 @@
         {
           "id": "sushishop-spring-crevette-guacamole",
           "name": "Spring Crevette Guacamole",
-          "description": "6 pièces. Crevette ebi, Guacamole, Laitue, Oignon rouge, Coriandre",
+          "description": "8 pièces. Crevette ebi, Guacamole, Laitue, Oignon rouge, Coriandre",
           "price": 7.9,
           "allergens": {
             "gluten": "not_declared",
@@ -1287,7 +1150,7 @@
         {
           "id": "sushishop-spring-saumon-avocat",
           "name": "Spring Saumon Avocat",
-          "description": "6 pièces. Saumon, Avocat, Laitue, Coriandre, Menthe, Riz",
+          "description": "8 pièces. Saumon, Avocat, Laitue, Coriandre, Menthe, Riz",
           "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
@@ -1309,7 +1172,7 @@
         {
           "id": "sushishop-spring-avocat-cheese",
           "name": "Spring Avocat Cheese",
-          "description": "6 pièces. Avocat, Cream cheese, Riz, Laitue",
+          "description": "8 pièces. Avocat, Cream cheese, Riz, Laitue",
           "price": 6.2,
           "tags": [
             "vegetarien"
@@ -1334,7 +1197,7 @@
         {
           "id": "sushishop-spring-concombre-cheese",
           "name": "Spring Concombre Cheese",
-          "description": "6 pièces. Concombre, Cream cheese, Riz, Laitue",
+          "description": "8 pièces. Concombre, Cream cheese, Riz, Laitue",
           "price": 5.9,
           "tags": [
             "vegetarien"
@@ -1359,7 +1222,7 @@
         {
           "id": "sushishop-spring-fried-chicken-avocat",
           "name": "Spring Fried Chicken Avocat",
-          "description": "6 pièces. Poulet pané, Avocat, Laitue, Mayonnaise, Riz",
+          "description": "8 pièces. Poulet pané, Avocat, Laitue, Mayonnaise, Riz",
           "price": 7.2,
           "allergens": {
             "gluten": "present",
@@ -1381,7 +1244,7 @@
         {
           "id": "sushishop-spring-thon-cuit-avocat",
           "name": "Spring Thon Cuit Avocat",
-          "description": "6 pièces. Thon cuit, Avocat, Laitue",
+          "description": "8 pièces. Thon cuit, Avocat, Laitue",
           "price": 6.8,
           "allergens": {
             "gluten": "not_declared",
@@ -1403,7 +1266,7 @@
         {
           "id": "sushishop-spring-tataki-thon",
           "name": "Spring Tataki Thon",
-          "description": "6 pièces. Thon mariné et snacké, Cacahuètes, Mayonnaise sésame, Laitue, Ciboulette thaï, Coriandre",
+          "description": "8 pièces. Thon mariné et snacké, Cacahuètes, Mayonnaise sésame, Laitue, Ciboulette thaï, Coriandre",
           "price": 7.9,
           "allergens": {
             "gluten": "present",
@@ -1425,7 +1288,7 @@
         {
           "id": "sushishop-spring-tataki-saumon",
           "name": "Spring Tataki Saumon",
-          "description": "6 pièces. Saumon mariné et snacké, Ciboulette thaï, Laitue, Mayonnaise à l'huile de sésame, Coriandre, Sésame, Sauce soja",
+          "description": "8 pièces. Saumon mariné et snacké, Ciboulette thaï, Laitue, Mayonnaise à l'huile de sésame, Coriandre, Sésame, Sauce soja",
           "price": 7.7,
           "allergens": {
             "gluten": "present",
@@ -1538,28 +1401,6 @@
           }
         },
         {
-          "id": "sushishop-signature-extreme-fire-roll",
-          "name": "Signature Extreme Fire Roll",
-          "description": "8 pièces. Ciboulette, Piment tabasco, Crevettes Tempura, Avocat, Mayonnaise goma ponzu",
-          "price": 11.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "sushishop-signature-dragon-roll",
           "name": "Signature Dragon Roll",
           "description": "8 pièces. Œufs de truite, Ciboulette, Mayonnaise Teriyaki, Avocat, Piment, Sésame, Crevettes Tempura, Mayonnaise Ponzu, Asperge",
@@ -1653,28 +1494,6 @@
           }
         },
         {
-          "id": "sushishop-sushi-crevette",
-          "name": "Sushi Crevette",
-          "description": "2 pièces. Crevette, Mayonnaise miso yuzu, Piment",
-          "price": 4.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "sushishop-sushi-salmon-cheese",
           "name": "Sushi Salmon Cheese",
           "description": "2 pièces. Saumon, Cheese, 7 épices",
@@ -1721,18 +1540,18 @@
       ]
     },
     {
-      "category": "Handrolls",
+      "category": "Plats Chauds",
       "dishes": [
         {
-          "id": "sushishop-handroll-saumon",
-          "name": "Handroll Saumon",
-          "description": "Saumon, Cream cheese, Avocat, Concombre",
-          "price": 6.7,
+          "id": "sushishop-curry-thai-rouge-poulet",
+          "name": "Curry Thaï Rouge Poulet",
+          "description": "Poulet, Riz, Curry rouge, Sauce lait de coco, Pâte de curry rouge, Carottes, Courgettes, Chou, Oignons rouges, Champignons, Poivrons rouges, Coriandre, Piments rouges",
+          "price": 15.9,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -1746,10 +1565,32 @@
           }
         },
         {
-          "id": "sushishop-handroll-crevette-tempura",
-          "name": "Handroll Crevette Tempura",
-          "description": "Crevettes Tempura, Guacamole, Oignon rouge, Coriandre",
-          "price": 6.9,
+          "id": "sushishop-curry-poulet-katsu",
+          "name": "Curry Poulet Katsu",
+          "description": "Poulet katsu, Curry japonais, 7 épices, Ciboulette, Riz vinaigré",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-curry-crevettes-tempura",
+          "name": "Curry Crevettes Tempura",
+          "description": "Crevettes Tempura, Curry japonais, 7 épices, Ciboulette, Riz vinaigré",
+          "price": 14.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
@@ -1768,10 +1609,10 @@
           }
         },
         {
-          "id": "sushishop-handroll-fried-chicken",
-          "name": "Handroll Fried Chicken",
-          "description": "Poulet pané, Carotte, Mayonnaise japonaise, Sauce Tonkatsu, Ciboulette",
-          "price": 6.7,
+          "id": "sushishop-crousty-sweet-curry",
+          "name": "Crousty Sweet Curry",
+          "description": "Riz vinaigré, Poulet frit, Mayonnaise au curry, Sauce Sweet Chili, Ciboulette, Oignons frits",
+          "price": 11.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1790,21 +1631,205 @@
           }
         },
         {
-          "id": "sushishop-handroll-thon-spicy",
-          "name": "Handroll Thon Spicy",
-          "description": "Thon, Carotte, Mayonnaise spicy, Coriandre",
-          "price": 6.7,
+          "id": "sushishop-crousty-spicy-coreen",
+          "name": "Crousty Spicy Coréen",
+          "description": "Riz vinaigré, Poulet frit, Mayonnaise au sésame, Sauce coréenne, Ciboulette, Oignons frits",
+          "price": 11.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
+            "soja": "present",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "present",
             "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-crousty-chicken-katsu",
+          "name": "Crousty Chicken Katsu",
+          "description": "Riz vinaigré, Poulet frit, Mayonnaise épicée, Sauce Teriyaki, Ciboulette, Oignons frits",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-yakisoba-saumon",
+          "name": "Yakisoba Saumon",
+          "description": "Nouilles de blé sautées aux légumes, Saumon, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée, Sésame",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-yakisoba-crevettes-tempura",
+          "name": "Yakisoba Crevettes Tempura",
+          "description": "Nouilles de blé sautées aux légumes, Crevettes Tempura, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée, Sésame",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-yakisoba-poulet-katsu",
+          "name": "Yakisoba Poulet Katsu",
+          "description": "Nouilles de blé sautées aux légumes, Poulet katsu, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée",
+          "price": 14.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Yakitori & Gyoza",
+      "dishes": [
+        {
+          "id": "sushishop-gyoza-poulet",
+          "name": "Gyoza Poulet",
+          "description": "3 pièces. Poulet, Chou, Oignon, Ail, Gingembre mariné, Sauce soja, Pâte à raviole chinoise",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-gyoza-legumes",
+          "name": "Gyoza Légumes",
+          "description": "3 pièces. Chou, Pois, Edamame, Carotte, Radis blanc, Epinard en poudre, Sauce soja, Pâte à raviole chinoise",
+          "price": 4.9,
+          "tags": [
+            "vegetarien"
+          ],
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-yakitori-poulet",
+          "name": "Yakitori Poulet",
+          "description": "2 pièces. Poulet, Sauce Teriyaki, Ciboulette",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-yakitori-boeuf-fromage",
+          "name": "Yakitori Bœuf Fromage",
+          "description": "2 pièces. Boeuf, Fromage, Ciboulette, Sauce Teriyaki",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -2086,239 +2111,6 @@
       ]
     },
     {
-      "category": "Plats Chauds",
-      "dishes": [
-        {
-          "id": "sushishop-crousty-chicken-katsu",
-          "name": "Crousty Chicken Katsu",
-          "description": "Riz vinaigré, Poulet frit, Mayonnaise épicée, Sauce Teriyaki, Ciboulette, Oignons frits",
-          "price": 11.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-curry-poulet-katsu",
-          "name": "Curry Poulet Katsu",
-          "description": "Poulet katsu, Curry japonais, 7 épices, Ciboulette, Riz vinaigré",
-          "price": 14.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-curry-crevettes-tempura",
-          "name": "Curry Crevettes Tempura",
-          "description": "Crevettes Tempura, Curry japonais, 7 épices, Ciboulette, Riz vinaigré",
-          "price": 14.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-yakisoba-saumon",
-          "name": "Yakisoba Saumon",
-          "description": "Nouilles de blé sautées aux légumes, Saumon, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée, Sésame",
-          "price": 14.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-yakisoba-crevettes-tempura",
-          "name": "Yakisoba Crevettes Tempura",
-          "description": "Nouilles de blé sautées aux légumes, Crevettes Tempura, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée, Sésame",
-          "price": 14.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-yakisoba-poulet-katsu",
-          "name": "Yakisoba Poulet Katsu",
-          "description": "Nouilles de blé sautées aux légumes, Poulet katsu, Chou blanc, Carotte, Brocolis, Chataigne d'eau, Edamame, Asperge, Pois gourmand, Poivron rouge, Champignons shiitake, Sauce Teriyaki, Ciboulette ciselée",
-          "price": 14.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Yakitori & Gyozas",
-      "dishes": [
-        {
-          "id": "sushishop-gyoza-poulet",
-          "name": "Gyoza Poulet",
-          "description": "3 pièces. Poulet, Chou, Oignon, Ail, Gingembre mariné, Sauce soja, Pâte à raviole chinoise",
-          "price": 4.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-gyoza-legumes",
-          "name": "Gyoza Légumes",
-          "description": "3 pièces. Chou, Pois, Edamame, Carotte, Radis blanc, Epinard en poudre, Sauce soja, Pâte à raviole chinoise",
-          "price": 4.9,
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-yakitori-poulet",
-          "name": "Yakitori Poulet",
-          "description": "2 pièces. Poulet, Sauce Teriyaki, Ciboulette",
-          "price": 5.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-yakitori-boeuf-fromage",
-          "name": "Yakitori Bœuf Fromage",
-          "description": "2 pièces. Boeuf, Fromage, Ciboulette, Sauce Teriyaki",
-          "price": 5.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
       "category": "Sashimi & Tataki",
       "dishes": [
         {
@@ -2555,7 +2347,7 @@
           "name": "Soupe Miso",
           "price": 3.5,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
@@ -2663,31 +2455,6 @@
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-salade-de-concombre",
-          "name": "Salade de Concombre",
-          "description": "Concombre, Vinaigre de riz, Huile de sésame, Sauce épicée, Sauce soja salée, 7 épices, Sésame blanc",
-          "price": 3.7,
-          "tags": [
-            "vegetarien"
-          ],
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -2856,28 +2623,6 @@
       "category": "Desserts",
       "dishes": [
         {
-          "id": "sushishop-mochi-cremeux-chocolat-dubai",
-          "name": "Mochi Crémeux Chocolat Dubaï",
-          "description": "2 pièces",
-          "price": 5.2,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "sushishop-compote-pomme-peche-fruit-du-dragon-pom-potes-90g",
           "name": "Compote Pomme - Pêche - Fruit du Dragon Pom'Potes 90g",
           "price": 1.5,
@@ -2957,6 +2702,50 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-mochi-cremeux-cheesecake-yuzu",
+          "name": "Mochi Crémeux Cheesecake Yuzu",
+          "description": "2 pièces",
+          "price": 5.2,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "sushishop-mochi-cremeux-ganache-chocolat",
+          "name": "Mochi Crémeux Ganache Chocolat",
+          "description": "2 pièces",
+          "price": 5.2,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -3091,27 +2880,6 @@
       "category": "Boissons",
       "dishes": [
         {
-          "id": "sushishop-embrace-porto",
-          "name": "Embrace Porto",
-          "price": 2.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "sushishop-evian-50-cl",
           "name": "Evian 50 cl.",
           "description": "50CL",
@@ -3179,27 +2947,6 @@
         {
           "id": "sushishop-embrace-soda-citron-framboise",
           "name": "Embrace Soda Citron Framboise",
-          "price": 2.9,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "sushishop-embrace-soda-peche-menthe",
-          "name": "Embrace Soda Pêche Menthe",
           "price": 2.9,
           "allergens": {
             "gluten": "not_declared",

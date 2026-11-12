@@ -6,6 +6,72 @@
       "category": "BURGERS",
       "dishes": [
         {
+          "id": "bioburger-victoire-le-raclette",
+          "name": "LE RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de mayonnaise",
+          "price": 11.9
+        },
+        {
+          "id": "bioburger-victoire-le-pepper-raclette",
+          "name": "LE PEPPER RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de notre sauce au poivre",
+          "price": 11.9
+        },
+        {
+          "id": "bioburger-victoire-le-smoky-raclette",
+          "name": "LE SMOKY RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de raclette au lait cru, d'une tranche de poitrine de porc fumée, de salade, d'oignons rouges, de cornichons accompagnés de notre sauce Classic BB au paprika fumé",
+          "price": 11.9
+        },
+        {
           "id": "bioburger-victoire-l-original",
           "name": "L'ORIGINAL",
           "allergens": {
@@ -24,52 +90,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de véritable Cheddar ou Gouda selon arrivage, de salade, de tomate, de confit d’oignons, de cornichons croquants accompagnés de notre sauce classic BB",
+          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, d'une tranche de véritable Cheddar ou de gouda (selon arrivage), de salade, de confit d’oignons, de cornichons accompagnés de notre sauce classic BB",
           "price": 9.9
-        },
-        {
-          "id": "bioburger-victoire-le-french-pepper",
-          "name": "LE FRENCH PEPPER",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché, steak de bœuf frais 100% pur bœuf, gouda, salade, tomate, confit d’oignons, sauce au poivre BB",
-          "price": 10.5
-        },
-        {
-          "id": "bioburger-victoire-le-halloumi",
-          "name": "LE HALLOUMI",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché garni d'un halloumi snacké, de salade, de tomate, d'oignons rouges accompagnés de mayonnaise et de miel",
-          "price": 10.9
         },
         {
           "id": "bioburger-victoire-le-bacon-cheese",
@@ -94,14 +116,14 @@
           "price": 11.9
         },
         {
-          "id": "bioburger-victoire-le-chicken-cheese",
-          "name": "LE CHICKEN CHEESE",
+          "id": "bioburger-victoire-le-hot-peanut-butter-chicken",
+          "name": "LE HOT PEANUT BUTTER CHICKEN",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
@@ -112,12 +134,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un pané de poulet croustillant, d'une tranche de véritable gouda, d'oignons rouges accompagnés de notre sauce tartare",
-          "price": 9.9
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet croustillant, de beurre de cacahuètes, de salade, de cornichons accompagnés de notre ketchup au piment rouge",
+          "price": 10.9
         },
         {
-          "id": "bioburger-victoire-le-chicken-bacon",
-          "name": "LE CHICKEN BACON",
+          "id": "bioburger-victoire-little-smash-cheese",
+          "name": "LITTLE SMASH CHEESE",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -129,12 +151,166 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "present",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Le burger qui croustille ! Chicken Bacon (Pain BB légèrement brioché garni d'un pané de poulet, d'une tranche de poitrine de porc fumée croustillante, de salade, de tomate, de cornichons croquants accompagnés de mayonnaise et sauce barbecue) + homemade side au choix + BB Drink",
+          "description": "Potato bun garni de 1 steak pur boeuf smashé, de 1 tranche de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 8.5
+        },
+        {
+          "id": "bioburger-victoire-smash-cheese",
+          "name": "SMASH CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks pur boeuf smashé, de 2 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 10.9
+        },
+        {
+          "id": "bioburger-victoire-big-smash-cheese",
+          "name": "BIG SMASH CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 3 steaks pur boeuf smashé, de 3 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 13.3
+        },
+        {
+          "id": "bioburger-victoire-little-smash-bacon-cheese",
+          "name": "LITTLE SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 1 steak pur boeuf smashé, de 1 tranche de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 9.5
+        },
+        {
+          "id": "bioburger-victoire-smash-bacon-cheese",
+          "name": "SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks pur boeuf smashé, de 2 tranches de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 11.9
+        },
+        {
+          "id": "bioburger-victoire-big-smash-bacon-cheese",
+          "name": "BIG SMASH BACON CHEESE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 3 steaks pur boeuf smashé, de 3 tranches de cheddar, d'une tranche de poitrine de porc fumée, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 14.3
+        },
+        {
+          "id": "bioburger-victoire-little-smash-vg",
+          "name": "LITTLE SMASH VG",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni d' 1 steak de soja français smashé, d' 1 tranche de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
+          "price": 8.5
+        },
+        {
+          "id": "bioburger-victoire-smash-vg",
+          "name": "SMASH VG",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Potato bun garni de 2 steaks de soja français smashés, de 2 tranches de cheddar, de cornichons, d'oignons rouges accompagnés de ketchup et mayonnaise",
           "price": 10.9
         },
         {
@@ -145,7 +321,7 @@
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "may_contain",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
@@ -156,7 +332,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pain BB légèrement brioché garni d'un pané de poulet végétal, de salade, d'oignons rouges accompagnés de notre sauce au poivre BB",
+          "description": "Pain BB légèrement brioché garni d'un pané de poulet végétal au soja français, de salade, d'oignons rouges accompagnés de notre sauce au poivre BB",
           "price": 9.9
         },
         {
@@ -202,28 +378,6 @@
           },
           "description": "La meilleure façon de manger des légumes d'hiver ! Pain BB vegan garni d'une galette de seitan aux légumes d'hiver, de salade, de confit d'oignons, de cornichons accompagnés d'un mélange de sauces ketchup et barbecue",
           "price": 10.9
-        },
-        {
-          "id": "bioburger-victoire-le-chevre-miel",
-          "name": "LE CHÈVRE MIEL",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pain BB légèrement brioché garni d'un steak de bœuf frais 100% pur bœuf, de 2 tranches de chèvre, de salade, de cornichons, d'oignons rouges frais accompagnés de mayonnaise et de miel",
-          "price": 10.9
         }
       ]
     },
@@ -244,12 +398,12 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Piadina garnie de poulet pané, de houmous, de salade, de tomate, d'oignons rouges accompagnés de mayonnaise et de miel",
+          "description": "Piadina garnie de poulet pané, de salade, d'oignons rouges accompagnés de mayonnaise et de miel",
           "price": 8.5
         },
         {
@@ -266,12 +420,12 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Piadina garnie de cubes de halloumi frit, de houmous, de salade, de tomate, d'oignons rouges accompagnés de notre sauce au poivre",
+          "description": "Piadina garnie de cubes de halloumi frit, de salade, d'oignons rouges accompagnés de notre sauce au poivre",
           "price": 8.5
         }
       ]
@@ -298,7 +452,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Salade verte accompagnée de poulet pané, de gouda, de tomate, d'oignons frits et de notre sauce caesar",
+          "description": "Salade verte accompagnée de poulet pané, de gouda, d'oignons frits, de pickles de chou et de notre sauce caesar",
           "price": 8.9
         },
         {
@@ -320,7 +474,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Salade verte accompagnée de cubes de halloumi frits, de tomate, d'oignons frits et de notre sauce caesar",
+          "description": "Salade verte accompagnée de cubes de halloumi frits, de pickles de chou, d'oignons frits et de notre sauce caesar",
           "price": 8.9
         }
       ]
@@ -328,6 +482,28 @@
     {
       "category": "FINGER FOOD",
       "dishes": [
+        {
+          "id": "bioburger-victoire-grilled-cheese-raclette",
+          "name": "GRILLED CHEESE RACLETTE",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pain légèrement brioché toasté garni d'une tranche de poitrine de porc fumée croustillante et de 2 tranches de raclette au lait cru",
+          "price": 5.9
+        },
         {
           "id": "bioburger-victoire-grilled-cheese-bacon",
           "name": "GRILLED CHEESE BACON",
@@ -506,7 +682,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Salade verte accompagnée de minis halloumis frits, de tomate, d'oignon rouge et de notre sauce caesar",
+          "description": "Salade verte accompagnée de minis halloumis frits, de tomate, d'oignon rouge, de pickles de chou et de notre sauce caesar",
           "price": 4.9
         },
         {
@@ -536,6 +712,27 @@
     {
       "category": "SAUCES",
       "dishes": [
+        {
+          "id": "bioburger-victoire-pot-sauce-mayonnaise",
+          "name": "POT SAUCE MAYONNAISE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 0
+        },
         {
           "id": "bioburger-victoire-pot-sauce-moutarde",
           "name": "POT SAUCE MOUTARDE",
@@ -697,8 +894,30 @@
       "category": "DESSERTS",
       "dishes": [
         {
-          "id": "bioburger-victoire-ice-bb-crush",
-          "name": "ICE BB CRUSH",
+          "id": "bioburger-victoire-bb-sundae-peanut-butter",
+          "name": "BB SUNDAE PEANUT BUTTER",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sundae accompagné de beurre de cacahuète et de cacahuètes caramélisées",
+          "price": 4.5
+        },
+        {
+          "id": "bioburger-victoire-bb-sundae",
+          "name": "BB SUNDAE",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -741,14 +960,58 @@
           "price": 4.5
         },
         {
-          "id": "bioburger-victoire-shake-bb-crush",
-          "name": "SHAKE BB CRUSH",
+          "id": "bioburger-victoire-cookie-chocolat-noir",
+          "name": "COOKIE CHOCOLAT NOIR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cookie chocolat noir",
+          "price": 4.4
+        },
+        {
+          "id": "bioburger-victoire-bb-shake-peanut-butter",
+          "name": "BB SHAKE PEANUT BUTTER",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Milkshake au beurre de cacahuètes",
+          "price": 4.5
+        },
+        {
+          "id": "bioburger-victoire-bb-shake",
+          "name": "BB SHAKE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
