@@ -32,9 +32,11 @@ export function buildHomeMeta(siteUrl: string): PageMeta {
     ...shareImage(siteUrl),
     // No city named here on purpose: the coverage area is meant to grow, and a title that
     // pins the site to one city would have to be re-indexed the day it does.
-    title: `${SITE_NAME} · Trouvez où manger sans allergènes`,
+    // Not the page's heading: this is what a search result, a tab or a shared link shows, so it
+    // names what the site finds ("un restaurant") in the words of the person searching.
+    title: `${SITE_NAME} · Trouvez un restaurant selon vos allergies`,
     description:
-      "Consultez les 14 allergènes réglementaires déclarés pour chaque plat, et filtrez la carte selon les allergènes que vous évitez.",
+      "Les 14 allergènes réglementaires déclarés par les restaurants, plat par plat. Filtrez la carte selon ceux que vous évitez.",
     canonical: siteUrl,
   };
 }
