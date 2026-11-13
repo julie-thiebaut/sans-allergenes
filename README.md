@@ -10,18 +10,6 @@ MVP statique : aucun compte, aucun avis, aucune contribution publique, aucun bac
 
 Le schéma garde par ailleurs un jeu de démonstration, marqué `isDemoData` et signalé comme tel dans l'interface : quelques établissements fictifs qui servent aux tests, aux fixtures et au développement, jamais mêlés aux vrais.
 
-### Les règles que le modèle de données fait respecter
-
-Elles valent pour le jeu réel comme pour la démonstration, et expliquent pourquoi `src/data/schemas.ts` est écrit ainsi.
-
-- **Aucune information allergène n'est inventée.** Chaque plat vient de ce que l'établissement publie lui-même.
-- Un allergène non déclaré est `not_declared`, **jamais « absent »** : le modèle interdit d'affirmer l'absence d'un allergène. `src/filtering/allergenLogic.ts` est le seul endroit autorisé à traduire ces statuts en texte affiché.
-- Une ligne de tableau vide est une déclaration et se publie ; un plat sans ligne du tout ne se publie pas — l'afficher le ferait passer pour déclaré sans allergène.
-- Mais une ligne vide ne vaut que si le document en fait une : un gabarit que l'établissement n'a pas rempli est refusé.
-- Tout produit dont la lecture est ambiguë est écarté, jamais deviné.
-- La carte de l'établissement fait la structure (rubriques, intitulés, compositions) ; la fiche allergènes n'apporte que les allergènes.
-- Les régimes sont des tags, limités à **végétarien** et **végan**. « Sans gluten » et « sans lactose » n'en sont pas : ce sont des affirmations d'allergène, et elles n'ont pas d'écriture possible dans ce modèle.
-
 ### Ce que chaque fiche dit de sa source
 
 - `source.kind` vaut `published` ou `on_request`. La distinction est éditoriale : `published` veut dire que **n'importe qui peut aller vérifier**, et c'est ce que l'interface met en avant ; `on_request` désigne une information communiquée par l'établissement, que personne d'autre ne peut contrôler. Le schéma refuse une source « publiée » sans URL et une source « sur demande » qui en porte une.
