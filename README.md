@@ -6,13 +6,13 @@ MVP statique : aucun compte, aucun avis, aucune contribution publique, aucun bac
 
 ## Données
 
-**Ce dépôt ne contient aujourd'hui qu'un jeu de démonstration** : neuf établissements fictifs, tous marqués `isDemoData` et signalés comme tels dans l'interface. Il sert à faire tourner l'application, les tests et le pré-rendu.
+**`public/data/` publie le jeu réel** : des établissements parisiens dont le document allergènes a été téléchargé, dont **le contenu a été vérifié** (pas seulement son lien), et relu un par un. Il est construit par un pipeline d'import qui vit dans un dépôt séparé, `sans-allergenes-data`, avec le recensement complet des établissements parisiens et le verdict de chacun ; `npm run publish:data` (depuis ce dépôt-là) copie son résultat ici, et `npm run validate:data` (depuis celui-ci) le revérifie à l'arrivée.
 
-Le jeu réel — des établissements parisiens dont le document allergènes a été téléchargé et **son contenu vérifié**, pas seulement son lien — est construit par un pipeline d'import qui vit dans un dépôt séparé, avec le recensement complet des établissements parisiens et le verdict de chacun. Il sera publié ici quand ses données auront été relues. D'ici là, `public/data/` reste la démonstration, et l'application n'affiche donc rien qui se donne pour vrai sans l'être.
+Le schéma garde par ailleurs un jeu de démonstration, marqué `isDemoData` et signalé comme tel dans l'interface : quelques établissements fictifs qui servent aux tests, aux fixtures et au développement, jamais mêlés aux vrais.
 
 ### Les règles que le modèle de données fait respecter
 
-Elles valent pour la démonstration comme pour le jeu réel, et expliquent pourquoi `src/data/schemas.ts` est écrit ainsi.
+Elles valent pour le jeu réel comme pour la démonstration, et expliquent pourquoi `src/data/schemas.ts` est écrit ainsi.
 
 - **Aucune information allergène n'est inventée.** Chaque plat vient de ce que l'établissement publie lui-même.
 - Un allergène non déclaré est `not_declared`, **jamais « absent »** : le modèle interdit d'affirmer l'absence d'un allergène. `src/filtering/allergenLogic.ts` est le seul endroit autorisé à traduire ces statuts en texte affiché.
