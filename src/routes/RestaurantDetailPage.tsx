@@ -1,5 +1,6 @@
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { ChevronIcon } from "../components/common/ChevronIcon";
+import { LanguageSwitch } from "../components/layout/LanguageSwitch";
 import { ErrorState } from "../components/common/ErrorState";
 import { LoadingState } from "../components/common/LoadingState";
 import { RestaurantDetailView } from "../components/restaurant-detail/RestaurantDetailView";
@@ -7,13 +8,19 @@ import { useDataContext } from "../data/DataProvider";
 import { Seo } from "../seo/Seo";
 import { buildRestaurantMeta } from "../seo/seoData";
 import { useMapPageMemory, wasOpenedFromMapPage } from "../state/MapPageMemoryContext";
+import { useContentTranslationTable } from "../i18n/ContentTranslations";
+import { pagePath } from "../i18n/locale";
+import { useLocale, useMessages } from "../i18n/useLocale";
 
 export function RestaurantDetailPage() {
   const { slug } = useParams<{ slug: string }>();
   const data = useDataContext();
+  const locale = useLocale();
+  const t = useMessages();
+  const translations = useContentTranslationTable();
 
   if (data.status === "loading") {
-    return <LoadingState label="Chargement…" />;
+    return <LoadingState />;
   }
   if (data.status === "error") {
     return <ErrorState message={data.message} />;
@@ -23,9 +30,9 @@ export function RestaurantDetailPage() {
   if (!restaurant) {
     return (
       <div className="overflow-y-auto p-6">
-        <p>Restaurant introuvable.</p>
-        <Link to="/carte/" className="text-brand-500 underline">
-          Retour à la carte
+        <p>{t.restaurant.notFound}</p>
+        <Link to={pagePath("map", locale)} className="text-brand-500 underline">
+          {t.restaurant.backToMap}
         </Link>
       </div>
     );
@@ -35,6 +42,8 @@ export function RestaurantDetailPage() {
     restaurant,
     typeof window !== "undefined" ? window.location.origin : "",
     data.restaurants,
+    locale,
+    translations,
   );
 
   return (
@@ -44,7 +53,12 @@ export function RestaurantDetailPage() {
     // page at their place at the bottom of the menu and stretch it far below the footer.
     <div className="relative mx-auto w-full max-w-3xl overflow-y-auto p-4">
       <Seo meta={meta} />
-      <BackToMapPageLink />
+      {/* The page has no header: the language link sits on the back link's line. Restaurant pages
+          are where search engines land, so a visitor who does not read French must find it here. */}
+      <div className="mb-4 flex items-center justify-between gap-4">
+        <BackToMapPageLink />
+        <LanguageSwitch className="-mr-2" />
+      </div>
       <RestaurantDetailView restaurant={restaurant} />
     </div>
   );
@@ -61,10 +75,12 @@ function BackToMapPageLink() {
   const location = useLocation();
   const navigate = useNavigate();
   const memory = useMapPageMemory();
+  const locale = useLocale();
+  const t = useMessages();
 
   return (
     <Link
-      to="/carte/"
+      to={pagePath("map", locale)}
       onClick={(event) => {
         if (!wasOpenedFromMapPage(location.state)) return;
         // Leave a ctrl/cmd/middle click to the browser: it opens /carte in a new tab.
@@ -73,11 +89,11 @@ function BackToMapPageLink() {
         event.preventDefault();
         navigate(-1);
       }}
-      className="mb-4 inline-flex items-center gap-0.5 text-sm text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+      className="inline-flex items-center gap-0.5 text-sm text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
     >
       <ChevronIcon direction="left" />
       <span className="underline">
-        {memory?.mobileView === "list" ? "Retour à la liste" : "Retour à la carte"}
+        {memory?.mobileView === "list" ? t.restaurant.backToList : t.restaurant.backToMap}
       </span>
     </Link>
   );

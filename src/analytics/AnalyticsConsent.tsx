@@ -13,6 +13,8 @@ import {
   trackPageView,
   type AnalyticsConsent,
 } from "./googleAnalytics";
+import { pagePath } from "../i18n/locale";
+import { useLocale, useMessages } from "../i18n/useLocale";
 
 export function AnalyticsConsentBanner({
   open,
@@ -27,6 +29,8 @@ export function AnalyticsConsentBanner({
   onRefuse: () => void;
   onClose: () => void;
 }) {
+  const locale = useLocale();
+  const t = useMessages();
   if (!open) return null;
 
   const buttonClass =
@@ -34,30 +38,28 @@ export function AnalyticsConsentBanner({
 
   return (
     <aside
-      aria-label="Choix relatifs à la mesure d’audience"
+      aria-label={t.consent.label}
       aria-live="polite"
       className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-2xl rounded-xl border border-neutral-300 bg-white p-5 text-neutral-700 shadow-2xl sm:bottom-5 sm:p-6"
       role="dialog"
     >
       <div className="flex items-start justify-between gap-4">
         <div>
-          <h2 className="text-lg font-bold text-neutral-900">Mesure d’audience facultative</h2>
+          <h2 className="text-lg font-bold text-neutral-900">{t.consent.title}</h2>
           <p className="mt-2 text-sm leading-relaxed">
-            Sans Allergènes est gratuit. Compter les visites et les pages consultées nous aide à
-            savoir quels restaurants ajouter ensuite. Vos filtres d’allergènes et vos recherches
-            d’adresse ne sont jamais transmis à Analytics.{" "}
+            {t.consent.body}{" "}
             <Link
               className="font-medium text-brand-700 underline underline-offset-2"
-              to="/confidentialite/#cookies"
+              to={`${pagePath("privacy", locale)}#cookies`}
             >
-              En savoir plus
+              {t.consent.learnMore}
             </Link>
             .
           </p>
         </div>
         {hasExistingChoice && (
           <button
-            aria-label="Fermer les réglages de cookies"
+            aria-label={t.consent.close}
             className="-mr-2 -mt-2 rounded-md p-2 text-xl leading-none text-neutral-500 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-neutral-900"
             onClick={onClose}
             type="button"
@@ -68,14 +70,14 @@ export function AnalyticsConsentBanner({
       </div>
       <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:justify-end">
         <button className={buttonClass} onClick={onRefuse} type="button">
-          Refuser
+          {t.consent.refuse}
         </button>
         <button
           className={[buttonClass, "bg-brand-500 hover:bg-brand-400"].join(" ")}
           onClick={onAccept}
           type="button"
         >
-          Accepter
+          {t.consent.accept}
         </button>
       </div>
     </aside>

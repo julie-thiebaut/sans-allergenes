@@ -4,6 +4,9 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { RestaurantListSchema } from "../src/data/schemas";
+import { ContentTranslationFileSchema } from "../src/i18n/contentTranslation";
+import { LOCALES, pagePath, restaurantPath, type Locale, type PageKey } from "../src/i18n/locale";
+import { alternateLinks } from "../src/seo/Seo";
 import {
   buildAllergensOnlineNoteMeta,
   buildHomeMeta,
@@ -11,6 +14,7 @@ import {
   buildMapMeta,
   buildPrivacyMeta,
   buildRestaurantMeta,
+  OG_LOCALES,
   type PageMeta,
 } from "../src/seo/seoData";
 
@@ -86,7 +90,15 @@ function injectHeadTags(html: string, meta: PageMeta): string {
     `<meta property="og:url" content="${escapeHtml(meta.canonical)}" data-seo-managed="true" />`,
     `<meta property="og:type" content="website" data-seo-managed="true" />`,
     `<meta property="og:site_name" content="Sans Allergènes" data-seo-managed="true" />`,
-    `<meta property="og:locale" content="fr_FR" data-seo-managed="true" />`,
+    `<meta property="og:locale" content="${OG_LOCALES[meta.locale]}" data-seo-managed="true" />`,
+    ...LOCALES.filter((locale) => locale !== meta.locale).map(
+      (locale) =>
+        `<meta property="og:locale:alternate" content="${OG_LOCALES[locale]}" data-seo-managed="true" />`,
+    ),
+    ...alternateLinks(meta).map(
+      ({ hreflang, href }) =>
+        `<link rel="alternate" hreflang="${hreflang}" href="${escapeHtml(href)}" data-seo-managed="true" />`,
+    ),
     meta.ogImage
       ? `<meta property="og:image" content="${escapeHtml(meta.ogImage)}" data-seo-managed="true" />`
       : "",
@@ -128,7 +140,9 @@ function injectHeadTags(html: string, meta: PageMeta): string {
     .replace(/<title\b[^>]*>.*?<\/title>/is, "")
     .replace(/<(?:meta|link)\b[^>]*\bdata-seo-managed=["']true["'][^>]*>/gi, "")
     .replace(/<meta\s+name=["']description["'][^>]*>/i, "")
-    .replace(/<link\s+rel=["']canonical["'][^>]*>/i, "");
+    .replace(/<link\s+rel=["']canonical["'][^>]*>/i, "")
+    // The language of the page, as the client set it, but stated here so it never depends on it.
+    .replace(/<html\b[^>]*>/i, `<html lang="${meta.locale}">`);
   return cleaned.replace("</head>", `    ${tags}\n  </head>`);
 }
 
@@ -142,34 +156,34 @@ async function main(): Promise<void> {
   const restaurantsRaw = await readFile(path.join(DIST_DIR, "data", "restaurants.json"), "utf-8");
   const restaurants = RestaurantListSchema.parse(JSON.parse(restaurantsRaw));
 
-  const routes: RouteToRender[] = [
-    { urlPath: "/", outFile: path.join(DIST_DIR, "index.html"), meta: buildHomeMeta(SITE_URL) },
-    {
-      urlPath: "/carte/",
-      outFile: path.join(DIST_DIR, "carte", "index.html"),
-      meta: buildMapMeta(SITE_URL),
-    },
-    {
-      urlPath: "/mentions-legales/",
-      outFile: path.join(DIST_DIR, "mentions-legales", "index.html"),
-      meta: buildLegalMeta(SITE_URL),
-    },
-    {
-      urlPath: "/confidentialite/",
-      outFile: path.join(DIST_DIR, "confidentialite", "index.html"),
-      meta: buildPrivacyMeta(SITE_URL),
-    },
-    {
-      urlPath: "/notes/allergenes-en-ligne/",
-      outFile: path.join(DIST_DIR, "notes", "allergenes-en-ligne", "index.html"),
-      meta: buildAllergensOnlineNoteMeta(SITE_URL),
-    },
-    ...restaurants.map((restaurant): RouteToRender => ({
-      urlPath: `/restaurant/${restaurant.slug}/`,
-      outFile: path.join(DIST_DIR, "restaurant", restaurant.slug, "index.html"),
-      meta: buildRestaurantMeta(restaurant, SITE_URL, restaurants),
+  const translations = ContentTranslationFileSchema.parse(
+    JSON.parse(await readFile(path.join(DIST_DIR, "data", "translations", "en.json"), "utf-8")),
+  );
+
+  const pageMetaBuilders: Record<PageKey, (siteUrl: string, locale: Locale) => PageMeta> = {
+    home: buildHomeMeta,
+    map: buildMapMeta,
+    legal: buildLegalMeta,
+    privacy: buildPrivacyMeta,
+    allergensOnlineNote: buildAllergensOnlineNoteMeta,
+  };
+
+  // "/en/map/" → dist/en/map/index.html
+  const outFileFor = (urlPath: string) =>
+    path.join(DIST_DIR, ...urlPath.split("/").filter(Boolean), "index.html");
+
+  const routes: RouteToRender[] = LOCALES.flatMap((locale) => [
+    ...(Object.keys(pageMetaBuilders) as PageKey[]).map((page): RouteToRender => ({
+      urlPath: pagePath(page, locale),
+      outFile: outFileFor(pagePath(page, locale)),
+      meta: pageMetaBuilders[page](SITE_URL, locale),
     })),
-  ];
+    ...restaurants.map((restaurant): RouteToRender => ({
+      urlPath: restaurantPath(restaurant.slug, locale),
+      outFile: outFileFor(restaurantPath(restaurant.slug, locale)),
+      meta: buildRestaurantMeta(restaurant, SITE_URL, restaurants, locale, translations),
+    })),
+  ]);
 
   const server = startPreviewServer();
   const browser = await chromium.launch({

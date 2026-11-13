@@ -1,10 +1,7 @@
-import { ALLERGEN_IDS, type AllergenId, type DietTag, type Dish } from "../../data/types";
+import { ALLERGEN_IDS, type AllergenId, type Dish } from "../../data/types";
+import type { Locale } from "../../i18n/locale";
+import { useMessages } from "../../i18n/useLocale";
 import { AllergenBadge } from "./AllergenBadge";
-
-const DIET_TAG_LABELS: Record<DietTag, string> = {
-  vegetarien: "Végétarien",
-  vegan: "Végan",
-};
 
 /**
  * Allergens are grouped by status under a written heading rather than colour-coded one by one,
@@ -50,7 +47,9 @@ function AllergenGroup({
   );
 }
 
-export function DishRow({ dish }: { dish: Dish }) {
+/** `quotedIn`: the dish's language, when it differs from the page's (see MenuSection). */
+export function DishRow({ dish, quotedIn }: { dish: Dish; quotedIn?: Locale }) {
+  const t = useMessages();
   const { present, mayContain } = groupByStatus(dish);
 
   return (
@@ -61,18 +60,18 @@ export function DishRow({ dish }: { dish: Dish }) {
         {/* Diet tags sit inline with the name: they qualify the dish itself, so reading them
             after the title (rather than under the description) matches how the name is read. */}
         <h4 className="font-medium text-neutral-900">
-          {dish.name}
+          <span lang={quotedIn}>{dish.name}</span>
           {dish.tags && dish.tags.length > 0 && (
             <span
               className="ml-2 inline-flex flex-wrap gap-1.5 align-middle"
-              aria-label={`Régimes signalés pour ${dish.name}`}
+              aria-label={t.restaurant.dish.diets(dish.name)}
             >
               {dish.tags.map((tag) => (
                 <span
                   key={tag}
                   className="inline-flex items-center rounded-full bg-brand-100 px-2 py-0.5 text-xs font-medium text-brand-800"
                 >
-                  {DIET_TAG_LABELS[tag]}
+                  {t.dietTags[tag]}
                 </span>
               ))}
             </span>
@@ -82,21 +81,25 @@ export function DishRow({ dish }: { dish: Dish }) {
           <span className="whitespace-nowrap text-neutral-700">{dish.price.toFixed(2)} €</span>
         )}
       </div>
-      {dish.description && <p className="mt-1 text-sm text-neutral-600">{dish.description}</p>}
+      {dish.description && (
+        <p lang={quotedIn} className="mt-1 text-sm text-neutral-600">
+          {dish.description}
+        </p>
+      )}
 
       {present.length > 0 && (
         <AllergenGroup
-          label="Présent :"
+          label={t.restaurant.dish.present}
           allergens={present}
-          listLabel={`Allergènes présents dans ${dish.name}`}
+          listLabel={t.restaurant.dish.presentList(dish.name)}
         />
       )}
 
       {mayContain.length > 0 && (
         <AllergenGroup
-          label="Traces possibles :"
+          label={t.restaurant.dish.mayContain}
           allergens={mayContain}
-          listLabel={`Traces possibles dans ${dish.name}`}
+          listLabel={t.restaurant.dish.mayContainList(dish.name)}
         />
       )}
 
@@ -104,7 +107,7 @@ export function DishRow({ dish }: { dish: Dish }) {
         // "signalé par le restaurant" is load-bearing: it describes what was declared, not what
         // the dish contains. Without that attribution this line would read as "allergen-free",
         // which is a claim the data can never support.
-        <p className="mt-2 text-xs text-neutral-500">Aucun allergène signalé par le restaurant</p>
+        <p className="mt-2 text-xs text-neutral-500">{t.restaurant.dish.noneDeclared}</p>
       )}
     </li>
   );

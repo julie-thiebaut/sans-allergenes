@@ -5,6 +5,7 @@ import { PARIS_CENTER } from "../../maps/MapsAdapter";
 import { useFilterState } from "../../state/FilterStateContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
 import { sameBounds, useMapPageMemory } from "../../state/MapPageMemoryContext";
+import { useLocale, useMessages } from "../../i18n/useLocale";
 import { formatMonthYear } from "../../utils/formatDate";
 import { useMediaQuery } from "../../utils/useMediaQuery";
 import { MobileFilterSheet } from "../filters/MobileFilterSheet";
@@ -31,6 +32,8 @@ function latestUpdate(restaurants: RestaurantWithMenu[]): string | undefined {
 
 export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMenu[] }) {
   const filters = useFilterState();
+  const locale = useLocale();
+  const t = useMessages();
   const { bounds } = useMapBoundsContext();
   const memory = useMapPageMemory();
   const isDesktop = useMediaQuery(DESKTOP_MEDIA_QUERY);
@@ -93,7 +96,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
           across the app, so it stays where the user last found it. */}
       <div className="flex items-center justify-between gap-2 border-b border-neutral-200 bg-white p-3 md:hidden">
         <MobileViewToggle value={mobileView} onChange={setMobileView} />
-        <MobileFilterSheet title="Filtrer par allergènes">
+        <MobileFilterSheet title={t.mapPage.filterByAllergens}>
           <SearchFilterBar />
         </MobileFilterSheet>
       </div>
@@ -105,7 +108,7 @@ export function SplitView({ allRestaurants }: { allRestaurants: RestaurantWithMe
         <ResultCount count={visibleInList.length} />
         {lastUpdate && (
           <p className="text-xs text-neutral-600 md:text-sm">
-            Mise à jour : {formatMonthYear(lastUpdate)}
+            {t.mapPage.lastUpdate(formatMonthYear(lastUpdate, locale))}
           </p>
         )}
       </div>

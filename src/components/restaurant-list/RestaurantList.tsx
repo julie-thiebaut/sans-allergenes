@@ -1,5 +1,6 @@
 import { startTransition, useEffect, useRef, useState } from "react";
 import type { RestaurantWithMenu } from "../../data/types";
+import { useMessages } from "../../i18n/useLocale";
 import { IS_PRERENDERING } from "../../seo/prerendering";
 import { useSelectionContext } from "../../state/SelectionContext";
 import { RestaurantCard } from "./RestaurantCard";
@@ -21,6 +22,7 @@ export function RestaurantList({
   initialScrollTop?: number;
 }) {
   const { hoveredId, selectedId } = useSelectionContext();
+  const t = useMessages();
   const cardRefs = useRef(new Map<string, HTMLLIElement>());
   const [builtCount, setBuiltCount] = useState(() =>
     // The prerendered page carries the whole list, for the crawlers that do not run the script.
@@ -52,15 +54,11 @@ export function RestaurantList({
   }, [selectedId]);
 
   if (restaurants.length === 0) {
-    return (
-      <p className="p-6 text-center text-neutral-500">
-        Aucun restaurant ne correspond à votre recherche. Essayez d&rsquo;élargir vos filtres.
-      </p>
-    );
+    return <p className="p-6 text-center text-neutral-500">{t.list.empty}</p>;
   }
 
   return (
-    <ul className="flex flex-col gap-3 overflow-y-auto p-3" aria-label="Liste des restaurants">
+    <ul className="flex flex-col gap-3 overflow-y-auto p-3" aria-label={t.list.label}>
       {restaurants.slice(0, shownCount).map((restaurant) => (
         <li
           key={restaurant.id}

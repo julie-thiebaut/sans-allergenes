@@ -1,8 +1,10 @@
+import { useMessages } from "../../i18n/useLocale";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
 export function AllergenInfoAvailableFilter() {
   const { allergenInfoAvailableOnly } = useFilterState();
   const dispatch = useFilterDispatch();
+  const t = useMessages();
 
   return (
     <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
@@ -13,7 +15,7 @@ export function AllergenInfoAvailableFilter() {
           dispatch({ type: "SET_ALLERGEN_INFO_AVAILABLE_ONLY", value: event.target.checked })
         }
       />
-      Informations allergènes disponibles uniquement
+      {t.filters.allergenInfoOnly}
     </label>
   );
 }

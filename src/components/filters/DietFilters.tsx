@@ -1,8 +1,10 @@
+import { useMessages } from "../../i18n/useLocale";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
 
 export function DietFilters() {
   const { vegetarianOnly, veganOnly, meatOnly } = useFilterState();
   const dispatch = useFilterDispatch();
+  const t = useMessages();
 
   return (
     <div className="flex flex-wrap gap-4 md:flex-nowrap">
@@ -14,7 +16,7 @@ export function DietFilters() {
             dispatch({ type: "SET_VEGETARIAN_ONLY", value: event.target.checked })
           }
         />
-        Plats végétariens
+        {t.filters.vegetarian}
       </label>
       <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
         <input
@@ -22,7 +24,7 @@ export function DietFilters() {
           checked={veganOnly}
           onChange={(event) => dispatch({ type: "SET_VEGAN_ONLY", value: event.target.checked })}
         />
-        Plats végétaliens
+        {t.filters.vegan}
       </label>
       <label className="flex items-center gap-2 text-sm text-neutral-700 md:whitespace-nowrap">
         <input
@@ -30,7 +32,7 @@ export function DietFilters() {
           checked={meatOnly}
           onChange={(event) => dispatch({ type: "SET_MEAT_ONLY", value: event.target.checked })}
         />
-        Plats carnés
+        {t.filters.meat}
       </label>
     </div>
   );

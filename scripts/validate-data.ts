@@ -2,6 +2,10 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { MenuSchema, RestaurantListSchema } from "../src/data/schemas";
+import {
+  ContentTranslationFileSchema,
+  TRANSLATED_RESTAURANT_FIELDS,
+} from "../src/i18n/contentTranslation";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.resolve(__dirname, "../public/data");
@@ -75,6 +79,31 @@ async function main(): Promise<void> {
     if (!menuIdsReferenced.has(menuId)) {
       errors.push(
         `menus/${file} : ce menu n'est référencé par aucun restaurant (menuId orphelin).`,
+      );
+    }
+  }
+
+  // Les textes des fiches en anglais. Un fichier illisible est une erreur ; un texte sans
+  // traduction n'en est pas une (la page anglaise l'affiche en français), mais il est signalé, comme
+  // une traduction dont le texte français a disparu : elle ne sert plus et doit être refaite.
+  const translationsRaw = await readFile(path.join(DATA_DIR, "translations", "en.json"), "utf-8");
+  const translations = ContentTranslationFileSchema.safeParse(JSON.parse(translationsRaw));
+  if (!translations.success) {
+    errors.push(`translations/en.json invalide :\n${translations.error.message}`);
+  } else {
+    const current = new Set(
+      restaurants.flatMap((restaurant) =>
+        TRANSLATED_RESTAURANT_FIELDS.flatMap((field) => restaurant[field] ?? []),
+      ),
+    );
+    const untranslated = [...current].filter((text) => !(text in translations.data));
+    const stale = Object.keys(translations.data).filter((text) => !current.has(text));
+    for (const text of untranslated) {
+      console.warn(`⚠️  Sans traduction anglaise (affiché en français) : ${text.slice(0, 100)}`);
+    }
+    for (const text of stale) {
+      console.warn(
+        `⚠️  Traduction anglaise orpheline (texte français modifié ?) : ${text.slice(0, 100)}`,
       );
     }
   }

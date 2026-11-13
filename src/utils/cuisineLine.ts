@@ -1,4 +1,7 @@
 import type { Restaurant } from "../data/types";
+import { CUISINE_TYPES_EN } from "../i18n/cuisineTypesEn";
+import type { Locale } from "../i18n/locale";
+import { MESSAGES } from "../i18n/messages";
 
 const VEGAN_TYPE = /^v[ée]gane?$/i;
 const VEGETARIAN_TYPE = /^v[ée]g[ée]tarienn?e?$/i;
@@ -14,17 +17,25 @@ type CuisineFields = Pick<
  * déjà (« Boulangerie, Café, Végan ») ; un type « Végétarien » n'empêche pas de signaler des
  * plats végétaliens, qui en disent plus.
  */
-function plantBasedDiet({ cuisineTypes, vegetarianOptions, veganOptions }: CuisineFields) {
+function plantBasedDiet(
+  { cuisineTypes, vegetarianOptions, veganOptions }: CuisineFields,
+  locale: Locale,
+) {
+  const words = MESSAGES[locale].cuisine;
   const typed = (pattern: RegExp) => cuisineTypes.some((type) => pattern.test(type.trim()));
-  if (veganOptions) return typed(VEGAN_TYPE) ? null : "végétaliens";
-  if (vegetarianOptions) return typed(VEGAN_TYPE) || typed(VEGETARIAN_TYPE) ? null : "végétariens";
+  if (veganOptions) return typed(VEGAN_TYPE) ? null : words.vegan;
+  if (vegetarianOptions)
+    return typed(VEGAN_TYPE) || typed(VEGETARIAN_TYPE) ? null : words.vegetarian;
   return null;
 }
 
-function dietMention(restaurant: CuisineFields) {
-  const plantBased = plantBasedDiet(restaurant);
-  const diets = [plantBased, restaurant.meatOptions ? "carnés" : null].filter(Boolean);
-  return diets.length > 0 ? `plats ${diets.join(" et ")} disponibles` : null;
+function dietMention(restaurant: CuisineFields, locale: Locale) {
+  const words = MESSAGES[locale].cuisine;
+  const plantBased = plantBasedDiet(restaurant, locale);
+  const diets = [plantBased, restaurant.meatOptions ? words.meat : null].filter(
+    (diet): diet is string => diet !== null,
+  );
+  return diets.length > 0 ? words.dietMention(diets) : null;
 }
 
 /**
@@ -62,10 +73,13 @@ const ORIGIN_LABELS = new Map([
  * Les étiquettes telles qu'on les lit : ce qu'est le restaurant d'abord, son origine ensuite,
  * quel que soit l'ordre de la fiche (« Bistrot, Français » comme « Pub, Irlandais »).
  */
-export function cuisineLabels(cuisineTypes: string[]): string {
+export function cuisineLabels(cuisineTypes: string[], locale: Locale = "fr"): string {
   const types = cuisineTypes.filter((type) => !ORIGIN_LABELS.has(type));
-  const origins = cuisineTypes.flatMap((type) => ORIGIN_LABELS.get(type) ?? []);
-  return [...types, ...origins].join(", ");
+  const origins = cuisineTypes.filter((type) => ORIGIN_LABELS.has(type));
+  if (locale === "en") {
+    return [...types, ...origins].map((type) => CUISINE_TYPES_EN.get(type) ?? type).join(", ");
+  }
+  return [...types, ...origins.map((type) => ORIGIN_LABELS.get(type) ?? type)].join(", ");
 }
 
 /**
@@ -73,9 +87,9 @@ export function cuisineLabels(cuisineTypes: string[]): string {
  * « Burgers, Fast-food · plats végétariens et carnés disponibles ». Le point médian sépare ce
  * qu'est le restaurant de ce qu'il propose.
  */
-export function cuisineLine(restaurant: CuisineFields): string {
-  const types = cuisineLabels(restaurant.cuisineTypes);
-  const diet = dietMention(restaurant);
+export function cuisineLine(restaurant: CuisineFields, locale: Locale = "fr"): string {
+  const types = cuisineLabels(restaurant.cuisineTypes, locale);
+  const diet = dietMention(restaurant, locale);
   if (!diet) return types;
   if (!types) return diet.charAt(0).toUpperCase() + diet.slice(1);
   return `${types} · ${diet}`;

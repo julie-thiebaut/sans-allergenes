@@ -1,4 +1,5 @@
 import type { Restaurant } from "../data/types";
+import { restaurantPath, type Locale } from "../i18n/locale";
 import { fullAddress } from "./fullAddress";
 
 /** L'adresse de l'éditrice, celle des mentions légales : les signalements y arrivent. */
@@ -13,6 +14,12 @@ function mailto(to: string, subject: string, body: string): string {
   // messageries reprennent tels quels dans l'objet du message.
   return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
+
+/*
+ * Les deux messages adressés aux restaurants restent en français dans les deux versions du site :
+ * c'est un restaurant français qui les lit. La version anglaise prévient le visiteur que le message
+ * est en français. Ceux qui arrivent à l'éditrice suivent la langue de la page.
+ */
 
 /**
  * Le message préparé pour le restaurant : lui demander de préciser sa carte des allergènes. Il
@@ -61,7 +68,14 @@ export function publishAllergensMailto(restaurant: Restaurant, email: string): s
 }
 
 /** Le message préparé pour suggérer une ville que le site ne couvre pas encore : reste à la nommer. */
-export function requestAreaMailto(): string {
+export function requestAreaMailto(locale: Locale = "fr"): string {
+  if (locale === "en") {
+    return mailto(
+      REPORT_EMAIL,
+      "Sans Allergènes in another city",
+      ["Hello,", "", "The city I suggest: "].join("\r\n"),
+    );
+  }
   return mailto(
     REPORT_EMAIL,
     "Sans Allergènes dans une autre ville",
@@ -70,7 +84,23 @@ export function requestAreaMailto(): string {
 }
 
 /** Le signalement reprend ce que les mentions légales demandent : la fiche, sa page, une source. */
-export function reportProblemMailto(restaurant: Restaurant): string {
+export function reportProblemMailto(restaurant: Restaurant, locale: Locale = "fr"): string {
+  if (locale === "en") {
+    return mailto(
+      REPORT_EMAIL,
+      `Report: ${restaurant.name} (${restaurant.postalCode})`,
+      [
+        "Hello,",
+        "",
+        `I am reporting a problem on the page for ${restaurant.name} (${fullAddress(restaurant)}):`,
+        `${SITE_URL}${restaurantPath(restaurant.slug, "en")}`,
+        "",
+        "The problem: ",
+        "",
+        "An up-to-date source, if you have one: ",
+      ].join("\r\n"),
+    );
+  }
   return mailto(
     REPORT_EMAIL,
     `Signalement : ${restaurant.name} (${restaurant.postalCode})`,

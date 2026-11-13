@@ -1,3 +1,5 @@
+import { useLocalizeText } from "../../i18n/ContentTranslations";
+import { useLocale, useMessages } from "../../i18n/useLocale";
 import { cuisineLine } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import { fullAddress } from "../../utils/fullAddress";
@@ -17,28 +19,17 @@ import { AllergenSafetyDisclaimer } from "./AllergenSafetyDisclaimer";
 import { MenuSection } from "./MenuSection";
 import { ContactRestaurantCallout, ReportProblemLink } from "./RestaurantContact";
 
-function menuFilterDescription(excludeTraces: boolean, several = false): string {
-  const allergen = several ? "l’un de ces allergènes" : "cet allergène";
-  return excludeTraces
-    ? `Les plats déclarant ${allergen}, présent ou en traces, sont masqués. Ceux sans ` +
-        "information restent affichés : leur présence dans la carte ne constitue jamais une " +
-        "garantie."
-    : `Les plats déclarant ${allergen} comme présent sont masqués. Les plats « traces ` +
-        "possibles » et ceux sans information restent affichés : leur présence dans la carte ne " +
-        "constitue jamais une garantie.";
-}
-
-// « 3 plats et 2 boissons masqués », « 1 boisson masquée » : les boissons sont comptées à part.
-function describeHidden(dishCount: number, drinkCount: number): string {
-  const dishes = `${dishCount} plat${dishCount > 1 ? "s" : ""}`;
-  const drinks = `${drinkCount} boisson${drinkCount > 1 ? "s" : ""}`;
-  if (drinkCount === 0) return `${dishes} masqué${dishCount > 1 ? "s" : ""}`;
-  if (dishCount === 0) return `${drinks} masquée${drinkCount > 1 ? "s" : ""}`;
-  return `${dishes} et ${drinks} masqués`;
-}
-
 export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWithMenu }) {
   const { allergensToAvoid, excludeTraces } = useFilterState();
+  const locale = useLocale();
+  const t = useMessages();
+  const localize = useLocalizeText();
+  // Source labels name French documents and stay in French: marked so on other pages.
+  const quotedLang = locale === "fr" ? undefined : "fr";
+  const description = restaurant.description ? localize(restaurant.description) : null;
+  const coverageNotice = restaurant.allergenCoverageNotice
+    ? localize(restaurant.allergenCoverageNotice)
+    : null;
   // Rendered in one place or the other, never both: two copies would mean duplicate checkboxes
   // for the same allergen in the accessibility tree.
   const isDesktop = useMediaQuery("(min-width: 768px)");
@@ -49,7 +40,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
   const menuFilter = (
     <div className="space-y-3">
       <AllergensToAvoidFilter
-        description={menuFilterDescription(excludeTraces, allergensToAvoid.length > 1)}
+        description={t.filters.menuDescription(excludeTraces, allergensToAvoid.length > 1)}
       />
       <ExcludeTracesFilter />
     </div>
@@ -72,7 +63,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
         </div>
         <p className="mt-1 text-neutral-600">{fullAddress(restaurant)}</p>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-neutral-700">
-          <span>{cuisineLine(restaurant)}</span>
+          <span>{cuisineLine(restaurant, locale)}</span>
           <PriceLevelIndicator level={restaurant.priceLevel} />
           {!restaurant.allergenInformationAvailable && <AllergenAvailabilityBadge />}
           {restaurant.websiteUrl && (
@@ -82,7 +73,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               rel="noopener noreferrer"
               className="text-brand-500 underline hover:text-brand-700"
             >
-              Site du restaurant
+              {t.restaurant.website}
             </a>
           )}
           {restaurant.phone && <span>{restaurant.phone}</span>}
@@ -90,7 +81,11 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
       </header>
 
       <div className={`${isDesktop ? "mt-6" : "mt-4"} space-y-8`}>
-        {restaurant.description && <p className="text-neutral-700">{restaurant.description}</p>}
+        {description && (
+          <p className="text-neutral-700" lang={description.lang === locale ? undefined : "fr"}>
+            {description.text}
+          </p>
+        )}
 
         {menu ? (
           // Sur mobile, le bouton de filtre n'a qu'1 rem au-dessus et au-dessous, au lieu des 2 rem
@@ -104,26 +99,32 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               </div>
             ) : (
               <div className="flex justify-end">
-                <MobileFilterSheet title="Filtrer par allergènes">{menuFilter}</MobileFilterSheet>
+                <MobileFilterSheet title={t.mapPage.filterByAllergens}>
+                  {menuFilter}
+                </MobileFilterSheet>
               </div>
             )}
 
             <div className={`${isDesktop ? "mt-8" : "mt-4"} space-y-8`}>
+              {/* English pages quote the menu as published, in French: say so once, above it. */}
+              {t.restaurant.menuLanguageNote && menu.categories.length > 0 && (
+                <p className="text-sm text-neutral-600">{t.restaurant.menuLanguageNote}</p>
+              )}
               {(menu.excludedDishCount > 0 || menu.excludedDrinkCount > 0) && (
                 <p className="rounded-md border border-amber-300 bg-amber-50 p-3 text-sm text-amber-800">
-                  {describeHidden(menu.excludedDishCount, menu.excludedDrinkCount)} :{" "}
-                  {allergensToAvoid.length > 1 ? "un des allergènes" : "l’allergène"} à éviter y est
-                  déclaré{excludeTraces ? ", présent ou en traces." : " présent."}
+                  {t.restaurant.hidden(menu.excludedDishCount, menu.excludedDrinkCount)}
+                  {locale === "fr" ? " : " : ": "}
+                  {t.restaurant.hiddenReason(allergensToAvoid.length > 1, excludeTraces)}
                 </p>
               )}
 
               {menu.categories.length > 0 ? (
                 menu.categories.map((category) => (
-                  <MenuSection key={category.category} category={category} />
+                  <MenuSection key={category.category} category={category} quotedIn="fr" />
                 ))
               ) : (
                 <p className="rounded-md border border-neutral-300 bg-neutral-50 p-4 text-neutral-700">
-                  Aucun plat de cette carte ne correspond aux allergènes à éviter sélectionnés.
+                  {t.restaurant.noDishLeft}
                 </p>
               )}
             </div>
@@ -134,31 +135,28 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           // without risking a mistake). Saying "no information" here would be false, and would
           // push someone away from a source that actually exists.
           <p className="rounded-md border border-amber-300 bg-amber-50 p-4 text-amber-900">
-            Ce restaurant publie ses informations allergènes, mais elles ne sont pas reprises plat
-            par plat sur ce site.{" "}
+            {t.restaurant.publishedElsewhere}{" "}
             {restaurant.source?.url ? (
               <>
-                Consultez{" "}
+                {t.restaurant.consult}{" "}
                 <a
                   href={restaurant.source.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  la source publiée par l&rsquo;enseigne
+                  {t.restaurant.publishedSource}
                 </a>{" "}
-                ou demandez le document en salle avant de commander.
+                {t.restaurant.orAskInRoom}
               </>
             ) : (
-              <>Demandez le document en salle avant de commander.</>
+              <>{t.restaurant.askInRoom}</>
             )}
           </p>
         ) : (
           <>
             <p className="rounded-md border border-red-300 bg-red-50 p-4 text-red-800">
-              Aucune information sur les allergènes n&rsquo;est disponible pour ce restaurant.
-              Contactez directement l&rsquo;établissement avant de commander si vous avez une
-              allergie.
+              {t.restaurant.noInformation}
             </p>
             {/* Ici et non en fin de fiche : sans carte, demander au restaurant de publier ses
                 allergènes est ce que la page a de plus utile à proposer. */}
@@ -171,14 +169,15 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             figurent pas dans la carte ci-dessus, faute de quoi ils passeraient pour déclarés sans
             allergène. Placé en tête, il retardait ce que le lecteur vient chercher, les plats ;
             en fin de carte, il répond à la question qui vient alors, « et le reste ? ». */}
-        {restaurant.allergenCoverageNotice && (
+        {coverageNotice && (
           <p
             role="alert"
+            lang={coverageNotice.lang === locale ? undefined : "fr"}
             // Même gabarit que le disclaimer qui le suit (role="note") : même taille de texte,
             // même padding, même rayon. Seule la couleur distingue l'avertissement.
             className="rounded-md border border-red-300 bg-red-50 p-4 text-sm text-red-800"
           >
-            {restaurant.allergenCoverageNotice}
+            {coverageNotice.text}
           </p>
         )}
 
@@ -198,7 +197,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
       <footer className="mt-8 border-t border-neutral-200 pt-4 text-sm text-neutral-500">
         {restaurant.source && (
           <p>
-            Source :{" "}
+            {t.restaurant.source}{" "}
             {restaurant.source.url ? (
               <a
                 href={restaurant.source.url}
@@ -206,10 +205,10 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
                 rel="noopener noreferrer"
                 className="underline"
               >
-                {restaurant.source.label}
+                <span lang={quotedLang}>{restaurant.source.label}</span>
               </a>
             ) : (
-              restaurant.source.label
+              <span lang={quotedLang}>{restaurant.source.label}</span>
             )}
           </p>
         )}
@@ -217,18 +216,18 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
             l'enseigne sont proposés en plus, car ils peuvent être plus complets ou plus récents. */}
         {restaurant.additionalSources?.map((other) => (
           <p key={other.url ?? other.label}>
-            Également publié :{" "}
+            {t.restaurant.alsoPublished}{" "}
             {other.url ? (
               <a href={other.url} target="_blank" rel="noopener noreferrer" className="underline">
-                {other.label}
+                <span lang={quotedLang}>{other.label}</span>
               </a>
             ) : (
-              other.label
+              <span lang={quotedLang}>{other.label}</span>
             )}
           </p>
         ))}
         {restaurant.lastVerifiedAt && (
-          <p>Dernière vérification : {formatVerifiedDate(restaurant.lastVerifiedAt)}</p>
+          <p>{t.restaurant.lastVerified(formatVerifiedDate(restaurant.lastVerifiedAt, locale))}</p>
         )}
         <ReportProblemLink restaurant={restaurant} />
       </footer>

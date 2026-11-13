@@ -3,6 +3,8 @@ import type { RestaurantWithMenu } from "../../data/types";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { cuisineLabels } from "../../utils/cuisineLine";
 import { fullAddress } from "../../utils/fullAddress";
+import { restaurantPath } from "../../i18n/locale";
+import { useLocale, useMessages } from "../../i18n/useLocale";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { ChevronIcon } from "../common/ChevronIcon";
@@ -28,6 +30,8 @@ export function MapSelectionPreviewCard({
   restaurant: RestaurantWithMenu;
   onDismiss: () => void;
 }) {
+  const locale = useLocale();
+  const t = useMessages();
   return (
     <div
       className={`fixed inset-x-3 bottom-3 z-10 flex gap-3 rounded-lg border p-3 shadow-lg ${
@@ -54,7 +58,7 @@ export function MapSelectionPreviewCard({
           <button
             type="button"
             onClick={onDismiss}
-            aria-label="Fermer l'aperçu"
+            aria-label={t.map.closePreview}
             className="shrink-0 rounded p-1 text-neutral-500 hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
           >
             ✕
@@ -63,7 +67,7 @@ export function MapSelectionPreviewCard({
         {/* Comme sur la carte de la liste : l'adresse, puis les cuisines. */}
         <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
         <p className="truncate text-sm text-neutral-700">
-          {cuisineLabels(restaurant.cuisineTypes)}
+          {cuisineLabels(restaurant.cuisineTypes, locale)}
         </p>
         <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
           <PriceLevelIndicator level={restaurant.priceLevel} />
@@ -73,12 +77,12 @@ export function MapSelectionPreviewCard({
           {restaurant.isDemoData && <DemoDataBadge />}
         </div>
         <Link
-          to={`/restaurant/${restaurant.slug}/`}
+          to={restaurantPath(restaurant.slug, locale)}
           state={OPENED_FROM_MAP_PAGE}
           className="mt-2 inline-flex items-center gap-0.5 text-sm font-medium text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
         >
           {/* Underline on the text only, so it isn't dragged through the chevron. */}
-          <span className="underline">Voir la fiche</span>
+          <span className="underline">{t.map.openRecord}</span>
           <ChevronIcon />
         </Link>
       </div>
