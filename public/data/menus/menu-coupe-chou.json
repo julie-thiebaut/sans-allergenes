@@ -31,10 +31,10 @@
           ]
         },
         {
-          "id": "coupechou-gaspacho-de-pasteque-et-tomate-feta-fouettee-menthe-et-pimen",
-          "name": "Gaspacho de Pastèque et tomate, feta fouettée, menthe et piment d’espelette",
+          "id": "coupechou-veloute-de-champignons-creme-montee-au-comte-et-a-la-moutard",
+          "name": "Velouté de champignons, crème montée au comté et à la moutarde à l’ancienne, pignons de pain",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
@@ -43,9 +43,9 @@
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
@@ -70,11 +70,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16
+          "price": 17
         },
         {
-          "id": "coupechou-salade-de-poulpe-condiments-de-tomate-basilic-salade-frisee",
-          "name": "Salade de poulpe, condiments de tomate, basilic, salade frisée",
+          "id": "coupechou-seiches-et-calamars-en-persillade-chorizo-pickles-d-oignon-r",
+          "name": "Seiches et calamars en persillade, chorizo, pickles d’oignon rouge",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -87,11 +87,11 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "price": 19
+          "price": 22
         },
         {
           "id": "coupechou-foie-gras-de-canard-mi-cuit-pain-de-campagne-toaste",
@@ -134,7 +134,7 @@
             "mollusques": "present"
           },
           "price": 26,
-          "description": "(ou 6 escargots : 15 €)"
+          "description": "(ou 6 escargots : 16 €)"
         }
       ]
     },
@@ -142,8 +142,8 @@
       "category": "Plats",
       "dishes": [
         {
-          "id": "coupechou-pasteque-poelee-tofu-fume-petit-epeautre-aux-herbes-creme-de",
-          "name": "Pastèque poelée, tofu fumé, petit épeautre aux herbes, crème de cajou citronnée",
+          "id": "coupechou-chou-fleur-en-deux-facons-marinade-au-sirop-d-erable-et-mout",
+          "name": "Chou-fleur en deux façons, marinade au sirop d’érable et moutarde à l’ancienne, graines de tournesol, pois chiche, raisins et kale",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -152,11 +152,11 @@
             "arachides": "not_declared",
             "soja": "present",
             "lait": "not_declared",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
@@ -167,8 +167,8 @@
           ]
         },
         {
-          "id": "coupechou-filet-mignon-de-porc-en-croute-d-herbes-puree-de-pommes-de-t",
-          "name": "Filet mignon de porc en croûte d'herbes, purée de pommes de terre, sauce aux fruits rouges",
+          "id": "coupechou-filet-mignon-de-porc-en-croute-d-herbes-puree-de-chou-fleur-",
+          "name": "Filet mignon de porc en croûte d’herbes, purée de chou-fleur, jus réduit au porto‬",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -185,11 +185,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 26
+          "price": 27
         },
         {
-          "id": "coupechou-pave-de-maigre-betteraves-cuites-au-sel-sauce-aigre-douce-au",
-          "name": "Pavé de maigre, betteraves cuites au sel, sauce aigre-douce aux groseilles et vinaigre de framboise",
+          "id": "coupechou-pave-de-maigre-croustillant-de-noisettes-puree-de-courge-but",
+          "name": "Pavé de maigre, croustillant de noisettes, purée de courge butternut à la cannelle",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -197,16 +197,16 @@
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 28
+          "price": 29
         },
         {
           "id": "coupechou-mi-cuit-de-thon-pane-aux-graines-de-sesame-legumes-facon-wok",
@@ -227,32 +227,32 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 31
+          "price": 33
         },
         {
-          "id": "coupechou-magret-de-canard-du-sud-ouest-grenades-et-ananas-puree-de-ce",
-          "name": "Magret de canard du sud-ouest, grenades et ananas, purée de céleri, jus de volaille",
+          "id": "coupechou-magret-de-canard-en-croute-de-speculoos-endives-caramelisees",
+          "name": "Magret de canard en croûte de spéculoos, endives caramélisées, grenailles, vinaigrette tiède au balsamique",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "present",
+            "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 36
+          "price": 37
         },
         {
-          "id": "coupechou-onglet-de-boeuf-de-salers-mature-grenailles-feves-pois-gourm",
-          "name": "Onglet de boeuf de Salers maturé, grenailles, fèves, pois gourmands, petits pois, jus de veau",
+          "id": "coupechou-onglet-de-boeuf-de-salers-mature-hugo-desnoyer-grenailles-pl",
+          "name": "Onglet de boeuf de Salers maturé \"Hugo Desnoyer\", grenailles, pleurôtes et chanterelles, jus de veau",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -269,7 +269,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 39
+          "price": 40
         }
       ]
     },

@@ -6,20 +6,20 @@
       "category": "ENTREES A LA CARTE",
       "dishes": [
         {
-          "id": "zenchef-1187836-terrine-de-lapin-aux-pruneaux-salade-d-herbes-aromatiques-le",
-          "name": "TERRINE DE LAPIN AUX PRUNEAUX, SALADE D’HERBES AROMATIQUES, LÉGUMES AIGRE-DOUX",
+          "id": "zenchef-1187836-oeuf-parfait-puree-de-courge-butternut-champignons-de-saison",
+          "name": "ŒUF PARFAIT, PURÉE DE COURGE BUTTERNUT, CHAMPIGNONS DE SAISON, ÉMULSION DE PECCORINO",
           "price": 16,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -27,30 +27,30 @@
           }
         },
         {
-          "id": "zenchef-1187837-soba-ravioles-de-crevettes-et-cochon-fermier-bisques-de-crus",
-          "name": "SOBA, RAVIOLES DE CREVETTES ET COCHON FERMIER, BISQUES DE CRUSTACÉS, SATÉ",
+          "id": "zenchef-1187837-pate-en-croute-d-automne-biche-veau-cochon-fermier",
+          "name": "PÂTÉ EN CROÛTE D’AUTOMNE, BICHE, VEAU, COCHON FERMIER",
           "price": 18,
           "allergens": {
             "gluten": "present",
-            "crustaces": "present",
+            "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "zenchef-1261401-coco-de-paimpol-moules-du-mont-st-michel-emulsion-mariniere-",
-          "name": "COCO DE PAIMPOL, MOULES DU MONT ST MICHEL, ÉMULSION MARINIÈRE, GUANCIALE",
-          "price": 18,
+          "id": "zenchef-1261401-tartare-de-st-jacques-leche-de-tigre-liveche-kiwi-radis-red-",
+          "name": "TARTARE DE ST JACQUES, LECHE DE TIGRE LIVÈCHE KIWI, RADIS RED ET GREEN MEAT",
+          "price": 19,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -63,28 +63,28 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "present"
           }
         },
         {
-          "id": "zenchef-1187838-tataki-de-boeuf-condiment-cacahuetes-gochujang-oignons-frits",
-          "name": "TATAKI DE BŒUF, CONDIMENT CACAHUÈTES GOCHUJANG, OIGNONS FRITS, ALGUES NORI",
-          "price": 18,
+          "id": "zenchef-1187838-soupe-a-l-oignon-gratinee-au-comte-et-beaufort",
+          "name": "SOUPE À L’OIGNON GRATINÉE AU COMTÉ ET BEAUFORT",
+          "price": 16,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "present",
-            "lait": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -116,8 +116,50 @@
       "category": "PLATS A LA CARTE",
       "dishes": [
         {
-          "id": "zenchef-1187839-dos-de-cabillaud-pommes-ratte-a-la-creme-d-aneth-et-de-raifo",
-          "name": "DOS DE CABILLAUD, POMMES RATTE À LA CRÈME D’ANETH ET DE RAIFORT",
+          "id": "zenchef-1187839-chou-farci-embeurree-de-chou-jus-de-cuisson",
+          "name": "CHOU FARCI, EMBEURRÉE DE CHOU, JUS DE CUISSON",
+          "price": 26,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-465462-magret-de-canard-aux-kumquats-celeri-rave-laque-au-miso-blan",
+          "name": "MAGRET DE CANARD AUX KUMQUATS, CÉLERI RAVE LAQUÉ AU MISO BLANC, PURÉE DE PATATE DOUCE",
+          "price": 28,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1399448-aile-de-raie-a-la-grenobloise-pomme-de-terre-vapeur",
+          "name": "AILE DE RAIE À LA GRENOBLOISE, POMME DE TERRE VAPEUR",
           "price": 28,
           "allergens": {
             "gluten": "not_declared",
@@ -137,30 +179,9 @@
           }
         },
         {
-          "id": "zenchef-465462-foie-de-veau-au-vinaigre-de-framboises-chou-rouge-et-oignon-",
-          "name": "FOIE DE VEAU AU VINAIGRE DE FRAMBOISES, CHOU ROUGE ET OIGNON DE ROSCOFF BRAISÉ",
-          "price": 26,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1399449-souris-d-agneau-laquee-au-miel-petits-epeautres-legumes-rais",
-          "name": "SOURIS D’AGNEAU LAQUÉE AU MIEL, PETITS ÉPEAUTRES, LÉGUMES, RAISINS SECS",
-          "price": 28,
+          "id": "zenchef-1399449-filet-de-boeuf-sauce-au-foie-gras-poelee-de-girolles",
+          "name": "FILET DE BŒUF SAUCE AU FOIE GRAS, POÊLÉE DE GIROLLES",
+          "price": 34,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -179,8 +200,8 @@
           }
         },
         {
-          "id": "zenchef-1306186-merlan-de-black-angus-sauce-bordelaise-fricassee-de-champign",
-          "name": "MERLAN DE BLACK ANGUS, SAUCE BORDELAISE, FRICASSÉE DE CHAMPIGNONS",
+          "id": "zenchef-1306186-piece-de-boeuf-black-angus-sauce-bordelaise-confit-d-echalot",
+          "name": "PIÈCE DE BŒUF BLACK ANGUS, SAUCE BORDELAISE, CONFIT D’ÉCHALOTES",
           "price": 26,
           "allergens": {
             "gluten": "present",
@@ -249,8 +270,8 @@
           "description": "Cantal, saint-nectaire et fourme d'Ambert. Pain sans gluten sur demande."
         },
         {
-          "id": "zenchef-1187844-cremeux-au-citron-et-yuzu-sable-supremes-d-agrumes",
-          "name": "CRÉMEUX AU CITRON ET YUZU, SABLÉ, SUPRÊMES D’AGRUMES",
+          "id": "zenchef-1187844-baba-au-rhum-ananas-confit-ganache-montee-vanille",
+          "name": "BABA AU RHUM, ANANAS CONFIT, GANACHE MONTÉE VANILLE",
           "price": 14,
           "allergens": {
             "gluten": "present",
@@ -260,48 +281,6 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1261402-tartelette-amandine-aux-questches-glace-yaourt",
-          "name": "TARTELETTE AMANDINE AUX QUESTCHES, GLACE YAOURT",
-          "price": 14,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1187846-sorbet-poire-liqueur-de-cognac-a-la-poire-du-vignoble-mage",
-          "name": "SORBET POIRE, LIQUEUR DE COGNAC À LA POIRE DU VIGNOBLE MAGE",
-          "price": 14,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -312,8 +291,29 @@
           }
         },
         {
-          "id": "zenchef-1452204-mi-cuit-au-chocolat-glace-caramel-beurre-sale-streusel-noise",
-          "name": "MI-CUIT AU CHOCOLAT, GLACE CARAMEL BEURRE SALÉ, STREUSEL NOISETTES",
+          "id": "zenchef-1261402-tarte-fine-caramelisee-aux-pommes-caramel-beurre-sale-glace-",
+          "name": "TARTE FINE CARAMELISÉE AUX POMMES, CARAMEL BEURRE SALÉ, GLACE VANILLE",
+          "price": 13,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1452204-mi-cuit-au-chocolat-glace-nougat-crumble-de-speculoos",
+          "name": "MI-CUIT AU CHOCOLAT, GLACE NOUGAT, CRUMBLE DE SPÉCULOOS",
           "price": 14,
           "allergens": {
             "gluten": "present",

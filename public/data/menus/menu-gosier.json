@@ -6,8 +6,8 @@
       "category": "LES PETITS PLATS SALÉS",
       "dishes": [
         {
-          "id": "gosier-les-petits-plats-sales-patate-douce-rotie-sauce-brava-et-aioli-d-ail-confit",
-          "name": "Patate douce rôtie, sauce brava et aïoli d´ail confit",
+          "id": "gosier-les-petits-plats-sales-trinxat-de-la-cerdenya-fromage-de-chevre-fondu-aux-epices-cajun",
+          "name": "Trinxat de la Cerdenya, fromage de chèvre fondu aux épices Cajun",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -15,11 +15,11 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -27,10 +27,10 @@
           "price": 10
         },
         {
-          "id": "gosier-les-petits-plats-sales-courgette-farcie-de-risotto-au-comte-24-mois-jaune-d-oeuf-marine",
-          "name": "Courgette farcie de risotto au comté 24 mois, jaune d´œuf mariné",
+          "id": "gosier-les-petits-plats-sales-oeufs-mollets-veloute-de-topinambour-pickles-d-oignons-croutons-et-olives-de-kalamata",
+          "name": "Œufs mollets, velouté de topinambour, pickles d’oignons, croutons et olives de Kalamata",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
@@ -45,16 +45,79 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 11
+          "price": 10
         },
         {
-          "id": "gosier-les-petits-plats-sales-cabillaud-sauce-aux-poireaux-pomme-de-terre-anglaises-cebettes-et-salicorne",
-          "name": "Cabillaud sauce aux poireaux, pomme de terre anglaises, cébettes et salicorne",
+          "id": "gosier-les-petits-plats-sales-notre-mi-cuit-de-foie-gras-maison-avec-confiture-de-saison",
+          "name": "Notre mi-cuit de foie gras maison, avec confiture de saison",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 23
+        },
+        {
+          "id": "gosier-les-petits-plats-sales-arros-melos-aux-couteaux-aioli-d-ail-noir-et-champignons",
+          "name": "Arròs melós aux couteaux, aïoli d´ail noir et champignons",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          },
+          "price": 23
+        },
+        {
+          "id": "gosier-les-petits-plats-sales-filet-de-merlu-a-la-sauce-verte-artichauts-et-lard-de-colonnata",
+          "name": "Filet de merlu à la sauce verte, artichauts et lard de Colonnata",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 24
+        },
+        {
+          "id": "gosier-les-petits-plats-sales-medaillon-d-agneau-jus-corse-au-poivre-noir-puree-de-pomme-de-terre",
+          "name": "Médaillon d´agneau, jus corsé au poivre noir, purée de pomme de terre",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -69,30 +132,8 @@
           "price": 25
         },
         {
-          "id": "gosier-les-petits-plats-sales-poulpe-a-la-flamme-babaganoush-olives-de-kalamata-et-vinaigrette-aux-tomates",
-          "name": "Poulpe à la flamme, babaganoush, olives de Kalamata et vinaigrette aux tomates",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Le restaurant déclare « fruits de mer » sans dire lesquels : crustacés et mollusques sont donc tous deux signalés ici.",
-          "price": 26
-        },
-        {
-          "id": "gosier-les-petits-plats-sales-cotes-d-agneau-sauce-moutarde-miel-choux-fleurs-colores-sautes",
-          "name": "Côtes d´agneau, sauce moutarde miel, choux-fleurs colorés sautés",
+          "id": "gosier-les-petits-plats-sales-magret-de-canard-sauce-gastrique-d-orange-poire-pochee-au-poivre-rose",
+          "name": "Magret de canard sauce gastrique d´orange, poire pochée au poivre rose",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -112,11 +153,11 @@
           "price": 26
         },
         {
-          "id": "gosier-les-petits-plats-sales-mer-et-montagne-de-poitrine-de-porc-artichauts-et-calamar",
-          "name": "Mer et montagne de poitrine de porc, artichauts et calamar",
+          "id": "gosier-les-petits-plats-sales-brillat-savarin-comtise-a-la-truffe-salade-et-cracker",
+          "name": "Brillât Savarin comtisé à la truffe, salade et cracker",
           "allergens": {
             "gluten": "present",
-            "crustaces": "present",
+            "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
@@ -128,35 +169,13 @@
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "present"
-          },
-          "description": "Le restaurant déclare « fruits de mer » sans dire lesquels : crustacés et mollusques sont donc tous deux signalés ici.",
-          "price": 24
-        },
-        {
-          "id": "gosier-les-petits-plats-sales-brie-de-meaux-fondu-oignons-rotis-et-noisettes",
-          "name": "Brie de Meaux fondu, oignons rôtis et noisettes",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 12
+          "price": 15
         },
         {
-          "id": "gosier-les-petits-plats-sales-assiette-de-fromage",
-          "name": "Assiette de fromage",
+          "id": "gosier-les-petits-plats-sales-assiette-de-fromage-reblochon-chevre-st-nectaire-comte",
+          "name": "Assiette de fromage (Reblochon, chèvre, St Nectaire, Comté)",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -182,17 +201,17 @@
       "category": "LES PETITS PLATS SUCRÉS",
       "dishes": [
         {
-          "id": "gosier-les-petits-plats-sucres-brownie-au-chocolat-64-et-sa-creme-anglaise-au-wasabi",
-          "name": "Brownie au chocolat 64% et sa crème anglaise au wasabi",
+          "id": "gosier-les-petits-plats-sucres-creme-catalane-espuma-de-caramel-beurre-sale",
+          "name": "Crème catalane, espuma de caramel beurre salé",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -203,10 +222,10 @@
           "price": 10
         },
         {
-          "id": "gosier-les-petits-plats-sucres-panacotta-aux-prunes-et-au-cointreau",
-          "name": "Panacotta aux prunes et au cointreau",
+          "id": "gosier-les-petits-plats-sucres-tiramisu-au-calvados-pomme-rotie",
+          "name": "Tiramisu au calvados, pomme rôtie",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",

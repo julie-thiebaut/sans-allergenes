@@ -6,32 +6,10 @@
       "category": "Assortiments",
       "dishes": [
         {
-          "id": "izumi-assortiment-de-10-sushi-nigiri-varies",
-          "name": "Assortiment de 10 sushi nigiri variés",
-          "description": "Servis avec une soupe miso et un amuse-bouche.",
-          "price": 39.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "unknown",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "unknown",
-            "celeri": "unknown",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "unknown",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          }
-        },
-        {
           "id": "izumi-assortiment-de-12-sushi-nigiri-varies",
           "name": "Assortiment de 12 sushi nigiri variés",
           "description": "Servis avec une soupe miso et un amuse-bouche.",
-          "price": 45.5,
+          "price": 46.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -57,7 +35,7 @@
         {
           "id": "izumi-sashimi-saumon-label-rouge",
           "name": "Sashimi saumon label rouge",
-          "price": 30.5,
+          "price": 31.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -78,7 +56,7 @@
         {
           "id": "izumi-sashimi-thon-rouge",
           "name": "Sashimi thon rouge",
-          "price": 36.5,
+          "price": 37.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -99,7 +77,7 @@
         {
           "id": "izumi-sashimi-thon-et-saumon-label-rouge",
           "name": "Sashimi thon et saumon label rouge",
-          "price": 35.5,
+          "price": 36.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -120,7 +98,7 @@
         {
           "id": "izumi-sashimi-de-luxe",
           "name": "Sashimi de luxe",
-          "price": 45.5,
+          "price": 46.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -146,7 +124,7 @@
         {
           "id": "izumi-chirashi-saumon-label-rouge",
           "name": "Chirashi saumon label rouge",
-          "price": 33,
+          "price": 34.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -167,7 +145,7 @@
         {
           "id": "izumi-chirashi-thon-et-saumon",
           "name": "Chirashi thon et saumon",
-          "price": 36,
+          "price": 37,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -189,7 +167,7 @@
           "id": "izumi-chirashi-izumi",
           "name": "Chirashi Izumi",
           "description": "Avec anguille et thon gras.",
-          "price": 46.5,
+          "price": 47.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -236,7 +214,7 @@
         {
           "id": "izumi-salade-poulpe-wakame-concombre",
           "name": "Salade poulpe Wakamé/concombre",
-          "price": 13.5,
+          "price": 14.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -257,7 +235,7 @@
         {
           "id": "izumi-sashimi-de-saint-jacques",
           "name": "Sashimi de Saint-Jacques",
-          "price": 25.5,
+          "price": 26.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -278,7 +256,7 @@
         {
           "id": "izumi-tartare-saumon-avocat-huile-de-sesame",
           "name": "Tartare saumon avocat huile de sésame",
-          "price": 15.5,
+          "price": 16.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -372,7 +350,7 @@
         {
           "id": "izumi-maki-au-thon",
           "name": "Maki au thon",
-          "price": 13,
+          "price": 14,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -393,7 +371,7 @@
         {
           "id": "izumi-maki-au-saumon-label-rouge",
           "name": "Maki au saumon label rouge",
-          "price": 12,
+          "price": 13,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -414,7 +392,7 @@
         {
           "id": "izumi-california-saumon-avocat",
           "name": "California saumon avocat",
-          "price": 13.5,
+          "price": 14.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -435,7 +413,7 @@
         {
           "id": "izumi-california-crevette-avocat",
           "name": "California crevette avocat",
-          "price": 13.5,
+          "price": 14.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -456,7 +434,7 @@
         {
           "id": "izumi-california-a-la-chair-de-crabe-avocat",
           "name": "California à la chair de crabe avocat",
-          "price": 15.5,
+          "price": 16.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",

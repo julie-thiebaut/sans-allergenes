@@ -46,17 +46,17 @@
           }
         },
         {
-          "id": "roberta-strudelino-aux-fruits-rouges",
-          "name": "Strudelino aux fruits rouges",
+          "id": "roberta-chausson-italien-choco-noisettes",
+          "name": "Chausson italien choco noisettes",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -66,8 +66,8 @@
           }
         },
         {
-          "id": "roberta-strudelino-abricot",
-          "name": "Strudelino abricot",
+          "id": "roberta-strudelino-pomme-raisin",
+          "name": "Strudelino Pomme Raisin",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -211,8 +211,8 @@
           }
         },
         {
-          "id": "roberta-ciabatta-artichauts-ricotta-pesto",
-          "name": "Ciabatta Artichauts, Ricotta & Pesto",
+          "id": "roberta-ciabatta-spicy",
+          "name": "Ciabatta Spicy",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -231,21 +231,21 @@
           }
         },
         {
-          "id": "roberta-ciabatta-thon-citron-olives",
-          "name": "Ciabatta Thon, Citron & Olives",
+          "id": "roberta-ciabatta-potimarron-scamorza",
+          "name": "Ciabatta Potimarron Scamorza",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -316,21 +316,21 @@
           }
         },
         {
-          "id": "roberta-focaccia-aubergine-creamy-roquette",
-          "name": "Focaccia Aubergine & Creamy Roquette",
+          "id": "roberta-focaccia-poulet-champignons",
+          "name": "Focaccia Poulet Champignons",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
+            "soja": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -446,13 +446,13 @@
           }
         },
         {
-          "id": "roberta-pizza-thon-olives",
-          "name": "Pizza Thon & Olives",
+          "id": "roberta-pizza-spicy",
+          "name": "Pizza Spicy",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "present",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
@@ -466,8 +466,8 @@
           }
         },
         {
-          "id": "roberta-pizza-4-saisons",
-          "name": "Pizza 4 Saisons",
+          "id": "roberta-pizza-7-fromages",
+          "name": "Pizza 7 fromages",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -541,26 +541,6 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "roberta-insalata-pasta-rosso-legumi",
-          "name": "Insalata Pasta rosso & legumi",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -696,8 +676,8 @@
           }
         },
         {
-          "id": "roberta-pasta-sauce-al-limone",
-          "name": "Pasta & sauce Al Limone",
+          "id": "roberta-pasta-sauce-truffe",
+          "name": "Pasta & Sauce Truffe",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -710,14 +690,14 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "roberta-ravioli-ricotta-epinard-sauce-al-limone",
-          "name": "Ravioli Ricotta épinard & Sauce Al Limone",
+          "id": "roberta-ravioli-ricotta-epinard-sauce-truffe",
+          "name": "Ravioli Ricotta épinard & Sauce Truffe",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -730,7 +710,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -797,26 +777,6 @@
             "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "present",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "roberta-bruschetta-tomate-mozza",
-          "name": "Bruschetta Tomate Mozza",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
@@ -966,17 +926,17 @@
           }
         },
         {
-          "id": "roberta-tiramisu-nocciolata",
-          "name": "Tiramisu nocciolata",
+          "id": "roberta-tiramisu-marron",
+          "name": "Tiramisù Marron",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -1006,17 +966,17 @@
           }
         },
         {
-          "id": "roberta-crostata-nocciola",
-          "name": "Crostata Nocciola",
+          "id": "roberta-panna-cotta-marron",
+          "name": "Panna Cotta Marron",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -1046,8 +1006,28 @@
           }
         },
         {
-          "id": "roberta-crostata-abricot-amande",
-          "name": "Crostata Abricot & amande",
+          "id": "roberta-crostata-noisette",
+          "name": "Crostata Noisette",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "roberta-costata-poire-amande",
+          "name": "Costata Poire Amande",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1126,21 +1106,21 @@
           }
         },
         {
-          "id": "roberta-panier-pistache",
-          "name": "Panier Pistache",
+          "id": "roberta-panettone-classico",
+          "name": "Panettone Classico",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -1202,6 +1182,26 @@
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "roberta-sfogliatella-cioccolato",
+          "name": "Sfogliatella Cioccolato",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -1360,26 +1360,6 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "roberta-baiocchi",
-          "name": "Baiocchi",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",

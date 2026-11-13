@@ -441,8 +441,29 @@
           "price": 18
         },
         {
-          "id": "chant-des-voyelles-les-plats-croque-monsieur-madame",
-          "name": "Croque Monsieur / Madame",
+          "id": "chant-des-voyelles-les-plats-croque-monsieur",
+          "name": "Croque Monsieur",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 16
+        },
+        {
+          "id": "chant-des-voyelles-les-plats-croque-madame",
+          "name": "Croque Madame",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -459,7 +480,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 16
+          "price": 17
         },
         {
           "id": "chant-des-voyelles-les-plats-poulet-fermier-roti",

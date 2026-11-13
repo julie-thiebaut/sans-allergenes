@@ -6,9 +6,9 @@
       "category": "Les entrées",
       "dishes": [
         {
-          "id": "zenchef-877427-pate-en-croute-de-pintade-et-foie-gras-gelee-au-porto",
-          "name": "Pâté en croûte de pintade et foie gras, gelée au porto",
-          "price": 25,
+          "id": "zenchef-877427-6-gros-escargots-en-coquille-beurre-anise-persille",
+          "name": "6 gros escargots en coquille, beurre anisé persillé",
+          "price": 18,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -29,7 +29,7 @@
         {
           "id": "zenchef-877229-les-fameux-harengs-marines-d-astier-pommes-grenaille-en-vina",
           "name": "Les fameux harengs marinés d'Astier, pommes grenaille en vinaigrette",
-          "price": 14,
+          "price": 16,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -93,7 +93,7 @@
         {
           "id": "zenchef-1016586-poelee-de-girolles-francaises-jus-de-viande-reduit",
           "name": "Poêlée de girolles françaises, jus de viande réduit",
-          "price": 14,
+          "price": 16,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -140,7 +140,7 @@
         {
           "id": "zenchef-877222-quenelle-de-daurade-royale-sauce-de-crustaces-legume-de-sais",
           "name": "Quenelle de daurade royale, sauce de crustacés, légume de saison",
-          "price": 21,
+          "price": 23,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -159,9 +159,9 @@
           }
         },
         {
-          "id": "zenchef-877220-troncon-de-turbot-beurre-blanc-mousseux-et-legumes-de-saison",
-          "name": "Tronçon de turbot, beurre blanc mousseux et légumes de saison confits",
-          "price": 39,
+          "id": "zenchef-877220-troncon-de-lotte-pique-au-chorizo-beurre-blanc-au-safran",
+          "name": "Tronçon de lotte piqué au chorizo, beurre blanc au safran",
+          "price": 41,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -180,9 +180,9 @@
           }
         },
         {
-          "id": "zenchef-467654-demi-pigeonneau-de-pornic-roti-grue-de-cacao-citron-confit-e",
-          "name": "Demi-pigeonneau de Pornic rôti, grué de cacao, citron confit et millefeuille de pommes de terre",
-          "price": 32,
+          "id": "zenchef-467654-supreme-de-pintade-grand-mere-et-millefeuille-de-pommes-de-t",
+          "name": "Suprême de pintade \"Grand-mère\" et millefeuille de pommes de terre",
+          "price": 27,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -201,9 +201,9 @@
           }
         },
         {
-          "id": "zenchef-877221-quasi-de-veau-au-sautoir-petits-pois-a-la-francaise-jus-a-l-",
-          "name": "Quasi de veau au sautoir, petits pois à la Française, jus à l'ail des ours",
-          "price": 25,
+          "id": "zenchef-877221-quasi-de-veau-au-sautoir-fine-ratatouille-jus-au-thym",
+          "name": "Quasi de veau au sautoir, fine ratatouille, jus au thym",
+          "price": 28,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -292,7 +292,7 @@
         {
           "id": "zenchef-1279677-plateau-de-fromages-par-personne",
           "name": "Plateau de fromages par personne",
-          "price": 25,
+          "price": 26,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -338,8 +338,8 @@
           "description": "Servi avec sauce chantilly"
         },
         {
-          "id": "zenchef-877236-croustillant-de-coing-caramelise-creme-legere-a-la-vanille",
-          "name": "Croustillant de coing caramélisé, crème légère à la vanille",
+          "id": "zenchef-877236-croustillant-caramelise-de-poire-conference-cuite-au-vin-rou",
+          "name": "Croustillant caramélisé de poire conférence cuite au vin rouge, crème légère à la vanille",
           "price": 15,
           "allergens": {
             "gluten": "not_declared",
@@ -380,8 +380,8 @@
           }
         },
         {
-          "id": "zenchef-1016622-pavlova-aux-mangues-fraiches-sorbet-yuzu-et-sauce-chantilly",
-          "name": "Pavlova aux mangues fraîches, sorbet yuzu et sauce Chantilly",
+          "id": "zenchef-1016622-pavlova-aux-figues-fraiches-sorbet-artisanal-et-sauce-chanti",
+          "name": "Pavlova aux figues fraîches, sorbet artisanal et sauce Chantilly",
           "price": 15,
           "allergens": {
             "gluten": "not_declared",

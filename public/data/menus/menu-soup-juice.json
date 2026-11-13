@@ -48,56 +48,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "soupjuice-soupe-patate-douce-au-lait-de-coco",
-          "name": "SOUPE PATATE DOUCE AU LAIT DE COCO",
-          "description": "4,60 € les 33 cl, 5,60 € les 47 cl.",
-          "price": 4.6,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
     {
       "category": "Plats chauds",
       "dishes": [
-        {
-          "id": "soupjuice-pates-vegetarienne-pesto",
-          "name": "PÂTES VÉGÉTARIENNE PESTO",
-          "description": "Pâtes végétariennes, pesto, courgettes, tomates confites",
-          "price": 7.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
         {
           "id": "soupjuice-poulet-tikka",
           "name": "POULET TIKKA",
@@ -192,45 +148,23 @@
       "category": "Salades",
       "dishes": [
         {
-          "id": "soupjuice-salade-quinoa-oriental-halloumi-grille",
-          "name": "SALADE QUINOA ORIENTAL & HALLOUMI GRILLÉ",
-          "description": "Boulghour et quinoa rouge, tomates cerises, halloumi grillé, butternut grillée, canneberges, mâche, menthe fraîche et multigraines.",
+          "id": "soupjuice-salade-gravlax-saumon",
+          "name": "SALADE (GRAVLAX SAUMON)",
+          "description": "Pomme de terre, gravlax de saumon ,courgette, avocat",
           "price": 6.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "soupjuice-salade-quinoa-ecrevisses",
-          "name": "SALADE QUINOA & ÉCREVISSES",
-          "description": "Quinoa blanc et rouge, écrevisses, avocat, coeur de palmier, paprika, sel, huile de colza, pulpe d'ail, persil.",
-          "price": 6.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
+            "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -300,50 +234,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "soupjuice-salade-riz-noir-tapenade-de-thon",
-          "name": "SALADE RIZ NOIR TAPENADE DE THON",
-          "description": "Riz noir, carotte grillée au curry rouge, poivron grillé, courgette grillée, oignon jaune, tapenade de thon, ciboulette.",
-          "price": 6.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "soupjuice-grande-salade-sushi",
-          "name": "GRANDE SALADE SUSHI",
-          "description": "Riz sushi, avocat, saumon fumé, fèves de soja, chou blanc, gingembre confit, sauce soja, graines de sésame noir et doré.",
-          "price": 7.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
@@ -373,28 +263,6 @@
           }
         },
         {
-          "id": "soupjuice-wrap-chaud-houmous-falafel",
-          "name": "WRAP CHAUD HOUMOUS FALAFEL",
-          "description": "Pita à la farine de blé et à la pulpe d'avocat, houmous, falafel BIO, aubergines grillées, chou rouge, persil plat.",
-          "price": 6,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "soupjuice-wrap-ras-el-hanout",
           "name": "WRAP RAS EL HANOUT",
           "description": "Pita, crème cheese, poulet, épices ras el hanout, yaourt grec, citron confit, grenade.",
@@ -410,28 +278,6 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "soupjuice-wrap-feta-vegetarien",
-          "name": "WRAP FETA (VÉGÉTARIEN)",
-          "description": "Pita, crème cheese, feta, olives, tzatziki, tomates séchées, menthe.",
-          "price": 6,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -682,6 +528,28 @@
           }
         },
         {
+          "id": "soupjuice-cake-citron-pavot",
+          "name": "CAKE CITRON PAVOT",
+          "description": "Farine de blé, graines de pavot, zestes citron.",
+          "price": 3,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "soupjuice-cake-banane",
           "name": "CAKE BANANE",
           "price": 3,
@@ -728,28 +596,6 @@
           "id": "soupjuice-cake-chocolat-extreme",
           "name": "CAKE CHOCOLAT EXTREME",
           "description": "Chocolat noir, farine de blé, crème, beurre.",
-          "price": 3,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "soupjuice-cake-citron-pavot",
-          "name": "CAKE CITRON PAVOT",
-          "description": "Farine de blé, graines de pavot, zestes citron.",
           "price": 3,
           "allergens": {
             "gluten": "present",

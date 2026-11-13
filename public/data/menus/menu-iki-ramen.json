@@ -250,106 +250,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Bouillon à base de crevette, nouilles fraîches, 2 gambas grillées, 1 œuf mollet, œufs de poisson, pousses de soja, pousses de bambou, cébette, roquette, naruto",
+          "description": " - Bouillon à base de crevette, nouilles fraîches, 2 gambas grillées, 1 œuf mollet, œufs de poisson, pousses de soja, pousses de bambou, cébette, roquette, naruto",
           "price": 20
-        }
-      ]
-    },
-    {
-      "category": "Donburi",
-      "dishes": [
-        {
-          "id": "iki-ramen-donburi-chashu-don",
-          "name": "Chashu don",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Bol de riz, chashu de porc grillé, oeuf mollet et cébette",
-          "price": 12
-        },
-        {
-          "id": "iki-ramen-donburi-tori-katsu-don",
-          "name": "Tori Katsu don",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Bol de riz japonais, poulet pané, oignons et œuf",
-          "price": 13
-        }
-      ]
-    },
-    {
-      "category": "Curry",
-      "dishes": [
-        {
-          "id": "iki-ramen-curry-vege-curry",
-          "name": "Vege curry",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Riz japonais, curry japonais avec tempura de légume",
-          "price": 13
-        },
-        {
-          "id": "iki-ramen-curry-tori-katsu-curry",
-          "name": "Tori Katsu curry",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Riz japonais, curry japonais surmonté de poulet pané",
-          "price": 14
         }
       ]
     },
@@ -451,7 +353,7 @@
             "mollusques": "not_declared"
           },
           "description": "Raviolis grillés au poulet et aux légumes",
-          "price": 5
+          "price": 6
         },
         {
           "id": "iki-ramen-a-cote-takoyaki",
@@ -544,6 +446,104 @@
       ]
     },
     {
+      "category": "Donburi",
+      "dishes": [
+        {
+          "id": "iki-ramen-donburi-chashu-don",
+          "name": "Chashu don",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bol de riz, chashu de porc grillé, oeuf mollet et cébette",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-donburi-tori-katsu-don",
+          "name": "Tori Katsu don",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bol de riz japonais, poulet pané, oignons et œuf",
+          "price": 13
+        }
+      ]
+    },
+    {
+      "category": "Curry",
+      "dishes": [
+        {
+          "id": "iki-ramen-curry-vege-curry",
+          "name": "Vege curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz japonais, curry japonais avec tempura de légume",
+          "price": 13
+        },
+        {
+          "id": "iki-ramen-curry-tori-katsu-curry",
+          "name": "Tori Katsu curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz japonais, curry japonais surmonté de poulet pané",
+          "price": 14
+        }
+      ]
+    },
+    {
       "category": "Desserts",
       "dishes": [
         {
@@ -632,7 +632,7 @@
             "mollusques": "not_declared"
           },
           "description": "Gaufre japonaise fourré à la pâte d'anko (haricot rouge)",
-          "price": 6
+          "price": 5
         },
         {
           "id": "iki-ramen-desserts-dorayaki",
@@ -654,7 +654,7 @@
             "mollusques": "not_declared"
           },
           "description": "Pancake japonais fourré à la pâte d'anko (haricot rouge)",
-          "price": 6
+          "price": 5
         }
       ]
     }

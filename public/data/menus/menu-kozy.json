@@ -43,7 +43,7 @@
             "fruits_a_coque": "present",
             "celeri": "may_contain",
             "moutarde": "may_contain",
-            "sesame": "may_contain",
+            "sesame": "present",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -90,7 +90,7 @@
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
+            "celeri": "may_contain",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
@@ -173,7 +173,7 @@
           "id": "kozy-pancakes-avocat-saumon",
           "name": "PANCAKES AVOCAT & SAUMON",
           "description": "Saumon fumé, Purée d’avocat, Œuf poché de plein air, Miel épicé maison, Dukkah",
-          "price": 13.9,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -222,7 +222,7 @@
           "id": "kozy-french-brioche-fruits-frais",
           "name": "FRENCH BRIOCHE FRUITS FRAIS",
           "description": "Brioche perdue gourmande, Fruits frais de saison, Noisettes torréfiées, Crème fouettée, Sirop d’érable",
-          "price": 12,
+          "price": 12.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -235,7 +235,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -248,7 +248,7 @@
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "present",
             "soja": "not_declared",
@@ -256,7 +256,7 @@
             "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "may_contain",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -271,7 +271,7 @@
           "id": "kozy-avocado-toast",
           "name": "AVOCADO TOAST",
           "description": "Avocat, Oeuf Poché de plein air, Grenade, Dukkah, Sarrasin grillé, Ciboulette, Pain au levain",
-          "price": 13,
+          "price": 13.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -284,7 +284,51 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "present",
-            "sulfites": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "kozy-tartine-potimarron-champignons",
+          "name": "TARTINE POTIMARRON & CHAMPIGNONS",
+          "description": "Ricotta fouettée au potimarron & citron, Potimarron rôtis, Poêlée de champignons, Chou Kale Huile & Citron, Huile de Noisettes, Pickles de graine de moutarde",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "kozy-tartine-potimarron-bacon-champignons",
+          "name": "TARTINE POTIMARRON, BACON & CHAMPIGNONS ​",
+          "description": "Ricotta fouettée au potimarron & citron, Bacon fermier, Potimarron rôtis, Poêlée de champignons, Chou Kale Huile & Citron, Huile de Noisettes, Pickles de graine de moutarde",
+          "price": 16.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -303,7 +347,7 @@
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
+            "celeri": "may_contain",
             "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "present",
@@ -410,9 +454,9 @@
       "category": "BRUNCH",
       "dishes": [
         {
-          "id": "kozy-pistache-framboises-pancakes",
-          "name": "PISTACHE & FRAMBOISES PANCAKES",
-          "description": "Pancakes moelleux, Sauce pistache, Crème fouettée pistache, Nougatine pistache, Framboises fraiches",
+          "id": "kozy-pumpkin-spice-pancakes",
+          "name": "PUMPKIN SPICE PANCAKES",
+          "description": "Pancakes moelleux, Sauce Pumpkin Spice, Noix caramélisées, Crème fouettée cardamome et cannelle, Pommes Granny Smith",
           "price": 14.9,
           "allergens": {
             "gluten": "present",
@@ -426,15 +470,37 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "kozy-pistache-framboises-french-brioche",
-          "name": "PISTACHE & FRAMBOISES FRENCH BRIOCHE",
-          "description": "Pain perdu gourmand,Sauce pistache, Crème fouettée pistache, Nougatine pistache, Framboises fraiches",
+          "id": "kozy-pumpkin-spice-french-brioche",
+          "name": "PUMPKIN SPICE FRENCH BRIOCHE",
+          "description": "Pain perdu gourmand,Sauce Pumpkin Spice, Noix caramélisées, Crème fouettée cardamome et cannelle, Pommes Granny Smith",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "kozy-pumpkin-spice-gaufre",
+          "name": "PUMPKIN SPICE GAUFRE",
+          "description": "Crousti Gaufre, Sauce Pumpkin Spice, Noix caramélisées, Crème fouettée cardamome et cannelle, Pommes Granny Smith",
           "price": 14.5,
           "allergens": {
             "gluten": "present",
@@ -448,29 +514,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-pistache-framboises-gaufre",
-          "name": "PISTACHE & FRAMBOISES GAUFRE",
-          "description": "Crousti Gaufre, Sauce pistache, Crème fouettée pistache, Nougatine pistache, Framboises fraiches",
-          "price": 14.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "may_contain",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -481,64 +525,43 @@
       "category": "COFFEE",
       "dishes": [
         {
-          "id": "kozy-iced-cold-foam-pistachio-matcha-latte",
-          "name": "ICED COLD FOAM PISTACHIO MATCHA LATTE",
-          "price": 7,
+          "id": "kozy-pumpkin-spice-chai-latte",
+          "name": "PUMPKIN SPICE CHAÏ LATTE",
+          "price": 6.5,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "may_contain",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "may_contain",
-            "soja": "may_contain",
+            "arachides": "not_declared",
+            "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "kozy-iced-cold-foam-pistachio-latte",
-          "name": "ICED COLD FOAM PISTACHIO LATTE",
-          "price": 7,
+          "id": "kozy-pumpkin-spice-latte",
+          "name": "PUMPKIN SPICE LATTE",
+          "price": 6.5,
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "may_contain",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
-            "arachides": "may_contain",
-            "soja": "may_contain",
+            "arachides": "not_declared",
+            "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-iced-cold-foam-pistachio-cold-brew",
-          "name": "ICED COLD FOAM PISTACHIO COLD BREW",
-          "price": 6,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -828,54 +851,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "ICED COFFEE",
-      "dishes": [
-        {
-          "id": "kozy-cold-brew",
-          "name": "COLD BREW",
-          "price": 4.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-cold-brew-mont-blanc",
-          "name": "COLD BREW MONT BLANC",
-          "price": 5.5,
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -1163,7 +1139,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -1177,7 +1153,7 @@
           "id": "kozy-key-lime-blast",
           "name": "KEY LIME BLAST",
           "description": "Ananas, Mangue, Citron Vert, Pomme",
-          "price": 6,
+          "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1199,91 +1175,7 @@
           "id": "kozy-very-berry-tornado",
           "name": "VERY BERRY TORNADO",
           "description": "Fraise, Cerise, Groseille, Mangue, Pomme",
-          "price": 6,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-peach-hibiscus-cooler",
-          "name": "PEACH HIBISCUS COOLER",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-passion-hibiscus-cooler",
-          "name": "PASSION HIBISCUS COOLER",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-passion-green-tea",
-          "name": "PASSION GREEN TEA",
-          "price": 5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "kozy-peach-green-tea",
-          "name": "PEACH GREEN TEA",
-          "price": 5,
+          "price": 6.5,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",

@@ -9,7 +9,7 @@
           "id": "arlecchino-margherita",
           "name": "MARGHERITA",
           "description": "Sauce tomate, mozzarella, origan.",
-          "price": 10,
+          "price": 11,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -31,12 +31,34 @@
           "id": "arlecchino-napolitaine",
           "name": "NAPOLITAINE",
           "description": "Sauce tomate, mozzarella, câpres, anchois, origan.",
-          "price": 12,
+          "price": 13,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-quatre-saisons",
+          "name": "QUATRE SAISONS",
+          "description": "Sauce tomate, mozzarella, champignons, artichauts, olives, poivrons, jambon, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -53,139 +75,7 @@
           "id": "arlecchino-pantalon",
           "name": "PANTALON",
           "description": "Sauce tomate, mozzarella, champignons, viande hachée, origan.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-daniel",
-          "name": "DANIEL",
-          "description": "Sauce tomate, champignons, origan, poivrons, oignons, merguez.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-orientale",
-          "name": "ORIENTALE",
-          "description": "Sauce tomate, mozzarella, poivrons, merguez, oeuf, origan.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-neptune",
-          "name": "NEPTUNE",
-          "description": "Sauce tomate, olives, oignons, thon, origan.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-parisienne",
-          "name": "PARISIENNE",
-          "description": "Sauce tomate, mozzarella, lardons, oignons, origan.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-brighella",
-          "name": "BRIGHELLA",
-          "description": "Sauce tomate, mozzarella, jambon, artichauts, origan.",
-          "price": 12,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-smeraldine",
-          "name": "SMERALDINE",
-          "description": "Sauce tomate, mozzarella, jambon, champignons, origan.",
-          "price": 12,
+          "price": 13,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -207,7 +97,7 @@
           "id": "arlecchino-l-arlequin",
           "name": "L ARLEQUIN",
           "description": "Sauce tomate, mozzarella, viande hachée, gorgonzola, origan.",
-          "price": 12.5,
+          "price": 13.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -226,10 +116,76 @@
           }
         },
         {
-          "id": "arlecchino-calzone-pizza-fermee",
-          "name": "CALZONE PIZZA FERMEE",
-          "description": "Sauce tomate, mozzarella, champignons, jambon, oeuf, origan.",
-          "price": 12.5,
+          "id": "arlecchino-adriatica",
+          "name": "ADRIATICA",
+          "description": "Sauce tomate, mozzarella, viande hachée, oeuf, thon, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-fanny",
+          "name": "FANNY",
+          "description": "Sauce tomate, mozzarella, gorgonzola, chèvre, viande hachée, origan.",
+          "price": 15,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-daniel",
+          "name": "DANIEL",
+          "description": "Sauce tomate, champignons, origan, poivrons, oignons, merguez.",
+          "price": 13,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-orientale",
+          "name": "ORIENTALE",
+          "description": "Sauce tomate, mozzarella, poivrons, merguez, oeuf, origan.",
+          "price": 13,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -248,9 +204,31 @@
           }
         },
         {
-          "id": "arlecchino-quatre-saisons",
-          "name": "QUATRE SAISONS",
-          "description": "Sauce tomate, mozzarella, champignons, artichauts, olives, poivrons, jambon, origan.",
+          "id": "arlecchino-neptune",
+          "name": "NEPTUNE",
+          "description": "Sauce tomate, olives, oignons, thon, origan.",
+          "price": 12.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-parisienne",
+          "name": "PARISIENNE",
+          "description": "Sauce tomate, mozzarella, lardons, oignons, origan.",
           "price": 13,
           "allergens": {
             "gluten": "present",
@@ -273,139 +251,7 @@
           "id": "arlecchino-oberkampf",
           "name": "OBERKAMPF",
           "description": "Sauce tomate, mozzarella, champignons, thon, oeuf, oignons, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-goldoni",
-          "name": "GOLDONI",
-          "description": "Sauce tomate, mozzarella, gorgonzola, chèvre, ricotta, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-adriatica",
-          "name": "ADRIATICA",
-          "description": "Sauce tomate, mozzarella, viande hachée, oeuf, thon, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-florindo",
-          "name": "FLORINDO",
-          "description": "Sauce tomate, mozzarella, jambon, chèvre, poivrons, ail, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-carnaval",
-          "name": "CARNAVAL",
-          "description": "Sauce tomate, mozzarella, crème fraîche, chèvre, champignons, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-pizza-de-venus",
-          "name": "PIZZA DE VENUS",
-          "description": "Sauce tomate, mozzarella, chorizo, olives, poivrons, oeuf, origan.",
-          "price": 13,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-san-carlo",
-          "name": "SAN CARLO",
-          "description": "Sauce tomate, mozzarella, oignons, chèvre, thon, oeuf, origan.",
-          "price": 13,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -427,12 +273,166 @@
           "id": "arlecchino-vegetarienne",
           "name": "VEGETARIENNE",
           "description": "Sauce tomate, mozzarella, champignons, olives, poivrons, câpres, oignons, artichauts, aubergines, origan.",
-          "price": 13.5,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-brighella",
+          "name": "BRIGHELLA",
+          "description": "Sauce tomate, mozzarella, jambon, artichauts, origan.",
+          "price": 13,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-florindo",
+          "name": "FLORINDO",
+          "description": "Sauce tomate, mozzarella, jambon, chèvre, poivrons, ail, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-carnaval",
+          "name": "CARNAVAL",
+          "description": "Sauce tomate, mozzarella, crème fraîche, chèvre, champignons, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-pizza-de-venus",
+          "name": "PIZZA DE VENUS",
+          "description": "Sauce tomate, mozzarella, chorizo, olives, poivrons, oeuf, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-salmone",
+          "name": "SALMONE",
+          "description": "Sauce tomate, mozzarella, crème fraîche, saumon, origan.",
+          "price": 18,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-calzone-pizza-fermee",
+          "name": "CALZONE PIZZA FERMEE",
+          "description": "Sauce tomate, mozzarella, champignons, jambon, oeuf, origan.",
+          "price": 13.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "arlecchino-san-carlo",
+          "name": "SAN CARLO",
+          "description": "Sauce tomate, mozzarella, oignons, chèvre, thon, oeuf, origan.",
+          "price": 14,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -449,29 +449,7 @@
           "id": "arlecchino-parmigiana",
           "name": "PARMIGIANA",
           "description": "Sauce tomate, mozzarella, jambon, aubergines, gorgonzola, origan.",
-          "price": 13.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-fanny",
-          "name": "FANNY",
-          "description": "Sauce tomate, mozzarella, gorgonzola, chèvre, viande hachée, origan.",
-          "price": 14,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -512,10 +490,10 @@
           }
         },
         {
-          "id": "arlecchino-buratina",
-          "name": "BURATINA",
-          "description": "Sauce tomate, roquette, tomates cerises, burrata, basilic.",
-          "price": 16,
+          "id": "arlecchino-smeraldine",
+          "name": "SMERALDINE",
+          "description": "Sauce tomate, mozzarella, jambon, champignons, origan.",
+          "price": 13,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -534,15 +512,15 @@
           }
         },
         {
-          "id": "arlecchino-salmone",
-          "name": "SALMONE",
-          "description": "Sauce tomate, mozzarella, crème fraîche, saumon, origan.",
-          "price": 17,
+          "id": "arlecchino-goldoni",
+          "name": "GOLDONI",
+          "description": "Sauce tomate, mozzarella, gorgonzola, chèvre, ricotta, origan.",
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -556,15 +534,15 @@
           }
         },
         {
-          "id": "arlecchino-speciale-momo",
-          "name": "SPECIALE MOMO",
-          "description": "Sauce tomate, mozzarella, champignons, merguez, chèvre, poivrons, oignons, lardons, viande hachée, thon, oeuf, origan.",
-          "price": 17,
+          "id": "arlecchino-buratina",
+          "name": "BURATINA",
+          "description": "Sauce tomate, roquette, tomates cerises, burrata, basilic.",
+          "price": 16,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
@@ -586,7 +564,7 @@
           "id": "arlecchino-chevre-miel",
           "name": "CHEVRE MIEL",
           "description": "Crème fraîche, mozzarella, chèvre, miel.",
-          "price": 12,
+          "price": 13,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -608,7 +586,7 @@
           "id": "arlecchino-genova",
           "name": "GENOVA",
           "description": "Crème fraîche, oignons, mozzarella, lardons, oeuf, origan.",
-          "price": 12.5,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -630,7 +608,7 @@
           "id": "arlecchino-chevre-miel-chorizo",
           "name": "CHEVRE MIEL CHORIZO",
           "description": "Crème fraîche, mozzarella, chèvre, chorizo, miel.",
-          "price": 13.5,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -652,7 +630,7 @@
           "id": "arlecchino-chevre-miel-jambon",
           "name": "CHEVRE MIEL JAMBON",
           "description": "Crème fraîche, mozzarella, chèvre, jambon, miel.",
-          "price": 13.5,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -674,7 +652,7 @@
           "id": "arlecchino-chevre-miel-viande-hachee",
           "name": "CHEVRE MIEL VIANDE HACHEE",
           "description": "Crème fraîche, mozzarella, chèvre, viande hachée, miel.",
-          "price": 13.5,
+          "price": 14,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -783,27 +761,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "arlecchino-panna-cotta",
-          "name": "PANNA COTTA",
-          "price": 6,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
@@ -813,7 +770,7 @@
         {
           "id": "arlecchino-heineken-33cl",
           "name": "HEINEKEN 33CL",
-          "price": 3,
+          "price": 5,
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
@@ -860,7 +817,7 @@
         {
           "id": "arlecchino-bardolino-chiaretto-rose-75cl",
           "name": "BARDOLINO CHIARETTO ROSE 75CL",
-          "price": 18,
+          "price": 22,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -902,7 +859,7 @@
         {
           "id": "arlecchino-rouge-valpolicella-75cl",
           "name": "ROUGE VALPOLICELLA 75CL",
-          "price": 20,
+          "price": 22,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -923,159 +880,7 @@
         {
           "id": "arlecchino-chianti-classico-rouge-75cl",
           "name": "CHIANTI CLASSICO ROUGE 75CL",
-          "price": 26,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Boissons",
-      "dishes": [
-        {
-          "id": "arlecchino-coca-cola-33cl",
-          "name": "COCA COLA 33CL",
-          "price": 2.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-coca-cola-zero-33cl",
-          "name": "COCA COLA ZERO 33CL",
-          "price": 2.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-fanta-33cl",
-          "name": "FANTA 33CL",
-          "price": 2.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-oasis-33cl",
-          "name": "OASIS 33CL",
-          "price": 2.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-ice-tea-33cl",
-          "name": "ICE TEA 33CL",
-          "price": 2.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-jus-d-orange",
-          "name": "JUS D ORANGE",
-          "price": 4.5,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "arlecchino-jus-d-ananas",
-          "name": "JUS D ANANAS",
-          "price": 4.5,
+          "price": 28,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1168,7 +973,7 @@
           "id": "arlecchino-tagliatelle-au-pesto-de-pistache",
           "name": "TAGLIATELLE AU PESTO DE PISTACHE",
           "description": "Crème fraîche, sauce pistache, champignons.",
-          "price": 16,
+          "price": 15,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1190,7 +995,7 @@
           "id": "arlecchino-tagliatelle-a-la-truffe-d-ete",
           "name": "TAGLIATELLE A LA TRUFFE D ETE",
           "description": "Sauce à la truffe d été, crème fraîche, champignons.",
-          "price": 16,
+          "price": 15,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1261,7 +1066,7 @@
           "id": "arlecchino-italienne",
           "name": "ITALIENNE",
           "description": "Roquette, tomates cerises, artichaut, anchois, champignons, thon, olives.",
-          "price": 14,
+          "price": 12,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",

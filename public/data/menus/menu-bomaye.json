@@ -6,6 +6,92 @@
       "category": "En ce moment",
       "dishes": [
         {
+          "id": "bomaye-pain-chaud-fourre",
+          "name": "PAIN CHAUD FOURRÉ",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiration de nos burgers mais en version sucré.",
+          "price": 5.9
+        },
+        {
+          "id": "bomaye-mikates-nappage-topping",
+          "name": "MIKATES + Nappage + Toppings",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré par la recette de la mère de Laurent - RDC. Ingrédients : Petite faim : 6 beignets, Grosse faim: 6 beignets, On partage : 9 beignets."
+        },
+        {
+          "id": "bomaye-nuggets-maison",
+          "name": "Nuggets maison",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nuggets maison avec du poulet mariné 48h.",
+          "price": 3.9
+        },
+        {
+          "id": "bomaye-spicy-wrap",
+          "name": "Spicy wrap",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Inspiré de l’amour du piment du continent africain."
+        },
+        {
           "id": "bomaye-champion-ile-de-france-2026",
           "name": "CHAMPION ILE DE FRANCE 2026",
           "allergens": {
@@ -24,7 +110,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Élu meilleur burger d'ile de france en 2026 et 3eme national. Ingrédients : Bun brioché tréssé, Banane plantain smashé, Cheddar maturé, Sauce ketchup au bissap, Steak black angus maturé, Sauce mafé (cacahuhete, tomate), Pickliz haïtien (chou, carotte, oignons, citron), Poivre de penja (Cameroun), Cacahuete toréfié (Togo)."
+          "description": "Inspiré de l'Afrique de l'Ouest. Ingrédients : Bun brioché, Banane plantain smashée, Cheddar maturé, Sauce ketchup au bissap, Steak black angus maturé, Sauce mafé (cacahuète, tomate), Pickliz haïtien (chou, carotte, oignons, citron), Poivre de Penja (Cameroun), Cacahuète torréfiée (Togo)."
         }
       ]
     },
@@ -166,6 +252,55 @@
       ]
     },
     {
+      "category": "Entrées",
+      "dishes": [
+        {
+          "id": "bomaye-poulet-frit",
+          "name": "POULET FRIT",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Le poulet frit comme on l'aime. Ingrédients : Poulet mariné au lait ribot et aux épices, Panure aux épices, Servis avec la mayo de la maison.",
+          "price": 6.9
+        },
+        {
+          "id": "bomaye-klaklo",
+          "name": "KLAKLO",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Recette dénichée en Côte d'Ivoire. Ingrédients : Klaklos (beignets à base de banane plantain, oignons, ail et épices), Sauce tomate maison.",
+          "price": 7.9
+        }
+      ]
+    },
+    {
       "category": "Bowl",
       "dishes": [
         {
@@ -259,35 +394,35 @@
       ]
     },
     {
-      "category": "Entrées",
+      "category": "Plats",
       "dishes": [
         {
-          "id": "bomaye-poulet-frit",
-          "name": "POULET FRIT",
+          "id": "bomaye-crousty-de-bandal",
+          "name": "CROUSTY DE BANDAL",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "may_contain",
             "lait": "present",
-            "fruits_a_coque": "not_declared",
+            "fruits_a_coque": "may_contain",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Le poulet frit comme on l'aime. Ingrédients : Poulet mariné au lait ribot et aux épices, Panure aux épices, Servis avec la mayo de la maison.",
-          "price": 6.9
+          "description": "Crousty de Bandal, inspiré du poulet mayo congolais (500g). Ingrédients : poulet breton croustillant pané aux 10 épices, sauce blanche fumée maison, sauce hibiscus piquante maison, oignons frits, riz jaune épicé maison.",
+          "price": 9.9
         },
         {
-          "id": "bomaye-klaklo",
-          "name": "KLAKLO",
+          "id": "bomaye-poulet-de-bandal-frite",
+          "name": "POULET DE BANDAL + FRITE",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
@@ -296,14 +431,14 @@
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Recette dénichée en Côte d'Ivoire. Ingrédients : Klaklos (beignets à base de banane plantain, oignons, ail et épices), Sauce tomate maison.",
-          "price": 7.9
+          "description": "Inspiré du poulet mayo, directement déniché des rues de Kinshasa. Ingrédients : Poulet braisé avec de la mayonnaise fumée maison, Servi avec des frites maison épicées.",
+          "price": 12.9
         }
       ]
     },
@@ -356,7 +491,7 @@
         },
         {
           "id": "bomaye-frites-epices",
-          "name": "FRITES ÉPICÉS",
+          "name": "FRITES ÉPICÉES",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -401,6 +536,77 @@
       ]
     },
     {
+      "category": "Sauces",
+      "dishes": [
+        {
+          "id": "bomaye-mayonnaise-fumee-maison",
+          "name": "MAYONNAISE FUMÉE MAISON",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ingrédients : Oeuf, Huile, Fumée.",
+          "price": 0.5
+        },
+        {
+          "id": "bomaye-ketchup-au-bissap",
+          "name": "KETCHUP AU BISSAP",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ingrédients : Feuilles d'hibiscus, Pickles d'oignon, Tomates.",
+          "price": 0.5
+        },
+        {
+          "id": "bomaye-pili-pili-piquante",
+          "name": "PILI PILI PIQUANTE",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ingrédients : Piment Antillais, Oignon, Persil.",
+          "price": 0.5
+        }
+      ]
+    },
+    {
       "category": "Desserts",
       "dishes": [
         {
@@ -428,7 +634,7 @@
       ]
     },
     {
-      "category": "Boissons",
+      "category": "Boisson",
       "dishes": [
         {
           "id": "bomaye-bissap-maison",

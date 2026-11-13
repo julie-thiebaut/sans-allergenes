@@ -6,6 +6,28 @@
       "category": "Antipasti",
       "dishes": [
         {
+          "id": "zenchef-1179957-ricotta-di-bufala",
+          "name": "Ricotta di Bufala",
+          "price": 9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ricotta rôtie, miel, graines de courge"
+        },
+        {
           "id": "zenchef-1179960-burrata-125g-tomates-confites-pesto-roquette",
           "name": "Burrata 125g, tomates confites, pesto, roquette",
           "price": 10,
@@ -27,31 +49,9 @@
           }
         },
         {
-          "id": "zenchef-1179957-antipasto-italien",
-          "name": "Antipasto italien",
-          "price": 15,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Charcuterie, fromage, poivrons, artichauts"
-        },
-        {
           "id": "zenchef-1382522-focaccia-siciliana",
           "name": "Focaccia Siciliana",
-          "price": 11,
+          "price": 8,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -68,12 +68,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Poivrons et oignons confits, raisins secs, poignons de pins, Stracciatella"
+          "description": "Potimarron rôti, pecorino, graines de courge"
         },
         {
-          "id": "zenchef-1179959-focaccia-mortadella",
-          "name": "Focaccia Mortadella",
-          "price": 11,
+          "id": "zenchef-1179959-focaccia-pugliese",
+          "name": "Focaccia Pugliese",
+          "price": 8,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -90,7 +90,29 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Mortadella truffée, roquette, parmesan"
+          "description": "Jambon de Parme, stracciatella, tomates confites"
+        },
+        {
+          "id": "zenchef-1492249-parmigiana",
+          "name": "Parmigiana",
+          "price": 9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Aubergine gratinée, mozzarella, tomates"
         }
       ]
     },
@@ -120,8 +142,8 @@
           "description": "Mesclun, poulet citron et romarin, tomates confites, Parmesan, sauce césar"
         },
         {
-          "id": "zenchef-1266255-terra",
-          "name": "Terra",
+          "id": "zenchef-1266255-deliziosa",
+          "name": "Deliziosa",
           "price": 16,
           "allergens": {
             "gluten": "present",
@@ -139,7 +161,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Mesclun, burrata 125 g, pignon de pin, tomates confites, courgettes"
+          "description": "Mesclun, burrata fumée 125 g, courge rôtie, tomates confites, parmesan"
         }
       ]
     },
@@ -235,28 +257,6 @@
           "description": "Sauce tomate, mozzarella fior di latte, parmesan, taleggio, gorgonzola, ciboulette"
         },
         {
-          "id": "zenchef-1179983-vegetariana",
-          "name": "Vegetariana",
-          "price": 16,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pesto de courgettes, ricotta salée, tomates confites, olives Leccino, crème de balsamique, basilic"
-        },
-        {
           "id": "zenchef-1179997-mediterranea",
           "name": "Mediterranea",
           "price": 19,
@@ -277,6 +277,28 @@
             "mollusques": "not_declared"
           },
           "description": "Sauce tomate, stracciatella, anchois, olives Leccino, origan"
+        },
+        {
+          "id": "zenchef-1179983-vegetariana-bianca",
+          "name": "Vegetariana Bianca",
+          "price": 17,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mozzarella fior di latte, scamorza, tomates confites, courgettes, parmesan, basilic"
         },
         {
           "id": "zenchef-1179998-pancettara-bianca",
@@ -433,9 +455,9 @@
           "description": "Mozzarella fior di latte, mortadella à la truffe, pesto, pistache, basilic"
         },
         {
-          "id": "zenchef-1413268-armoniosa",
-          "name": "Armoniosa",
-          "price": 23,
+          "id": "zenchef-1413268-la-tartufo",
+          "name": "La Tartufo",
+          "price": 22,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -452,11 +474,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Mozzarella fior di latte, creme de poivrons jaunes, courgettes à la scapece, tomates confites, burrata 125g"
+          "description": "Mozzarella fior di latte, crème tartufata, champignon, pomme de terre, truffe noire"
         },
         {
-          "id": "zenchef-1413270-terra-67-bianca",
-          "name": "Terra 67 Bianca",
+          "id": "zenchef-1413270-sarda-bianca",
+          "name": "Sarda bianca",
           "price": 19,
           "allergens": {
             "gluten": "present",
@@ -474,12 +496,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Crème de parmesan, mozzarella fior di latte, jambon cuit, guindillas, crème de petit pois, basilic"
+          "description": "Mozzarella fior di latte, pomme de terre, saucisse, olives, pecorino sardo"
         },
         {
-          "id": "zenchef-1413271-fiammante",
-          "name": "Fiammante",
-          "price": 20,
+          "id": "zenchef-1413271-cosacca",
+          "name": "Cosacca",
+          "price": 13,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -496,7 +518,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Mozzarella fior di latte, nduja, pesto, roquette, stracciatella, zeste citron"
+          "description": "Sauce tomate, pecorino sardo, basilic et poivre noir"
         },
         {
           "id": "zenchef-1413272-la-momento",
@@ -519,6 +541,50 @@
             "mollusques": "not_declared"
           },
           "description": "Demandez à l'équipé!"
+        },
+        {
+          "id": "zenchef-1492259-calabrese-bianca",
+          "name": "Calabrese bianca",
+          "price": 18,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mozzarella fior di latte, nduja, spianata, scamorza, miel, marjolaine"
+        },
+        {
+          "id": "zenchef-1492262-boscaiola-bianca",
+          "name": "Boscaiola bianca",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mozzarella fior di latte, saucisse, champignon, parmesan"
         }
       ]
     },
@@ -567,6 +633,28 @@
             "mollusques": "not_declared"
           },
           "description": "Crème de noisettes"
+        },
+        {
+          "id": "zenchef-1492267-dessert-del-momento",
+          "name": "Dessert del momento",
+          "price": 8,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Demandez à l’équipe"
         }
       ]
     }

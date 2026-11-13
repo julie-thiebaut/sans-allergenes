@@ -8,7 +8,7 @@
         {
           "id": "bia-eggs-any-style",
           "name": "Eggs any style",
-          "price": 9.5,
+          "price": 9.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -29,7 +29,7 @@
         {
           "id": "bia-eggs-and-bacon",
           "name": "Eggs and Bacon",
-          "price": 12,
+          "price": 12.4,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -50,7 +50,7 @@
         {
           "id": "bia-eggs-and-sausages",
           "name": "Eggs and sausages",
-          "price": 12,
+          "price": 12.4,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -69,54 +69,10 @@
           }
         },
         {
-          "id": "bia-eggs-benedict",
-          "name": "Eggs Benedict",
-          "description": "English muffin toasté, œufs pochés, bacon, sauce hollandaise, ciboulette",
-          "price": 14.2,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "may_contain",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "may_contain",
-            "mollusques": "may_contain"
-          }
-        },
-        {
-          "id": "bia-californian-benedict",
-          "name": "Californian Benedict",
-          "description": "Muffin anglais toasté à l’ail, tranches d’avocat, œufs pochés, sauce hollandaise, ciboulette",
-          "price": 14.2,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "may_contain",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "present",
-            "lupin": "may_contain",
-            "mollusques": "may_contain"
-          }
-        },
-        {
           "id": "bia-eggs-norvegian",
           "name": "Eggs Norvegian",
           "description": "English muffin toasté, œufs pochés, saumon fumé, sauce hollandaise, ciboulette",
-          "price": 16,
+          "price": 16.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "may_contain",
@@ -159,7 +115,7 @@
           "id": "bia-cc-s-big-mess",
           "name": "CC's Big Mess",
           "description": "Œufs brouillés, bacon, jambon, saucisses de volaille, oignons, poivrons, champignons, avocat, cheddar",
-          "price": 14.5,
+          "price": 15.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -181,7 +137,7 @@
           "id": "bia-lumberjack-breakfast",
           "name": "Lumberjack Breakfast",
           "description": "2 œufs au choix, 2 bacon, 2 saucisses de volailles, un steak de jambon, 2 pains perdus, 2 tomates grillées, pommes de terres sautées et toast",
-          "price": 16.9,
+          "price": 17.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -203,7 +159,7 @@
           "id": "bia-breakfast-burrito",
           "name": "Breakfast Burrito",
           "description": "Galette de blé, œufs brouillés, cheddar fondu, pommes de terre sautées, bacon ou breakfast sausage, pico de gallo, avocat. servi avec de la crème fraîche",
-          "price": 13.9,
+          "price": 14.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -230,7 +186,7 @@
           "id": "bia-3x3x3",
           "name": "3x3x3",
           "description": "3 œufs au choix, 3 tranches de bacon ou 3 saucisses de volaille et 3 pancakes",
-          "price": 14.9,
+          "price": 15.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -252,7 +208,7 @@
           "id": "bia-2x2x2",
           "name": "2x2x2",
           "description": "2 œufs au choix, 2 tranches de bacon ou 2 saucisses de volaille et 2 pancakes",
-          "price": 12.2,
+          "price": 12.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -273,7 +229,7 @@
         {
           "id": "bia-cali-french-toast",
           "name": "Cali French toast",
-          "price": 13.2,
+          "price": 13.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -294,7 +250,7 @@
         {
           "id": "bia-banana-french-toast",
           "name": "Banana French Toast",
-          "price": 11.5,
+          "price": 11.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -315,7 +271,7 @@
         {
           "id": "bia-banana-pancakes",
           "name": "Banana Pancakes",
-          "price": 12.9,
+          "price": 13.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -336,7 +292,7 @@
         {
           "id": "bia-blueberry-pancakes",
           "name": "Blueberry Pancakes",
-          "price": 12.5,
+          "price": 12.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -357,7 +313,7 @@
         {
           "id": "bia-pancakes",
           "name": "Pancakes",
-          "price": 10.5,
+          "price": 10.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -383,7 +339,7 @@
         {
           "id": "bia-single-pancake",
           "name": "Single Pancake",
-          "price": 4.7,
+          "price": 4.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -404,7 +360,7 @@
         {
           "id": "bia-side-egg-1-egg",
           "name": "Side Egg (1 egg)",
-          "price": 2.7,
+          "price": 2.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -425,7 +381,7 @@
         {
           "id": "bia-side-egg-2-eggs",
           "name": "Side Egg (2 eggs)",
-          "price": 5.2,
+          "price": 5.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -446,7 +402,7 @@
         {
           "id": "bia-bacon-3",
           "name": "Bacon (3)",
-          "price": 5.2,
+          "price": 5.5,
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -467,7 +423,7 @@
         {
           "id": "bia-sausage-3",
           "name": "Sausage (3)",
-          "price": 5.2,
+          "price": 5.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -494,7 +450,7 @@
           "id": "bia-wings",
           "name": "Wings",
           "description": "Ailes de poulets marinées sauce au choix : BBQ, Ranch, Honey mustard, Sauce BIA",
-          "price": 8.9,
+          "price": 9.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -516,7 +472,7 @@
           "id": "bia-nachos-deluxe",
           "name": "Nachos Deluxe",
           "description": "Tortillas de maïs, cheddar fondu, poulet grillé, avocat, pico de gallo, oignon rouge, crème fraiche, jalapeños",
-          "price": 12.2,
+          "price": 12.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -537,7 +493,7 @@
         {
           "id": "bia-loaded-fries",
           "name": "Loaded Fries",
-          "price": 6.5,
+          "price": 6.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -558,7 +514,7 @@
         {
           "id": "bia-cheese-fries",
           "name": "Cheese Fries",
-          "price": 5.2,
+          "price": 5.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -579,7 +535,7 @@
         {
           "id": "bia-basket-of-fries",
           "name": "Basket of Fries",
-          "price": 4.9,
+          "price": 5.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -606,7 +562,7 @@
           "id": "bia-blt",
           "name": "BLT",
           "description": "Bacon, Laitue, Tomate classique dans un bagel",
-          "price": 12.9,
+          "price": 13.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -628,7 +584,7 @@
           "id": "bia-nyc-bagel-and-lox",
           "name": "NYC Bagel and Lox",
           "description": "Bagel toasté, cream cheese, saumon fumé, tomates, oignons, rouges, capres, pickles",
-          "price": 16.2,
+          "price": 16.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -649,7 +605,7 @@
         {
           "id": "bia-californian-chicken-wrap",
           "name": "Californian Chicken Wrap",
-          "price": 14.5,
+          "price": 15.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -670,7 +626,7 @@
         {
           "id": "bia-grilled-cheese-sandwich",
           "name": "Grilled Cheese Sandwich",
-          "price": 11.2,
+          "price": 11.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -697,7 +653,7 @@
           "id": "bia-b-i-a-signature-burger",
           "name": "B.I.A. Signature Burger",
           "description": "Burger avec cheddar, oignons grillés, poivron rouge, sauce BBQ et cornichons",
-          "price": 17.9,
+          "price": 18.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -719,7 +675,7 @@
           "id": "bia-veggie-burger",
           "name": "Veggie Burger",
           "description": "Bun brioché, pâté de pois chiche maison, concombre, Tomate, salade romaine, mayonnaise maison de chimichurrie",
-          "price": 14.5,
+          "price": 15.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -745,7 +701,7 @@
         {
           "id": "bia-carrot-cake",
           "name": "Carrot Cake",
-          "price": 7.9,
+          "price": 8.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -766,7 +722,7 @@
         {
           "id": "bia-pecan-pie",
           "name": "Pecan Pie",
-          "price": 7.9,
+          "price": 8.5,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -787,7 +743,7 @@
         {
           "id": "bia-cheesecake",
           "name": "Cheesecake",
-          "price": 7.2,
+          "price": 7.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -808,7 +764,7 @@
         {
           "id": "bia-brownie",
           "name": "Brownie",
-          "price": 5.9,
+          "price": 6.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -829,7 +785,7 @@
         {
           "id": "bia-chocolate-chip-cookie",
           "name": "Chocolate Chip Cookie",
-          "price": 4.9,
+          "price": 5.2,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",

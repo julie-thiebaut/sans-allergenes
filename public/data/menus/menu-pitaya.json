@@ -486,69 +486,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "pitaya-bao-thai-burger-satay",
-          "name": "BAO THAÏ BURGER SATAY",
-          "description": "Un bao moelleux garni de poulet crousty, nappé d’une sauce satay gourmande. Le chou rouge mariné et les oignons rouges apportent fraîcheur et croquant pour une recette inspirée de la street food thaïlandaise.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "present",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-bao-thai-burger-bangkok-bbq",
-          "name": "BAO THAÏ BURGER BANGKOK BBQ",
-          "description": "Un bao généreux au poulet crousty, relevé par une sauce Bangkok BBQ et une galette de pomme de terre croustillante. Une recette réconfortante aux saveurs inspirées des rues de Bangkok.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "not_declared",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-bao-thai-burger-spicy-curry-mango",
-          "name": "BAO THAÏ BURGER SPICY CURRY MANGO",
-          "description": "Un mélange explosif entre douceur exotique et touche spicy. Du poulet crousty, sauce curry mango, une pointe de sauce wasabi et d'oignons frits s’associent dans un bao gourmand et plein de caractère.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
@@ -556,19 +493,19 @@
       "category": "Saucy Thai Chicken",
       "dishes": [
         {
-          "id": "pitaya-saucy-crunchy-chicken-x6-sauce-bbq",
-          "name": "SAUCY CRUNCHY CHICKEN X6 SAUCE BBQ",
-          "description": "6 morceaux de poulet croustillants à l'extérieur, tendres à l'intérieur, généreusement enrobés d'une sauce BBQ fumée et gourmande ou d'une sauce épicée qui réveille les papilles sans masquer le goût du poulet.",
+          "id": "pitaya-saucy-chicken-wings-x9-sauce-bbq",
+          "name": "SAUCY CHICKEN WINGS X9 SAUCE BBQ",
+          "description": "9 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
           "allergens": {
-            "gluten": "present",
+            "gluten": "may_contain",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "may_contain",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "may_contain",
+            "soja": "present",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "may_contain",
+            "celeri": "present",
             "moutarde": "may_contain",
             "sesame": "present",
             "sulfites": "not_declared",
@@ -577,19 +514,19 @@
           }
         },
         {
-          "id": "pitaya-saucy-crunchy-chicken-x6-sauce-epicee",
-          "name": "SAUCY CRUNCHY CHICKEN X6 SAUCE ÉPICÉE",
-          "description": "6 morceaux de poulet croustillants à l'extérieur, tendres à l'intérieur, généreusement enrobés d'une sauce BBQ fumée et gourmande ou d'une sauce épicée qui réveille les papilles sans masquer le goût du poulet.",
+          "id": "pitaya-saucy-chicken-wings-x9-sauce-epicee",
+          "name": "SAUCY CHICKEN WINGS X9 SAUCE ÉPICÉE",
+          "description": "9 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
           "allergens": {
-            "gluten": "present",
+            "gluten": "may_contain",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "may_contain",
             "arachides": "may_contain",
             "soja": "may_contain",
-            "lait": "may_contain",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "may_contain",
+            "celeri": "present",
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "not_declared",
@@ -640,6 +577,48 @@
           }
         },
         {
+          "id": "pitaya-saucy-crunchy-chicken-x6-sauce-bbq",
+          "name": "SAUCY CRUNCHY CHICKEN X6 SAUCE BBQ",
+          "description": "6 morceaux de poulet croustillants à l'extérieur, tendres à l'intérieur, généreusement enrobés d'une sauce BBQ fumée et gourmande ou d'une sauce épicée qui réveille les papilles sans masquer le goût du poulet.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "pitaya-saucy-crunchy-chicken-x6-sauce-epicee",
+          "name": "SAUCY CRUNCHY CHICKEN X6 SAUCE ÉPICÉE",
+          "description": "6 morceaux de poulet croustillants à l'extérieur, tendres à l'intérieur, généreusement enrobés d'une sauce BBQ fumée et gourmande ou d'une sauce épicée qui réveille les papilles sans masquer le goût du poulet.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "pitaya-saucy-chicken-wings-x6-sauce-bbq",
           "name": "SAUCY CHICKEN WINGS X6 SAUCE BBQ",
           "description": "6 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
@@ -664,48 +643,6 @@
           "id": "pitaya-saucy-chicken-wings-x6-sauce-epicee",
           "name": "SAUCY CHICKEN WINGS X6 SAUCE ÉPICÉE",
           "description": "6 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-saucy-chicken-wings-x9-sauce-bbq",
-          "name": "SAUCY CHICKEN WINGS X9 SAUCE BBQ",
-          "description": "9 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "may_contain",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          }
-        },
-        {
-          "id": "pitaya-saucy-chicken-wings-x9-sauce-epicee",
-          "name": "SAUCY CHICKEN WINGS X9 SAUCE ÉPICÉE",
-          "description": "9 ailes de poulet généreuses, nappées d'une sauce BBQ fumée et légèrement caramélisée ou d'une sauce relevée au caractère épicé. Tendres à cœur, gourmandes à souhait.",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -860,27 +797,6 @@
           }
         },
         {
-          "id": "pitaya-wings",
-          "name": "WINGS",
-          "description": "4 Wings de poulet servis avec une sauce au choix.",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "may_contain",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pitaya-poulet-crousty",
           "name": "POULET CROUSTY",
           "description": "Filet de poulet ultra crousty découpé et servi avec une sauce au choix.",
@@ -894,6 +810,69 @@
             "lait": "may_contain",
             "fruits_a_coque": "not_declared",
             "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pitaya-nems-poulet",
+          "name": "NEMS POULET",
+          "description": "3 nems croustillants au poulet servis avec une sauce au choix.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pitaya-nems-legumes",
+          "name": "NEMS LÉGUMES",
+          "description": "3 nems croustillants aux légumes servis avec une sauce au choix.",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "may_contain",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "may_contain",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "may_contain"
+          }
+        },
+        {
+          "id": "pitaya-wings",
+          "name": "WINGS",
+          "description": "4 Wings de poulet servis avec une sauce au choix.",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
             "moutarde": "may_contain",
             "sesame": "not_declared",
             "sulfites": "not_declared",
@@ -944,45 +923,24 @@
           }
         },
         {
-          "id": "pitaya-nems-poulet",
-          "name": "NEMS POULET",
-          "description": "3 nems croustillants au poulet servis avec une sauce au choix.",
+          "id": "pitaya-riz-parfume-sweet-chili",
+          "name": "RIZ PARFUMÉ SWEET & CHILI",
+          "description": "Riz thai parfumé au jasmin, sauce sweet & chili et oignons frits.",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "sesame": "may_contain",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-nems-legumes",
-          "name": "NEMS LÉGUMES",
-          "description": "3 nems croustillants aux légumes servis avec une sauce au choix.",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "may_contain",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "may_contain",
-            "soja": "present",
-            "lait": "may_contain",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "may_contain",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "may_contain"
           }
         },
         {
@@ -1026,33 +984,33 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        },
-        {
-          "id": "pitaya-riz-parfume-sweet-chili",
-          "name": "RIZ PARFUMÉ SWEET & CHILI",
-          "description": "Riz thai parfumé au jasmin, sauce sweet & chili et oignons frits.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "may_contain",
-            "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
         }
       ]
     },
     {
       "category": "Desserts",
       "dishes": [
+        {
+          "id": "pitaya-creme-glacee-cacahuete",
+          "name": "CRÈME GLACÉE CACAHUÈTE",
+          "description": "Une crème glacée artisanale élaborée en France aromatisée à la pâte de cacahuète et éclats de cacahuète. Allergènes : arachides et lait. Traces : gluten, oeuf, soja, fruits à coque, céleri, moutarde, sésame, sulfites et lupin.",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "may_contain",
+            "lupin": "may_contain",
+            "mollusques": "not_declared"
+          }
+        },
         {
           "id": "pitaya-nems-mango-sticky-rice",
           "name": "NEMS MANGO STICKY RICE",
@@ -1180,48 +1138,6 @@
           }
         },
         {
-          "id": "pitaya-donuts-classic",
-          "name": "DONUTS CLASSIC",
-          "description": "Un donut moelleux au sucre.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-sundae-vanille-caramel",
-          "name": "SUNDAE VANILLE CARAMEL",
-          "description": "Glace vanille avec sauce au caramel, aromatisée et nougatine.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pitaya-crunchy-mango-coco-chia",
           "name": "CRUNCHY MANGO COCO CHIA",
           "description": "Muesli au chocolat croquant, morceaux de mangue, mélange de graines de chia coco, coulis fruits exotiques.",
@@ -1327,6 +1243,48 @@
           }
         },
         {
+          "id": "pitaya-sundae-vanille-caramel",
+          "name": "SUNDAE VANILLE CARAMEL",
+          "description": "Glace vanille avec sauce au caramel, aromatisée et nougatine.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pitaya-donuts-classic",
+          "name": "DONUTS CLASSIC",
+          "description": "Un donut moelleux au sucre.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "pitaya-moelleux-choco-coulis-fruits-exotiques",
           "name": "MOELLEUX CHOCO COULIS FRUITS EXOTIQUES",
           "description": "Moelleux au chocolat servis avec un coulis fruits exotiques.",
@@ -1369,48 +1327,6 @@
           }
         },
         {
-          "id": "pitaya-cheesecake-coulis-fruits-rouges",
-          "name": "CHEESECAKE COULIS FRUITS ROUGES",
-          "description": "Cheesecake servis avec un coulis fruits rouges.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-cheesecake-coulis-fruits-exotiques",
-          "name": "CHEESECAKE COULIS FRUITS EXOTIQUES",
-          "description": "Cheesecake servis avec un coulis fruits exotiques.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "may_contain",
-            "arachides": "not_declared",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "pitaya-creme-glacee-vanille-et-copeaux-de-chocolat",
           "name": "CRÈME GLACÉE VANILLE ET COPEAUX DE CHOCOLAT",
           "description": "Crème glacée à la vanille bourbon et aux copeaux de chocolat.",
@@ -1420,27 +1336,6 @@
             "oeufs": "may_contain",
             "poisson": "not_declared",
             "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "present",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "may_contain",
-            "lupin": "may_contain",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pitaya-creme-glacee-cacahuete",
-          "name": "CRÈME GLACÉE CACAHUÈTE",
-          "description": "Une crème glacée artisanale élaborée en France aromatisée à la pâte de cacahuète et éclats de cacahuète. Allergènes : arachides et lait. Traces : gluten, oeuf, soja, fruits à coque, céleri, moutarde, sésame, sulfites et lupin.",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "not_declared",
-            "arachides": "present",
             "soja": "may_contain",
             "lait": "present",
             "fruits_a_coque": "may_contain",
@@ -1478,27 +1373,6 @@
     {
       "category": "Sauces",
       "dishes": [
-        {
-          "id": "pitaya-sauce-k-o-crousty",
-          "name": "🌶️ SAUCE K. O CROUSTY",
-          "description": "Mélange de sauce sriracha mayo & creamy wasabi. 30 gr.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
         {
           "id": "pitaya-dip-bangkok-bbq",
           "name": "DIP BANGKOK BBQ",

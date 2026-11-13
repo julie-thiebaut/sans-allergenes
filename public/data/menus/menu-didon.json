@@ -6,21 +6,21 @@
       "category": "Entrées",
       "dishes": [
         {
-          "id": "didon-betterave",
-          "name": "Betterave",
+          "id": "didon-brocolini",
+          "name": "Brocolini",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
-            "poisson": "not_declared",
+            "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
@@ -28,21 +28,21 @@
           "tags": [
             "vegetarien"
           ],
-          "description": "en déclinaisons, sauce gribiche, grenade, cresson, câpres (œufs et moutarde via la sauce ; peut être retiré ou cuit : œufs, moutarde, sulfites)"
+          "description": "grillé, crème persillade, hollandaise au pamplemousse, jaune d’oeuf confit (supplément de 3€ pour une version non végétarienne avec poutargue) (lait via la sauce ; poisson via la poutargue ; peut être retiré ou cuit : gluten, lait, moutarde, poisson)"
         },
         {
-          "id": "didon-champignons",
-          "name": "Champignons",
+          "id": "didon-tomate-ananas",
+          "name": "Tomate ananas",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
+            "celeri": "present",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
@@ -53,11 +53,11 @@
           "tags": [
             "vegan"
           ],
-          "description": "pleurotes grillées, duxelles, pickles de girolles, vin jaune, soja, sauce aux morilles, persil frit"
+          "description": "grillée, céleri, cornichons, gel Worcestershire, granité Bloody Mary, poudre de tomate"
         },
         {
-          "id": "didon-tacos-terre-et-mer",
-          "name": "Tacos terre et mer",
+          "id": "didon-gambas",
+          "name": "Gambas",
           "allergens": {
             "gluten": "present",
             "crustaces": "present",
@@ -74,39 +74,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 19,
-          "description": "gambas grillée et tartare de boeuf Angus, chou rouge vinaigré, raifort, ail (céleri et sulfites via la sauce ; peut être retiré ou cuit : œufs)"
+          "price": 24,
+          "description": "en tacos aux 2 saveurs, vierge tomate, bisque, aguachile, concombre (céleri via la bisque ; peut être retiré ou cuit : œufs, céleri, sulfites)"
         },
         {
-          "id": "didon-poitrine-de-boeuf-angus",
-          "name": "Poitrine de bœuf Angus",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 24,
-          "description": "en pastrami, moutarde au cumin, coulis herbacé, oignons en 2 textures, jus de braisage (gluten via les oignons frits, sulfites via la sauce ; peut être retiré ou cuit : gluten, moutarde)"
-        }
-      ]
-    },
-    {
-      "category": "Plats",
-      "dishes": [
-        {
-          "id": "didon-gnocchis",
-          "name": "Gnocchis",
+          "id": "didon-magret-de-canard",
+          "name": "Magret de canard",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -114,7 +87,34 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 24,
+          "description": "mariné et cuit au sel fumé, vinaigrette de miel à l’orange, émulsion de baie rose, betterave et cerise en pickles, mûre (gluten via la sauce soja ; œufs via la sauce ; peut être retiré ou cuit : œufs)"
+        }
+      ]
+    },
+    {
+      "category": "Plats",
+      "dishes": [
+        {
+          "id": "didon-artichaut",
+          "name": "Artichaut",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -123,25 +123,25 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 27,
+          "price": 25,
           "tags": [
-            "vegetarien"
+            "vegan"
           ],
-          "description": "frits, sauce tomate au miso, fenouil, orange, poivre Timut, basilic thaï (peut être retiré ou cuit : sulfites)"
+          "description": "confit et grillé, fromage frais végétal herbacé, condiment à la grecque, raisin vert, émulsion barigoule, croûtons (gluten via les croûtons ; soja et sulfites via l'émulsion ; peut être retiré ou cuit : gluten, soja, sulfites)"
         },
         {
-          "id": "didon-blette-farcie",
-          "name": "Blette farcie",
+          "id": "didon-risotto",
+          "name": "Risotto",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "present",
-            "celeri": "present",
+            "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
@@ -150,35 +150,13 @@
           },
           "price": 29,
           "tags": [
-            "vegan"
+            "vegetarien"
           ],
-          "description": "avec boulgour, piquillos, tofu, pignons de pin, consommé aux légumes, aneth (peut être retiré ou cuit : céleri)"
+          "description": "aux champignons, pleurote grise, pickles de girolles, noix, gel vin jaune, émulsion ciboulette (soja via l'émulsion ; fruits à coque : noix ; peut être retiré ou cuit : soja, fruits à coque)"
         },
         {
-          "id": "didon-poitrine-de-porc",
-          "name": "Poitrine de porc",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 38,
-          "description": "confite au sirop d’érable, piperade, pickles de carottes, jus de braisage (céleri et sulfites via la sauce)"
-        },
-        {
-          "id": "didon-entrecote-angus",
-          "name": "Entrecôte Angus",
+          "id": "didon-cuissot-de-chevreuil",
+          "name": "Cuissot de chevreuil",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -196,7 +174,29 @@
             "mollusques": "not_declared"
           },
           "price": 45,
-          "description": "grillée, mole verde, chou-fleur en 2 façons, ail confit, persil frit, jus corsé (céleri et sulfites via la sauce)"
+          "description": "en filet, mini légumes racines, pickles de navet, groseille, jus de gibier (céleri via la sauce ; sulfites via la sauce et le condiment). Format : portion 45 / à partager 90."
+        },
+        {
+          "id": "didon-onglet-de-boeuf",
+          "name": "Onglet de bœuf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "price": 45,
+          "description": "grillé, échalotte farcie, cèpe, topinambour, pruneaux, jus infusé aux quetsches"
         },
         {
           "id": "didon-tomahawk-mature-40j",
@@ -211,40 +211,18 @@
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "present",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
           "price": 157,
-          "description": "de boeuf Salers/Angus grillé, enokis grillés, jus d’ail noir (céleri et sulfites via la sauce ; peut être retiré ou cuit : lait). Format : à partager 157."
+          "description": "de boeuf Salers/Angus grillé, enokis grillés, jus d’ail noir, accompagné d’une sauce chimichurri ou au poivre ou au bleu (lait, céleri et sulfites via la sauce ; peut être retiré ou cuit : lait). Format : à partager 157."
         },
         {
           "id": "didon-agneau",
           "name": "Agneau",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 129,
-          "description": "épaule grillée à partager, confite aux épices, chimichurri à la menthe. Format : à partager 129."
-        },
-        {
-          "id": "didon-canette",
-          "name": "Canette",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -253,16 +231,16 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "not_declared",
-            "fruits_a_coque": "present",
+            "fruits_a_coque": "not_declared",
             "celeri": "present",
             "moutarde": "not_declared",
-            "sesame": "present",
+            "sesame": "not_declared",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 39,
-          "description": "filet grillé, prune jaune en deux façons, courgette, marjolaine, noix de cajou, jus corsé au porto rouge (gluten et sésame via le zaatar, céleri via la sauce). Format : portion 39 / à partager 78."
+          "price": 129,
+          "description": "épaule grillée à partager, confite aux épices, chimichurri à la menthe (gluten via l'huile d'épices ; peut être retiré ou cuit : gluten). Format : à partager 129."
         },
         {
           "id": "didon-daurade",
@@ -301,12 +279,12 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "present"
           },
           "price": 107,
-          "description": "entier grillé au charbon de bois, miso, citron, cébette, sabayon à l’asiatique (gluten, œufs, soja, lait et mollusques via la sauce). Format : à partager 107."
+          "description": "entier grillé au charbon de bois, miso, citron, cébette, sabayon à l’asiatique (gluten, œufs, soja, lait, sulfites et mollusques via la sauce). Format : à partager 107."
         }
       ]
     },
@@ -355,29 +333,29 @@
             "mollusques": "not_declared"
           },
           "price": 5,
-          "description": "grillée, labné citronné, zaatar, sumac (peut être retiré ou cuit : gluten, lait, sésame, sulfites)"
+          "description": "grillée, labné citronné, zaatar, sumac (gluten et sésame via le zaatar ; sulfites via la vinaigrette ; peut être retiré ou cuit : gluten, lait, sésame, sulfites)"
         },
         {
-          "id": "didon-poireaux-vinaigrette",
-          "name": "Poireaux vinaigrette",
+          "id": "didon-chou-roti",
+          "name": "Chou rôti",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
           "price": 7,
-          "description": "grillés, graine de moutarde jaune, aïoli persillé, pousses de moutarde (peut être retiré ou cuit : soja, moutarde, sulfites)"
+          "description": "sauce sésame, condiment épinard et citron confit, chips de pain libanais (œufs et sésame via la sauce ; peut être retiré ou cuit : gluten, œufs)"
         }
       ]
     },
@@ -404,11 +382,11 @@
             "mollusques": "not_declared"
           },
           "price": 18,
-          "description": "Pont L’Evêque en deux façons, au charbon et frais, pommes Granny Smith, calvados, noix, mizuna. Format : 18 / 32."
+          "description": "Tomme aux fleurs et herbes, Mothais sur feuille, figue en deux façons, roquette, noisette (fruits à coque : noix ; peut être retiré ou cuit : fruits à coque). Format : 18 / 32."
         },
         {
-          "id": "didon-poire",
-          "name": "Poire",
+          "id": "didon-poire-vegan-et-sans-gluten",
+          "name": "Poire (végan et sans gluten)",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -421,41 +399,16 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
           "price": 16,
-          "tags": [
-            "vegan"
-          ],
-          "description": "pochée aux épices, granola, gel poire vinaigre balsamique blanc et gingembre, espuma de thé aux agrumes (peut être retiré ou cuit : fruits à coque)"
+          "description": "caramélisée, chou-fleur au macis en deux textures, gingembre, pain d’épices, granola (soja via le pain ; fruits à coque via le granola ; sulfites via le gel ; peut être retiré ou cuit : soja, fruits à coque, sulfites)"
         },
         {
-          "id": "didon-clementine",
-          "name": "Clémentine",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 18,
-          "description": "en salade au poivre de Timut, compote d’orange fumée, sorbet fleur d’oranger, espuma à l’orange sanguine"
-        },
-        {
-          "id": "didon-chocolat",
-          "name": "Chocolat",
+          "id": "didon-framboise",
+          "name": "Framboise",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -472,8 +425,30 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "price": 19,
+          "description": "en tartelette, crème parfait glacé au thé de fruits de bois, praliné amandes, voile pomme framboise"
+        },
+        {
+          "id": "didon-chocolat",
+          "name": "Chocolat",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
           "price": 18,
-          "description": "tarte déstructurée, déclinaisons de cassis (crème anglaise, sorbet, tuile)"
+          "description": "fondant en gâteau, ganache blanche à la menthe, fraises, tuile et sorbet de fraise à la menthe (fruits à coque via le crumble ; peut être retiré ou cuit : fruits à coque)"
         }
       ]
     }

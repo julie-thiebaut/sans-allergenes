@@ -46,12 +46,12 @@
           }
         },
         {
-          "id": "grande-ourse-entrees-caviar-d-aubergines-oeuf-poche-sauce-aux-poivrons-doux",
-          "name": "Caviar d'aubergines, oeuf poché, sauce aux poivrons doux.",
+          "id": "grande-ourse-entrees-caviar-d-aubergines-burrata-des-pouilles-pesto-maison",
+          "name": "Caviar d'aubergines, burrata des Pouilles, pesto maison.",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",

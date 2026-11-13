@@ -6,12 +6,33 @@
       "category": "Les entrées",
       "dishes": [
         {
-          "id": "zenchef-1379030-raviole-farci-au-boudin-noir-au-piment-d-espelette-consomme-",
-          "name": "Raviole farci au boudin noir au piment d’espelette, consommé au volaille et chimichurri",
+          "id": "zenchef-1469793-oeuf-en-meurette-lardon-champignon-grelots",
+          "name": "Œuf en meurette, lardon champignon, grelots",
           "price": 15,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379030-veloute-de-potimarron-queue-de-langoustine",
+          "name": "Velouté de potimarron, queue de langoustine",
+          "price": 16,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
@@ -48,13 +69,13 @@
           }
         },
         {
-          "id": "zenchef-1469793-oeuf-en-meurette-lardon-champignon-grelots",
-          "name": "Œuf en meurette, lardon champignon, grelots",
-          "price": 15,
+          "id": "zenchef-1496100-foie-gras-de-canard-maison-du-sud-ouest-confiture-de-figue-c",
+          "name": "Foie gras de canard maison du sud-ouest, confiture de figue Corse",
+          "price": 18,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
@@ -63,7 +84,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -73,69 +94,6 @@
     {
       "category": "LES PLATS",
       "dishes": [
-        {
-          "id": "zenchef-1379048-bacon-burger-potato-bun-steak-hache-100-charolais-cheddar-ma",
-          "name": "Bacon burger, potato bun, steak haché 100% charolais, cheddar maturé, sauce maison, frites maison et salade",
-          "price": 23,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1379032-filet-de-canette-puree-de-topinambour-mini-carottes-jus-de-v",
-          "name": "Filet de canette, purée de topinambour, mini carottes, jus de viande",
-          "price": 29,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1379045-filet-de-daurade-puree-de-celeri-salsifis-caramelises-giroll",
-          "name": "Filet de daurade, purée de céleri, salsifis caramélisés, girolles, huile de sarrasin",
-          "price": 29,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
         {
           "id": "zenchef-1379047-ris-de-veau-croustillant-puree-de-carottes-au-gingembre-pas-",
           "name": "Ris de veau croustillant, purée de carottes au gingembre, pas choï, mix de champignon",
@@ -156,27 +114,22 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
-        }
-      ]
-    },
-    {
-      "category": "DESSERTS",
-      "dishes": [
+        },
         {
-          "id": "zenchef-1379050-mousse-au-citron-meringue-sorbet-rhubarbe-maison",
-          "name": "Mousse au citron, meringue, sorbet rhubarbe maison",
-          "price": 13,
+          "id": "zenchef-1379045-filet-de-daurade-puree-de-celeri-salsifis-caramelises-giroll",
+          "name": "Filet de daurade, purée de céleri, salsifis caramélisés, girolles, huile de sarrasin",
+          "price": 29,
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -184,9 +137,56 @@
           }
         },
         {
-          "id": "zenchef-1379051-poire-poche-au-vin-rouge-sorbet-au-vin-chaud-cristalline-de-",
-          "name": "Poire poché au vin rouge, sorbet au vin chaud, cristalline de poire, tuiles de sesame noire",
-          "price": 14,
+          "id": "zenchef-1379032-joue-de-boeuf-braise-au-vin-rouge-puree-de-panais-salsifis-r",
+          "name": "Joue de bœuf braisé au vin rouge, purée de panais, salsifis rôtis, epinard",
+          "price": 28,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379048-bacon-burger-potato-bun-steak-hache-100-charolais-cheddar-ma",
+          "name": "Bacon burger, potato bun, steak haché 100% charolais, cheddar maturé, sauce maison, frites maison et salade",
+          "price": 23,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "DESSERTS",
+      "dishes": [
+        {
+          "id": "zenchef-1496101-assiette-de-fromage-comte-beaufort-double-cremeux-de-bourgog",
+          "name": "Assiette de fromage, comté, beaufort, double crémeux de bourgogne à la truffe",
+          "price": 16,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -198,8 +198,8 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -221,6 +221,48 @@
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379050-brioche-facon-pain-perdu-glace-a-la-vanille-caramel-tiede",
+          "name": "Brioche façon pain perdu, glace à la vanille, caramel tiède",
+          "price": 12,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1379051-pavlova-sorbet-a-la-mandarine-creme-chantilly-aux-marrons",
+          "name": "Pavlova, sorbet à la mandarine, crème chantilly aux marrons",
+          "price": 14,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }

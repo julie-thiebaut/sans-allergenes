@@ -3,6 +3,53 @@
   "restaurantId": "black-white-burger-chatelet-75001",
   "categories": [
     {
+      "category": "Black & Marquise",
+      "dishes": [
+        {
+          "id": "bnw-black-marquise-baguette",
+          "name": "BLACK & MARQUISE BAGUETTE",
+          "description": "Une baguette boulangère avec steak Angus, pastrami, cheddar Wyke fumé, oignons caramélisés et sauce Creamy BBQ.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-black-marquise-roll",
+          "name": "BLACK & MARQUISE ROLL",
+          "description": "Un roll, renfermant 2 steaks Angus smashés, des oignons caramélisés préparés chaque matin, de la salade roquette, et du cheddar Wyke poivré. L’élément distinctif ? Sa mayonnaise aromatisée. Disponible uniquement dans les restaurants : Cagnes-sur-mer, Châtelet, Montpellier Odysseum, Marseille Terrasse du Port, Bruxelles Anspach.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
       "category": "Black GMK",
       "dishes": [
         {
@@ -32,6 +79,48 @@
       "category": "Les signatures",
       "dishes": [
         {
+          "id": "bnw-black-brisket",
+          "name": "BLACK BRISKET",
+          "description": "Bun brioché bicolore (charbon végétal et classique) avec du brisket effiloché de boeuf, des oignons caramélisés, de la salade iceberg croquante, du cheddar poivré Wyke et sa mayonnaise aromatisée.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-wavy",
+          "name": "WAVY",
+          "description": "Bun brioché bicolore (charbon végétal et classique) avec un pavé de saumon pané, de la salade iceberg, des tomates, des oignons blancs et une sauce tartare.Une alliance parfaite entre fraîcheur et croustillant pour une expérience savoureuse.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "present",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
           "id": "bnw-west-coast",
           "name": "WEST COAST",
           "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak Angus, des oignons caramélisés, des oignons frits, des cornichons, de la salade iceberg, un double cheddar Wyke et une sauce West Coast.",
@@ -48,48 +137,6 @@
             "moutarde": "present",
             "sesame": "present",
             "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-original",
-          "name": "ORIGINAL",
-          "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak Angus, des oignons blancs, des tomates, des cornichons, de la salade iceberg, du cheddar Wyke, une sauce ketchup et une sauce white Vegan.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-mexico",
-          "name": "MEXICO",
-          "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak Angus, du bacon, de la salade iceberg, du cheddar Wyke et une sauce creamy barbecue.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -137,9 +184,30 @@
           }
         },
         {
-          "id": "bnw-kentucky",
-          "name": "KENTUCKY",
-          "description": "Bun brioché bicolore (charbon végétal et classique) avec un double tender, un double cheddar Wyke, du bacon et une sauce creamy barbecue.",
+          "id": "bnw-original",
+          "name": "ORIGINAL",
+          "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak Angus, des oignons blancs, des tomates, des cornichons, de la salade iceberg, du cheddar Wyke, une sauce ketchup et une sauce white Vegan.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-mexico",
+          "name": "MEXICO",
+          "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak Angus, du bacon, de la salade iceberg, du cheddar Wyke et une sauce creamy barbecue.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -158,72 +226,9 @@
           }
         },
         {
-          "id": "bnw-black-brisket",
-          "name": "BLACK BRISKET",
-          "description": "Bun brioché bicolore (charbon végétal et classique) avec du brisket effiloché de boeuf, des oignons caramélisés, de la salade iceberg croquante, du cheddar poivré Wyke et sa mayonnaise aromatisée.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-black-garden",
-          "name": "BLACK GARDEN",
+          "id": "bnw-black-garden-veggie",
+          "name": "BLACK GARDEN (VEGGIE)",
           "description": "Bun brioché bicolore (charbon végétal et classique) avec un steak végétal, des oignons caramélisés, des tomates, de la salade iceberg, du cheddar Wyke, des cornichons et une sauce white vegan.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-wavy",
-          "name": "WAVY",
-          "description": "Bun brioché bicolore (charbon végétal et classique) avec un pavé de saumon pané, de la salade iceberg, des tomates, des oignons blancs et une sauce tartare.Une alliance parfaite entre fraîcheur et croustillant pour une expérience savoureuse.",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "present",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          }
-        },
-        {
-          "id": "bnw-black-marquise-roll",
-          "name": "BLACK & MARQUISE ROLL",
-          "description": "Un roll, renfermant 2 steaks Angus smashés, des oignons caramélisés préparés chaque matin, de la salade roquette, et du cheddar Wyke poivré. L’élément distinctif ? Sa mayonnaise aromatisée.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -310,27 +315,6 @@
           }
         },
         {
-          "id": "bnw-kiddie-smash",
-          "name": "KIDDIE SMASH",
-          "description": "Le smash adoré des enfants !",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "bnw-smash-west-coast",
           "name": "SMASH WEST COAST",
           "description": "Bun smash brioché bicolore (classique et au charbon), avec un double steak Angus smashé, du cheddar Wyke, des oignons caramélisés et une sauce West Coast.",
@@ -361,6 +345,53 @@
             "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Les kiddies",
+      "dishes": [
+        {
+          "id": "bnw-crispy-kiddie",
+          "name": "CRISPY KIDDIE",
+          "description": "Mini Bun brioché bicolore (classique et au charbon) avec des tenders croustillants, de la salade iceberg, du cheddar Wyke et une sauce burger.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-original-kiddie",
+          "name": "ORIGINAL KIDDIE",
+          "description": "Mini Bun brioché (charbon végétal et classique) avec un steak Angus, des tomates, des cornichons, de la salade iceberg, du cheddar Wyke, une sauce ketchup et une sauce white Vegan.",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "present",
@@ -528,6 +559,27 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
+        },
+        {
+          "id": "bnw-dips-siracha-mayo",
+          "name": "DIPS SIRACHA MAYO",
+          "description": "Une sauce piquante mayonnaise fondante et ultra gourmande.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         }
       ]
     },
@@ -535,62 +587,20 @@
       "category": "Les sides",
       "dishes": [
         {
-          "id": "bnw-brie-bites",
-          "name": "BRIE BITES",
-          "description": "Découvrez l’irrésistible fondant de nos Brie Bites !",
+          "id": "bnw-black-dynamites",
+          "name": "BLACK DYNAMITES",
+          "description": "Craquez pour nos Black Dynamites !",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-frites",
-          "name": "FRITES",
-          "description": "Craquez pour nos frites croustillantes !",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-patates-douces",
-          "name": "PATATES DOUCES",
-          "description": "Succombez à nos frites patates douces irrésistibles !",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -609,6 +619,27 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-nuggets",
+          "name": "NUGGETS",
+          "description": "Craquez pour nos Nuggets irrésistibles !",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -661,9 +692,9 @@
           }
         },
         {
-          "id": "bnw-cheddar-bacon-fries",
-          "name": "CHEDDAR & BACON FRIES",
-          "description": "Plongez dans le plaisir avec nos Tasty fries !",
+          "id": "bnw-frites",
+          "name": "FRITES",
+          "description": "Craquez pour nos frites croustillantes !",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -682,16 +713,16 @@
           }
         },
         {
-          "id": "bnw-nuggets",
-          "name": "NUGGETS",
-          "description": "Craquez pour nos Nuggets irrésistibles !",
+          "id": "bnw-patates-douces",
+          "name": "PATATES DOUCES",
+          "description": "Succombez à nos frites patates douces irrésistibles !",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -707,6 +738,27 @@
     {
       "category": "Les boissons",
       "dishes": [
+        {
+          "id": "bnw-limonade-pasteque",
+          "name": "LIMONADE PASTÈQUE",
+          "description": "Une boisson fraîche aux saveurs de pastèque, douce et rafraîchissante.",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
         {
           "id": "bnw-boisson-matcha",
           "name": "BOISSON MATCHA",
@@ -834,111 +886,6 @@
           }
         },
         {
-          "id": "bnw-cola-frozen",
-          "name": "COLA FROZEN",
-          "description": "Granita avec purée de cola.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-blue-lagoon-frozen",
-          "name": "BLUE LAGOON FROZEN",
-          "description": "Granita avec purée de mangue et passion bleue.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-mango-loco-frozen",
-          "name": "MANGO LOCO FROZEN",
-          "description": "Granita avec purée de mangue et de fraise.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-pink-paradise-frozen",
-          "name": "PINK PARADISE FROZEN",
-          "description": "Granita avec purée de litchi et de fraise.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-greenway-frozen",
-          "name": "GREENWAY FROZEN",
-          "description": "Granita avec purée de passion bleue, pomme et kiwi.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "bnw-milkshake",
           "name": "MILKSHAKE",
           "description": "Laissez-vous séduire par notre milkshake onctueux, une tentation irrésistible pour une pause gourmande parfaite. Personnalisez-le selon vos envies avec un délicieux coulis, le topping de votre choix… et une généreuse touche de chantilly !",
@@ -960,30 +907,9 @@
           }
         },
         {
-          "id": "bnw-kiwicolada",
-          "name": "KIWICOLADA",
-          "description": "Notre mocktail est mixé avec des glaçons et une base frappée vanille, offrant une texture entre cocktail glacé et milkshake.",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "bnw-volvic-juicy-cerise",
           "name": "VOLVIC JUICY CERISE",
-          "description": "50 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1004,7 +930,7 @@
         {
           "id": "bnw-volvic-juicy-tropical",
           "name": "VOLVIC JUICY TROPICAL",
-          "description": "50 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1025,7 +951,7 @@
         {
           "id": "bnw-pepsi",
           "name": "PEPSI",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1046,7 +972,7 @@
         {
           "id": "bnw-pepsi-2",
           "name": "PEPSI",
-          "description": "50 cl",
+          "description": "50 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1067,7 +993,7 @@
         {
           "id": "bnw-pepsi-zero-sucres",
           "name": "PEPSI ZÉRO SUCRES",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1088,7 +1014,7 @@
         {
           "id": "bnw-pepsi-zero-sucres-2",
           "name": "PEPSI ZÉRO SUCRES",
-          "description": "50 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1109,7 +1035,7 @@
         {
           "id": "bnw-pepsi-zero-sucres-mangue",
           "name": "PEPSI ZÉRO SUCRES MANGUE",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1130,7 +1056,7 @@
         {
           "id": "bnw-pepsi-cherry",
           "name": "PEPSI CHERRY",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1151,28 +1077,7 @@
         {
           "id": "bnw-pepsi-cherry-2",
           "name": "PEPSI CHERRY",
-          "description": "50 cl",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-lipton-ice-tea-petillant-peche",
-          "name": "LIPTON ICE TEA PÉTILLANT PÊCHE",
-          "description": "33 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1193,7 +1098,7 @@
         {
           "id": "bnw-lipton-ice-tea-peche",
           "name": "LIPTON ICE TEA PÊCHE",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1214,7 +1119,7 @@
         {
           "id": "bnw-lipton-ice-tea-peche-2",
           "name": "LIPTON ICE TEA PÊCHE",
-          "description": "50 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1235,7 +1140,7 @@
         {
           "id": "bnw-lipton-ice-tea-pasteque-menthe",
           "name": "LIPTON ICE TEA PASTÈQUE MENTHE",
-          "description": "33 cl",
+          "description": "33 cl A partir de 2,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1256,28 +1161,7 @@
         {
           "id": "bnw-lipton-ice-tea-pasteque-menthe-2",
           "name": "LIPTON ICE TEA PASTÈQUE MENTHE",
-          "description": "50 cl",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-7up-mojito",
-          "name": "7UP MOJITO",
-          "description": "33 cl",
+          "description": "50 cl A partir de 3,00 EUR",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1301,48 +1185,30 @@
       "category": "Les desserts",
       "dishes": [
         {
-          "id": "bnw-fluffy-cookies-3-chocolats",
-          "name": "FLUFFY COOKIES 3 CHOCOLATS",
+          "id": "bnw-mini-beignets",
+          "name": "MINI BEIGNETS",
+          "description": "Un mini beignet moelleux généreusement fourré au cœur chocolat-noisette.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
         },
         {
-          "id": "bnw-fluffy-cookies-oreo-chocolat-blanc",
-          "name": "FLUFFY COOKIES OREO & CHOCOLAT BLANC",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "bnw-fluffy-cookies-chocolat-au-lait",
-          "name": "FLUFFY COOKIES CHOCOLAT AU LAIT",
+          "id": "bnw-chuncky-brownie",
+          "name": "CHUNCKY BROWNIE",
+          "description": "Un brownie ultra fondant, généreusement garni de morceaux croquants et d’un nappage gourmand.",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1382,20 +1248,63 @@
           }
         },
         {
-          "id": "bnw-tiramisu-speculos",
-          "name": "TIRAMISU SPÉCULOS",
+          "id": "bnw-fluffy-cookies-chocolat-au-lait",
+          "name": "FLUFFY COOKIES CHOCOLAT AU LAIT",
+          "description": "A partir de 3,95 EUR",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "present",
+            "arachides": "not_declared",
             "soja": "present",
             "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-fluffy-cookies-3-chocolats",
+          "name": "FLUFFY COOKIES 3 CHOCOLATS",
+          "description": "A partir de 3,95 EUR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "bnw-fluffy-cookies-oreo-chocolat-blanc",
+          "name": "FLUFFY COOKIES OREO & CHOCOLAT BLANC",
+          "description": "A partir de 3,95 EUR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
@@ -1404,6 +1313,7 @@
         {
           "id": "bnw-tiramisu-bueno",
           "name": "TIRAMISU BUENO",
+          "description": "A partir de 3,95 EUR",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1422,21 +1332,21 @@
           }
         },
         {
-          "id": "bnw-chuncky-brownie",
-          "name": "CHUNCKY BROWNIE",
-          "description": "Un brownie ultra fondant, généreusement garni de morceaux croquants et d’un nappage gourmand.",
+          "id": "bnw-tiramisu-speculos",
+          "name": "TIRAMISU SPÉCULOS",
+          "description": "A partir de 3,95 EUR",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
             "oeufs": "present",
             "poisson": "not_declared",
-            "arachides": "not_declared",
+            "arachides": "present",
             "soja": "present",
             "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "present",
             "moutarde": "not_declared",
-            "sesame": "not_declared",
+            "sesame": "present",
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"

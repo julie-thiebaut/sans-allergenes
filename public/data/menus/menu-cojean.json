@@ -3,18 +3,18 @@
   "restaurantId": "cojean-pyramides",
   "categories": [
     {
-      "category": "NOUVEAUTÉS",
+      "category": "NOUVEAUTÉS ET PROTÉINES",
       "dishes": [
         {
-          "id": "cojean-crevette-tom-yum-legumes-sautes-nouille-de-riz",
-          "name": "Crevette tom yum, légumes sautés & nouille de riz",
+          "id": "cojean-cacio-e-pepe-au-broccolini-bacon",
+          "name": "Cacio e pepe au broccolini & bacon",
           "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
+            "gluten": "present",
+            "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -24,7 +24,73 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Crevettes aquaculture responsable, julienne de légumes sautés au piment, nouilles de riz, cébette, sauce tom yum au lait de coco."
+          "description": "Tagliatelles, broccolini, bacon crispy sans nitrite ajouté, sauce parmesan pecorino poivre noir."
+        },
+        {
+          "id": "cojean-pasta-al-gorgonzola-e-spinaci",
+          "name": "Pasta al gorgonzola e spinaci",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Chifferi rigati, épinard, noisettes hachées, sauce gorgonzola-épinard."
+        },
+        {
+          "id": "cojean-coquillette-poulet-creme",
+          "name": "Coquillette & poulet crémé",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet français, coquillettes, cheddar, champignon de Paris, oignon rissolé, sauce crémée à l'estragon & persil plat."
+        },
+        {
+          "id": "cojean-toaste-club-dinde-cheddar-curry",
+          "name": "Toasté club dinde cheddar curry",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de dinde française, cheddar rouge, tomate séchée, sauce curry dans un pain bio aux graines de sésame."
         },
         {
           "id": "cojean-saumon-creme-citron-brocolis-puree-de-pomme-de-terre",
@@ -48,29 +114,29 @@
           "description": "Saumon aquaculture responsable, brocoli rôti, purée de pomme de terre, crème citron."
         },
         {
-          "id": "cojean-taboule-au-poulet-curry-doux-yaourt-grec-citronne",
-          "name": "Taboulé au poulet curry doux & yaourt grec citronné",
+          "id": "cojean-toaste-club-poulet-comte-moutarde",
+          "name": "Toasté club poulet comté moutarde",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
             "sesame": "present",
             "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Poulet français mariné au curry doux, boulgour, patate douce, chou-fleur, pois chiche grillé Haute Valeur Environnementale, cranberry, roquette, persil, sauce yaourt grec citronnée, huile d'olive, sriracha, curry doux."
+          "description": "Poulet français, comté AOP, pousse d'épinard, sauce moutarde & champignon dans un pain bio aux graines de sésame."
         },
         {
-          "id": "cojean-red-superfood-salad",
-          "name": "Red superfood salad",
+          "id": "cojean-lentille-beluga-courge-rotie-chou-rouge-feta-grenade",
+          "name": "Lentille beluga, courge rôtie, chou rouge, feta, grenade",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -78,55 +144,63 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Lentilles beluga, butternut rôti, chou rouge, feta AOP, grenade, roquette, vinaigre de cidre, huile de noix."
+        }
+      ]
+    },
+    {
+      "category": "PLATS CHAUD ET SOUPES",
+      "dishes": [
+        {
+          "id": "cojean-lentille-verte-epinard-30cl",
+          "name": "Lentille verte épinard 30cl",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
           "tags": [
             "vegan"
           ],
-          "description": "Quinoa blanc, amarante noire & lentille verte Haute Valeur Environnementale, chou rouge, brocoli, persil, moutarde à l'ancienne, grenade & houmous de betterave."
+          "description": "Lentille verte*, épinard*, échalote*, soja cuisine. *Issu de l'agriculture biologique."
         },
         {
-          "id": "cojean-mini-saumon-mimosa-epinard",
-          "name": "Mini saumon mimosa épinard",
+          "id": "cojean-carotte-cheddar-30cl",
+          "name": "Carotte cheddar 30cl",
           "allergens": {
-            "gluten": "present",
+            "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Saumon fumé aquaculture responsable, œuf mimosa, pousses d'épinard, dans un pain brioché aux graines de pavot."
-        },
-        {
-          "id": "cojean-mini-egg-avocado",
-          "name": "Mini egg avocado",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
-            "moutarde": "present",
+            "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "not_declared",
             "lupin": "not_declared",
@@ -135,19 +209,61 @@
           "tags": [
             "vegetarien"
           ],
-          "description": "Œuf plein air façon tamago crémeux et pimenté, avocat frais, roquette dans un pain tradition bio."
+          "description": "Carotte*, pomme de terre*, cheddar, ail*, soja cuisine. *Issu de l'agirculture biologique."
         },
         {
-          "id": "cojean-perle-de-chia-figue-cassis",
-          "name": "Perle de chia figue cassis",
+          "id": "cojean-saumon-creme-citron-brocolis-puree-de-pomme-de-terre",
+          "name": "Saumon crème citron, brocolis & purée de pomme de terre",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Saumon aquaculture responsable, brocoli rôti, purée de pomme de terre, crème citron."
+        },
+        {
+          "id": "cojean-poulet-creme-champignon-polenta-noisette",
+          "name": "Poulet, crème champignon, polenta & noisette",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet français, poêlée de champignon, polenta au parmesan AOP, sauce crémée aux champignons, noisettes."
+        },
+        {
+          "id": "cojean-crevette-tom-yum-legumes-sautes-nouille-de-riz",
+          "name": "Crevette tom yum, légumes sautés & nouille de riz",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -156,14 +272,59 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "description": "Crevettes aquaculture responsable, julienne de légumes sautés au piment, nouilles de riz, cébette, sauce tom yum au lait de coco."
+        },
+        {
+          "id": "cojean-pasta-al-gorgonzola-e-spinaci",
+          "name": "Pasta al gorgonzola e spinaci",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Chifferi rigati, épinard, noisettes hachées, sauce gorgonzola-épinard."
+        },
+        {
+          "id": "cojean-curry-vert-de-legumes-riz-pilaf",
+          "name": "Curry vert de légumes & riz pilaf",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
           "tags": [
             "vegan"
           ],
-          "description": "Graine de chia Haute Valeur Environnementale & coulis cassis au lait de coco bio, figue."
+          "description": "Brocoli, edamame, pois chiche, pousse d'épinard, riz pilaf, sauce au lait de coco, curry vert et basilic thaï."
         },
         {
-          "id": "cojean-crumble-pomme-mandarine-citron-vert",
-          "name": "Crumble pomme mandarine citron vert",
+          "id": "cojean-cacio-e-pepe-au-broccolini-bacon",
+          "name": "Cacio e pepe au broccolini & bacon",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -180,10 +341,97 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "description": "Tagliatelles, broccolini, bacon crispy sans nitrite ajouté, sauce parmesan pecorino poivre noir."
+        },
+        {
+          "id": "cojean-coquillette-poulet-creme",
+          "name": "Coquillette & poulet crémé",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet français, coquillettes, cheddar, champignon de Paris, oignon rissolé, sauce crémée à l'estragon & persil plat."
+        },
+        {
+          "id": "cojean-oeufs-brouilles-cheddar-fines-herbes",
+          "name": "Œufs brouillés cheddar & fines herbes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
           "tags": [
-            "vegan"
+            "vegetarien"
           ],
-          "description": "Compotée de pomme mandarine citron vert et crumble. *produit décongelé"
+          "description": "Œufs brouillés aux œufs plein air, crème à la ciboulette, cheddar."
+        },
+        {
+          "id": "cojean-oeufs-brouilles-saumon-fines-herbes",
+          "name": "Œufs brouillés saumon & fines herbes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Œufs brouillés aux œufs plein air, saumon fumé aquaculture responsable, crème à la ciboulette."
+        },
+        {
+          "id": "cojean-oeufs-brouilles-champignons-fines-herbes",
+          "name": "Œufs brouillés champignons & fines herbes",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Œufs brouillés aux œufs plein air, champignons de Paris, crème à la ciboulette."
         }
       ]
     },
@@ -193,27 +441,6 @@
         {
           "id": "cojean-caesar",
           "name": "Caesar",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pousses d'épinard, poulet français grillé aux épices, parmesan AOP, bacon crispy sans nitrite ajouté, sauce caesar."
-        },
-        {
-          "id": "cojean-veggie-caesar",
-          "name": "Veggie Caesar",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -230,10 +457,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Pousses d'épinard, parmesan AOP, crackers, avocat, sauce caesar."
+          "description": "Pousses d'épinard, poulet français grillé aux épices, parmesan AOP, crackers, bacon crispy sans nitrite ajouté, sauce caesar."
         },
         {
           "id": "cojean-bufala-pasta-verde",
@@ -486,281 +710,6 @@
             "mollusques": "not_declared"
           },
           "description": "Rillettes de sardine, pois chiche grillé, tomate cerise."
-        }
-      ]
-    },
-    {
-      "category": "PLATS CHAUD ET SOUPES",
-      "dishes": [
-        {
-          "id": "cojean-1000-legumes-30cl",
-          "name": "1000 légumes 30cl",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Carotte*, patate douce*, fenouil*, poireau*, céleri*, échalote*, soja cuisine. *Issu de l'agriculture biologique."
-        },
-        {
-          "id": "cojean-pois-chiche-tomate-rotie-yaourt",
-          "name": "Pois chiche, tomate rôtie, yaourt",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Pois-chiche, tomate* rôtie, yaourt. *Issu de l'agriculture biologique."
-        },
-        {
-          "id": "cojean-saumon-creme-citron-brocolis-puree-de-pomme-de-terre",
-          "name": "Saumon crème citron, brocolis & purée de pomme de terre",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Saumon aquaculture responsable, brocoli rôti, purée de pomme de terre, crème citron."
-        },
-        {
-          "id": "cojean-poulet-creme-champignon-polenta-noisette",
-          "name": "Poulet, crème champignon, polenta & noisette",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "present",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Poulet français, poêlée de champignon, polenta au parmesan AOP, sauce crémée aux champignons, noisettes."
-        },
-        {
-          "id": "cojean-crevette-tom-yum-legumes-sautes-nouille-de-riz",
-          "name": "Crevette tom yum, légumes sautés & nouille de riz",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "present",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Crevettes aquaculture responsable, julienne de légumes sautés au piment, nouilles de riz, cébette, sauce tom yum au lait de coco."
-        },
-        {
-          "id": "cojean-pasta-al-gorgonzola-e-spinaci",
-          "name": "Pasta al gorgonzola e spinaci",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Chifferi rigati, épinard, noisettes hachées, sauce gorgonzola-épinard."
-        },
-        {
-          "id": "cojean-curry-vert-de-legumes-riz-pilaf",
-          "name": "Curry vert de légumes & riz pilaf",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Brocoli, edamame, pois chiche, pousse d'épinard, riz pilaf, sauce au lait de coco, curry vert et basilic thaï."
-        },
-        {
-          "id": "cojean-cacio-e-pepe-au-brocolini-bacon",
-          "name": "Cacio e pepe au brocolini & bacon",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Tagliatelles, broccolini, bacon crispy sans nitrite ajouté, sauce parmesan pecorino poivre noir."
-        },
-        {
-          "id": "cojean-coquillette-poulet-creme",
-          "name": "Coquillette & poulet crémé",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Poulet français, coquillettes, cheddar, champignon de Paris, oignon rissolé, sauce crémée à l'estragon & persil plat."
-        },
-        {
-          "id": "cojean-oeufs-brouilles-cheddar-fines-herbes",
-          "name": "Œufs brouillés cheddar & fines herbes",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Œufs brouillés aux œufs plein air, crème à la ciboulette, cheddar."
-        },
-        {
-          "id": "cojean-oeufs-brouilles-saumon-fines-herbes",
-          "name": "Œufs brouillés saumon & fines herbes",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Œufs brouillés aux œufs plein air, saumon fumé aquaculture responsable, crème à la ciboulette."
-        },
-        {
-          "id": "cojean-oeufs-brouilles-champignons-fines-herbes",
-          "name": "Œufs brouillés champignons & fines herbes",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Œufs brouillés aux œufs plein air, champignons de Paris, crème à la ciboulette."
         }
       ]
     },
@@ -1058,275 +1007,6 @@
       ]
     },
     {
-      "category": "JUS PRÉPARÉS MINUTE",
-      "dishes": [
-        {
-          "id": "cojean-after-glow",
-          "name": "After glow",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Ananas, fraise, carotte, collagène."
-        },
-        {
-          "id": "cojean-bodyguard",
-          "name": "Bodyguard",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Fraise, tomate, jus de gingembre, tabasco, huile d'olive, jus d'orange."
-        },
-        {
-          "id": "cojean-glow-elixir",
-          "name": "Glow elixir",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Cassis, banane, ube, collagène, blue ginger, jus de pomme."
-        },
-        {
-          "id": "cojean-protein-shake",
-          "name": "Protein shake",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Ananas, banane, kale, whey bio à la vanille, jus d'orange."
-        },
-        {
-          "id": "cojean-whey-to-go",
-          "name": "Whey to go",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegetarien"
-          ],
-          "description": "Fruits exotiques, lait de coco, pomme, whey bio à la vanille."
-        },
-        {
-          "id": "cojean-10h-du-soir-en-ete",
-          "name": "10h du soir en été",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Ananas, fraise, pomme ou coco."
-        },
-        {
-          "id": "cojean-le-jardin-devaste",
-          "name": "Le jardin dévasté",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Fraise, banane, kiwi, pomme ou coco."
-        },
-        {
-          "id": "cojean-red-vival",
-          "name": "Red vival",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Fraise, framboise, cassis, pomme ou coco."
-        },
-        {
-          "id": "cojean-berry-boost",
-          "name": "Berry boost",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Açaï, framboise, banane, pomme ou coco."
-        },
-        {
-          "id": "cojean-green-power",
-          "name": "Green power",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Epinard, concombre, pomme ou coco."
-        },
-        {
-          "id": "cojean-green-mango",
-          "name": "Green mango",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Epinard, mangue, ananas, gingembre, pomme ou coco."
-        }
-      ]
-    },
-    {
       "category": "DESSERTS",
       "dishes": [
         {
@@ -1391,30 +1071,6 @@
           "description": "Mélange de fruits frais coupés."
         },
         {
-          "id": "cojean-figue",
-          "name": "Figue",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "tags": [
-            "vegan"
-          ],
-          "description": "Origine : France"
-        },
-        {
           "id": "cojean-perle-de-chia-blue-moon",
           "name": "Perle de chia blue moon",
           "allergens": {
@@ -1436,11 +1092,11 @@
           "tags": [
             "vegan"
           ],
-          "description": "Graines de chia françaises du Berry au lait de coco bio, blue matcha, coulis de fraise, framboise, myrtille."
+          "description": "Graines de chia françaises du Berry au lait de coco, blue matcha, coulis de fraise, framboise, myrtille."
         },
         {
-          "id": "cojean-perle-de-chia-figue-cassis",
-          "name": "Perle de chia figue cassis",
+          "id": "cojean-perle-de-chia-matcha-mangue-passion",
+          "name": "Perle de chia matcha mangue passion",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1460,7 +1116,7 @@
           "tags": [
             "vegan"
           ],
-          "description": "Graine de chia Haute Valeur Environnementale & coulis cassis au lait de coco bio, figue."
+          "description": "Graines de chia françaises du Berry au lait de coco et matcha bio, coulis mangue passion, grenade, myrtille."
         },
         {
           "id": "cojean-crumble-poire-vanille",
@@ -1502,9 +1158,6 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "tags": [
-            "vegan"
-          ],
           "description": "Compotée de pomme mandarine citron vert et crumble. *produit décongelé"
         },
         {
@@ -2239,6 +1892,272 @@
             "vegan"
           ],
           "description": "Vegan, sans gluten et fabriquée en France."
+        }
+      ]
+    },
+    {
+      "category": "JUS PRÉPARÉS MINUTE",
+      "dishes": [
+        {
+          "id": "cojean-after-glow",
+          "name": "After glow",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Ananas, fraise, carotte, collagène."
+        },
+        {
+          "id": "cojean-bodyguard",
+          "name": "Bodyguard",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Fraise, tomate, jus de gingembre, tabasco, huile d'olive, jus d'orange."
+        },
+        {
+          "id": "cojean-glow-elixir",
+          "name": "Glow elixir",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cassis, banane, ube, collagène, blue ginger, jus de pomme."
+        },
+        {
+          "id": "cojean-protein-shake",
+          "name": "Protein shake",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Ananas, banane, kale, whey bio à la vanille, jus d'orange."
+        },
+        {
+          "id": "cojean-whey-to-go",
+          "name": "Whey to go",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegetarien"
+          ],
+          "description": "Fruits exotiques, lait de coco, pomme, whey bio à la vanille."
+        },
+        {
+          "id": "cojean-10h-du-soir-en-ete",
+          "name": "10h du soir en été",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Ananas, fraise, pomme ou coco."
+        },
+        {
+          "id": "cojean-le-jardin-devaste",
+          "name": "Le jardin dévasté",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Fraise, banane, kiwi, pomme ou coco."
+        },
+        {
+          "id": "cojean-red-vival",
+          "name": "Red vival",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Fraise, framboise, cassis, pomme ou coco."
+        },
+        {
+          "id": "cojean-berry-boost",
+          "name": "Berry boost",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Açaï, framboise, banane, pomme ou coco."
+        },
+        {
+          "id": "cojean-green-power",
+          "name": "Green power",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Epinard, concombre, pomme ou coco."
+        },
+        {
+          "id": "cojean-green-mango",
+          "name": "Green mango",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "tags": [
+            "vegan"
+          ],
+          "description": "Epinard, mangue, ananas, gingembre, pomme ou coco."
         }
       ]
     },

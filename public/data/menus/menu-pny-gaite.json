@@ -185,6 +185,28 @@
           },
           "description": "Steak haché PNY grillé à la flamme, old-fashioned melted cheddar, sliced avocado, sauce chimichurri et mayonnaise légèrement épicée",
           "price": 14.9
+        },
+        {
+          "id": "pny-gaite-baconator",
+          "name": "BACONATOR",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Double quarterpounder (2 x 113 g) de bœuf au bacon fumé old fashioned cheddar, double American cheese 4 tranches de bacon, pepper mayo",
+          "price": 18.9
         }
       ]
     },
@@ -325,7 +347,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Frites allumettes maison, pommes de terre en agriculture raisonnée",
+          "description": "Frites allumettes maison*, pommes de terre en agriculture raisonnée",
           "price": 4.9
         },
         {
@@ -347,7 +369,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Frites allumettes maison de patates douces",
+          "description": "Frites allumettes maison* de patates douces",
           "price": 5.9
         },
         {
@@ -369,7 +391,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Frites allumettes maison, cheddar 18 mois, bacon bites.",
+          "description": "Frites allumettes maison*, cheddar 18 mois, bacon bites.",
           "price": 6.9
         },
         {
@@ -719,29 +741,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "description": "IPA. La bière rafraîchissante des beaux jours de nos copains Thomas et Mike. Saveurs d'agrumes et de fruits tropicaux. Amertume franche (33 cl).",
           "price": 7.5
-        },
-        {
-          "id": "pny-gaite-45-days-organic-pilsner-to-l",
-          "name": "45 DAYS ORGANIC PILSNER - TO ØL",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Une bière blonde légère et rafraîchissante avec une amertume parfaitement contrôlée. 4,7° - 33cl",
-          "price": 7.9
         },
         {
           "id": "pny-gaite-popihn-icauna",
@@ -762,7 +763,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pale Ale. Popihn est considérée comme l'une des meilleures brasseries européennes. Tout simplement la meilleure Pale Ale que vous pourrez goûter ! 4,8°- 33 cl",
+          "description": "Pale Ale. Popihn est considérée comme l'une des meilleures brasseries européennes. Tout simplement la meilleure Pale Ale que vous pourrez goûter 4,8° (33 cl) !",
           "price": 8.9
         },
         {
@@ -784,7 +785,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Blonde IPA. Dorée avec des reflets cuivrés, cette bière révèle des arômes intenses d’agrumes et de fruits tropicaux. 33cl - 6,5°",
+          "description": "Blonde IPA. Dorée avec des reflets cuivrés, cette bière révèle des arômes intenses d’agrumes et de fruits tropicaux 6,5° (33 cl).",
           "price": 8.9
         },
         {
@@ -806,7 +807,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Un Dry Hopping qui apporte à vos papilles une poétique explosion de saveurs fruitées aussi agréables qu’inattendues.",
+          "description": "Un Dry Hopping qui apporte à vos papilles une poétique explosion de saveurs fruitées aussi agréables qu’inattendues (33 cl).",
           "price": 8.9
         }
       ]
@@ -833,7 +834,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Une Syrah épicée avec du caractère comme dans le Sud, mais toujours frais. Notes de cassis, violette et olive noire.",
+          "description": "Une Syrah épicée avec du caractère comme dans le Sud, mais toujours frais. Notes de cassis, violette et olive noire (75 cl).",
           "price": 19
         },
         {
@@ -855,29 +856,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Un rouge léger et clair comme de la grenadine : notes de fraise et framboise. La vie est belle.",
-          "price": 19
-        },
-        {
-          "id": "pny-gaite-paradis-blanc-75cl",
-          "name": "PARADIS BLANC 75CL",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Un Chardonnay élégant avec sa robe aux reflets argentés. Une fraîcheur délicate de Printemps",
+          "description": "Un rouge léger et clair comme de la grenadine : notes de fraise et framboise. La vie est belle (75 cl).",
           "price": 19
         },
         {
@@ -921,7 +900,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Un rosé corse frais et lumineux, aux notes de fruits rouges et d’agrumes. Le soleil dans un verre.",
+          "description": "Un rosé corse frais et lumineux, aux notes de fruits rouges et d’agrumes. Le soleil dans un verre (75 cl).",
           "price": 19
         },
         {
@@ -943,7 +922,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Un blanc frais frais frais. Arômes d’agrumes et de fruits blancs : ultra désaltérant.",
+          "description": "Un blanc frais frais frais. Arômes d’agrumes et de fruits blancs : ultra désaltérant (75 cl).",
           "price": 19
         },
         {

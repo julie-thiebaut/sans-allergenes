@@ -27,48 +27,6 @@
           "description": "Linguine - Jambon cuit - Grana Padano - Salade roquette"
         },
         {
-          "id": "exki-petit-taboule-truite-saumonee",
-          "name": "Petit taboulé truite saumonée",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "present",
-            "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "not_declared",
-            "fruits_a_coque": "may_contain",
-            "celeri": "present",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Taboulé - Truite saumonée fumée - Aneth"
-        },
-        {
-          "id": "exki-petite-salade-lentille",
-          "name": "Petite Salade Lentille",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Lentilles vertes - Petits pois - Artichaut"
-        },
-        {
           "id": "exki-white-energy",
           "name": "White Energy",
           "allergens": {
@@ -132,25 +90,25 @@
           "description": "Riz rouge - Houmous de carotte - Brocoli - Fèves de soja"
         },
         {
-          "id": "exki-brouillade-d-oeufs",
-          "name": "Brouillade d'oeufs",
+          "id": "exki-rigatoni-bowl",
+          "name": "Rigatoni Bowl",
           "allergens": {
-            "gluten": "may_contain",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
             "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "present",
+            "soja": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "present",
-            "sulfites": "not_declared",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Œufs brouillés - Truite saumonée fumée - Aneth"
+          "description": "Rigatoni - tomates séchées - céleri rave - champignon - carotte"
         },
         {
           "id": "exki-chicken-bowl",
@@ -174,8 +132,29 @@
           "description": "Riz sushi - Poulet rôti - Edamame - Radis - Sauce à la menthe"
         },
         {
-          "id": "exki-petite-salade-de-carottes",
-          "name": "Petite salade de carottes",
+          "id": "exki-black-sesame-energy",
+          "name": "Black Sesame Energy",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Houmous de sésame noir - Riz rouge - Pickles de légumes"
+        },
+        {
+          "id": "exki-salade-poulet-et-lentilles",
+          "name": "Salade poulet et lentilles",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
@@ -192,39 +171,81 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Carottes râpées - Vinaigrette framboise&orange - Persil"
+          "description": "Poulet - Epinards - Lentilles"
         },
         {
-          "id": "exki-green-energy",
-          "name": "Green Energy",
+          "id": "exki-petit-taboule-saumon",
+          "name": "Petit taboulé saumon",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Taboulé - Saumon - Aneth"
+        },
+        {
+          "id": "exki-brouillade-d-oeufs",
+          "name": "Brouillade d'oeufs",
+          "allergens": {
+            "gluten": "may_contain",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Oeufs - Saumon - Aneth"
+        },
+        {
+          "id": "exki-petite-salade-lentille",
+          "name": "Petite Salade Lentille",
           "allergens": {
             "gluten": "may_contain",
             "crustaces": "not_declared",
             "oeufs": "may_contain",
             "poisson": "may_contain",
             "arachides": "may_contain",
-            "soja": "present",
+            "soja": "may_contain",
             "lait": "not_declared",
             "fruits_a_coque": "may_contain",
             "celeri": "may_contain",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Houmous au basilic – Riz – Quinoa – Tomates – Poivrons – Concombres"
+          "description": "Lentilles vertes - Artichauts - Pickles de légumes"
         },
         {
-          "id": "exki-petite-salade-de-quinoa-et-concombres",
-          "name": "Petite salade de quinoa et concombres",
+          "id": "exki-salade-poulet-roti",
+          "name": "Salade poulet rôti",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -234,34 +255,13 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Quinoa – Tomates – Concombres – Radis – Coriandre"
+          "description": "Poulet roti - chou blanc - carotte - tomate confite - salade - ciboulette - vinaigrette"
         }
       ]
     },
     {
       "category": "Sandwiches",
       "dishes": [
-        {
-          "id": "exki-sandwich-mozzarella-tomates",
-          "name": "Sandwich mozzarella, tomates",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Tomates - tapenade - mozzarella"
-        },
         {
           "id": "exki-sandwich-brie",
           "name": "Sandwich Brie",
@@ -284,16 +284,16 @@
           "description": "Flûte aux raisins et noix - Brie"
         },
         {
-          "id": "exki-sandwich-americain",
-          "name": "Sandwich Americain",
+          "id": "exki-sandwich-mozzarella-tomates-sechees",
+          "name": "Sandwich mozzarella-tomates séchées",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
@@ -301,8 +301,7 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "description": "Baguette - Tartare de bœuf - Salade frisée"
+          }
         },
         {
           "id": "exki-sandwich-jambon-mozzarella",
@@ -347,90 +346,6 @@
           "description": "Pain moelleux - Oeuf mimosa"
         },
         {
-          "id": "exki-bagel-truite-fumee",
-          "name": "Bagel truite fumée",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Bagel au quinoa - Truite saumonée - Fromage blanc - Epinard - Aneth - Persil"
-        },
-        {
-          "id": "exki-bagel-oeufs-brouilles",
-          "name": "Bagel oeufs brouillés",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Bagel au quinoa - Œufs brouillés - Poivrons confits - Epinards"
-        },
-        {
-          "id": "exki-sandwich-kimchi-miso",
-          "name": "Sandwich kimchi miso",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Houmous au miso blanc – Fenouil – Aneth - Roquette"
-        },
-        {
-          "id": "exki-sandwich-effiloche-de-poulet-curry-madras",
-          "name": "Sandwich effiloché de poulet curry madras",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Baguette - Poulet curry Madras - Salade"
-        },
-        {
           "id": "exki-sandwich-poulet-roquette",
           "name": "Sandwich poulet roquette",
           "allergens": {
@@ -449,6 +364,132 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
+        },
+        {
+          "id": "exki-sandwich-americain",
+          "name": "Sandwich américain",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Baguette - Tartare de bœuf - Mâche"
+        },
+        {
+          "id": "exki-sandwich-poulet-moutarde",
+          "name": "Sandwich poulet moutarde",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Baguette - Poulet - Sauce moutarde"
+        },
+        {
+          "id": "exki-sandwich-jambon",
+          "name": "Sandwich jambon",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jambon - Pesto - Roquette"
+        },
+        {
+          "id": "exki-sandwich-mozzarella",
+          "name": "Sandwich mozzarella",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomate séchée - Mozzarella"
+        },
+        {
+          "id": "exki-sandwich-poulet",
+          "name": "Sandwich poulet",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet - Moutarde - Mâche"
+        },
+        {
+          "id": "exki-bagel-saumon",
+          "name": "Bagel saumon",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bagel - Saumon - Salsa falsa aux edamame"
         }
       ]
     },
@@ -475,27 +516,6 @@
             "mollusques": "not_declared"
           },
           "description": "Emmental - Mozzarella - Lardon fumé - Jambon cuit"
-        },
-        {
-          "id": "exki-quiche-courgette-saumon",
-          "name": "Quiche courgette-saumon",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Courgette - Crème - Saumon"
         },
         {
           "id": "exki-quiche-brie-epinard",
@@ -540,27 +560,6 @@
           "description": "Poulet - Carotte - Poivron rouge"
         },
         {
-          "id": "exki-riz-a-l-orientale-falafels",
-          "name": "Riz à l'orientale falafels",
-          "allergens": {
-            "gluten": "may_contain",
-            "crustaces": "not_declared",
-            "oeufs": "may_contain",
-            "poisson": "may_contain",
-            "arachides": "may_contain",
-            "soja": "may_contain",
-            "lait": "not_declared",
-            "fruits_a_coque": "may_contain",
-            "celeri": "may_contain",
-            "moutarde": "may_contain",
-            "sesame": "may_contain",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Riz - Falafel - Compotée d'aubergine à l'orientale"
-        },
-        {
           "id": "exki-soupe-tomate-mascarpone",
           "name": "Soupe tomate mascarpone",
           "allergens": {
@@ -580,6 +579,26 @@
             "mollusques": "not_declared"
           },
           "description": "Concentré de tomate - Mascarpone"
+        },
+        {
+          "id": "exki-soupe-poireau-et-pois-casse",
+          "name": "Soupe poireau et pois cassé",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         },
         {
           "id": "exki-tortellini-citron",
@@ -687,8 +706,69 @@
           "description": "Thon - Tomates - Olives"
         },
         {
-          "id": "exki-bol-soupe-de-courgette",
-          "name": "Bol Soupe de courgette",
+          "id": "exki-soupe-butternut",
+          "name": "Soupe butternut",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "present",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "exki-quiche-saumon-brocoli",
+          "name": "Quiche saumon brocoli",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "exki-poulet-curry",
+          "name": "Poulet curry",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "may_contain",
+            "lait": "not_declared",
+            "fruits_a_coque": "may_contain",
+            "celeri": "present",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet - Riz rouge - Carotte jaune - Sauce curry rouge"
+        },
+        {
+          "id": "exki-soupe-tom-kha-epicee",
+          "name": "Soupe Tom Kha épicée",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -705,19 +785,19 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Courgettes – Poireaux – Pommes de terre"
+          "description": "Curry rouge - Lait de coco - Mix wok"
         },
         {
-          "id": "exki-risotto-aux-asperges-et-petits-pois",
-          "name": "Risotto aux asperges et petits pois",
+          "id": "exki-soupe-au-cerfeuil",
+          "name": "Soupe au cerfeuil",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "present",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "present",
             "moutarde": "not_declared",
@@ -725,8 +805,7 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          },
-          "description": "Riz - Asperges - Courgettes - Petits pois - Gran Gusto"
+          }
         }
       ]
     },
@@ -940,6 +1019,26 @@
           "description": "Banane - Cerneaux de noix"
         },
         {
+          "id": "exki-mousse-au-chocolat",
+          "name": "Mousse au chocolat",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "exki-cake-marbre",
           "name": "Cake Marbré",
           "allergens": {
@@ -1107,6 +1206,26 @@
           "description": "Brassé végétal à la mangue et lait de coco - Granola coco"
         },
         {
+          "id": "exki-tarte-prune",
+          "name": "Tarte prune",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "exki-muffin-myrtille",
           "name": "Muffin myrtille",
           "allergens": {
@@ -1148,17 +1267,37 @@
           }
         },
         {
-          "id": "exki-compote-rhubarbe",
-          "name": "Compote rhubarbe",
+          "id": "exki-banane-bresilienne",
+          "name": "Banane brésilienne",
           "allergens": {
-            "gluten": "not_declared",
+            "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "exki-scone",
+          "name": "Scone",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -1166,7 +1305,49 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Rhubarbe - Fruits rouges - Graines de courge"
+          "description": "Noix - Raisins"
+        },
+        {
+          "id": "exki-skyr-poire-speculoos",
+          "name": "Skyr poire speculoos",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "may_contain",
+            "poisson": "may_contain",
+            "arachides": "may_contain",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "may_contain",
+            "moutarde": "may_contain",
+            "sesame": "may_contain",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Skyr - Spéculoos - Poire"
+        },
+        {
+          "id": "exki-tarte-tiramisu-speculoos",
+          "name": "Tarte tiramisu speculoos",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mascarpone - Spéculoos - Café"
         }
       ]
     },
@@ -1500,6 +1681,66 @@
             "mollusques": "not_declared"
           },
           "description": "Shot Gingembre - Citron"
+        },
+        {
+          "id": "exki-vitao-green-tea",
+          "name": "Vitao Green Tea",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "exki-vitao-white-tea",
+          "name": "Vitao White Tea",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "exki-spa-pomme-cerise",
+          "name": "Spa pomme cerise",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
         }
       ]
     }

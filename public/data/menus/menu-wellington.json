@@ -182,7 +182,7 @@
             "mollusques": "not_declared"
           },
           "description": "Puff pastry pie served with green salad. Minced beef and cheese.",
-          "price": 12
+          "price": 12.5
         },
         {
           "id": "wellington-new-zealand-pies-creamy-chicken-pie",
@@ -204,7 +204,7 @@
             "mollusques": "not_declared"
           },
           "description": "Puff pastry pie served with green salad. Creamy chicken, mushroom and bacon.",
-          "price": 12
+          "price": 12.5
         },
         {
           "id": "wellington-new-zealand-pies-vegetarian-pie",

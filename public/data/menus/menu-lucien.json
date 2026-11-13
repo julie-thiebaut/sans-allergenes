@@ -484,8 +484,8 @@
           "price": 29
         },
         {
-          "id": "lucien-vins-rouges-chateau-des-places",
-          "name": "Château des Places",
+          "id": "lucien-vins-rouges-daccordo-di-dacci",
+          "name": "Daccordo di Dacci",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -502,30 +502,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Merlot, Cabernet Sauvignon - Graves Format : 8 / 35 €.",
+          "description": "Barbera d'Asti - Piémont Format : 8 / 45 €.",
           "price": 8
-        },
-        {
-          "id": "lucien-vins-rouges-dalton-estate",
-          "name": "Dalton Estate",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Cabernet Sauvignon - Galilée, Israël Format : 9 / 42 €.",
-          "price": 9
         },
         {
           "id": "lucien-vins-rouges-poggio-chianti-riserva",
@@ -546,8 +524,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sangiovese - Toscane Format : 10 / 54 €.",
-          "price": 10
+          "description": "Sangiovese - Toscane Format : 9 / 54 €.",
+          "price": 9
         },
         {
           "id": "lucien-vins-rouges-har-odem-forest",
@@ -572,6 +550,28 @@
           "price": 10
         },
         {
+          "id": "lucien-vins-rouges-cascina-perrone",
+          "name": "Cascina Perrone",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nebbiolo - Piémont, bouteille uniquement",
+          "price": 54
+        },
+        {
           "id": "lucien-vins-rouges-chateau-marquisat-de-binet",
           "name": "Château Marquisat de Binet",
           "allergens": {
@@ -591,7 +591,7 @@
             "mollusques": "not_declared"
           },
           "description": "Cuvée Abel, Merlot - Montagne-Saint-Émilion, bouteille uniquement",
-          "price": 58
+          "price": 62
         }
       ]
     },
@@ -621,6 +621,28 @@
           "price": 8
         },
         {
+          "id": "lucien-vins-blancs-cantina-leuci",
+          "name": "Cantina Leuci",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pinot Grigio - Italie Format : 9 / 44 €.",
+          "price": 9
+        },
+        {
           "id": "lucien-vins-blancs-har-odem-forest",
           "name": "Har Odem Forest",
           "allergens": {
@@ -648,8 +670,8 @@
       "category": "Vins rosés",
       "dishes": [
         {
-          "id": "lucien-vins-roses-eclat-de-diamant",
-          "name": "Éclat de Diamant",
+          "id": "lucien-vins-roses-contessa-annalisa",
+          "name": "Contessa Annalisa",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -666,7 +688,34 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Format : 7 / 31 €.",
+          "description": "Italie Format : 8 / 34 €.",
+          "price": 8
+        }
+      ]
+    },
+    {
+      "category": "Vins pétillants",
+      "dishes": [
+        {
+          "id": "lucien-vins-petillants-prosecco-dacci",
+          "name": "Prosecco Dacci",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Prosecco - Italie Format : 7 / 34 €.",
           "price": 7
         }
       ]

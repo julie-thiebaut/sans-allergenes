@@ -424,28 +424,6 @@
       "category": "La pâtisserie",
       "dishes": [
         {
-          "id": "noglu-tartelette-crumble-fruits-rouges",
-          "name": "Tartelette crumble fruits rouges",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Laissez-vous tenter par notre tarte généreusement garnie d'un cœur fondant de fruits rouges acidulés, surmontée d'un crumble d'or intensément craquant. Sans lactose",
-          "price": 7.2
-        },
-        {
           "id": "noglu-roule-canelle",
           "name": "Roulé Canelle",
           "allergens": {
@@ -466,28 +444,6 @@
           },
           "description": "Un roulé qui combine de la pâte chaude, de la cannelle et un g laçage au Philadelphia.",
           "price": 5.5
-        },
-        {
-          "id": "noglu-tartelette-fruits-rouges",
-          "name": "Tartelette fruits rouges",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Une tartelette à la pâte sablée croustillante, garnie d'une onctueuse crème pâtissière à l'amande et recouverte de fraises, framboises et myrtille juteuses et colorées.",
-          "price": 7.2
         },
         {
           "id": "noglu-donut-nappage-chocolat-et-caramel",
@@ -534,28 +490,6 @@
           "price": 5.5
         },
         {
-          "id": "noglu-donut-cassis",
-          "name": "Donut Cassis",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Donuts cassis Sans lactose. Allergènes : oeuf",
-          "price": 5
-        },
-        {
           "id": "noglu-tartelette-framboise",
           "name": "Tartelette framboise",
           "allergens": {
@@ -576,28 +510,6 @@
           },
           "description": "Fond d'amande onctueux, crème pâtissière légère et framboises entières",
           "price": 7.2
-        },
-        {
-          "id": "noglu-eclair-framboise-hibiscus",
-          "name": "Éclair Framboise Hibiscus",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Une pâte à choux croustillante accompagnée d'une onctueuse framboise hibiscus.",
-          "price": 7.8
         },
         {
           "id": "noglu-cannele",
@@ -999,6 +911,28 @@
       "category": "Les Gâteaux & Tartes",
       "dishes": [
         {
+          "id": "noglu-tarte-noix-de-pecan",
+          "name": "Tarte Noix de Pécan",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Une crème d'amandes sublimée de pécan sur une pâte sablée croustillante",
+          "price": 37
+        },
+        {
           "id": "noglu-cake-au-citron",
           "name": "Cake au citron",
           "allergens": {
@@ -1021,72 +955,6 @@
           "price": 32
         },
         {
-          "id": "noglu-tarte-crumble-fruits-rouges",
-          "name": "Tarte Crumble fruits rouges",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Laissez-vous tenter par notre tarte généreusement garnie d'un cœur fondant de fruits rouges acidulés, surmontée d'un crumble d'or intensément craquant. Sans lactose",
-          "price": 35
-        },
-        {
-          "id": "noglu-layer-cake-fraises",
-          "name": "Layer Cake Fraises",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Trois génoises chocolat séparées par une onctueuse et légère chantilly sans lactose offrant des petits morceaux de fraises pour encore plus de goût! La chantilly recouvre également le cake le rendant moelleux et gourmand",
-          "price": 42
-        },
-        {
-          "id": "noglu-tarte-aux-fruits-rouges",
-          "name": "Tarte aux fruits rouges",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "not_declared",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Les beaux jours arrivent ! Pour passer un doux printemps, cette tarte rythmera votre saison. Sur un fond de pâte sablée croustillante garnie de crème d'amande et crème pâtissière, se posent de délicieuses fraises, frambo",
-          "price": 35
-        },
-        {
           "id": "noglu-layer-cake-chocolat",
           "name": "Layer Cake chocolat",
           "allergens": {
@@ -1107,28 +975,6 @@
           },
           "description": "Laissez-vous tenter par notre Layer Cake tout chocolat qui allie à la fois légèreté et gourmandise dans une recette entièrement sans lactose. Ce gâteau à étages se compose d'une génoise aérienne et moelleuse garnie d'une",
           "price": 42
-        },
-        {
-          "id": "noglu-fraisier",
-          "name": "Fraisier",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Fraisier sans lactose Allergènes : oeufs, soja",
-          "price": 8.5
         },
         {
           "id": "noglu-moelleux-vegan-coco-framboise",
@@ -1355,6 +1201,28 @@
       "category": "Plats & accompagnement",
       "dishes": [
         {
+          "id": "noglu-burger-montreal",
+          "name": "Burger Montreal",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Burger sans gluten composé d'un steak de bœuf, de cheddar, compote d'oignons, sirop d'érable, bacon, laitue, mayonnaise, pickles de concombres. Servi accompagné de frites maison et d'une salade.",
+          "price": 21
+        },
+        {
           "id": "noglu-portion-de-frites",
           "name": "Portion de frites",
           "allergens": {
@@ -1397,28 +1265,6 @@
           },
           "description": "tomates fraîches, basilic, roquette &amp; parmesan",
           "price": 17
-        },
-        {
-          "id": "noglu-assiette-italienne",
-          "name": "Assiette Italienne",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Salade de roquette, tomates fraîches, mozzarella di buffala AOP, pistou &amp; pain toasté",
-          "price": 16
         },
         {
           "id": "noglu-bagel-saumon",
@@ -1483,8 +1329,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Une part de quiche maison sans gluten. Deux quiches proposées pour plaire à tous les goûts : lorraine, poireaux (sans lactose). Accompagnée d'une salade.",
-          "price": 18
+          "description": "Une part de quiche maison sans gluten. Deux quiches proposées pour plaire à tous les goûts : lorraine, épinards/champignons (sans lactose). Accompagnée d'une salade.",
+          "price": 16
         },
         {
           "id": "noglu-croque-monsieur",
@@ -1531,28 +1377,6 @@
           "price": 16
         },
         {
-          "id": "noglu-pizza-vegetarienne",
-          "name": "Pizza végétarienne",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "La pizza marguerita, un classique à la tomate et mozzarella, accompagné de roquettes.",
-          "price": 17
-        },
-        {
           "id": "noglu-burger-classique",
           "name": "Burger classique",
           "allergens": {
@@ -1571,7 +1395,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Notre traditionnel burger sans gluten composé d'un steak de boeuf, de cheddar, tomate, laitue et de mayonnaise maison. Servi accompagné de frites maison et d'une salade.",
+          "description": "Notre traditionnel burger sans gluten composé d'un steak de bœuf et de cheddar. Servi accompagné de frites maison et d'une salade.",
           "price": 20
         }
       ]

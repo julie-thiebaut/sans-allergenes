@@ -3,181 +3,6 @@
   "restaurantId": "maison-pradier-75016",
   "categories": [
     {
-      "category": "Traiteur",
-      "dishes": [
-        {
-          "id": "pradier-traiteur-feuillete-cabecou-potimarron-et-romarin",
-          "name": "Feuilleté Cabécou, Potimarron et Romarin",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pâte feuilletée, cabecou, potimarron, romarin, crème fraîche, graine courge, 5 baies."
-        },
-        {
-          "id": "pradier-traiteur-feuillete-tartiflette",
-          "name": "Feuilleté Tartiflette",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pâte feuilletée, écrasé de pomme de terre, reblochon AOP, poitrine fumée, crème fraiche, 5 baies."
-        },
-        {
-          "id": "pradier-traiteur-croque-monsieur",
-          "name": "Croque-monsieur",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Préparation béchamel, eau, mélange 5 baies, muscade, bruschetta, jambon, comté, mélange 5 baies."
-        },
-        {
-          "id": "pradier-traiteur-quiche-chevre-epinard",
-          "name": "Quiche chèvre épinard",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Épinards et chèvre fondant."
-        },
-        {
-          "id": "pradier-traiteur-quiche-lorraine",
-          "name": "Quiche lorraine",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Pâte brisée au beurre, appareil aux œufs et à la crème d’Isigny, lardons fumés, comté."
-        }
-      ]
-    },
-    {
-      "category": "À partager",
-      "dishes": [
-        {
-          "id": "pradier-a-partager-flan-entier-praline",
-          "name": "Flan entier Praliné",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pradier-a-partager-flan-entier-vanille",
-          "name": "Flan entier Vanille",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "pradier-a-partager-flan-entier-pistache",
-          "name": "Flan entier Pistache",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        }
-      ]
-    },
-    {
       "category": "Sandwichs",
       "dishes": [
         {
@@ -414,11 +239,11 @@
       ]
     },
     {
-      "category": "Idées Cadeaux",
+      "category": "Plats",
       "dishes": [
         {
-          "id": "pradier-idees-cadeaux-coffret-de-15-rochers",
-          "name": "Coffret de 15 Rochers",
+          "id": "pradier-plats-chauds-salade-bol-lentille-et-potimarron",
+          "name": "Salade Bol Lentille et Potimarron",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -435,11 +260,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Chocolat noir praliné noisettes, chocolat au lait praliné noisettes, chocolat blanc praliné amandes, chocolat blanc caramélisé ganache amères."
+          "description": "Lentilles, potimarron, tartinade courge, cream cheese, carotte, pickles carotte, roquette, huile olive, persil, graine courge, 5 baies."
         },
         {
-          "id": "pradier-idees-cadeaux-coffret-de-15-palets",
-          "name": "Coffret de 15 Palets",
+          "id": "pradier-plats-chauds-rigatoni-saumon-et-aneth",
+          "name": "Rigatoni Saumon et Aneth",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -456,11 +281,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Chocolat blanc caramélisé, ganache au cacao d’Equateur, chocolat noir 70% ganache au cacao du Vénézuéla, chocolat blanc, ganache au cacao de Sao Tomé, chocolat au lait, ganache au cacao de Saint Domingue."
+          "description": "Rigatoni, saumon fumé à chaud, crème fraîche, aneth, citron, huile d'olive, sel, 5 baies."
         },
         {
-          "id": "pradier-idees-cadeaux-coffret-de-8-canneles",
-          "name": "Coffret de 8 cannelés",
+          "id": "pradier-plats-chauds-risotto-champignon",
+          "name": "Risotto Champignon",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -477,7 +302,243 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Huit cannelés au croquant caramélisé."
+          "description": "Risotto, champignon de Paris, épinard, crème fraîche, parmesan, citron, huile olive, persil, 5 baies."
+        },
+        {
+          "id": "pradier-plats-chauds-blanquette-de-volaille",
+          "name": "Blanquette de Volaille",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Riz, volaille, sauce blanquette, carotte, oignon grelot, poivre."
+        },
+        {
+          "id": "pradier-plats-chauds-salade-verrine-boulgour-et-crevette",
+          "name": "Salade Verrine Boulgour et Crevette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Boulgour, crevette, pickles carotte, mayonnaise, roquette, huile olive, ciboulette, citron, sel, 5 baies."
+        },
+        {
+          "id": "pradier-plats-chauds-salade-verrine-quinoa-et-potimarron",
+          "name": "Salade Verrine Quinoa et Potimarron",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Quinoa, tartinade courge, cream cheese, pousse épinard, pickles carotte, graine courge, ciboulette, citron, huile d'olive, sel, 5 baies."
+        },
+        {
+          "id": "pradier-plats-chauds-coquillette-jambon-et-truffe",
+          "name": "Coquillette Jambon et Truffe",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Coquillette, jambon, sauce Tartufata* 5%, emmental, crème fraîche, sel, 5 baies. *Tuber Aestivum Vittadini."
+        },
+        {
+          "id": "pradier-plats-chauds-salade-bol-truite-des-pyrenees-boulgour",
+          "name": "Salade bol Truite des Pyrénées, boulgour",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Salade romaine, boulgour, épinard, truite fumée, pamplemousse, pistache, tomates marinées, ciboulette, jus de citron, fromage frais, miel, mélanges 5 baies."
+        },
+        {
+          "id": "pradier-plats-chauds-grande-salade-cesar",
+          "name": "Grande Salade César",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Romaine coupée, tomate, œuf dur, filet poulet cuit pané, tomate cerise, sauce César, parmesan copeaux, croutons, capres capotes, persil frais, mélange 5 baies."
+        }
+      ]
+    },
+    {
+      "category": "Traiteur",
+      "dishes": [
+        {
+          "id": "pradier-traiteur-feuillete-cabecou-potimarron-et-romarin",
+          "name": "Feuilleté Cabécou, Potimarron et Romarin",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâte feuilletée, cabecou, potimarron, romarin, crème fraîche, graine courge, 5 baies."
+        },
+        {
+          "id": "pradier-traiteur-feuillete-tartiflette",
+          "name": "Feuilleté Tartiflette",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâte feuilletée, écrasé de pomme de terre, reblochon AOP, poitrine fumée, crème fraiche, 5 baies."
+        },
+        {
+          "id": "pradier-traiteur-croque-monsieur",
+          "name": "Croque-monsieur",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Préparation béchamel, eau, mélange 5 baies, muscade, bruschetta, jambon, comté, mélange 5 baies."
+        },
+        {
+          "id": "pradier-traiteur-quiche-chevre-epinard",
+          "name": "Quiche chèvre épinard",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Épinards et chèvre fondant."
+        },
+        {
+          "id": "pradier-traiteur-quiche-lorraine",
+          "name": "Quiche lorraine",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pâte brisée au beurre, appareil aux œufs et à la crème d’Isigny, lardons fumés, comté."
         }
       ]
     },
@@ -605,200 +666,6 @@
             "mollusques": "not_declared"
           },
           "description": "Pomme de terre, huile de tournesol, sel."
-        }
-      ]
-    },
-    {
-      "category": "Plats",
-      "dishes": [
-        {
-          "id": "pradier-plats-chauds-salade-bol-lentille-et-potimarron",
-          "name": "Salade Bol Lentille et Potimarron",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Lentilles, potimarron, tartinade courge, cream cheese, carotte, pickles carotte, roquette, huile olive, persil, graine courge, 5 baies ;."
-        },
-        {
-          "id": "pradier-plats-chauds-rigatoni-saumon-et-aneth",
-          "name": "Rigatoni Saumon et Aneth",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Rigatoni, saumon fumé à chaud, crème fraîche, aneth, citron, huile d'olive, sel, 5 baies."
-        },
-        {
-          "id": "pradier-plats-chauds-risotto-champignon",
-          "name": "Risotto Champignon",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Un plat chaud incontournable : le risotto aux champignons. Le riz est cuisiné avec des champignons pour révéler des notes boisées et savoureuses. Le parmesan vient fondre délicatement dans la préparation, apportant une texture crémeuse."
-        },
-        {
-          "id": "pradier-plats-chauds-blanquette-de-volaille",
-          "name": "Blanquette de Volaille",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Riz, volaille, sauce blanquette, carotte, oignon grelot, poivre."
-        },
-        {
-          "id": "pradier-plats-chauds-salade-verrine-boulgour-et-crevette",
-          "name": "Salade Verrine Boulgour et Crevette",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Boulgour, crevette, pickles carotte, mayonnaise, roquette, huile olive, ciboulette, citron, sel, 5 baies."
-        },
-        {
-          "id": "pradier-plats-chauds-salade-verrine-quinoa-et-potimarron",
-          "name": "Salade Verrine Quinoa et Potimarron",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Quinoa, tartinade courge, cream cheese, pousse épinard, pickles carotte, graine courge, ciboulette, citron, huile d'olive, sel, 5 baies."
-        },
-        {
-          "id": "pradier-plats-chauds-coquillette-jambon-et-truffe",
-          "name": "Coquillette Jambon et Truffe",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Coquillette, jambon, sauce Tartufata* 5%, emmental, crème fraîche, sel, 5 baies. *Tuber Aestivum Vittadini."
-        },
-        {
-          "id": "pradier-plats-chauds-salade-bol-truite-des-pyrenees-boulgour",
-          "name": "Salade bol Truite des Pyrénées, boulgour",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Salade romaine, boulgour, épinard, truite fumée, pamplemousse, pistache, tomates marinées, ciboulette, jus de citron, fromage frais, miel, mélanges 5 baies."
-        },
-        {
-          "id": "pradier-plats-chauds-grande-salade-cesar",
-          "name": "Grande Salade César",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Romaine coupée, tomate, œuf dur, filet poulet cuit pané, tomate cerise, sauce César, parmesan copeaux, croutons, capres capotes, persil frais, mélange 5 baies."
         }
       ]
     },
@@ -1008,27 +875,6 @@
             "mollusques": "not_declared"
           },
           "description": "Crumble, crème noisette, nocciolata, noisettes."
-        },
-        {
-          "id": "pradier-patisseries-madeleine-octobre-rose",
-          "name": "Madeleine Octobre Rose",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Madeleine Vanille, compotée fruits rouges."
         },
         {
           "id": "pradier-patisseries-madeleine-pate-a-tartiner-noisette",
@@ -1665,7 +1511,7 @@
       "dishes": [
         {
           "id": "pradier-macarons-macaron-chocolat-passion",
-          "name": "Macaron – Chocolat passion",
+          "name": "Macaron Chocolat passion",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1876,6 +1722,97 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Idées Cadeaux",
+      "dishes": [
+        {
+          "id": "pradier-idees-cadeaux-coffret-de-8-canneles",
+          "name": "Coffret de 8 cannelés",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Huit cannelés au croquant caramélisé."
+        }
+      ]
+    },
+    {
+      "category": "À partager",
+      "dishes": [
+        {
+          "id": "pradier-a-partager-flan-entier-praline",
+          "name": "Flan entier Praliné",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pradier-a-partager-flan-entier-vanille",
+          "name": "Flan entier Vanille",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "pradier-a-partager-flan-entier-pistache",
+          "name": "Flan entier Pistache",
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "present",
             "celeri": "not_declared",

@@ -6,9 +6,9 @@
       "category": "Carte Restaurant - Les Huîtres et les Fruits de mer",
       "dishes": [
         {
-          "id": "zenchef-718376-pleine-mer-de-bretagne-n-1-les-6",
-          "name": "Pleine mer de Bretagne n°1, les 6",
-          "price": 23.4,
+          "id": "zenchef-697300-fine-de-claire-n-2-les-6",
+          "name": "Fine de Claire n°2, les 6",
+          "price": 24.6,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -27,9 +27,9 @@
           }
         },
         {
-          "id": "zenchef-718377-pleine-mer-de-bretagne-n-3-les-6",
-          "name": "Pleine mer de Bretagne n°3, les 6",
-          "price": 22.2,
+          "id": "zenchef-718375-fine-de-claire-n-4-les-6",
+          "name": "Fine de Claire n°4, les 6",
+          "price": 20.4,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -90,9 +90,9 @@
           }
         },
         {
-          "id": "zenchef-718378-speciale-gillardeau-n-3-les-6",
-          "name": "Spéciale Gillardeau n°3, les 6",
-          "price": 33,
+          "id": "zenchef-718379-speciale-gillardeau-papillon-les-6",
+          "name": "Spéciale Gillardeau Papillon, les 6",
+          "price": 28.2,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -111,9 +111,51 @@
           }
         },
         {
-          "id": "zenchef-718379-speciale-gillardeau-papillon-les-6",
-          "name": "Spéciale Gillardeau Papillon, les 6",
-          "price": 26.4,
+          "id": "zenchef-718378-speciale-gillardeau-n-3-les-6",
+          "name": "Spéciale Gillardeau n°3, les 6",
+          "price": 34.2,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "zenchef-718376-pleine-mer-de-bretagne-n-1-les-6",
+          "name": "Pleine mer de Bretagne n°1, les 6",
+          "price": 23.4,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "zenchef-718377-pleine-mer-de-bretagne-n-3-les-6",
+          "name": "Pleine mer de Bretagne n°3, les 6",
+          "price": 22.2,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -135,48 +177,6 @@
           "id": "zenchef-718380-belon-00-l-unite",
           "name": "Belon 00, l'unité",
           "price": 8,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          }
-        },
-        {
-          "id": "zenchef-697300-fine-de-claire-n-2-les-6",
-          "name": "Fine de Claire n°2, les 6",
-          "price": 24.6,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "present"
-          }
-        },
-        {
-          "id": "zenchef-718375-fine-de-claire-n-4-les-6",
-          "name": "Fine de Claire n°4, les 6",
-          "price": 20.4,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -279,6 +279,27 @@
           }
         },
         {
+          "id": "zenchef-718386-oursin",
+          "name": "Oursin",
+          "price": 9.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "present",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "zenchef-718384-crevettes-roses-de-madagascar-bio",
           "name": "Crevettes roses de Madagascar Bio",
           "price": 23,
@@ -345,7 +366,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "1/2 tourteau -2 spéciale Gillardeau n°3- 2 Fine de Claire n°4 - - 2 Pleine Mer de Bretagne n°3 - 2 crevettes de Madagascar - Bulots"
+          "description": "1/2 tourteau -2 spéciale Utah n°3- 2 Fine de Claire n°4 - 2 Pleine Mer de Bretagne n°3 - 2 crevettes de Madagascar - Bulots"
         },
         {
           "id": "zenchef-810646-plateau-closerie-des-lilas",
@@ -367,7 +388,7 @@
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "description": "1/2 tourteau-2 langoustines- 4 Fine de Claire n°4 - 2 Fine de Claire n°2 - 4 Pleine Mer de Bretagne n°3 - 2 crevettes de Madagascar - Bulots - Crevettes grises"
+          "description": "1/2 tourteau-2 langoustines- 3 Spéciale Utah n°3 -2 Fine de Claire n°2 - 2 Fine de Claire n°4 - 2 Pleine Mer de Bretagne n°3 - 2 crevettes de Madagascar - Bulots - Crevettes grises"
         },
         {
           "id": "zenchef-900417-plateau-royal-closerie",
@@ -419,9 +440,9 @@
       "category": "Carte Restaurant - Entrées",
       "dishes": [
         {
-          "id": "zenchef-718421-tartelette-de-tomates-de-plein-champ-crues-et-cuites-scamorz",
-          "name": "Tartelette de tomates de plein champ crues et cuites, scamorza fumée au foin, truffe noire",
-          "price": 33,
+          "id": "zenchef-718421-tarte-fine-aux-cepes-et-figue-rotie-jambon-serrano",
+          "name": "Tarte fine aux cèpes et figue rôtie, jambon Serrano",
+          "price": 32,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "present",
@@ -440,8 +461,8 @@
           }
         },
         {
-          "id": "zenchef-718420-chair-d-araignee-de-la-baie-de-saint-malo-au-raifort-gaspach",
-          "name": "Chair d'araignée de la baie de Saint-Malo au raifort, gaspacho de pêche à la verveine",
+          "id": "zenchef-718420-tartare-de-thon-rouge-avocat-caviar-francais-et-condiment-ci",
+          "name": "Tartare de thon rouge, avocat, caviar français et condiment citron",
           "price": 34,
           "allergens": {
             "gluten": "not_declared",
@@ -550,8 +571,8 @@
       "category": "Carte Restaurant - Poissons",
       "dishes": [
         {
-          "id": "zenchef-973798-fricassee-de-homard-facon-thermidor-risotto-de-fregola-sarda",
-          "name": "Fricassée de homard façon Thermidor, risotto de Fregola Sarda, truffe noire",
+          "id": "zenchef-973798-fricassee-de-homard-topinambours-et-chou-vert-jus-de-crustac",
+          "name": "Fricassée de homard, topinambours et chou vert, jus de crustacés",
           "price": 60,
           "allergens": {
             "gluten": "not_declared",
@@ -571,16 +592,16 @@
           }
         },
         {
-          "id": "zenchef-718426-thon-rouge-a-la-plancha-fricassee-de-courgette-et-sa-fleur-c",
-          "name": "Thon rouge à la plancha, fricassée de courgette et sa fleur, condiment fraise piment",
-          "price": 56,
+          "id": "zenchef-718425-sole-belle-meuniere-poelee-de-legumes",
+          "name": "Sole Belle Meunière, poêlée de légumes",
+          "price": 65,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -592,16 +613,16 @@
           }
         },
         {
-          "id": "zenchef-718425-sole-belle-meuniere-legumes-de-saison",
-          "name": "Sole Belle Meunière, légumes de saison",
-          "price": 65,
+          "id": "zenchef-718426-medaillons-de-lotte-confite-au-miso-et-cidre-fricassee-de-ce",
+          "name": "Médaillons de lotte confite au miso et cidre, fricassée de cèpes",
+          "price": 56,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "not_declared",
+            "soja": "present",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -660,8 +681,8 @@
           }
         },
         {
-          "id": "zenchef-697311-poulette-de-la-ferme-d-alice-farcie-aux-morilles-puree-a-la-",
-          "name": "Poulette de la ferme d'Alice farcie aux morilles, purée à la truffe",
+          "id": "zenchef-697311-canard-colvert-de-chasse-en-chartreuse-de-chou-vert-au-foie-",
+          "name": "Canard Colvert de chasse en chartreuse de chou vert au foie gras, chou vert compoté",
           "price": 56,
           "allergens": {
             "gluten": "not_declared",
@@ -702,8 +723,8 @@
           }
         },
         {
-          "id": "zenchef-980224-pomme-de-ris-de-veau-doree-au-beurre-noisette-fricassee-de-g",
-          "name": "Pomme de ris de veau dorée au beurre noisette, fricassée de girolles et abricots",
+          "id": "zenchef-980224-escalope-de-ris-de-veau-facon-viennoise-jus-de-veau-grenoblo",
+          "name": "Escalope de ris de veau façon viennoise, jus de veau grenobloise, taglioni à la truffe",
           "price": 60,
           "allergens": {
             "gluten": "present",
@@ -713,6 +734,27 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-1281587-lievre-a-la-royale-a-la-facon-du-senateur-couteaux-tagliolin",
+          "name": "Lièvre à la royale à la façon du sénateur Couteaux, tagliolini à la truffe",
+          "price": 60,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -754,8 +796,8 @@
       "category": "Carte Restaurant - Desserts",
       "dishes": [
         {
-          "id": "zenchef-807422-l-abricot-et-l-orgeat",
-          "name": "L'Abricot et l'Orgeat",
+          "id": "zenchef-807422-la-mandarine-et-le-citron",
+          "name": "La Mandarine et le Citron",
           "price": 17,
           "allergens": {
             "gluten": "present",
@@ -773,11 +815,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Compotée d'abricots à la vanille, ganache montée à l'orgeat, sorbet abricot"
+          "description": "Biscuit vapeur, crème citron, marmelade de mandarine et sorbet mandarine"
         },
         {
-          "id": "zenchef-807424-parfait-glace-a-la-rose-et-framboises-fraiches",
-          "name": "Parfait glacé à la rose et framboises fraîches",
+          "id": "zenchef-807424-l-ourson",
+          "name": "L'Ourson",
           "price": 17,
           "allergens": {
             "gluten": "present",
@@ -795,11 +837,11 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Dacquoise amande, parfait glacé à la rose, framboises fraîches"
+          "description": "Pâte sucrée, ganache maïs grillé, caramel coulant et crème glacée maïs"
         },
         {
-          "id": "zenchef-807425-le-millefeuille-a-la-vanille-de-madagascar",
-          "name": "Le Millefeuille à la vanille de Madagascar",
+          "id": "zenchef-807425-la-noisette",
+          "name": "La Noisette",
           "price": 17,
           "allergens": {
             "gluten": "present",
@@ -816,7 +858,30 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
-          }
+          },
+          "description": "Ganache et dacquoise noisette, caramel à la noisette, crème glacée noisette"
+        },
+        {
+          "id": "zenchef-1113318-le-chocolat-70",
+          "name": "Le Chocolat 70 %",
+          "price": 17,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Biscuit chocolat et grué de cacao, mousse chocolat 70 %, croustillant et tuile au grué de cacao"
         },
         {
           "id": "zenchef-928813-crepes-suzette",
@@ -838,7 +903,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "flambées au Grand-Marnier"
+          "description": "flambées au Grand-Marnier. Normal : 17 € ; en petite. : 13,50 €."
         },
         {
           "id": "zenchef-807429-profiteroles-au-chocolat",
@@ -853,27 +918,6 @@
             "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-928818-coupe-de-fruits-rouges",
-          "name": "Coupe de fruits rouges",
-          "price": 18,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -907,7 +951,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Glaces : Vanille, Café, Chocolat Sorbets : Citron vert, Mangue, Abricot, Framboise, Noix de coco"
+          "description": "Glaces : Vanille, Café, Chocolat, Noisette, Maïs Sorbets : Mandarine, Fruits rouges, Citron vert, Kiwi, Mangue"
         },
         {
           "id": "zenchef-929681-cafe-mignardises",
@@ -1377,9 +1421,9 @@
           }
         },
         {
-          "id": "zenchef-784444-mozzarella-di-buffala-fraicheur-de-petits-pois-et-feves-vina",
-          "name": "Mozzarella di Buffala / fraîcheur de petits pois et fèves / vinaigrette sésame",
-          "price": 16,
+          "id": "zenchef-784444-carpaccio-de-cabillaud-fume-au-pin-mesclun-de-salades",
+          "name": "Carpaccio de cabillaud fumé au pin, mesclun de salades",
+          "price": 20,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -1414,27 +1458,6 @@
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
-          "id": "zenchef-1003600-tataki-de-melon-fraicheur-de-sucrine-magret-de-canard-fume-e",
-          "name": "Tataki de melon / fraîcheur de sucrine / magret de canard fumé et cacahuètes",
-          "price": 16,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "present",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -1503,6 +1526,27 @@
           }
         },
         {
+          "id": "zenchef-1003600-creme-de-cepes-oeuf-poche",
+          "name": "Crème de cèpes, oeuf poché",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
           "id": "zenchef-784442-salade-caesar-au-poulet-contient-du-porc",
           "name": "Salade Caesar au poulet (contient du porc)",
           "price": 14,
@@ -1542,7 +1586,8 @@
             "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "present"
-          }
+          },
+          "description": "6 : 18 € ; 12 : 36 €."
         },
         {
           "id": "zenchef-784449-celeri-remoulade",
@@ -1655,13 +1700,34 @@
           }
         },
         {
-          "id": "zenchef-784458-aioli-de-lieu-jaune-bulots-1-2-oeuf-dur-legumes-vapeur",
-          "name": "Aïoli de lieu jaune (Bulots, 1/2 oeuf dur, légumes vapeur)",
-          "price": 29,
+          "id": "zenchef-971701-blanquette-de-lotte-citronelle-gingembre-lait-de-coco",
+          "name": "Blanquette de lotte (citronelle, gingembre, lait de coco)",
+          "price": 30,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "present"
+          }
+        },
+        {
+          "id": "zenchef-784456-filet-de-haddock-oeuf-poche-pommes-de-terre-vapeur-epinards-",
+          "name": "Filet de haddock / oeuf poché / pommes de terre vapeur / épinards frais / beurre blanc",
+          "price": 34,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
@@ -1676,13 +1742,13 @@
           }
         },
         {
-          "id": "zenchef-784456-filet-de-haddock-oeuf-poche-pommes-de-terre-vapeur-epinards-",
-          "name": "Filet de haddock / oeuf poché / pommes de terre vapeur / épinards frais / beurre blanc",
-          "price": 34,
+          "id": "zenchef-784458-poulpe-a-la-plancha-papaye-verte-et-mangue",
+          "name": "Poulpe à la plancha, papaye verte et mangue",
+          "price": 31,
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
-            "oeufs": "present",
+            "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
@@ -1744,9 +1810,9 @@
           }
         },
         {
-          "id": "zenchef-971702-mignon-de-porc-farci-a-l-italienne",
-          "name": "Mignon de porc farci à l'italienne",
-          "price": 28,
+          "id": "zenchef-971702-belle-cote-de-cochon-du-pays-basque-320-grs-et-son-jus",
+          "name": "Belle côte de cochon du pays basque (320 grs) et son jus",
+          "price": 30,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -1765,8 +1831,8 @@
           }
         },
         {
-          "id": "zenchef-1248854-brochette-de-magret-de-canard-peche-rotie",
-          "name": "Brochette de magret de canard / pêche rôtie",
+          "id": "zenchef-1248854-foie-de-veau-et-sauce-echalote",
+          "name": "Foie de veau et sauce échalote",
           "price": 29,
           "allergens": {
             "gluten": "present",
@@ -1807,27 +1873,6 @@
           }
         },
         {
-          "id": "zenchef-900374-salade-caesar-au-poulet-contient-du-porc",
-          "name": "Salade Caesar au poulet (contient du porc)",
-          "price": 26,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "zenchef-784460-noix-d-entrecote-sauce-bearnaise",
           "name": "Noix d'entrecôte / sauce béarnaise",
           "price": 39.5,
@@ -1844,6 +1889,27 @@
             "moutarde": "not_declared",
             "sesame": "not_declared",
             "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          }
+        },
+        {
+          "id": "zenchef-900374-salade-caesar-au-poulet-contient-du-porc",
+          "name": "Salade Caesar au poulet (contient du porc)",
+          "price": 26,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           }
@@ -2116,27 +2182,6 @@
           }
         },
         {
-          "id": "zenchef-1248855-coupe-de-fruits-rouges",
-          "name": "Coupe de fruits rouges",
-          "price": 18,
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          }
-        },
-        {
           "id": "zenchef-726717-salade-de-fruits-frais",
           "name": "Salade de fruits frais",
           "price": 13.5,
@@ -2229,7 +2274,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Glaces : Vanille, Café, Chocolat Sorbets : Citron vert, Mangue, Abricot, Framboise, Noix de coco"
+          "description": "Glaces : Vanille, Café, Chocolat, Noisette, Maïs Sorbets : Mandarine, Fruits rouges, Citron vert, Kiwi, Mangue"
         },
         {
           "id": "zenchef-726719-coupe-closerie-du-moment",
@@ -2251,7 +2296,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sorbet citron vert, coulis de fraises, fraises fraîches, chantilly"
+          "description": "Sorbet mangue, banane fraîche, sauce chocolat et chantilly"
         },
         {
           "id": "zenchef-726720-dame-blanche",

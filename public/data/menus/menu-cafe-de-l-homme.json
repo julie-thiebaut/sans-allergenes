@@ -15,7 +15,7 @@
             "poisson": "not_declared",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
@@ -28,11 +28,11 @@
           "price": 22
         },
         {
-          "id": "cafe-de-l-homme-entrees-homard-de-nos-cotes",
-          "name": "Homard de nos côtes",
+          "id": "cafe-de-l-homme-entrees-carpaccio-de-saint-jacques-de-nos-cotes",
+          "name": "Carpaccio de Saint-Jacques de nos côtes",
           "allergens": {
             "gluten": "not_declared",
-            "crustaces": "present",
+            "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "not_declared",
             "arachides": "not_declared",
@@ -42,12 +42,12 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
-            "mollusques": "not_declared"
+            "mollusques": "present"
           },
-          "description": "Ravioles de betteraves infusées au café.",
-          "price": 56
+          "description": "Aux agrumes confits, poivre de Sarawak.",
+          "price": 54
         },
         {
           "id": "cafe-de-l-homme-entrees-foie-gras-des-landes-cuit-a-basse-temperature",
@@ -140,15 +140,15 @@
       ]
     },
     {
-      "category": "Plats à partager",
+      "category": "Entrées à partager",
       "dishes": [
         {
-          "id": "cafe-de-l-homme-plats-a-partager-caviar-beluga-imperial-kaviari-paris",
+          "id": "cafe-de-l-homme-entrees-a-partager-caviar-beluga-imperial-kaviari-paris",
           "name": "Caviar Beluga Impérial Kaviari Paris",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
@@ -161,16 +161,16 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Pommes de terre. 50 g.",
+          "description": "Pommes de terre. 50 g ; 100 g : 850 €.",
           "price": 490
         },
         {
-          "id": "cafe-de-l-homme-plats-a-partager-caviar-kristal-kaviari-paris",
+          "id": "cafe-de-l-homme-entrees-a-partager-caviar-kristal-kaviari-paris",
           "name": "Caviar Kristal Kaviari Paris",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
@@ -185,72 +185,6 @@
           },
           "description": "Blinis, beurre infusé, crème citron. 50 g ; 100 g : 350 €.",
           "price": 200
-        },
-        {
-          "id": "cafe-de-l-homme-plats-a-partager-cote-de-boeuf-simmental-maturee-30-jours",
-          "name": "Côte de bœuf Simmental maturée 30 jours",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "À partager.",
-          "price": 250
-        },
-        {
-          "id": "cafe-de-l-homme-plats-a-partager-poulet-entier-label-rouge-desosse-et-marine",
-          "name": "Poulet entier Label Rouge désossé et mariné",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "present",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Jus de volaille.",
-          "price": 120
-        },
-        {
-          "id": "cafe-de-l-homme-plats-a-partager-poulet-entier-label-rouge-caviar-kristal",
-          "name": "Poulet entier Label Rouge, caviar Kristal",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "Servi avec 30 g de caviar Kristal de la Maison Kaviari, à partager.",
-          "price": 280
         }
       ]
     },
@@ -276,12 +210,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Sauce nori. Un accompagnement au choix inclus.",
+          "description": "Sauce nori, chou-fleur rôti au piment doux.",
           "price": 46
         },
         {
-          "id": "cafe-de-l-homme-poissons-et-viandes-chipirons-farcis-a-la-mediterraneenne",
-          "name": "Chipirons farcis à la méditerranéenne",
+          "id": "cafe-de-l-homme-poissons-et-viandes-saint-jacques-de-nos-cotes-cuites-meuniere",
+          "name": "Saint-Jacques de nos côtes cuites meunière",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -294,22 +228,23 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "present"
           },
-          "price": 44
+          "description": "Sauce à la méditerranéenne, risotto Carnaroli au citron et parmesan.",
+          "price": 62
         },
         {
-          "id": "cafe-de-l-homme-poissons-et-viandes-thon-rouge-sauvage",
-          "name": "Thon rouge sauvage",
+          "id": "cafe-de-l-homme-poissons-et-viandes-filet-de-bar-cuit-meuniere",
+          "name": "Filet de bar cuit meunière",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
             "oeufs": "not_declared",
             "poisson": "present",
             "arachides": "not_declared",
-            "soja": "present",
+            "soja": "not_declared",
             "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
@@ -319,12 +254,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Tendre ventrèche cuite à la flamme, extraction de betterave au soja.",
-          "price": 58
+          "description": "Beurre nantais au piment d’Espelette, salsifis rôtis glacés, citron Main de Bouddha.",
+          "price": 56
         },
         {
-          "id": "cafe-de-l-homme-poissons-et-viandes-selection-du-chef-de-pieces-d-agneau",
-          "name": "Sélection du Chef de pièces d’agneau",
+          "id": "cafe-de-l-homme-poissons-et-viandes-paleron-de-boeuf-confit-7-heures-au-vin-rouge",
+          "name": "Paleron de bœuf confit 7 heures au vin rouge",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -336,11 +271,12 @@
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
+          "description": "Carottes multicolores.",
           "price": 52
         },
         {
@@ -362,7 +298,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Jus de veau. Un accompagnement au choix inclus.",
+          "description": "Jus de veau, pommes de terre grenaille rôties au thym.",
           "price": 65
         },
         {
@@ -386,6 +322,55 @@
           },
           "description": "Champignons et parmesan affiné.",
           "price": 34
+        }
+      ]
+    },
+    {
+      "category": "Plats à partager",
+      "dishes": [
+        {
+          "id": "cafe-de-l-homme-plats-a-partager-cote-de-boeuf-black-pearl-maturee-30-jours",
+          "name": "Côte de bœuf Black Pearl maturée 30 jours",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "À partager. Un accompagnement au choix inclus.",
+          "price": 250
+        },
+        {
+          "id": "cafe-de-l-homme-plats-a-partager-poulet-entier-label-rouge-desosse-et-marine",
+          "name": "Poulet entier Label Rouge désossé et mariné",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "present",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Jus de volaille. Un accompagnement au choix inclus.",
+          "price": 150
         }
       ]
     },
@@ -477,27 +462,6 @@
           "price": 15
         },
         {
-          "id": "cafe-de-l-homme-accompagnements-chou-fleur-roti-au-piment-doux",
-          "name": "Chou-fleur rôti au piment doux",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 15
-        },
-        {
           "id": "cafe-de-l-homme-accompagnements-frites-croustillantes-maison",
           "name": "Frites croustillantes maison",
           "allergens": {
@@ -519,8 +483,8 @@
           "price": 15
         },
         {
-          "id": "cafe-de-l-homme-accompagnements-risotto-carnaroli-au-citron-et-parmesan",
-          "name": "Risotto Carnaroli au citron et parmesan",
+          "id": "cafe-de-l-homme-accompagnements-assiette-de-legumes-de-saison",
+          "name": "Assiette de légumes de saison",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -533,28 +497,7 @@
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 15
-        },
-        {
-          "id": "cafe-de-l-homme-accompagnements-aubergine-grillee-moutabal-fume-feta",
-          "name": "Aubergine grillée, moutabal fumé, feta",
-          "allergens": {
-            "gluten": "not_declared",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "present",
-            "sulfites": "present",
+            "sulfites": "not_declared",
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
@@ -593,29 +536,8 @@
       "category": "Desserts",
       "dishes": [
         {
-          "id": "cafe-de-l-homme-desserts-tarte-croustillante-au-chocolat-et-caramel-de-cafe",
-          "name": "Tarte croustillante au chocolat et caramel de café",
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "price": 21
-        },
-        {
-          "id": "cafe-de-l-homme-desserts-riz-au-lait-mangue-fraiche-coco-croustillant",
-          "name": "Riz au lait, mangue fraîche, coco, croustillant",
+          "id": "cafe-de-l-homme-desserts-brownie-croustillant",
+          "name": "Brownie croustillant",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -624,7 +546,29 @@
             "arachides": "not_declared",
             "soja": "not_declared",
             "lait": "present",
-            "fruits_a_coque": "not_declared",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Chocolat dulce, ganache au caramel.",
+          "price": 21
+        },
+        {
+          "id": "cafe-de-l-homme-desserts-pomme-confite",
+          "name": "Pomme confite",
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
             "celeri": "not_declared",
             "moutarde": "not_declared",
             "sesame": "not_declared",
@@ -632,7 +576,8 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 18
+          "description": "Mousse légère infusée à la cardamome et tuile croustillante.",
+          "price": 22
         },
         {
           "id": "cafe-de-l-homme-desserts-succes-pistache",
@@ -679,8 +624,8 @@
           "price": 18
         },
         {
-          "id": "cafe-de-l-homme-desserts-mille-feuille-vanille-et-noix-de-pecan-caramelisees",
-          "name": "Mille-feuille vanille et noix de pécan caramélisées",
+          "id": "cafe-de-l-homme-desserts-ile-flottante",
+          "name": "Île flottante",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -697,11 +642,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "price": 22
+          "description": "Marrons glacés, crème de marron.",
+          "price": 18
         },
         {
-          "id": "cafe-de-l-homme-desserts-flan-a-la-vanille-de-madagascar",
-          "name": "Flan à la vanille de Madagascar",
+          "id": "cafe-de-l-homme-desserts-flan-a-la-vanille-de-madagascar-a-partager",
+          "name": "Flan à la vanille de Madagascar (à partager)",
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
@@ -820,8 +766,8 @@
           "price": 25
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-chablis-saint-martin-2024",
-          "name": "Chablis Saint-Martin 2024",
+          "id": "cafe-de-l-homme-vins-au-verre-chablis-saint-martin-2025",
+          "name": "Chablis Saint-Martin 2025",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -842,8 +788,8 @@
           "price": 18
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-coteaux-du-giennois-edition-n-3-2024",
-          "name": "Coteaux du Giennois 'Edition n°3' 2024",
+          "id": "cafe-de-l-homme-vins-au-verre-sauvignon-blanc-2024",
+          "name": "Sauvignon Blanc 2024",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -864,8 +810,8 @@
           "price": 16
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-chardonnay-2024",
-          "name": "Chardonnay 2024",
+          "id": "cafe-de-l-homme-vins-au-verre-chardonnay-2025",
+          "name": "Chardonnay 2025",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -908,8 +854,8 @@
           "price": 13
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-lions-de-suduiraut-2016",
-          "name": "Lions de Suduiraut 2016",
+          "id": "cafe-de-l-homme-vins-au-verre-lions-de-suduiraut-2019",
+          "name": "Lions de Suduiraut 2019",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -952,8 +898,8 @@
           "price": 25
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-chateau-tour-des-termes-2015",
-          "name": "Château Tour des Termes 2015",
+          "id": "cafe-de-l-homme-vins-au-verre-chateau-tour-des-termes-2016",
+          "name": "Château Tour des Termes 2016",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -974,8 +920,8 @@
           "price": 18
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-la-bouche-du-roi-les-trois-corneilles-2023",
-          "name": "La Bouche du Roi 'Les Trois Corneilles' 2023",
+          "id": "cafe-de-l-homme-vins-au-verre-merlot-2023",
+          "name": "Merlot 2023",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",
@@ -992,12 +938,12 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "Merlot · IGP. 12,5 cl.",
+          "description": "Domaine La Bouche du Roi · IGP. 12,5 cl.",
           "price": 16
         },
         {
-          "id": "cafe-de-l-homme-vins-au-verre-pinot-noir-2024",
-          "name": "Pinot Noir 2024",
+          "id": "cafe-de-l-homme-vins-au-verre-pinot-noir-2025",
+          "name": "Pinot Noir 2025",
           "allergens": {
             "gluten": "not_declared",
             "crustaces": "not_declared",

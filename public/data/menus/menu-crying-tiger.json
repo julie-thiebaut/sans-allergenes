@@ -370,7 +370,7 @@
         {
           "id": "crying-pad-thai-legumes",
           "name": "Pad thaï légumes",
-          "description": "Nouilles de riz sautées, légumes croquants, tofu, pousses de soja, coriandre, cacahuètes. La carte l'annonce vegan ; le tableau des allergènes y déclare pourtant du poisson.",
+          "description": "Nouilles de riz sautées, légumes croquants, tofu, pousses de soja, coriandre, cacahuètes.",
           "price": 20,
           "allergens": {
             "gluten": "present",

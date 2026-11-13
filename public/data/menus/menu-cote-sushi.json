@@ -3,6 +3,165 @@
   "restaurantId": "cote-sushi-gare-de-lyon-75012",
   "categories": [
     {
+      "category": "AU COEUR DE LA MEDINA",
+      "dishes": [
+        {
+          "id": "cote-sushi-1971-box-au-coeur-de-la-medina",
+          "name": "Box Au Cœur de la Medina",
+          "price": 24.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "8 California cebolla poulet aux olives, 8 Samba saumon grillé aux épices, 6 Maki sardine chermoula"
+        },
+        {
+          "id": "cote-sushi-1976-samba-saumon-grille-aux-epices",
+          "name": "Samba saumon grillé aux épices",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Saumon flambé aux épices et huile d'olive (curcuma, cumin, paprika), Légumes marinés (carottes, concombres, oignons rouges, citron et aux épices), Ciboulette, Riz IGP* de Camargue, Sauce aji panca"
+        },
+        {
+          "id": "cote-sushi-1978-california-cebolla-poulet-aux-olives",
+          "name": "California cebolla poulet aux olives",
+          "price": 8.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Poulet croustillant, Olives vertes, Fromage frais, Oignons frits, Coriandre, Riz IGP* de Camargue, Mayonnaise au citron confit, Sauce teriyaki"
+        },
+        {
+          "id": "cote-sushi-1979-maki-sardine-chermoula",
+          "name": "Maki sardine chermoula",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Rillette de sardine (sardine, fromage frais et chermoula), Menthe fraiche, Riz IGP* de Camargue"
+        },
+        {
+          "id": "cote-sushi-1980-tacos-chermoula",
+          "name": "Tacos chermoula",
+          "price": 12.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Yellowtail, Pâte à gyoza, Piment rouge, Concombre, Oignon rouge, Menthe, Citron vert, Chermoula"
+        },
+        {
+          "id": "cote-sushi-1981-crispy-thon-cuit-harissa",
+          "name": "Crispy thon cuit harissa",
+          "price": 8.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Thon cuit, Oignon rouge, Riz de Camargue IGP*, Harissa, Mayonnaise au citron confit"
+        },
+        {
+          "id": "cote-sushi-1982-cornes-de-gazelle-cote-sushi-x-maison-gazelle",
+          "name": "Cornes de gazelle Côté Sushi x Maison Gazelle",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Corne de gazelle sésame noir et fleur de sel de guérande, Corne de gazelle fleur d'oranger"
+        }
+      ]
+    },
+    {
       "category": "BOX",
       "dishes": [
         {
@@ -26,28 +185,6 @@
             "mollusques": "not_declared"
           },
           "description": "8 Samba tuna, 8 Samba maracuja, 8 Samba acho, 8 Samba lima, 6 Maki avocat cheese, 2 Sushi saumon maracuja, 2 Sushi thon acevichado"
-        },
-        {
-          "id": "cote-sushi-1970-fresh-moments",
-          "name": "Fresh Moments",
-          "price": 29.9,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "present",
-            "poisson": "present",
-            "arachides": "not_declared",
-            "soja": "present",
-            "lait": "present",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "present",
-            "sesame": "present",
-            "sulfites": "present",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "1 riz nature, Environ 5 pièces de poulet croustillant, 8 crispy cheese, 8 california saumon avocat, 8 california cuzco, 8 california Thon cuit"
         },
         {
           "id": "cote-sushi-154-twin-box",
@@ -123,15 +260,15 @@
         {
           "id": "cote-sushi-995-plateau-du-mois",
           "name": "Plateau du mois",
-          "price": 19.9,
+          "price": 21.9,
           "allergens": {
             "gluten": "present",
             "crustaces": "not_declared",
-            "oeufs": "not_declared",
+            "oeufs": "present",
             "poisson": "present",
             "arachides": "not_declared",
             "soja": "not_declared",
-            "lait": "not_declared",
+            "lait": "present",
             "fruits_a_coque": "not_declared",
             "celeri": "not_declared",
             "moutarde": "present",
@@ -140,7 +277,7 @@
             "lupin": "not_declared",
             "mollusques": "not_declared"
           },
-          "description": "8 california cebolla poulet, 8 california cuzco, 6 maki saumon, Sauce aji panca"
+          "description": "8 california cebolla saumon, 8 california saumon cheese, 6 maki yellowtail wasabi, Mayonnaise wasabi"
         },
         {
           "id": "cote-sushi-141-salmon-deluxe",
@@ -1446,6 +1583,28 @@
     {
       "category": "CHIRASHI",
       "dishes": [
+        {
+          "id": "cote-sushi-2001-mini-chirashi-tamago-oeufs-de-truite",
+          "name": "Mini Chirashi Tamago & Œufs de Truite",
+          "price": 9.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tamago (omelette japonaise), Oeufs de truite, Furikake, Ciboulette, Riz IGP* de Camargue"
+        },
         {
           "id": "cote-sushi-89-chirashi-saumon",
           "name": "Chirashi Saumon",
@@ -3019,6 +3178,99 @@
       ]
     },
     {
+      "category": "BIERES",
+      "dishes": [
+        {
+          "id": "cote-sushi-1011-asahi-50cl",
+          "name": "Asahi 50cl",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "(5% vol.) 50cl"
+        },
+        {
+          "id": "cote-sushi-1016-coedo-ipa",
+          "name": "Coedo IPA",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "(4,5% vol.) 33cl"
+        },
+        {
+          "id": "cote-sushi-1018-coedo-ambree",
+          "name": "Coedo Ambrée",
+          "price": 6,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "(7% vol.) 33cl"
+        },
+        {
+          "id": "cote-sushi-274-asahi-33cl",
+          "name": "Asahi 33cl",
+          "price": 4.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "(5% vol.) 33cl"
+        }
+      ]
+    },
+    {
       "category": "VINS & SAKE",
       "dishes": [
         {
@@ -3149,99 +3401,6 @@
             "mollusques": "not_declared"
           },
           "description": "Bouteille 15cl (5% VOL)"
-        }
-      ]
-    },
-    {
-      "category": "BIERES",
-      "dishes": [
-        {
-          "id": "cote-sushi-1011-asahi-50cl",
-          "name": "Asahi 50cl",
-          "price": 5.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "(5% vol.) 50cl"
-        },
-        {
-          "id": "cote-sushi-1016-coedo-ipa",
-          "name": "Coedo IPA",
-          "price": 6,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "(4,5% vol.) 33cl"
-        },
-        {
-          "id": "cote-sushi-1018-coedo-ambree",
-          "name": "Coedo Ambrée",
-          "price": 6,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "(7% vol.) 33cl"
-        },
-        {
-          "id": "cote-sushi-274-asahi-33cl",
-          "name": "Asahi 33cl",
-          "price": 4.5,
-          "allergens": {
-            "gluten": "present",
-            "crustaces": "not_declared",
-            "oeufs": "not_declared",
-            "poisson": "not_declared",
-            "arachides": "not_declared",
-            "soja": "not_declared",
-            "lait": "not_declared",
-            "fruits_a_coque": "not_declared",
-            "celeri": "not_declared",
-            "moutarde": "not_declared",
-            "sesame": "not_declared",
-            "sulfites": "not_declared",
-            "lupin": "not_declared",
-            "mollusques": "not_declared"
-          },
-          "description": "(5% vol.) 33cl"
         }
       ]
     }
