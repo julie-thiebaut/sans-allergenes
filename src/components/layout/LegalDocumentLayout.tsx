@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Navbar } from "./Navbar";
 import { Seo } from "../../seo/Seo";
 import type { PageMeta } from "../../seo/seoData";
+import { useMessages } from "../../i18n/useLocale";
 
 export function LegalDocumentLayout({
   title,
@@ -14,6 +15,7 @@ export function LegalDocumentLayout({
   meta: PageMeta;
   children: ReactNode;
 }) {
+  const t = useMessages();
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Seo meta={meta} />
@@ -27,7 +29,7 @@ export function LegalDocumentLayout({
             </p>
             <h1 className="mt-2 text-3xl font-bold text-neutral-900 sm:text-4xl">{title}</h1>
             <p className="mt-4 max-w-2xl leading-relaxed text-neutral-600">{introduction}</p>
-            <p className="mt-3 text-sm text-neutral-500">Dernière mise à jour : 4 octobre 2026</p>
+            <p className="mt-3 text-sm text-neutral-500">{t.legalLayout.lastUpdated}</p>
           </header>
 
           <div className="space-y-10 py-8 text-neutral-700">{children}</div>

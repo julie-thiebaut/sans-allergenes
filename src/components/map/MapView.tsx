@@ -7,6 +7,7 @@ import {
   type MapMarkerHandle,
   type MapsAdapter,
 } from "../../maps/MapsAdapter";
+import { useMessages } from "../../i18n/useLocale";
 import { useMapsContext } from "../../maps/useMapsContext";
 import { useMapActionsContext } from "../../state/mapActionsContext";
 import { useMapBoundsContext } from "../../state/mapBoundsContext";
@@ -31,6 +32,7 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
   const { hoveredId, selectedId, setSelectedId } = useSelectionContext();
   const { registerActions } = useMapActionsContext();
   const memory = useMapPageMemory();
+  const t = useMessages();
 
   const containerRef = useRef<HTMLDivElement>(null);
   const adapterRef = useRef<MapsAdapter | null>(null);
@@ -134,14 +136,10 @@ export function MapView({ restaurants, showSelectionPreview = true }: MapViewPro
     <div className="relative h-full">
       {(configState === "loading" || mapStatus === "pending") && (
         <div className="absolute inset-0 flex items-center justify-center bg-neutral-50">
-          <LoadingState label="Chargement de la carte…" />
+          <LoadingState label={t.map.loading} />
         </div>
       )}
-      <div
-        ref={containerRef}
-        className="h-full w-full rounded-lg"
-        aria-label="Carte des restaurants"
-      />
+      <div ref={containerRef} className="h-full w-full rounded-lg" aria-label={t.map.label} />
       {mapStatus === "ready" && showSelectionPreview && selectedRestaurant && (
         <MapSelectionPreviewCard
           restaurant={selectedRestaurant}

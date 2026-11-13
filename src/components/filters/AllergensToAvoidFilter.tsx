@@ -1,15 +1,7 @@
-import { ALLERGEN_ICONS, ALLERGEN_LABELS_FR, ALLERGENS_SORTED_FR } from "../../data/allergenLabels";
+import { ALLERGEN_ICONS, ALLERGENS_SORTED } from "../../data/allergenLabels";
 import type { AllergenId } from "../../data/types";
+import { useLocale, useMessages } from "../../i18n/useLocale";
 import { useFilterDispatch, useFilterState } from "../../state/FilterStateContext";
-
-function listDescription(excludeTraces: boolean, several = false): string {
-  return (
-    "Un restaurant est retiré des résultats quand tous ses plats déclarent " +
-    (several ? "l’un de ces allergènes" : "cet allergène") +
-    " comme " +
-    (excludeTraces ? "présent ou en traces." : "présent.")
-  );
-}
 
 /**
  * `description` is overridable because the same control filters two different things (the
@@ -19,6 +11,8 @@ function listDescription(excludeTraces: boolean, several = false): string {
 export function AllergensToAvoidFilter({ description }: { description?: string }) {
   const { allergensToAvoid, excludeTraces } = useFilterState();
   const dispatch = useFilterDispatch();
+  const locale = useLocale();
+  const t = useMessages();
 
   function toggle(id: AllergenId) {
     const next = allergensToAvoid.includes(id)
@@ -29,12 +23,14 @@ export function AllergensToAvoidFilter({ description }: { description?: string }
 
   return (
     <fieldset>
-      <legend className="mb-1 text-sm font-medium text-neutral-700">Allergènes à éviter</legend>
+      <legend className="mb-1 text-sm font-medium text-neutral-700">
+        {t.filters.allergensToAvoid}
+      </legend>
       <p className="mb-2 text-xs text-neutral-500">
-        {description ?? listDescription(excludeTraces, allergensToAvoid.length > 1)}
+        {description ?? t.filters.listDescription(excludeTraces, allergensToAvoid.length > 1)}
       </p>
       <div className="flex flex-wrap gap-1.5">
-        {ALLERGENS_SORTED_FR.map((id) => {
+        {ALLERGENS_SORTED[locale].map((id) => {
           const checked = allergensToAvoid.includes(id);
           return (
             <label
@@ -53,7 +49,7 @@ export function AllergensToAvoidFilter({ description }: { description?: string }
               />
               <span aria-hidden="true">{ALLERGEN_ICONS[id]}</span>
               <span className={checked ? "line-through decoration-2" : undefined}>
-                {ALLERGEN_LABELS_FR[id]}
+                {t.allergens[id]}
               </span>
             </label>
           );

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import type { AddressSuggestion } from "../../maps/MapsAdapter";
+import { useMessages } from "../../i18n/useLocale";
 import { useMapActionsContext } from "../../state/mapActionsContext";
 
 const SUGGESTION_DEBOUNCE_MS = 300;
@@ -11,6 +12,7 @@ const SUGGESTION_DEBOUNCE_MS = 300;
  */
 export function TextSearchInput() {
   const { actions } = useMapActionsContext();
+  const t = useMessages();
   const [inputText, setInputText] = useState("");
   const [addressNotFound, setAddressNotFound] = useState(false);
   const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
@@ -89,7 +91,7 @@ export function TextSearchInput() {
   return (
     <form className="relative" onSubmit={handleSubmit}>
       <label htmlFor="address-search" className="sr-only">
-        Rechercher une adresse
+        {t.addressSearch.label}
       </label>
       <input
         id="address-search"
@@ -106,12 +108,12 @@ export function TextSearchInput() {
         }}
         onKeyDown={handleKeyDown}
         onBlur={() => setIsOpen(false)}
-        placeholder="Rechercher une adresse…"
+        placeholder={t.addressSearch.placeholder}
         className="w-full rounded-full border border-neutral-300 py-2 pl-4 pr-10 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
       />
       <button
         type="submit"
-        aria-label="Zoomer sur l'adresse recherchée"
+        aria-label={t.addressSearch.submit}
         className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500"
       >
         <svg
@@ -150,7 +152,9 @@ export function TextSearchInput() {
         </ul>
       )}
       {addressNotFound && (
-        <p className="absolute left-4 top-full mt-1 text-xs text-red-600">Adresse introuvable</p>
+        <p className="absolute left-4 top-full mt-1 text-xs text-red-600">
+          {t.addressSearch.notFound}
+        </p>
       )}
     </form>
   );

@@ -8,14 +8,13 @@ import { useSelectionActions } from "../../state/SelectionContext";
 import { cuisineLabels } from "../../utils/cuisineLine";
 import { formatVerifiedDate } from "../../utils/formatDate";
 import { fullAddress } from "../../utils/fullAddress";
+import { restaurantPath, type Locale } from "../../i18n/locale";
+import { MESSAGES, useLocale } from "../../i18n/useLocale";
 import { AllergenAvailabilityBadge } from "../common/AllergenAvailabilityBadge";
 import { AllergenWarningIcon } from "../common/AllergenWarningIcon";
 import { DemoDataBadge } from "../common/DemoDataBadge";
 import { ImageWithPlaceholder } from "../common/ImageWithPlaceholder";
 import { PriceLevelIndicator } from "../common/PriceLevelIndicator";
-
-const DISH = { one: "plat", many: "plats", none: "Aucun plat" };
-const DRINK = { one: "boisson", many: "boissons", none: "Aucune boisson" };
 
 interface AvoidanceLine {
   text: string;
@@ -35,31 +34,24 @@ function describeAvoidance(
   menu: Menu | undefined,
   avoid: AllergenId[],
   excludeTraces: boolean,
+  locale: Locale,
 ): AvoidanceLine[] {
   if (avoid.length === 0) return [];
+  const words = MESSAGES[locale].list.avoidance;
   const several = avoid.length > 1;
-  const incomplete: AvoidanceLine = {
-    text: `Information incomplète pour ${several ? "les allergènes" : "l’allergène"} à éviter`,
-    tone: "neutral",
-  };
+  const incomplete: AvoidanceLine = { text: words.incomplete(several), tone: "neutral" };
   if (!menu) return [incomplete];
 
   const { dishes, drinks } = countDishesDeclaringAvoided(menu, avoid, { excludeTraces });
-  const [count, noun] = dishes.total > 0 ? [dishes, DISH] : [drinks, DRINK];
+  const isDrinks = dishes.total === 0;
+  const count = isDrinks ? drinks : dishes;
   const clear = count.total - count.declaring;
 
   const lines: AvoidanceLine[] = [];
   if (count.declaring > 0 && clear > 0) {
-    const verb = clear > 1 ? "ne déclarent" : "ne déclare";
-    lines.push({
-      text: `${clear} ${clear > 1 ? noun.many : noun.one} sur ${count.total} ${verb} ${several ? "aucun des allergènes" : "pas l’allergène"} à éviter`,
-      tone: "warning",
-    });
+    lines.push({ text: words.clear(clear, count.total, isDrinks, several), tone: "warning" });
   } else if (count.declaring + count.unknown === 0) {
-    lines.push({
-      text: `${noun.none} ne déclare ${several ? "les allergènes" : "l’allergène"} à éviter`,
-      tone: "neutral",
-    });
+    lines.push({ text: words.none(isDrinks, several), tone: "neutral" });
   }
   if (count.unknown > 0) lines.push(incomplete);
   return lines;
@@ -76,6 +68,7 @@ export const RestaurantCard = memo(function RestaurantCard({
 }) {
   const { setHoveredId, setSelectedId } = useSelectionActions();
   const filters = useFilterState();
+  const locale = useLocale();
   const isWarning = !restaurant.allergenInformationAvailable;
 
   // A restaurant is only excluded when EVERY dish declares an avoided allergen, so cards here
@@ -85,6 +78,7 @@ export const RestaurantCard = memo(function RestaurantCard({
     restaurant.menu,
     filters.allergensToAvoid,
     filters.excludeTraces,
+    locale,
   );
 
   return (
@@ -116,7 +110,7 @@ export const RestaurantCard = memo(function RestaurantCard({
             <h3 className="flex items-center gap-1 font-semibold text-neutral-900">
               {isWarning && <AllergenWarningIcon />}
               <Link
-                to={`/restaurant/${restaurant.slug}/`}
+                to={restaurantPath(restaurant.slug, locale)}
                 state={OPENED_FROM_MAP_PAGE}
                 className="after:absolute after:inset-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
                 onFocus={() => setHoveredId(restaurant.id)}
@@ -133,7 +127,9 @@ export const RestaurantCard = memo(function RestaurantCard({
           {/* Une seule ligne, coupée par des points de suspension : sur un téléphone, une adresse
               sur trois la dépasse, et la fiche la donne en entier. */}
           <p className="truncate text-sm text-neutral-600">{fullAddress(restaurant)}</p>
-          <p className="mt-1 text-sm text-neutral-700">{cuisineLabels(restaurant.cuisineTypes)}</p>
+          <p className="mt-1 text-sm text-neutral-700">
+            {cuisineLabels(restaurant.cuisineTypes, locale)}
+          </p>
 
           {restaurant.isDemoData && (
             <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
@@ -152,7 +148,9 @@ export const RestaurantCard = memo(function RestaurantCard({
           ) : (
             restaurant.lastVerifiedAt && (
               <p className="mt-1 text-xs text-neutral-500">
-                Vérifié le {formatVerifiedDate(restaurant.lastVerifiedAt)}
+                {MESSAGES[locale].list.verifiedOn(
+                  formatVerifiedDate(restaurant.lastVerifiedAt, locale),
+                )}
               </p>
             )
           )}

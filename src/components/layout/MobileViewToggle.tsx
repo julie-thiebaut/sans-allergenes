@@ -1,3 +1,5 @@
+import { useMessages } from "../../i18n/useLocale";
+
 export type MobileViewMode = "list" | "map";
 
 interface MobileViewToggleProps {
@@ -19,10 +21,11 @@ const SEGMENT_SELECTED = "bg-white text-neutral-900 shadow-sm";
 const SEGMENT_IDLE = "text-neutral-600 hover:text-neutral-900";
 
 export function MobileViewToggle({ value, onChange }: MobileViewToggleProps) {
+  const t = useMessages();
   return (
     <div
       role="group"
-      aria-label="Affichage"
+      aria-label={t.mapPage.viewToggleLabel}
       className="inline-flex rounded-md bg-neutral-100 p-0.5"
     >
       <button
@@ -31,7 +34,7 @@ export function MobileViewToggle({ value, onChange }: MobileViewToggleProps) {
         onClick={() => onChange("list")}
         className={`${SEGMENT_BASE} ${value === "list" ? SEGMENT_SELECTED : SEGMENT_IDLE}`}
       >
-        Liste
+        {t.mapPage.viewList}
       </button>
       <button
         type="button"
@@ -39,7 +42,7 @@ export function MobileViewToggle({ value, onChange }: MobileViewToggleProps) {
         onClick={() => onChange("map")}
         className={`${SEGMENT_BASE} ${value === "map" ? SEGMENT_SELECTED : SEGMENT_IDLE}`}
       >
-        Carte
+        {t.mapPage.viewMap}
       </button>
     </div>
   );
