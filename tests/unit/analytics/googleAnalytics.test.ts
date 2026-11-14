@@ -1,10 +1,46 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import {
   ANALYTICS_CONSENT_STORAGE_KEY,
   readAnalyticsConsent,
   sanitizedAnalyticsLocation,
   storeAnalyticsConsent,
+  trackEvent,
 } from "../../../src/analytics/googleAnalytics";
+
+describe("trackEvent", () => {
+  const target = window as Window & { gtag?: (...args: unknown[]) => void };
+
+  beforeEach(() => {
+    vi.stubEnv("PROD", true);
+    vi.stubEnv("VITE_GOOGLE_ANALYTICS_ID", "G-TEST123");
+  });
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    delete target.gtag;
+  });
+
+  it("sends the event by its name alone, with no parameter", () => {
+    target.gtag = vi.fn();
+
+    trackEvent("ask_to_publish");
+
+    expect(target.gtag).toHaveBeenCalledExactlyOnceWith("event", "ask_to_publish");
+  });
+
+  it("sends nothing before consent, when gtag was never set up", () => {
+    expect(() => trackEvent("report_problem")).not.toThrow();
+  });
+
+  it("sends nothing outside the production build", () => {
+    vi.stubEnv("PROD", false);
+    target.gtag = vi.fn();
+
+    trackEvent("call_restaurant");
+
+    expect(target.gtag).not.toHaveBeenCalled();
+  });
+});
 
 describe("Google Analytics privacy helpers", () => {
   beforeEach(() => {

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { trackEvent } from "../../analytics/googleAnalytics";
 import type { RestaurantWithMenu } from "../../data/types";
 import { OPENED_FROM_MAP_PAGE } from "../../state/MapPageMemoryContext";
 import { cuisineLabels } from "../../utils/cuisineLine";
@@ -80,6 +81,7 @@ export function MapSelectionPreviewCard({
           to={restaurantPath(restaurant.slug, locale)}
           state={OPENED_FROM_MAP_PAGE}
           className="mt-2 inline-flex items-center gap-0.5 text-sm font-medium text-brand-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+          onClick={() => trackEvent("open_restaurant_from_map")}
         >
           {/* Underline on the text only, so it isn't dragged through the chevron. */}
           <span className="underline">{t.map.openRecord}</span>

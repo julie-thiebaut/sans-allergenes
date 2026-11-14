@@ -1,5 +1,6 @@
 import { memo } from "react";
 import { Link } from "react-router-dom";
+import { trackEvent } from "../../analytics/googleAnalytics";
 import { countDishesDeclaringAvoided } from "../../filtering/allergenLogic";
 import type { AllergenId, Menu, RestaurantWithMenu } from "../../data/types";
 import { useFilterState } from "../../state/FilterStateContext";
@@ -117,7 +118,10 @@ export const RestaurantCard = memo(function RestaurantCard({
                 onBlur={() => setHoveredId(null)}
                 // Opened from the list, nothing stays selected: back on the list, no card is
                 // highlighted, and its scroll offset alone brings the visitor back where they were.
-                onClick={() => setSelectedId(null)}
+                onClick={() => {
+                  setSelectedId(null);
+                  trackEvent("open_restaurant_from_list");
+                }}
               >
                 {restaurant.name}
               </Link>

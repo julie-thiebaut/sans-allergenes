@@ -1,3 +1,4 @@
+import { trackEvent } from "../../analytics/googleAnalytics";
 import { useLocalizeText } from "../../i18n/ContentTranslations";
 import { useLocale, useMessages } from "../../i18n/useLocale";
 import { cuisineLine } from "../../utils/cuisineLine";
@@ -72,11 +73,21 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-500 underline hover:text-brand-700"
+              onClick={() => trackEvent("visit_restaurant_site")}
             >
               {t.restaurant.website}
             </a>
           )}
-          {restaurant.phone && <span>{restaurant.phone}</span>}
+          {/* A link so a phone can dial it, and so the call can be counted; it reads as before. */}
+          {restaurant.phone && (
+            <a
+              href={`tel:${restaurant.phone.replace(/[^\d+]/g, "")}`}
+              className="hover:underline"
+              onClick={() => trackEvent("call_restaurant")}
+            >
+              {restaurant.phone}
+            </a>
+          )}
         </div>
       </header>
 
@@ -144,6 +155,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
+                  onClick={() => trackEvent("view_allergen_source")}
                 >
                   {t.restaurant.publishedSource}
                 </a>{" "}
@@ -204,6 +216,7 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline"
+                onClick={() => trackEvent("view_allergen_source")}
               >
                 <span lang={quotedLang}>{restaurant.source.label}</span>
               </a>
@@ -218,7 +231,13 @@ export function RestaurantDetailView({ restaurant }: { restaurant: RestaurantWit
           <p key={other.url ?? other.label}>
             {t.restaurant.alsoPublished}{" "}
             {other.url ? (
-              <a href={other.url} target="_blank" rel="noopener noreferrer" className="underline">
+              <a
+                href={other.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+                onClick={() => trackEvent("view_allergen_source")}
+              >
                 <span lang={quotedLang}>{other.label}</span>
               </a>
             ) : (

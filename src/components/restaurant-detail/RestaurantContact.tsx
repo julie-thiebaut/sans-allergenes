@@ -1,3 +1,4 @@
+import { trackEvent } from "../../analytics/googleAnalytics";
 import type { RestaurantWithMenu } from "../../data/types";
 import { useLocale, useMessages } from "../../i18n/useLocale";
 import {
@@ -36,7 +37,11 @@ export function ContactRestaurantCallout({ restaurant }: { restaurant: Restauran
           {words.publishTitle}
         </h2>
         <p className="mt-1 text-sm text-neutral-700">{words.publishBody}</p>
-        <a href={publishAllergensMailto(restaurant, contact.email)} className={BUTTON_CLASS}>
+        <a
+          href={publishAllergensMailto(restaurant, contact.email)}
+          className={BUTTON_CLASS}
+          onClick={() => trackEvent("ask_to_publish")}
+        >
           {words.publishButton}
         </a>
         <p className="mt-2 text-xs text-neutral-600">{words.publishHint(reader, contact.email)}</p>
@@ -53,7 +58,11 @@ export function ContactRestaurantCallout({ restaurant }: { restaurant: Restauran
         {words.questionTitle}
       </h2>
       <p className="mt-1 text-sm text-neutral-700">{words.questionBody}</p>
-      <a href={restaurantQuestionMailto(restaurant, contact.email)} className={BUTTON_CLASS}>
+      <a
+        href={restaurantQuestionMailto(restaurant, contact.email)}
+        className={BUTTON_CLASS}
+        onClick={() => trackEvent("ask_question")}
+      >
         {words.questionButton}
       </a>
       <p className="mt-2 text-xs text-neutral-600">{words.questionHint(reader, contact.email)}</p>
@@ -68,7 +77,11 @@ export function ReportProblemLink({ restaurant }: { restaurant: RestaurantWithMe
   return (
     <p>
       {words.reportQuestion}{" "}
-      <a href={reportProblemMailto(restaurant, locale)} className="underline">
+      <a
+        href={reportProblemMailto(restaurant, locale)}
+        className="underline"
+        onClick={() => trackEvent("report_problem")}
+      >
         {words.reportLink}
         <span className="sr-only">{words.reportEmail(REPORT_EMAIL)}</span>
       </a>

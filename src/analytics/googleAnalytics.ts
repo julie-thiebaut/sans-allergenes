@@ -182,6 +182,28 @@ export function trackPageView(): void {
   });
 }
 
+/**
+ * The clicks page views cannot tell: what a visitor does with a restaurant's page, and where
+ * they opened it from. One name per gesture and no parameter, so each one reads as is in the
+ * Events report without registering a custom dimension; the current page, already stripped of
+ * its filters, places it. Never an allergen nor a searched address: the consent banner says so.
+ */
+export type AnalyticsEvent =
+  | "ask_to_publish" // "Écrire au restaurant", on a page without allergens
+  | "ask_question" // the question to the restaurant, on a page with allergens
+  | "call_restaurant"
+  | "visit_restaurant_site"
+  | "view_allergen_source"
+  | "report_problem"
+  | "open_restaurant_from_list"
+  | "open_restaurant_from_map";
+
+/** Like page views, nothing leaves before consent: gtag only exists once it was given. */
+export function trackEvent(name: AnalyticsEvent): void {
+  if (!isGoogleAnalyticsRuntimeAvailable()) return;
+  analyticsWindow().gtag?.("event", name);
+}
+
 export function revokeGoogleAnalytics(): void {
   if (typeof window === "undefined") return;
 
