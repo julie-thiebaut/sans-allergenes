@@ -1,0 +1,871 @@
+{
+  "menuId": "menu-big-fernand-villiers",
+  "restaurantId": "big-fernand-villiers-75017",
+  "categories": [
+    {
+      "category": "Benoit Saint Denis x Big Fernand",
+      "dishes": [
+        {
+          "id": "bigfernand-bsd-l-original-m",
+          "name": "BSD L’Original (M)",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ossau-Iraty AOP, Bœuf de race française, Coppa croustillante, Pickles d’oignon rouge maison, Double dose de sauce Tonton épicée (mayonnaise au piment d’Espelette)"
+        },
+        {
+          "id": "bigfernand-bsd-poids-lourd-l",
+          "name": "BSD Poids Lourd (L)",
+          "price": 19.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Ossau-Iraty AOP, Double Bœuf de race française, Coppa croustillante, Pickles d’oignon rouge maison, Double dose de sauce Tonton épicée (mayonnaise au piment d’Espelette)"
+        }
+      ]
+    },
+    {
+      "category": "Hamburgés",
+      "dishes": [
+        {
+          "id": "bigfernand-le-hubert",
+          "name": "Le Hubert",
+          "price": 16,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "present",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomme au lait cru, Filet de poulet mariné croustillant, Oignons frits, Sauce Pépère (sauce artisanale au poivre 1%) [Recette exclusive Uber Eats]"
+        },
+        {
+          "id": "bigfernand-le-lucien",
+          "name": "Le Lucien",
+          "price": 13.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomme au lait cru, Gros Champignon de Paname, Tomates séchées, Oignons confits, Ciboulette ciselée, Sauce Tata Fernande (sauce cocktail artisanale)",
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bigfernand-le-victor",
+          "name": "Le Victor",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Fourme d'Ambert AOP, Bœuf, Oignons confits, Coriandre, Sauce Tonton Fernande (mayonnaise artisanale délicatement sucrée)"
+        },
+        {
+          "id": "bigfernand-le-paolo",
+          "name": "Le Paolo",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "may_contain",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poulet mariné croustillant, Pickles de concombre, Miel, Ciboulette, Double dose de sauce Tata Mastari (mayonnaise épicée)"
+        },
+        {
+          "id": "bigfernand-le-paulin",
+          "name": "Le Paulin",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Filet de poulet mariné croustillant, Pickles de concombre, Miel, Ciboulette, Double dose de sauce Franche (sauce blanche maison)"
+        },
+        {
+          "id": "bigfernand-le-steve",
+          "name": "Le Steve",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "present",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crispy de Thon épicé, Steak de Saumon fumée à chaud, Tomates mi-séchées, Double dose de Sauce Franche (sauce blanche artisanale)"
+        },
+        {
+          "id": "bigfernand-le-big-fernand",
+          "name": "Le Big Fernand",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomme au lait cru, Bœuf, Tomates séchées, Persil, Sauce Tata Fernande (sauce cocktail artisanale)"
+        },
+        {
+          "id": "bigfernand-le-bartholome",
+          "name": "Le Bartholomé",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raclette au lait cru, Bœuf, Poitrine de porc fumée, Oignons confits, Ciboulette, Sauce BB Fernand (sauce barbecue artisanale)"
+        },
+        {
+          "id": "bigfernand-le-gabin",
+          "name": "Le Gabin",
+          "price": 13.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Double dose de Tomme au lait cru, Galette de pommes de terre façon pomme paillasson, Oignons frits, Sauce Pépère (sauce artisanale au poivre 1%)",
+          "tags": [
+            "vegetarien"
+          ]
+        },
+        {
+          "id": "bigfernand-le-philibert",
+          "name": "Le Philibert",
+          "price": 14.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tomme au lait cru, Filet de poulet mariné croustillant, Poivrons grillés, Oignons frits, Persil, Sauce Tata Fernande (sauce cocktail artisanale)"
+        }
+      ]
+    },
+    {
+      "category": "Smashs",
+      "dishes": [
+        {
+          "id": "bigfernand-le-double-smash",
+          "name": "Le Double Smash",
+          "price": 10.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raclette au lait cru, Double Bœuf smashé, Oignons frits, Ciboulette, Sauce Tata Fernande (sauce cocktail artisanale)"
+        },
+        {
+          "id": "bigfernand-le-smash-fernand",
+          "name": "Le Smash Fernand",
+          "price": 6.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raclette au lait cru, Bœuf smashé, Ciboulette, Sauce Tata Fernande (sauce cocktail artisanale)"
+        },
+        {
+          "id": "bigfernand-le-smash-poitrine",
+          "name": "Le Smash Poitrine",
+          "price": 8.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "may_contain",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raclette au lait cru, Bœuf smashé, Poitrine de porc fumée, Oignons frits, Ciboulette, Sauce Tata Fernande (sauce cocktail artisanale)"
+        }
+      ]
+    },
+    {
+      "category": "Petites faims",
+      "dishes": [
+        {
+          "id": "bigfernand-les-tendres-x3-poulet-croustillant",
+          "name": "Les Tendres x3 (poulet croustillant)",
+          "price": 7.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pièces de poulet croustillant, Sauce au choix"
+        },
+        {
+          "id": "bigfernand-les-tendres-x2-poulet-croustillant",
+          "name": "Les Tendres x2 (poulet croustillant)",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pièces de poulet croustillant, Sauce au choix"
+        },
+        {
+          "id": "bigfernand-big-toaste-tomme-oignons-confits",
+          "name": "Big Toasté Tomme & Oignons confits",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Tommes au lait cru, Oignons confits"
+        },
+        {
+          "id": "bigfernand-les-tendres-x5-poulet-croustillant",
+          "name": "Les Tendres x5 (poulet croustillant)",
+          "price": 11.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "may_contain",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Pièces de poulet croustillant, Sauce au choix"
+        },
+        {
+          "id": "bigfernand-big-toaste-raclette-poitrine-de-porc",
+          "name": "Big Toasté Raclette & Poitrine de Porc",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "may_contain",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "present",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Raclette au lait cru, Poitrine de porc fumée"
+        }
+      ]
+    },
+    {
+      "category": "Desserts artisanaux",
+      "dishes": [
+        {
+          "id": "bigfernand-le-fondant-baulois-fondant-au-chocolat",
+          "name": "Le Fondant Baulois (Fondant au chocolat)",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Incomparable gâteau au chocolat fondant, au goût délicatement caramélisé et habillé d’une fine couche meringuée de chez nos copains Le Fondant Baulois"
+        },
+        {
+          "id": "bigfernand-brookie",
+          "name": "Brookie",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mi brownie mi cookie chocolat"
+        },
+        {
+          "id": "bigfernand-creme-dessert-brisures-de-speculos",
+          "name": "Crème dessert, brisures de spéculos",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème onctueuse et gourmande accompagnée de ses brisures de spéculoos"
+        },
+        {
+          "id": "bigfernand-cookie-aux-pepites-de-chocolat",
+          "name": "Cookie aux Pépites de Chocolat",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "may_contain",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Cookie moelleux aux pépites de chocolat"
+        }
+      ]
+    },
+    {
+      "category": "Desserts glacés",
+      "dishes": [
+        {
+          "id": "bigfernand-haagen-dazs-macadamia",
+          "name": "Häagen-Dazs Macadamia",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "present",
+            "lait": "present",
+            "fruits_a_coque": "present",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème glacée à la vanille à laquelle nous avons ajouté des éclats de noix de macadamia caramélisées - 95 ml"
+        },
+        {
+          "id": "bigfernand-haagen-dazs-cookies-cream",
+          "name": "Häagen-Dazs Cookies & Cream",
+          "price": 4.9,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Crème glacée à la vanille et morceaux de cookie croquants et crème - 95 ml"
+        }
+      ]
+    },
+    {
+      "category": "Accompagnements",
+      "dishes": [
+        {
+          "id": "bigfernand-tata-fernande-sauce-cocktail",
+          "name": "Tata Fernande (sauce cocktail)",
+          "price": 0.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre sauce cocktail artisanale"
+        },
+        {
+          "id": "bigfernand-tonton-fernand-mayo-legerement-sucree",
+          "name": "Tonton Fernand (mayo légèrement sucrée)",
+          "price": 0.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre sauce mayonnaise artisanale délicatement sucrée"
+        },
+        {
+          "id": "bigfernand-les-fernandines-paprika-frites-maison",
+          "name": "Les Fernandines paprika (Frites maison)",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Nos frites maison !"
+        },
+        {
+          "id": "bigfernand-les-gargandines-poitrine-et-fromage",
+          "name": "Les Gargandines (+ Poitrine et Fromage)",
+          "price": 5.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "present",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Sauce fromagère, Poitrine de porc fumée, Nos frites maison, Ciboulette"
+        },
+        {
+          "id": "bigfernand-sauce-bb-fernand-sauce-barbecue",
+          "name": "Sauce BB Fernand (sauce Barbecue)",
+          "price": 0.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre sauce barbecue artisanale"
+        },
+        {
+          "id": "bigfernand-sauce-pepere-sauce-au-poivre",
+          "name": "Sauce Pépère (sauce au poivre)",
+          "price": 0.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "present",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "present",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Notre sauce au poivre artisanale"
+        },
+        {
+          "id": "bigfernand-la-salade",
+          "name": "La Salade",
+          "price": 3.5,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Mesclun, Tomates mi-séchées, Ciboulette"
+        }
+      ]
+    },
+    {
+      "category": "Breuvages",
+      "dishes": [
+        {
+          "id": "bigfernand-citronnade-maison-33cl",
+          "name": "Citronnade maison - 33cl",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "present",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Breuvage citron fait maison chaque jour par nos Fernands - 33cl"
+        },
+        {
+          "id": "bigfernand-the-peche-maison-33cl",
+          "name": "Thé Pêche maison - 33cl",
+          "price": 3.9,
+          "allergens": {
+            "gluten": "not_declared",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Breuvage pêche fait maison chaque jour par nos Fernands - 33cl"
+        }
+      ]
+    },
+    {
+      "category": "Bières",
+      "dishes": [
+        {
+          "id": "bigfernand-lbf-biere-ambree-6-33-cl",
+          "name": "LBF - Bière Ambrée 6% - 33 cl",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bière ambrée aux arômes saisissants de fruits exotiques, exclusivement brassée avec des céréales françaises - 33cl - 6%"
+        },
+        {
+          "id": "bigfernand-lbf-bieres-blonde-bio-5-33-cl",
+          "name": "LBF - Bières Blonde bio 5% - 33 cl",
+          "price": 5.5,
+          "allergens": {
+            "gluten": "present",
+            "crustaces": "not_declared",
+            "oeufs": "not_declared",
+            "poisson": "not_declared",
+            "arachides": "not_declared",
+            "soja": "not_declared",
+            "lait": "not_declared",
+            "fruits_a_coque": "not_declared",
+            "celeri": "not_declared",
+            "moutarde": "not_declared",
+            "sesame": "not_declared",
+            "sulfites": "not_declared",
+            "lupin": "not_declared",
+            "mollusques": "not_declared"
+          },
+          "description": "Bière blonde bio légère aux notes d'agrumes - 33 cl - 5%"
+        }
+      ]
+    }
+  ]
+}
